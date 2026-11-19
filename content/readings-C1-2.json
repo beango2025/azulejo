@@ -1,0 +1,707 @@
+[
+  {
+    "id": "c1lab10",
+    "title": "O que resta na reserva",
+    "text": "O depósito do museu fica a quinze minutos a pé do centro, num edifício sem fachada nobre, e é lá que o acervo passa a maior parte da sua existência. Entra-se por uma porta de serviço; o ar cheira a resina, a madeira velha e a pó. As estantes sobem até ao teto, numeradas, e cada caixa traz uma etiqueta onde a caligrafia de sucessivas gerações de conservadores se sobrepõe, como estratos. A investigadora que me acompanha trabalha aqui há vinte anos e fala das peças como quem fala de doentes crónicos: com afeto, mas sem ilusões. «Isto não é um depósito», disse-me, «é uma sala de espera». A frase ficou-me na cabeça durante os dias seguintes, porque descrevia com exatidão o que ali se passa.\n\nA sala de espera tem regras. Cada objeto chegou acompanhado de um processo, e é esse processo, mais do que o objeto, que hoje suscita discussões. Nas fichas antigas, a proveniência aparece muitas vezes reduzida a três ou quatro palavras: «África Ocidental, século XIX», «costa do Índico, sem data». Não se trata de negligência individual; trata-se de um sistema que durante décadas considerou suficiente registar o lugar de origem como quem anota uma paisagem. Para a investigação atual, porém, a pergunta mudou de forma: já não basta saber de onde veio a peça, é preciso saber em que circunstâncias, por intermédio de quem e com que consentimento.\n\nÉ neste ponto que o repatriamento deixa de ser uma palavra abstrata e passa a exigir decisões concretas. Quem defende a permanência invoca, com uma segurança que impressiona, o interesse universal do conhecimento: as peças estariam mais seguras, mais estudadas e mais vistas onde estão. O argumento tem a sua força, mas convém observar o seu mecanismo, porque ele transfere a discussão do plano da origem para o plano da utilidade, e assim quem possui passa a julgar em nome de todos. A restituição, vista por esse prisma, deixa de ser um ato de justiça e passa a ser um favor concedido a quem se atrasou na história.\n\nNada disto se resolve com uma vitrina nova. O legado colonial não está apenas nos objetos; está na própria gramática das etiquetas, no modo impessoal como se descrevem aquisições que foram, muitas vezes, requisições. Reparei que a palavra «oferta» aparecia com uma frequência suspeita em fichas do século XIX, quase sempre sem o nome de quem ofereceu. Um catálogo é também um género literário e, como todos os géneros, tem convenções: omite com elegância, atribui com generosidade, cala com método. Quem lê essas fichas hoje precisa de aprender a desconfiar delas, e essa aprendizagem é lenta, porque exige que se duvide de uma instituição que nos ensinou a admirá-la.\n\nHá ainda a questão prática, que raramente entra nos editoriais e decide mais do que se imagina. Perguntei se as instituições de origem teriam condições para receber as peças, e a resposta foi honesta: algumas sim, outras não, e essa desigualdade é invocada por quem não quer devolver nada. Confundir a falta de meios com a falta de direito é cómodo, mas é também uma forma de perpetuar a dependência que se diz lamentar.\n\nAo fim da terceira tarde, perguntei o que faria se dependesse dela. Respondeu que começaria pelos inventários, não pelos discursos: saber exatamente o que existe, como entrou e a quem pertence é a condição de qualquer decisão honesta. A restituição, disse, assusta menos quando deixa de ser imaginada como empobrecimento e passa a ser entendida como correção de catálogo. Saí do depósito com a impressão de que o verdadeiro objeto em exposição ali era outro: a nossa dificuldade em nomear o que fizemos.",
+    "questions": [
+      {
+        "q": "Segundo o texto, o que caracteriza a maioria das fichas antigas do acervo?",
+        "options": [
+          "Descrevem a proveniência das peças de forma muito sumária.",
+          "Indicam com precisão o nome de quem ofereceu cada peça.",
+          "Foram todas reescritas por conservadores recentes."
+        ],
+        "answer": "Descrevem a proveniência das peças de forma muito sumária.",
+        "explain": "第二段说旧档案里「proveniência」常只剩三四个词，如「África Ocidental, século XIX」，即记载非常简略。"
+      },
+      {
+        "q": "A comparação do depósito com «uma sala de espera» sugere que as peças",
+        "options": [
+          "estão à espera de uma decisão sobre o seu destino.",
+          "vão ser transferidas para as salas de exposição.",
+          "são visitadas por investigadores em horários fixos."
+        ],
+        "answer": "estão à espera de uma decisão sobre o seu destino.",
+        "explain": "「sala de espera」暗示藏品处于悬置状态，等待归还或归属的决定，而非排期展出。"
+      },
+      {
+        "q": "Ao analisar o argumento do «interesse universal do conhecimento», o autor revela um tom",
+        "options": [
+          "de admiração pela solidez do raciocínio invocado.",
+          "de desconfiança irónica face ao seu mecanismo.",
+          "de indiferença quanto ao destino das coleções."
+        ],
+        "answer": "de desconfiança irónica face ao seu mecanismo.",
+        "explain": "作者承认论点「有力量」，却指出它把讨论从来源偷换到用途，还称归还成了「favore」，语气明显带反讽的怀疑。"
+      },
+      {
+        "q": "Quando afirma que «um catálogo é também um género literário», o autor pretende sublinhar que",
+        "options": [
+          "os catálogos antigos têm valor estético reconhecido.",
+          "a descrição museológica nunca é neutra, mas obedece a convenções.",
+          "os conservadores deveriam escrever romances em vez de fichas."
+        ],
+        "answer": "a descrição museológica nunca é neutra, mas obedece a convenções.",
+        "explain": "紧接着列举「omite、atribui、cala」三种做法，说明目录像文学体裁一样有取舍惯例，并非客观记录。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab11",
+    "title": "A palavra ao realizador",
+    "text": "A sessão terminou às dez e um quarto e a luz acendeu-se devagar, como se o edifício precisasse de se convencer de que o filme tinha acabado. Ficámos uns trinta na sala, dispersos, com aquele silêncio incómodo que se instala entre os créditos e a primeira pergunta. O realizador subiu ao palco com um copo de água e a expressão de quem já sabe o que lhe vão perguntar. Tinha razão: a primeira intervenção foi sobre o final, a segunda sobre a personagem que desaparece a meio, e a terceira, inevitavelmente, sobre tudo o que o filme não mostra.\n\nO argumento, explicou, nascera de um romance que lera aos vinte anos e de que já quase nada restava no guião. «Um argumento é sempre o relato de uma perda», disse, e a frase, embora bonita, era também uma defesa antecipada. Justificou os cortes com razões de ritmo e de elenco, mas sobretudo com uma razão de olhar: havia cenas que, filmadas, traíam a personagem, porque a câmara, ao mostrar tudo, retirava ao espectador o trabalho de imaginar. Havia quem discordasse, havia quem tomasse notas, havia no fundo duas salas dentro da mesma sala, e o debate nunca as reconciliou.\n\nA pergunta mais interessante veio de uma mulher que se apresentou como montadora. Referiu um plano concreto — o movimento lento sobre a fachada, logo depois da discussão no tribunal — e quis saber quantas horas tinham sido filmadas para se chegar àquele minuto e meio. O realizador riu-se e admitiu: quatro horas de material, três semanas de hesitação, duas versões abandonadas. Foi o momento em que a conversa deixou de ser sobre intenções e passou a ser sobre trabalho. A montagem, disse ele, não é o lugar onde o filme se corrige; é o lugar onde o filme se decide. E, no entanto, quase nunca se escreve sobre ela.\n\nHouve, claro, a pergunta sobre a bilheteira. Um senhor de casaco bege quis saber se o filme tinha tido «público», e a palavra saiu-lhe com o peso de um veredicto. O produtor, que até então se mantivera calado, respondeu com números modestos e com uma frase que tentava transformar a modéstia em virtude. Ninguém acreditou inteiramente. Em Portugal, discute-se cinema com uma ternura defensiva, como quem fala de um parente que não teve sorte; e essa ternura, compreensível, é também uma forma de não exigir nada a ninguém.\n\nFicou por fazer a pergunta que mais me interessava. Ninguém quis saber quanto custou o filme, nem quem o pagou, nem em que condições trabalhou a equipa — e, no entanto, essas informações explicam metade das escolhas que ali se discutiram. O cinema português vive de uma combinação instável de fundos públicos, prémios e trabalho mal pago, e há um pudor estranho em falar disso em voz alta, como se o dinheiro contaminasse a arte. Contamina, sem dúvida; mas o silêncio contamina mais, porque deixa intacta a ficção de que os filmes nascem apenas de uma visão pessoal, sem constrangimentos materiais e sem negociações.\n\nSaí com a sensação de que o filme se tinha tornado outro: mais denso, mais frágil, habitado por decisões que agora podia nomear. O debate não acrescenta imagens ao que vimos; acrescenta responsabilidade. Passamos a saber quem escolheu, quem hesitou e quem pagou, e essa informação muda a maneira como olhamos para o ecrã. Talvez seja este o único luxo a que uma sessão com o realizador pode aspirar: não explicar o filme, mas devolver-nos a consciência de que ele foi feito por alguém, num tempo determinado, com dinheiro contado e com medo.",
+    "questions": [
+      {
+        "q": "O que o realizador alega para justificar os cortes feitos ao romance?",
+        "options": [
+          "Que o romance era demasiado longo para um só filme.",
+          "Que certas cenas, filmadas, retiravam ao espectador o trabalho de imaginar.",
+          "Que o elenco se recusou a rodar as cenas em falta."
+        ],
+        "answer": "Que certas cenas, filmadas, retiravam ao espectador o trabalho de imaginar.",
+        "explain": "第二段明确说剪掉某些场景是因为「a câmara, ao mostrar tudo, retirava ao espectador o trabalho de imaginar」。"
+      },
+      {
+        "q": "A intervenção da montadora tem como efeito principal",
+        "options": [
+          "deslocar o debate das intenções para o trabalho concreto.",
+          "demonstrar que o realizador desconhece a sua própria obra.",
+          "provar que o filme foi mal montado."
+        ],
+        "answer": "deslocar o debate das intenções para o trabalho concreto.",
+        "explain": "文中说「o debate deixou de ser sobre intenções e passou a ser sobre trabalho」，正是这一转折。"
+      },
+      {
+        "q": "Ao falar de «ternura defensiva» do público português, o autor sugere que essa atitude",
+        "options": [
+          "protege o cinema nacional, mas também o dispensa de exigência.",
+          "resulta do desconhecimento técnico dos espectadores.",
+          "é a única forma honesta de falar de filmes fracos."
+        ],
+        "answer": "protege o cinema nacional, mas também o dispensa de exigência.",
+        "explain": "作者说这种温情「é também uma forma de não exigir nada a ninguém」，即保护之中带着降低要求的意味。"
+      },
+      {
+        "q": "Qual é a ideia final do texto sobre o debate?",
+        "options": [
+          "Serve para esclarecer dúvidas de argumento e de elenco.",
+          "Substitui a experiência do filme por uma explicação técnica.",
+          "Torna o filme mais denso ao revelar as escolhas e a responsabilidade de quem o fez."
+        ],
+        "answer": "Torna o filme mais denso ao revelar as escolhas e a responsabilidade de quem o fez.",
+        "explain": "末段说讨论「acrescenta responsabilidade」，让人知道谁选择、谁犹豫、谁付钱，使电影变得更厚重。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab12",
+    "title": "A vista e a pedra",
+    "text": "Do miradouro vê-se a cidade inteira, e é precisamente essa vista que torna difícil pensar. Ao fim da tarde, os telhados alinham-se como lâminas, o rio brilha ao fundo e os turistas fotografam-se de costas para o que vieram ver. Atrás deles, no centro do largo, ergue-se o monumento: uma figura de pedra que aponta para o rio com a solenidade de quem já sabe o desfecho. Ninguém lhe presta atenção. A vista roubou-lhe o lugar, e há qualquer coisa de justo nisso, porque a vista é o que a cidade tem de mais democrático: não escolhe quem a olha.\n\nA memória, ao contrário, escolhe sempre. Aquele largo foi durante décadas o palco de uma narrativa segura de si, em que os navegadores partiam e o país se dava ao mundo com a generosidade dos que nada perdem. A homenagem estava escrita na pedra, nas datas, nos nomes próprios e no silêncio em torno de outros nomes. Aprendemos a ler aquele conjunto como se fosse natural, e a naturalidade é o mais eficaz dos esquecimentos: não nega, apenas torna desnecessário perguntar. Quem passa todos os dias pelo monumento deixa de o ver, e é assim que um símbolo sobrevive — por distração.\n\nNos últimos anos, porém, o monumento tornou-se contestado. Não foi uma revolta, nem sequer uma manifestação numerosa: foram cartazes, artigos, uma vigília de poucas dezenas de pessoas e uma frase pintada na base que a chuva apagou em duas semanas. O que mudou não foi a pedra, foi a pergunta. Deixou de se perguntar «o que celebra isto?» e começou a perguntar-se «a quem custou isto?». A segunda pergunta incomoda mais, porque não se responde com um discurso comemorativo; responde-se com arquivos, com números e com o reconhecimento de que a grandeza de uns foi, para outros, uma conta a pagar.\n\nHá quem considere o debate excessivo e quem o considere tardio, e ambos têm parte de razão. O excesso está na tentação de resolver a história com um gesto — retirar a estátua, mudar a legenda — como se a memória fosse um móvel que se desloca. A tardança está em supor que ainda não é tempo, quando o tempo já passou várias vezes por ali. Entre as duas posições, resta o trabalho lento de explicar: dizer o que o monumento foi, o que quis dizer, o que calou e o que hoje representa para quem vive ao lado dele e nunca se reviu naquelas figuras.\n\nNo lado sul do largo, uma placa de metal explica o monumento em três línguas. A versão portuguesa tem quarenta e duas palavras; a inglesa, vinte e nove. Não sei se a diferença se deve ao espaço disponível ou a um pudor antigo, mas o certo é que a tradução suaviza os verbos: onde o original diz «consagrar», o inglês diz «record». A legenda é o género literário mais discreto do espaço público e, talvez, o mais decisivo, porque é ali que milhares de pessoas, todos os anos, aprendem o que devem sentir diante da pedra.\n\nAo anoitecer, a luz acende-se por baixo e a pedra ganha um relevo que de dia não tem. Fico a olhar para os dois planos ao mesmo tempo: a cidade que se estende e o gesto que a quis resumir. Nenhum deles é falso. A vista mostra o que existe; o monumento mostra o que se quis acreditar. Talvez a maturidade de uma cidade se meça por conseguir manter os dois à vista, sem que um exija o apagamento do outro, e por aceitar que a homenagem, para continuar a ser homenagem, tenha de aprender a incluir os ausentes.",
+    "questions": [
+      {
+        "q": "Por que motivo, segundo o texto, os transeuntes deixam de ver o monumento?",
+        "options": [
+          "Porque a vista da cidade é mais impressionante.",
+          "Porque a repetição diária transforma o símbolo em paisagem invisível.",
+          "Porque o monumento está mal conservado."
+        ],
+        "answer": "Porque a repetição diária transforma o símbolo em paisagem invisível.",
+        "explain": "第二段说「Quem passa todos os dias pelo monumento deixa de o ver」，习惯化使象征变成背景。"
+      },
+      {
+        "q": "O autor considera que a mudança decisiva no debate foi",
+        "options": [
+          "o aumento do número de turistas no largo.",
+          "a substituição da pergunta sobre o que se celebra pela pergunta sobre quem pagou.",
+          "a decisão municipal de retirar a estátua."
+        ],
+        "answer": "a substituição da pergunta sobre o que se celebra pela pergunta sobre quem pagou.",
+        "explain": "第三段点明「Deixou de se perguntar... e começou a perguntar-se «a quem custou isto?»」。"
+      },
+      {
+        "q": "Ao afirmar que «a naturalidade é o mais eficaz dos esquecimentos», o autor entende o esquecimento como",
+        "options": [
+          "um acidente provocado pela falta de ensino da história.",
+          "uma força ativa que dispensa a interrogação.",
+          "uma consequência inevitável da vida urbana."
+        ],
+        "answer": "uma força ativa que dispensa a interrogação.",
+        "explain": "紧接着解释「não nega, apenas torna desnecessário perguntar」，遗忘是主动地让人不再追问。"
+      },
+      {
+        "q": "Qual é a posição final do autor sobre o monumento?",
+        "options": [
+          "Deve ser retirado para não ofender os visitantes.",
+          "Pode coexistir com a vista, desde que a homenagem aprenda a incluir os ausentes.",
+          "É irrelevante face ao valor democrático da paisagem."
+        ],
+        "answer": "Pode coexistir com a vista, desde que a homenagem aprenda a incluir os ausentes.",
+        "explain": "末段主张同时保留两种视角，并说纪念若要继续成立，必须学会把缺席者纳入其中。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab13",
+    "title": "Os vizinhos do terceiro",
+    "text": "A rua é estreita, com prédios de quatro andares e roupa estendida nas janelas, e há duas semanas uma empresa de mudanças estaciona todas as manhãs à porta do número dezassete. Os vizinhos já sabem o que isso significa. O edifício foi vendido em março, os contratos antigos vão sendo substituídos por outros, e cada caixote que desce as escadas representa uma família que deixa de ter ali casa. Ninguém faz escândalo. As mudanças acontecem com uma discrição quase administrativa, e é talvez por isso que incomodam tanto: a violência, quando é educada, deixa menos marcas visíveis.\n\nO arrendamento é o assunto de todas as conversas. A dona Lurdes, do segundo esquerdo, paga quatrocentos euros por um apartamento que hoje se anuncia por mil e duzentos; tem sessenta e oito anos e um contrato que o senhorio classifica de «antigo», como se a antiguidade fosse uma doença. Já recebeu três cartas. Leu-as em voz alta na mercearia, e as pessoas ouviam com aquela atenção envergonhada que se dedica às desgraças anunciadas. A linguagem das cartas é impecável: não ameaça, informa. E é essa impecabilidade que faz perceber até que ponto a lei pode ser um instrumento de pressão sem nunca faltar ao respeito.\n\nA especulação não tem rosto, mas tem endereço. Nos últimos três anos, abriram na rua duas lojas de alojamento turístico, um café de brunch e uma boutique que vende cerâmica produzida a duzentos quilómetros de distância. A gentrificação, dizem os entendidos, valoriza os bairros; e é verdade que as fachadas estão mais bonitas. Só que a valorização tem um custo que não aparece nas fotografias: quem limpa as escadas, quem serve o brunch, quem vende a cerâmica já não consegue morar perto do trabalho. A cidade torna-se mais agradável à medida que se torna mais estreita.\n\nO despejo, quando chega, chega sempre em nome de um projeto. No terceiro direito, uma família de cinco pessoas recebeu em junho a notificação: o senhorio alegava obras profundas, e as obras, curiosamente, começariam apenas depois de a casa estar vazia. A advogada que os acompanha explica que o processo é legal, previsível e lento, e que a lentidão é a pior parte, porque obriga a viver durante meses com a mala feita. As crianças continuam a ir à escola da esquina. Uma delas perguntou à mãe se, mudando de casa, mudaria também de sala.\n\nNa mercearia do senhor Albertino, que ali está desde mil novecentos e setenta e nove, o mapa do bairro ainda é mental. Ele sabe quem tem filhos, quem está doente, quem precisa de fiado até ao dia oito. Diz que os clientes novos compram uma garrafa de vinho e um queijo e vão-se embora, e que os antigos compram meia dúzia de ovos e ficam a conversar. Não é saudosismo: é uma descrição de como se produz comunidade, e essa produção tem custos que nenhum estudo de impacto mede. A revitalização, palavra que os jornais empregam com entusiasmo, supõe que o bairro estava morto; quem ali vive sabe que estava apenas pobre, o que é diferente e muito mais difícil de admitir.\n\nNada disto se resolve com indignação, embora a indignação seja necessária. As políticas públicas existem, os programas também, e o problema raramente é a ausência de leis: é a distância entre o que a lei promete e o que a vida permite. Na reunião de moradores de quinta-feira, alguém propôs organizar uma comissão. A dona Lurdes ouviu, assinou e depois disse uma frase que ninguém soube responder: «Eu não quero uma casa melhor, quero esta.»",
+    "questions": [
+      {
+        "q": "O que significa, no texto, que «a violência, quando é educada, deixa menos marcas visíveis»?",
+        "options": [
+          "As mudanças são feitas por empresas pouco cuidadosas.",
+          "A pressão sobre os inquilinos é exercida de forma formal e legal, o que a torna menos evidente.",
+          "Os vizinhos evitam falar do assunto por educação."
+        ],
+        "answer": "A pressão sobre os inquilinos é exercida de forma formal e legal, o que a torna menos evidente.",
+        "explain": "第一段说搬迁「com uma discrição quase administrativa」，暴力以礼貌、程序化的方式发生，因此不易被看见。"
+      },
+      {
+        "q": "A expressão «a antiguidade fosse uma doença» revela",
+        "options": [
+          "que a dona Lurdes está doente e precisa de mudar de casa.",
+          "a ironia de o contrato antigo ser tratado como um problema a eliminar.",
+          "que os contratos antigos têm benefícios fiscais."
+        ],
+        "answer": "a ironia de o contrato antigo ser tratado como um problema a eliminar.",
+        "explain": "房东把老合同称为「antigo」，作者用「疾病」比喻，讽刺长期租约被视为需要清除的障碍。"
+      },
+      {
+        "q": "Sobre a gentrificação, a posição do autor é a de que",
+        "options": [
+          "melhora os bairros sem consequências sociais relevantes.",
+          "embeleza as fachadas, mas expulsa quem trabalha e vive no bairro.",
+          "é um fenómeno natural que não pode ser contrariado."
+        ],
+        "answer": "embeleza as fachadas, mas expulsa quem trabalha e vive no bairro.",
+        "explain": "第三段承认立面更美，但指出服务者「já não consegue morar perto do trabalho」。"
+      },
+      {
+        "q": "A frase final da dona Lurdes sublinha",
+        "options": [
+          "a sua recusa em participar em associações de moradores.",
+          "o desejo de manter a casa concreta, e não apenas o direito abstracto à habitação.",
+          "a sua desconfiança em relação à advogada da família."
+        ],
+        "answer": "o desejo de manter a casa concreta, e não apenas o direito abstracto à habitação.",
+        "explain": "「Eu não quero uma casa melhor, quero esta」强调她要的是具体的家，而非抽象替代方案。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab14",
+    "title": "A fila do consulado",
+    "text": "A fila começa na rua, junto ao portão de ferro, e às oito da manhã já tem quarenta pessoas. O consulado abre às nove. Há quem traga cadeiras de praia, quem traga pastas com plásticos, quem traga apenas um saco de plástico com documentos dobrados em quatro. As senhas são distribuídas por uma funcionária que conhece metade dos presentes pelo nome próprio, o que diz muito sobre a frequência com que aquela comunidade precisa de se apresentar ao Estado. O edifício é pequeno, o corredor é estreito e o ar condicionado funciona mal, mas ninguém se queixa: queixar-se, ali, parece um luxo de quem tem tempo.\n\nA mulher à minha frente chama-se Amélia e partiu em mil novecentos e oitenta e seis, com vinte e três anos e uma mala. Trabalhou em limpezas em Paris, depois numa cantina, depois outra vez em limpezas, e agora vem renovar um documento que lhe permite provar que existe para efeitos de pensão. Fala num francês rápido e num português antigo, com palavras que já ninguém usa em Portugal. A emigração, diz, não foi uma escolha: foi uma conta que não fechava. E acrescenta, sem drama, que ainda hoje faz as contas do mesmo modo, embora já não precise.\n\nA diáspora aparece ali na sua forma mais concreta: gente de três gerações, alguns com dupla nacionalidade, outros à espera de a obter. O filho da Amélia tem trinta e dois anos, nasceu em França e fala português com um sotaque que os primos acham cómico. Ele explica-me que a integração nunca foi um problema no trabalho, mas sempre foi um problema nos nomes: nos formulários, o apelido era demasiado comprido; nas escolas, o primeiro nome era mal pronunciado; nas entrevistas, havia sempre uma pausa antes da resposta. Integrou-se, diz, mas ficou com a sensação de que a integração é uma tarefa que se renova a cada apresentação.\n\nA palavra saudade circula pela fila como uma moeda antiga, todos a conhecem, poucos a usam com rigor. Uma senhora diz que tem saudades do cheiro do forno da mãe; um homem diz que não tem saudade nenhuma e que a saudade é uma invenção para turistas. Talvez ambos tenham razão. A saudade, quando se torna emblema nacional, corre o risco de se transformar em produto de exportação; mas quando é dita por quem está na fila, com a pasta em cima dos joelhos, volta a ser o que era: o nome de uma falta que não se resolve com uma visita.\n\nNo balcão, a conversa é outra. Uma funcionária explica a um homem de sessenta anos que precisa de uma certidão que já não se emite e que a alternativa é pedir um documento equivalente no país onde vive. Ele ouve, assente e pergunta se pode voltar amanhã. Pode. Aquela espera é a tradução burocrática de uma vida inteira: para provar quem é, precisa de papéis que só existem do outro lado da fronteira, e cada papel exige outro, numa cadeia que nunca se fecha. A integração, vista do balcão, é sobretudo uma questão de arquivo.\n\nO regresso é o assunto que ninguém evita e ninguém conclui. Há quem tenha comprado casa na aldeia, há quem tenha construído uma casa que só usa em agosto, há quem já tenha voltado e tenha voltado a sair. A Amélia diz que voltar é uma ideia que se mantém viva precisamente porque não se realiza. Se voltasse, explica, deixaria de ter para onde voltar. O número dela aparece no ecrã. Levanta-se, arruma a pasta, e antes de entrar ainda me diz: «Escreva aí que nós não somos saudade. Somos trabalho.»",
+    "questions": [
+      {
+        "q": "O que revela o facto de a funcionária conhecer «metade dos presentes pelo nome próprio»?",
+        "options": [
+          "Que o consulado é um espaço de convívio social.",
+          "Que aquela comunidade recorre com frequência aos serviços consulares.",
+          "Que a funcionária é pouco profissional."
+        ],
+        "answer": "Que aquela comunidade recorre com frequência aos serviços consulares.",
+        "explain": "文中紧接着说「o que diz muito sobre a frequência com que aquela comunidade precisa de se apresentar ao Estado」。"
+      },
+      {
+        "q": "Ao dizer que «a integração é uma tarefa que se renova a cada apresentação», o filho da Amélia sugere que",
+        "options": [
+          "a integração se conquista definitivamente com a nacionalidade.",
+          "a integração nunca está completamente concluída.",
+          "a integração depende apenas do domínio da língua."
+        ],
+        "answer": "a integração nunca está completamente concluída.",
+        "explain": "他把融入说成每次自我介绍都要重做一遍的任务，说明它不是一劳永逸的状态。"
+      },
+      {
+        "q": "Qual é a posição do texto sobre a palavra «saudade»?",
+        "options": [
+          "É um sentimento impossível de traduzir e por isso incompreensível.",
+          "Pode tornar-se emblema comercial, mas recupera o sentido quando é dita por quem sente a falta.",
+          "É uma invenção turística sem qualquer relação com a experiência real."
+        ],
+        "answer": "Pode tornar-se emblema comercial, mas recupera o sentido quando é dita por quem sente a falta.",
+        "explain": "第四段说它作为国家标志有变成出口商品的风险，但在排队的人口中又回到「nome de uma falta」的本义。"
+      },
+      {
+        "q": "A frase final da Amélia («nós não somos saudade. Somos trabalho.») serve para",
+        "options": [
+          "corrigir a imagem idealizada da emigração portuguesa.",
+          "mostrar que ela já não sente falta de Portugal.",
+          "criticar o atendimento do consulado."
+        ],
+        "answer": "corrigir a imagem idealizada da emigração portuguesa.",
+        "explain": "结尾用这句话反驳把移民简化为「saudade」的浪漫叙述，强调其生活实质是劳动。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab15",
+    "title": "A linha que recua",
+    "text": "A reserva começa onde acaba o estacionamento, e é preciso atravessar duzentos metros de passadiço de madeira para perceber que a fronteira não é apenas administrativa. De um lado, carros, gelados, toldos coloridos; do outro, dunas cinzentas, estorno e um vento que não pede licença. A bióloga que me guia trabalha aqui há doze anos e conhece o percurso como quem conhece a sua rua. «Este ano o mar entrou onze metros», diz, apontando para uma estaca meio soterrada. Não há drama na voz; há a serenidade de quem mede todos os meses e já deixou de se surpreender com o resultado.\n\nA erosão costeira não é uma novidade científica, é uma rotina de contabilidade. Cada inverno leva um pouco, cada tempestade leva muito, e o que resta vai sendo registado em mapas que ninguém lê. Mais abaixo, junto à foz, ainda se vê o que foi uma casa: três paredes, um chão de mosaico e uma escada que termina no ar. A proprietária vive agora a quinze quilómetros, na vila, e recusa comentar. Compreendo-a. Há uma diferença enorme entre discutir o recuo da linha de costa numa conferência e aceitar que a linha passou pela sua sala de jantar.\n\nO ordenamento do território, quando finalmente chegou, chegou depois das casas. As licenças dos anos oitenta foram assinadas com boa consciência e má informação; hoje, os planos delimitam zonas de risco, proíbem construção nova e preveem recuos que ninguém quer aplicar. A palavra «recuo» é pronunciada nas reuniões com cuidado, como se fosse obscena. Significa demolir, indemnizar, negociar e explicar aos eleitores que a praia onde cresceram vai desaparecer. Nenhum governante ganha eleições a prometer isso, e por isso o problema é sempre adiado até que o mar trate da agenda.\n\nAo fim da tarde, no centro de interpretação, os painéis solares alimentam as luzes e um écran explica a transição energética com gráficos animados. A intenção é boa e o resultado é estranho: metade dos visitantes chegou ali de avião, e a pegada de carbono de uma semana de férias excede em muito a poupança daquele edifício exemplar. A bióloga encolhe os ombros quando lhe pergunto como resolve esta contradição. «Não resolvo», responde. «Trabalho naquilo que posso medir.» É uma resposta honesta e insuficiente, como quase todas as que se dão neste domínio.\n\nA sustentabilidade, palavra que hoje serve para tudo, perdeu força à medida que ganhou uso. Ouvi-a três vezes na mesma manhã: numa brochura, num discurso e num anúncio de uma empresa que constrói condomínios a cem metros das dunas. Quando uma palavra passa a designar simultaneamente a proteção e a ameaça, deixa de orientar qualquer decisão. Os pescadores da vila, que raramente a empregam, dizem coisas mais úteis: que o peixe mudou de sítio, que a água está mais quente, que o inverno já não é o que era. Ajustam-se ao que observam, sem necessidade de vocabulário técnico.\n\nVoltamos pelo passadiço com o vento de frente. Ao longe, as luzes do estacionamento acendem-se uma a uma, automáticas, indiferentes. Penso que a reserva não é um lugar intocado: é um lugar onde se decidiu, em determinado momento, traçar um limite e respeitá-lo. Essa decisão, e não a paisagem, é o verdadeiro património que ali se preserva. O mar continuará a subir; a pergunta é se continuaremos a ter coragem de dizer em voz alta quanto custa recuar, e quem paga a conta.",
+    "questions": [
+      {
+        "q": "O que a estaca meio soterrada permite concluir?",
+        "options": [
+          "Que o mar avançou cerca de onze metros naquele ano.",
+          "Que o passadiço foi construído no local errado.",
+          "Que a bióloga perdeu equipamento de medição."
+        ],
+        "answer": "Que o mar avançou cerca de onze metros naquele ano.",
+        "explain": "第一段明确说「Este ano o mar entrou onze metros」，指海侵蚀推进。"
+      },
+      {
+        "q": "A atitude da proprietária da casa desaparecida é apresentada como",
+        "options": [
+          "uma recusa compreensível de transformar a perda em debate público.",
+          "um sinal de ignorância sobre os riscos costeiros.",
+          "uma forma de pressionar a autarquia a indemnizá-la."
+        ],
+        "answer": "uma recusa compreensível de transformar a perda em debate público.",
+        "explain": "作者说「Compreendo-a」，并区分在会议上谈海岸后退与接受海水进到自家饭厅的差别。"
+      },
+      {
+        "q": "Sobre a resposta da bióloga («Trabalho naquilo que posso medir»), o autor considera-a",
+        "options": [
+          "uma justificação científica suficiente.",
+          "honesta, mas insuficiente.",
+          "uma forma de evitar responsabilidades políticas."
+        ],
+        "answer": "honesta, mas insuficiente.",
+        "explain": "文中直接评价「É uma resposta honesta e insuficiente」。"
+      },
+      {
+        "q": "O sentido global do texto aponta para a ideia de que",
+        "options": [
+          "a natureza deve ser isolada de qualquer presença humana.",
+          "preservar exige decidir limites e assumir o seu custo político.",
+          "o turismo é a única ameaça real ao litoral."
+        ],
+        "answer": "preservar exige decidir limites e assumir o seu custo político.",
+        "explain": "结尾说保护区真正的遗产是「traçar um limite e respeitá-lo」这一决定，并追问谁承担后退的代价。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab16",
+    "title": "A visita das onze",
+    "text": "A visita começa às onze, com doze pessoas e uma guia que fala depressa. O percurso é sempre o mesmo: a sala dos azulejos, o corredor dos retratos, a grande sala onde o império se expõe em mapas, sedas e instrumentos de navegação. A guia tem um texto decorado com precisão e uma habilidade rara para o tornar vivo; ri, faz perguntas, espera respostas. Durante quarenta minutos, o acervo parece contar uma história natural, quase inevitável, em que cada objeto chegou aqui por mérito próprio e ali repousa para proveito de todos.\n\nO guião insiste na ideia de encontro. Fala-se de trocas, de influências, de um mundo que se abriu. As peças que vieram de África e do Brasil aparecem descritas como testemunhos de contacto, e a palavra «oferta» volta com frequência tranquilizadora. Nada é dito sobre quem as entregou, em que circunstâncias e a troco de quê. Não é mentira; é seleção. E a seleção, quando se repete em cada visita, em cada catálogo e em cada audioguia, acaba por produzir uma evidência: aquilo que não se menciona passa a não ter existido.\n\nA meio da sala, uma jovem de vinte e poucos anos interrompe. Pergunta pela proveniência de uma peça de marfim que está numa vitrina central, e pergunta-o com uma educação que torna a pergunta ainda mais difícil de esquivar. A guia explica que a informação está a ser estudada. A jovem insiste: estudada por quem, desde quando, com que resultados. Instala-se aquele silêncio denso das visitas guiadas, em que doze pessoas olham simultaneamente para a vitrina e para o chão. A guia responde que essa discussão não cabe no tempo da visita.\n\nNo fim, quando o grupo se dispersa, encontro-a a arrumar os papéis. Fala com franqueza: o texto que decorou foi escrito há anos, e ela própria já o alterou em vários pontos, sem autorização, porque não conseguia continuar a dizer certas frases. O legado colonial, diz, é a parte do museu que os visitantes estrangeiros comentam e os visitantes portugueses preferem evitar. A direção, explica, tem medo de que qualquer mudança de linguagem seja lida como uma acusação. E acrescenta: «O problema não é o que dizemos; é o que a estrutura nos impede de dizer.»\n\nPergunto-lhe se já pensou em escrever outro guião. Diz que sim, mas que um guião é um documento aprovado, com autor e responsável, e que a sua assinatura não basta para o alterar. A burocracia, nos museus, também é uma forma de memória: conserva decisões antigas com o mesmo cuidado com que conserva objetos. O repatriamento, quando aparece nas notícias, é tratado como uma questão diplomática, quase sempre distante. Mas a restituição começa muito antes das mesas de negociação: começa na etiqueta, na ficha, na forma como se descreve uma aquisição. Um museu que não sabe dizer como obteve o que tem não pode decidir com seriedade o que deve devolver. A transparência não resolve o problema, mas sem ela qualquer debate se transforma numa troca de declarações em que ninguém tem de responder por nada.\n\nSaio com o grupo das onze e vinte, e a cidade lá fora parece mais simples do que aquela sala. Penso na frase da guia e na facilidade com que confundimos um percurso com uma versão. A visita guiada é um género literário com regras próprias: começa num ponto, termina noutro e, pelo caminho, escolhe o que o visitante deve admirar. Talvez seja essa a verdadeira exposição — não os objetos, mas a ordem em que nos são apresentados.",
+    "questions": [
+      {
+        "q": "Segundo o texto, o guião da visita caracteriza-se por",
+        "options": [
+          "descrever com rigor as circunstâncias de cada aquisição.",
+          "selecionar informação e omitir as condições em que as peças chegaram.",
+          "ser atualizado todos os anos pela direção do museu."
+        ],
+        "answer": "selecionar informação e omitir as condições em que as peças chegaram.",
+        "explain": "第二段说对来源、交付者与条件「Nada é dito」，并指出「Não é mentira; é seleção」。"
+      },
+      {
+        "q": "A pergunta da jovem provoca um silêncio porque",
+        "options": [
+          "o grupo não compreendeu a pergunta.",
+          "expõe publicamente uma omissão que o discurso da visita não prevê.",
+          "a guia não sabia onde ficava a vitrina."
+        ],
+        "answer": "expõe publicamente uma omissão que o discurso da visita não prevê.",
+        "explain": "第三段说气氛凝滞，因为问题指向被回避的来源问题，而导览的时间安排无法容纳它。"
+      },
+      {
+        "q": "A afirmação da guia de que alterou o texto sem autorização revela",
+        "options": [
+          "negligência profissional.",
+          "tensão entre convicção individual e constrangimento institucional.",
+          "falta de preparação para o cargo."
+        ],
+        "answer": "tensão entre convicção individual e constrangimento institucional.",
+        "explain": "她私下改词，又说「o que a estrutura nos impede de dizer」，显示个人判断与机构限制的冲突。"
+      },
+      {
+        "q": "A conclusão do texto sugere que o mais importante numa visita guiada é",
+        "options": [
+          "a quantidade de objetos mostrados.",
+          "a ordem e o enquadramento em que os objetos são apresentados.",
+          "a competência técnica dos conservadores."
+        ],
+        "answer": "a ordem e o enquadramento em que os objetos são apresentados.",
+        "explain": "末段说真正的展览「não os objetos, mas a ordem em que nos são apresentados」。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab17",
+    "title": "A noite do prémio",
+    "text": "O festival ocupa a cidade durante dez dias e transforma-a numa sala de espera com tapete vermelho. Na avenida, os fotógrafos esperam horas por um gesto; nas bilheteiras, as filas organizam-se por entusiasmo e por estatuto; nos cafés, discute-se o que ainda ninguém viu. Na noite do prémio, o ambiente atinge uma densidade estranha: centenas de pessoas reunidas para celebrar um filme que a maioria só verá na semana seguinte, se o distribuidor se decidir.\n\nO realizador tem quarenta e seis anos e três longas-metragens, todas elogiadas e nenhuma vista. O argumento deste filme nasceu de um romance de uma escritora alentejana, e a adaptação é tudo menos fiel: mudou o tempo verbal, suprimiu duas personagens e transferiu a ação para uma cidade que não existe no livro. Quando lhe pergunto porquê, responde que a fidelidade literária é uma armadilha para cineastas inseguros. «O romance já existe», diz, «o filme tem de inventar a sua própria necessidade.»\n\nNa sala, o momento de que todos falam é um plano de quatro minutos: uma câmara fixa sobre uma cozinha, com quatro pessoas a comer em silêncio. Não acontece nada, e é precisamente isso que se comenta à saída. Um crítico explica ao balcão do bar que a montagem ali é invisível, que os cortes foram feitos para não se notarem, e que essa discrição é a marca de um ofício maduro. Ouço a conversa e penso que metade do festival consiste em produzir frases deste tipo, ditas com convicção suficiente para circularem até ao dia seguinte.\n\nDepois há os números. O filme venceu dois prémios e a bilheteira do fim de semana não chega a três mil espetadores. O produtor, que passou três anos a levantar o financiamento, fala de um circuito de salas cada vez mais estreito e de um público envelhecido. Não se queixa dos críticos, queixa-se da aritmética: um prémio num festival não paga a promoção necessária para que o prémio se transforme em público. A equação é conhecida e ninguém a resolve, porque resolver implicaria discutir dinheiro, e discutir dinheiro estraga a festa.\n\nFala-me de um circuito de salas que se reduz a cada ano, de sessões às terças-feiras com dez pessoas, de um público que envelhece e não é substituído. Pergunto se a culpa é das plataformas; responde que as plataformas são o sintoma e não a causa. A causa, diz, é que o cinema português nunca teve uma política de público — teve políticas de produção, o que é uma coisa diferente. O discurso de agradecimento foi curto e estranhamente amargo. O realizador agradeceu à equipa, aos pais, à mulher e, por fim, «a todos os que continuam a acreditar que o cinema português é uma causa e não uma caridade». A frase foi aplaudida com entusiasmo e incómodo, porque dizia em voz alta o que quase todos pensam em silêncio. Ao sair, cruzei-me com ele junto à porta e perguntei o que faria a seguir. Encolheu os ombros: escrever, tentar, esperar. «O próximo é sempre mais difícil», disse. «Só o primeiro é que é impossível.»\n\nNo dia seguinte, a cidade já está a desmontar os painéis. As fotografias circulam nas redes durante quarenta e oito horas e depois desaparecem. Fica o filme, que continua a sua vida lenta de sala em sala, e fica a pergunta que o festival nunca faz: o que aconteceria a este cinema se houvesse público, salas e tempo? A celebração, tal como está organizada, é também uma forma elegante de adiar a resposta.",
+    "questions": [
+      {
+        "q": "Por que razão o realizador defende a infidelidade ao romance?",
+        "options": [
+          "Porque não gostou do livro que adaptou.",
+          "Porque considera que o filme deve construir a sua própria necessidade.",
+          "Porque a escritora exigiu alterações no argumento."
+        ],
+        "answer": "Porque considera que o filme deve construir a sua própria necessidade.",
+        "explain": "第二段引用他的话说「O romance já existe... o filme tem de inventar a sua própria necessidade」。"
+      },
+      {
+        "q": "O plano de quatro minutos é valorizado sobretudo por",
+        "options": [
+          "mostrar ação intensa e diálogos rápidos.",
+          "produzir sentido através do silêncio e de uma montagem discreta.",
+          "ter sido rodado sem cortes por razões orçamentais."
+        ],
+        "answer": "produzir sentido através do silêncio e de uma montagem discreta.",
+        "explain": "第三段说「Não acontece nada」正是焦点，且影评人强调「a montagem ali é invisível」。"
+      },
+      {
+        "q": "A expressão «aritmética» usada pelo produtor refere-se",
+        "options": [
+          "aos custos de produção do filme.",
+          "à relação desfavorável entre prémios e público efetivo.",
+          "ao número de festivais em que o filme participou."
+        ],
+        "answer": "à relação desfavorável entre prémios e público efetivo.",
+        "explain": "他说奖项无法支付让奖项变成观众所需的宣传，且周末票房不足三千人。"
+      },
+      {
+        "q": "O tom do texto em relação ao festival é",
+        "options": [
+          "de adesão entusiástica ao glamour do evento.",
+          "de cepticismo afetuoso quanto à sua capacidade de mudar o cinema.",
+          "de condenação moral dos organizadores."
+        ],
+        "answer": "de cepticismo afetuoso quanto à sua capacidade de mudar o cinema.",
+        "explain": "结尾说庆典「é também uma forma elegante de adiar a resposta」，批评中带理解，而非道德谴责。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab18",
+    "title": "O que se explica às crianças",
+    "text": "Chove miudinho quando o autocarro escolar estaciona junto ao monumento. Vinte e três crianças de oito anos descem com capas coloridas e a energia concentrada de quem passou quarenta minutos sentado. A professora conta-as duas vezes, distribui pares e explica que vamos aprender «uma parte importante da nossa história». A palavra «importante» sai-lhe com uma solenidade que as crianças registam sem compreender, e é assim que começa, todos os anos, a transmissão da memória.\n\nO discurso que se segue é simples e seguro: os navegadores partiram daqui, atravessaram mares desconhecidos, deram novos mundos ao mundo. As crianças ouvem, algumas desenham barcos no caderno, outras olham para os telemóveis às escondidas. A homenagem é eficaz porque é clara: há heróis, há coragem, há um país pequeno que fez coisas grandes. Nada disto é falso. O problema é o que fica de fora, e o que fica de fora não cabe numa frase que se possa dizer a uma criança de oito anos sem a assustar.\n\nA meio, uma menina levanta o braço. Quer saber quem é que já vivia nas terras para onde os navegadores foram. A professora hesita meio segundo e responde que havia povos, muitos povos, com culturas diferentes. A menina insiste: e eles queriam que os portugueses chegassem? Há um silêncio de professoras, um daqueles silêncios em que se decide o resto da visita. «Isso é uma pergunta para outra aula», diz a professora, e a visita continua, com a menina a olhar para o monumento como se ele tivesse acabado de mudar de forma.\n\nNo regresso, no café em frente à escola, pergunto-lhe como lida com estas interrupções. Diz que já teve melhores e piores, e que o currículo lhe dá pouco espaço para a dúvida. O monumento, explica, é contestado por alguns historiadores e por parte da opinião pública, mas nos manuais continua a aparecer na página dos descobrimentos, com uma legenda que não admite discussão. Ensinar, diz, é escolher o que se simplifica; e a escolha, feita sempre do mesmo modo, produz um esquecimento que ninguém planeou.\n\nConcordo em parte. O esquecimento raramente é uma conspiração; é sobretudo o resultado de programas extensos, de tempo curto e de manuais que envelhecem mais devagar do que as perguntas. Mas há um custo. Uma criança que perguntou quem já vivia nas terras e recebeu uma resposta evasiva aprende duas coisas: que a pergunta era legítima e que não vale a pena insistir. Aprende, portanto, que a memória pública tem zonas onde não se entra, e essa aprendizagem é mais duradoura do que qualquer data.\n\nNão é preciso imaginar má-fé em nenhum dos intervenientes: a professora cumpre o programa, a escola cumpre o calendário, o manual cumpre o que a lei manda. O resultado é uma versão tranquilizadora da história, transmitida por pessoas honestas em condições imperfeitas, e é justamente por isso que se torna tão difícil de discutir. Ninguém está a esconder nada; todos estão apenas a cumprir a sua parte. A chuva parou e o monumento brilha ao sol, indiferente ao nosso desconforto. Penso que os monumentos não ensinam nada por si: é o modo como são explicados que os transforma em lições ou em decoração. A menina voltará àquela praça muitas vezes, com a escola, com os pais, sozinha. Talvez um dia encontre a resposta que lhe faltou. Se a encontrar, talvez o monumento deixe de ser uma coisa antiga e passe a ser uma pergunta viva — que é a única forma de homenagem que não se confunde com a pose.",
+    "questions": [
+      {
+        "q": "Segundo o texto, o discurso oficial transmitido às crianças é eficaz porque",
+        "options": [
+          "apresenta uma narrativa clara, com heróis e feitos grandiosos.",
+          "explica em detalhe as consequências da expansão marítima.",
+          "inclui as dúvidas dos historiadores."
+        ],
+        "answer": "apresenta uma narrativa clara, com heróis e feitos grandiosos.",
+        "explain": "第二段说「A homenagem é eficaz porque é clara: há heróis, há coragem」。"
+      },
+      {
+        "q": "A pergunta da menina sobre quem já vivia nas terras tem como efeito imediato",
+        "options": [
+          "a interrupção definitiva da visita.",
+          "um momento de hesitação que decide o tom do resto da visita.",
+          "a indignação das outras crianças."
+        ],
+        "answer": "um momento de hesitação que decide o tom do resto da visita.",
+        "explain": "第三段说「um daqueles silêncios em que se decide o resto da visita」。"
+      },
+      {
+        "q": "A tese do autor sobre o esquecimento é a de que ele resulta sobretudo",
+        "options": [
+          "de uma conspiração política deliberada.",
+          "de condições práticas de ensino que empobrecem a complexidade.",
+          "da falta de interesse das crianças pela história."
+        ],
+        "answer": "de condições práticas de ensino que empobrecem a complexidade.",
+        "explain": "第五段说遗忘「raramente é uma conspiração」；它来自课程过长、时间不足和教科书更新缓慢。"
+      },
+      {
+        "q": "A última frase do texto sugere que a verdadeira homenagem consiste em",
+        "options": [
+          "preservar o monumento em bom estado.",
+          "manter viva a pergunta em vez de a fixar numa resposta oficial.",
+          "ensinar às crianças apenas factos verificados."
+        ],
+        "answer": "manter viva a pergunta em vez de a fixar numa resposta oficial.",
+        "explain": "结尾说纪念若要「não se confunde com a pose」，就要让纪念碑成为「uma pergunta viva」。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab19",
+    "title": "A mesa da presidente",
+    "text": "O gabinete fica no primeiro andar da junta, ao lado do balcão do atendimento, e tem uma janela que dá para o pátio das traseiras. Sobre a mesa, três pilhas de processos, um mapa da freguesia com alfinetes coloridos e uma fotografia antiga do mercado. A presidente recebe-me entre duas reuniões e avisa, antes de me sentar, que não tem muito tempo e que não pode falar de casos individuais. Depois fala de casos individuais durante quarenta minutos, porque os casos individuais são, ao que parece, a única forma de explicar o que se passa.\n\nOs números da freguesia são conhecidos e repetidos em todos os relatórios: o arrendamento subiu, em média, sessenta por cento em cinco anos; o número de alojamentos locais quadruplicou; a população perdeu, na última década, quase um quinto dos residentes. A presidente conhece estas estatísticas de cor e usa-as com prudência, porque sabe que os números convencem os jornalistas e irritam os proprietários. «A média esconde tudo», diz. «Uma média de sessenta por cento pode significar um aumento de vinte para um senhorio e de duzentos para outro.»\n\nO despejo é a parte do trabalho que ninguém vê. Chegam pedidos de ajuda por telefone, por email, à porta do gabinete. Há famílias com contratos verbais, idosos com rendas antigas, jovens casais que assinaram sem ler. A junta não tem competência para suspender processos nem para fixar rendas; pode mediar, informar, encaminhar para o apoio jurídico e, em casos extremos, acionar o fundo de emergência social, que é pequeno e tem regulamento. «Nós não resolvemos o problema», diz a presidente, «desligamos a torneira durante um mês ou dois.»\n\nA especulação, explica, não se combate com discursos. O município tem instrumentos — o direito de preferência, o arrendamento forçado de prédios devolutos, o alojamento local condicionado — mas cada instrumento exige processos longos, pareceres, contencioso e coragem política. A gentrificação, palavra que ela evita em público por a considerar demasiado académica, é hoje uma realidade mensurável: as lojas tradicionais fecharam, os preços subiram, os filhos dos residentes foram viver mais longe. A freguesia tornou-se mais bonita e menos habitada, o que é uma forma elegante de dizer que se torna mais vazia.\n\nPergunto-lhe se os instrumentos são suficientes. Responde que nenhum instrumento o é quando o mercado corre mais depressa do que a administração: enquanto um processo de arrendamento forçado leva dois anos, um apartamento muda de mãos em duas semanas. Pergunto-lhe o que faria se tivesse poder absoluto por um ano. Ri-se e responde que começaria pelos prédios vazios do Estado, que são muitos e estão no centro, e que uma parte poderia ser convertida em habitação acessível sem inventar nada. Depois falaria com os senhorios pequenos, que não são especuladores, e criar-lhes-ia incentivos para contratos longos. Só no fim é que trataria dos grandes. «As políticas públicas falham porque são escritas para os casos gerais e aplicadas a casos concretos», diz. «E os casos concretos têm nome, telefone e filhos na escola.»\n\nDespeço-me com a promessa de voltar. No pátio, um funcionário lava o chão com uma mangueira e o cheiro a pó molhado sobe. Penso que aquela junta é o ponto onde a crise da habitação deixa de ser um tema de debate e passa a ser uma fila de pessoas à espera de uma resposta que ninguém tem obrigação de dar. A presidente faz o que pode, e o que pode é pouco. Dizer isto não é uma crítica; é, talvez, a descrição mais exata do problema.",
+    "questions": [
+      {
+        "q": "Porque razão a presidente desconfia das médias estatísticas?",
+        "options": [
+          "Porque os dados oficiais estão mal recolhidos.",
+          "Porque a média esconde situações muito diferentes entre inquilinos.",
+          "Porque os jornalistas as interpretam de forma sensacionalista."
+        ],
+        "answer": "Porque a média esconde situações muito diferentes entre inquilinos.",
+        "explain": "第二段她举例说同一平均数可能对应百分之二十或百分之二百的实际涨幅，「A média esconde tudo」。"
+      },
+      {
+        "q": "O que a junta consegue efetivamente fazer nos casos de despejo?",
+        "options": [
+          "Suspender judicialmente os processos.",
+          "Fixar rendas máximas por iniciativa própria.",
+          "Mediar, informar e dar apoio temporário, sem resolver o problema de fundo."
+        ],
+        "answer": "Mediar, informar e dar apoio temporário, sem resolver o problema de fundo.",
+        "explain": "第三段说明其权限有限，「desligamos a torneira durante um mês ou dois」只是暂时缓解。"
+      },
+      {
+        "q": "A expressão «mais bonita e menos habitada» contém",
+        "options": [
+          "uma constatação neutra sobre o sucesso urbanístico.",
+          "uma ironia sobre os custos humanos da valorização urbana.",
+          "uma crítica à falta de manutenção dos edifícios."
+        ],
+        "answer": "uma ironia sobre os custos humanos da valorização urbana.",
+        "explain": "紧接着补充「uma forma elegante de dizer que se torna mais vazia」，明显带反讽。"
+      },
+      {
+        "q": "A frase final da presidente sublinha que as políticas públicas",
+        "options": [
+          "são tecnicamente irrepreensíveis.",
+          "são desenhadas em abstrato e falham na aplicação concreta.",
+          "beneficiam sobretudo os grandes proprietários."
+        ],
+        "answer": "são desenhadas em abstrato e falham na aplicação concreta.",
+        "explain": "她说政策「são escritas para os casos gerais e aplicadas a casos concretos」，而具体案例有名有姓。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab20",
+    "title": "A chamada das nove",
+    "text": "O telefone toca às nove, hora de Lisboa, e é sempre o pai que atende. A mãe fica ao lado, com o ouvido encostado ao auscultador, e intervém nos intervalos, como se a chamada fosse uma emissão de rádio com dois locutores. Do outro lado, em Londres, a filha fala de um autocarro perdido, de um colega de trabalho, do preço das casas. A conversa dura vinte e três minutos, mais ou menos, e no fim todos dizem que está tudo bem. Nenhum dos três acredita inteiramente, e é essa a condição da chamada: serve para confirmar que ninguém morreu e que a vida continua a ser suportável à distância.\n\nO pai também emigrou, aos dezanove anos, e voltou aos trinta. A emigração, naquela geração, era uma decisão de família tomada em duas semanas: um primo arranjava trabalho, um vizinho arranjava quarto, e partia-se. Trabalhou numa fábrica perto de Lyon, aprendeu francês com os colegas e voltou com dinheiro suficiente para comprar a casa onde hoje atende o telefone. Fala daqueles anos como quem fala de uma doença longa: sem dramatismo, com detalhes. «Havia dias em que não dizia uma palavra em português», recorda. «Chegava ao quarto e falava sozinho, para não perder a língua.» É a única vez que o ouço mencionar o assunto sem que a conversa mude de direção.\n\nA filha partiu há sete anos, com uma licenciatura e um contrato de seis meses. Hoje tem dois empregos, um deles em turnos, e um inglês que já ninguém elogia porque soa natural. Diz que a integração foi fácil no princípio, quando tudo era provisório, e que se tornou difícil quando deixou de o ser. O problema não é o sotaque nem o visto; é perceber que já não pertence inteiramente a nenhum dos dois lugares. Fala disso com uma serenidade que me parece aprendida, como se tivesse treinado a frase antes de a dizer.\n\nA diáspora portuguesa soma milhões de pessoas e aparece nos discursos oficiais como uma riqueza. Há um dia dedicado às comunidades, há condecorações, há um discurso anual em que se agradece a quem partiu o contributo para o país que ficou. A filha ouve estas coisas com um sorriso torto. Diz que ninguém emigra para enriquecer um país; emigra porque a conta não fecha. E acrescenta que a palavra «comunidade» é generosa, porque sugere uma coesão que raramente existe: há portugueses em Londres que não conhecem outros portugueses em Londres, e essa solidão não cabe nos discursos.\n\nA saudade aparece na conversa sempre do mesmo modo. A mãe diz «tenho tantas saudades tuas» e a filha responde com uma pergunta sobre o tempo ou sobre a horta. Não é frieza; é economia. A palavra, dita em voz alta, exige uma resposta que nenhuma das duas sabe dar, e por isso circula entre elas como um objeto que se passa de mão em mão sem se abrir. O pai, esse, nunca a pronuncia. Pergunta pelas plantas, pelo carro, pelo senhorio. É a maneira dele de dizer o mesmo.\n\nNo fim, a filha diz que talvez volte quando o contrato terminar. A mãe entusiasma-se, faz planos, promete arranjar o quarto. O pai não diz nada e olha para a janela. Depois de desligar, explica-me que já ouviu esta frase muitas vezes e que não é mentira: é apenas uma forma de adiar a conversa difícil. O quarto dela está pronto desde o primeiro ano, com a mesma colcha e o mesmo poster. Ninguém o usa. É o regresso possível, enquanto o verdadeiro não chega.",
+    "questions": [
+      {
+        "q": "Segundo o texto, a função principal da chamada telefónica é",
+        "options": [
+          "transmitir informações práticas sobre a vida em Londres.",
+          "confirmar que todos continuam bem, apesar da distância.",
+          "decidir quando a filha vai regressar."
+        ],
+        "answer": "confirmar que todos continuam bem, apesar da distância.",
+        "explain": "第一段说通话是为了确认没人出事、生活还过得去。"
+      },
+      {
+        "q": "A frase do pai «falava sozinho, para não perder a língua» revela",
+        "options": [
+          "que ele tinha dificuldade em aprender francês.",
+          "o receio de perder a língua materna durante a emigração.",
+          "que não gostava de conviver com os colegas."
+        ],
+        "answer": "o receio de perder a língua materna durante a emigração.",
+        "explain": "他在法国独处时自言自语，正是害怕忘掉母语。"
+      },
+      {
+        "q": "Porque razão a filha responde à palavra «saudade» com perguntas sobre o tempo?",
+        "options": [
+          "Porque não sente saudade nenhuma.",
+          "Porque a palavra exige uma resposta que ela não sabe dar.",
+          "Porque quer evitar falar da mãe."
+        ],
+        "answer": "Porque a palavra exige uma resposta que ela não sabe dar.",
+        "explain": "文中说这是「economia」，因为这个词「exige uma resposta que nenhuma das duas sabe dar」。"
+      },
+      {
+        "q": "O quarto vazio da filha funciona no texto como",
+        "options": [
+          "prova de que a família a espera definitivamente.",
+          "símbolo de um regresso sempre adiado.",
+          "crítica à falta de espaço na casa dos pais."
+        ],
+        "answer": "símbolo de um regresso sempre adiado.",
+        "explain": "结尾说房间从第一年就准备好却无人使用，「É o regresso possível, enquanto o verdadeiro não chega」。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab21",
+    "title": "Cenários",
+    "text": "O laboratório é um pavilhão pré-fabricado atrás do campus, com telhado de chapa e um cheiro persistente a sal e a plástico aquecido. Lá dentro, há tanques de areia e água, uma máquina de ondas que trabalha por programação e três computadores que nunca se desligam. A investigadora que me recebe tem sessenta anos, um blusão polar e a paciência de quem já explicou isto muitas vezes. «Não fazemos previsões», avisa logo à entrada, «fazemos cenários». A distinção parece mínima e é decisiva.\n\nSobre a bancada está um cilindro de sedimento com quase um metro, extraído da praia há dois meses. A investigadora aponta as camadas com a ponta de uma caneta: areia grossa, conchas, uma linha escura de matéria orgânica, outra de areia fina. Cada camada corresponde a décadas ou a séculos, e o conjunto é uma espécie de arquivo do que o mar fez antes de haver pessoas a construir naquele lugar. A erosão costeira, diz, não começou com o turismo nem com as alterações climáticas; o que mudou foi a velocidade e, sobretudo, o facto de agora haver algo para perder.\n\nOs modelos que saem daqui alimentam o ordenamento do território, e é nesta passagem que o trabalho se torna político. Os autarcas querem um número: quantos metros até 2050. A investigadora dá intervalos, com margens que variam conforme os cenários de emissões, e assiste à deceção de quem esperava uma resposta simples. «A incerteza é o nosso produto», diz, «e ninguém quer comprar incerteza». Explica que um plano construído sobre um número único será sempre um plano frágil, porque a realidade raramente respeita a média.\n\nO edifício tem painéis solares e uma bomba de calor, e a universidade usa o caso nas brochuras sobre transição energética. Pergunto se a contradição a incomoda: um laboratório que estuda a pegada de carbono e cujos investigadores voam para congressos em três continentes. Responde que a incomoda, que já reduziu metade das viagens e que a outra metade é difícil de eliminar sem prejudicar a carreira de quem é jovem. «A ciência também tem pegada», admite. «O erro é usar isso como argumento para não fazer nada, ou como desculpa para não mudar nada.»\n\nA palavra sustentabilidade aparece em todas as candidaturas a financiamento que ela escreve, e nota-se no seu tom uma certa resignação quando a pronuncia. Explica que os painéis de avaliação gostam de projetos que prometam utilidade imediata, e que estudar a velocidade de um processo que se mede em décadas não se encaixa bem nessa lógica. Por isso aprendeu a escrever as candidaturas numa língua paralela, em que «compreensão dos processos costeiros» se traduz por «ferramentas de apoio à decisão». Não é cinismo, diz; é sobrevivência. Pergunto-lhe se a palavra ainda significa alguma coisa para ela. Responde que sim, mas que aprendeu a distingui-la do seu uso: sustentabilidade, diz, é uma ideia exigente, e o uso que dela se faz é frequentemente uma forma de adiar essa exigência.\n\nAo sair, pergunto-lhe o que diria a quem vive numa casa a cinquenta metros da linha de água. Pensa um pouco antes de responder. Diz que diria a verdade: que a casa vai ter de sair dali, mais cedo ou mais tarde, e que o dinheiro gasto a protegê-la será dinheiro retirado a outra coisa. Depois acrescenta que a verdade, dita assim, é inútil sem uma alternativa concreta — uma casa, um prazo, um apoio. A ciência, conclui, oferece uma gramática; não oferece uma política. E sem política, a gramática fica na estante.",
+    "questions": [
+      {
+        "q": "Qual é a diferença entre «previsões» e «cenários», segundo a investigadora?",
+        "options": [
+          "Os cenários são menos rigorosos do que as previsões.",
+          "Os cenários admitem vários futuros possíveis, em vez de um número único.",
+          "As previsões são usadas apenas em congressos."
+        ],
+        "answer": "Os cenários admitem vários futuros possíveis, em vez de um número único.",
+        "explain": "她强调给区间而非单一数字，并说「um plano construído sobre um número único será sempre um plano frágil」。"
+      },
+      {
+        "q": "O cilindro de sedimento serve no texto para mostrar que",
+        "options": [
+          "a erosão é um fenómeno inteiramente novo.",
+          "o mar já alterou a costa muito antes de haver construções.",
+          "as praias têm pouca variação ao longo do tempo."
+        ],
+        "answer": "o mar já alterou a costa muito antes de haver construções.",
+        "explain": "第二段说岩芯是「arquivo do que o mar fez antes de haver pessoas a construir」，变化之新在于速度和有所损失。"
+      },
+      {
+        "q": "A expressão «a incerteza é o nosso produto» significa que",
+        "options": [
+          "os cientistas não conseguem produzir conhecimento útil.",
+          "o resultado científico consiste em intervalos e probabilidades, e não em certezas.",
+          "a incerteza é usada para evitar responsabilidades políticas."
+        ],
+        "answer": "o resultado científico consiste em intervalos e probabilidades, e não em certezas.",
+        "explain": "她给出带误差范围的区间，并说没人愿意买不确定性，说明科学产出本身是不确定的范围。"
+      },
+      {
+        "q": "A conclusão do texto defende que o conhecimento científico",
+        "options": [
+          "dispensa decisões políticas.",
+          "só é útil quando acompanhado de decisões e alternativas políticas.",
+          "deve evitar pronunciar-se sobre casos concretos."
+        ],
+        "answer": "só é útil quando acompanhado de decisões e alternativas políticas.",
+        "explain": "结尾说科学提供语法而非政策，「E sem política, a gramática fica na estante」。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab22",
+    "title": "A bilheteira",
+    "text": "A bilheteira do museu abre às dez e tem uma placa com preços, descontos e horários. Às dez e um quarto há seis pessoas na fila, entre elas um homem de sessenta e tantos anos que segura uma pasta de plástico com elásticos. Compra o bilhete normal, sem desconto, e pergunta se pode falar com alguém sobre uma peça. A funcionária explica que o atendimento é ali mesmo, que ela pode encaminhar o pedido e que, se for sobre uma obra em exposição, talvez haja um serviço educativo disponível.\n\nO homem abre a pasta e mostra uma fotocópia. É a página de um catálogo antigo, com a imagem de uma escultura pequena e uma legenda que ele leu tantas vezes que já a sabe de cor. Diz que a peça vem da região onde nasceu a avó dele, que a avó lhe falava dela e que gostaria de a ver antes de morrer. A funcionária ouve com atenção, consulta o computador e informa que a obra faz parte do acervo, mas não está em exposição. Pode consultar-se por marcação, com justificação e com antecedência. Ele pergunta quanto tempo demora. Ela responde que não sabe exactamente.\n\nO museu tem dezenas de milhares de peças e mostra algumas centenas. O resto vive na reserva, em condições que os visitantes raramente imaginam. A informação sobre a proveniência de muitas delas está incompleta, e essa incompletude não é um detalhe técnico: é o que impede respostas simples a perguntas simples. O homem não quer devolver nada, não quer processar ninguém, não quer dar entrevistas. Quer ver um objeto que a família dele recorda como se fosse um parente. E é precisamente este pedido modesto que o sistema não está preparado para tratar.\n\nHá uma palavra que nunca aparece na conversa: colonial. Também não aparece «restituição», embora seja dela que se trata em filigrana. O que aparece é «peça etnográfica», «coleção», «contexto de recolha». A linguagem do museu é cuidadosa porque foi construída para descrever objetos e não para responder a pessoas. Quando o homem diz que a avó chamava à escultura «a santa da aldeia», a funcionária anota a informação e explica que esse tipo de testemunho pode ser útil para o inventário. Ele fica satisfeito e não percebe que acabou de contribuir, de graça, para o trabalho que o museu devia ter feito há décadas.\n\nO repatriamento, nos últimos anos, deixou de ser uma palavra impronunciável e passou a ser um processo com formulários. Há pedidos formais, comissões, pareceres jurídicos e uma lentidão que tanto pode ser prudência como pode ser estratégia. A restituição, quando acontece, é apresentada como um gesto de generosidade institucional, embora seja, na maioria dos casos, o cumprimento de uma obrigação elementar. Quem pede é sempre quem tem menos poder: um Estado, uma comunidade, uma família com uma fotocópia na mão.\n\nO homem sai com um impresso, um número de telefone e a promessa de que alguém lhe responderá. Agradece duas vezes. Na porta, pergunta-me se vale a pena insistir. Digo-lhe que sim, e não sei se estou a ser honesto. A bilheteira é a soleira do museu, o lugar onde a instituição encontra o público no seu estado mais cru: alguém que paga, que espera e que acredita que o que está lá dentro lhe pertence de alguma maneira. Se essa crença se perder, o museu continua a funcionar; apenas deixa de significar o que diz.",
+    "questions": [
+      {
+        "q": "O que o homem pretende, ao dirigir-se à bilheteira?",
+        "options": [
+          "Exigir a devolução de uma peça do acervo.",
+          "Ver uma obra ligada à terra da sua avó.",
+          "Reclamar do preço do bilhete."
+        ],
+        "answer": "Ver uma obra ligada à terra da sua avó.",
+        "explain": "他带着目录复印件，说想在有生之年见到祖母家乡的那件雕塑。"
+      },
+      {
+        "q": "A informação sobre a proveniência é apresentada como decisiva porque",
+        "options": [
+          "permite aumentar o valor comercial das obras.",
+          "condiciona a capacidade de responder a pedidos legítimos.",
+          "é exigida por lei para todas as exposições."
+        ],
+        "answer": "condiciona a capacidade de responder a pedidos legítimos.",
+        "explain": "第三段说来源资料不全「é o que impede respostas simples a perguntas simples」。"
+      },
+      {
+        "q": "Ao anotar o testemunho do homem, a funcionária",
+        "options": [
+          "resolve definitivamente o pedido dele.",
+          "obtém gratuitamente informação que o museu devia ter reunido.",
+          "recusa dar seguimento ao processo."
+        ],
+        "answer": "obtém gratuitamente informação que o museu devia ter reunido.",
+        "explain": "第四段说他把信息无偿贡献出来，「para o trabalho que o museu devia ter feito há décadas」。"
+      },
+      {
+        "q": "A última frase do texto sugere que o museu",
+        "options": [
+          "pode continuar a funcionar sem perder o seu sentido.",
+          "só mantém sentido enquanto o público acreditar que o acervo também lhe pertence.",
+          "deveria fechar a bilheteira ao público."
+        ],
+        "answer": "só mantém sentido enquanto o público acreditar que o acervo também lhe pertence.",
+        "explain": "结尾说若这种信念消失，博物馆仍运作，但「deixa de significar o que diz」。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab23",
+    "title": "A mesa do fundo",
+    "text": "À uma da manhã, o café ainda tem luzes acesas e o dono já empilhou as cadeiras de metade das mesas. Ao fundo, cinco pessoas ocupam o reservado: o realizador, a diretora de produção, o operador de câmara, uma atriz e um senhor de sessenta anos que todos tratam por «mestre» e que não é mestre de nada, apenas fez cinco filmes que ninguém viu. A conversa é sobre o dia de rodagem, sobre uma janela que não dava para filmar depois das quatro e sobre o aluguer de um gerador que custou mais do que o cachet de dois atores.\n\nO realizador tem trinta e três anos e um argumento que reescreveu onze vezes. Conta que a versão final é muito diferente da primeira, e que o mais difícil não foi cortar cenas, foi perceber de que filme é que as cenas cortadas faziam parte. O mestre ouve, mexe o café e diz uma frase que já deve ter dito a muitos: «O argumento não se escreve, reescreve-se; e depois roda-se outro.» Ninguém ri, porque a frase tem o peso de quem aprendeu isto em rodagens piores do que esta.\n\nO plano de que todos falam é um movimento de grua sobre o terraço, com a cidade ao fundo e a atriz a fumar. Custa quase tanto como uma semana de rodagem interior, e a produtora já explicou duas vezes que não há orçamento. A solução encontrada é um plano fixo, mais longo, a partir da varanda de um vizinho que autorizou a passagem em troca de uma garrafa de vinho. O realizador descreve a alternativa com entusiasmo genuíno, e o mestre aprova: «Uma limitação bem resolvida vale mais do que um plano caro.»\n\nA conversa deriva para a montagem, como sempre acontece quando há um mestre na mesa. Ele conta o caso de um filme seu que foi salvo na ilha de edição, depois de uma projeção desastrosa em que metade da sala saiu. Mudaram a ordem de duas cenas, suprimiram uma personagem secundária e o filme passou a funcionar. «O filme faz-se três vezes», diz. «No argumento, na rodagem e na montagem. E é na terceira que se sabe o que se fez.» A atriz pergunta se ele não se sente injustiçado por não ter sido reconhecido na altura. Ele encolhe os ombros.\n\nA bilheteira é o assunto que ninguém evita mas todos tratam com humor. O mestre recorda os números do seu segundo filme: sete mil espetadores em três meses, o que na época era considerado um fracasso respeitável. Hoje, diz, sete mil pessoas é um bom resultado para um documentário. A produtora acrescenta que o problema não é o público não querer ver, é o público não saber que existe. E o realizador, que ainda não estreou nada, pergunta se vale a pena continuar. O mestre responde que a pergunta é a única coisa que não se deve fazer em voz alta.\n\nSaio às duas e um quarto, quando o dono do café começa a passar as cadeiras para cima das mesas. Na rua, o realizador fuma e olha para o prédio onde filmaram de manhã. Penso que aquele café é a única escola de cinema que existe em Portugal, e que funciona sem programa, sem avaliação e sem diploma. Transmite-se ali um saber que não está em nenhum manual: como resolver um plano impossível, como salvar um filme na montagem, como continuar a fazer filmes quando quase ninguém os vê.",
+    "questions": [
+      {
+        "q": "O que o mestre quer dizer com «O argumento não se escreve, reescreve-se»?",
+        "options": [
+          "Que o guião se constrói por sucessivas versões.",
+          "Que o argumento deve ser escrito por várias pessoas.",
+          "Que o guião é menos importante do que a rodagem."
+        ],
+        "answer": "Que o guião se constrói por sucessivas versões.",
+        "explain": "他说自己改了十一稿，而「mestre」强调剧本是反复重写的产物。"
+      },
+      {
+        "q": "A solução encontrada para o plano da grua é apresentada como",
+        "options": [
+          "um fracasso técnico que compromete o filme.",
+          "uma limitação resolvida com engenho, valorizada pelo mestre.",
+          "uma solução que aumenta o orçamento previsto."
+        ],
+        "answer": "uma limitação resolvida com engenho, valorizada pelo mestre.",
+        "explain": "改为邻居阳台的固定长镜头，师父赞许「Uma limitação bem resolvida vale mais do que um plano caro」。"
+      },
+      {
+        "q": "Segundo o mestre, a montagem é o momento em que",
+        "options": [
+          "se corrigem erros de argumento.",
+          "se compreende finalmente o filme que se fez.",
+          "se decide o orçamento final."
+        ],
+        "answer": "se compreende finalmente o filme que se fez.",
+        "explain": "他说「É na terceira que se sabe o que se fez」，即剪辑阶段才知道成品是什么。"
+      },
+      {
+        "q": "O tom do texto em relação ao cinema português é",
+        "options": [
+          "de desprezo pelos filmes que ninguém vê.",
+          "de afeto realista, reconhecendo a precariedade sem desistir.",
+          "de otimismo oficial sobre o mercado cinematográfico."
+        ],
+        "answer": "de afeto realista, reconhecendo a precariedade sem desistir.",
+        "explain": "结尾把咖啡馆称为唯一的电影学校，既承认困境，也肯定技艺的传承。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab24",
+    "title": "A sala imersiva",
+    "text": "O centro de interpretação foi inaugurado há dois anos, num edifício de betão e vidro que custou sete milhões e que já ganhou um prémio de arquitetura. À entrada, um balcão vende bilhetes e auscultadores, e um mapa indica o percurso em quatro línguas. O visitante entra numa sala escura, senta-se e é envolvido por imagens do monumento que está lá fora, a cem metros, filmado por um drone ao amanhecer. A música é original. A narração é excelente. Durante quinze minutos, ninguém fala.\n\nA homenagem que o centro propõe é total: som, imagem, texto, iluminação, uma linha do tempo projetada no chão. O monumento é reconstituído em três dimensões, explicado camada por camada, comparado com outros monumentos europeus. Vemos o que não se pode ver ao vivo, como as inscrições laterais ou a estrutura interna. A experiência é tecnicamente irrepreensível e produz um efeito curioso: saímos de lá a saber mais sobre o edifício do que sobre a história que ele celebra, porque a história foi transformada em espetáculo e o espetáculo é o que fica.\n\nA controvérsia tem o seu momento, num painel lateral, entre a maqueta e a loja. Duas colunas de texto, uma com a versão oficial e outra com «leituras críticas», e uma citação de um historiador que diz que o monumento é contestado. A palavra aparece, é verdade, mas aparece como aparece nos manuais: dentro de aspas, devidamente enquadrada, sem nomes próprios e sem consequências. O visitante lê, assente e segue. A dúvida foi apresentada e neutralizada no mesmo gesto, como um ingrediente que se acrescenta para dar sabor e não para alterar o prato.\n\nA memória, aqui, é tratada como conteúdo. Há uma aplicação, há códigos QR, há uma playlist, há um filtro para fotografias. Tudo está disponível e tudo é equivalente, porque tudo cabe no mesmo suporte. É esta equivalência que produz esquecimento: quando a informação é abundante, o visitante não tem de escolher o que retém, e sem escolha não há memória, apenas passagem. Lembro-me de uma professora que me disse, há anos, que os alunos se lembram do que foi difícil de aprender. Aqui, nada é difícil, e é por isso que se esquece tudo com tanta facilidade.\n\nPergunto à guia, que trabalha ali desde a abertura, se gosta do centro. Diz que gosta da parte técnica, que é um orgulho, e que tem dúvidas sobre o resto. «As pessoas querem sentir», explica, «não querem aprender.» Não é uma crítica aos visitantes, é uma descrição do que o equipamento lhes pede. O centro foi concebido para produzir emoção, e a emoção é rápida. Pergunto-lhe se os visitantes saem diferentes. Diz que alguns saem, sobretudo os que vêm com tempo e com perguntas, e que esses são uma minoria que nenhum relatório de visitantes consegue medir, porque a satisfação enche os formulários e a transformação não. A aprendizagem é lenta, exige tempo, exige silêncio, exige que alguém esteja disponível para responder a perguntas que não estão no guião.\n\nSaio e atravesso a rua. O monumento está ali, com a pedra a respirar o calor da tarde, sem música, sem legenda, sem filtro. Um casal discute se aquilo é «do tempo dos descobrimentos» e vai embora sem resolver a dúvida. Fico a olhar para os dois edifícios: o de vidro, que explica, e o de pedra, que permanece. O centro de interpretação pode ser entendido como uma confissão: já não sabemos transmitir isto sem intermediários. Talvez seja verdade. Mas convém lembrar que a pedra continua a funcionar sem eletricidade.",
+    "questions": [
+      {
+        "q": "Qual é o efeito paradoxal da experiência proporcionada pelo centro?",
+        "options": [
+          "O visitante sai a saber mais sobre a história do que sobre o edifício.",
+          "O visitante sai a saber mais sobre o edifício do que sobre a história que ele celebra.",
+          "O visitante fica impedido de ver o monumento real."
+        ],
+        "answer": "O visitante sai a saber mais sobre o edifício do que sobre a história que ele celebra.",
+        "explain": "第二段明确说技术无可挑剔，但历史变成奇观，结果是对建筑了解更多。"
+      },
+      {
+        "q": "A forma como a controvérsia é apresentada no painel lateral revela",
+        "options": [
+          "uma tentativa séria de discutir o monumento.",
+          "uma inclusão da crítica que a neutraliza.",
+          "a ausência total de perspetivas críticas."
+        ],
+        "answer": "uma inclusão da crítica que a neutraliza.",
+        "explain": "第三段说争议被放进引号、无具名、无后果，「A dúvida foi apresentada e neutralizada no mesmo gesto」。"
+      },
+      {
+        "q": "A comparação da memória com a aprendizagem escolar serve para defender que",
+        "options": [
+          "a memória exige escolha e esforço, e não acumulação de informação.",
+          "os alunos aprendem melhor com tecnologia.",
+          "os centros de interpretação substituem a escola."
+        ],
+        "answer": "a memória exige escolha e esforço, e não acumulação de informação.",
+        "explain": "第四段说没有选择就没有记忆，并引用老师的话：记住的是难学的东西。"
+      },
+      {
+        "q": "A frase final («a pedra continua a funcionar sem eletricidade») sugere",
+        "options": [
+          "uma crítica à falta de manutenção do monumento.",
+          "que a mediação tecnológica não é indispensável à transmissão da memória.",
+          "que o centro devia ser encerrado."
+        ],
+        "answer": "que a mediação tecnológica não é indispensável à transmissão da memória.",
+        "explain": "结尾以石制纪念碑无需电力作对比，暗示技术中介并非记忆传递的必要条件。"
+      }
+    ]
+  }
+]

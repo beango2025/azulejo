@@ -11,7 +11,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '1.8.0';
+  const APP_VERSION = '2.0.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -1247,7 +1247,7 @@
           <span class="eyebrow">LEITURA & ESCUTA · ${esc(pack.level)}</span>
           <h1>Lê, ouve, fala.</h1>
           <p>Um texto curto desta cena e um diálogo do nível. Lê, ouve outra vez e repete uma fala.</p>
-          <div class="immersion-meta"><span>${esc(pack.level)}</span><span>${esc(pack.grammarTitle)}</span><span>${pack.lines.length} palavras-alvo</span></div>
+          <div class="immersion-meta"><span>${esc(pack.examLabel)}</span><span>${pack.wordCount || pack.lines.length} ${pack.wordCount ? 'palavras' : 'palavras-alvo'}</span><span>${esc(pack.grammarTitle)}</span></div>
         </div>
         <span class="step-count">${pad(ui.lesson.index + 1)}<small>/ ${pad(ui.lesson.steps.length)}</small></span>
       </div>
@@ -1258,17 +1258,20 @@
             <div><span class="eyebrow light">LEITURA</span><h2>${esc(pack.scene)}</h2></div>
             <button class="audio-btn small" data-action="immersion-play" data-kind="reading" aria-label="Ouvir o texto completo">${icon('volume')}</button>
           </div>
-          <p class="immersion-intro">${esc(pack.intro)}</p>
-          <div class="immersion-dialogue">
-            ${pack.lines.map((line, i) => `<div class="immersion-line">
-              <span class="immersion-speaker">${esc(line.speaker)}</span>
-              <div class="immersion-line-copy">
-                <p>${esc(line.pt)}</p>
-                <small>${esc(line.zh)}</small>
-              </div>
-              <button class="audio-mini" data-audio="${esc(line.pt)}" aria-label="Ouvir esta fala">${icon('volume')}</button>
-            </div>`).join('')}
-          </div>
+          ${pack.text
+            ? `${pack.textTitle && pack.textTitle !== pack.scene ? `<h3 class="immersion-text-title">${esc(pack.textTitle)}</h3>` : ''}
+               <div class="immersion-prose">${pack.paragraphs.map(paragraph => `<p>${esc(paragraph)}</p>`).join('')}</div>`
+            : `<p class="immersion-intro">${esc(pack.intro)}</p>
+               <div class="immersion-dialogue">
+                 ${pack.lines.map((line, i) => `<div class="immersion-line">
+                   <span class="immersion-speaker">${esc(line.speaker)}</span>
+                   <div class="immersion-line-copy">
+                     <p>${esc(line.pt)}</p>
+                     <small>${esc(line.zh)}</small>
+                   </div>
+                   <button class="audio-mini" data-audio="${esc(line.pt)}" aria-label="Ouvir esta fala">${icon('volume')}</button>
+                 </div>`).join('')}
+               </div>`}
           <div class="immersion-questions">
             ${pack.readingQuestions.map(q => immersionQuestionHTML(q, state)).join('')}
           </div>
@@ -1280,16 +1283,16 @@
               <div><span class="eyebrow light">ESCUTA · ${esc(pack.level)}</span><h3>${esc(pack.listeningTitle)}</h3></div>
               <button class="audio-btn small" data-action="immersion-play" data-kind="listening" aria-label="Ouvir o diálogo">${icon('play')}</button>
             </div>
-            <p class="immersion-hint">Ouve o diálogo do nível ${esc(pack.level)} e responde.</p>
+            <p class="immersion-hint">${pack.text ? `Ouve o texto completo (${pack.wordCount} palavras) e responde.` : `Ouve o diálogo do nível ${esc(pack.level)} e responde.`}</p>
             ${media ? `<a class="immersion-media-link" href="#/media/${esc(media.id)}" target="_blank" rel="noopener noreferrer">${icon(media.type === 'video' ? 'video' : 'volume')} Abrir ${media.type === 'video' ? 'vídeo' : 'áudio'} completo · ${esc(media.title)} ${icon('arrow-right')}</a>` : ''}
             ${pack.listeningQuestions.map(q => immersionQuestionHTML(q, state)).join('')}
           </section>
 
           <section class="immersion-speak">
             <span class="eyebrow light">FALA</span>
-            <h3>Repete a fala de ${esc(pack.speakingLine.speaker || 'B')}.</h3>
+            <h3>${pack.speakingLine.fromText ? 'Repete esta frase.' : `Repete a fala de ${esc(pack.speakingLine.speaker || 'B')}.`}</h3>
             <blockquote>${esc(pack.speakingLine.pt)}</blockquote>
-            <p class="immersion-speak-zh">${esc(pack.speakingLine.zh)}</p>
+            ${pack.speakingLine.zh ? `<p class="immersion-speak-zh">${esc(pack.speakingLine.zh)}</p>` : ''}
             <div class="immersion-speak-actions">
               <button class="audio-btn small" data-audio="${esc(pack.speakingLine.pt)}" aria-label="Ouvir a fala">${icon('volume')}</button>
               <button class="btn btn-primary small" data-action="speak-immersion">${icon('mic')} Falar</button>
@@ -2290,16 +2293,21 @@
     </a>`;
   }
 
+  const READING_RANGES = { A1: '140–180', A2: '180–230', B1: '280–340', B2: '420–500', C1: '550–650', C2: '700–850' };
+  const READING_EXAMS = { A1: 'Pré-CIPLE', A2: 'CIPLE', B1: 'DEPLE', B2: 'DIPLE', C1: 'DAPLE', C2: 'DUPLE' };
+
   function readingCardHTML(lesson) {
     const level = lesson.unit.level;
     const grammar = lesson.grammar ? lesson.grammar.title : `Prática · ${lesson.focusTitle || 'revisão'}`;
     const words = lesson.vocab.slice(0, 3).map(word => word.pt).join(' · ');
+    const exam = window.AZ_READINGS && window.AZ_READINGS[lesson.id];
+    const count = exam ? exam.text.trim().split(/\s+/).filter(Boolean).length : 0;
     return `<a class="reading-card reading-${level}" href="#/read/${lesson.id}" aria-label="Ler e ouvir: ${esc(lesson.title)}">
       <div class="reading-card-top"><span class="reading-card-level">${level}</span><span class="reading-card-kind">${lesson.isLab ? 'PRÁTICA' : 'LIÇÃO'}</span></div>
       <h3>${esc(lesson.title)}</h3>
       <p>${esc(lesson.zh)}</p>
       <div class="reading-card-words">${esc(words)}</div>
-      <div class="reading-card-foot"><span>${esc(grammar)}</span><b>Ler & ouvir ${icon('arrow-right')}</b></div>
+      <div class="reading-card-foot"><span>${esc(grammar)}</span><b>${count ? `${count} palavras · ` : ''}Ler & ouvir ${icon('arrow-right')}</b></div>
     </a>`;
   }
 
@@ -2313,7 +2321,7 @@
         <div class="reading-level-tabs" role="tablist" aria-label="Escolhe o nível de leitura">
           ${LEVELS.map(item => `<button class="filter-chip ${item.id === level.id ? 'is-active' : ''}" data-action="select-reading-level" data-level="${item.id}">${item.id}<span>${lessonsForLevel(item.id).length}</span></button>`).join('')}
         </div>
-        <div class="reading-list-head"><span>${level.id} · ${lessons.length} leituras</span><span>${icon('volume')} texto + áudio + fala</span></div>
+        <div class="reading-list-head"><span>${level.id} · ${lessons.length} leituras · texto de ${READING_RANGES[level.id]} palavras</span><span>${icon('volume')} ${READING_EXAMS[level.id]} · texto + áudio + fala</span></div>
         <div class="reading-grid">${lessons.map(readingCardHTML).join('')}</div>
       </div>`;
     document.title = 'Leitura & escuta · Azulejo';
@@ -3437,7 +3445,7 @@
       case 'immersion-play': {
         const step = currentLessonStep();
         if (step && step.kind === 'immersion') {
-          const lines = el.dataset.kind === 'listening' ? step.pack.listeningLines : step.pack.lines;
+          const lines = (el.dataset.kind === 'listening' || step.pack.text) ? step.pack.listeningLines : step.pack.lines;
           Speech.speakSequence(lines.map(line => line.pt), el);
         }
         break;

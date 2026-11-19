@@ -1,0 +1,707 @@
+[
+  {
+    "id": "u4l1",
+    "title": "O domingo em casa dos avós",
+    "text": "Todos os domingos a minha família vai a casa dos meus avós, em Almada. A casa é antiga, mas tem um jardim grande e uma cozinha onde cabe toda a gente. A casa fica numa rua pequena, com árvores, e do jardim vê-se o rio. A minha mãe chega primeiro, porque gosta de ajudar a avó a fazer o almoço. O meu pai fica na sala a ver as notícias e a falar com o avô sobre o jardim.\n\nEu tenho um irmão mais velho, o Tiago. Ele vive em Lisboa, mas vem sempre connosco. Depois do almoço, vamos os dois dar uma volta ao bairro, porque ele diz que precisa de andar um pouco. Quando voltamos, a avó já fez café e há bolo de laranja na mesa.\n\nNo domingo passado, o meu irmão levou uma fotografia antiga. Na fotografia, os meus avós eram jovens e estavam à porta da mesma casa. A avó olhou para o papel e sorriu. Depois disse: «Esta casa tem muitas histórias.» Eu gostei muito daquela tarde, porque a família estava toda junta e ninguém tinha pressa. Guardei a fotografia na carteira e, quando cheguei a casa, mostrei-a aos meus pais.",
+    "questions": [
+      {
+        "q": "Quando é que a família vai a casa dos avós?",
+        "options": [
+          "Todos os domingos.",
+          "Só no verão.",
+          "Duas vezes por mês."
+        ],
+        "answer": "Todos os domingos.",
+        "explain": "文章开头说「Todos os domingos a minha família vai a casa dos meus avós」。"
+      },
+      {
+        "q": "Porque é que a mãe chega primeiro?",
+        "options": [
+          "Porque gosta de ajudar a avó.",
+          "Porque trabalha perto da casa.",
+          "Porque o pai conduz devagar."
+        ],
+        "answer": "Porque gosta de ajudar a avó.",
+        "explain": "「A minha mãe chega primeiro, porque gosta de ajudar a avó a fazer o almoço.」"
+      },
+      {
+        "q": "O que é que o irmão levou no domingo passado?",
+        "options": [
+          "Uma fotografia antiga.",
+          "Um bolo de laranja.",
+          "Uma planta para o jardim."
+        ],
+        "answer": "Uma fotografia antiga.",
+        "explain": "「No domingo passado, o meu irmão levou uma fotografia antiga.」"
+      },
+      {
+        "q": "Como é que o narrador se sentiu naquela tarde?",
+        "options": [
+          "Contente, porque a família estava junta.",
+          "Cansado, porque havia muita gente.",
+          "Triste, porque tinha de ir embora."
+        ],
+        "answer": "Contente, porque a família estava junta.",
+        "explain": "最后一句说很喜欢那个下午，因为全家人都在一起，没人赶时间。"
+      }
+    ]
+  },
+  {
+    "id": "u4l2",
+    "title": "A segunda-feira da Ana",
+    "text": "A Ana acorda às sete, mas fica na cama mais cinco minutos. Depois levanta-se devagar, porque não gosta de manhãs. Na cozinha, bebe um café e come uma torrada. O café é forte e a torrada tem manteiga, como ela gosta. O pequeno-almoço é sempre a mesma coisa, mas ela não se importa.\n\nÀs oito menos um quarto, veste o casaco e sai de casa. Apanha o autocarro na esquina. Quando há lugar, vai sentada a ler as notícias; noutros dias vai de pé, com o telemóvel na mão. A viagem dura vinte minutos. Quando chega ao escritório, já está mais acordada e cumprimenta os colegas com um sorriso.\n\nNa segunda-feira passada, houve um problema. A Ana perdeu o autocarro porque saiu de casa tarde, por isso chegou ao trabalho às nove e meia. O chefe não disse nada, mas ela ficou com vergonha. À noite, voltou para casa cansada, jantou sopa e viu um pouco de televisão. Depois deitou-se cedo, às dez e meia, porque queria dormir bem. Na terça-feira, acordou antes do despertador e chegou a horas. Ainda hoje, quando sai de casa, olha duas vezes para o relógio.",
+    "questions": [
+      {
+        "q": "A que horas é que a Ana acorda?",
+        "options": [
+          "Às sete.",
+          "Às sete e cinco.",
+          "Às oito menos um quarto."
+        ],
+        "answer": "Às sete.",
+        "explain": "「A Ana acorda às sete」；七点八刻是出门的时间，不是起床时间。"
+      },
+      {
+        "q": "Como é que a Ana vai para o trabalho?",
+        "options": [
+          "De autocarro.",
+          "A pé.",
+          "De comboio."
+        ],
+        "answer": "De autocarro.",
+        "explain": "「Apanha o autocarro na esquina」——她坐公交去上班。"
+      },
+      {
+        "q": "Porque é que a Ana chegou tarde na segunda-feira passada?",
+        "options": [
+          "Porque perdeu o autocarro.",
+          "Porque o autocarro estava atrasado.",
+          "Porque o chefe a chamou antes."
+        ],
+        "answer": "Porque perdeu o autocarro.",
+        "explain": "「A Ana perdeu o autocarro porque saiu de casa tarde」——是她自己晚出门误了车。"
+      },
+      {
+        "q": "O que fez a Ana antes de se deitar?",
+        "options": [
+          "Jantou sopa e viu televisão.",
+          "Foi ao cinema com amigos.",
+          "Estudou até tarde."
+        ],
+        "answer": "Jantou sopa e viu televisão.",
+        "explain": "「jantou sopa e viu um pouco de televisão」——然后才早睡。"
+      }
+    ]
+  },
+  {
+    "id": "u4l3",
+    "title": "O apartamento novo",
+    "text": "A Rita mudou-se para um apartamento novo no mês passado. Mudou-se porque o apartamento antigo era escuro e ficava longe de tudo. A casa não é grande, mas é clara e fica perto do metro. Tem uma sala pequena, um quarto e uma cozinha onde cabem duas pessoas. A cozinha é a divisão de que ela mais gosta, porque tem uma janela para o pátio.\n\nO quarto é simples: uma cama, um armário e uma mesa junto à janela. Nas manhãs de sol, o quarto enche-se de luz. A casa de banho é pequena, mas tem água quente, o que para a Rita é importante. A varanda fica ao lado da sala e é o melhor lugar do apartamento. Ali, ela toma café de manhã e vê as pessoas a passar na rua.\n\nNo sábado passado, os amigos foram ver a casa nova. Levaram uma planta, um bolo e um cartão com os nomes de todos. Ficaram na varanda até tarde, a falar e a rir, porque estava uma noite quente. A Rita disse: «Ainda faltam coisas, mas já me sinto em casa.» Agora quer comprar uma mesa maior para a cozinha, mas talvez espere pelo próximo mês.",
+    "questions": [
+      {
+        "q": "Onde fica o apartamento da Rita?",
+        "options": [
+          "Perto do metro.",
+          "No centro histórico.",
+          "Longe da cidade."
+        ],
+        "answer": "Perto do metro.",
+        "explain": "「fica perto do metro」——公寓离地铁近。"
+      },
+      {
+        "q": "Qual é a divisão de que a Rita mais gosta?",
+        "options": [
+          "A cozinha.",
+          "O quarto.",
+          "A casa de banho."
+        ],
+        "answer": "A cozinha.",
+        "explain": "「A cozinha é a divisão de que ela mais gosta」——她最喜欢厨房。"
+      },
+      {
+        "q": "Onde é que os amigos ficaram até tarde?",
+        "options": [
+          "Na varanda.",
+          "Na cozinha.",
+          "No quarto."
+        ],
+        "answer": "Na varanda.",
+        "explain": "「Ficaram na varanda até tarde」——朋友们在阳台待到很晚。"
+      },
+      {
+        "q": "O que é que a Rita quer comprar?",
+        "options": [
+          "Uma mesa maior para a cozinha.",
+          "Uma cama nova para o quarto.",
+          "Uma planta para a varanda."
+        ],
+        "answer": "Uma mesa maior para a cozinha.",
+        "explain": "最后一句：「Agora quer comprar uma mesa maior para a cozinha.」"
+      }
+    ]
+  },
+  {
+    "id": "u5l1",
+    "title": "O meu fim de semana",
+    "text": "Ontem à noite jantei com os meus pais e contei-lhes tudo. No sábado, fui ao Porto com dois amigos. Apanhámos o comboio às oito da manhã e o comboio estava cheio, mas conseguimos lugar junto à janela. Chegámos à hora do almoço e passámos o dia a andar pela cidade. Gostei muito da Ribeira, mas havia muita gente.\n\nAo almoço, comi bacalhau com batatas e bebi um copo de vinho verde. Depois, fui ver o mercado e comprei uma camisa. À noite, os três jantaram num restaurante pequeno, perto do rio, e esperámos um pouco por uma mesa. Eu comi uma francesinha e disse que era a melhor que já tinha provado.\n\nNo domingo, o dia foi mais calmo. Voltei de manhã, almocei em casa da minha mãe e dormi a tarde toda. Foi um domingo calmo, como eu queria. A minha mãe perguntou: «E gostaste?» Eu respondi: «Gostei muito. Foi um fim de semana diferente.» Depois falámos de outras coisas e vimos um filme na sala. A minha mãe fez café e ficámos na cozinha a falar da viagem e do trabalho. À noite, fui para casa cedo, porque na segunda-feira tinha de trabalhar.",
+    "questions": [
+      {
+        "q": "Onde é que o narrador foi no sábado?",
+        "options": [
+          "Ao Porto.",
+          "A Lisboa.",
+          "Ao Algarve."
+        ],
+        "answer": "Ao Porto.",
+        "explain": "「No sábado, fui ao Porto com dois amigos.」"
+      },
+      {
+        "q": "O que é que o narrador comeu ao almoço?",
+        "options": [
+          "Bacalhau com batatas.",
+          "Uma francesinha.",
+          "Sopa e pão."
+        ],
+        "answer": "Bacalhau com batatas.",
+        "explain": "「Ao almoço, comi bacalhau com batatas」；francesinha 是晚上吃的。"
+      },
+      {
+        "q": "Como foi o domingo?",
+        "options": [
+          "Mais calmo.",
+          "Muito cansativo.",
+          "Igual ao sábado."
+        ],
+        "answer": "Mais calmo.",
+        "explain": "「No domingo, o dia foi mais calmo.」"
+      },
+      {
+        "q": "O que é que o narrador achou do fim de semana?",
+        "options": [
+          "Gostou muito.",
+          "Não gostou nada.",
+          "Achou muito caro."
+        ],
+        "answer": "Gostou muito.",
+        "explain": "「Gostei muito. Foi um fim de semana diferente.」"
+      }
+    ]
+  },
+  {
+    "id": "u5l2",
+    "title": "Planos para a semana",
+    "text": "É sábado à tarde e a Sofia está no café com o irmão. O café está cheio e há música baixa. Amanhã ela não trabalha, por isso tem tempo para fazer planos. «Vou viajar para o Algarve na semana que vem», diz ela. «Já comprei o bilhete.» O irmão fica surpreendido, porque ela nunca fala de viagens.\n\nA Sofia explica: vai ficar cinco dias em Faro, na casa de uma amiga. Quer ver o mar, comer peixe e dormir muito. Também quer comprar um chapéu de sol e um livro para ler na praia. «Talvez vá à praia todos os dias», diz. «Mas também quero visitar as ilhas.» O irmão ri e pergunta se ela vai sozinha. Ela responde que vai com a amiga, mas que talvez encontrem outras pessoas lá.\n\nDepois, o irmão fala dos planos dele. Tem um encontro de trabalho na segunda-feira e está um pouco nervoso. A Sofia pede um segundo café e diz: «Vai correr bem.» Ele agradece e olha para o relógio. A Sofia olha também e diz que ainda tem de passar em casa. Ninguém tem pressa, por isso ficam mais meia hora à conversa, a ver a rua pela janela.",
+    "questions": [
+      {
+        "q": "Para onde é que a Sofia vai viajar?",
+        "options": [
+          "Para o Algarve.",
+          "Para o Porto.",
+          "Para o estrangeiro."
+        ],
+        "answer": "Para o Algarve.",
+        "explain": "「Vou viajar para o Algarve na semana que vem.」"
+      },
+      {
+        "q": "Quantos dias é que ela vai ficar?",
+        "options": [
+          "Cinco dias.",
+          "Dois dias.",
+          "Uma semana."
+        ],
+        "answer": "Cinco dias.",
+        "explain": "「vai ficar cinco dias em Faro」——五天，不是一整周。"
+      },
+      {
+        "q": "Onde é que a Sofia vai ficar?",
+        "options": [
+          "Na casa de uma amiga.",
+          "Num hotel.",
+          "Num hostel."
+        ],
+        "answer": "Na casa de uma amiga.",
+        "explain": "「na casa de uma amiga」——住在朋友家。"
+      },
+      {
+        "q": "Porque é que o irmão está nervoso?",
+        "options": [
+          "Porque tem um encontro de trabalho.",
+          "Porque vai viajar sozinho.",
+          "Porque perdeu o comboio."
+        ],
+        "answer": "Porque tem um encontro de trabalho.",
+        "explain": "「Tem um encontro de trabalho na segunda-feira e está um pouco nervoso.」"
+      }
+    ]
+  },
+  {
+    "id": "u5l3",
+    "title": "Conversa na varanda",
+    "text": "O senhor Almeida está na varanda quando a vizinha de baixo aparece à janela. O prédio é antigo e as varandas são pequenas, mas ambos gostam de estar ali ao fim do dia. «Boa tarde! Como está o tempo aí em cima?», pergunta ela a rir. Ele responde que está sol, mas que o vento é frio. «Aqui em baixo também faz frio, mas ao meio-dia fazia calor», diz a vizinha.\n\nFalam um pouco sobre o tempo, como fazem quase todos os dias. Ele diz que, este ano, o inverno foi mais seco do que o normal. Ela conta que, na semana passada, choveu três dias seguidos. «Não gosto nada desta chuva», diz. «A roupa não seca e o meu cão volta para casa todo molhado.» O senhor Almeida ri e diz que a chuva é boa para as plantas do jardim.\n\nDepois, ele olha para o céu e diz: «Amanhã vou ao mercado. Se estiver sol, vou a pé; se estiver a chover, vou de autocarro.» A vizinha diz que também precisa de ir e que talvez o encontre lá. Despedem-se e ele entra em casa para beber um copo de água. Antes de fechar a janela, olha outra vez para o céu.",
+    "questions": [
+      {
+        "q": "Onde é que as duas pessoas estão a falar?",
+        "options": [
+          "Um na varanda e a outra à janela.",
+          "Os dois dentro do café.",
+          "Os dois no mercado."
+        ],
+        "answer": "Um na varanda e a outra à janela.",
+        "explain": "开篇：他在阳台，楼下的邻居出现在窗口。"
+      },
+      {
+        "q": "Como está o tempo naquele momento?",
+        "options": [
+          "Está sol, mas o vento é frio.",
+          "Está a chover muito.",
+          "Está muito calor e não há vento."
+        ],
+        "answer": "Está sol, mas o vento é frio.",
+        "explain": "「está sol, mas que o vento é frio」——有太阳，但风冷。"
+      },
+      {
+        "q": "O que aconteceu na semana passada?",
+        "options": [
+          "Choveu três dias seguidos.",
+          "Fez muito calor durante dias.",
+          "O cão do senhor Almeida fugiu."
+        ],
+        "answer": "Choveu três dias seguidos.",
+        "explain": "「na semana passada, choveu três dias seguidos」——连续下了三天雨。"
+      },
+      {
+        "q": "Como vai o senhor Almeida ao mercado se estiver a chover?",
+        "options": [
+          "De autocarro.",
+          "A pé.",
+          "De carro."
+        ],
+        "answer": "De autocarro.",
+        "explain": "「se estiver a chover, vou de autocarro」——下雨就坐公交。"
+      }
+    ]
+  },
+  {
+    "id": "u6l1",
+    "title": "Na loja de roupa",
+    "text": "A Inês entra numa loja de roupa perto do trabalho. A loja está quase vazia a esta hora e a música é calma. Quer uma camisa branca para uma entrevista e procura durante alguns minutos. Uma vendedora pergunta se precisa de ajuda. A Inês diz que quer ver uma camisa, mas não sabe qual é o tamanho certo.\n\n«Tem em tamanho M?», pergunta. A vendedora traz duas camisas e a Inês vai para o provador. A luz do provador é forte e ela demora um pouco a decidir. A primeira é pequena, mas a segunda serve bem. Ela olha ao espelho e gosta do que vê. «Posso experimentar também a azul?», pergunta. A vendedora sorri e diz que sim, que pode levar as duas para o provador.\n\nA camisa azul também lhe fica bem, mas é mais cara. A Inês pergunta se há algum desconto. A vendedora explica que hoje há vinte por cento em todas as camisas. «Então levo as duas», diz a Inês. Na caixa, paga com cartão e guarda o recibo na mala. Sai da loja contente, porque gastou menos do que esperava e já tem o que precisa para a entrevista de segunda-feira. No caminho para casa, pensa na entrevista e sente-se mais confiante.",
+    "questions": [
+      {
+        "q": "O que é que a Inês procura?",
+        "options": [
+          "Uma camisa branca.",
+          "Um casaco azul.",
+          "Um vestido para a entrevista."
+        ],
+        "answer": "Uma camisa branca.",
+        "explain": "「Quer uma camisa branca para uma entrevista.」"
+      },
+      {
+        "q": "Qual é o tamanho que lhe serve bem?",
+        "options": [
+          "O M.",
+          "O S.",
+          "O L."
+        ],
+        "answer": "O M.",
+        "explain": "她问「Tem em tamanho M?」，第二件 M 码穿着合适。"
+      },
+      {
+        "q": "Que desconto há hoje na loja?",
+        "options": [
+          "Vinte por cento.",
+          "Dez por cento.",
+          "Não há desconto hoje."
+        ],
+        "answer": "Vinte por cento.",
+        "explain": "「hoje há vinte por cento em todas as camisas」——全场衬衫八折。"
+      },
+      {
+        "q": "Como é que a Inês paga?",
+        "options": [
+          "Com cartão.",
+          "Em dinheiro.",
+          "Com um cheque."
+        ],
+        "answer": "Com cartão.",
+        "explain": "「Na caixa, paga com cartão」——在收银台刷卡。"
+      }
+    ]
+  },
+  {
+    "id": "u6l2",
+    "title": "Uma noite na farmácia",
+    "text": "Na quinta-feira à noite, o Pedro saiu do trabalho e sentiu-se mal. Tinha dor de cabeça e o braço a arder. O dia tinha sido comprido e ele não tinha almoçado bem. Não sabia onde ficava a farmácia mais perto, por isso perguntou a uma senhora na rua. Ela explicou que havia uma farmácia na esquina, mas que já estava fechada.\n\n«Preciso de ajuda», disse ele ao telefone. Ligou para a linha de saúde e uma mulher muito calma disse que ele devia ir à urgência do hospital. «Fica a dez minutos a pé», explicou. A rua estava escura e ele não conhecia aquela parte da cidade. O Pedro olhou para o mapa do telefone, mas sentiu-se perdido naquela zona. Mesmo assim, seguiu as indicações e chegou lá sozinho.\n\nNo hospital, esperou meia hora. Depois, um médico viu-o e disse que não era nada grave. Deu-lhe um comprimido e uma receita para comprar na farmácia no dia seguinte. Antes de sair, o médico perguntou se ele tinha alguém em casa. O Pedro disse que sim, que a mãe estava à espera dele. Saiu mais calmo e foi para casa de autocarro. No dia seguinte, já estava melhor e foi à farmácia do bairro comprar o resto do tratamento.",
+    "questions": [
+      {
+        "q": "O que é que o Pedro sentiu quando saiu do trabalho?",
+        "options": [
+          "Dor de cabeça e o braço a arder.",
+          "Frio e tosse.",
+          "Dor de barriga e febre."
+        ],
+        "answer": "Dor de cabeça e o braço a arder.",
+        "explain": "「Tinha dor de cabeça e o braço a arder.」"
+      },
+      {
+        "q": "Para onde é que ele foi?",
+        "options": [
+          "Para a urgência do hospital.",
+          "Para casa dormir.",
+          "Para a farmácia da esquina."
+        ],
+        "answer": "Para a urgência do hospital.",
+        "explain": "「devia ir à urgência do hospital」——电话里让他去医院急诊。"
+      },
+      {
+        "q": "Quanto tempo é que ele esperou no hospital?",
+        "options": [
+          "Meia hora.",
+          "Dez minutos.",
+          "Duas horas."
+        ],
+        "answer": "Meia hora.",
+        "explain": "「No hospital, esperou meia hora.」"
+      },
+      {
+        "q": "O que disse o médico?",
+        "options": [
+          "Que não era nada grave.",
+          "Que tinha de ficar no hospital.",
+          "Que devia voltar no dia seguinte."
+        ],
+        "answer": "Que não era nada grave.",
+        "explain": "「um médico viu-o e disse que não era nada grave」。"
+      }
+    ]
+  },
+  {
+    "id": "u6l3",
+    "title": "À conversa no bairro",
+    "text": "«Olha, chegaste agora?», pergunta o senhor Silva. «Pois, vim do mercado», responde a dona Lurdes. «Está tudo caro, pá!» Ele ri e diz que, na semana passada, as maçãs estavam mais baratas. Os dois ficam à porta do prédio, a falar, enquanto o sol aquece a rua. É uma conversa de todos os dias, à mesma hora, à mesma porta.\n\nA dona Lurdes conta que o filho vai casar no verão. Ainda não escolheram a data, mas já sabem que a festa é na igreja do bairro. «Com certeza que estás contente», diz o senhor Silva. «Estou, mas dá muito trabalho», responde ela. «Já agora, sabes de um sítio bom para o almoço?» Ele pensa um pouco e sugere uma tasca perto da igreja, onde se come bem e não é caro.\n\nFalam ainda do vizinho novo, do autocarro que passa cada vez mais tarde e do preço da luz. «Olha, tenho de ir», diz a dona Lurdes. «A sopa está ao lume.» Despedem-se e ela sobe as escadas devagar. O senhor Silva fica mais um pouco à porta, a ver a rua, e pensa no casamento do filho e no preço da luz. Depois entra em casa e faz o jantar.",
+    "questions": [
+      {
+        "q": "De onde é que a dona Lurdes vem?",
+        "options": [
+          "Do mercado.",
+          "Do trabalho.",
+          "Da farmácia."
+        ],
+        "answer": "Do mercado.",
+        "explain": "「Pois, vim do mercado」——她刚从市场回来。"
+      },
+      {
+        "q": "O que vai acontecer no verão?",
+        "options": [
+          "O filho dela vai casar.",
+          "Ela vai mudar de casa.",
+          "O senhor Silva vai viajar."
+        ],
+        "answer": "O filho dela vai casar.",
+        "explain": "「o filho vai casar no verão」——她儿子夏天结婚。"
+      },
+      {
+        "q": "O que sugere o senhor Silva para o almoço?",
+        "options": [
+          "Uma tasca perto da igreja.",
+          "Um café novo na esquina.",
+          "Um restaurante caro no centro."
+        ],
+        "answer": "Uma tasca perto da igreja.",
+        "explain": "「sugere uma tasca perto da igreja」——他推荐教堂附近的小馆子。"
+      },
+      {
+        "q": "Porque é que a dona Lurdes tem de ir?",
+        "options": [
+          "Porque a sopa está ao lume.",
+          "Porque está a chover.",
+          "Porque o filho está à espera."
+        ],
+        "answer": "Porque a sopa está ao lume.",
+        "explain": "「A sopa está ao lume.」——锅还在火上，得回家。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab01",
+    "title": "Tarde no quintal",
+    "text": "Os meus avós vivem numa casa pequena com um quintal grande, atrás da casa. No quintal há laranjeiras, uma parreira e uma mesa de pedra onde comemos no verão. Ao lado da parreira há uma horta pequena, com tomates e salsa. O meu avô passa lá os dias, a regar as plantas e a falar com quem passa na rua.\n\nNo sábado passado, fui lá com a minha mãe e o meu pai. O meu irmão também veio, mas chegou mais tarde, porque teve de trabalhar de manhã. A avó fez um bolo de laranja, com as laranjas do quintal, e levou-o para fora. Ficámos todos à mesa, a comer e a conversar. A minha família fala muito alto e ri muito, e naquele dia não foi diferente.\n\nDepois do bolo, o meu avô mostrou-nos as árvores novas. Plantou duas laranjeiras no inverno e agora têm flores. «No próximo ano já dão laranjas», disse ele. O meu irmão ajudou-o a levar água e eu tirei fotografias. Quando o sol começou a descer, arrumámos as cadeiras e entrámos em casa para o jantar. A avó ficou à porta a dizer que a casa estava outra vez cheia.",
+    "questions": [
+      {
+        "q": "Onde fica o quintal dos avós?",
+        "options": [
+          "Atrás da casa.",
+          "Em frente da casa.",
+          "Ao lado do mercado."
+        ],
+        "answer": "Atrás da casa.",
+        "explain": "「um quintal grande, atrás da casa」——院子在房子后面。"
+      },
+      {
+        "q": "Porque é que o irmão chegou mais tarde?",
+        "options": [
+          "Porque teve de trabalhar de manhã.",
+          "Porque perdeu o autocarro.",
+          "Porque estava doente."
+        ],
+        "answer": "Porque teve de trabalhar de manhã.",
+        "explain": "「chegou mais tarde, porque teve de trabalhar de manhã」。"
+      },
+      {
+        "q": "O que é que o avô plantou no inverno?",
+        "options": [
+          "Duas laranjeiras.",
+          "Uma parreira.",
+          "Flores para a mesa."
+        ],
+        "answer": "Duas laranjeiras.",
+        "explain": "「Plantou duas laranjeiras no inverno」——冬天种了两棵橙树。"
+      },
+      {
+        "q": "O que fizeram quando o sol começou a descer?",
+        "options": [
+          "Arrumaram as cadeiras e entraram em casa.",
+          "Foram ao mercado comprar fruta.",
+          "Ficaram a regar as plantas."
+        ],
+        "answer": "Arrumaram as cadeiras e entraram em casa.",
+        "explain": "「arrumámos as cadeiras e entrámos em casa para o jantar」。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab02",
+    "title": "Um sábado sem pressa",
+    "text": "Ao sábado, não preciso de acordar cedo. Mesmo assim, acordo às oito, porque o meu quarto fica virado para a rua e há sempre barulho. A rua está calma a esta hora e ouve-se um ou outro carro. Fico na cama a ouvir rádio durante uns minutos. Depois levanto-me e abro a janela para entrar ar fresco.\n\nO pequeno-almoço de sábado é diferente. Não como uma torrada de pé, na cozinha. Sento-me à mesa com o meu companheiro, faço ovos e bebemos café com calma. O meu companheiro lê o jornal e eu faço uma lista do que falta comprar. Às vezes vamos a uma pastelaria perto de casa, mas hoje ficamos cá, a falar da semana.\n\nDepois do pequeno-almoço, vou às compras. Apanho o autocarro até ao mercado e compro fruta, peixe e pão. Também passo pela biblioteca, porque tenho de devolver dois livros. Às vezes encontro um vizinho na paragem e falamos do tempo. Ao almoço, já estou em casa e faço uma sopa simples. À tarde, leio no sofá e talvez veja um filme. À noite, janto com amigos num restaurante do bairro. Volto antes da meia-noite e deito-me cedo, porque o domingo também é um dia comprido.",
+    "questions": [
+      {
+        "q": "A que horas é que o narrador acorda ao sábado?",
+        "options": [
+          "Às oito.",
+          "Às sete.",
+          "Ao meio-dia."
+        ],
+        "answer": "Às oito.",
+        "explain": "「acordo às oito」——虽然不用早起，还是八点醒。"
+      },
+      {
+        "q": "Onde é que ele toma o pequeno-almoço hoje?",
+        "options": [
+          "Em casa, à mesa.",
+          "Numa pastelaria.",
+          "No trabalho."
+        ],
+        "answer": "Em casa, à mesa.",
+        "explain": "「hoje ficamos cá」——今天不去点心店，在家慢慢吃。"
+      },
+      {
+        "q": "O que vai fazer à biblioteca?",
+        "options": [
+          "Devolver dois livros.",
+          "Estudar português.",
+          "Comprar livros novos."
+        ],
+        "answer": "Devolver dois livros.",
+        "explain": "「tenho de devolver dois livros」——是去还书。"
+      },
+      {
+        "q": "Porque é que ele se deita cedo?",
+        "options": [
+          "Porque o domingo também é um dia comprido.",
+          "Porque tem de trabalhar ao domingo.",
+          "Porque está doente."
+        ],
+        "answer": "Porque o domingo também é um dia comprido.",
+        "explain": "「deito-me cedo, porque o domingo também é um dia comprido」。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab03",
+    "title": "A arrumar o quarto",
+    "text": "Hoje é domingo e decidi arrumar o meu quarto. Há roupa em cima da cama, livros no chão e papéis em cima da mesa. Há também revistas velhas debaixo da cama e um saco de roupa de inverno que já não uso. A minha casa é pequena, por isso cada coisa tem de estar no seu lugar. Começo pelas roupas e faço três montes: uma para lavar, uma para dar e outra para guardar.\n\nEnquanto arrumo, penso na cozinha. Ainda tenho de lavar a louça do jantar e limpar a mesa. A louça é pouca, porque ontem comi fora. Depois, quero limpar a casa de banho, porque amanhã vêm visitas. Não é muito trabalho, mas faz-se melhor com música. Ponho a rádio e canto um pouco, apesar de cantar mal.\n\nAo fim da tarde, o quarto está outro. A cama está feita, os livros estão na estante e a roupa está guardada. Abro a varanda para entrar ar fresco, sento-me à mesa com um chá e ouço os vizinhos na rua. A casa está calma e eu estou cansada, mas contente. Amanhã, depois do trabalho, ainda preciso de comprar umas coisas para o jantar das visitas.",
+    "questions": [
+      {
+        "q": "O que é que ele faz primeiro?",
+        "options": [
+          "Separa as roupas em três montes.",
+          "Limpa a casa de banho.",
+          "Lava a louça do jantar."
+        ],
+        "answer": "Separa as roupas em três montes.",
+        "explain": "「Começo pelas roupas e faço três montes」——先分衣服。"
+      },
+      {
+        "q": "Porque quer limpar a casa de banho?",
+        "options": [
+          "Porque amanhã vêm visitas.",
+          "Porque está suja há semanas.",
+          "Porque a mãe pediu."
+        ],
+        "answer": "Porque amanhã vêm visitas.",
+        "explain": "「quero limpar a casa de banho, porque amanhã vêm visitas」。"
+      },
+      {
+        "q": "O que faz enquanto arruma?",
+        "options": [
+          "Ouve rádio e canta.",
+          "Fala ao telefone.",
+          "Vê televisão na sala."
+        ],
+        "answer": "Ouve rádio e canta.",
+        "explain": "「Ponho a rádio e canto um pouco」——边收拾边唱歌。"
+      },
+      {
+        "q": "Como está a casa no fim da tarde?",
+        "options": [
+          "Calma.",
+          "Cheia de gente.",
+          "Escura e fria."
+        ],
+        "answer": "Calma.",
+        "explain": "「A casa está calma e eu estou cansada, mas contente.」"
+      }
+    ]
+  },
+  {
+    "id": "a2lab04",
+    "title": "Uma esplanada, três amigos",
+    "text": "Ontem à tarde encontrei-me com a Marta e o João numa esplanada perto do rio. Estava sol e havia muita gente na rua, por isso ficámos numa mesa ao lado da parede. O rio estava calmo e havia barcos a passar devagar. Pedimos três cafés e um bolo para dividir. O empregado conhecia-nos e trouxe tudo depressa.\n\nA Marta contou-nos o fim de semana dela. «No sábado, fui a Sintra com a minha irmã. Ela conduziu e o caminho foi rápido. Gostei muito do palácio, mas havia demasiados turistas. Ao almoço, comi peixe num restaurante pequeno, com mesas na rua, e bebi um sumo de laranja. Voltei muito cansada, mas valeu a pena.»\n\nO João também teve um fim de semana calmo. Ficou em casa, viu dois filmes e cozinhou para os pais. «Não fiz nada de especial, mas precisava de descansar», explicou. O João disse que também queria conhecer Sintra e talvez fossem os três no outono. Depois falámos de trabalho e de uma viagem que queremos fazer juntos. Ficámos ali a falar até o sol desaparecer. Quando nos despedimos, já eram quase oito horas e a rua estava mais calma.",
+    "questions": [
+      {
+        "q": "Onde é que os amigos se encontraram?",
+        "options": [
+          "Numa esplanada perto do rio.",
+          "Num café do bairro.",
+          "Em casa da Marta."
+        ],
+        "answer": "Numa esplanada perto do rio.",
+        "explain": "「encontrei-me com a Marta e o João numa esplanada perto do rio」。"
+      },
+      {
+        "q": "Onde é que a Marta foi no sábado?",
+        "options": [
+          "A Sintra.",
+          "Ao Porto.",
+          "À praia."
+        ],
+        "answer": "A Sintra.",
+        "explain": "「No sábado, fui a Sintra com a minha irmã.」"
+      },
+      {
+        "q": "O que fez o João no fim de semana?",
+        "options": [
+          "Ficou em casa e viu filmes.",
+          "Foi ao cinema com os pais.",
+          "Viajou para o norte."
+        ],
+        "answer": "Ficou em casa e viu filmes.",
+        "explain": "「Ficou em casa, viu dois filmes e cozinhou para os pais.」"
+      },
+      {
+        "q": "A que horas é que eles se despediram?",
+        "options": [
+          "Quase às oito.",
+          "Ao meio-dia.",
+          "À meia-noite."
+        ],
+        "answer": "Quase às oito.",
+        "explain": "「Quando nos despedimos, já eram quase oito horas」。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab05",
+    "title": "Um café e muitos planos",
+    "text": "O café do bairro é pequeno, mas tem sempre gente. Hoje estou aqui com o meu amigo Rui, à mesa do canto, com um café e um pastel de nata. O empregado conhece-nos e já sabe o que pedimos. Amanhã é feriado e nenhum de nós trabalha, por isso temos tempo para falar.\n\n«Vou viajar para o norte em agosto», diz o Rui. «Quero ver o Douro e comer bem.» Ele diz que o Douro é bonito em agosto e que há barcos no rio. Eu digo que também gostava de ir, mas que este ano não tenho dinheiro. «Talvez no próximo ano», respondo. Ele ri e diz que, se eu quiser, posso ficar em casa da irmã dele, em Vila Real.\n\nDepois, falamos de hoje à noite. Há um encontro de amigos num bar perto do mercado e o Rui quer ir. Eu digo que vou, mas que não fico até tarde, porque amanhã quero levantar-me cedo e ir à praia. «Vou contigo», diz ele. «Também me apetece ver o mar.» Pagamos, saímos e ficamos à porta, a ver as pessoas que passam, e combinamos às nove no bar. O céu está cinzento, mas parece que não vai chover.",
+    "questions": [
+      {
+        "q": "Onde estão o narrador e o Rui?",
+        "options": [
+          "No café do bairro.",
+          "Na praia.",
+          "No mercado."
+        ],
+        "answer": "No café do bairro.",
+        "explain": "第一段「Hoje estou aqui com o meu amigo Rui」，地点是街区咖啡馆。"
+      },
+      {
+        "q": "Para onde é que o Rui quer ir em agosto?",
+        "options": [
+          "Para o norte, para ver o Douro.",
+          "Para o Algarve, para a praia.",
+          "Para Lisboa, para o trabalho."
+        ],
+        "answer": "Para o norte, para ver o Douro.",
+        "explain": "「Vou viajar para o norte em agosto. Quero ver o Douro」。"
+      },
+      {
+        "q": "Porque é que o narrador não vai viajar este ano?",
+        "options": [
+          "Porque não tem dinheiro.",
+          "Porque tem de trabalhar.",
+          "Porque não gosta de viajar."
+        ],
+        "answer": "Porque não tem dinheiro.",
+        "explain": "「este ano não tenho dinheiro」；「Talvez no próximo ano」。"
+      },
+      {
+        "q": "O que vão fazer hoje à noite?",
+        "options": [
+          "Vão a um encontro de amigos num bar.",
+          "Vão ao cinema.",
+          "Vão ficar em casa a ver televisão."
+        ],
+        "answer": "Vão a um encontro de amigos num bar.",
+        "explain": "「Há um encontro de amigos num bar perto do mercado e o Rui quer ir.」"
+      }
+    ]
+  },
+  {
+    "id": "a2lab06",
+    "title": "Domingo na praia",
+    "text": "Ao domingo, a praia perto de casa enche-se de famílias. Hoje chegámos cedo, às nove, e ainda havia lugar para o carro. O carro ficou à sombra de um pinheiro e levámos as cadeiras até à areia. O sol estava forte, mas o vento era fresco, por isso ficámos de casaco durante a primeira hora.\n\nA minha mãe levou fruta, água e um chapéu grande para se proteger do sol. Depois foi logo molhar os pés na água e disse que estava frio. O meu irmão, que nunca tem frio, entrou no mar e ficou lá muito tempo. Eu fiquei na toalha, a ler e a olhar para o céu. A certa altura, apareceram umas nuvens escuras e começou a chover. Toda a gente correu para os chapéus de sol e para os carros.\n\nDepois de meia hora, a chuva parou e o calor voltou. Comemos sandes e fruta e ficámos até às quatro. Quando viemos para casa, o meu irmão disse: «Foi um bom domingo, apesar da chuva.» A minha mãe respondeu: «O tempo muda sempre, mas a praia vale a pena.» Depois disse que, no próximo domingo, talvez fiquemos em casa. O meu irmão discordou.",
+    "questions": [
+      {
+        "q": "A que horas é que eles chegaram à praia?",
+        "options": [
+          "Às nove.",
+          "Às dez.",
+          "Ao meio-dia."
+        ],
+        "answer": "Às nove.",
+        "explain": "「Hoje chegámos cedo, às nove」——九点到海滩。"
+      },
+      {
+        "q": "Quem é que entrou no mar?",
+        "options": [
+          "O irmão.",
+          "A mãe.",
+          "O narrador."
+        ],
+        "answer": "O irmão.",
+        "explain": "「O meu irmão, que nunca tem frio, entrou no mar」；妈妈只是湿了脚。"
+      },
+      {
+        "q": "O que aconteceu a certa altura?",
+        "options": [
+          "Começou a chover.",
+          "Ficou muito frio.",
+          "Houve vento forte e não havia lugar."
+        ],
+        "answer": "Começou a chover.",
+        "explain": "「apareceram umas nuvens escuras e começou a chover」。"
+      },
+      {
+        "q": "Até que horas é que ficaram na praia?",
+        "options": [
+          "Até às quatro.",
+          "Até às duas.",
+          "Até ao anoitecer."
+        ],
+        "answer": "Até às quatro.",
+        "explain": "「Comemos sandes e fruta e ficámos até às quatro.」"
+      }
+    ]
+  }
+]

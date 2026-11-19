@@ -1,0 +1,237 @@
+[
+  {
+    "id": "a1lab12",
+    "title": "No corredor da escola",
+    "text": "É segunda-feira de manhã e a Mei chega à escola às nove. A escola é grande e tem muitas salas. O corredor está cheio de alunos e ela procura a sala doze, mas não encontra o número. Hoje há um teste de português e a Mei está um pouco nervosa.\n\n— Olá, Mei! Tudo bem? — pergunta o Tomás, um colega da turma.\n— Olá, Tomás. Mais ou menos. Não dormi bem esta noite.\n— Eu estou bem, obrigado. E tu, estás pronta para o teste?\n— Mais ou menos... — diz a Mei, a rir.\nNesse momento, passa o professor de português. A Mei quer perguntar uma coisa:\n— Desculpe. Onde fica a sala doze, se faz favor?\n— É ao fundo do corredor, à direita. Boa sorte!\n\nA Mei agradece e entra na sala. O teste não é difícil e ela responde a todas as perguntas. No fim, encontra o Tomás à porta e diz:\n— Até amanhã, Tomás! Bom fim de semana!\n— Até amanhã, Mei!",
+    "questions": [
+      {
+        "q": "Onde está a Mei no início do texto?",
+        "options": [
+          "No corredor da escola.",
+          "Na sala de aula.",
+          "Num café perto da escola."
+        ],
+        "answer": "No corredor da escola.",
+        "explain": "开头说她到学校后在走廊里找十二号教室。"
+      },
+      {
+        "q": "Como está a Mei antes do teste?",
+        "options": [
+          "Um pouco nervosa.",
+          "Muito contente.",
+          "Doente e com febre."
+        ],
+        "answer": "Um pouco nervosa.",
+        "explain": "文中说她没睡好，所以 um pouco nervosa。"
+      },
+      {
+        "q": "Quem explica onde fica a sala doze?",
+        "options": [
+          "O professor de português.",
+          "O Tomás.",
+          "A senhora da secretaria."
+        ],
+        "answer": "O professor de português.",
+        "explain": "是葡语老师告诉她：走廊尽头，右手边。"
+      },
+      {
+        "q": "O que dizem a Mei e o Tomás no fim?",
+        "options": [
+          "«Até amanhã!»",
+          "«Até logo, boa noite!»",
+          "«Desculpe, tenho pressa.»"
+        ],
+        "answer": "«Até amanhã!»",
+        "explain": "最后两人互道「明天见」。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab13",
+    "title": "À mesa do café",
+    "text": "É sábado de manhã e a Mei vai ao café da esquina com a amiga Rita. O café é pequeno, mas tem mesas na rua. Está sol e as duas sentam-se fora, perto da porta.\n\nO empregado chega e pergunta:\n— Bom dia! O que querem?\n— Queria um café, se faz favor — diz a Rita.\n— E para mim, uma meia de leite — diz a Mei. — E também uma água sem gás, se faz favor.\n— Muito bem. Querem comer alguma coisa?\n— Queria um pastel de nata, se faz favor — responde a Mei.\n\nO empregado volta com o pedido. As duas falam do trabalho, do fim de semana e da cidade. A Rita conta que vai ao Porto em maio. A Mei diz que gosta muito do café português, mas que é forte. No fim, a Rita chama o empregado:\n— A conta, se faz favor.\nSão quatro euros e vinte. As duas pagam e saem para a rua.\n— Até segunda, Rita!\n— Até segunda, Mei!",
+    "questions": [
+      {
+        "q": "Onde estão a Mei e a Rita?",
+        "options": [
+          "Num café com mesas na rua.",
+          "Em casa da Rita.",
+          "Na escola."
+        ],
+        "answer": "Num café com mesas na rua.",
+        "explain": "文中说咖啡馆有街边桌子，两人坐在外面。"
+      },
+      {
+        "q": "O que bebe a Mei?",
+        "options": [
+          "Uma meia de leite e uma água.",
+          "Só um café.",
+          "Um chá e um sumo."
+        ],
+        "answer": "Uma meia de leite e uma água.",
+        "explain": "梅点了 uma meia de leite 和一瓶无气泡水。"
+      },
+      {
+        "q": "Quanto custa o pedido?",
+        "options": [
+          "Quatro euros e vinte.",
+          "Dois euros.",
+          "Cinco euros e cinquenta."
+        ],
+        "answer": "Quatro euros e vinte.",
+        "explain": "结账时说的是 quatro euros e vinte，即 4,20 欧元。"
+      },
+      {
+        "q": "Para onde vai a Rita em maio?",
+        "options": [
+          "Para o Porto.",
+          "Para Lisboa.",
+          "Para o Algarve."
+        ],
+        "answer": "Para o Porto.",
+        "explain": "丽塔说她五月要去波尔图。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab14",
+    "title": "Na banca das frutas",
+    "text": "No sábado de manhã, a Mei vai ao mercado do bairro. Há muitas bancas de pão, peixe, flores e fruta. A Mei pára na banca do senhor João. As maçãs são vermelhas e as peras parecem boas.\n\n— Bom dia! Quanto custa? — pergunta a Mei, a apontar para as maçãs.\n— O quilo é um euro e vinte — diz o senhor João.\n— E as peras?\n— As peras são um euro e cinquenta.\n— É muito caro. No supermercado é mais barato — diz a Mei, a rir.\n— Sim, mas aqui a fruta é do campo e é mais doce — responde ele.\n\nA Mei escolhe seis maçãs e quatro peras. O senhor João põe tudo num saco de papel.\n— A conta, por favor.\n— São três euros e vinte.\nA Mei paga e depois olha para as laranjas:\n— Quanto custa um quilo de laranjas?\n— Um euro. Hoje estão muito baratas.\n— Então quero também um quilo, se faz favor.\nA Mei agradece e volta para casa com o saco cheio de fruta.",
+    "questions": [
+      {
+        "q": "Onde está a Mei?",
+        "options": [
+          "Na banca das frutas do senhor João.",
+          "Na pastelaria do bairro.",
+          "No supermercado."
+        ],
+        "answer": "Na banca das frutas do senhor João.",
+        "explain": "她在市场若昂先生的水果摊前买水果。"
+      },
+      {
+        "q": "Quanto custa o quilo das maçãs?",
+        "options": [
+          "Um euro e vinte.",
+          "Um euro.",
+          "Um euro e cinquenta."
+        ],
+        "answer": "Um euro e vinte.",
+        "explain": "若昂先生说一公斤苹果一欧二十。"
+      },
+      {
+        "q": "Porque acha a Mei que a fruta é cara?",
+        "options": [
+          "Porque no supermercado a fruta é mais barata.",
+          "Porque não tem dinheiro.",
+          "Porque a fruta está estragada."
+        ],
+        "answer": "Porque no supermercado a fruta é mais barata.",
+        "explain": "她笑着说超市更便宜，所以嫌这里贵。"
+      },
+      {
+        "q": "O que compra a Mei no fim?",
+        "options": [
+          "Também um quilo de laranjas.",
+          "Só um pão.",
+          "Flores para a Rita."
+        ],
+        "answer": "Também um quilo de laranjas.",
+        "explain": "因为橙子便宜，她又买了一公斤。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab15",
+    "title": "Na fila da pastelaria",
+    "text": "Às cinco da tarde, a pastelaria do bairro está cheia. A Mei fica na fila e espera cinco minutos. À frente dela há uma senhora com dois meninos e um homem com um jornal. O cheiro a canela é muito bom.\n\n— O próximo, se faz favor! — diz a menina do balcão.\n— Boa tarde. Queria dois pastéis de nata — diz a Mei.\n— Quer mais alguma coisa? Temos bolos de arroz e queques.\n— Gosto de bolos de arroz. Um, se faz favor.\nA menina prepara a caixa e pergunta:\n— Que sabor? Temos baunilha, chocolate e limão.\n— Não gosto de chocolate — diz a Mei. — Prefiro limão.\n— Muito bem. Então é um gelado de limão.\n\nA Mei paga e leva a caixa. Fora da pastelaria, prova o pastel de nata. É delicioso! O pastel está quente e doce, e a massa é muito boa. A Mei pensa: «Amanhã volto e compro mais dois. Este é o melhor pastel da cidade.»",
+    "questions": [
+      {
+        "q": "A que horas vai a Mei à pastelaria?",
+        "options": [
+          "Às cinco da tarde.",
+          "Às cinco da manhã.",
+          "Ao meio-dia."
+        ],
+        "answer": "Às cinco da tarde.",
+        "explain": "第一句说下午五点蛋挞店很满。"
+      },
+      {
+        "q": "O que come a Mei?",
+        "options": [
+          "Dois pastéis de nata.",
+          "Um bolo de arroz e um queque.",
+          "Só um gelado."
+        ],
+        "answer": "Dois pastéis de nata.",
+        "explain": "她点了两个蛋挞，另外加了一个米糕和一个柠檬冰淇淋。"
+      },
+      {
+        "q": "Que gelado escolhe a Mei?",
+        "options": [
+          "De limão.",
+          "De chocolate.",
+          "De baunilha."
+        ],
+        "answer": "De limão.",
+        "explain": "她说自己不喜欢巧克力，所以选了柠檬味。"
+      },
+      {
+        "q": "O que pensa a Mei no fim?",
+        "options": [
+          "Que o pastel é delicioso e quer voltar.",
+          "Que a pastelaria é muito cara.",
+          "Que não gosta da fila."
+        ],
+        "answer": "Que o pastel é delicioso e quer voltar.",
+        "explain": "她觉得蛋挞美味，打算明天再来买两个。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab16",
+    "title": "No museu do azulejo",
+    "text": "No domingo, a Mei visita o museu do azulejo. O museu fica num prédio antigo, perto do rio. A Mei compra um bilhete e pergunta à senhora da receção:\n— Desculpe, onde fica a exposição dos azulejos antigos?\n— É no primeiro andar. Suba as escadas e vire à esquerda. Depois é a última porta.\n— Obrigada! E onde fica a casa de banho?\n— A casa de banho fica à direita, ao lado do elevador.\n\nA Mei sobe e encontra a exposição. Os azulejos são azuis e brancos e alguns têm mais de duzentos anos. Ela tira muitas fotografias e lê as informações em português devagar. Depois, quer ir ao jardim do museu e pergunta a um guarda:\n— Como vou para o jardim?\n— Saia do museu e siga em frente. Na rotunda, vire à direita. O jardim fica em frente da igreja.\n\nA Mei passa duas horas no museu e no jardim. Antes de sair, compra um azulejo pequeno para a mãe. É um dia muito bom e ela volta para casa muito contente.",
+    "questions": [
+      {
+        "q": "Onde fica a exposição dos azulejos antigos?",
+        "options": [
+          "No primeiro andar, à esquerda.",
+          "No rés-do-chão, à direita.",
+          "No jardim do museu."
+        ],
+        "answer": "No primeiro andar, à esquerda.",
+        "explain": "前台女士说在二楼，上楼后向左转。"
+      },
+      {
+        "q": "Onde fica a casa de banho?",
+        "options": [
+          "À direita, ao lado do elevador.",
+          "Ao lado da receção.",
+          "Em frente da igreja."
+        ],
+        "answer": "À direita, ao lado do elevador.",
+        "explain": "文中说卫生间在右边、电梯旁边。"
+      },
+      {
+        "q": "Como vai a Mei para o jardim?",
+        "options": [
+          "Sai do museu, segue em frente e vira à direita na rotunda.",
+          "Sobe as escadas e vira à esquerda.",
+          "Apanha o elevador até ao jardim."
+        ],
+        "answer": "Sai do museu, segue em frente e vira à direita na rotunda.",
+        "explain": "警卫说：出门一直走，在环岛向右转。"
+      },
+      {
+        "q": "O que compra a Mei antes de sair?",
+        "options": [
+          "Um azulejo pequeno para a mãe.",
+          "Um bilhete para o jardim.",
+          "Um livro de fotografias."
+        ],
+        "answer": "Um azulejo pequeno para a mãe.",
+        "explain": "离开前她给妈妈买了一块小瓷砖。"
+      }
+    ]
+  }
+]

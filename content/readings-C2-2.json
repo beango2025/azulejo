@@ -1,0 +1,237 @@
+[
+  {
+    "id": "c2l6",
+    "title": "A fidelidade é uma forma de traição",
+    "text": "Numa sala pequena ao lado de uma livraria, dez pessoas discutem uma palavra. A palavra é «saudade» e está escrita a giz num quadro que ninguém limpou desde a sessão anterior. Alguém propõe «nostalgia»; alguém objeta que nostalgia é uma doença com nome médico; uma terceira voz, mais nova, sugere «missing», que é um verbo e portanto já perdeu metade do que vinha dizer. O formador, um homem de casaco de tweed gasto nos cotovelos, deixa o silêncio durar um pouco mais do que seria confortável. É nesse silêncio que a oficina de tradução começa verdadeiramente.\n\nConvém desconfiar do elogio do intraduzível. Dizer que uma palavra não se traduz é, quase sempre, uma forma elegante de a guardar para uso próprio: uma medalha que se prega no peito da língua materna. O intraduzível existe, claro, mas não onde o senso comum o procura — não nas palavras raras, e sim nas relações entre elas, nas preposições que uma língua exige e a outra tolera, no modo como o português cola o pronome ao verbo e o inglês o atira para depois. A palavra «saudade» é perfeitamente traduzível; o que resiste é a sintaxe que a acompanha.\n\nA tradução, ao contrário do que promete o dicionário, não procura identidade. Procura equivalência — e a diferença entre os dois termos é toda a diferença do mundo. A identidade repetiria; a equivalência responde. Quem traduz chega sempre depois do banquete e descreve-o a quem não esteve lá: não pode dar o sabor, mas pode dar a ordem dos pratos, o ruído da sala, a razão por que alguém se levantou da mesa. Há quem chame a isto traição. Chamemos-lhe antes uma forma de hospitalidade, exercida com os meios disponíveis.\n\nToda a adaptação implica perda, e é bom que implique. Uma versão que nada perdesse seria uma fotocópia, não uma leitura. O que se perde, porém, raramente é o que os puristas anunciam: perde-se o eco, a rima interior, o duplo sentido que existia na língua de partida e que na de chegada teria de ser inventado de raiz. Perder, aqui, não é um acidente de percurso; é o preço de entrar noutra casa. Quem nunca perdeu nada numa tradução provavelmente nunca traduziu nada — apenas transcreveu, com a consciência tranquila dos que confundem fidelidade com cópia.\n\nLembro-me de uma tia que emigrou e que durante trinta anos escreveu cartas numa língua híbrida, com o português antigo na cabeça e a gramática nova na mão. Traduzi uma dessas cartas para a família. Na versão literal, dizia: «aqui a vida é boa, mas o domingo é muito comprido». Na versão que acabei por ler em voz alta, disse: «aqui a vida é boa, mas o domingo não acaba». A primeira era exata; a segunda era verdadeira. Ninguém me pediu para justificar a escolha, e ainda hoje não sei se a justificaria.\n\nO mercado da tradução, entretanto, tem as suas próprias ironias. Multiplicam-se prémios para a fidelidade, júris que discutem vírgulas como quem discute fronteiras, e uma expressão latina — traduttore traditore — citada sobretudo por quem nunca passou uma tarde inteira à procura do advérbio certo. A indústria prefere a transparência: um texto que se leia como se tivesse sido escrito na língua de chegada. É uma aspiração respeitável e, levada ao limite, uma utopia higiénica, em que o estrangeiro desaparece para conforto do leitor.\n\nTalvez a fidelidade seja outra coisa. Talvez consista em deixar visível, na margem, a pequena hesitação — a nota de pé de página que admite que ali houve uma escolha, e que outra escolha era possível. O texto traduzido que se apresenta impecável, sem costura aparente, mente por omissão: faz passar por natural o que foi decidido. A hesitação, pelo contrário, é uma forma de honestidade. Não repete; responde. E, ao responder, assume que a língua de chegada é também uma casa com paredes, com janelas que abrem para um lado e não para o outro.\n\nNo fim da oficina, o formador apaga o quadro e diz que a palavra que os ocupou toda a tarde não voltará a aparecer. Alguém protesta. Ele sorri e explica que o objetivo nunca foi traduzir «saudade»: foi tornar cada um dos presentes incapaz de a usar sem pensar. Saímos para a rua com essa incapacidade nova, que é talvez o único saber que uma oficina de tradução pode transmitir. Lisboa estava a chover. E, por uma vez, a chuva pareceu-nos uma palavra perfeitamente traduzível.",
+    "questions": [
+      {
+        "q": "De acordo com o texto, qual é a diferença central entre «identidade» e «equivalência»?",
+        "options": [
+          "A identidade procura repetir o original; a equivalência procura responder-lhe.",
+          "A equivalência procura uma cópia exata, enquanto a identidade admite variação.",
+          "São dois termos que os dicionários usam como sinónimos absolutos."
+        ],
+        "answer": "A identidade procura repetir o original; a equivalência procura responder-lhe.",
+        "explain": "第三段明确指出：翻译追求的不是“identity”而是“equivalência”，原文是「A identidade repetiria; a equivalência responde」。B项颠倒了两者关系，C项与作者强调的「toda a diferença do mundo」相矛盾。"
+      },
+      {
+        "q": "O que o autor sugere com a frase «Quem nunca perdeu nada numa tradução provavelmente nunca traduziu nada»?",
+        "options": [
+          "Que a perda é indício de que houve tradução verdadeira, e não simples transcrição.",
+          "Que os tradutores incompetentes são os que mais perdem.",
+          "Que a perda deve ser eliminada por completo para se atingir a fidelidade."
+        ],
+        "answer": "Que a perda é indício de que houve tradução verdadeira, e não simples transcrição.",
+        "explain": "该句紧接「Perder... é o preço de entrar noutra casa」，并把「nunca perdeu nada」等同于「apenas transcreveu」，可见损失恰恰是真正翻译的标志。B项把损失归因于译者能力，C项正是作者反对的「cópia」理想。"
+      },
+      {
+        "q": "O tom predominante do texto pode descrever-se como:",
+        "options": [
+          "reflexivo e ironicamente reservado em relação ao elogio fácil do intraduzível.",
+          "didático e entusiástico, defendendo sem reservas os prémios de fidelidade.",
+          "queixoso e nostálgico, lamentando o desaparecimento das línguas."
+        ],
+        "answer": "reflexivo e ironicamente reservado em relação ao elogio fácil do intraduzível.",
+        "explain": "文章以「Convém desconfiar」开篇，随后讽刺「medalha que se prega no peito」与「utopia higiénica」，语气是沉思中带反讽。B项与对「prémios para a fidelidade」的调侃相反，C项夸大成了语言消亡的哀叹。"
+      },
+      {
+        "q": "A frase final — «a chuva pareceu-nos uma palavra perfeitamente traduzível» — sugere que:",
+        "options": [
+          "a experiência partilhada na oficina alterou a perceção que os participantes têm da linguagem.",
+          "o autor passou a acreditar que nenhuma palavra se perde na tradução.",
+          "o tempo em Lisboa mudou de repente, sem relação com a oficina."
+        ],
+        "answer": "a experiência partilhada na oficina alterou a perceção que os participantes têm da linguagem.",
+        "explain": "结尾把「chuva」这样一个极普通的词说成「完全可译」，与开头围绕不可译性的焦虑形成对照，暗示视角已被工作坊改变。B项过度绝对化，与全文对「perda」的肯定冲突；C项只取字面，忽略隐喻。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab01",
+    "title": "Quem escreve quando eu escrevo",
+    "text": "A estante de poesia fica no fundo da livraria, depois dos manuais e antes da secção infantojuvenil, como se a poesia fosse uma passagem secreta entre a utilidade e a infância. É uma estante estreita, de madeira clara, e ordena-se por apelido. Entre «Pessoa» e «Pessoa» há um vão de dois centímetros. Nunca soube se o vão é um erro de arrumação ou uma homenagem.\n\nOs heterónimos de Pessoa não são pseudónimos. Um pseudónimo esconde um nome; um heterónimo inventa uma biografia, uma poética, uma data de nascimento, uma posição política, um horóscopo. Alberto Caeiro nasceu em 1889 e morreu de tuberculose sem ter publicado quase nada em vida; Ricardo Reis é médico, monárquico, e escreve odes que parecem esculpidas em mármore frio; Álvaro de Campos é engenheiro naval, futurista, e grita. O autor, sentado à mesa do café, assina cartas em nome deles e discute com eles. É uma empresa de alma, com vários funcionários e um único proprietário — e cada heterónimo tem o seu horário e o seu salário.\n\n«O poeta é um fingidor», escreveu, e a frase tornou-se o cartão de visita de um país que gosta de se pensar inconformista. Mas o fingimento de que ele fala não é falsidade: é a construção consciente de uma voz que não coincide com o eu civil. Fingir, em português antigo, também significa moldar, dar forma. O poeta finge como o oleiro finge o barro. Quem lê a frase como confissão de mentira fica com o poema nas mãos e não sabe o que fazer com ele.\n\nO Livro do Desassossego é o exemplo mais radical desta estética. Não tem princípio, não tem fim, não tem enredo; é um arquivo de fragmentos assinados por Bernardo Soares, ajudante de guarda-livros numa cidade que é Lisboa sem o ser. Quem procura uma história sai frustrado; quem procura uma voz encontra duzentas. O desassossego não é uma emoção, é um método: a recusa de deixar o pensamento assentar. Lido de seguida, o livro cansa; lido em doses, corrói. Há edições que o apresentam como romance — uma traição comercial, mas compreensível: o leitor quer um fio, e o livro recusa-se a dá-lo.\n\nO verso é a unidade mínima dessa corrosão. Não o verso como metro, mas como respiração: aquilo que obriga a parar onde a sintaxe não mandava parar. Ler poesia em voz alta é sempre uma forma de interpretação, e por isso os poetas desconfiam tanto das leituras em voz alta. Uma pausa mal colocada pode transformar uma ironia em súplica, e uma cesura bem colocada pode transformar uma banalidade em sentença. Quem já ouviu um poema de Pessoa lido por um ator de televisão sabe do que falo.\n\nA alteridade é o verdadeiro tema da estante. Os heterónimos permitem ser outro sem sair do quarto, sem emigrar, sem mudar de nome no registo civil. É uma experiência de alteridade barata e vertiginosa: barata porque cabe numa folha de papel, vertiginosa porque, ao fim de algumas páginas, o «eu» que lê já não sabe quem está a falar. Há quem veja nisto uma fuga; há quem veja a mais rigorosa das autobiografias. As duas leituras são compatíveis, o que é outra maneira de dizer que nenhuma é suficiente.\n\nA ironia é que um país pequeno, que exportou durante décadas gente de carne e osso, tenha escolhido como embaixador um homem que duvidava da própria existência. Há uma estátua, um museu, um aeroporto com o seu nome, um prémio literário, um dia comemorativo. A máquina cultural transformou o desassossego em património, o que é uma proeza: embalsamar a inquietação e vendê-la em postais. O turista fotografa a estátua e leva para casa a certeza de ter compreendido um homem que passou a vida a não se compreender. Pessoa, que trabalhou num escritório de traduções e contabilidade, talvez achasse graça. Ou talvez não achasse graça nenhuma, e é justamente por isso que o continuamos a ler.\n\nFecho o livro e devolvo-o à estante, entre o «P» de Pessoa e o «P» de pessoa, que é a mesma letra e não é a mesma palavra. A livraria está a fechar; o empregado arruma cadeiras. Na rua, alguém me pergunta as horas e respondo com uma precisão exagerada, como se a certeza fosse uma forma de cortesia. Quem escreve quando eu escrevo? A pergunta fica sem resposta, o que, tratando-se de Pessoa, é a única resposta honesta.",
+    "questions": [
+      {
+        "q": "Segundo o texto, o que distingue um heterónimo de um pseudónimo?",
+        "options": [
+          "O heterónimo constrói uma biografia, uma poética e uma voz próprias; o pseudónimo apenas oculta um nome.",
+          "O pseudónimo exige uma obra completa, enquanto o heterónimo é só um nome falso.",
+          "Não há diferença: o texto considera os dois termos intercambiáveis."
+        ],
+        "answer": "O heterónimo constrói uma biografia, uma poética e uma voz próprias; o pseudónimo apenas oculta um nome.",
+        "explain": "第二段给出对比定义：「Um pseudónimo esconde um nome; um heterónimo inventa uma biografia, uma poética...」，并列举 Caeiro、Reis、Campos 的出生、职业与立场。B、C项均与这一区分相反。"
+      },
+      {
+        "q": "Como interpreta o autor o verso «O poeta é um fingidor»?",
+        "options": [
+          "Como uma teoria da criação poética, e não como confissão de que os poemas sejam mentira.",
+          "Como uma admissão de que toda a poesia é enganosa para o leitor.",
+          "Como uma crítica dirigida aos poetas que imitam os clássicos."
+        ],
+        "answer": "Como uma teoria da criação poética, e não como confissão de que os poemas sejam mentira.",
+        "explain": "第三段指出 fingimento「não é falsidade」，而是「construção consciente de uma voz」，并援引古义「moldar, dar forma」。B项正是作者批评的误读，C项文中未提及。"
+      },
+      {
+        "q": "Ao afirmar que a máquina cultural «embalsamou a inquietação», o autor critica:",
+        "options": [
+          "a conversão do desassossego em património comemorativo, estátuas e postais.",
+          "a falta de verbas públicas para os museus portugueses.",
+          "o facto de Pessoa ter trabalhado num escritório de contabilidade."
+        ],
+        "answer": "a conversão do desassossego em património comemorativo, estátuas e postais.",
+        "explain": "该段列举机场、博物馆、纪念日等，并说把不安「embalsamar... e vendê-la em postais」，讽刺的是文化工业对不安的驯化。B项文中无据，C项只是作者顺带提到的事实，并非批评对象。"
+      },
+      {
+        "q": "O último parágrafo caracteriza-se por um tom:",
+        "options": [
+          "ambíguo e discretamente irónico, deixando a pergunta deliberadamente em aberto.",
+          "conclusivo e otimista, resolvendo a questão da autoria.",
+          "indignado e acusatório para com o empregado da livraria."
+        ],
+        "answer": "ambíguo e discretamente irónico, deixando a pergunta deliberadamente em aberto.",
+        "explain": "结尾自问「Quem escreve quando eu escrevo?」，并说「a única resposta honesta」就是不回答，加上「precisão exagerada」的自嘲，构成含混反讽。B项声称问题已解决，C项把次要细节误读为指责。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab02",
+    "title": "Passa-me o sal, passa-me o subentendido",
+    "text": "Ao domingo, a mesa da sala de jantar é uma instituição. A toalha é de linho, herdada, com uma nódoa antiga que ninguém comenta; a sopa é de feijão verde e chega numa terrina que já viu passar três gerações. Há sempre um lugar vazio que não está vazio, e alguém que diz «senta-te aqui, que é o lugar do teu pai» como se o pai fosse chegar. A conversa começa pelas coisas seguras: o tempo, o preço do peixe, a vizinha do segundo andar. A televisão está ligada numa sala ao lado, sem som, e ninguém a desliga, porque o silêncio, ao domingo, é mais difícil de suportar do que a imagem.\n\nA ironia aparece cedo, mas ninguém a anuncia. «Está muito bom», diz a tia, e a frase tem uma vírgula invisível depois de «muito». Todos a ouvem. Ninguém a comenta. A ironia não está nas palavras — as palavras são impecáveis —, está no tom, na duração da pausa, no modo como o garfo continua a viagem até à boca. Quem chega de fora e não conhece o código toma a frase por elogio e pede a receita. É nesse momento que a mesa inteira compreende que há um estrangeiro entre nós.\n\nO subentendido é a moeda corrente destes almoços. Não se diz que o primo está desempregado; diz-se que «ele agora está a dedicar-se a uns projetos». Não se diz que o casamento da sobrinha está mal; diz-se que «ela tem muita paciência». O subentendido permite dizer tudo sem dizer nada, e a família treinou-se durante décadas nesta gramática do rodeio. O resultado é uma conversa elegantíssima, com vários andares, em que a informação circula por baixo do chão.\n\nO duplo sentido é o luxo da casa. O tio, que foi professor, tem um repertório de frases de dois fundos: «O rapaz tem futuro», a propósito de uma empresa que vai fechar; «Aquilo é uma casa muito arrumada», a propósito de uma casa onde ninguém entra há anos. O duplo sentido é também um lubrificante: permite que duas pessoas discordem sem se insultarem, e que uma terceira se ria sem tomar partido. Quando funciona, é uma forma superior de convivência. Quando falha, é uma bomba de relógio.\n\nÀ socapa, a avó serve mais uma vez a quem já disse que não queria, e à socapa a mãe retira o prato antes que o filho se dê conta. É um advérbio de gestos pequenos: a colher que se enche sem pedir licença, o guardanapo que se dobra, o copo que se afasta. Toda a afetividade desta família se exerce à socapa, porque o amor declarado seria uma indiscrição. Diz-se que os povos do sul são expansivos; esta mesa prova o contrário. Aqui, o excesso é sempre discreto, e a discrição é sempre excessiva.\n\n«Estou só a gozar», diz o irmão, quando a frase anterior já fez o seu trabalho. É a fórmula mágica que anula o dito sem o retirar: permite testar o terreno, medir a resistência do outro e recuar com a dignidade intacta. Quem se ofende é porque não tem sentido de humor; quem goza nunca é responsável. A família aperfeiçoou esta diplomacia ao longo de gerações e chama-lhe «brincar». Fora de casa, o mesmo mecanismo tem outro nome, menos inocente, e outra consequência. «Estou só a gozar» é, no fundo, um pedido de absolvição emitido depois da falta.\n\nVista de longe, esta mesa é uma pequena obra-prima de engenharia social: mantém todos juntos sem que ninguém tenha de concordar com ninguém. Vista de perto, é também um sistema de evitar o essencial. Nunca se fala do que dói; fala-se ao lado do que dói, com uma precisão de cirurgiões. O país faz o mesmo à escala nacional, nos comentários de televisão e nas sessões parlamentares: uma cultura política em que a frase decisiva é sempre a que não se pronuncia. A ironia, que parecia uma virtude de estilo, revela-se então uma técnica de sobrevivência — e, como todas as técnicas de sobrevivência, tem um custo.\n\nNo fim, o café é servido na sala, as cadeiras afastam-se, alguém liga a televisão sem som e alguém comenta o preço do peixe, para preencher o intervalo. A frase mais verdadeira do dia foi dita à socapa, junto ao lava-loiça, por alguém que não queria ser ouvido: «Ele não está bem.» Ninguém respondeu. Não era preciso. A mesa ficou posta até à noite, à espera de um segundo café que nunca chegou a ser pedido.",
+    "questions": [
+      {
+        "q": "Por que razão a frase «Está muito bom» provoca, na mesa, uma pausa significativa?",
+        "options": [
+          "Porque o tom e a duração da pausa transformam o elogio em ironia, que todos reconhecem sem comentar.",
+          "Porque a sopa estava efetivamente fria e a tia queria reclamar.",
+          "Porque ninguém na família gosta da tia e todos evitam falar com ela."
+        ],
+        "answer": "Porque o tom e a duração da pausa transformam o elogio em ironia, que todos reconhecem sem comentar.",
+        "explain": "第二段指出反讽「não está nas palavras... está no tom, na duração da pausa」，并说全桌都听见却无人评论。B、C项把文本的语用分析替换成具体情节，文中并无此信息。"
+      },
+      {
+        "q": "O subentendido é apresentado no texto como:",
+        "options": [
+          "uma forma de dizer tudo sem dizer nada, através de uma gramática do rodeio.",
+          "um erro de gramática típico da linguagem familiar.",
+          "uma técnica de contar histórias antigas aos mais novos."
+        ],
+        "answer": "uma forma de dizer tudo sem dizer nada, através de uma gramática do rodeio.",
+        "explain": "第三段原句即「permite dizer tudo sem dizer nada」，并举「dedicar-se a uns projetos」「tem muita paciência」为例。B项把修辞策略误作语法错误，C项文中未提。"
+      },
+      {
+        "q": "O que se pode inferir da observação de que, fora de casa, «o mesmo mecanismo tem outro nome, menos inocente, e outra consequência»?",
+        "options": [
+          "Que a mesma prática de humilhação disfarçada muda de estatuto conforme o contexto e as relações de poder.",
+          "Que a família é mais bem-educada do que as pessoas da rua.",
+          "Que o irmão devia ser expulso de casa pela família."
+        ],
+        "answer": "Que a mesma prática de humilhação disfarçada muda de estatuto conforme o contexto e as relações de poder.",
+        "explain": "该句紧接「quem goza nunca é responsável」，暗示同一「brincar」在家庭之外会被视为侵犯，重点在语境的转换，而非家庭更文明。B项与作者对家庭的批判相反，C项是过度具体的推断，文中无据。"
+      },
+      {
+        "q": "A atitude do autor em relação à ironia familiar é melhor descrita como:",
+        "options": [
+          "ambivalente: reconhece-lhe a inteligência e a função protetora, mas aponta o custo de nunca se dizer o essencial.",
+          "totalmente condenatória, sem qualquer concessão à inteligência do mecanismo.",
+          "saudosa e acrítica, apresentando a mesa como um paraíso perdido."
+        ],
+        "answer": "ambivalente: reconhece-lhe a inteligência e a função protetora, mas aponta o custo de nunca se dizer o essencial.",
+        "explain": "作者既称之为「pequena obra-prima de engenharia social」，又称其为「sistema de evitar o essencial」，并以「tem um custo」收束，态度明显是双重的。B项忽略赞赏，C项忽略批判。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab03",
+    "title": "O que fica em águas de bacalhau",
+    "text": "O quiosque da praça abriu às sete e meia, como sempre, e às nove já tinha três homens encostados ao balcão. Fala-se do mercado municipal, que fechou para obras há dois anos e cuja reabertura foi anunciada quatro vezes. O primeiro diz que viu camiões com andaimes. O segundo diz que os andaimes são de outra obra, do lado do liceu. O terceiro não diz nada, bebe a bica e olha para o relógio. É assim que começa, todos os dias, uma notícia.\n\n«Fiquei com a pulga atrás da orelha», explicou depois o primeiro, «quando vi o engenheiro a tirar fotografias às telhas». A expressão é antiga e a imagem é exata: um bicho minúsculo, invisível, que se instala e não deixa dormir. A pulga não é a prova; é o incómodo que obriga a procurar prova. E não se deixa apanhar: vive atrás da orelha, num lugar onde ninguém a pode ver sem se trair. Na vida de um bairro, este é o primeiro motor do conhecimento: alguém repara num detalhe que não encaixa e, a partir daí, a realidade fica ligeiramente desalinhada.\n\nO segundo homem, que trabalha numa loja de ferragens, meteu os pés pelas mãos. Contou o que sabia à pessoa errada — a filha do vereador, que passa ali todas as manhãs — e contou-o com aquele excesso de certeza que só têm os que ouviram dizer. A expressão descreve bem o desastre: os pés, feitos para andar, a fazer o trabalho das mãos, feitas para segurar. O resultado não é uma queda; é uma confusão de funções, um corpo que se atrapalha a si próprio. Na manhã seguinte, já toda a rua sabia. Ele ainda hoje jura que não foi ele. Meter os pés pelas mãos, dizia-lhe o pai, é querer arranjar o telhado pela chaminé.\n\nAs obras do mercado, entretanto, ficaram em águas de bacalhau. A expressão, de origem náutica ou culinária — as opiniões divergem, e é possível que ninguém saiba realmente —, designa o que se dissolve sem decisão, o plano que morre de adiamento. Não é o fracasso ruidoso, com ruína e processo judicial; é a suspensão mansa, o dossier que passa de gabinete em gabinete até perder o nome. O mercado continua fechado, com um cartaz que promete «brevemente» — palavra que, em linguagem administrativa, é uma forma educada de dizer «nunca».\n\nAo fim da tarde, os dois homens andam à toa pela rua. Não estão perdidos: estão à toa, que é outra coisa. Perder-se é não saber onde se está; andar à toa é saber exatamente onde se está e não ter para onde ir. A distinção importa, porque a segunda condição é mais frequente e menos dramática. O bairro anda à toa entre a hora do fecho e a hora do jantar, e é nessa meia hora que se trocam as informações, se comentam as fotografias das telhas e se decide, sem decidir nada, o destino do mercado.\n\nO terceiro homem, o que não falava, emigrou para França aos vinte e três anos e voltou aos quarenta, de mãos a abanar. A expressão tem uma crueldade discreta: não diz que ele perdeu tudo, diz que as mãos, abertas e vazias, são a única coisa que traz. Trouxe uma mulher, dois filhos e uma reforma pequena; trouxe também um sotaque que já não é de aqui nem de lá. «Voltei de mãos a abanar», diz ele, e ri. O riso é a parte mais séria da frase.\n\nAs expressões idiomáticas são arquivos. Guardam experiências que a língua considerou suficientemente repetidas para merecerem nome: a suspeita, o desastre social, o adiamento, a errância, a emigração. Não são enfeites do discurso; são o sedimento de uma história coletiva. Quem aprende português e decora estas expressões, sem lhes conhecer o peso, fala como quem recita um mapa sem ter andado. Quem as usa mal, ou fora de tempo, denuncia-se. Uma expressão mal empregada é como um sotaque falso: revela mais do que aquilo que diz. A rua é exigente com os seus arquivos, e não perdoa a quem chega com um dicionário na mão e nenhuma memória no corpo.\n\nAo fim de três meses, o mercado reabriu. Houve discursos, uma placa com o nome de um antigo presidente e um grupo de música. O primeiro homem ficou com a pulga atrás da orelha outra vez, porque o telhado novo era igual ao antigo. O segundo pediu desculpa a todos e a ninguém. O terceiro comprou uma bica, encostou-se ao balcão e não disse nada, de mãos a abanar, como quem já viu este filme. Talvez estivesse apenas à toa. Talvez soubesse, desde o início, que tudo aquilo ia ficar em águas de bacalhau outra vez.",
+    "questions": [
+      {
+        "q": "Segundo o texto, qual é a diferença entre «andar à toa» e «estar perdido»?",
+        "options": [
+          "Quem anda à toa sabe onde está, mas não tem para onde ir; quem está perdido não sabe onde está.",
+          "Andar à toa é uma forma mais grave de estar perdido.",
+          "As duas expressões descrevem exatamente a mesma situação."
+        ],
+        "answer": "Quem anda à toa sabe onde está, mas não tem para onde ir; quem está perdido não sabe onde está.",
+        "explain": "第五段明言「Perder-se é não saber onde se está; andar à toa é saber exatamente onde se está e não ter para onde ir」。B、C项都抹掉了作者刻意强调的区分。"
+      },
+      {
+        "q": "A expressão «de mãos a abanar», aplicada ao terceiro homem, sugere que:",
+        "options": [
+          "regressou sem bens materiais, mas o riso com que acompanha a frase revela uma perda mais funda do que a material.",
+          "voltou de França por opção, trazendo apenas o essencial.",
+          "nunca chegou a emigrar, apesar de o afirmar."
+        ],
+        "answer": "regressou sem bens materiais, mas o riso com que acompanha a frase revela uma perda mais funda do que a material.",
+        "explain": "第六段说「não diz que ele perdeu tudo... as mãos... são a única coisa que traz」，并以「O riso é a parte mais séria da frase」收束，暗示一种难以言明的丧失。B项与「reforma pequena」「sotaque」等细节不合，C项与文中事实相反。"
+      },
+      {
+        "q": "O que significa, no contexto, a afirmação «A rua é exigente com os seus arquivos»?",
+        "options": [
+          "Que o uso correto das expressões revela pertença e conhecimento da memória do bairro.",
+          "Que as expressões mudam de significado todos os dias e ninguém as domina.",
+          "Que os arquivos municipais conservam a documentação histórica da rua."
+        ],
+        "answer": "Que o uso correto das expressões revela pertença e conhecimento da memória do bairro.",
+        "explain": "该句位于把习语比作「arquivos」之后，紧接着批评「quem chega com um dicionário na mão e nenhuma memória no corpo」，故「exigente」指的是对本地经验的检验。B项与「arquivo」的稳定含义相反，C项把比喻当字面。"
+      },
+      {
+        "q": "O desfecho do texto sugere que:",
+        "options": [
+          "a reabertura do mercado não dissipou a desconfiança nem a sensação de que tudo se repete.",
+          "a placa, os discursos e a música resolveram finalmente o problema do bairro.",
+          "o terceiro homem sabia antecipadamente a data exata da reabertura."
+        ],
+        "answer": "a reabertura do mercado não dissipou a desconfiança nem a sensação de que tudo se repete.",
+        "explain": "结尾三人各自重演旧态度：第一人又起疑、第二人道歉而无人接受、第三人沉默，并以「ia ficar em águas de bacalhau outra vez」收束，暗示循环而非解决。B项与语气相反，C项是过度推断。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab04",
+    "title": "A terceira vez que se diz a mesma coisa",
+    "text": "O auditório tem duzentos e quarenta lugares e uma acústica generosa, dessas que transformam qualquer voz num pequeno acontecimento. Era uma sessão comemorativa, com bandeira, hino e uma lista de nomes impressa em papel vegetal. O orador era um homem de sessenta anos, fato escuro, e falou durante vinte e três minutos. Não disse nada de novo. Foi, ainda assim, o melhor discurso que ouvi este ano.\n\nA retórica tem má fama, e a má fama é merecida. Durante séculos foi ensinada como técnica de convencer, e a técnica, como todas as técnicas, serve tanto para iluminar como para vender. Mas a definição antiga era mais modesta e mais interessante: a retórica é a arte de tornar uma verdade persuasiva — ou, dito de outro modo, de tornar o auditório disposto a acreditar. Note-se o deslocamento: não se trata de provar, trata-se de dispor. Quem confunde as duas coisas faz discursos corretos que ninguém escuta. Ensinar retórica, hoje, é sobretudo ensinar a reconhecê-la nos outros e a desconfiar dela em nós.\n\nO orador usou uma anáfora. Repetiu, sete vezes, a mesma abertura: «Em nome daqueles que...». A anáfora é o recurso mais simples do mundo e o mais difícil de usar sem vergonha: repetir uma palavra no início de várias frases cria uma expectativa, e a expectativa, satisfeita com variação suficiente, produz prazer. É quase musical. Mas há um limite: à quarta ou quinta repetição, o público começa a ouvir o mecanismo, e nesse momento a emoção evapora-se. O orador soube parar antes do limite. É mais raro do que parece.\n\nA repetição, em retórica, não é redundância. Repetir é dizer outra vez com uma diferença: mais devagar, mais alto, com uma pausa antes. A diferença é o que separa a insistência do eco. Na política, a repetição é usada para fixar uma ideia que não resistiria a um exame; na literatura, é usada para mostrar que uma ideia não resiste a um exame e continua a ser dita. A mesma técnica, dois usos opostos. O contexto decide tudo, e o contexto, num auditório, é também o silêncio entre as frases.\n\nA persuasão não passou pelos argumentos. Passou pela disposição das cadeiras, pela luz, pela lista de nomes no papel vegetal, pelo modo como o homem esperou dois segundos antes de dizer a primeira palavra. Passou, sobretudo, por uma coisa que os manuais chamam ethos e que em português se diz, com menos rigor e mais verdade, «ser de confiança». O auditório não avaliou a validade dos silogismos; avaliou se aquele homem tinha o direito de estar ali. Tinha — e tinha, além disso, uma voz que não pedia licença. E isso, que não se argumenta, fez metade do trabalho.\n\nO discurso terminou com um apelo. «Não deixemos que...», começou, e a frase ficou suspensa no ar condicionado. O apelo é a parte mais perigosa de qualquer discurso, porque pede ação e, ao pedir ação, transfere a responsabilidade: o orador já fez a sua parte, agora a culpa é nossa. Todos aplaudiram. O aplauso, num auditório assim, é uma forma de consentimento barato — ninguém se compromete a nada e todos se sentem melhores. O apelo é também uma forma de cortesia: permite que o público saia da sala com a sensação de ter sido convocado para alguma coisa. É o género de contradição que a retórica sabe administrar melhor do que a filosofia.\n\nFui contar. O orador invocou «o futuro» sete vezes e não o definiu nenhuma. É um caso de manual: o significante vazio, a palavra que todos podem preencher com a própria fome. O futuro dos que querem obra, o futuro dos que querem ordem, o futuro dos que querem apenas que os filhos não emigrem. Cada um ouviu o seu. A frase era suficientemente ampla para caber em duzentas e quarenta pessoas e suficientemente vaga para não excluir ninguém. Não é demagogia; é engenharia.\n\nSaí do auditório com a frase do apelo a repetir-se na cabeça, o que é exatamente o efeito que se pretendia. No corredor, o eco ainda devolvia as últimas sílabas. Pensei que a única frase honesta daquela tarde tinha sido a que o orador esqueceu de repetir: aquela em que dizia, quase em surdina, que não sabia se o país ia conseguir. Foi dita uma vez, sem anáfora, sem pausa, sem papel vegetal. Por isso ninguém a aplaudiu. Por isso ainda hoje me lembro dela.",
+    "questions": [
+      {
+        "q": "Como é definida, no texto, a retórica antiga?",
+        "options": [
+          "Como a arte de tornar uma verdade persuasiva, dispondo o auditório a acreditar.",
+          "Como a arte de provar logicamente uma tese, dispensando a emoção.",
+          "Como a técnica de falar depressa para evitar objeções."
+        ],
+        "answer": "Como a arte de tornar uma verdade persuasiva, dispondo o auditório a acreditar.",
+        "explain": "第二段引述古义「a arte de tornar uma verdade persuasiva... de tornar o auditório disposto a acreditar」，并强调「não se trata de provar, trata-se de dispor」。B项正是作者所批评的混淆，C项文中无据。"
+      },
+      {
+        "q": "Por que motivo o autor afirma que a anáfora é «o mais difícil de usar sem vergonha»?",
+        "options": [
+          "Porque, a partir de certa altura, o público ouve o mecanismo e a emoção desaparece.",
+          "Porque exige um vocabulário erudito que poucos oradores dominam.",
+          "Porque só funciona em latim, língua em que foi inventada."
+        ],
+        "answer": "Porque, a partir de certa altura, o público ouve o mecanismo e a emoção desaparece.",
+        "explain": "第三段解释：重复到第四、五次，「o público começa a ouvir o mecanismo, e nesse momento a emoção evapora-se」，故难在克制。B、C项均为文中没有的说法。"
+      },
+      {
+        "q": "Ao dizer que «o futuro» funcionou como «um significante vazio», o autor sustenta que:",
+        "options": [
+          "cada ouvinte preencheu a palavra com as suas próprias expectativas, sem que o orador as definisse.",
+          "o orador desconhecia o significado da palavra que repetia.",
+          "o futuro, como conceito, não existe na linguagem política."
+        ],
+        "answer": "cada ouvinte preencheu a palavra com as suas próprias expectativas, sem que o orador as definisse.",
+        "explain": "第七段说「a palavra que todos podem preencher com a própria fome」，并列举三类人各听各的，重点在模糊性带来的可塑性。B项把修辞策略误作无知，C项是字面上的哲学化误读。"
+      },
+      {
+        "q": "O último parágrafo revela, sobretudo:",
+        "options": [
+          "uma admiração crítica pelo ofício do orador, com ironia em relação ao aplauso fácil.",
+          "um desprezo total pelo orador e por tudo o que ele disse.",
+          "um entusiasmo acrítico, confirmando a eficácia exemplar do discurso."
+        ],
+        "answer": "uma admiração crítica pelo ofício do orador, com ironia em relação ao aplauso fácil.",
+        "explain": "作者开篇称其为「o melhor discurso que ouvi este ano」，结尾却指出唯一诚实的一句「ninguém a aplaudiu」，赞赏与反讽并存。B项与开头的赞许矛盾，C项忽略了「aplauso barato」的批评。"
+      }
+    ]
+  }
+]

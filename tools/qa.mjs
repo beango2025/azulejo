@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','1.7.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','1.8.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -250,7 +250,8 @@ try {
   await click('[data-action="next-step"]');
   await sleep(450);
   await shot('20a-b1-immersion');
-  console.log('IMMERSION_READING', await evaluate(`document.querySelectorAll('.immersion-line').length`));
+  console.log('IMMERSION_PROSE', await evaluate(`document.querySelectorAll('.immersion-prose p').length`));
+  console.log('IMMERSION_WORDS', await evaluate(`document.querySelector('.immersion-meta span:nth-child(2)')?.textContent`));
   console.log('IMMERSION_QUESTIONS', await evaluate(`document.querySelectorAll('.immersion-question').length`));
   await click('.immersion-option');
   await sleep(250);

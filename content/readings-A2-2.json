@@ -1,0 +1,707 @@
+[
+  {
+    "id": "a2lab07",
+    "title": "No provador, com uma camisa azul",
+    "text": "Na quinta-feira, depois do trabalho, a Marta entrou numa loja de roupa no centro de Lisboa. Queria uma camisa para o casamento de uma amiga, no sábado seguinte. Havia muitas cores, mas ela gostou de uma camisa azul, muito simples. Olhou para a etiqueta e viu que era o tamanho M. Chamou a empregada e perguntou: «Posso experimentar esta camisa?» A empregada sorriu e mostrou-lhe o provador ao fundo da loja.\n\nDentro do provador, a Marta vestiu a camisa devagar. Era um pouco larga nos ombros, por isso pediu outro tamanho. A empregada trouxe o S. A camisa ficou bem, mas havia um problema pequeno: o botão de cima estava solto. A Marta mostrou o botão à empregada, que pediu desculpa e disse que podia dar um desconto de dez por cento.\n\nA Marta pensou um momento. Gostava muito da cor e o preço, com o desconto, era justo. Por isso disse: «Está bem, levo esta.» Na caixa, perguntou: «Posso pagar com cartão?» A empregada disse que sim e embrulhou a camisa num saco de papel. A Marta saiu contente, porque ainda teve tempo de apanhar o autocarro das sete e chegar a casa antes do jantar.",
+    "questions": [
+      {
+        "q": "Porque é que a Marta foi à loja?",
+        "options": [
+          "Para comprar uma camisa para um casamento.",
+          "Para comprar um presente para a mãe.",
+          "Para trocar uma camisa velha."
+        ],
+        "answer": "Para comprar uma camisa para um casamento.",
+        "explain": "开头说明她想要一件衬衫参加朋友的婚礼。"
+      },
+      {
+        "q": "Qual era o problema da camisa tamanho M?",
+        "options": [
+          "Era um pouco larga nos ombros.",
+          "Era demasiado pequena.",
+          "Tinha uma cor errada."
+        ],
+        "answer": "Era um pouco larga nos ombros.",
+        "explain": "试衣间里她说 M 码肩部有点宽，所以换了 S 码。"
+      },
+      {
+        "q": "O que fez a empregada quando viu o botão solto?",
+        "options": [
+          "Pediu desculpa e ofereceu um desconto.",
+          "Disse que não havia mais camisas.",
+          "Chamou o gerente da loja."
+        ],
+        "answer": "Pediu desculpa e ofereceu um desconto.",
+        "explain": "店员道歉并提出打九折。"
+      },
+      {
+        "q": "Como é que a Marta pagou a camisa?",
+        "options": [
+          "Com cartão.",
+          "Em dinheiro.",
+          "Com um vale da loja."
+        ],
+        "answer": "Com cartão.",
+        "explain": "她问「可以刷卡吗」，店员说可以。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab08",
+    "title": "Uma dor de dentes, à noite",
+    "text": "O Rui chegou a Lisboa na segunda-feira, para uma reunião de trabalho. Não conhecia bem o bairro onde estava o hotel e, à noite, começou a sentir uma dor forte num dente. Trabalhava numa empresa de construção e não podia faltar à reunião. Tentou dormir, mas não conseguiu. Às duas da manhã, levantou-se, vestiu um casaco e decidiu procurar uma farmácia de serviço.\n\nNa rua, estava tudo escuro e o Rui não sabia onde estava. Andou dez minutos, virou à direita, virou à esquerda, e percebeu que estava perdido. Viu um homem a fumar junto a um café e pediu: «Desculpe, preciso de ajuda. Onde fica a farmácia?» O homem foi simpático e explicou o caminho, devagar, com as mãos. A farmácia ficava em frente a uma igreja, a cinco minutos dali.\n\nA farmacêutica ouviu o Rui e disse que, para aquilo, ele precisava de um médico. «O senhor tem de ir à urgência do hospital», explicou. Deu-lhe um comprimido para a dor e chamou um táxi. No hospital, um médico viu o dente, fez uma radiografia e disse que era uma infeção. O Rui saiu às cinco da manhã, cansado mas sem dor, e no dia seguinte contou tudo aos colegas.",
+    "questions": [
+      {
+        "q": "Porque é que o Rui se levantou às duas da manhã?",
+        "options": [
+          "Porque tinha uma dor forte num dente.",
+          "Porque queria conhecer o bairro.",
+          "Porque a reunião começou cedo."
+        ],
+        "answer": "Porque tinha uma dor forte num dente.",
+        "explain": "他牙痛得睡不着，凌晨两点起床找药店。"
+      },
+      {
+        "q": "O que aconteceu quando o Rui andou na rua?",
+        "options": [
+          "Percebeu que estava perdido.",
+          "Encontrou um táxi logo.",
+          "Voltou para o hotel."
+        ],
+        "answer": "Percebeu que estava perdido.",
+        "explain": "他转了几个弯后发现自己迷路了。"
+      },
+      {
+        "q": "O que disse a farmacêutica ao Rui?",
+        "options": [
+          "Que precisava de um médico e da urgência.",
+          "Que lhe vendia um antibiótico.",
+          "Que a farmácia ia fechar."
+        ],
+        "answer": "Que precisava de um médico e da urgência.",
+        "explain": "药剂师说他需要看医生、去急诊。"
+      },
+      {
+        "q": "A que horas saiu o Rui do hospital?",
+        "options": [
+          "Às cinco da manhã.",
+          "Às duas da manhã.",
+          "Ao meio-dia."
+        ],
+        "answer": "Às cinco da manhã.",
+        "explain": "文末说他凌晨五点离开医院。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab09",
+    "title": "Sábado no mercado",
+    "text": "Todos os sábados de manhã, a Inês vai ao mercado do bairro com o vizinho, o Sr. António. Ele tem setenta anos, conhece todos os vendedores e nunca volta para casa sem fruta. A Inês gosta de o acompanhar, porque ele conta histórias antigas do bairro e ela aprende sempre alguma coisa.\n\nHoje o mercado está cheio. «Olha, Inês, as laranjas estão bonitas», diz o Sr. António. Ela concorda: «Pois, e o preço não é mau.» Compram dois quilos de laranjas e um pouco de alface. Depois, o Sr. António quer peixe. «Ó pá, este peixe é fresco?», pergunta ao vendedor. O homem ri-se e responde que o peixe chegou às seis da manhã, ainda do barco.\n\nA Inês precisa de pão para o almoço. «Já agora, também queria um pouco de queijo», diz ela. O vendedor corta o queijo e pergunta se ela quer provar. «Com certeza!», responde a Inês, e prova um pedaço pequeno. É delicioso, por isso leva duzentos gramas. No fim, os dois sentam-se num banco do jardim, com os sacos no chão. «Foi uma boa manhã», diz o Sr. António. A Inês ri-se, porque ele diz sempre a mesma coisa, e voltam para casa devagar.",
+    "questions": [
+      {
+        "q": "Com quem vai a Inês ao mercado?",
+        "options": [
+          "Com o vizinho, o Sr. António.",
+          "Com a mãe.",
+          "Com uma colega do trabalho."
+        ],
+        "answer": "Com o vizinho, o Sr. António.",
+        "explain": "第一段说她和邻居安东尼奥先生一起去。"
+      },
+      {
+        "q": "O que pergunta o Sr. António ao vendedor de peixe?",
+        "options": [
+          "Se o peixe é fresco.",
+          "Quanto custa o peixe.",
+          "Se há laranjas."
+        ],
+        "answer": "Se o peixe é fresco.",
+        "explain": "他问「这鱼新鲜吗」。"
+      },
+      {
+        "q": "O que faz a Inês quando lhe oferecem queijo para provar?",
+        "options": [
+          "Diz «Com certeza!» e prova.",
+          "Recusa, porque não gosta de queijo.",
+          "Pergunta o preço primeiro."
+        ],
+        "answer": "Diz «Com certeza!» e prova.",
+        "explain": "她回答「当然」，并尝了一小块。"
+      },
+      {
+        "q": "Onde descansam os dois no fim?",
+        "options": [
+          "Num banco do jardim.",
+          "Num café do mercado.",
+          "Em casa da Inês."
+        ],
+        "answer": "Num banco do jardim.",
+        "explain": "最后两人坐在花园的长椅上。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab10",
+    "title": "Domingo na cozinha da avó",
+    "text": "Ao domingo, a família da Sofia almoça sempre em casa da avó. A avó vive numa casa antiga, perto do rio, e a cozinha é a sala mais importante da casa. Tem uma mesa grande, uma janela pequena e um cheiro de arroz no forno que se sente na rua.\n\nHoje a Sofia chegou cedo para ajudar. A mãe está a cortar legumes e o pai está a pôr a mesa. O irmão mais novo, o Tiago, está sentado numa cadeira, a ver vídeos no telemóvel. «Tiago, ajuda-nos!», diz a mãe. Ele levanta-se, mas devagar. A avó faz arroz de pato, como sempre, e diz que aprendeu com a mãe dela, que vivia numa aldeia do norte.\n\n«Naquele tempo, a família era maior e havia sempre sopa», conta a avó. A Sofia gosta de ouvir estas histórias, porque para ela os avós são a memória da família. Depois do almoço, todos ficam na cozinha a falar. O pai bebe um café, a mãe lava os pratos e o Tiago já está a dormir no sofá. A Sofia olha para a mesa cheia de migalhas e pensa que estes domingos são os melhores dias da semana.",
+    "questions": [
+      {
+        "q": "Onde almoça a família ao domingo?",
+        "options": [
+          "Em casa da avó.",
+          "Num restaurante perto do rio.",
+          "Em casa da mãe da Sofia."
+        ],
+        "answer": "Em casa da avó.",
+        "explain": "文章开始就说周日全家在祖母家吃饭。"
+      },
+      {
+        "q": "O que está o Tiago a fazer quando a Sofia chega?",
+        "options": [
+          "Está sentado a ver vídeos no telemóvel.",
+          "Está a cortar legumes.",
+          "Está a pôr a mesa."
+        ],
+        "answer": "Está sentado a ver vídeos no telemóvel.",
+        "explain": "弟弟坐在椅子上看手机视频。"
+      },
+      {
+        "q": "Quem ensinou a avó a fazer arroz de pato?",
+        "options": [
+          "A mãe dela.",
+          "O avô.",
+          "Uma vizinha da aldeia."
+        ],
+        "answer": "A mãe dela.",
+        "explain": "祖母说这道菜是跟她自己的妈妈学的。"
+      },
+      {
+        "q": "O que faz o Tiago depois do almoço?",
+        "options": [
+          "Adormece no sofá.",
+          "Lava os pratos.",
+          "Vai para casa."
+        ],
+        "answer": "Adormece no sofá.",
+        "explain": "饭后蒂亚戈在沙发上睡着了。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab11",
+    "title": "Uma manhã com pressa",
+    "text": "Na terça-feira, o Pedro acordou e olhou para o telemóvel. Eram sete e vinte e cinco. «Não!», disse. Tinha de estar no escritório às oito, porque havia uma reunião importante com a chefe e com dois clientes. Tinha-se deitado tarde, porque estava a ver um jogo de futebol importante.\n\nLevantou-se muito depressa e foi para a casa de banho. Lavou a cara, escovou os dentes e vestiu a primeira camisa que encontrou. Não tomou o pequeno-almoço em casa; bebeu só um copo de leite na cozinha. A mãe disse-lhe: «Pedro, come uma torrada!» Ele respondeu: «Não tenho tempo, mãe!» Depois pegou na mochila e saiu a correr para a paragem.\n\nApanhou o autocarro às sete e cinquenta, mas o trânsito estava muito mau. O Pedro olhou para o relógio dez vezes. Chegou ao escritório às oito e dez e a chefe já estava na reunião. «Desculpe, o autocarro atrasou-se», disse ele. À noite, voltou para casa cansado e prometeu a si mesmo que ia acordar mais cedo. Tomou banho, comeu uma sopa e deitou-se às dez e meia. Mas, na quarta-feira, o despertador tocou outra vez e ele voltou a acordar tarde. No dia seguinte, vai pôr três despertadores.",
+    "questions": [
+      {
+        "q": "A que horas acordou o Pedro?",
+        "options": [
+          "Às sete e vinte e cinco.",
+          "Às sete e meia.",
+          "Às oito."
+        ],
+        "answer": "Às sete e vinte e cinco.",
+        "explain": "他看手机时是七点二十五分。"
+      },
+      {
+        "q": "O que comeu o Pedro antes de sair de casa?",
+        "options": [
+          "Bebeu só um copo de leite.",
+          "Comeu uma torrada.",
+          "Comeu uma sandes."
+        ],
+        "answer": "Bebeu só um copo de leite.",
+        "explain": "他没在家吃早餐，只喝了一杯牛奶。"
+      },
+      {
+        "q": "Porque é que o Pedro chegou tarde ao escritório?",
+        "options": [
+          "Porque o trânsito estava mau.",
+          "Porque perdeu o autocarro.",
+          "Porque a chefe o chamou antes."
+        ],
+        "answer": "Porque o trânsito estava mau.",
+        "explain": "他说路上交通很糟糕，公交晚点。"
+      },
+      {
+        "q": "O que prometeu o Pedro a si mesmo?",
+        "options": [
+          "Acordar mais cedo no dia seguinte.",
+          "Comprar um carro.",
+          "Falar com a chefe."
+        ],
+        "answer": "Acordar mais cedo no dia seguinte.",
+        "explain": "他决定第二天早起，但结果又起晚了。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab12",
+    "title": "A casa nova da Rita",
+    "text": "A Rita mudou-se para uma casa nova no mês passado. É uma casa pequena, mas tem tudo o que ela precisa. Hoje à noite, está sentada na sala, a ver televisão com a filha. A sala é a divisão maior: tem um sofá azul, uma estante com livros e uma televisão antiga que ainda funciona bem.\n\nAo lado da sala fica a cozinha, que é pequena mas muito clara. A Rita gosta de cozinhar ali, porque vê a rua pela janela. No primeiro andar há dois quartos. O quarto da Rita tem uma cama grande e um armário de madeira; o quarto da filha é mais pequeno e tem posters nas paredes. Entre os dois quartos fica a casa de banho, com um espelho grande e uma banheira branca.\n\nA parte preferida da Rita é a varanda. É pequena, mas tem duas cadeiras e muitas plantas. No verão, ela toma café ali todas as manhãs. «Quando comprámos esta casa, a varanda estava cheia de caixas», diz ela à filha. «Agora é o meu lugar favorito.» Na televisão começa um filme. A filha pergunta: «Mãe, posso ficar até ao fim?» A Rita diz que sim. É sexta-feira e amanhã não há escola.",
+    "questions": [
+      {
+        "q": "Quantos quartos tem a casa da Rita?",
+        "options": [
+          "Dois.",
+          "Um.",
+          "Três."
+        ],
+        "answer": "Dois.",
+        "explain": "二楼有两个卧室。"
+      },
+      {
+        "q": "O que fica entre os dois quartos?",
+        "options": [
+          "A casa de banho.",
+          "A cozinha.",
+          "A varanda."
+        ],
+        "answer": "A casa de banho.",
+        "explain": "两个卧室之间是卫生间。"
+      },
+      {
+        "q": "Qual é a parte preferida da Rita?",
+        "options": [
+          "A varanda.",
+          "A sala.",
+          "O quarto da filha."
+        ],
+        "answer": "A varanda.",
+        "explain": "她说阳台是她最喜欢的地方。"
+      },
+      {
+        "q": "O que pergunta a filha no fim?",
+        "options": [
+          "Se pode ficar até ao fim do filme.",
+          "Se pode ir dormir.",
+          "Se há pipocas em casa."
+        ],
+        "answer": "Se pode ficar até ao fim do filme.",
+        "explain": "女儿问能不能把电影看完。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab13",
+    "title": "Uma sessão no cinema do bairro",
+    "text": "Ontem à noite, fui ao cinema do bairro com a minha irmã. É um cinema antigo, com uma sala grande e cadeiras vermelhas. Havia pouca gente, por isso escolhemos lugares no meio, como gostamos. O bilhete custou cinco euros, o que é barato para Lisboa.\n\nAntes do filme, comi uma sandes de queijo e bebi uma água no café ao lado. A minha irmã comeu pipocas, mas eu não gosto de pipocas no cinema, porque fazem muito barulho. O filme era português e passava-se em Lisboa. Contava a história de uma professora que queria abrir uma livraria e que não tinha dinheiro para o aluguer.\n\nEra simples, mas muito bonito. Gostei muito do filme, sobretudo do fim, quando a professora abre a loja e os vizinhos entram para a ajudar. Hoje é domingo e falei com os meus pais ao telefone. Contei-lhes tudo. A minha mãe perguntou: «E a tua irmã também gostou?» Eu disse que sim, mas que ela chorou um pouco. «Isso é bom sinal», disse a minha mãe a rir. Foi um fim de semana calmo. Não fui à praia, não viajei, mas o cinema do bairro é uma boa companhia. A minha irmã já quer voltar na próxima semana.",
+    "questions": [
+      {
+        "q": "Com quem foi o narrador ao cinema?",
+        "options": [
+          "Com a irmã.",
+          "Com os pais.",
+          "Com um amigo do bairro."
+        ],
+        "answer": "Com a irmã.",
+        "explain": "第一句说和妹妹一起去了街区电影院。"
+      },
+      {
+        "q": "O que comeu o narrador antes do filme?",
+        "options": [
+          "Uma sandes de queijo.",
+          "Pipocas.",
+          "Um bolo."
+        ],
+        "answer": "Uma sandes de queijo.",
+        "explain": "他在旁边咖啡馆吃了奶酪三明治。"
+      },
+      {
+        "q": "Sobre o que era o filme?",
+        "options": [
+          "Uma professora que queria abrir uma livraria.",
+          "Uma família no Algarve.",
+          "Um professor de música em Lisboa."
+        ],
+        "answer": "Uma professora que queria abrir uma livraria.",
+        "explain": "电影讲一位女教师想开书店。"
+      },
+      {
+        "q": "O que fez a irmã durante o filme?",
+        "options": [
+          "Chorou um pouco.",
+          "Dormiu até ao fim.",
+          "Saiu da sala."
+        ],
+        "answer": "Chorou um pouco.",
+        "explain": "叙述者告诉母亲妹妹哭了一点。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab14",
+    "title": "Planos na paragem",
+    "text": "Estou na paragem do autocarro, à espera do 21. São seis da tarde e há muita gente. Ao meu lado está a Cláudia, uma colega do trabalho. Ela também vai para casa e está com um saco grande, porque vai viajar no dia seguinte.\n\n«Amanhã vou viajar para o Algarve», diz a Cláudia. «Vou passar quatro dias em Faro, com a minha irmã.» Eu pergunto se ela já tem o bilhete. Ela diz que sim, que comprou na internet, e que o autocarro parte às oito da manhã. «Vou acordar cedo, mas não me importo.» A Cláudia pergunta o que eu vou fazer no fim de semana. Eu explico que tenho um encontro com uns amigos no sábado, para jantar.\n\n«E no domingo?», pergunta ela. «Talvez vá ao mercado, mas não sei. Depende do tempo.» Ela ri-se: «Com este calor, talvez vá à praia.» O autocarro chega e entramos. A Cláudia senta-se junto à janela e eu fico de pé, porque não há lugares livres. «Boa viagem amanhã!», digo. «Obrigada! Depois envio-te fotografias», responde ela. Quando chego a casa, penso que também preciso de umas férias. Talvez compre um bilhete para o sul, no próximo mês.",
+    "questions": [
+      {
+        "q": "Para onde vai a Cláudia amanhã?",
+        "options": [
+          "Para Faro, no Algarve.",
+          "Para o Porto.",
+          "Para uma praia perto de Lisboa."
+        ],
+        "answer": "Para Faro, no Algarve.",
+        "explain": "她说要去阿尔加维的法鲁待四天。"
+      },
+      {
+        "q": "A que horas parte o autocarro da Cláudia?",
+        "options": [
+          "Às oito da manhã.",
+          "Às seis da tarde.",
+          "Às dez da manhã."
+        ],
+        "answer": "Às oito da manhã.",
+        "explain": "她在网上买了票，车早上八点出发。"
+      },
+      {
+        "q": "O que vai fazer o narrador no sábado?",
+        "options": [
+          "Vai jantar com uns amigos.",
+          "Vai viajar para o sul.",
+          "Vai trabalhar."
+        ],
+        "answer": "Vai jantar com uns amigos.",
+        "explain": "他说周六和朋友约了吃晚饭。"
+      },
+      {
+        "q": "Porque é que o narrador vai de pé?",
+        "options": [
+          "Porque não há lugares livres.",
+          "Porque o autocarro está vazio.",
+          "Porque prefere ir de pé."
+        ],
+        "answer": "Porque não há lugares livres.",
+        "explain": "车上已经没有空座位了。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab15",
+    "title": "Na serra, antes da chuva",
+    "text": "No domingo passado, fui caminhar na serra com dois amigos. Saímos de casa às sete da manhã, porque queríamos começar cedo. O tempo estava bom: havia sol, o céu estava azul e fazia um pouco de frio, mas nada de especial. A serra fica a uma hora de Lisboa, mas parece outro mundo.\n\nA caminhada era longa. Levámos água, fruta e um mapa de papel. Subimos durante duas horas e parámos num miradouro para comer uma sandes. Ao meio-dia, o sol estava forte e começou a fazer calor. Tirei o casaco e bebi muita água. «Em outubro, nunca sei que roupa vestir», disse o meu amigo João. É verdade: de manhã faz frio e à tarde faz calor.\n\nDepois do almoço, o céu mudou. Apareceram nuvens escuras e começou a chover. Não tínhamos guarda-chuva, por isso corremos até uma casa de pedra que fica na serra. Ficámos ali meia hora, a ver a chuva e a falar do tempo. Quando a chuva parou, o sol voltou, mas já estava mais fresco. Descemos devagar, com cuidado nas pedras molhadas. Chegámos ao carro às seis da tarde, cansados e com fome. Ainda assim, foi um bom dia. O João já quer voltar no próximo mês.",
+    "questions": [
+      {
+        "q": "A que horas saíram de casa?",
+        "options": [
+          "Às sete da manhã.",
+          "Às nove da manhã.",
+          "Ao meio-dia."
+        ],
+        "answer": "Às sete da manhã.",
+        "explain": "他们想早点出发，早上七点离家。"
+      },
+      {
+        "q": "Como estava o tempo de manhã?",
+        "options": [
+          "Havia sol e fazia um pouco de frio.",
+          "Estava a chover.",
+          "Fazia muito calor."
+        ],
+        "answer": "Havia sol e fazia um pouco de frio.",
+        "explain": "早上有太阳、天蓝，有点冷。"
+      },
+      {
+        "q": "Onde é que eles se abrigaram da chuva?",
+        "options": [
+          "Numa casa de pedra.",
+          "Debaixo de uma árvore.",
+          "No carro."
+        ],
+        "answer": "Numa casa de pedra.",
+        "explain": "他们跑到山上一座石头房子里躲雨。"
+      },
+      {
+        "q": "A que horas chegaram ao carro?",
+        "options": [
+          "Às seis da tarde.",
+          "Às quatro da tarde.",
+          "Ao meio-dia."
+        ],
+        "answer": "Às seis da tarde.",
+        "explain": "文末说下午六点回到车边。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab16",
+    "title": "Na caixa, com pressa",
+    "text": "A Ana entrou numa loja de roupa às seis e meia, depois do trabalho. Trabalha num escritório perto dali e sai sempre às seis. Precisava de uma camisola para o fim de semana e a loja ia fechar às sete. Havia muita gente nas caixas, por isso ela foi depressa para as prateleiras.\n\nEncontrou uma camisola verde, mas não sabia se era o tamanho certo. Uma funcionária explicou que os tamanhos estavam na etiqueta e que podia experimentar na cabine, ao fundo da loja. A Ana experimentou a camisola e ficou bem. Também viu um lenço bonito e decidiu levar os dois. A funcionária foi muito paciente e esperou.\n\nNa caixa, a funcionária perguntou: «Quer um saco?» A Ana disse que não, porque tinha uma mochila. Depois perguntou: «Tem desconto?» A funcionária olhou para o computador e respondeu que havia vinte por cento em tudo, porque a loja ia mudar de coleção. A Ana ficou contente e disse: «Levo a camisola e o lenço.» Pagou com cartão e saiu. Já na rua, viu que eram sete horas menos um quarto. Ainda havia tempo para apanhar o metro e chegar a casa antes do jantar. Estava com fome e pensou num jantar rápido.",
+    "questions": [
+      {
+        "q": "Porque é que a Ana foi depressa para as prateleiras?",
+        "options": [
+          "Porque a loja ia fechar às sete.",
+          "Porque havia uma promoção especial.",
+          "Porque a funcionária a chamou."
+        ],
+        "answer": "Porque a loja ia fechar às sete.",
+        "explain": "她六点半进店，商店七点关门。"
+      },
+      {
+        "q": "O que fez a Ana antes de comprar a camisola?",
+        "options": [
+          "Experimentou-a na cabine.",
+          "Pediu logo um desconto.",
+          "Foi a outra loja."
+        ],
+        "answer": "Experimentou-a na cabine.",
+        "explain": "店员告诉她可以在试衣间试穿。"
+      },
+      {
+        "q": "Porque é que havia desconto na loja?",
+        "options": [
+          "Porque a loja ia mudar de coleção.",
+          "Porque era o aniversário da loja.",
+          "Porque era segunda-feira."
+        ],
+        "answer": "Porque a loja ia mudar de coleção.",
+        "explain": "店员说全场八折，因为要换季。"
+      },
+      {
+        "q": "O que aconteceu quando a Ana foi pagar?",
+        "options": [
+          "A máquina de cartões não funcionou à primeira.",
+          "Não havia sacos na caixa.",
+          "A funcionária foi jantar."
+        ],
+        "answer": "A máquina de cartões não funcionou à primeira.",
+        "explain": "刷卡机一开始没反应，她等了一会儿。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab17",
+    "title": "Ajuda na farmácia do bairro",
+    "text": "Na quarta-feira de manhã, a Dona Lurdes foi à farmácia do bairro comprar um xarope para a tosse. É uma farmácia pequena, mas a farmacêutica conhece todos os vizinhos. Quando entrou, viu uma senhora estrangeira a falar com ela. A senhora tinha uma mala pequena e parecia nervosa. A Dona Lurdes vai lá quase todas as semanas.\n\nA farmacêutica chamou a Dona Lurdes: «Desculpe, a senhora fala inglês?» A Dona Lurdes falava um pouco. A senhora explicou que estava perdida, que o hotel ficava perto dali, mas não encontrava a rua. Tinha também uma dor no peito e precisava de ajuda. A farmacêutica mediu-lhe a tensão e não gostou do resultado.\n\n«Isto é melhor ver um médico», disse. «Vou chamar uma ambulância para a levar à urgência.» A senhora começou a chorar, mas a Dona Lurdes ficou com ela e falou devagar, para a acalmar. A ambulância chegou em dez minutos. Antes de sair, a senhora agradeceu às duas, em português: «Muito obrigada pela ajuda.» A Dona Lurdes voltou para casa sem o xarope, mas com uma boa história para contar à vizinha. No dia seguinte, soube que a senhora já estava bem. Foi um dia diferente para ela.",
+    "questions": [
+      {
+        "q": "O que foi a Dona Lurdes comprar?",
+        "options": [
+          "Um xarope para a tosse.",
+          "Uns comprimidos para dormir.",
+          "Um remédio para a dor de cabeça."
+        ],
+        "answer": "Um xarope para a tosse.",
+        "explain": "她去药店买治咳嗽的糖浆。"
+      },
+      {
+        "q": "Qual era o problema da senhora estrangeira?",
+        "options": [
+          "Estava perdida e tinha uma dor no peito.",
+          "Tinha perdido a mala no hotel.",
+          "Não tinha dinheiro para o táxi."
+        ],
+        "answer": "Estava perdida e tinha uma dor no peito.",
+        "explain": "她说自己迷路了，而且胸口疼。"
+      },
+      {
+        "q": "O que fez a farmacêutica depois de medir a tensão?",
+        "options": [
+          "Chamou uma ambulância para a urgência.",
+          "Deu-lhe um xarope.",
+          "Mandou-a para casa a pé."
+        ],
+        "answer": "Chamou uma ambulância para a urgência.",
+        "explain": "血压结果不好，药剂师叫了救护车送急诊。"
+      },
+      {
+        "q": "Como é que a senhora agradeceu?",
+        "options": [
+          "Em português: «Muito obrigada pela ajuda.»",
+          "Em inglês, com um abraço.",
+          "Com um presente para a farmácia."
+        ],
+        "answer": "Em português: «Muito obrigada pela ajuda.»",
+        "explain": "她用葡语说「非常感谢你们的帮助」。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab18",
+    "title": "Ao balcão do talho",
+    "text": "«Olha, Sr. Silva, hoje tenho uma carne muito boa», diz o homem do talho. O Sr. Silva ri-se, porque o homem diz isto todas as semanas. «Pois, mas eu queria só meio quilo de frango», responde. O Sr. Silva é vizinho do talho há vinte anos e conhece o dono, o Sr. Alberto, e também o filho dele, que agora trabalha ao balcão.\n\nHoje o filho está sozinho, porque o pai foi ao mercado. «Ó pá, o meu pai volta às onze», diz o jovem. «Quer esperar?» «Não, não faz mal. Podes cortar tu o frango», diz o Sr. Silva. Enquanto o jovem corta a carne, os dois falam do futebol. «Já agora, tens bifanas?», pergunta o Sr. Silva. «Tenho, sim. Quer um quilo?» «Com certeza. E também umas salsichas.»\n\nO jovem embrulha tudo em papel e põe num saco. «São sete euros e vinte», diz. O Sr. Silva paga e pergunta pelo pai. «Já deve estar a chegar. Passa amanhã?» «Passo, sim.» A caminho de casa, o Sr. Silva pensa que os talhos do bairro são diferentes dos supermercados: aqui conhece-se o nome das pessoas e fala-se de tudo um pouco, sem pressa.",
+    "questions": [
+      {
+        "q": "O que quer comprar o Sr. Silva?",
+        "options": [
+          "Meio quilo de frango.",
+          "Um quilo de bifanas.",
+          "Peixe fresco."
+        ],
+        "answer": "Meio quilo de frango.",
+        "explain": "他一开口就说只要半公斤鸡肉。"
+      },
+      {
+        "q": "Porque é que o Sr. Alberto não está no talho?",
+        "options": [
+          "Foi ao mercado.",
+          "Está doente.",
+          "Está de férias."
+        ],
+        "answer": "Foi ao mercado.",
+        "explain": "儿子说父亲去市场了，十一点回来。"
+      },
+      {
+        "q": "O que pede o Sr. Silva «já agora»?",
+        "options": [
+          "Bifanas e salsichas.",
+          "Um pouco de queijo.",
+          "Pão para o almoço."
+        ],
+        "answer": "Bifanas e salsichas.",
+        "explain": "他顺便问有没有 bifanas，还要了香肠。"
+      },
+      {
+        "q": "O que pensa o Sr. Silva sobre os talhos do bairro?",
+        "options": [
+          "Que são diferentes dos supermercados, porque se fala sem pressa.",
+          "Que são mais caros do que os supermercados.",
+          "Que fecham demasiado cedo."
+        ],
+        "answer": "Que são diferentes dos supermercados, porque se fala sem pressa.",
+        "explain": "结尾说这里认识人、慢慢聊天。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab19",
+    "title": "Caixas no sótão dos avós",
+    "text": "Os avós da Marta vão vender a casa onde viveram quarenta anos. No sábado, a família foi toda ajudar a arrumar as coisas. A mãe ficou na cozinha, o pai foi para a garagem e a Marta subiu ao sótão com o irmão.\n\nO sótão está cheio de caixas, malas velhas e móveis que ninguém usa. «Olha, aqui estão as fotografias da família», diz o irmão. A Marta abre uma caixa e encontra uma fotografia dos avós no dia do casamento. A avó tem um vestido branco simples e o avô tem uma camisa escura. «A avó era muito bonita», diz a Marta. No fundo do sótão há outra caixa, cheia de cartas. São cartas do avô para a avó, escritas quando ele estava na guerra.\n\nA Marta lê uma em voz alta: «Minha querida, estou bem e penso em ti todos os dias.» O irmão fica em silêncio. À noite, a família janta junta, na cozinha, e os avós contam histórias. A mãe chora um pouco. O pai diz: «Nós somos uma família pequena, mas temos muitas memórias.» A Marta guarda as cartas na mochila. Vai levá-las para a casa nova.",
+    "questions": [
+      {
+        "q": "Porque é que a família está em casa dos avós?",
+        "options": [
+          "Para ajudar a arrumar as coisas.",
+          "Para festejar um aniversário.",
+          "Para pintar a casa."
+        ],
+        "answer": "Para ajudar a arrumar as coisas.",
+        "explain": "祖父母要卖房，全家来帮忙收拾。"
+      },
+      {
+        "q": "O que encontra a Marta numa caixa?",
+        "options": [
+          "Uma fotografia do casamento dos avós.",
+          "Um vestido branco.",
+          "Um livro antigo de receitas."
+        ],
+        "answer": "Uma fotografia do casamento dos avós.",
+        "explain": "她在箱子里找到祖父母结婚那天的照片。"
+      },
+      {
+        "q": "Quem escreveu as cartas?",
+        "options": [
+          "O avô, para a avó.",
+          "A avó, para o avô.",
+          "A mãe, para o pai."
+        ],
+        "answer": "O avô, para a avó.",
+        "explain": "是祖父在战争期间写给祖母的信。"
+      },
+      {
+        "q": "O que faz a Marta com as cartas?",
+        "options": [
+          "Guarda-as na mochila.",
+          "Deixa-as no sótão.",
+          "Dá-as à mãe."
+        ],
+        "answer": "Guarda-as na mochila.",
+        "explain": "她把信放进背包，要带到新家去。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab20",
+    "title": "Sábado na lavandaria",
+    "text": "Ao sábado, o João acorda tarde. Normalmente acorda às sete, mas ao sábado fica na cama até às nove. Hoje acordou às nove e meia, com o sol na janela. O João trabalha numa loja de bicicletas durante a semana. Levantou-se devagar, preparou o pequeno-almoço e comeu duas torradas com manteiga e um café.\n\nDepois, arrumou a roupa suja num saco grande. Havia camisas, toalhas e lençóis, e o cesto estava cheio. O João vive num apartamento pequeno e não tem máquina de lavar, por isso vai à lavandaria da rua. É barata e o dono é simpático. Leva sempre um livro para não perder tempo. A lavandaria está cheia. O João põe a roupa na máquina quatro, compra o detergente e senta-se a esperar.\n\nAo lado, uma senhora idosa dobra lençóis. «Hoje há muita gente», diz ela. «É sábado», responde o João. Enquanto espera, lê um jornal velho. Depois tira a roupa da máquina, dobra tudo com cuidado e volta para casa com o saco pesado. Apanha o elevador, guarda a roupa e come uma sandes. Ao fim do dia, prepara a roupa para o dia seguinte. À noite, vê um filme e deita-se cedo. Amanhã quer acordar às oito, porque vai correr no parque.",
+    "questions": [
+      {
+        "q": "A que horas acordou o João hoje?",
+        "options": [
+          "Às nove e meia.",
+          "Às sete.",
+          "Às oito."
+        ],
+        "answer": "Às nove e meia.",
+        "explain": "周六他九点半醒来，阳光照进窗子。"
+      },
+      {
+        "q": "Porque é que o João vai à lavandaria?",
+        "options": [
+          "Porque não tem máquina de lavar em casa.",
+          "Porque a máquina dele está avariada.",
+          "Porque o café da lavandaria é bom."
+        ],
+        "answer": "Porque não tem máquina de lavar em casa.",
+        "explain": "他住的小公寓没有洗衣机。"
+      },
+      {
+        "q": "O que faz o João enquanto espera?",
+        "options": [
+          "Lê um jornal velho.",
+          "Fala com o dono da lavandaria.",
+          "Dorme numa cadeira."
+        ],
+        "answer": "Lê um jornal velho.",
+        "explain": "等衣服时他看一份旧报纸。"
+      },
+      {
+        "q": "O que quer fazer o João no domingo?",
+        "options": [
+          "Correr no parque.",
+          "Lavar mais roupa.",
+          "Ver outro filme."
+        ],
+        "answer": "Correr no parque.",
+        "explain": "他想周日八点起床去公园跑步。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab21",
+    "title": "A despensa do apartamento",
+    "text": "A Sofia mudou-se para um apartamento no centro da cidade. É a primeira casa só dela. O apartamento é pequeno: tem uma sala, um quarto, uma cozinha, uma casa de banho e uma varanda. Mudou-se há três semanas e ainda tem caixas por abrir.\n\nEsta manhã, a Sofia está a arrumar a despensa da cozinha. A despensa é a divisão mais pequena da casa, mas está sempre cheia. Há arroz, massa, latas de atum, açúcar e muitas coisas que ela não sabe de onde vêm. «Não preciso de comprar comida durante um mês», diz a rir. Na prateleira de baixo, encontra um pacote de farinha aberto e um frasco de mel. Ao lado, há duas caixas de chá e uma garrafa de azeite quase vazia. A Sofia põe tudo numa mesa e decide o que fica e o que vai para o lixo.\n\nA varanda está ao lado da cozinha e é o lugar preferido dela. É pequena, com duas cadeiras e uma planta grande. Depois de arrumar a despensa, a Sofia senta-se na varanda com um café e olha para a cidade. «A casa está a ficar como eu quero», pensa. «Agora só falta um sofá para a sala.»",
+    "questions": [
+      {
+        "q": "Onde fica a varanda do apartamento?",
+        "options": [
+          "Ao lado da cozinha.",
+          "Ao lado do quarto.",
+          "Em frente à sala."
+        ],
+        "answer": "Ao lado da cozinha.",
+        "explain": "阳台在厨房旁边。"
+      },
+      {
+        "q": "O que encontra a Sofia na prateleira de baixo?",
+        "options": [
+          "Um pacote de farinha aberto e um frasco de mel.",
+          "Duas garrafas de azeite.",
+          "Muitas latas de atum."
+        ],
+        "answer": "Um pacote de farinha aberto e um frasco de mel.",
+        "explain": "下层架子上是开过的面粉和一罐蜂蜜。"
+      },
+      {
+        "q": "O que diz a Sofia sobre a comida da despensa?",
+        "options": [
+          "Que não precisa de comprar comida durante um mês.",
+          "Que vai dar tudo aos vizinhos.",
+          "Que não gosta de arroz nem de massa."
+        ],
+        "answer": "Que não precisa de comprar comida durante um mês.",
+        "explain": "她笑着说一个月都不用买吃的。"
+      },
+      {
+        "q": "O que ainda falta na casa, segundo a Sofia?",
+        "options": [
+          "Um sofá para a sala.",
+          "Uma mesa para a cozinha.",
+          "Cadeiras para a varanda."
+        ],
+        "answer": "Um sofá para a sala.",
+        "explain": "结尾她说只差客厅的沙发了。"
+      }
+    ]
+  }
+]

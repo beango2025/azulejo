@@ -1,0 +1,707 @@
+[
+  {
+    "id": "b1l1",
+    "title": "À mesa, a falar da infância",
+    "text": "Jantávamos sempre à mesma mesa, na casa dos meus avós, em Setúbal. Eu tinha oito anos e a minha irmã seis. Enquanto a sopa arrefecia, o meu avô contava a história do tempo em que trabalhava no porto, e nós ouvíamos com paciência, porque sabíamos que, no fim, ele nos dava uma moeda para comprar rebuçados.\n\nA minha infância passou-se naquela rua estreita, entre a praia e o mercado. Brincávamos na rua até tarde, com os filhos dos vizinhos, e ninguém se preocupava com a hora. A minha mãe costumava chamar-nos à janela três vezes antes de nos convencer a subir. No verão, dormíamos com as janelas abertas e ouvíamos o mar. Havia sempre alguém a grelhar sardinhas, e o cheiro ficava na roupa até ao dia seguinte.\n\nUma noite, quando eu tinha dez anos, aconteceu algo que nunca esqueci. Estávamos a jogar à bola no largo quando, de repente, se ouviu um estrondo. Um rapaz tinha caído do muro e chorava muito. O meu avô saiu de casa, pegou nele ao colo e levou-o à farmácia. Nós ficámos quietos, sem saber o que fazer. Nessa noite, durante o jantar, ninguém falou. Só mais tarde percebi que o meu avô tinha medo, mas não quis mostrar. Ainda hoje me lembro do barulho do muro a cair.\n\nHoje, quando volto a Setúbal, vejo que a rua mudou muito. Já não há crianças a brincar até tarde nem vizinhos às janelas. Cresci, mudei de cidade e aprendi que as coisas boas da infância não voltam. Mas também percebi que é precisamente isso que as torna preciosas. Ao jantar, com os meus filhos, tento contar as mesmas histórias do meu avô — e eles ouvem com a mesma paciência, à espera da moeda. Como ele, guardo sempre uma moeda no bolso.",
+    "questions": [
+      {
+        "q": "Onde é que o narrador passou a infância?",
+        "options": [
+          "Em casa dos avós, em Setúbal.",
+          "Numa cidade grande, longe do mar.",
+          "Num apartamento em Lisboa, com os pais."
+        ],
+        "answer": "Em casa dos avós, em Setúbal.",
+        "explain": "文中明确说童年是在塞图巴尔祖父母家、海边和集市之间度过的。"
+      },
+      {
+        "q": "O que fazia a mãe do narrador ao fim da tarde?",
+        "options": [
+          "Chamava os filhos à janela para subirem.",
+          "Levava os filhos à praia para nadar.",
+          "Contava histórias sobre o porto."
+        ],
+        "answer": "Chamava os filhos à janela para subirem.",
+        "explain": "«costumava chamar-nos à janela três vezes» 说明母亲过去常这么做。"
+      },
+      {
+        "q": "«Brincávamos na rua até tarde» descreve sobretudo…",
+        "options": [
+          "um hábito repetido no passado.",
+          "uma ação única e terminada.",
+          "um plano para o futuro próximo."
+        ],
+        "answer": "um hábito repetido no passado.",
+        "explain": "未完成过去时（imperfeito）在此表示过去的习惯和背景，而不是一次性事件。"
+      },
+      {
+        "q": "O que sente o narrador quando regressa a Setúbal?",
+        "options": [
+          "Uma mistura de alegria e tristeza, porque a rua já não é a mesma.",
+          "Indiferença total, porque já não conhece ninguém.",
+          "Raiva dos vizinhos, que nunca o cumprimentaram."
+        ],
+        "answer": "Uma mistura de alegria e tristeza, porque a rua já não é a mesma.",
+        "explain": "推断题：他说街道变了、童年不回来，但又觉得正因如此才珍贵，并继续给孩子讲那些故事。"
+      }
+    ]
+  },
+  {
+    "id": "b1l2",
+    "title": "Numa esplanada, a sonhar",
+    "text": "Encontrámo-nos numa esplanada da Graça, ao fim da tarde, porque a Rita queria falar comigo antes de eu voltar para casa. Pedimos duas meias de leite e ficámos a ver as pessoas a passar na rua. O elétrico passava devagar e o cheiro a torrada lembrava-me as manhãs de sábado da minha infância. Ela estava com um ar cansado, mas sorria. «Ando a pensar em mudar de vida», disse, a olhar para o copo.\n\n«Se pudesse, deixava o escritório amanhã», continuou. «Gostaria de abrir uma livraria pequena com café, aqui no bairro, com livros de poesia e cadeiras antigas.» Disse-lhe que o sonho era bonito, mas caro. Ela riu-se. «Se fosse rica, já o tinha feito. Como não sou, tenho de pensar bem antes de dar o passo.»\n\nPensei na minha própria vida. Também eu gostaria de mudar de cidade, talvez para o Alentejo, e trabalhar com as mãos em vez de passar os dias em frente a um ecrã. Mas tenho uma casa, um contrato e uma filha na escola. Não é fácil explicar isto a alguém que fala dos sonhos em voz alta, com entusiasmo. Disse-lhe apenas que os sonhos que ficam por fazer também nos ajudam a suportar as segundas-feiras. Só quem já teve de escolher entre a vontade e a responsabilidade sabe o peso desta frase.\n\nA Rita pagou o café e disse que ia pensar melhor durante o fim de semana. No fundo, acho que ela não quer uma livraria: quer uma vida em que possa escolher. Se calhar, é isso que todos procuramos quando falamos de sonhos ao fim do dia. A diferença está em quem tem coragem de tentar e em quem prefere continuar a falar sobre isso numa esplanada, com uma meia de leite na mão. Ao despedirmo-nos, ficou combinado que voltaríamos ao mesmo café no mês seguinte, para saber das novidades.",
+    "questions": [
+      {
+        "q": "Porque é que a Rita quis encontrar-se com o narrador?",
+        "options": [
+          "Porque queria falar sobre mudar de vida.",
+          "Porque precisava de dinheiro emprestado.",
+          "Porque tinha um problema com a filha dele."
+        ],
+        "answer": "Porque queria falar sobre mudar de vida.",
+        "explain": "开头直接说 «Ando a pensar em mudar de vida»，整段对话都围绕这个主题。"
+      },
+      {
+        "q": "O que é que a Rita gostaria de fazer?",
+        "options": [
+          "Abrir uma livraria com café no bairro.",
+          "Voltar a estudar poesia na universidade.",
+          "Comprar uma casa no Alentejo."
+        ],
+        "answer": "Abrir uma livraria com café no bairro.",
+        "explain": "她说想开一家带咖啡的小书店，里面有诗集和旧椅子（«cadeiras antigas»）。"
+      },
+      {
+        "q": "«Se fosse rica, já o tinha feito.» A frase mostra que…",
+        "options": [
+          "a Rita não é rica e por isso ainda não realizou o sonho.",
+          "a Rita é rica, mas já não quer o sonho.",
+          "a Rita vai ficar rica no próximo ano."
+        ],
+        "answer": "a Rita não é rica e por isso ainda não realizou o sonho.",
+        "explain": "「Se + 过去未完成虚拟式 + 条件式」表示与现在事实相反的假设：她并不富有。"
+      },
+      {
+        "q": "Qual é a ideia principal do texto?",
+        "options": [
+          "Os sonhos ajudam a suportar o dia a dia, mesmo quando não se realizam.",
+          "Só quem tem dinheiro deve ter sonhos.",
+          "Trabalhar num escritório é melhor do que sonhar."
+        ],
+        "answer": "Os sonhos ajudam a suportar o dia a dia, mesmo quando não se realizam.",
+        "explain": "推断题：结尾说有些人有勇气尝试，有些人只会在露台上继续谈梦想。"
+      }
+    ]
+  },
+  {
+    "id": "b1l3",
+    "title": "No elétrico, a contar uma história",
+    "text": "No sábado passado, apanhei o elétrico 28 para ir ao Chiado encontrar-me com um amigo. Primeiro, tudo correu bem: havia lugar sentado, o dia estava limpo e o condutor cumprimentava toda a gente. Eu levava um livro e uma lista de tarefas, como sempre, e já estava a pensar no almoço. Entretanto, à altura da Sé, o elétrico parou no meio da subida e ficámos todos a olhar uns para os outros.\n\nUma senhora idosa, ao meu lado, começou a contar-me a sua vida. Tinha nascido naquela rua, casara na Sé e enviuvara muito cedo. Falava devagar, sem pressa, como se o tempo não existisse. Entretanto, o motorista anunciou que era preciso esperar vinte minutos. Ninguém se queixou: afinal, já todos ouvíamos a história dela, e havia quem fizesse perguntas. Contou-me que o marido tinha sido eletricista e que, quando ele morreu, ela aprendeu a andar sozinha pela cidade.\n\nQuando o elétrico voltou a andar, o meu amigo já tinha desistido de me esperar. O condutor pediu desculpa, como se a avaria fosse culpa dele. Afinal, cheguei ao Chiado uma hora atrasado, com o telemóvel cheio de mensagens. Enfim, encontrámo-nos numa tasca e contei-lhe tudo: a avaria, a senhora, a rua. Ele riu-se e disse que eu tinha perdido o almoço, mas ganho uma recordação. Ficámos ali duas horas, a falar de tudo e de nada, como antigamente.\n\nPenso muitas vezes nessa tarde. Vivemos com tanta pressa que uma avaria no elétrico nos parece uma catástrofe. Mas, naquele dia, aprendi que às vezes o atraso é o melhor que nos pode acontecer. Enfim, talvez seja isso que torna Lisboa difícil de explicar a quem só passa por aqui com um mapa na mão e um horário na cabeça. A pressa faz-nos perder as pessoas que estão ao nosso lado.",
+    "questions": [
+      {
+        "q": "O que aconteceu ao elétrico?",
+        "options": [
+          "Parou no meio da subida, à altura da Sé.",
+          "Bateu contra um carro na descida.",
+          "Não apareceu na paragem do Chiado."
+        ],
+        "answer": "Parou no meio da subida, à altura da Sé.",
+        "explain": "文中说 «parou no meio da subida»，地点在主教座堂（Sé）附近。"
+      },
+      {
+        "q": "O que fez a senhora idosa durante a espera?",
+        "options": [
+          "Contou a sua vida ao narrador.",
+          "Chamou um táxi para ir para casa.",
+          "Foi a pé até ao Chiado sozinha."
+        ],
+        "answer": "Contou a sua vida ao narrador.",
+        "explain": "她说自己在那条街出生、在 Sé 结婚、很早就守寡。"
+      },
+      {
+        "q": "Neste texto, «entretanto» serve para…",
+        "options": [
+          "indicar o que aconteceu durante a espera.",
+          "concluir a história com uma opinião.",
+          "negar o que foi dito antes."
+        ],
+        "answer": "indicar o que aconteceu durante a espera.",
+        "explain": "entretanto 表示「在此期间」，用来把同时发生的事情串起来。"
+      },
+      {
+        "q": "O que aprendeu o narrador com aquele dia?",
+        "options": [
+          "Que um atraso pode trazer algo bom.",
+          "Que nunca mais deve andar de elétrico.",
+          "Que os amigos não são de confiança."
+        ],
+        "answer": "Que um atraso pode trazer algo bom.",
+        "explain": "推断题：结尾说有时候「迟到」反而是最好的事，他并没有责怪朋友或电车。"
+      }
+    ]
+  },
+  {
+    "id": "b1l4",
+    "title": "No centro de saúde",
+    "text": "Na segunda-feira, acordei com a garganta a arder e o corpo pesado. Ao meio-dia, tinha febre e não conseguia comer nada. A minha mulher insistiu para eu ir ao centro de saúde, e lá fui, com o casaco levantado até ao queixo. A sala de espera estava cheia de gente com o mesmo ar de cansaço; ao meu lado, um senhor tossia sem parar. Levei o cartão de utente e o telemóvel, e ainda um livro que não cheguei a abrir.\n\nA médica chamou-me ao gabinete e perguntou o que eu sentia. Expliquei-lhe que tinha dores de cabeça, o nariz entupido e que estava com febre desde a noite anterior. «Há quanto tempo tem estes sintomas?», perguntou, sem levantar os olhos do ecrã. «Desde domingo à noite», respondi. Enquanto respondia, ela ia escrevendo no computador. Auscultou-me o peito e mediu-me a tensão.\n\n«É uma gripe», disse. «Não é grave, mas tem de descansar.» Pegou no receituário e escreveu à mão. «Passo-lhe uma receita para o antipirético e recomendo-lhe um tratamento de cinco dias: muito líquido, sopa e cama.» Avisou-me ainda que, se a febre não baixasse em três dias, devia voltar para nova consulta. Perguntei-lhe se podia trabalhar em casa e ela disse que sim, mas só se não tivesse febre.\n\nSaí de lá com a receita na mão e uma sensação estranha. Costumamos queixar-nos do sistema de saúde, das filas e da falta de médicos, mas naquela manhã tudo funcionou: entrei às três e um quarto e saí antes das quatro. Paguei a taxa moderadora, que era pequena, e agradeci à rececionista, que sorriu. Comprei os medicamentos na farmácia e fui para casa. Ao fim de três dias, comecei a melhorar. Hoje, quando ouço alguém dizer que não vale a pena ir ao médico por causa de uma gripe, lembro-me daquele corredor cheio e penso que, às vezes, vale.",
+    "questions": [
+      {
+        "q": "O que tinha o narrador?",
+        "options": [
+          "Uma gripe, com febre e dores de cabeça.",
+          "Uma perna partida, depois de uma queda.",
+          "Uma alergia ao pó da sala de espera."
+        ],
+        "answer": "Uma gripe, com febre e dores de cabeça.",
+        "explain": "医生诊断是 «uma gripe»，症状包括发烧、头痛和鼻塞。"
+      },
+      {
+        "q": "O que recomendou a médica?",
+        "options": [
+          "Descanso, líquidos e um tratamento de cinco dias.",
+          "Uma operação imediata no hospital.",
+          "Exercício físico intenso todos os dias."
+        ],
+        "answer": "Descanso, líquidos e um tratamento de cinco dias.",
+        "explain": "她说治疗要五天：多喝水、喝汤、卧床休息。"
+      },
+      {
+        "q": "«Há quanto tempo tem estes sintomas?» pergunta pela…",
+        "options": [
+          "pela duração dos sintomas.",
+          "pelo preço da consulta.",
+          "pela idade do doente."
+        ],
+        "answer": "pela duração dos sintomas.",
+        "explain": "「há quanto tempo」询问持续时间，病人回答「从周日晚上开始」。"
+      },
+      {
+        "q": "O que pensa o narrador sobre o centro de saúde?",
+        "options": [
+          "Que, apesar das críticas habituais, naquele dia funcionou bem.",
+          "Que devia ser fechado por falta de médicos.",
+          "Que os médicos tratam mal os doentes."
+        ],
+        "answer": "Que, apesar das críticas habituais, naquele dia funcionou bem.",
+        "explain": "推断题：他先说人们常抱怨排队和缺医生，但那次一切顺利，他还劝人别轻视就医。"
+      }
+    ]
+  },
+  {
+    "id": "b1l5",
+    "title": "No mercado, a escolher comida",
+    "text": "No sábado de manhã, fui ao mercado de Setúbal com a Inês, que é nutricionista e minha vizinha. Ela levou um caderno e uma lista curta, e eu levei apenas um saco de pano. «Hoje vamos comprar comida a sério», disse ela, a rir. Fomos cedo, antes das nove, porque ela diz que ao meio-dia já não se escolhe bem. O mercado estava cheio de vozes, de caixas de peixe e de cheiro a terra molhada.\n\nPrimeiro, passámos pela banca do peixe. A Inês escolheu sardinhas e um robalo pequeno, e explicou-me que o peixe fresco tem os olhos claros e o cheiro do mar. Depois, comprámos legumes da época: couve, cenoura, abóbora e muito tomate. «A alimentação mediterrânica é simples e equilibrada», disse. «Não precisamos de coisas caras.» Enquanto ela falava, o peixeiro limpava o peixe com uma faca rápida e as escamas caíam na banca.\n\nEnquanto andávamos, falámos dos nossos hábitos. Eu confessei-lhe que costumava jantar fora três ou quatro vezes por semana e que, em casa, abria muitas latas. Ela não me criticou. «Não deves mudar tudo de uma vez», aconselhou. «Em vez de comprares comida processada, compra o que é fresco e cozinha a mais ao domingo. E hidrata-te: a maior parte das pessoas bebe pouca água.» «E não tenhas pressa», continuou. «O corpo precisa de tempo para se habituar.»\n\nVoltei para casa com o saco pesado e uma ideia nova na cabeça. Durante a semana, segui os conselhos dela: cozinhei duas vezes, levei almoço para o trabalho e bebi água em vez de refrigerantes. Não perdi peso nenhum, mas senti-me melhor. A minha mulher reparou e disse que eu andava mais bem disposto. No fundo, penso que a Inês tem razão: mudar hábitos não é uma questão de força de vontade, é uma questão de organização. A receita da sopa de abóbora ficou colada no frigorífico.",
+    "questions": [
+      {
+        "q": "Quem é a Inês?",
+        "options": [
+          "Uma nutricionista que é vizinha do narrador.",
+          "A dona da banca do peixe no mercado.",
+          "Uma colega de trabalho do narrador."
+        ],
+        "answer": "Uma nutricionista que é vizinha do narrador.",
+        "explain": "文中说 «que é nutricionista e minha vizinha»。"
+      },
+      {
+        "q": "O que compraram no mercado?",
+        "options": [
+          "Peixe fresco e legumes da época.",
+          "Comida congelada e bolos para a semana.",
+          "Apenas enlatados e refrigerantes."
+        ],
+        "answer": "Peixe fresco e legumes da época.",
+        "explain": "他们买了沙丁鱼、小鲈鱼，以及当季的卷心菜、胡萝卜、南瓜和番茄。"
+      },
+      {
+        "q": "«Em vez de» introduz…",
+        "options": [
+          "uma alternativa ao que se costumava fazer.",
+          "uma causa do problema.",
+          "uma conclusão do texto."
+        ],
+        "answer": "uma alternativa ao que se costumava fazer.",
+        "explain": "「em vez de + 动词原形」表示「而不是」，提出替代做法。"
+      },
+      {
+        "q": "Qual é a opinião do narrador sobre mudar hábitos?",
+        "options": [
+          "Que é sobretudo uma questão de organização, não de força de vontade.",
+          "Que é impossível para quem trabalha fora.",
+          "Que só resulta com comida cara."
+        ],
+        "answer": "Que é sobretudo uma questão de organização, não de força de vontade.",
+        "explain": "推断题：结尾他说「mudar hábitos não é uma questão de força de vontade, é uma questão de organização」。"
+      }
+    ]
+  },
+  {
+    "id": "b1l6",
+    "title": "Em casa, à hora de dormir",
+    "text": "Depois do jantar, a minha irmã Sofia ficou na cozinha a olhar para a chávena vazia. Já eram onze e meia e ela ainda não tinha sono. A televisão estava ligada, sem som, e o cão dormia aos pés da mesa. «Ando a dormir mal há três meses», contou-me. «Deito-me cansada, mas fico a olhar para o teto durante horas.» Vestia um pijama de flanela e tinha as mãos frias, apesar do aquecedor ligado.\n\nPerguntei-lhe há quanto tempo sofria de insónia e ela disse que começara quando mudou de trabalho. «Tenho muito stress», admitiu. «Penso no escritório, nas contas, na minha mãe. À noite, o corpo está na cama, mas a cabeça continua a trabalhar.» Fiquei calado, porque também eu conheço essa sensação. Nunca disse isto a ninguém, mas tenho medo de que a insónia seja o começo de algo pior.\n\nSugeri-lhe algumas coisas simples. Que tentasse manter uma rotina: deitar-se e levantar-se sempre à mesma hora, mesmo ao fim de semana. Que deixasse o telemóvel na sala e lesse dez minutos antes de apagar a luz. Que não bebesse café depois do almoço. «E recomendo-te que fales com um médico se isto continuar», acrescentei. «O descanso não é um luxo.» «E não voltes a dizer que é preguiça», insisti eu. «É cansaço, e o cansaço trata-se.» Ela ouviu-me com atenção e prometeu anotar tudo num caderno. Nessa noite, dormi oito horas seguidas.\n\nDuas semanas depois, telefonou-me a dizer que já dormia seis horas seguidas e que se sentia outra pessoa. «Ainda acordo às vezes», disse, «mas já recupero energia ao fim de semana.» Fiquei contente. No fundo, acho que ninguém nos ensina a descansar: aprendemos a trabalhar, a cumprir horários, a responder a mensagens, mas ninguém nos explica que dormir também é uma forma de cuidar de nós.",
+    "questions": [
+      {
+        "q": "De que sofre a Sofia?",
+        "options": [
+          "De insónia, há cerca de três meses.",
+          "De dores nas costas, desde o verão.",
+          "De falta de apetite ao jantar."
+        ],
+        "answer": "De insónia, há cerca de três meses.",
+        "explain": "她说自己睡不好已经三个月，晚上躺着看天花板。"
+      },
+      {
+        "q": "Quando é que os problemas de sono começaram?",
+        "options": [
+          "Quando mudou de trabalho.",
+          "Quando a mãe adoeceu.",
+          "Depois de uma viagem ao estrangeiro."
+        ],
+        "answer": "Quando mudou de trabalho.",
+        "explain": "「começara quando mudou de trabalho」，压力也随之增加。"
+      },
+      {
+        "q": "O que recomenda o narrador?",
+        "options": [
+          "Uma rotina regular e menos ecrãs à noite.",
+          "Tomar comprimidos para dormir todos os dias.",
+          "Trabalhar mais horas para cansar o corpo."
+        ],
+        "answer": "Uma rotina regular e menos ecrãs à noite.",
+        "explain": "建议固定作息、把手机留在客厅、睡前读书，必要时看医生。"
+      },
+      {
+        "q": "O que conclui o narrador no fim?",
+        "options": [
+          "Que dormir bem é uma forma de cuidar de nós, mas ninguém nos ensina.",
+          "Que o stress é impossível de evitar.",
+          "Que a irmã devia mudar outra vez de trabalho."
+        ],
+        "answer": "Que dormir bem é uma forma de cuidar de nós, mas ninguém nos ensina.",
+        "explain": "推断题：结尾说我们学会工作、守时、回消息，却没人教我们休息也是一种自我照顾。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab01",
+    "title": "No sótão, com fotografias",
+    "text": "A minha avó decidiu, aos oitenta e dois anos, mudar-se para um apartamento mais pequeno. Num domingo de outubro, toda a família subiu ao sótão da casa de Coimbra para arrumar o que lá estava. Havia caixas, malas, um berço antigo e um cheiro a pó e a madeira que me levou de imediato à infância. A casa ia ser vendida em novembro, e a minha avó queria levar só o que cabia em duas malas.\n\nA minha mãe abriu a primeira caixa e ficou parada. Lá dentro havia fotografias a preto e branco, cadernos da escola e um carro de lata com uma roda partida. «Isto era meu», disse, com os olhos a brilhar. «Costumava brincar com este carro no quintal, até a minha mãe me chamar para jantar.» Havia também um caderno com receitas e as contas da casa, escritas a lápis. Sentámo-nos todos no chão, à volta das caixas.\n\nEnquanto revíamos as fotografias, a minha avó apareceu à porta. Contou-nos que a casa tinha sido construída pelo marido, pedra a pedra, nos anos cinquenta. Explicou-nos que, no inverno, aquecia a casa com uma lareira e que os filhos dormiam juntos para não terem frio. De repente, calou-se e olhou para a janela. Percebi que não estava a ver o telhado do vizinho, mas o quintal de há sessenta anos, com os filhos pequenos a correr.\n\nNessa tarde, ninguém quis arrumar nada. Ficámos ali até anoitecer, a ouvir histórias e a rir de nomes antigos. A minha mãe chorou um pouco, mas depois riu-se. Levei para casa o carro de lata e três fotografias. Às vezes, quando crescer me parece uma coisa que só acontece aos outros, olho para aquelas imagens e percebo que a infância não desaparece: fica guardada em caixas, à espera de que alguém suba ao sótão.",
+    "questions": [
+      {
+        "q": "Porque é que a família subiu ao sótão?",
+        "options": [
+          "Para arrumar as coisas da avó, que ia mudar de casa.",
+          "Para pintar o sótão antes do inverno.",
+          "Para procurar um brinquedo perdido do narrador."
+        ],
+        "answer": "Para arrumar as coisas da avó, que ia mudar de casa.",
+        "explain": "开头说祖母八十二岁决定搬到小一点的公寓，全家去阁楼收拾东西。"
+      },
+      {
+        "q": "O que encontraram na primeira caixa?",
+        "options": [
+          "Fotografias antigas, cadernos e um carro de lata.",
+          "Roupa de inverno e sapatos velhos.",
+          "Livros de receitas e louça partida."
+        ],
+        "answer": "Fotografias antigas, cadernos e um carro de lata.",
+        "explain": "«fotografias a preto e branco, cadernos da escola e um carro de lata»。"
+      },
+      {
+        "q": "Neste texto, «de repente» marca…",
+        "options": [
+          "uma mudança súbita na narração.",
+          "uma repetição do que já foi dito.",
+          "uma explicação científica."
+        ],
+        "answer": "uma mudança súbita na narração.",
+        "explain": "de repente 表示「突然」，用来打断叙述、引入转折。"
+      },
+      {
+        "q": "O que sentiu a avó ao olhar pela janela?",
+        "options": [
+          "Emoção, porque estava a ver o passado e não o quintal de hoje.",
+          "Cansaço, porque queria acabar a limpeza depressa.",
+          "Medo de que a casa caísse."
+        ],
+        "answer": "Emoção, porque estava a ver o passado e não o quintal de hoje.",
+        "explain": "推断题： narrator percebe que ela não via o telhado do vizinho, mas o quintal de sessenta anos atrás."
+      }
+    ]
+  },
+  {
+    "id": "b1lab02",
+    "title": "Numa esplanada ao pôr do sol",
+    "text": "O Tiago telefonou-me numa quinta-feira e convidou-me para ir a Cascais ver o pôr do sol. «Tenho uma coisa para te contar», disse, sem dar mais explicações. Encontrámo-nos numa esplanada junto à marina, com o céu já cor de laranja. Ele pediu uma água, eu pedi um café, e ficámos calados durante um minuto, a ouvir as gaivotas. A marina estava cheia e havia música vinda de um bar.\n\n«Deixei o trabalho», anunciou, por fim. «E não, não vou vender a casa. Vou abrir uma casa de hóspedes pequena, em Sintra, com quatro quartos.» Fiquei surpreendido. O Tiago era engenheiro informático há quinze anos e ganhava bem. «Se pudesse, tinha feito isto aos trinta», explicou. «Mas na altura tinha medo. Agora tenho medo de não tentar.» Falou com entusiasmo dos quartos, das obras e das paredes que ia pintar de branco.\n\nPerguntei-lhe se o sonho era realista. Ele encolheu os ombros. «Se fosse fácil, não era um sonho, era um plano.» Contou-me que ia precisar de um empréstimo e que a mulher apoiava, embora estivesse nervosa. «Gostaria de abrir em março», disse. «Se tudo correr bem, claro.» Disse-me também que os pais não concordam e que a mãe ainda não sabe. Falou também do nome: «Casa do Alto», simples e fácil de lembrar.\n\nVoltei para casa a pensar na conversa. Também eu tenho um sonho guardado numa gaveta: mudar de cidade e montar uma pequena oficina de cerâmica. Nunca o disse a ninguém, com medo de parecer ingénuo. Naquela noite, ao chegar, escrevi num papel o primeiro passo que poderia dar. O papel continua na gaveta, mas às vezes, quando a abro, já não parece um sonho: parece uma decisão à espera de coragem. Enquanto isso, continuo no mesmo emprego, a contar os meses.",
+    "questions": [
+      {
+        "q": "O que queria o Tiago contar ao narrador?",
+        "options": [
+          "Que ia deixar o trabalho e abrir uma casa de hóspedes.",
+          "Que ia vender a casa e mudar-se para o estrangeiro.",
+          "Que tinha perdido o emprego de engenheiro."
+        ],
+        "answer": "Que ia deixar o trabalho e abrir uma casa de hóspedes.",
+        "explain": "他说 «Deixei o trabalho» 并计划在辛特拉开一家四个房间的小旅馆。"
+      },
+      {
+        "q": "Porque é que ele não realizou o sonho aos trinta anos?",
+        "options": [
+          "Porque tinha medo, na altura.",
+          "Porque não tinha dinheiro nenhum.",
+          "Porque a mulher não deixou."
+        ],
+        "answer": "Porque tinha medo, na altura.",
+        "explain": "他说「na altura tinha medo」，现在怕的是「不去尝试」。"
+      },
+      {
+        "q": "«Se pudesse, tinha feito isto aos trinta» exprime…",
+        "options": [
+          "uma hipótese irreal no passado.",
+          "uma ordem para o futuro.",
+          "uma certeza sobre o presente."
+        ],
+        "answer": "uma hipótese irreal no passado.",
+        "explain": "se + imperfeito do conjuntivo + condicional composto 表示与过去事实相反的假设。"
+      },
+      {
+        "q": "O que faz o narrador depois da conversa?",
+        "options": [
+          "Escreve o primeiro passo do seu próprio sonho num papel.",
+          "Decide abrir também uma casa de hóspedes.",
+          "Telefona ao Tiago para o convencer a desistir."
+        ],
+        "answer": "Escreve o primeiro passo do seu próprio sonho num papel.",
+        "explain": "推断题：他也有个梦想（换城市教葡语），那晚写下第一步，但仍未行动。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab03",
+    "title": "No comboio para o Porto",
+    "text": "Na sexta-feira passada, apanhei o comboio das sete para o Porto, onde ia visitar a minha tia. Levantei-me às cinco e meia e ainda houve tempo para um café na estação. Primeiro, tudo parecia normal: o comboio partiu a horas, o lugar era confortável e eu tinha um livro na mochila. Entretanto, à saída de Coimbra, houve uma avaria e ficámos parados durante quarenta minutos.\n\nAo meu lado, um casal de idosos começou a conversar comigo. Iam ao Porto ver o neto, que fazia anos nesse dia. «Já não vamos a tempo do bolo», disse a senhora, a rir. Pouco depois, o revisor passou e explicou que havia transbordo em Aveiro. Era simpático e ajudou uma mãe com um carrinho de bebé. Ninguém se irritou; afinal, era sexta-feira e o sol entrava pelas janelas. O senhor mostrou-me uma fotografia do neto no telemóvel e eu disse que era parecido com ele.\n\nQuando chegámos a Aveiro, perdemos o transbordo por dois minutos. Afinal, tivemos de esperar mais uma hora, numa plataforma fria, com café de máquina. Enfim, chegámos ao Porto às onze e meia, três horas depois do previsto. A minha tia estava à espera, com um ar preocupado, e o almoço já estava na mesa. Ela ralhou comigo por causa do atraso, mas depois pôs a sopa a aquecer.\n\nHoje, quando penso nessa viagem, não me lembro da avaria. Lembro-me do casal, do neto que fazia anos e do bolo que eles nunca chegaram a comer. Ficou-me a recordação de uma manhã estranha, em que ninguém tinha culpa de nada e todos decidiram ser simpáticos. Enfim, talvez seja isso que faz uma viagem: não o destino, mas as pessoas que encontramos no caminho. E, para ser honesto, voltaria a fazer a mesma viagem.",
+    "questions": [
+      {
+        "q": "O que aconteceu durante a viagem?",
+        "options": [
+          "Houve uma avaria perto de Coimbra e o comboio parou.",
+          "O comboio partiu com duas horas de atraso.",
+          "O narrador perdeu o bilhete."
+        ],
+        "answer": "Houve uma avaria perto de Coimbra e o comboio parou.",
+        "explain": "「à saída de Coimbra, houve uma avaria e ficámos parados durante quarenta minutos」。"
+      },
+      {
+        "q": "Porque é que o casal idoso ia ao Porto?",
+        "options": [
+          "Para ver o neto, que fazia anos.",
+          "Para visitar um médico.",
+          "Para vender uma casa."
+        ],
+        "answer": "Para ver o neto, que fazia anos.",
+        "explain": "老太太说「Já não vamos a tempo do bolo」，因为那天是孙子的生日。"
+      },
+      {
+        "q": "O que introduz a palavra «afinal» neste texto?",
+        "options": [
+          "A conclusão de uma situação que mudou o plano.",
+          "O início de uma nova viagem.",
+          "Uma pergunta direta ao leitor."
+        ],
+        "answer": "A conclusão de uma situação que mudou o plano.",
+        "explain": "afinal 引出一连串变化后的结果：错过转乘，又等了一小时。"
+      },
+      {
+        "q": "O que fica desta viagem para o narrador?",
+        "options": [
+          "A recordação das pessoas e da manhã estranha, não da avaria.",
+          "A certeza de que nunca mais anda de comboio.",
+          "A tristeza de ter chegado tarde ao almoço."
+        ],
+        "answer": "A recordação das pessoas e da manhã estranha, não da avaria.",
+        "explain": "推断题：结尾说记住的是那对夫妇和没吃到的蛋糕，而不是故障。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab04",
+    "title": "Na sala de espera do centro de saúde",
+    "text": "Cheguei ao centro de saúde às oito e meia e a sala de espera já estava cheia. Havia pessoas de todas as idades, algumas com crianças ao colo. Sentei-me ao lado de um senhor de setenta anos, que tinha uma bengala e uma pasta de plástico nos joelhos. Ele queixava-se de dores nas costas e de não conseguir dormir. «Estou com estas dores há dois meses», disse-me, sem que eu perguntasse nada.\n\nContou-me que trabalhava numa obra, que se aposentara cedo por causa da coluna. «Já fui a três médicos», explicou. «Todos me dizem a mesma coisa: repouso, comprimidos e paciência.» Mostrou-me a pasta: tinha receitas antigas, análises e uma folha com a lista dos sintomas, escrita com letra grande. «Faço isto para não me esquecer de nada.» Contou-me que a filha vivia em Inglaterra e que ligava todos os domingos.\n\nQuando a enfermeira o chamou, levantou-se devagar, apoiado na bengala, e deixou cair a pasta; eu ajudei-o a apanhar os papéis. Antes de entrar, virou-se para mim: «Não deixe passar muito tempo. Eu deixei, e agora é pior.» Fiquei sozinho com as revistas velhas e o barulho do ar condicionado. Vinte minutos depois, chegou a minha vez.\n\nA consulta durou pouco: era só para renovar uma receita e falar do tratamento. A médica perguntou-me como estava a dormir e receitou-me o mesmo tratamento do mês passado. Mas saí de lá a pensar no senhor da bengala. Naquele corredor, entre pessoas doentes e folhas de papel, percebi que a saúde não é só uma questão de comprimidos. É também de tempo, de paciência e de alguém que nos oiça antes de nos dizer que vamos melhorar. Fiquei com a receita na mão e com uma frase na cabeça: «Não deixe passar muito tempo.»",
+    "questions": [
+      {
+        "q": "De que se queixava o senhor ao lado do narrador?",
+        "options": [
+          "De dores nas costas e de não conseguir dormir.",
+          "De falta de ar e de tosse constante.",
+          "De uma perna partida, depois de uma queda."
+        ],
+        "answer": "De dores nas costas e de não conseguir dormir.",
+        "explain": "「queixava-se de dores nas costas e de não conseguir dormir」，并说持续了两个月。"
+      },
+      {
+        "q": "O que levava ele na pasta de plástico?",
+        "options": [
+          "Receitas antigas, análises e uma lista de sintomas.",
+          "Fotografias da família e um caderno.",
+          "Comida e um frasco de água."
+        ],
+        "answer": "Receitas antigas, análises e uma lista de sintomas.",
+        "explain": "他给叙述者看旧处方、化验单和用大字写的症状清单。"
+      },
+      {
+        "q": "«Estou com estas dores há dois meses» indica…",
+        "options": [
+          "a duração do problema.",
+          "o momento exato em que começou.",
+          "a causa do problema."
+        ],
+        "answer": "a duração do problema.",
+        "explain": "「há + 时间段」表示持续了多久；这里说明疼痛已经两个月。"
+      },
+      {
+        "q": "Porque é que o narrador ficou a pensar no senhor?",
+        "options": [
+          "Porque percebeu que a saúde também depende de tempo e de escuta.",
+          "Porque queria saber mais sobre a obra onde ele trabalhava.",
+          "Porque achou que ele exagerava nas queixas."
+        ],
+        "answer": "Porque percebeu que a saúde também depende de tempo e de escuta.",
+        "explain": "推断题：结尾说健康不只是药片，还需要时间和有人先听我们说话。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab05",
+    "title": "No hipermercado, a ler rótulos",
+    "text": "A minha filha tem dezasseis anos e, desde há uns meses, lê os rótulos de tudo o que compramos. Ela levava uma lista escrita num papel e um lápis atrás da orelha, como se fosse uma investigadora. No sábado, fomos ao hipermercado e ela parou no corredor dos cereais com o telemóvel na mão, a comparar embalagens. «Mãe, este tem açúcar escondido», disse. «E este tem óleo de palma.»\n\nFiquei surpreendida. Sempre comprei o que era mais barato, sem pensar muito. Ela explicou-me que, nas aulas de biologia, aprenderam a ler a lista de ingredientes: se o açúcar aparece nos primeiros lugares, é porque há muito. «E os produtos processados têm sempre nomes que não conhecemos», acrescentou. Perguntei-lhe onde é que ela tinha aprendido aquilo e ela respondeu que também lê sobre alimentação na internet. «E não te fies nas letras grandes da frente da embalagem», avisou.\n\nAndámos pelo hipermercado quase duas horas. Ela escolheu iogurtes naturais em vez dos aromatizados, pão de fermentação lenta e fruta da época. Eu ia atrás, a empurrar o carro, com uma sensação estranha: era a minha filha que me estava a ensinar. «Não devemos comer isto todos os dias», disse ela, a apontar para as bolachas. «Mas às vezes também apetece.» «E não te esqueças de te hidratar ao longo do dia», lembrou-me ela. No fim, ainda discutimos o preço do azeite, que subiu muito este ano.\n\nEm casa, mudámos alguns hábitos. Passámos a cozinhar mais ao domingo e a levar água de casa em garrafas reutilizáveis. Não somos radicais: ainda compramos bolachas e ainda pedimos pizza às sextas-feiras. Mas penso que a alimentação é como tudo o resto: não precisa de ser perfeita, precisa de ser equilibrada. E, ao que parece, a minha filha já percebeu isso melhor do que eu. Até a minha mãe, que vive connosco, já come sopa todos os dias.",
+    "questions": [
+      {
+        "q": "O que faz a filha do narrador no hipermercado?",
+        "options": [
+          "Compara rótulos e ingredientes antes de comprar.",
+          "Escolhe apenas os produtos mais baratos.",
+          "Pede dinheiro para comprar doces."
+        ],
+        "answer": "Compara rótulos e ingredientes antes de comprar.",
+        "explain": "她拿手机对比包装，指出「隐藏的糖」和棕榈油。"
+      },
+      {
+        "q": "Porque é que ela sabe ler os rótulos?",
+        "options": [
+          "Porque aprendeu nas aulas de biologia.",
+          "Porque trabalha no hipermercado.",
+          "Porque viu um documentário na televisão."
+        ],
+        "answer": "Porque aprendeu nas aulas de biologia.",
+        "explain": "「nas aulas de biologia, aprenderam a ler a lista de ingredientes」。"
+      },
+      {
+        "q": "Neste texto, «em vez de» introduz…",
+        "options": [
+          "uma troca: iogurtes naturais em lugar dos aromatizados.",
+          "uma causa do problema.",
+          "uma consequência do preço."
+        ],
+        "answer": "uma troca: iogurtes naturais em lugar dos aromatizados.",
+        "explain": "「em vez dos aromatizados」表示替代；对应「而不选加味酸奶」。"
+      },
+      {
+        "q": "Qual é a atitude final do narrador?",
+        "options": [
+          "Moderada: procura equilíbrio, sem proibir tudo.",
+          "Radical: deixa de comprar qualquer produto processado.",
+          "Indiferente: volta a comprar como antes."
+        ],
+        "answer": "Moderada: procura equilíbrio, sem proibir tudo.",
+        "explain": "推断题：结尾说他们仍买饼干、周五还点披萨，饮食「不必完美，只要均衡」。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab06",
+    "title": "No quarto, à noite",
+    "text": "São onze e quarenta e cinco e o meu quarto está às escuras, menos o ecrã do telemóvel. Já me deitei há uma hora, mas não consigo adormecer. O corpo pede descanso e a cabeça insiste em rever a reunião de amanhã, a conta da luz e uma frase que disse a alguém em setembro. O relógio da cozinha faz um ruído que só se ouve de noite.\n\nSei que isto não é novidade. Há meses que durmo mal. De manhã, acordo com a sensação de que não descansei nada. Ao princípio, pensei que fosse cansaço; depois, que fosse a idade. Um dia, a minha médica perguntou-me há quanto tempo sofria de insónia e eu não soube responder com precisão. «Talvez desde o verão», disse. Ela ouviu-me sem pressa e receitou-me poucas coisas: uma rotina fixa, menos café e um passeio ao fim do dia.\n\nA verdade é que o stress não desaparece porque fechamos os olhos. Naquela noite, tentei seguir o conselho: deixei o telemóvel na mesinha de cabeceira, longe da cama, e li dez páginas de um romance que já conhecia. Não resultou logo: fiquei uma hora a olhar para o teto, impaciente. O romance era antigo e eu já sabia o fim, mas isso não importava. Aos poucos, as ideias foram ficando mais lentas. Adormeci sem perceber quando.\n\nAgora, ao fim de um mês, durmo melhor. Não todas as noites, mas na maioria. Aprendi que recuperar energia não acontece por vontade, acontece por hábito. E aprendi também que pedir ajuda não é exagero: às vezes, só precisamos que alguém nos diga que o descanso não é preguiça, é uma necessidade como comer ou respirar. O meu colega de trabalho também dorme mal e eu contei-lhe o que fiz. Ele disse que ia tentar. Espero que resulte.",
+    "questions": [
+      {
+        "q": "O que impede o narrador de adormecer?",
+        "options": [
+          "Pensamentos sobre o trabalho e as contas.",
+          "Um barulho constante na rua.",
+          "Uma dor forte nas costas."
+        ],
+        "answer": "Pensamentos sobre o trabalho e as contas.",
+        "explain": "他说身体需要休息，脑子却在想会议、电费和一句话。"
+      },
+      {
+        "q": "O que receitou a médica?",
+        "options": [
+          "Uma rotina fixa, menos café e um passeio ao fim do dia.",
+          "Comprimidos fortes para dormir.",
+          "Uma semana de férias no campo."
+        ],
+        "answer": "Uma rotina fixa, menos café e um passeio ao fim do dia.",
+        "explain": "「receitou-me poucas coisas: uma rotina fixa, menos café e um passeio ao fim do dia」。"
+      },
+      {
+        "q": "«Há quanto tempo sofre de insónia?» serve para saber…",
+        "options": [
+          "desde quando dura o problema.",
+          "que remédio deve tomar.",
+          "quanto custa a consulta."
+        ],
+        "answer": "desde quando dura o problema.",
+        "explain": "这是询问病程长短的常用问法，文中病人回答「大概从夏天开始」。"
+      },
+      {
+        "q": "O que mudou no narrador ao fim de um mês?",
+        "options": [
+          "Passou a dormir melhor na maioria das noites, por hábito.",
+          "Deixou de precisar de trabalhar.",
+          "Tomou comprimidos todas as noites."
+        ],
+        "answer": "Passou a dormir melhor na maioria das noites, por hábito.",
+        "explain": "推断题：他说「não todas as noites, mas na maioria」，并把功劳归于习惯而非意志。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab07",
+    "title": "Na casa da avó, a contar histórias",
+    "text": "A casa da minha avó fica numa aldeia do Alentejo, com paredes brancas e uma chaminé enorme. Quando eu era pequeno, passava lá os verões. A minha infância tem o cheiro do pão que ela fazia de madrugada e o som das galinhas no quintal. Não havia televisão, mas havia sempre alguém a contar uma história. A aldeia tinha duas ruas, uma igreja e um café onde os homens jogavam às cartas.\n\nA minha avó costumava sentar-se à porta, ao fim do dia, com as mãos no colo. Contava histórias de família: do bisavô que emigrou para o Brasil, da tia que fugiu com um músico, do inverno em que não havia comida. O bisavô voltou do Brasil sem dinheiro e com um chapéu de palha. Nós, os netos, brincávamos no chão, mas parávamos quando ela dizia: «Isto aconteceu mesmo.» As histórias repetiam-se, mas nunca nos cansávamos delas.\n\nUma vez, de repente, ela calou-se no meio de uma história. Ficámos todos à espera. Depois disse: «Já não me lembro do nome dele.» E riu-se, mas havia algo triste naquele riso. Ninguém a corrigiu; também nós já não sabíamos o nome. Percebi, pela primeira vez, que a memória também envelhece, e que as histórias que ela contava eram, de certa forma, tudo o que nos deixava.\n\nHoje, a minha avó já não conta histórias. Está numa casa de repouso, e às vezes olha para mim sem me reconhecer. Mas eu cresci com aquelas tardes à porta de casa, e agora sou eu que conto as histórias aos meus sobrinhos. Faço-o com as mesmas palavras, e eles ouvem com a mesma paciência. A casa foi vendida há dez anos e hoje é um alojamento para turistas. Às vezes passo por lá e olho para a chaminé. É a minha maneira de a manter viva.",
+    "questions": [
+      {
+        "q": "Onde é que o narrador passava os verões?",
+        "options": [
+          "Numa aldeia do Alentejo, em casa da avó.",
+          "Numa praia do Algarve, com os pais.",
+          "Numa cidade grande, com os primos."
+        ],
+        "answer": "Numa aldeia do Alentejo, em casa da avó.",
+        "explain": "开头说明祖母的房子在阿连特茹的村庄，白墙和大烟囱。"
+      },
+      {
+        "q": "O que fazia a avó ao fim do dia?",
+        "options": [
+          "Sentava-se à porta e contava histórias de família.",
+          "Ia ao quintal tratar das galinhas.",
+          "Via televisão com os netos."
+        ],
+        "answer": "Sentava-se à porta e contava histórias de família.",
+        "explain": "文中说没有电视，但总有人讲故事；她常坐在门口讲家族往事。"
+      },
+      {
+        "q": "O que significa «costumava sentar-se»?",
+        "options": [
+          "Sentava-se habitualmente, no passado.",
+          "Sentou-se uma única vez.",
+          "Vai sentar-se amanhã."
+        ],
+        "answer": "Sentava-se habitualmente, no passado.",
+        "explain": "costumar 的未完成过去时表示过去的习惯动作。"
+      },
+      {
+        "q": "Porque é que o narrador conta agora as histórias aos sobrinhos?",
+        "options": [
+          "Para manter viva a memória da avó.",
+          "Porque a avó lhe pediu antes de adoecer.",
+          "Porque quer escrever um livro."
+        ],
+        "answer": "Para manter viva a memória da avó.",
+        "explain": "推断题：结尾说「É a minha maneira de a manter viva」，是延续记忆的方式。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab08",
+    "title": "No terraço, a olhar o Tejo",
+    "text": "O terraço do apartamento da Marta, em Almada, tem uma vista que justifica a renda. Não há elevador, mas há vista, e ela diz que é isso que importa. Ao fim da tarde, o Tejo fica dourado e Lisboa parece uma maquete do outro lado. Ela mudou-se para lá há dois anos, depois do divórcio, e diz que nunca dormiu tão bem. Foi ali que ela me contou o seu plano: pedir uma licença no trabalho e abrir uma escola de português para estrangeiros.\n\n«Gostaria de começar com dois grupos pequenos», disse, a apontar para o rio. «Se pudesse, alugava uma sala aqui perto, com janelas grandes. As pessoas aprendem melhor se virem a cidade.» Falou dos preços das aulas, dos horários e das pessoas que já lhe telefonaram. Sorri. A Marta sempre falou dos sonhos como se fossem projetos com datas e orçamentos.\n\n«E se não resultar?» perguntei. «Se não resultar, volto ao escritório e perco algum dinheiro», respondeu. «Se não tentar, perco o resto da vida a pensar nisso.» Ficámos calados. Um barco passava devagar, e o céu começava a ficar rosa. «E os teus pais?» perguntei. «Ainda não sabem», respondeu. «Vou contar quando tiver a sala alugada.» «Ninguém te ensinou a falar assim», disse eu, a brincar.\n\nEla riu-se e disse que, se fosse mais nova, teria medo; agora, o medo tinha outro nome: pressa. Fiquei a pensar nisso durante dias. Também eu gostaria de mudar de vida, mas nunca passei do «gostaria». A Marta, pelo menos, já marcou uma reunião com o banco. Talvez seja isso que separa os sonhos das decisões: uma data no calendário e a coragem de aparecer. Eu ainda estou a pensar. Aprendi mais com ela naquela tarde do que em muitos livros.",
+    "questions": [
+      {
+        "q": "O que quer fazer a Marta?",
+        "options": [
+          "Abrir uma escola de português para estrangeiros.",
+          "Vender o apartamento em Almada.",
+          "Trabalhar como guia turística em Lisboa."
+        ],
+        "answer": "Abrir uma escola de português para estrangeiros.",
+        "explain": "「abrir uma escola de português para estrangeiros」，先开两个小班。"
+      },
+      {
+        "q": "Onde é que ela gostaria de alugar uma sala?",
+        "options": [
+          "Perto do terraço, com janelas grandes.",
+          "No centro de Lisboa, junto ao rio.",
+          "Na escola onde trabalha agora."
+        ],
+        "answer": "Perto do terraço, com janelas grandes.",
+        "explain": "「alugava uma sala aqui perto, com janelas grandes」，因为看得到城市学得更好。"
+      },
+      {
+        "q": "«Se não resultar, volto ao escritório» exprime…",
+        "options": [
+          "uma condição com consequência futura.",
+          "uma comparação com o passado.",
+          "uma ordem para a Marta."
+        ],
+        "answer": "uma condição com consequência futura.",
+        "explain": "「se + 将来时态（结果ar）」表示真实条件，后句给出结果。"
+      },
+      {
+        "q": "O que separa, para o narrador, os sonhos das decisões?",
+        "options": [
+          "Uma data no calendário e a coragem de aparecer.",
+          "Ter muito dinheiro no banco.",
+          "A idade e a experiência."
+        ],
+        "answer": "Uma data no calendário e a coragem de aparecer.",
+        "explain": "推断题：结尾说也许区别就是日历上的日期和出现的勇气；他也停留在「gostaria」。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab09",
+    "title": "Na estação de Santa Apolónia",
+    "text": "Na quinta-feira, fui a Santa Apolónia buscar a minha prima, que vinha do Brasil pela primeira vez. O comboio chegava às nove e vinte. Cheguei cedo, comprei um café na máquina e sentei-me a ver as pessoas: famílias com malas enormes, soldados, um homem com um violino. O painel das chegadas piscava e havia um empregado a limpar o chão com uma máquina ruidosa. Primeiro, tudo me pareceu calmo.\n\nEntretanto, o painel mudou: «atraso de trinta minutos». Depois, quarenta. Depois, uma hora. Ao meu lado, uma senhora começou a contar-me que também esperava alguém, um filho que emigrara para França. «Há três anos que não o vejo», disse. A senhora mostrou-me uma fotografia do filho, tirada num jardim com neve. «Ele não gosta que eu diga isto, mas tenho saudades todos os dias», confessou. Falámos dos filhos, das viagens e do preço das casas. Afinal, o tempo passou depressa.\n\nQuando o comboio chegou, houve um movimento de gente e de abraços. A minha prima saiu com duas malas e um chapéu de sol, e não me reconheceu de imediato. Enfim, abraçámo-nos ali, no meio da estação, com o café frio na mão. A minha prima trazia um presente: café e um livro de poemas brasileiros. Ela disse que Lisboa era maior do que imaginava. Eu disse que a estação também era. A minha prima estava com fome e fomos almoçar perto dali.\n\nHoje, quando passo por Santa Apolónia, lembro-me daquela espera. Ficou-me a recordação de uma manhã em que nada correu como previsto e, apesar disso, tudo acabou bem. Tirámos uma fotografia juntos, à porta da estação, e ela ficou mal. Mas nunca a apaguei. Afinal, talvez as estações sejam lugares estranhos: são feitas de despedidas e de reencontros, e nunca sabemos qual deles nos vai tocar mais.",
+    "questions": [
+      {
+        "q": "Quem é que o narrador foi buscar à estação?",
+        "options": [
+          "A prima, que vinha do Brasil pela primeira vez.",
+          "Um filho que emigrara para França.",
+          "Uma amiga que chegava do Porto."
+        ],
+        "answer": "A prima, que vinha do Brasil pela primeira vez.",
+        "explain": "第一句说去圣阿波洛尼亚车站接从巴西第一次来的表妹。"
+      },
+      {
+        "q": "O que aconteceu durante a espera?",
+        "options": [
+          "O comboio atrasou-se cada vez mais.",
+          "O narrador perdeu o café.",
+          "A polícia fechou a estação."
+        ],
+        "answer": "O comboio atrasou-se cada vez mais.",
+        "explain": "「atraso de trinta minutos... quarenta... uma hora」，一再延误。"
+      },
+      {
+        "q": "Que papel têm «primeiro» e «enfim» no texto?",
+        "options": [
+          "Organizam a ordem dos acontecimentos da espera.",
+          "Indicam dúvida sobre o que aconteceu.",
+          "Substituem a opinião do narrador."
+        ],
+        "answer": "Organizam a ordem dos acontecimentos da espera.",
+        "explain": "primeiro 引出开始，enfim 引出最终结果，是叙述连接词。"
+      },
+      {
+        "q": "O que pensa o narrador das estações no fim?",
+        "options": [
+          "Que são feitas de despedidas e reencontros, e nunca sabemos qual nos toca mais.",
+          "Que são lugares barulhentos e sem interesse.",
+          "Que deviam ser todas iguais."
+        ],
+        "answer": "Que são feitas de despedidas e reencontros, e nunca sabemos qual nos toca mais.",
+        "explain": "推断题：结尾是反思，把车站看作离别与重逢并存的地方。"
+      }
+    ]
+  }
+]

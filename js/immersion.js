@@ -22,6 +22,15 @@
     C2: (scene) => `Em ${scene}, o diálogo esconde tanto quanto diz. Lê as falas e observa o subtexto, o registo e as escolhas lexicais.`
   };
 
+  const EXAM_LABEL = {
+    A1: 'Pré-CIPLE · A1',
+    A2: 'CIPLE · A2',
+    B1: 'DEPLE · B1',
+    B2: 'DIPLE · B2',
+    C1: 'DAPLE · C1',
+    C2: 'DUPLE · C2'
+  };
+
   /* Prefer the media dialogue that best matches the lesson's scene. */
   const MEDIA_BY_LESSON = {
     u1l1: 'm-a1-audio', u1l2: 'm-a1-audio', u1l3: 'm-a1-audio',
@@ -75,6 +84,21 @@
     const scenePool = sceneOptions.filter(title => title !== lesson.title);
     const levelMedia = (media || []).filter(item => item.level === level);
     const mediaPick = mediaForLesson(lesson, levelMedia, allLevelLessons);
+    const exam = window.AZ_READINGS && window.AZ_READINGS[lesson.id];
+    const examText = exam && typeof exam.text === 'string' ? exam.text.trim() : '';
+    const examParagraphs = examText ? examText.split(/\n+/).map(part => part.trim()).filter(Boolean) : [];
+    const examAudio = examText
+      ? (examText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || []).map(part => part.trim()).filter(Boolean)
+      : [];
+    const examQuestions = exam && Array.isArray(exam.questions)
+      ? exam.questions.slice(0, 4).map((question, index) => ({
+          key: `r${index + 1}`,
+          q: question.q,
+          options: question.options,
+          answer: question.answer,
+          explain: question.explain || ''
+        }))
+      : [];
 
     const namePattern = '([A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+)';
     const selfPattern = new RegExp(`(?:chamo-me|o meu nome é|\\bsou\\s+(?:a|o))\\s+${namePattern}`, 'i');
@@ -109,9 +133,14 @@
       ? mediaPick.lines.filter(line => line.role === 'B' && line.pt.split(/\s+/).length >= 4)
       : [];
     const mediaSpeak = speakCandidates[0] || (mediaPick && mediaPick.lines && mediaPick.lines[mediaPick.lines.length - 1]);
-    const speakingLine = mediaSpeak
-      ? { speaker: mediaSpeak.who || 'B', pt: mediaSpeak.pt, zh: mediaSpeak.zh }
-      : (lines.find(line => line.pt.split(/\s+/).length >= 5) || lines[1] || lines[0]);
+    const examSpeak = examText
+      ? (examAudio.find(sentence => sentence.split(/\s+/).length >= 6 && sentence.length <= 150) || examAudio[0])
+      : '';
+    const speakingLine = examSpeak
+      ? { speaker: '', pt: examSpeak, zh: '', fromText: true }
+      : mediaSpeak
+        ? { speaker: mediaSpeak.who || 'B', pt: mediaSpeak.pt, zh: mediaSpeak.zh }
+        : (lines.find(line => line.pt.split(/\s+/).length >= 5) || lines[1] || lines[0]);
 
     const mediaQuestions = mediaPick && Array.isArray(mediaPick.questions) && mediaPick.questions.length
       ? mediaPick.questions.slice(0, 2).map((question, index) => ({
@@ -138,6 +167,26 @@
           }
         ];
 
+    const fallbackReadingQuestions = [
+      {
+        key: 'r1',
+        q: 'Onde se passa esta cena?',
+        options: sceneQuestionOptions,
+        answer: lesson.title,
+        explain: `A cena chama-se «${lesson.title}».`
+      },
+      {
+        key: 'r2',
+        q: 'Quem fala primeiro?',
+        options: speakerOptions,
+        answer: firstSpeaker,
+        explain: `A primeira fala é de ${firstSpeaker}.`
+      }
+    ];
+    const examListeningQuestions = examQuestions.length
+      ? examQuestions.slice(-2).map((question, index) => ({ ...question, key: `l${index + 1}` }))
+      : mediaQuestions;
+
     return {
       level,
       scene: lesson.title,
@@ -146,6 +195,11 @@
       cast,
       intro,
       lines,
+      text: examText,
+      textTitle: examText ? (exam.title || lesson.title) : '',
+      paragraphs: examParagraphs,
+      wordCount: examText ? examText.split(/\s+/).filter(Boolean).length : 0,
+      examLabel: EXAM_LABEL[level] || EXAM_LABEL.A1,
       speakingLine,
       media: mediaPick ? {
         id: mediaPick.id,
@@ -155,25 +209,10 @@
         type: mediaPick.type,
         minutes: mediaPick.minutes
       } : null,
-      listeningTitle: mediaPick ? mediaPick.title : 'Diálogo da cena',
-      listeningLines: mediaLines,
-      readingQuestions: [
-        {
-          key: 'r1',
-          q: 'Onde se passa esta cena?',
-          options: sceneQuestionOptions,
-          answer: lesson.title,
-          explain: `A cena chama-se «${lesson.title}».`
-        },
-        {
-          key: 'r2',
-          q: 'Quem fala primeiro?',
-          options: speakerOptions,
-          answer: firstSpeaker,
-          explain: `A primeira fala é de ${firstSpeaker}.`
-        }
-      ],
-      listeningQuestions: mediaQuestions
+      listeningTitle: examText ? lesson.title : (mediaPick ? mediaPick.title : 'Diálogo da cena'),
+      listeningLines: examText ? examAudio.map(part => ({ pt: part })) : mediaLines,
+      readingQuestions: examQuestions.length ? examQuestions : fallbackReadingQuestions,
+      listeningQuestions: examListeningQuestions
     };
   };
 })();

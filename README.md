@@ -40,7 +40,19 @@ PT-PT 外部资源入口：
 - **48 句场景短语**：问候、咖啡、出行、购物、社交、紧急求助。
 - **7 篇文化阅读**：葡葡 vs 巴葡、`sh` 发音、`bica`、`tu` 与 `senhor`、saudade 等。
 - **5 个 PT-PT 外部资源入口**：Falar、Fala Bem、PTptIndex、EP Spoken Frequency、Conversas com Amália；在「文化 → Recursos externos」里直接跳转，全部经过 pt-PT 筛选，不含巴葡项目。
-- **每节课自己的阅读、听力和口语**：`Leitura & escuta` 步骤用本课目标句组成场景短文；听力与跟读直接取同级别的视频/音频对话，配 2 道阅读题、2 道听力题和一句角色跟读，并可打开完整媒体。
+- **每节课自己的阅读、听力和口语**：`Leitura & escuta` 步骤为每课提供考试长度短文、4 道阅读理解题、整篇听力（1.5–6 分钟）和一句角色跟读；另保留同级别视频/音频对话入口。
+- **CAPLE 难度与篇幅**：阅读和听力按葡萄牙国家考试 CAPLE 的级别与文本长度设计；不是三五句的短句堆叠。
+
+| 课程级别 | CAPLE 对应 | 阅读正文长度 |
+|---|---|---:|
+| A1 | 预备 CIPLE | 140–180 词 |
+| A2 | CIPLE | 180–230 词 |
+| B1 | DEPLE | 280–340 词 |
+| B2 | DIPLE | 420–500 词 |
+| C1 | DAPLE | 550–650 词 |
+| C2 | DUPLE | 700–850 词 |
+
+听力使用同一篇完整文本朗读，时长随级别约 1.5–6 分钟；语法点、词汇和题型按对应级别控制。级别对应参考葡萄牙 CAPLE 考试：CIPLE（A2）、DEPLE（B1）、DIPLE（B2）、DAPLE（C1）、DUPLE（C2）；A1 为进入 CIPLE 前的预备级别。官方信息：[caple.letras.ulisboa.pt](https://caple.letras.ulisboa.pt/)。
 - **独立阅读入口**：顶部「阅读」栏目按 A1–C2 列出全部 180 个阅读场景，点击卡片直接跳到该课的阅读步骤，不需要先过单词和语法。
 
 ![独立阅读入口](screenshots/reading.png)
@@ -102,7 +114,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v1.8.0**。
+当前版本：**v2.0.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -127,16 +139,19 @@ azulejo/
 ├─ js/advanced.js          # B1–C2 起始课程、级别元数据、12 个影音脚本
 ├─ js/more.js              # 每个高级级别额外的 3 节核心课 + 60 个五语词条
 ├─ js/lexicon.js           # 210 个词的五语对照
-├─ js/scenes.js            # A1–C2 核心课的场景标题
-├─ js/labs.js              # 每级 21–24 节练习课，继承对应核心课场景
-├─ js/immersion.js         # 每课的场景阅读、听力、跟读与媒体链接
+├─ js/scenes.js            # A1–C2 核心课与练习课的 180 个唯一场景
+├─ js/labs.js              # 每级 21–24 节练习课，绑定对应核心课词汇
+├─ js/readings.js          # 180 篇考试长度阅读（由 content/ 生成）
+├─ js/immersion.js         # 每课阅读、听力、跟读、题目与媒体链接
 ├─ js/resources.js         # 5 个仅 PT-PT 的外部学习资源
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
+├─ content/                # lesson briefs + 18 个分级阅读源文件
 ├─ assets/                 # 应用图标
 ├─ manifest.webmanifest    # PWA 清单
 ├─ CHANGELOG.md            # 版本记录
 ├─ sw.js                   # 离线缓存
 ├─ server.js               # 零依赖静态服务器
+├─ tools/build-readings.mjs # 校验字数/题目并生成 js/readings.js
 ├─ tools/qa.mjs            # Chrome CDP 自动化走查（开发用）
 └─ screenshots/            # 预览截图
 ```

@@ -1,0 +1,707 @@
+[
+  {
+    "id": "b1lab10",
+    "title": "Um conselho na farmácia",
+    "text": "Na terça-feira, a Rita saiu do trabalho à hora do almoço e foi à farmácia da esquina, porque já não aguentava a dor de cabeça. Há três dias que se sentia cansada e, naquela manhã, acordou com febre e com a garganta irritada. Tinha mudado de casa no fim de semana, com a ajuda de dois amigos, e pensou que fosse apenas cansaço.\n\n— Bom dia. Estou com febre desde ontem e tenho dores no corpo. Qual é o sintoma que devo tratar primeiro? — perguntou ela à farmacêutica, que a conhecia de vista.\n\nA farmacêutica ouviu-a com atenção e quis saber há quanto tempo estava assim. A Rita explicou que começara a sentir-se mal no domingo, depois de carregar caixas durante dois dias seguidos. «Se tivesse descansado mais, talvez não estivesse agora assim», pensou. A farmacêutica disse-lhe que, embora os sintomas parecessem de uma gripe normal, era melhor ser vista por um médico, porque a febre já durava demasiado tempo e ela tinha também dores nos ouvidos. A Rita tinha uma consulta marcada para a tarde seguinte, mas a farmacêutica aconselhou-a a não esperar tanto. «Vou tentar uma consulta hoje, no centro de saúde», respondeu. Entretanto, levou um xarope para a garganta e um chá de limão, para aliviar o desconforto. A farmacêutica avisou-a de que aquele tratamento não resolvia a infeção: se a febre continuasse, precisaria de uma receita para um antibiótico.\n\nNa quinta-feira, a Rita voltou à farmácia. Já se sentia muito melhor e esperava melhorar ainda mais até ao fim de semana. Agradeceu o conselho: se não tivesse ido ao médico a tempo, teria passado três dias na cama. «Da próxima vez, não espero tanto», disse, a rir. A farmacêutica sorriu e respondeu que ouvia aquilo muitas vezes — mas quase sempre tarde demais.",
+    "questions": [
+      {
+        "q": "Porque foi a Rita à farmácia?",
+        "options": [
+          "Porque tinha uma consulta marcada ali.",
+          "Porque se sentia doente há alguns dias.",
+          "Porque queria comprar um presente para a mãe."
+        ],
+        "answer": "Porque se sentia doente há alguns dias.",
+        "explain": "文中开头说她头痛得受不了，还有发烧和喉咙痛，所以去药店。"
+      },
+      {
+        "q": "Há quanto tempo se sentia cansada a Rita?",
+        "options": [
+          "Há três dias.",
+          "Desde a semana passada.",
+          "Há um mês."
+        ],
+        "answer": "Há três dias.",
+        "explain": "第一段明确说「Há três dias que se sentia cansada」。"
+      },
+      {
+        "q": "O que aconselhou a farmacêutica?",
+        "options": [
+          "Que esperasse pela consulta do dia seguinte.",
+          "Que fosse vista por um médico mais cedo.",
+          "Que tomasse um antibiótico sem receita."
+        ],
+        "answer": "Que fosse vista por um médico mais cedo.",
+        "explain": "药剂师让她别等到第二天，当天就去健康中心看医生。"
+      },
+      {
+        "q": "O que podemos concluir sobre a Rita no fim da história?",
+        "options": [
+          "Continuou doente durante várias semanas.",
+          "Aprendeu que é melhor pedir ajuda cedo.",
+          "Deixou de confiar na farmacêutica."
+        ],
+        "answer": "Aprendeu que é melhor pedir ajuda cedo.",
+        "explain": "结尾她说下次不会再等这么久，说明她学会了尽早求助。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab11",
+    "title": "Na feira biológica de sábado",
+    "text": "Sábado de manhã, o Tomás foi com a irmã à feira biológica que se realiza todas as semanas no jardim do bairro. Ele nunca tinha ido lá, mas ela insistiu: «Vais ver que é diferente do supermercado.»\n\nEnquanto escolhiam tomates e couves, a irmã, que é nutricionista, falou-lhe da alimentação dele. O Tomás costumava comer fora quase todos os dias e, à noite, jantava qualquer coisa rápida em vez de cozinhar. «Não é só uma questão de peso», explicou ela. «É o teu hábito de comer sempre o mesmo, sempre à pressa, e de beber pouca água durante o dia.»\n\nEle ouviu, um pouco incomodado. Sabia que devia mudar, mas o trabalho ocupava-lhe o dia inteiro. A irmã sugeriu que começasse por coisas simples: levar fruta para o escritório, cozinhar duas vezes por semana e hidratar-se ao longo do dia, com uma garrafa sempre à mão. «Parece pouco, mas faz muita diferença», disse. Também lhe mostrou que um prato equilibrado não precisa de ser complicado: legumes, arroz, ovo e azeite chegavam perfeitamente, e ficava pronto em vinte minutos. O Tomás comprou um cabaz cheio de produtos da região, sem nada processado, e prometeu tentar durante um mês. Ao princípio, foi difícil. Algumas noites chegava a casa cansado e pensava em encomendar comida, mas lembrava-se da feira, abria o frigorífico e cozinhava uma omelete. Ao fim de três semanas, notou que dormia melhor e que não sentia aquela fome estranha a meio da tarde.\n\nQuando voltou à feira, já conhecia os vendedores e sabia os preços. «Afinal, não era tão difícil», disse à irmã, a escolher espinafres. Ela sorriu e respondeu que o importante não era ser perfeito, era manter o hábito, semana após semana, mesmo quando a vida estava complicada.",
+    "questions": [
+      {
+        "q": "Porque foi o Tomás à feira?",
+        "options": [
+          "Porque queria comprar comida para o restaurante.",
+          "Porque a irmã o convidou para ir com ela.",
+          "Porque trabalhava aos sábados na feira."
+        ],
+        "answer": "Porque a irmã o convidou para ir com ela.",
+        "explain": "第一段说他从没去过，是姐姐坚持带他去的。"
+      },
+      {
+        "q": "O que costumava fazer o Tomás antes?",
+        "options": [
+          "Cozinhava todos os dias em casa.",
+          "Comia fora e jantava algo rápido.",
+          "Ia à feira comprar legumes."
+        ],
+        "answer": "Comia fora e jantava algo rápido.",
+        "explain": "文中说他以前几乎天天在外面吃，晚上随便吃点快的。"
+      },
+      {
+        "q": "O que sugeriu a irmã?",
+        "options": [
+          "Que deixasse de comer legumes.",
+          "Que começasse com mudanças pequenas.",
+          "Que fizesse uma dieta muito rigorosa."
+        ],
+        "answer": "Que começasse com mudanças pequenas.",
+        "explain": "姐姐建议从带水果、每周做两次饭这类小事开始。"
+      },
+      {
+        "q": "O que se pode concluir do fim do texto?",
+        "options": [
+          "O Tomás desistiu depois de um mês.",
+          "Pequenas mudanças podem dar resultados.",
+          "A irmã ficou desiludida com ele."
+        ],
+        "answer": "Pequenas mudanças podem dar resultados.",
+        "explain": "三周后他睡得更好、下午不再饿，说明小改变有效。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab12",
+    "title": "Uma noite de cinema em casa",
+    "text": "Na sexta-feira à noite, a Marta convidou o João para ver um filme em casa. Ele chegou, viu o sofá cheio de almofadas e perguntou, a brincar, se ela finalmente ia descansar. A Marta riu-se, mas sabia que ele tinha razão: há meses que não tinha uma noite tranquila. Tinha escolhido um filme francês, antigo, que queria ver há anos.\n\n— Sofro de insónia desde o verão — contou ela, enquanto preparava chá. — Adormeço tarde, acordo às três da manhã e não volto a dormir. Depois passo o dia a bocejar e a beber café para me manter acordada.\n\nO João perguntou há quanto tempo andava assim e se tinha falado com um médico. Ela disse que ainda não, porque pensava que era só uma fase, e que o stress do trabalho talvez explicasse tudo. Ele ouviu e recomendou que ela mudasse a rotina da noite: nada de telemóvel na cama, jantar mais cedo e uma caminhada depois do jantar, em vez de ficar sentada em frente ao computador até à meia-noite. A Marta achou o conselho simples demais, mas decidiu experimentar. Na primeira semana, não notou grande diferença e quase desistiu; o João insistiu para que ela continuasse mais uma semana. Ao fim de duas semanas, porém, já adormecia mais cedo e acordava menos vezes. O descanso começou a fazer parte dos seus planos, e não apenas das férias de verão.\n\nNaquela noite, os dois viram o filme quase até ao fim. Quando os créditos apareceram, a Marta bocejava e o João desligou a televisão. «Vês? Não precisas de fazer nada de especial», disse ele. Ela concordou. Percebeu que recuperar energia não dependia de grandes mudanças, mas de pequenas escolhas repetidas todos os dias. Falaram do filme e do final, que ela não esperava. Ao domingo, a Marta escreveu no telemóvel: «Hoje dormi oito horas.» Foi a primeira vez em muito tempo.",
+    "questions": [
+      {
+        "q": "Qual é o problema da Marta?",
+        "options": [
+          "Não gosta de ver filmes em casa.",
+          "Dorme mal há vários meses.",
+          "Trabalha demasiado ao fim de semana."
+        ],
+        "answer": "Dorme mal há vários meses.",
+        "explain": "她说自己从夏天起就失眠，凌晨三点醒来睡不着。"
+      },
+      {
+        "q": "O que recomendou o João?",
+        "options": [
+          "Tomar comprimidos para dormir.",
+          "Mudar alguns hábitos da noite.",
+          "Ir de férias para o estrangeiro."
+        ],
+        "answer": "Mudar alguns hábitos da noite.",
+        "explain": "他建议别在床上看手机、早点吃饭、饭后散步。"
+      },
+      {
+        "q": "Há quanto tempo sofria ela de insónia?",
+        "options": [
+          "Desde o verão.",
+          "Desde a semana passada.",
+          "Há dois anos."
+        ],
+        "answer": "Desde o verão.",
+        "explain": "原文说「Sofro de insónia desde o verão」。"
+      },
+      {
+        "q": "O que aprendeu a Marta?",
+        "options": [
+          "Que pequenas mudanças na rotina podem melhorar o descanso.",
+          "Que o stress desaparece sozinho com o tempo.",
+          "Que ver filmes é a melhor forma de adormecer."
+        ],
+        "answer": "Que pequenas mudanças na rotina podem melhorar o descanso.",
+        "explain": "结尾她明白恢复精力靠的是每天重复的小选择。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab13",
+    "title": "O recreio de outra idade",
+    "text": "Quando o autocarro parou em frente à escola primária, a Sofia hesitou. Tinha voltado ao bairro para visitar a mãe e, sem pensar muito, desceu ali. O portão estava aberto e o recreio, naquela tarde de outono, parecia maior do que na sua memória. Havia um cheiro a giz e a terra molhada que ela reconheceu de imediato. Ela lembrava-se de tudo: o chão de cimento, o muro onde se escondiam, o cheiro do pão com manteiga que a mãe lhe dava à saída. Na infância, ia para o recreio mal tocava a campainha e ficava a brincar até a mãe chamar. Costumava inventar jogos com as colegas e havia sempre uma pedra no bolso, uma bola de trapos, um segredo guardado para depois.\n\nSentou-se num banco e ficou a observar. Um grupo de meninos corria atrás de uma bola e uma menina saltava à corda. De repente, um dos rapazes caiu e a Sofia levantou-se por instinto. Mas ele riu-se, levantou-se sozinho e continuou a correr, como se nada tivesse acontecido. Ela voltou a sentar-se, um pouco envergonhada por ter reagido como uma mãe.\n\n«Cresci aqui», disse baixinho. Crescer ali tinha sido fácil: havia espaço, vizinhos e tempo. Hoje, o tempo era uma coisa que se comprava e se perdia, entre o trabalho e as compras. Ainda assim, percebeu que não tinha saudades de ser criança, mas daquela sensação de que tudo estava ainda por começar. Pensou na filha, que ainda não tinha idade para a escola, e sorriu.\n\nUma professora aproximou-se e perguntou se ela procurava alguém. A Sofia sorriu e disse que não, que apenas tinha passado por ali, a caminho de casa da mãe. Saiu do recreio devagar, sem pressa de apanhar o autocarro. No caminho, comprou um bolo para a mãe.",
+    "questions": [
+      {
+        "q": "Porque estava a Sofia na escola?",
+        "options": [
+          "Trabalhava ali como professora.",
+          "Tinha ido visitar a mãe e passou pela escola.",
+          "Ia buscar um sobrinho à aula."
+        ],
+        "answer": "Tinha ido visitar a mãe e passou pela escola.",
+        "explain": "她回街区看妈妈，顺路在那里下了车。"
+      },
+      {
+        "q": "O que fazia ela quando era criança?",
+        "options": [
+          "Costumava brincar no recreio até a mãe chamar.",
+          "Costumava estudar sozinha na biblioteca.",
+          "Costumava ficar em casa a ver televisão."
+        ],
+        "answer": "Costumava brincar no recreio até a mãe chamar.",
+        "explain": "文中说童年时她每天在那里玩，直到妈妈喊她。"
+      },
+      {
+        "q": "O que aconteceu de repente?",
+        "options": [
+          "Uma professora chamou-a pelo nome.",
+          "Um menino caiu a correr atrás da bola.",
+          "Começou a chover forte."
+        ],
+        "answer": "Um menino caiu a correr atrás da bola.",
+        "explain": "「De repente, um dos rapazes caiu」对应这个情节。"
+      },
+      {
+        "q": "O que sentia a Sofia no fim da visita?",
+        "options": [
+          "Queria voltar a ser criança.",
+          "Tinha saudades de uma sensação, não da infância em si.",
+          "Estava zangada com a escola."
+        ],
+        "answer": "Tinha saudades de uma sensação, não da infância em si.",
+        "explain": "她说自己怀念的不是童年，而是「一切才刚开始」的感觉。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab14",
+    "title": "A casa branca perto do mar",
+    "text": "A casa era pequena e branca, com uma varanda virada para o mar. A Inês alugara-a por duas semanas, mas, ao terceiro dia, já falava dela como se fosse sua. Tinha uma cozinha pequena, uma mesa de madeira e uma bicicleta encostada à parede.\n\n— Gostaria de viver aqui — disse ao telefone, à amiga. — Se pudesse, ficava mais um mês.\n\nA amiga riu-se. «E o trabalho?» A Inês não respondeu logo. Trabalhava numa empresa de software em Lisboa, ganhava bem e tinha uma vida organizada, com um apartamento pequeno mas já pago. Mas, naquela varanda, com o som das ondas e o cheiro a sal, tudo isso parecia distante. Ali, o dia começava com café e terminava com um livro. Naquela noite, ficou a pensar no seu sonho antigo: abrir uma pequena livraria com café. Se fosse mais nova, talvez tentasse sem medo. Se tivesse coragem, falaria com o patrão sobre um horário diferente. Mas a verdade é que tinha medo — medo de perder o que já tinha construído, medo de falhar à frente dos amigos e da família.\n\nNo dia seguinte, foi à vila comprar pão e viu um espaço vazio, com um cartaz de «aluga-se». Ficou parada em frente à montra durante vários minutos. Imaginou as estantes, as mesas, as pessoas a ler ao fim da tarde, o cheiro do café. «Se eu alugasse isto, mudaria tudo», pensou, com o coração a bater depressa. Numa vila assim, todos se conheceriam pelo nome, e as pessoas entrariam para beber um café e conversar. Não tomou nenhuma decisão naquela manhã. Comprou o pão, voltou para casa e fez o pequeno-almoço com calma. Mas, pela primeira vez em anos, escreveu num caderno uma lista de coisas que gostaria de fazer. Não era um plano, era um começo. E, às vezes, um começo basta.",
+    "questions": [
+      {
+        "q": "Onde estava a Inês?",
+        "options": [
+          "Numa casa alugada perto do mar.",
+          "Em casa da amiga, em Lisboa.",
+          "No escritório da empresa."
+        ],
+        "answer": "Numa casa alugada perto do mar.",
+        "explain": "第一句说她在海边租了一栋白色小房子。"
+      },
+      {
+        "q": "Qual era o sonho antigo da Inês?",
+        "options": [
+          "Comprar um barco.",
+          "Abrir uma livraria com café.",
+          "Mudar-se para o estrangeiro."
+        ],
+        "answer": "Abrir uma livraria com café.",
+        "explain": "文中写她的旧梦想是开一家带咖啡馆的小书店。"
+      },
+      {
+        "q": "O que a impedia de tentar?",
+        "options": [
+          "Apenas a falta de dinheiro.",
+          "O medo de perder o que já tinha.",
+          "A idade avançada."
+        ],
+        "answer": "O medo de perder o que já tinha.",
+        "explain": "她说自己害怕失去已经建立的一切。"
+      },
+      {
+        "q": "O que sugere o fim do texto?",
+        "options": [
+          "Ela vai abandonar o emprego no dia seguinte.",
+          "Ela começa a considerar seriamente uma mudança.",
+          "Ela arrependeu-se de ter ido de férias."
+        ],
+        "answer": "Ela começa a considerar seriamente uma mudança.",
+        "explain": "她写下愿望清单，虽未决定，但已开始认真考虑改变。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab15",
+    "title": "A viagem que não correu como previsto",
+    "text": "Primeiro, estava tudo planeado: sair às sete da manhã, evitar o trânsito e chegar ao Algarve antes do almoço. O Pedro e a mulher puseram os sacos no carro na noite anterior e até prepararam sandes para a viagem. «Este ano, não há atrasos», tinha dito ele. A mulher levava uma lista de praias e restaurantes para visitar.\n\nMas, às sete e vinte, o carro não pegou. O Pedro tentou outra vez, sem sucesso, e levantou o capô com ar de quem percebia de motores — o que não era verdade. Entretanto, a mulher chamou um mecânico, que chegou uma hora depois e disse que era a bateria. Enfim, às nove e meia, lá saíram, com uma bateria nova e uma conta que ninguém esperava. A mulher telefonou à casa alugada a avisar que chegariam mais tarde.\n\nNo caminho, o trânsito estava pior do que imaginavam. Havia obras, camiões e um acidente perto de Setúbal. O Pedro conduzia devagar e ouvia rádio, enquanto a mulher lia o mapa em voz alta. Pararam numa área de serviço, comeram as sandes e beberam um café. Afinal, não era assim tão mau: havia sol, as crianças brincavam no parque e ninguém tinha pressa de chegar.\n\nChegaram à casa alugada já ao fim da tarde. A mulher abriu as janelas, o Pedro foi comprar água e puseram a mesa na varanda. «Não foi como planeámos», disse ele. «Não», respondeu ela, «mas foi um bom dia.» Comeram fora, num restaurante pequeno, e as crianças adormeceram cedo. Anos depois, quando falam daquela viagem, não se lembram do mecânico nem do trânsito. Guardam a recordação das sandes comidas no capô do carro, do cheiro a mar quando abriram as janelas e da mesa posta ao anoitecer. A recordação, dizem, escolhe o que quer guardar. «Aquela viagem ensinou-nos a não planear tanto», diz a mulher.",
+    "questions": [
+      {
+        "q": "O que aconteceu às sete e vinte?",
+        "options": [
+          "O carro não pegou.",
+          "Saíram finalmente para o Algarve.",
+          "O mecânico chegou com a bateria."
+        ],
+        "answer": "O carro não pegou.",
+        "explain": "第二段开头说七点二十分车发动不了。"
+      },
+      {
+        "q": "Onde comeram as sandes?",
+        "options": [
+          "Num restaurante da estrada.",
+          "Numa área de serviço.",
+          "Em casa, antes de sair."
+        ],
+        "answer": "Numa área de serviço.",
+        "explain": "文中说他们停在服务区，吃了三明治、喝了咖啡。"
+      },
+      {
+        "q": "O que guardam hoje dessa viagem?",
+        "options": [
+          "Uma recordação boa.",
+          "A conta da bateria nova.",
+          "O bilhete do mecânico."
+        ],
+        "answer": "Uma recordação boa.",
+        "explain": "结尾说他们记住的是海边和晚餐桌，不是修车。"
+      },
+      {
+        "q": "O que se pode concluir sobre a viagem?",
+        "options": [
+          "Foi um desastre de que não gostam de falar.",
+          "Apesar dos problemas, deixou boas memórias.",
+          "Nunca chegaram ao Algarve."
+        ],
+        "answer": "Apesar dos problemas, deixou boas memórias.",
+        "explain": "虽然有故障和堵车，他们后来只记得美好的部分。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab16",
+    "title": "A consulta que ele adiou",
+    "text": "Durante duas semanas, o Nuno evitou o dentista. Tinha um sintoma que não desaparecia: uma dor funda no dente do lado direito, que piorava com o frio e com o café. Tomou analgésicos, tentou não mastigar daquele lado e repetiu a si mesmo que passaria. Acordava com a dor e passava o dia a pensar nela.\n\nMas, na quarta-feira, a dor acordou-o às quatro da manhã. Nessa mesma manhã, ligou para a clínica e marcou uma consulta para o dia seguinte. Ao telefone, a recepcionista avisou que a espera podia demorar uma hora e que ele devia chegar dez minutos antes. A clínica ficava perto do trabalho, por isso foi a pé.\n\nNo consultório, o dentista fez perguntas, olhou para as radiografias e explicou que havia uma infeção. «Se tivesse vindo mais cedo, o tratamento seria mais simples», disse, sem grande dramatismo. O Nuno sentiu-se um pouco culpado, mas o médico continuou: «Não vale a pena pensar nisso agora. Vamos resolver.»\n\nO tratamento durou duas sessões. Na primeira, o dentista limpou a zona e receitou um antibiótico; na segunda, colocou uma coroa. O Nuno recebeu a receita por email, comprou os medicamentos na farmácia ao lado e, durante uma semana, teve de evitar comida quente e café. O dentista explicou-lhe também como lavar bem os dentes naquela zona. Ao fim de dez dias, sentia-se muito melhor e esperava melhorar depressa. A dor desaparecera e ele voltara a comer normalmente. «Para o ano, não espero duas semanas», prometeu. A conta foi alta, mas ele preferiu não pensar nisso. O dentista riu-se e disse que ouvia aquilo todos os dias, mas que poucos voltavam antes de doer. Hoje, o Nuno tem uma consulta de rotina marcada para junho. É a primeira vez que a marca sem ninguém lhe pedir.",
+    "questions": [
+      {
+        "q": "Porque adiou o Nuno a ida ao dentista?",
+        "options": [
+          "Porque não tinha dinheiro para pagar.",
+          "Porque pensava que a dor passaria sozinha.",
+          "Porque não gostava daquele médico."
+        ],
+        "answer": "Porque pensava que a dor passaria sozinha.",
+        "explain": "他说自己一直告诉自己疼痛会过去，所以拖了两周。"
+      },
+      {
+        "q": "O que explicou o dentista?",
+        "options": [
+          "Que era uma dor sem importância.",
+          "Que havia uma infeção no dente.",
+          "Que precisava de uma cirurgia urgente."
+        ],
+        "answer": "Que havia uma infeção no dente.",
+        "explain": "牙医看片子后说牙齿有感染。"
+      },
+      {
+        "q": "O que aconteceu ao fim de dez dias?",
+        "options": [
+          "A dor desapareceu.",
+          "Ele perdeu o dente.",
+          "A dor continuou igual."
+        ],
+        "answer": "A dor desapareceu.",
+        "explain": "十天后他感觉好多了，疼痛消失，可以正常吃饭。"
+      },
+      {
+        "q": "O que mudou no Nuno?",
+        "options": [
+          "Deixou de ter medo de médicos.",
+          "Passou a marcar consultas antes de sentir dor.",
+          "Deixou de beber café para sempre."
+        ],
+        "answer": "Passou a marcar consultas antes de sentir dor.",
+        "explain": "结尾说他自己主动约了六月的例行检查，这是第一次。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab17",
+    "title": "Uma refeição diferente",
+    "text": "Ao princípio, o Rui não queria ir. «Comida vegetariana? Vou sair de lá com fome», disse ao colega. Mas era o aniversário da Marta e ela escolhera o restaurante, por isso não havia grande escolha. O Rui era um homem de hábitos simples: carne, arroz e batatas. O restaurante era pequeno e estava cheio. O empregado explicou o menu: sopa de legumes, risoto de cogumelos, feijão com couve e uma sobremesa de fruta. O Rui leu tudo duas vezes. Havia uma parte dele que queria encomendar um bife, mas não estava no menu.\n\n— A alimentação aqui é toda da região — disse o empregado, orgulhoso. — E temos opções sem nada processado, tudo feito na cozinha. Havia também pão caseiro e azeitonas na mesa.\n\nO Rui escolheu o risoto, um pouco desconfiado. Quando o prato chegou, ficou surpreendido: era quente, cheio de sabor e não parecia nada «de dieta». Comeu tudo e ainda pediu pão para limpar o prato. A Marta riu-se: «Vês? Não é assim tão mau.» Explicou que o segredo estava nos temperos e no tempo de cozedura.\n\nDurante a refeição, falaram dos hábitos de cada um. A Marta contou que costumava comer mal quando era estudante e que, aos poucos, aprendeu a cozinhar. «Não é preciso ser perfeito», disse. «Só é preciso comer de forma equilibrada a maior parte do tempo, e variar.» O Rui admitiu que bebia pouca água e que devia hidratar-se mais, sobretudo nos dias de calor. No fim, pediu um café e ficou a olhar para o menu. «Talvez volte», disse. «Talvez traga a minha mãe.» O colega, que estava ao lado, levantou a sobremesa: «Veio para comer e sai daqui convertido.» O empregado trouxe a conta e o Rui insistiu em pagar.",
+    "questions": [
+      {
+        "q": "Porque foi o Rui ao restaurante?",
+        "options": [
+          "Porque era o aniversário da Marta.",
+          "Porque era vegetariano há anos.",
+          "Porque trabalhava naquele restaurante."
+        ],
+        "answer": "Porque era o aniversário da Marta.",
+        "explain": "第一段说这是玛尔塔的生日，她选了这家餐厅。"
+      },
+      {
+        "q": "O que pensava ele antes de entrar?",
+        "options": [
+          "Que ia gostar muito da comida.",
+          "Que ia sair de lá com fome.",
+          "Que o restaurante era demasiado caro."
+        ],
+        "answer": "Que ia sair de lá com fome.",
+        "explain": "他一开始说「去吃素菜？我会饿着出来」。"
+      },
+      {
+        "q": "Segundo a Marta, o importante é...",
+        "options": [
+          "comer sempre de forma perfeita.",
+          "comer de forma equilibrada e variada a maior parte do tempo.",
+          "nunca comer fora de casa."
+        ],
+        "answer": "comer de forma equilibrada e variada a maior parte do tempo.",
+        "explain": "她说不需要完美，只要大部分时间吃得均衡、多样。"
+      },
+      {
+        "q": "O que mudou na opinião do Rui?",
+        "options": [
+          "Passou a achar a comida vegetariana saborosa.",
+          "Continuou a preferir carne e não voltará.",
+          "Ficou zangado com a Marta."
+        ],
+        "answer": "Passou a achar a comida vegetariana saborosa.",
+        "explain": "他吃光整盘还拿面包擦盘子，最后说也许还会再来。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab18",
+    "title": "Três dias sem fazer nada",
+    "text": "A Maria chegou ao hotel ao fim da tarde, com a mala, o computador e uma lista enorme de coisas para fazer. Tinha reservado três dias de férias, mas, no fundo, não sabia muito bem como ia ocupá-los. Precisava de descanso, dizia o médico, e ela sabia que era verdade. No primeiro dia, acordou às sete, como sempre. Abriu o computador, leu os emails, respondeu a dois e ainda preparou uma reunião para a semana seguinte. Depois, foi ao pequeno-almoço, comeu depressa e voltou ao quarto. Foi então que percebeu: estava de férias e continuava a viver como se estivesse no escritório. O quarto era grande, com uma cama enorme e uma varanda.\n\nNo segundo dia, decidiu deixar o telemóvel no quarto. Foi à praia, caminhou, leu um livro. O stress do trabalho ainda lhe aparecia na cabeça, mas, aos poucos, foi ficando mais longe. Ao almoço, dormiu uma sesta de vinte minutos e acordou sem saber que horas eram — uma sensação que não tinha há anos. Bebeu um sumo, comeu peixe grelhado e voltou a ler.\n\nNa última noite, ficou na varanda a ouvir o mar. Pensou na rotina que a esperava: reuniões, prazos, o trânsito, as noites de insónia. Sabia que não podia mudar tudo. Mas podia mudar uma coisa: o hábito de responder a mensagens até tarde. «Se eu não descansar, o trabalho também não corre bem», disse a si mesma. Lembrou-se do pai, que dizia que ninguém descansa por decreto.\n\nNo dia seguinte, fez as malas com calma. Antes de sair, escreveu num papel: «Ao domingo, nada de computador.» Não era uma promessa enorme. Mas era um começo, e ela precisava de recuperar energia de alguma forma. No carro, a caminho de casa, sentiu-se mais leve do que à chegada.",
+    "questions": [
+      {
+        "q": "Quantos dias tinha reservado a Maria?",
+        "options": [
+          "Dois dias.",
+          "Três dias.",
+          "Uma semana."
+        ],
+        "answer": "Três dias.",
+        "explain": "第一段说「Tinha reservado três dias de férias」。"
+      },
+      {
+        "q": "O que fez ela no primeiro dia?",
+        "options": [
+          "Foi à praia e leu um livro.",
+          "Trabalhou, apesar de estar de férias.",
+          "Dormiu até ao meio-dia."
+        ],
+        "answer": "Trabalhou, apesar de estar de férias.",
+        "explain": "第一天她照常七点起床、看邮件、准备会议。"
+      },
+      {
+        "q": "O que decidiu mudar?",
+        "options": [
+          "Deixar o emprego.",
+          "Não responder a mensagens até tarde.",
+          "Mudar de hotel nas próximas férias."
+        ],
+        "answer": "Não responder a mensagens até tarde.",
+        "explain": "她决定改掉晚上很晚还回消息的习惯。"
+      },
+      {
+        "q": "Qual é a ideia principal do texto?",
+        "options": [
+          "As férias são inúteis para quem trabalha muito.",
+          "Descansar exige decisões concretas e pequenas mudanças.",
+          "O trabalho é mais importante do que o descanso."
+        ],
+        "answer": "Descansar exige decisões concretas e pequenas mudanças.",
+        "explain": "她意识到必须主动做出具体的小改变才能真正休息。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab19",
+    "title": "O primeiro dia",
+    "text": "Quando a filha entrou no jardim de infância, a Carla ficou parada no portão. Tinha imaginado aquele dia muitas vezes, mas nunca assim: sem lágrimas, sem drama, apenas uma menina de três anos a correr para os brinquedos. A Carla levara-a de autocarro, com uma mochila nova e um lanche na mão. Uma educadora veio falar com ela. «Pode ir. Se precisar de alguma coisa, ligamos.» Chamava-se Rita e tinha um sorriso calmo. A Carla agradeceu, mas não conseguiu ir logo. Ficou a ver pela janela. A filha estava sentada no chão, a brincar com peças de madeira, e ria-se com outra criança.\n\nDe repente, a Carla lembrou-se do seu próprio primeiro dia. Tinha cinco anos, uma bata azul e muito medo. A mãe deixara-a à porta e ela chorara até ao almoço. Costumava contar essa história como uma coisa engraçada, mas, naquele momento, sentiu uma espécie de vergonha: talvez a mãe também tivesse ficado a olhar pela janela. A mãe dela nunca contava essa parte.\n\nSentou-se num banco do jardim e esperou. O jardim tinha oliveiras, um lago pequeno e bancos de pedra. Não havia nada para fazer. Pela primeira vez em muito tempo, o tempo passava devagar. Pensou na infância da filha, tão diferente da sua: mais brinquedos, mais regras, menos rua. E pensou em si mesma, a crescer numa casa pequena, com primos, bicicletas e tardes inteiras sem planos. «Nós crescemos assim», pensou. «E não foi mau.»\n\nAo meio-dia, a educadora trouxe a menina. Ela vinha com tinta na manga e um desenho na mão. «Já tenho uma amiga», disse. A Carla pegou-lhe na mão e sentiu que algo tinha mudado — não na filha, mas nela. No caminho para casa, cantaram as duas canções que a menina sabia.",
+    "questions": [
+      {
+        "q": "Como foi o primeiro dia da filha?",
+        "options": [
+          "Chorou até ao almoço.",
+          "Correu para os brinquedos, sem lágrimas.",
+          "Ficou doente e foi para casa."
+        ],
+        "answer": "Correu para os brinquedos, sem lágrimas.",
+        "explain": "第一段说女儿没哭，直接跑向玩具。"
+      },
+      {
+        "q": "O que fez a Carla depois de deixar a filha?",
+        "options": [
+          "Foi trabalhar.",
+          "Ficou a observar e depois sentou-se no jardim.",
+          "Voltou logo para casa."
+        ],
+        "answer": "Ficou a observar e depois sentou-se no jardim.",
+        "explain": "她在窗外看了一会儿，然后在花园长椅上坐下。"
+      },
+      {
+        "q": "O que recordou a Carla?",
+        "options": [
+          "O seu próprio primeiro dia, com medo.",
+          "Uma viagem de família.",
+          "O dia do casamento."
+        ],
+        "answer": "O seu próprio primeiro dia, com medo.",
+        "explain": "「De repente」引出的回忆是她自己五岁第一天上学的样子。"
+      },
+      {
+        "q": "O que sentiu a Carla no fim?",
+        "options": [
+          "Que a filha já não precisava dela.",
+          "Que também ela mudou com aquele dia.",
+          "Que se arrependeu de ter tido filhos."
+        ],
+        "answer": "Que também ela mudou com aquele dia.",
+        "explain": "最后一句说变化不在女儿身上，而在她自己身上。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab20",
+    "title": "Um barco chamado Talvez",
+    "text": "O Vicente comprou o barco num anúncio de segunda mão. Era pequeno, velho e precisava de pintura. «Se fosse rico, comprava um novo», disse ao amigo, a rir. Mas aquele barco era seu, e isso bastava. Chamava-se Talvez, um nome que ele próprio escolhera. Ao domingo, levava-o para o rio. Gostaria de dizer que navegava bem, mas a verdade é que passava mais tempo a arranhar o motor do que a navegar. Ainda assim, ali sentia-se livre. Se pudesse, ficava todo o dia na água, a ver os barcos a passar e a pensar na vida. Havia sempre um vizinho no cais a perguntar se ele precisava de ajuda.\n\nO seu sonho era simples: um dia, atravessar a costa até ao Algarve. Não era uma viagem enorme, mas exigia tempo, dinheiro e coragem. «Se eu tivesse começado aos vinte anos, já teria feito isso», pensava, com um pouco de pena. Tinha mapas antigos, revistas de náutica e uma lista de portos onde queria parar.\n\nUm dia, apareceu no rio uma mulher com um barco maior. Chamava-se Inês e também tinha um sonho parecido. Falaram durante horas, sentados no cais. Ela contou que deixara o emprego para trabalhar num estaleiro, e que mudara tudo: a casa, os horários, as amizades. «Não foi fácil», disse, «mas não me arrependo.» A Inês trouxe uma garrafa de vinho e dois copos, e ficaram a ver o pôr do sol.\n\nO Vicente ouviu-a em silêncio. Em casa, nessa noite, olhou para o mapa. Havia uma linha que ia de Lisboa até Sagres, e ele já a tinha desenhado a lápis. «Talvez para o ano», disse a si mesmo. Depois, corrigiu: «Não. Talvez este ano.» Guardou o mapa na gaveta, ao lado das chaves do barco e das fotografias antigas.",
+    "questions": [
+      {
+        "q": "Como era o barco do Vicente?",
+        "options": [
+          "Novo e caro.",
+          "Pequeno e antigo.",
+          "Grande e rápido."
+        ],
+        "answer": "Pequeno e antigo.",
+        "explain": "第一段说船又小又旧，还需要刷漆。"
+      },
+      {
+        "q": "O que ocupava mais tempo do Vicente?",
+        "options": [
+          "Navegar pelo rio.",
+          "Arranjar o motor do barco.",
+          "Pescar com os amigos."
+        ],
+        "answer": "Arranjar o motor do barco.",
+        "explain": "文中说他修发动机的时间比航行的时间还多。"
+      },
+      {
+        "q": "O que fez a Inês?",
+        "options": [
+          "Deixou o emprego para trabalhar num estaleiro.",
+          "Comprou um barco novo.",
+          "Mudou-se para o Algarve."
+        ],
+        "answer": "Deixou o emprego para trabalhar num estaleiro.",
+        "explain": "她说自己辞了工作去船厂上班，生活全变了。"
+      },
+      {
+        "q": "O que sugere a última frase do texto?",
+        "options": [
+          "Ele vai desistir do sonho.",
+          "Ele começa a acreditar que pode realizá-lo mais cedo.",
+          "Ele quer vender o barco."
+        ],
+        "answer": "Ele começa a acreditar que pode realizá-lo mais cedo.",
+        "explain": "他从「也许明年」改成「也许今年」，说明想法在变。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab21",
+    "title": "Três dias num hostel",
+    "text": "Primeiro, a Joana hesitou. Um hostel, em Lisboa, em pleno agosto? Tinha trinta e cinco anos e imaginava festa, barulho e gente muito jovem. Mas o preço era metade de um hotel e ela queria poupar para a viagem do ano seguinte. A amiga, que já tinha dormido num hostel, garantiu que era seguro. Reservou três noites num hostel perto do Rossio. Entretanto, as coisas foram diferentes do que esperava. O quarto era partilhado, sim, mas as pessoas eram tranquilas: uma professora alemã, dois irmãos canadianos, uma enfermeira de Coimbra. Havia uma cozinha comum e um pequeno terraço no último andar.\n\nNo primeiro dia, andou pela cidade sem mapa. Comprou um bilhete de elétrico e andou até ao fim da linha. Perdeu-se no Alfama, subiu ruas sem fim e acabou a comer sardinhas num restaurante pequeno, com uma mesa na calçada. À noite, no hostel, alguém organizou um jantar. Cada hóspede trouxe uma coisa e contou uma história.\n\nAfinal, a Joana percebeu que estava a gostar. Não pelas razões que imaginava, mas porque aquela mistura de gente a obrigava a falar, a perguntar, a ouvir. Ao terceiro dia, já conhecia os nomes de todos e sabia onde comprar o melhor pastel de nata do bairro. Nessa noite, falaram de viagens, de filhos e de empregos que se perdem e se encontram.\n\nNo último dia, ao pequeno-almoço, a enfermeira perguntou-lhe se voltaria. «Enfim... talvez», respondeu a Joana, a rir. «Se voltar a Lisboa sozinha, sim.» Guardou o cartão do hostel na carteira, não para reservar outra vez, mas porque queria lembrar-se daqueles dias. A recordação que levava não era dos monumentos, era das conversas. E isso, pensou, nenhum hotel lhe teria dado. No aeroporto, ainda trocou mensagens com a enfermeira e prometeu voltar, mas com mais tempo.",
+    "questions": [
+      {
+        "q": "Porque escolheu a Joana o hostel?",
+        "options": [
+          "Porque era mais barato do que um hotel.",
+          "Porque queria participar em festas.",
+          "Porque não havia hotéis disponíveis."
+        ],
+        "answer": "Porque era mais barato do que um hotel.",
+        "explain": "文中说旅馆价格是酒店的一半，她想省钱。"
+      },
+      {
+        "q": "Como eram os outros hóspedes?",
+        "options": [
+          "Muito barulhentos e festivos.",
+          "Tranquilos e de várias origens.",
+          "Todos muito jovens."
+        ],
+        "answer": "Tranquilos e de várias origens.",
+        "explain": "她遇到的是德国老师、加拿大兄弟和葡萄牙护士。"
+      },
+      {
+        "q": "O que fez ela no primeiro dia?",
+        "options": [
+          "Andou pela cidade sem mapa.",
+          "Ficou o dia inteiro no hostel.",
+          "Foi a um museu com um guia."
+        ],
+        "answer": "Andou pela cidade sem mapa.",
+        "explain": "第一句就说她第一天没带地图在城里走。"
+      },
+      {
+        "q": "O que mais a marcou na viagem?",
+        "options": [
+          "Os monumentos que visitou.",
+          "As conversas com as pessoas.",
+          "O preço baixo do alojamento."
+        ],
+        "answer": "As conversas com as pessoas.",
+        "explain": "结尾说她的回忆不是名胜，而是那些对话。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab22",
+    "title": "Os óculos que ela não queria",
+    "text": "Na sala de espera, a Teresa olhava para o chão. Tinha escolhido uma cadeira ao fundo, longe da receção. Tinha marcado aquela consulta depois de semanas a negar o problema: via mal ao longe, sobretudo à noite, e já evitava conduzir. O médico chamou-a pelo nome. Usava uns óculos redondos e falava devagar. Fez exames, pediu que lesse letras em tamanhos diferentes e perguntou há quanto tempo notava aquilo. «Talvez desde o verão», respondeu ela. «Mas pensei que fosse cansaço.»\n\nO diagnóstico foi simples: precisava de óculos para longe. A Teresa ficou em silêncio. Não era uma doença grave, bem sabia. Mas os óculos pareciam-lhe uma espécie de aviso: o corpo a dizer que o tempo passava.\n\nO médico explicou que, sem correção, o esforço para focar podia causar dores de cabeça, cansaço e até um sintoma estranho, como ver duas imagens ao mesmo tempo. «O tratamento é simples e vai melhorar muito a sua vida», disse. Passou-lhe uma receita e recomendou uma ótica em frente. A Teresa perguntou se podia continuar a ler à noite e ele riu-se.\n\nA Teresa saiu com o papel na mão e foi direta à ótica. Experimentou dez armações, pediu opinião à empregada e escolheu umas muito finas, quase invisíveis. Quando as pôs, olhou pela janela: as letras do cartaz em frente, que antes eram uma mancha, ficaram nítidas. «Ah», disse, surpreendida. Não era só o cartaz. Era tudo. Voltou para casa a pé, a olhar para as árvores, para os números dos autocarros, para os rostos das pessoas. Nessa noite, viu televisão sem se aproximar do ecrã e leu dez páginas de um livro. Ao fim de uma semana, já não tinha dores de cabeça. A consulta que adiara durante meses tinha durado vinte minutos.",
+    "questions": [
+      {
+        "q": "Porque foi a Teresa à consulta?",
+        "options": [
+          "Porque via mal, sobretudo à noite.",
+          "Porque tinha dores de dentes.",
+          "Porque queria comprar óculos de sol."
+        ],
+        "answer": "Porque via mal, sobretudo à noite.",
+        "explain": "第一段说她已经看不清远处，尤其晚上，还不敢开车。"
+      },
+      {
+        "q": "O que sentiu ela ao saber do diagnóstico?",
+        "options": [
+          "Um alívio imediato.",
+          "Que era um sinal de que o tempo passava.",
+          "Raiva do médico."
+        ],
+        "answer": "Que era um sinal de que o tempo passava.",
+        "explain": "她沉默不语，觉得眼镜像是身体提醒她时间流逝。"
+      },
+      {
+        "q": "O que recomendou o médico?",
+        "options": [
+          "Uma cirurgia aos olhos.",
+          "Óculos para longe.",
+          "Gotas para os olhos."
+        ],
+        "answer": "Óculos para longe.",
+        "explain": "医生诊断她需要配看远的眼镜。"
+      },
+      {
+        "q": "O que se pode concluir do fim do texto?",
+        "options": [
+          "Ela ficou contente por voltar a ver bem.",
+          "Ela recusou usar os óculos.",
+          "Os óculos pioraram a sua visão."
+        ],
+        "answer": "Ela ficou contente por voltar a ver bem.",
+        "explain": "她戴上后觉得一切都清晰了，一周后头痛也消失了。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab23",
+    "title": "O jantar de domingo",
+    "text": "Domingo à tarde, o Miguel decidiu cozinhar para a família. Não era um cozinheiro experiente, mas tinha tempo e uma receita da avó, escrita à mão num papel amarelado. A alimentação em casa andava má: demasiada comida processada, poucos legumes, pouca água. Começou por fazer uma lista. Queria uma refeição equilibrada, com sopa, peixe e fruta. Escolheu uma sopa de abóbora e um peixe fresco do mercado. «Não precisa de ser complicado», pensou. Lavou os legumes, cortou tudo e pôs a sopa a cozer. Enquanto esperava, pôs a mesa e encheu uma jarra de água.\n\nMal a sopa começou a ferver, lembrou-se dos seus hábitos. Costumava chegar a casa às oito, cansado, e abrir o frigorífico sem saber o que comer. Acabava sempre num prato pronto ou numa sandes. Devia organizar-se melhor, mas nunca tinha tempo. Ou nunca arranjava tempo. Ao sábado, tentava compensar, mas acabava a comer fora.\n\nA família chegou às oito. A avó provou a sopa e disse que faltava sal. A mãe perguntou se ele tinha usado azeite. O irmão mais novo, que só comia massa, olhou para o peixe com desconfiança — mas comeu, e repetiu. Ficou surpreendido por gostar.\n\nAo fim da refeição, o Miguel serviu fruta e lembrou a todos que era importante hidratar-se, sobretudo com o calor que fazia. «Não é uma refeição de restaurante», disse, «mas é honesta.» A avó riu-se e contou que, na sua juventude, não havia tanta escolha: comia-se o que havia, e era quase sempre da horta. Antes de se deitar, o Miguel escreveu uma lista de compras para a semana. Não era uma dieta. Era um hábito novo, ainda frágil, mas que queria manter. Também escreveu: «beber água ao longo do dia». E ainda: «comprar fruta».",
+    "questions": [
+      {
+        "q": "Porque decidiu o Miguel cozinhar?",
+        "options": [
+          "Porque era um chef experiente.",
+          "Porque a alimentação em casa andava má.",
+          "Porque era o aniversário da avó."
+        ],
+        "answer": "Porque a alimentação em casa andava má.",
+        "explain": "第一段说家里吃太多加工食品、蔬菜少。"
+      },
+      {
+        "q": "O que fazia ele normalmente ao chegar a casa?",
+        "options": [
+          "Cozinhava uma sopa de legumes.",
+          "Comia algo rápido e pronto.",
+          "Jantava sempre fora."
+        ],
+        "answer": "Comia algo rápido e pronto.",
+        "explain": "他说自己常打开冰箱随便吃点现成的或做个三明治。"
+      },
+      {
+        "q": "O que disse a avó sobre a sopa?",
+        "options": [
+          "Que faltava sal.",
+          "Que estava ótima.",
+          "Que tinha azeite a mais."
+        ],
+        "answer": "Que faltava sal.",
+        "explain": "原文说「A avó provou a sopa e disse que faltava sal」。"
+      },
+      {
+        "q": "O que mostra o fim do texto?",
+        "options": [
+          "Ele desistiu de cozinhar.",
+          "Ele quer transformar uma decisão pontual em hábito.",
+          "Ele vai contratar um cozinheiro."
+        ],
+        "answer": "Ele quer transformar uma decisão pontual em hábito.",
+        "explain": "他睡前写购物清单，想让这个新习惯保持下去。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab24",
+    "title": "Dez minutos no jardim",
+    "text": "Todas as manhãs, a Fátima passa pelo jardim do bairro a caminho do trabalho. Nunca para. Vai sempre com pressa, o telemóvel na mão, a pensar na primeira reunião do dia. Trabalha numa empresa de seguros, no centro, e tem duas filhas. Na quarta-feira, porém, o autocarro atrasou-se tanto que ela decidiu ir a pé. Passou pelo jardim e, sem motivo especial, sentou-se num banco. Tinha dez minutos. O sol batia nas árvores, um homem lia o jornal e duas crianças corriam atrás de pombos. Um velho tocava guitarra perto da fonte.\n\nA Fátima fechou os olhos. O stress da semana — os prazos, as chamadas, as noites mal dormidas — parecia estar noutro lugar. Há meses que sofria de insónia e não sabia bem porquê. Talvez soubesse: nunca parava. Lembrou-se de quando era criança e passava os verões no campo. Naqueles dez minutos, não fez nada. Não leu, não respondeu a mensagens, não planificou o dia. Apenas ficou ali, a ouvir. Não pensou no trabalho nem uma vez. Quando se levantou, sentiu o corpo mais leve.\n\nNo escritório, contou à colega. «Fiz uma coisa revolucionária: sentei-me num jardim.» A colega riu-se, mas depois disse: «Sabes que isso é o que os médicos recomendam? Uma pausa a meio do dia.»\n\nA Fátima não mudou de vida. Continuou a trabalhar muito, a chegar tarde a casa e a passar os fins de semana a recuperar. Mas começou a sair cinco minutos mais cedo e a parar no jardim, duas ou três vezes por semana. O descanso entrou na rotina, num espaço pequeno, entre duas reuniões. A colega passou a fazer o mesmo, à hora do almoço. Às vezes, dez minutos são suficientes para o dia parecer outro. E o jardim ficou a fazer parte dos seus dias.",
+    "questions": [
+      {
+        "q": "O que fez a Fátima de diferente naquela manhã?",
+        "options": [
+          "Foi a pé e sentou-se no jardim.",
+          "Faltou ao trabalho.",
+          "Apanhou um táxi para o escritório."
+        ],
+        "answer": "Foi a pé e sentou-se no jardim.",
+        "explain": "公交车晚点，她决定步行，并在花园坐下。"
+      },
+      {
+        "q": "Porque sofria ela de insónia?",
+        "options": [
+          "Porque nunca parava.",
+          "Porque tinha um bebé pequeno.",
+          "Porque tomava café à noite."
+        ],
+        "answer": "Porque nunca parava.",
+        "explain": "文中说她失眠好几个月，「也许是因为从不停下来」。"
+      },
+      {
+        "q": "O que recomendou a colega?",
+        "options": [
+          "Uma pausa a meio do dia.",
+          "Mudar de emprego.",
+          "Tomar medicamentos para dormir."
+        ],
+        "answer": "Uma pausa a meio do dia.",
+        "explain": "同事说医生也建议中午休息一下。"
+      },
+      {
+        "q": "Qual é a mensagem do texto?",
+        "options": [
+          "É preciso mudar tudo para descansar.",
+          "Pequenas pausas podem melhorar o dia.",
+          "O trabalho deve vir sempre primeiro."
+        ],
+        "answer": "Pequenas pausas podem melhorar o dia.",
+        "explain": "结尾说十分钟就足以让一天看起来不一样。"
+      }
+    ]
+  }
+]

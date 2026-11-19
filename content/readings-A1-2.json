@@ -1,0 +1,237 @@
+[
+  {
+    "id": "a1lab07",
+    "title": "No miradouro da cidade",
+    "text": "Hoje é sábado e o dia está bonito. A Ana sobe ao miradouro da cidade com um mapa na mão. Ela quer ver o rio, as casas coloridas e o castelo. No miradouro há muitos turistas, mas há também muitos portugueses. O sol está quente e o céu é azul. As casas têm telhados vermelhos e o rio brilha ao sol.\n\nA Ana pergunta a um senhor: «Desculpe. Onde fica o castelo?» O senhor sorri e diz: «O castelo fica em frente, no alto da colina. Siga sempre em frente e, no fim da rua, pergunte a alguém. Não é longe, são dez minutos a pé.»\n\nA Ana agradece. Mas ela vê duas ruas e não sabe qual é a certa. Então pergunta a uma senhora: «Desculpe, aquela rua fica à esquerda?» A senhora responde: «Sim, fica à esquerda. Depois, na rotunda, vire à direita.» No fim, a Ana encontra o castelo. Ela fica muito contente porque o castelo é lindo.",
+    "questions": [
+      {
+        "q": "Onde está a Ana no início do texto?",
+        "options": [
+          "No miradouro da cidade.",
+          "Dentro do castelo.",
+          "Em casa, com um mapa."
+        ],
+        "answer": "No miradouro da cidade.",
+        "explain": "开头说她带着地图登上城市观景台（miradouro）。"
+      },
+      {
+        "q": "O que diz o senhor sobre o castelo?",
+        "options": [
+          "Fica à esquerda da rotunda.",
+          "Fica em frente, no alto da colina.",
+          "Fica muito longe do miradouro."
+        ],
+        "answer": "Fica em frente, no alto da colina.",
+        "explain": "老人说 o castelo fica em frente, no alto da colina。"
+      },
+      {
+        "q": "Quem diz que a rua fica à esquerda?",
+        "options": [
+          "Um turista.",
+          "O senhor do mapa.",
+          "Uma senhora."
+        ],
+        "answer": "Uma senhora.",
+        "explain": "安娜问一位女士，女士回答 fica à esquerda。"
+      },
+      {
+        "q": "Como está a Ana no fim?",
+        "options": [
+          "Contente, porque encontrou o castelo.",
+          "Triste, porque não encontrou o caminho.",
+          "Zangada, porque o castelo é feio."
+        ],
+        "answer": "Contente, porque encontrou o castelo.",
+        "explain": "结尾说她找到城堡后 fica muito contente。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab08",
+    "title": "Na bilheteira do teatro",
+    "text": "É sexta-feira à tarde. A Ana chega à bilheteira do teatro e olha para o relógio. O teatro é antigo e bonito, e há muita gente na rua. O espetáculo começa às oito e meia, mas ela quer saber a que horas abre a sala. A Ana está um pouco nervosa porque é a primeira vez que vem ao teatro. «Boa tarde. A que horas começa o espetáculo?», pergunta ela.\n\nA senhora da bilheteira diz: «Começa às oito e meia. Quer um bilhete?» A Ana responde: «Sim, queria dois bilhetes, se faz favor. Um para mim e um para o meu amigo. Ele chega de comboio às sete.»\n\nMas há um problema: o comboio do amigo está atrasado. A Ana telefona e ele diz: «O comboio está atrasado vinte minutos. Vou apanhar o autocarro.» No fim, o amigo chega às oito e vinte. Os dois entram no teatro e sentam-se. O espetáculo é muito bonito e eles ficam felizes.",
+    "questions": [
+      {
+        "q": "Onde está a Ana?",
+        "options": [
+          "Na estação de comboios.",
+          "Na bilheteira do teatro.",
+          "Num café perto do teatro."
+        ],
+        "answer": "Na bilheteira do teatro.",
+        "explain": "文章第一段说她来到剧院售票处。"
+      },
+      {
+        "q": "A que horas começa o espetáculo?",
+        "options": [
+          "Às sete horas.",
+          "Às oito e vinte.",
+          "Às oito e meia."
+        ],
+        "answer": "Às oito e meia.",
+        "explain": "售票员说 Começa às oito e meia。"
+      },
+      {
+        "q": "Porque é que o amigo vem de autocarro?",
+        "options": [
+          "Porque o comboio está atrasado.",
+          "Porque não tem bilhete de comboio.",
+          "Porque mora longe do teatro."
+        ],
+        "answer": "Porque o comboio está atrasado.",
+        "explain": "朋友说火车晚点二十分钟，所以改坐公交。"
+      },
+      {
+        "q": "Quantos bilhetes compra a Ana?",
+        "options": [
+          "Um.",
+          "Dois.",
+          "Três."
+        ],
+        "answer": "Dois.",
+        "explain": "她说 queria dois bilhetes，一张给自己，一张给朋友。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab09",
+    "title": "No elétrico para o centro",
+    "text": "A Ana está perto do rio e quer ir ao mercado do centro. Um senhor diz: «Apanhe o elétrico 28. Ele vai para o centro e passa no mercado.» Para subir ao elétrico, a Ana espera na paragem com muitas pessoas. O senhor é velho e tem um chapéu. Está um dia bonito e há turistas com máquinas fotográficas.\n\nO elétrico chega e ela entra. Dentro está cheio, mas há um lugar junto à janela. A Ana tem um bilhete na mão e guarda-o no bolso. Ela senta-se e olha para as ruas. Uma senhora pergunta: «A senhora desce na próxima paragem?» A Ana responde: «Não, desço duas paragens depois.»\n\nEla sabe que tem de descer perto do mercado. No fim, o elétrico para e a Ana desce. Ela está perto do mercado e vê muitas flores. Depois, compra laranjas, pão e uma flor amarela para a mãe. A Ana gosta muito do elétrico porque é lento e ela vê a cidade toda.",
+    "questions": [
+      {
+        "q": "Para onde vai a Ana?",
+        "options": [
+          "Ao teatro.",
+          "À praia.",
+          "Ao mercado."
+        ],
+        "answer": "Ao mercado.",
+        "explain": "开头说她想去市场（mercado）。"
+      },
+      {
+        "q": "Qual é o elétrico que a Ana apanha?",
+        "options": [
+          "O 28.",
+          "O 15.",
+          "O 24."
+        ],
+        "answer": "O 28.",
+        "explain": "老人让她坐 28 路电车。"
+      },
+      {
+        "q": "Onde se senta a Ana?",
+        "options": [
+          "Ao lado da porta.",
+          "Junto à janela.",
+          "Ao lado do condutor."
+        ],
+        "answer": "Junto à janela.",
+        "explain": "文中说 há um lugar junto à janela，她坐下了。"
+      },
+      {
+        "q": "O que compra a Ana no fim?",
+        "options": [
+          "Flores e café.",
+          "Um bilhete.",
+          "Laranjas, pão e uma flor."
+        ],
+        "answer": "Laranjas, pão e uma flor.",
+        "explain": "结尾说她买了橙子、面包，还有一朵黄的花。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab10",
+    "title": "No check-in do hostel",
+    "text": "É segunda-feira de manhã. A Ana chega ao hostel com uma mochila grande. Na receção está um rapaz jovem. «Bom dia!», diz a Ana. «Tenho uma reserva para duas noites.» O hostel é pequeno, mas tem um jardim bonito e muitas plantas. A Ana está cansada da viagem, mas sorri.\n\nO rapaz olha para o computador e pergunta: «Qual é o seu nome?» A Ana responde: «Chamo-me Ana Silva.» O rapaz sorri: «Olá, Ana. Bem-vinda ao nosso hostel. O seu quarto é o número cinco, no primeiro andar. O quarto tem duas camas e uma janela pequena.»\n\nOutro hóspede chega e diz: «Olá! Também tenho uma reserva.» Ele é de França e chama-se Paul. «Prazer em conhecer-te», diz a Ana. «O pequeno-almoço é às oito», diz o rapaz. «Até logo!» A Ana e o Paul falam um pouco em inglês e em português. No fim, a Ana sobe ao quarto. Está cansada, mas muito contente porque as pessoas são simpáticas.",
+    "questions": [
+      {
+        "q": "Onde chega a Ana?",
+        "options": [
+          "Ao hostel.",
+          "Ao teatro.",
+          "Ao mercado."
+        ],
+        "answer": "Ao hostel.",
+        "explain": "第一句说她到达青旅（hostel）。"
+      },
+      {
+        "q": "Quantas noites fica a Ana?",
+        "options": [
+          "Uma.",
+          "Duas.",
+          "Cinco."
+        ],
+        "answer": "Duas.",
+        "explain": "她说 tenho uma reserva para duas noites。"
+      },
+      {
+        "q": "De que país é o Paul?",
+        "options": [
+          "De Portugal.",
+          "Da China.",
+          "De França."
+        ],
+        "answer": "De França.",
+        "explain": "文中说 Ele é de França。"
+      },
+      {
+        "q": "A que horas é o pequeno-almoço?",
+        "options": [
+          "Às oito.",
+          "Às cinco.",
+          "Às dez."
+        ],
+        "answer": "Às oito.",
+        "explain": "接待的男孩说 o pequeno-almoço é às oito。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab11",
+    "title": "No elevador do prédio",
+    "text": "A Ana vive num prédio pequeno, no terceiro andar. Uma manhã, ela entra no elevador com uma vizinha jovem. A vizinha tem um cão pequeno e sorri. O elevador é lento e faz barulho, mas a Ana já está habituada.\n\n«Bom dia. És nova aqui, não és?», pergunta a vizinha. A Ana responde: «Sim, estou aqui há duas semanas.» A vizinha pergunta: «De onde és?» A Ana diz: «Sou chinesa. Vivo em Lisboa agora, mas a minha família está em Xangai. O meu pai é chinês e a minha mãe também.» O cão olha para a Ana e abana a cauda.\n\nA vizinha diz: «Eu sou portuguesa e vivo neste prédio há vinte anos. O meu irmão é português, mas vive em Londres.» Depois, o elevador para e as duas saem. No fim, a vizinha diz: «Se precisares de alguma coisa, bate à minha porta. É o número sete.» A Ana ri e agradece, porque os vizinhos são simpáticos.",
+    "questions": [
+      {
+        "q": "Onde vive a Ana?",
+        "options": [
+          "Numa casa grande, no campo.",
+          "Num prédio pequeno, no terceiro andar.",
+          "Num hotel do centro."
+        ],
+        "answer": "Num prédio pequeno, no terceiro andar.",
+        "explain": "开头说她住在一栋小楼的三层。"
+      },
+      {
+        "q": "De onde é a Ana?",
+        "options": [
+          "De Portugal.",
+          "De França.",
+          "Da China."
+        ],
+        "answer": "Da China.",
+        "explain": "她说 Sou chinesa，家人住在上海。"
+      },
+      {
+        "q": "Há quanto tempo vive a vizinha no prédio?",
+        "options": [
+          "Há vinte anos.",
+          "Há duas semanas.",
+          "Há dois anos."
+        ],
+        "answer": "Há vinte anos.",
+        "explain": "邻居说她在这个楼里住了二十年。"
+      },
+      {
+        "q": "O que diz a vizinha no fim?",
+        "options": [
+          "Que a Ana tem de mudar de casa.",
+          "Que a Ana pode bater à porta dela.",
+          "Que o elevador está avariado."
+        ],
+        "answer": "Que a Ana pode bater à porta dela.",
+        "explain": "结尾邻居说需要帮忙就敲她的门，门牌是七号。"
+      }
+    ]
+  }
+]

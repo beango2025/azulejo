@@ -8,6 +8,9 @@ Desktop.ini
 _shots/
 _chrome/
 _chrome-qa/
+_exams/
+_pylibs/
+content/_*
 node_modules/
 .vscode/
 .idea/

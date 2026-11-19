@@ -1,0 +1,707 @@
+[
+  {
+    "id": "b2lab10",
+    "title": "A manchete que ninguém quis assumir",
+    "text": "A sala de imprensa do Diário do Tejo encheu-se ontem ao fim da manhã. Durante quase uma hora, a administração do grupo tentou explicar a manchete que, na quarta-feira, atribuía a demissão do diretor financeiro a «pressões políticas». Segundo o comunicado distribuído à entrada, a notícia fora construída a partir de uma fonte interna que, alegadamente, participara nas reuniões do conselho. Nenhum documento foi apresentado e nenhum nome foi dito em voz alta. No total, os jornalistas presentes contaram catorze perguntas sem resposta substancial. As cadeiras da primeira fila ficaram vazias até ao fim.\n\nÀ mesa, o diretor editorial garantiu que os factos tinham sido verificados «de acordo com os procedimentos habituais». No entanto, quando um jornalista pediu para consultar o registo dessas verificações, a resposta foi evasiva: o processo, supostamente, estaria ainda em curso. Uma repórter da rádio pública insistiu duas vezes e obteve a mesma formulação vaga, dita com um sorriso incómodo. Ao fim de meia hora, ficou claro que ninguém queria associar o seu nome àquela manchete, nem defendê-la com convicção. Quando o moderador propôs passar às perguntas escritas, ouviu-se um murmúrio de reprovação.\n\nO problema não é apenas de estilo. A credibilidade de um jornal mede-se pela capacidade de verificar e de mostrar de onde vêm as informações, e o Diário do Tejo apresentou, nesta ocasião, uma única fonte, não identificada e não confirmada por documentos. Em redações exigentes, uma acusação daquele teor obriga a duas fontes independentes ou a uma prova escrita. Sem elas, o texto deixa de ser jornalismo e passa a ser rumor impresso, por muito cuidado que tenha na linguagem. A diferença entre uma fonte e um boato não é de vocabulário: é de método, e o método exige tempo que ninguém quis dar.\n\nNas redes sociais, antigos leitores acusaram o jornal de ter publicado um artigo enviesado, construído para favorecer uma certa leitura dos acontecimentos. A direção rejeitou a acusação, mas acabou por admitir que «a formulação poderia ter sido mais prudente». O Provedor do Leitor anunciou que vai analisar o caso e que o seu parecer será publicado no domingo, acompanhado da resposta da direção e de um espaço para comentários. Até lá, a edição de quarta continua à venda, com a mesma manchete, e nenhum dos leitores que contactámos por telefone disse ter recebido uma resposta individual.\n\nUma correção digna desse nome não se limita a substituir palavras: exige explicar quem falhou, em que ponto do processo e o que muda a partir de agora. Enquanto isso não acontecer, a manchete continuará a circular sem autor, citada por uns como prova e por outros como exemplo de tudo o que corre mal na imprensa. A confiança dos leitores, essa, dificilmente se recupera com um comunicado de duas páginas e meia dúzia de frases prudentes. E, até lá, cada leitor decidirá sozinho se aquilo era notícia ou apenas barulho.",
+    "questions": [
+      {
+        "q": "Segundo a administração, a notícia teve origem em quê?",
+        "options": [
+          "Em documentos oficiais do conselho.",
+          "Nas declarações do diretor financeiro.",
+          "Numa fonte interna não identificada."
+        ],
+        "answer": "Numa fonte interna não identificada.",
+        "explain": "细节题：第一段说消息来自「uma fonte interna」，且「alegadamente」参加董事会会议，没有文件也没有具名。"
+      },
+      {
+        "q": "O que se pode inferir da atitude da direção durante a conferência?",
+        "options": [
+          "Recusou-se a comparecer perante os jornalistas.",
+          "Evitou comprometer-se com provas concretas.",
+          "Apresentou o registo completo das verificações."
+        ],
+        "answer": "Evitou comprometer-se com provas concretas.",
+        "explain": "推断题：面对查阅核实记录的要求，回应含糊其辞，说流程「supostamente」仍在进行，说明它回避提供实证。"
+      },
+      {
+        "q": "A expressão «por muito cuidado que tenha na linguagem» serve para:",
+        "options": [
+          "elogiar o rigor formal do jornal.",
+          "reforçar que a forma não compensa a falta de verificação.",
+          "sugerir que o texto teve vários autores."
+        ],
+        "answer": "reforçar que a forma não compensa a falta de verificação.",
+        "explain": "态度题：该让步结构强调「无论措辞多谨慎」，没有核实就只是「rumor impresso」，形式无法弥补实质。"
+      },
+      {
+        "q": "Qual é a posição do autor sobre a correção anunciada?",
+        "options": [
+          "Considera que a correção completa ainda está por fazer.",
+          "Acredita que o comunicado resolveu o problema.",
+          "Defende que o jornal não deve corrigir o texto."
+        ],
+        "answer": "Considera que a correção completa ainda está por fazer.",
+        "explain": "推断题：最后一段说真正的更正需要说明谁失误、何处失误、今后如何改变，而「enquanto isso não acontecer」表明尚未做到。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab11",
+    "title": "O Wi-Fi do café e o preço de um clique",
+    "text": "São nove e meia da manhã e o café da esquina já tem mais portáteis abertos do que chávenas em cima da mesa. Ninguém repara no cartão colado à parede, com a palavra «Wi-Fi» e uma palavra-passe de oito dígitos. O gesto de partilhar tornou-se tão banal que quase não merece atenção: uma fotografia, uma frase, um artigo lido na diagonal. E, no entanto, é nesse gesto minúsculo que se decide boa parte daquilo que cada um de nós vai ver a seguir. A senhora da mesa do lado conta ao telefone que já viu tudo, e o telefone mostra-lhe o que ainda lhe falta ver.\n\nO algoritmo não nos conhece: conhece o nosso rasto. Cada clique, cada pausa de dois segundos sobre uma imagem, cada vídeo abandonado a meio, tudo isso é transformado em sinal. O sistema aprende que tipo de conteúdo nos retém e passa a oferecer mais do mesmo, o que leva a um empobrecimento progressivo do que nos chega. Não se trata de uma conspiração, mas de um mecanismo comercial simples: o tempo de atenção é vendido a quem paga por ele. O resultado, porém, faz com que a curiosidade se estreite sem que se dê por isso.\n\nÉ aqui que a desinformação encontra terreno fértil. Uma notícia falsa não precisa de ser engenhosa: precisa de circulação, e a circulação depende da indignação. Os conteúdos que provocam raiva viajam mais depressa do que os que informam, porque a raiva pede resposta imediata, e a resposta imediata é quase sempre outra partilha. Assim se alimenta a polarização: dois grupos deixam de discutir os mesmos factos e passam a discutir versões incompatíveis do mundo, cada um convencido de que o outro vive enganado. E, como a conversa se faz por escrito e em público, cada um escreve para a sua plateia.\n\nSeria injusto reduzir tudo isto a uma questão de software. Nenhuma plataforma obriga alguém a acreditar no que lê, e a literacia mediática continua a ser a melhor defesa de que dispomos. Mas também não é razoável exigir a cada cidadão que faça, sozinho e à mesa de um café, o trabalho que deveria ser feito por regras claras e por mecanismos de verificação transparentes. A privacidade, aliás, raramente entra nesta conversa: falamos dos dados como se fossem um detalhe técnico, quando são a matéria-prima de todo o sistema e o preço real de cada serviço gratuito.\n\nTalvez por isso valha a pena recuperar um hábito antigo: pensar antes de partilhar. Não por moral, mas por método. Perguntar quem escreveu, com base em quê e a quem interessa que aquilo circule. É pouco, é certo, e não resolve o problema estrutural. Mas um leitor que hesita durante dez segundos já obriga o mecanismo a trabalhar com um dado novo, o da dúvida. E a dúvida, ao contrário da indignação, não se vende bem: não há anúncio que a promova.",
+    "questions": [
+      {
+        "q": "De acordo com o texto, o algoritmo aprende sobretudo a partir de quê?",
+        "options": [
+          "Das preferências declaradas pelos utilizadores.",
+          "Do comportamento observado, como cliques e pausas.",
+          "Das opiniões publicadas pela imprensa."
+        ],
+        "answer": "Do comportamento observado, como cliques e pausas.",
+        "explain": "细节题：第二段列举点击、停留两秒、半途放弃的视频，说明系统依据的是被记录下来的行为痕迹。"
+      },
+      {
+        "q": "Porque razão a desinformação circula depressa, segundo o autor?",
+        "options": [
+          "Porque é escrita por especialistas credíveis.",
+          "Porque a indignação gera respostas imediatas e novas partilhas.",
+          "Porque as plataformas a verificam previamente."
+        ],
+        "answer": "Porque a indignação gera respostas imediatas e novas partilhas.",
+        "explain": "细节题：第三段说虚假消息需要的是流通，而流通取决于愤怒，愤怒要求立刻回应，立刻回应几乎总是又一次分享。"
+      },
+      {
+        "q": "Que posição assume o autor no quarto parágrafo?",
+        "options": [
+          "Defende que a culpa é exclusivamente das plataformas.",
+          "Considera que a literacia mediática é inútil.",
+          "Reconhece a responsabilidade individual, mas não a considera suficiente."
+        ],
+        "answer": "Reconhece a responsabilidade individual, mas não a considera suficiente.",
+        "explain": "态度题：作者既承认平台不能强迫人相信，也承认媒体素养重要，但指出不能只让公民独自承担应有规则承担的工作。"
+      },
+      {
+        "q": "A frase final «a dúvida, ao contrário da indignação, não se vende bem» sugere que:",
+        "options": [
+          "a dúvida é comercialmente pouco rentável para o sistema.",
+          "os leitores duvidosos deixam de ler notícias.",
+          "a indignação é a única emoção autêntica."
+        ],
+        "answer": "a dúvida é comercialmente pouco rentável para o sistema.",
+        "explain": "推断题：全文说注意力被当作商品出售，结尾以反讽指出犹豫不产生流量，因此不利于这套商业模式。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab12",
+    "title": "Braços mecânicos, decisões humanas",
+    "text": "Num armazém de Matosinhos, um braço mecânico levanta caixas de doze quilos e coloca-as numa palete, sempre no mesmo ângulo, sem nunca falhar o ritmo. Ao lado, dois técnicos acompanham os números num ecrã. O laboratório que desenvolveu o sistema apresenta-o como um exemplo da inteligência artificial aplicada à logística, e a expressão repete-se nos cartazes e nas apresentações comerciais. O responsável pelo projeto, no entanto, prefere uma descrição mais modesta: «É um sistema que aprendeu a reconhecer padrões e a repeti-los com precisão.»\n\nA empresa quer automatizar três linhas de embalagem até ao verão, não só para reduzir custos, mas também para responder a uma dificuldade real de contratação na região. Prevê-se que quarenta postos de trabalho mudem de funções e que uma parte dos trabalhadores passe a supervisionar as máquinas. O plano, no entanto, corre o risco de ser apresentado como inevitável, quando é apenas uma entre várias opções possíveis. Automatizar não é um fenómeno natural: é uma decisão de gestão, com dono e com data, e por isso pode ser discutida como qualquer outra decisão, inclusive por quem vai ser afetado por ela. Discuti-la a sério, com números e com prazos, é o trabalho dos próximos anos.\n\nÉ nesse ponto que a ética deixa de ser uma abstração de congresso. Se um braço mecânico fere um operário, quem responde? O programador que definiu os limites de velocidade, o engenheiro que assinou o projeto, o gestor que encurtou o período de testes? A pergunta não tem resposta fácil, mas tem de ser feita antes de o acidente acontecer. Um sistema que aprende com dados antigos pode reproduzir preconceitos que ninguém se lembra de ter inscrito no código, e o erro, nesse caso, é coletivo e invisível.\n\nNa União Europeia, o quadro para regulamentar estas tecnologias já existe, embora chegue tarde e com exceções discutíveis. A regra geral é razoável: sistemas de risco elevado exigem documentação, auditoria e supervisão humana permanente. Desde que a supervisão seja real e não uma assinatura mensal, o modelo funciona. O problema é que a palavra «supervisão» aparece muitas vezes nos relatórios e raramente nos orçamentos, como se verificar fosse uma atividade que se faz com boa vontade.\n\nNada disto significa que as máquinas substituem o julgamento humano. Significa apenas que o deslocam: retiram ao operário a decisão de quando parar e entregam-na a quem está longe do chão de fábrica. Substituir não é o termo certo para descrever o que se passa; o termo certo é transferir. A questão política do próximo decénio não será, portanto, a de saber se as máquinas pensam, mas a de saber quem responde pelas consequências quando elas se enganam.",
+    "questions": [
+      {
+        "q": "Como é descrito o sistema pelo responsável do projeto?",
+        "options": [
+          "Como uma forma de inteligência geral.",
+          "Como um sistema que aprende padrões e os repete.",
+          "Como uma máquina capaz de decidir sozinha."
+        ],
+        "answer": "Como um sistema que aprende padrões e os repete.",
+        "explain": "细节题：第一段末他说这只是「um sistema que aprendeu a reconhecer padrões e a repeti-los」，刻意保持低调。"
+      },
+      {
+        "q": "Qual é a crítica do autor ao plano da empresa?",
+        "options": [
+          "O plano é tecnicamente impossível.",
+          "O plano é apresentado como inevitável, embora seja uma escolha.",
+          "O plano não prevê qualquer redução de custos."
+        ],
+        "answer": "O plano é apresentado como inevitável, embora seja uma escolha.",
+        "explain": "推断题：第二段说计划「corre o risco de ser apresentado como inevitável」，而自动化其实是一项有主人、有日期的管理决定。"
+      },
+      {
+        "q": "Segundo o texto, qual é o problema da palavra «supervisão»?",
+        "options": [
+          "Aparece nos relatórios, mas não se traduz em recursos.",
+          "É proibida pela legislação europeia.",
+          "Só pode ser exercida por programadores."
+        ],
+        "answer": "Aparece nos relatórios, mas não se traduz em recursos.",
+        "explain": "细节题：第四段指出「supervisão」常出现在报告里，却很少出现在预算里，即停留在纸面。"
+      },
+      {
+        "q": "A conclusão do texto aponta para uma questão sobretudo:",
+        "options": [
+          "técnica, sobre a velocidade dos processadores.",
+          "comercial, sobre o preço dos robôs.",
+          "política, sobre a responsabilidade pelas consequências."
+        ],
+        "answer": "política, sobre a responsabilidade pelas consequências.",
+        "explain": "态度题：末段明确说下个十年的政治问题不是机器是否思考，而是机器出错时由谁负责。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab13",
+    "title": "A decisão adiada e a conta que ninguém paga",
+    "text": "A pausa para o café durou vinte e cinco minutos e não serviu para descansar. Na sala ao lado, a equipa de projeto tinha acabado de adiar, pela terceira vez, a decisão sobre o novo sistema de faturação. Por um lado, ninguém queria assumir a responsabilidade de um atraso que já custara duas semanas de trabalho; por outro, todos sabiam que a solução atual não aguentaria o verão. As chávenas acumulavam-se e a conversa girava em círculos, sempre em torno das mesmas três objeções e das mesmas duas desculpas. A certa altura, alguém sugeriu criar um grupo de trabalho, e a sala respirou de alívio.\n\nÉ curioso como as organizações tratam a indecisão como se fosse neutralidade. Não é. Adiar uma decisão também é decidir, e tem custos concretos: horas pagas a testar hipóteses que nunca serão escolhidas, equipas que perdem o ritmo, clientes que recebem faturas erradas. No entanto, esses custos raramente aparecem no relatório, porque não têm uma linha própria. Apenas se notam, mais tarde, naquilo a que se chama falta de produtividade, como se fosse uma doença sem causa e sem responsável, que ninguém mede e que ninguém assume.\n\nHá, evidentemente, razões para não decidir depressa. A pressa é má conselheira quando estão em jogo dados incompletos, e a prudência de quem pede mais informação merece respeito. Mas a prudência tem limites e um deles é o tempo. Uma equipa que espera indefinidamente acaba por tomar a pior de todas as decisões: a de não preparar nenhuma. Portanto, o que estava em falta naquela sala não era informação, era coragem administrativa, que é uma coisa que não se compra por catálogo. Decidir mal é corrigível; não decidir limita-se a adiar a fatura.\n\nAntes de marcar nova reunião, convém ter em conta três coisas simples. Primeiro, quem decide e até quando. Segundo, que informação é realmente necessária e qual é apenas conforto psicológico. Terceiro, o que acontece se nada for decidido, porque esse cenário também tem preço. Nenhuma destas perguntas exige um especialista; exigem apenas alguém disposto a escrever no quadro uma data e um nome, e a assumir as duas coisas depois.\n\nA decisão acabou por ser tomada na quinta-feira seguinte, num corredor, por duas pessoas que não tinham autoridade formal para o fazer. Funcionou, o que diz muito sobre a utilidade das reuniões. E ficou uma lição discreta: nas empresas, o tempo raramente é escasso; o que escasseia é a disposição de alguém para assinar o que já todos sabem que tem de ser feito, mesmo quando ainda faltam dois ou três dados e ninguém os sabe interpretar.",
+    "questions": [
+      {
+        "q": "O que aconteceu na reunião descrita no início do texto?",
+        "options": [
+          "A equipa aprovou o novo sistema de faturação.",
+          "A decisão sobre o sistema foi novamente adiada.",
+          "A equipa decidiu contratar mais pessoal."
+        ],
+        "answer": "A decisão sobre o sistema foi novamente adiada.",
+        "explain": "细节题：第一段说团队「acabou de adiar, pela terceira vez, a decisão sobre o novo sistema de faturação」。"
+      },
+      {
+        "q": "Porque é que os custos da indecisão não aparecem nos relatórios?",
+        "options": [
+          "Porque não têm uma rubrica própria e só se notam mais tarde.",
+          "Porque são pagos pelos clientes.",
+          "Porque a lei impede o seu registo."
+        ],
+        "answer": "Porque não têm uma rubrica própria e só se notam mais tarde.",
+        "explain": "细节题：第二段说这些成本「raramente aparecem no relatório, porque não têm uma linha própria」。"
+      },
+      {
+        "q": "A afirmação «a prudência tem limites e um deles é o tempo» significa que:",
+        "options": [
+          "a prudência é incompatível com a gestão.",
+          "as decisões devem ser tomadas em cinco minutos.",
+          "esperar mais informação nem sempre é a atitude mais responsável."
+        ],
+        "answer": "esperar mais informação nem sempre é a atitude mais responsável.",
+        "explain": "推断题：作者承认谨慎有价值，但指出无限期等待会导致最糟的结果——什么都不准备。"
+      },
+      {
+        "q": "Que tom predomina no último parágrafo?",
+        "options": [
+          "Solene, ao lamentar a falta de autoridade formal.",
+          "Irónico, ao sublinhar a pouca utilidade prática das reuniões.",
+          "Didático, ao explicar o funcionamento do sistema."
+        ],
+        "answer": "Irónico, ao sublinhar a pouca utilidade prática das reuniões.",
+        "explain": "态度题：决定最终在走廊由两个无正式权限的人作出，作者说「Funcionou, o que diz muito sobre a utilidade das reuniões」，带明显反讽。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab14",
+    "title": "Carta de candidatura a um lugar de arquivo",
+    "text": "Exmos. Senhores,\nVenho por este meio apresentar a minha candidatura ao lugar de técnico de arquivo que a vossa instituição anunciou na semana passada. Tomei conhecimento da oferta através do sítio oficial do município e confirmei, por telefone, que o processo se mantém aberto até ao final do mês. Envio, em anexo, o meu currículo atualizado, o certificado de licenciatura em Ciências da Informação e uma declaração da minha última entidade patronal, onde se confirma o meu vínculo, o cargo que ocupo e as funções exercidas, bem como a data de início e o horário praticado.\n\nTrabalho há seis anos na organização de fundos documentais, primeiro numa empresa de seguros e depois num arquivo municipal, onde fui responsável pela descrição de cerca de quatro mil processos. Nesse período, coordenei a migração de um catálogo em papel para um sistema digital, tarefa que exigiu não só competências técnicas, mas também paciência negocial com serviços que resistiam a mudar de método. O trabalho foi concluído com um atraso de três semanas, o que considero, com honestidade, a minha principal falha e também a minha melhor escola, porque me obrigou a negociar prazos em vez de os impor e a explicar decisões técnicas a quem não as queria ouvir.\n\nInteressa-me, em particular, o facto de o vosso arquivo reunir documentação de empresas locais, algumas delas já desaparecidas. Acredito que esse tipo de acervo só ganha sentido quando é descrito com critério e disponibilizado a quem o procura: investigadores, antigos trabalhadores, simples curiosos. Tenho alguma experiência em atendimento ao público e disponibilidade para colaborar na conceção de exposições e de percursos documentais, atividades que, no arquivo onde trabalho, organizei por duas vezes, com públicos muito diferentes. Um arquivo bem descrito é uma forma de justiça, mesmo quando ninguém dá por isso.\n\nQuanto a condições, estou disponível para iniciar funções a partir de janeiro e resido a quarenta minutos do arquivo, com transporte direto. Aceito, naturalmente, o período de experiência previsto no regulamento interno e tenho flexibilidade para trabalhar aos sábados, caso o serviço o exija. Não tenho qualquer impedimento legal para o exercício das funções e posso apresentar, se for necessário, referências de dois antigos responsáveis, que se disponibilizaram para ser contactados por telefone. Não me candidato por acaso: conheço o vosso trabalho e interessa-me o modo como tratam o acervo local.\n\nAgradeço, desde já, a atenção dispensada à minha candidatura e coloco-me à disposição para uma entrevista, em data e hora que melhor vos convier. Fico a aguardar uma resposta, mesmo que negativa, para poder orientar as minhas próximas diligências. Com os melhores cumprimentos, Atenciosamente, Marta Sequeira Coelho.",
+    "questions": [
+      {
+        "q": "Como é que a candidata tomou conhecimento da oferta de emprego?",
+        "options": [
+          "Através do sítio oficial do município.",
+          "Por intermédio de uma colega do arquivo.",
+          "Num anúncio publicado num jornal diário."
+        ],
+        "answer": "Através do sítio oficial do município.",
+        "explain": "细节题：第一段说「Tomei conhecimento da oferta através do sítio oficial do município」，并打电话确认。"
+      },
+      {
+        "q": "Como avalia a candidata a migração do catálogo que coordenou?",
+        "options": [
+          "Como um êxito sem qualquer reparo.",
+          "Como uma experiência exigente, apesar do atraso.",
+          "Como um trabalho que preferia não repetir."
+        ],
+        "answer": "Como uma experiência exigente, apesar do atraso.",
+        "explain": "细节题：第二段提到任务需要技术与谈判能力，虽延误三周，她称之为「a minha principal falha e também a minha melhor escola」。"
+      },
+      {
+        "q": "Que motivo leva a candidata a interessar-se por este arquivo em especial?",
+        "options": [
+          "O salário ser superior ao do arquivo municipal.",
+          "O acervo de empresas locais, algumas já extintas.",
+          "A possibilidade de trabalhar a partir de casa."
+        ],
+        "answer": "O acervo de empresas locais, algumas já extintas.",
+        "explain": "细节题：第三段说她特别感兴趣的是馆藏汇集了本地企业文献，其中一些已不存在。"
+      },
+      {
+        "q": "Qual é o registo dominante da carta?",
+        "options": [
+          "Formal e cortês, com marcas de distância institucional.",
+          "Familiar e entusiástico, com exclamações.",
+          "Técnico e impessoal, sem qualquer referência pessoal."
+        ],
+        "answer": "Formal e cortês, com marcas de distância institucional.",
+        "explain": "语体题：全文用「Exmos. Senhores」「Venho por este meio」「Agradeço… Atenciosamente」，句式克制，符合正式申请信的语域。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab15",
+    "title": "O hotel novo e a cidade que não dorme",
+    "text": "O hotel abriu em maio, com noventa e seis quartos e uma fachada que imita o azulejo antigo do bairro. Ao lado, uma mercearia de sessenta anos resiste com três clientes por dia. O contraste não é uma metáfora: é a fotografia de uma transformação que se discute mal, quase sempre com números de um só lado. Quem defende o investimento fala de emprego e de receita; quem o critica fala de rendas e de vizinhos expulsos. Raramente se ouve alguém a falar das duas coisas ao mesmo tempo, e menos ainda a apresentar uma proposta que sirva para as duas.\n\nÉ verdade que o turismo representa uma parte importante da economia local e que sustenta centenas de famílias. É verdade, também, que um hotel de noventa e seis quartos gera empregos diretos e indiretos que nenhuma mercearia consegue gerar. Reconhecer isto não é ceder ao inimigo: é apenas honestidade intelectual. O problema começa quando essa evidência é usada para encerrar o debate, como se qualquer crítica fosse um ataque à economia ou uma saudade de um passado que também tinha problemas, fossem eles a falta de emprego ou o abandono do centro.\n\nEmbora os benefícios sejam reais, os custos concentram-se em quem tem menos voz. Aumentam as rendas, sobem os preços no comércio, e os jovens que trabalham no hotel não conseguem viver no bairro onde servem o pequeno-almoço. Apesar de o plano municipal prever habitação acessível, os terrenos previstos continuam vazios, à espera de financiamento. Pelo contrário, os licenciamentos de alojamento turístico avançaram ao ritmo de dois por mês durante todo o ano passado, e o balcão de atendimento ao investidor tem hoje mais funcionários do que a repartição de habitação.\n\nNão critico o turismo; pelo contrário, defendo que a cidade deve recebê-lo bem, com serviços de qualidade e uma oferta cultural que não se resuma a três roteiros. Mas receber bem exige limites, e os limites têm de ser decididos antes de o bairro mudar de dono. Desde que haja regras claras — quotas por freguesia, fiscalização efetiva, contrapartidas para habitação —, o setor pode crescer sem destruir o que o torna atraente. Sem essas regras, a cidade exporta aquilo que vende, e depois admira-se com a falta de originalidade.\n\nO hotel não é o inimigo. O inimigo é a ausência de um plano que diga quantos hotéis cabem numa rua, quem responde quando o elevador avaria e como se compensa quem perde a casa. Enquanto essa pergunta não tiver resposta, cada inauguração será recebida com aplausos e com apreensão, e ambas as reações estarão certas, porque ambas descrevem metade do mesmo fenómeno.",
+    "questions": [
+      {
+        "q": "O que representa o contraste entre o hotel e a mercearia?",
+        "options": [
+          "Uma metáfora literária sem relação com dados.",
+          "O resultado de uma transformação urbana com custos desiguais.",
+          "Um conflito entre turistas e comerciantes."
+        ],
+        "answer": "O resultado de uma transformação urbana com custos desiguais.",
+        "explain": "细节题：第一段说这不是隐喻，而是一场转变的「fotografia」，代价落在弱势一方。"
+      },
+      {
+        "q": "Qual é a crítica central do autor no terceiro parágrafo?",
+        "options": [
+          "Os benefícios do turismo são falsos.",
+          "Os custos recaem sobretudo em quem tem menos capacidade de reivindicar.",
+          "O plano municipal já construiu demasiada habitação acessível."
+        ],
+        "answer": "Os custos recaem sobretudo em quem tem menos capacidade de reivindicar.",
+        "explain": "细节题：作者说「os custos concentram-se em quem tem menos voz」，并举租金、物价和住房为例。"
+      },
+      {
+        "q": "A expressão «Pelo contrário» no terceiro parágrafo introduz:",
+        "options": [
+          "uma retificação do que foi dito antes.",
+          "uma conclusão sobre a economia local.",
+          "um contraste entre o plano previsto e o que aconteceu."
+        ],
+        "answer": "um contraste entre o plano previsto e o que aconteceu.",
+        "explain": "篇章题：前面说规划中的可负担住房地皮仍空着，随后以「Pelo contrário」对比旅游住宿许可每月两张的速度。"
+      },
+      {
+        "q": "Qual é a posição final do autor sobre o turismo?",
+        "options": [
+          "Defende-o, mas apenas com limites e fiscalização.",
+          "Considera que devia ser reduzido a metade.",
+          "Entende que o setor não precisa de regras."
+        ],
+        "answer": "Defende-o, mas apenas com limites e fiscalização.",
+        "explain": "态度题：他说「Não critico o turismo; pelo contrário, defendo」，但强调需要配额、有效稽查和住房补偿。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab16",
+    "title": "A notícia das oito e a pressa de chegar primeiro",
+    "text": "Faltavam dez minutos para as oito da noite quando a manchete entrou no estúdio. «Detido suspeito do assalto em Almada», dizia o texto que o pivot leu em direto, com a segurança de quem anuncia um facto provado. A fonte era uma chamada anónima confirmada por um comunicado da polícia que, na verdade, só referia «uma pessoa a prestar declarações». O nome do detido apareceu no ecrã durante quatro segundos, acompanhado de uma fotografia retirada de uma rede social. Errou-se o nome e, ao que se apurou depois, errou-se também a detenção.\n\nO canal pediu desculpa no dia seguinte, no mesmo horário, com uma frase de quinze palavras lida a correr. A direção justificou o erro com a concorrência: se não desse a notícia, alguém a daria primeiro. É um argumento conhecido e, em parte, verdadeiro. As redações trabalham hoje com menos gente e mais pressa, e a verificação exige tempo que ninguém quer pagar. Mas o argumento explica o erro; não o desculpa, e muito menos o corrige, porque a pressa que o produziu continua exatamente igual no dia seguinte.\n\nA credibilidade de um telejornal não se mede nos dias em que acerta, mas nos dias em que falha. Um canal que se limita a substituir a palavra «detido» por «suspeito», sem explicar de onde veio a informação e por que razão falhou, deixa intacto o mecanismo que produziu o erro. E o público, que raramente perdoa duas vezes, aprende a desconfiar de tudo: das notícias verdadeiras e das falsas, das correções e das desculpas. A acusação de tratamento enviesado, que o canal costuma atribuir aos críticos, instala-se então dentro de casa.\n\nSegundo o provedor do espectador, o canal recebeu nesse mês trinta e duas queixas sobre o mesmo assunto, número invulgar. Numa delas, um telespetador perguntava como podia verificar uma notícia quando o próprio canal não o fazia. A pergunta é justa e não tem resposta fácil. Uma redação pode publicar o seu código de conduta, indicar as fontes mínimas exigidas e explicar ao público, em linguagem simples, como distingue um indício de uma prova, o que já seria um começo de transparência.\n\nTalvez seja pedir muito a um noticiário de cinquenta minutos. Mas há uma diferença entre dizer «não sabemos» e inventar um nome. A primeira frase custa audiência; a segunda custa anos de confiança. E, ao contrário do que se pensa nas redações, a confiança é o único ativo que não se compra em direto, nem se recupera com um comunicado de trinta segundos. A diferença entre um erro e um hábito é a repetição, e o canal já o repetiu três vezes no último ano.",
+    "questions": [
+      {
+        "q": "O que falhou na notícia emitida às oito?",
+        "options": [
+          "O canal noticiou uma detenção que não se verificou.",
+          "O canal recusou-se a divulgar o nome do suspeito.",
+          "O canal não emitiu qualquer notícia sobre o caso."
+        ],
+        "answer": "O canal noticiou uma detenção que não se verificou.",
+        "explain": "细节题：第一段末说名字错了，「errou-se também a detenção」，即拘留并未发生。"
+      },
+      {
+        "q": "Como é apresentada a justificação da direção?",
+        "options": [
+          "Como uma prova de que o erro foi inevitável.",
+          "Como uma acusação aos telespetadores.",
+          "Como uma explicação parcialmente válida, mas insuficiente."
+        ],
+        "answer": "Como uma explicação parcialmente válida, mas insuficiente.",
+        "explain": "推断题：作者说这个理由「em parte, verdadeiro」，但「explica o erro; não o desculpa」，态度有保留。"
+      },
+      {
+        "q": "Segundo o texto, uma correção eficaz exigiria:",
+        "options": [
+          "explicar a origem da informação e as razões da falha.",
+          "retirar o nome do ecrã e nada mais.",
+          "processar judicialmente o autor da chamada."
+        ],
+        "answer": "explicar a origem da informação e as razões da falha.",
+        "explain": "细节题：第三段说只替换用词而不说明信息来源、不解释失败原因，等于不触动出错的机制。"
+      },
+      {
+        "q": "A frase «a confiança é o único ativo que não se compra em direto» exprime:",
+        "options": [
+          "uma constatação contabilística sobre os custos do canal.",
+          "uma advertência irónica sobre o preço da credibilidade.",
+          "um elogio à rapidez do direto."
+        ],
+        "answer": "uma advertência irónica sobre o preço da credibilidade.",
+        "explain": "态度题：结尾以对比（「não sabemos」丢观众，编造名字丢信任）收束，语气带讽谕，强调信任无法靠直播速度换取。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab17",
+    "title": "O que vem ligado por omissão",
+    "text": "Na loja de informática do centro comercial, um cliente de sessenta e três anos pede um telemóvel simples. O vendedor apresenta-lhe um modelo de gama média e explica, com paciência, que a bateria dura dois dias. Não menciona que, ao ligar o aparelho, ficam ativas dezanove autorizações de acesso a localização, contactos e microfone. O vendedor limita-se, afinal, a cumprir o que lhe pediram: vender. O cliente sai satisfeito e, na primeira semana, recebe quarenta e sete notificações, quase todas de aplicações que não instalou e cujo nome não reconhece.\n\nAs configurações por omissão são a parte mais discreta do negócio. Nenhuma delas obriga ninguém a fazer o que quer que seja, mas todas juntas condicionam o comportamento: o algoritmo sugere, a notificação insiste, a aplicação pede acesso a tudo para funcionar. O utilizador médio não lê os termos de utilização e não tem obrigação de ser especialista em direito digital para comprar um telefone. A assimetria de informação é enorme e favorece sempre quem escreveu o contrato, que é também quem escolheu os menus.\n\nHá quem diga que o problema se resolve com literacia digital, e é verdade que muita gente aprende a desligar o que não quer. Mas a literacia não chega quando os menus mudam de lugar a cada atualização e quando a opção mais protetora está escondida em três subecrãs. A privacidade, neste contexto, deixou de ser um gosto pessoal para passar a ser uma competência técnica que se exige ao consumidor sem lhe dar formação, como se pedissem a um condutor que soubesse reparar o motor antes de arrancar.\n\nO mesmo mecanismo que recolhe dados também distribui conteúdos, e é aí que a questão se torna coletiva. Basta partilhar uma publicação sem a verificar para que chegue a milhares de pessoas antes de alguém perguntar se é verdadeira. A desinformação não precisa de convencer toda a gente: basta-lhe semear dúvida suficiente para que nada seja credível. E quando isso acontece, a polarização deixa de ser um efeito secundário e passa a ser o produto principal, vendido ao mesmo preço de qualquer outro conteúdo.\n\nTalvez o caminho passe por obrigar as lojas a entregar uma folha simples, com a lista das autorizações ativas e a forma de as desligar, como já acontece com a informação nutricional. Não resolveria tudo, mas mudaria o ponto de partida. Hoje, quem compra um telemóvel assina um contrato que não leu, com um fornecedor que não conhece, sobre dados que ainda não sabe que tem, e paga por isso todos os meses, em dinheiro, em atenção e em informação que já não recupera, mesmo depois de mudar de aparelho.",
+    "questions": [
+      {
+        "q": "O que o vendedor não menciona ao cliente?",
+        "options": [
+          "A duração da bateria.",
+          "As autorizações ativas por omissão.",
+          "O preço do modelo de gama média."
+        ],
+        "answer": "As autorizações ativas por omissão.",
+        "explain": "细节题：第二句说明手机一开机就有十九项定位、联系人、麦克风授权处于开启状态，而售货员并未提及。"
+      },
+      {
+        "q": "Qual é o argumento do autor contra a ideia de que basta literacia digital?",
+        "options": [
+          "Os menus mudam e as opções protetoras estão escondidas.",
+          "Os consumidores recusam aprender a usar telemóveis.",
+          "A lei proíbe alterar as configurações."
+        ],
+        "answer": "Os menus mudam e as opções protetoras estão escondidas.",
+        "explain": "细节题：第三段说每次更新菜单都换位置，最具保护性的选项藏在三层子页面里，故素养不足。"
+      },
+      {
+        "q": "Segundo o texto, quando a desinformação semeia dúvida suficiente, a polarização passa a ser:",
+        "options": [
+          "um efeito secundário inevitável.",
+          "um problema resolvido pela literacia.",
+          "o produto principal do sistema."
+        ],
+        "answer": "o produto principal do sistema.",
+        "explain": "细节题：第四段末说极化「deixa de ser um efeito secundário e passa a ser o produto principal」。"
+      },
+      {
+        "q": "A proposta final do autor é:",
+        "options": [
+          "proibir a venda de telemóveis a maiores de sessenta anos.",
+          "exigir informação simples e clara no momento da compra.",
+          "eliminar todas as notificações dos aparelhos."
+        ],
+        "answer": "exigir informação simples e clara no momento da compra.",
+        "explain": "推断题：末段建议商店像提供营养信息那样，交付一张列明授权及关闭方式的简表。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab18",
+    "title": "Trinta e quatro pessoas e um algoritmo",
+    "text": "A startup ocupa o terceiro andar de um edifício reabilitado em Alcântara e tem trinta e quatro trabalhadores, metade dos quais contratados no último ano. O produto é simples de descrever: um sistema que lê encomendas recebidas por escrito e as encaminha para a equipa certa. A empresa garante que o tempo médio de resposta caiu de nove horas para quarenta minutos e que nenhum cliente ficou sem resposta no último trimestre, números que apresenta em todas as reuniões com investidores.\n\nO crescimento veio de automatizar tarefas repetitivas, não de despedir pessoas. A administração insiste neste ponto em todas as apresentações, e os números sustentam-no: o volume de trabalho triplicou e o número de postos manteve-se. Ainda assim, as funções mudaram. Quem antes copiava dados passou a corrigir o sistema, e essa transição exigiu formação que a empresa pagou, mas que nem todos conseguiram acompanhar. Três pessoas saíram por iniciativa própria no ano passado, e duas delas disseram, na entrevista de saída, que não reconheciam o próprio trabalho.\n\nA questão ética não está no software, está na assimetria. O sistema aprende com o histórico de encomendas e, se esse histórico contiver erros sistemáticos, reproduzi-los-á com uma confiança que nenhum estagiário teria. Numa empresa deste tamanho, ninguém tem por função auditar o modelo; o programador faz o que sabe, o gestor olha para os indicadores e o cliente final não sabe que está a falar com uma máquina. A ética, aqui, não é um código escrito na parede: é a pergunta que ninguém tem tempo de fazer.\n\nRegulamentar não é o mesmo que proibir, e é importante dizê-lo. As regras europeias sobre sistemas de risco elevado impõem documentação, testes e supervisão humana, o que faz sentido para um hospital e talvez seja excessivo para uma loja de bicicletas. Desde que os requisitos sejam proporcionais ao risco, as pequenas empresas conseguem cumpri-los. O risco real é outro: criar obrigações tão pesadas que só as grandes tecnológicas as possam pagar, deixando o mercado nas mãos de quem já domina e transformando a conformidade numa barreira à entrada.\n\nNo fim da visita, o fundador mostra uma parede de vidro com vista para o rio e diz que a empresa não quer substituir ninguém. É provável que seja verdade, e é certo que a inteligência artificial que ali funciona resolve um problema real de quem tem encomendas a mais. Mas a frase decisiva não é essa; é a que vem a seguir: «Queremos que as pessoas façam o trabalho que só as pessoas sabem fazer.» Falta saber quantas dessas funções existem, e quem decide quais são.",
+    "questions": [
+      {
+        "q": "Qual foi o efeito da automação na empresa?",
+        "options": [
+          "Metade dos trabalhadores foi despedida.",
+          "O tempo de resposta aumentou para nove horas.",
+          "O volume de trabalho triplicou e o número de postos manteve-se."
+        ],
+        "answer": "O volume de trabalho triplicou e o número de postos manteve-se.",
+        "explain": "细节题：第二段说工作量翻了三倍，岗位数量维持不变；九小时是此前的平均响应时间。"
+      },
+      {
+        "q": "Para o autor, onde reside o problema ético?",
+        "options": [
+          "No preço do software.",
+          "Na assimetria de informação e na diluição da responsabilidade.",
+          "Na recusa dos trabalhadores em fazer formação."
+        ],
+        "answer": "Na assimetria de informação e na diluição da responsabilidade.",
+        "explain": "细节/推断题：第三段说问题「está na assimetria」，且责任分散到无人承担，最终消失。"
+      },
+      {
+        "q": "Que risco o autor aponta na regulamentação?",
+        "options": [
+          "Que só as grandes empresas consigam cumprir as obrigações.",
+          "Que as regras europeias sejam revogadas.",
+          "Que os sistemas deixem de ser auditados."
+        ],
+        "answer": "Que só as grandes empresas consigam cumprir as obrigações.",
+        "explain": "细节题：第四段末指出真正的风险是义务过重，只有大科技公司付得起，市场反而更集中。"
+      },
+      {
+        "q": "O que sugere a frase final do fundador, segundo o autor?",
+        "options": [
+          "Que a empresa já decidiu despedir trabalhadores.",
+          "Que continua por definir quais funções são realmente humanas.",
+          "Que a visita terminou sem conclusões."
+        ],
+        "answer": "Que continua por definir quais funções são realmente humanas.",
+        "explain": "推断题：作者说关键在于「quantas dessas funções existem, e quem decide quais são」，即标准仍未确定。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab19",
+    "title": "Vinte minutos para fechar um serviço",
+    "text": "A reunião durou vinte minutos e não houve café. O diretor-geral anunciou que o atendimento telefónico passaria a estar concentrado no Porto a partir de março, e que as dezoito pessoas da equipa de Lisboa seriam redistribuídas por outras funções. A decisão estava tomada antes de a reunião começar; a reunião servia para a comunicar. Quem já viveu este filme conhece o silêncio que se segue: ninguém discorda em voz alta, todos fazem contas de cabeça, e alguém pergunta, por fim, se as perguntas podem ser enviadas por escrito.\n\nPor um lado, a lógica económica é indiscutível. Dois centros de atendimento a cento e cinquenta quilómetros de distância duplicam custos de coordenação, e a empresa atravessa um ano difícil. A concentração no Porto permite poupar instalações, horários e chefias intermédias, além de facilitar a gestão das substituições nas férias. Nenhum gestor sensato ignoraria este argumento, e seria fácil apresentar a medida como prova de rigor, num tom que fecha discussões antes de elas começarem, sobretudo numa altura em que os resultados trimestrais são lidos em voz alta pelos acionistas.\n\nNo entanto, há custos que não aparecem na folha de cálculo. Dezoito pessoas com uma média de onze anos de casa levam consigo um conhecimento que não está escrito em lado nenhum: sabem qual o cliente que exige confirmação por telefone, qual o processo que trava aos fins de mês, qual o colega que resolve o que os manuais não resolvem. Esse saber tácito desaparece em silêncio e demora anos a reconstruir. A decisão pode ser correta e, ao mesmo tempo, mal preparada, e essa combinação é a mais difícil de explicar a quem fica.\n\nAntes de avançar, seria razoável ter em conta três cenários. O primeiro, a transferência com apoio à mudança de cidade, que poucos aceitarão. O segundo, a requalificação interna, mais lenta e mais cara. O terceiro, a redução gradual da equipa por reformas e saídas naturais, sem despedimentos. Nenhum é perfeito, mas todos foram discutidos noutras empresas do setor. A diferença entre consultar e informar é a diferença entre um plano e um anúncio. Nenhum deles foi mencionado naquela sala, o que sugere que a pressa não era apenas económica.\n\nPortanto, o problema não é a decisão em si: é o processo. Uma medida defensável, comunicada em vinte minutos e sem alternativas, transforma-se numa questão de confiança. E a confiança, ao contrário do que se pensa, é o ativo mais caro de reconstruir. A empresa pode ganhar duzentos mil euros por ano e perder, no mesmo movimento, a memória de como se atende um cliente, que é a única coisa que a distingue de um gravador.",
+    "questions": [
+      {
+        "q": "O que caracteriza a reunião descrita?",
+        "options": [
+          "Os dezoito trabalhadores votaram a medida.",
+          "A direção apresentou três alternativas.",
+          "A decisão já estava tomada antes de a reunião começar."
+        ],
+        "answer": "A decisão já estava tomada antes de a reunião começar.",
+        "explain": "细节题：第一段明确「A decisão estava tomada antes de a reunião começar; a reunião servia para a comunicar」。"
+      },
+      {
+        "q": "Qual é o argumento económico a favor da concentração no Porto?",
+        "options": [
+          "A duplicação de custos de coordenação entre dois centros, que a concentração elimina.",
+          "O aumento do número de clientes atendidos.",
+          "A redução dos salários dos trabalhadores."
+        ],
+        "answer": "A duplicação de custos de coordenação entre dois centros, que a concentração elimina.",
+        "explain": "细节题：第二段说两个相隔一百五十公里的客服中心会「duplicam custos de coordenação」，而集中在波尔图恰好消除这类重复，从而节省设施、班次和中间管理层。"
+      },
+      {
+        "q": "A que se refere o «saber tácito» mencionado no texto?",
+        "options": [
+          "Aos cursos de formação pagos pela empresa.",
+          "Ao conhecimento prático que não está registado em manuais.",
+          "Aos relatórios anuais da direção."
+        ],
+        "answer": "Ao conhecimento prático que não está registado em manuais.",
+        "explain": "细节题：第三段说这些知识「não está escrito em lado nenhum」，并举例说明客户与流程的实际细节。"
+      },
+      {
+        "q": "Qual é a tese do autor?",
+        "options": [
+          "A decisão é indefensável e deve ser anulada.",
+          "A decisão pode ser defensável, mas o processo foi deficiente.",
+          "A empresa devia encerrar todo o atendimento."
+        ],
+        "answer": "A decisão pode ser defensável, mas o processo foi deficiente.",
+        "explain": "态度题：末段说「o problema não é a decisão em si: é o processo」，措施可辩护，但沟通仓促、缺乏替代方案损害信任。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab20",
+    "title": "Carta ao Programa Municipal de Apoio à Leitura",
+    "text": "Exmos. Senhores,\nVenho por este meio submeter a candidatura da Associação Cultural Fio de Prumo ao Programa Municipal de Apoio à Leitura, na modalidade de projeto anual. A associação, constituída em 2019 e com sede na freguesia de Campolide, desenvolve há cinco anos atividades de promoção da leitura em escolas, bibliotecas de bairro e espaços comerciais cedidos temporariamente. A presente candidatura refere-se ao ano de 2027 e foi aprovada por unanimidade em assembleia geral realizada a 12 de outubro, conforme ata que se anexa.\n\nO projeto, designado «Páginas de Vizinhança», prevê a realização de quarenta sessões de leitura em voz alta, dez oficinas de escrita para adultos e a criação de três pequenas bibliotecas de troca em mercados municipais. O orçamento total ascende a vinte e três mil euros, dos quais dez mil são solicitados ao município e o restante assegurado por receitas próprias, por um apoio já confirmado de uma fundação privada e por trabalho voluntário quantificado em horas. Em anexo, enviamos o currículo da coordenação, o plano de atividades discriminado por mês e o orçamento detalhado, com a indicação das despesas elegíveis. Os valores foram calculados com base no custo real das sessões de 2026, acrescido de uma margem de cinco por cento para imprevistos.\n\nOs resultados de anos anteriores sustentam esta proposta. Em 2025, as nossas sessões chegaram a seiscentas e quarenta pessoas, das quais cento e vinte participaram em mais de cinco encontros, indicador que consideramos mais relevante do que o número total de presenças. Registámos, no entanto, uma dificuldade recorrente: a falta de transporte para os participantes que vivem na periferia do concelho, problema que o novo projeto procura atenuar com sessões descentralizadas e com a articulação com duas juntas de freguesia.\n\nComprometemo-nos a entregar um relatório intercalar até julho e um relatório final até trinta e um de janeiro de 2028, com a descrição das atividades, o número de participantes e a execução orçamental. Aceitamos, igualmente, a realização de auditoria por parte dos serviços municipais e a menção do apoio em todos os materiais de divulgação, nos termos do regulamento em vigor. A associação dispõe de contabilidade organizada e de seguro de responsabilidade civil válido até dezembro. O plano de atividades prevê ainda duas sessões abertas ao público em geral.\n\nAgradeço, desde já, a atenção dispensada a esta candidatura e permaneço à disposição para prestar qualquer esclarecimento adicional ou para participar numa audição, caso os serviços o considerem útil. A associação tem todo o interesse em articular o projeto com a rede municipal de bibliotecas, contribuindo com a experiência que acumulou junto de leitores pouco habituais. Com os melhores cumprimentos, Atenciosamente, Rodrigo Almeida Vaz, presidente da direção.",
+    "questions": [
+      {
+        "q": "A que se candidata a associação?",
+        "options": [
+          "A um financiamento europeu para construção de bibliotecas.",
+          "A um apoio municipal para um projeto anual de leitura.",
+          "A um prémio literário destinado a autores locais."
+        ],
+        "answer": "A um apoio municipal para um projeto anual de leitura.",
+        "explain": "细节题：开头即说提交对「Programa Municipal de Apoio à Leitura」的申请，形式为年度项目。"
+      },
+      {
+        "q": "Como se distribui o orçamento total do projeto?",
+        "options": [
+          "Vinte e três mil euros integralmente municipais.",
+          "Dez mil euros de receitas próprias e treze mil de voluntariado.",
+          "Dez mil euros pedidos ao município e o restante por outras vias."
+        ],
+        "answer": "Dez mil euros pedidos ao município e o restante por outras vias.",
+        "explain": "细节题：第二段说总预算两万三千欧，其中一万向市政府申请，其余由自有收入、私人基金会资助和志愿服务构成。"
+      },
+      {
+        "q": "Que dificuldade dos anos anteriores é mencionada?",
+        "options": [
+          "A ausência de voluntários disponíveis.",
+          "O excesso de inscrições nas oficinas.",
+          "A falta de transporte para participantes da periferia."
+        ],
+        "answer": "A falta de transporte para participantes da periferia.",
+        "explain": "细节题：第三段指出「a falta de transporte para os participantes que vivem na periferia」是反复出现的困难。"
+      },
+      {
+        "q": "O que caracteriza o registo desta carta?",
+        "options": [
+          "Formal e administrativo, com compromissos e prazos precisos.",
+          "Pessoal e emocional, centrado na história da associação.",
+          "Jornalístico, com citações de terceiros."
+        ],
+        "answer": "Formal e administrativo, com compromissos e prazos precisos.",
+        "explain": "语体题：使用「Venho por este meio」「Exmos. Senhores」「Atenciosamente」，并列出报告期限、审计接受等行政承诺。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab21",
+    "title": "A cidade vista de cima",
+    "text": "Do miradouro, ao fim da tarde, a cidade parece arrumada. As gruas desapareceram do horizonte, os telhados foram limpos, as fachadas recuperaram o azul e o branco que os postais prometem. Só de perto se percebe o que mudou: quase todos os terraços têm agora uma piscina pequena, uma espreguiçadeira e um cartão com o número do quarto. Aquilo que era a parte invisível do bairro tornou-se a sua vista mais valiosa, e a vista, como se sabe, paga-se à noite. Do lado esquerdo, um edifício de quatro andares tem três apartamentos vazios e uma placa desbotada onde se lê «vende-se».\n\nNos últimos oito anos, o número de alojamentos turísticos na freguesia passou de cento e quarenta para mais de mil. Embora a câmara tenha aprovado dois planos de contenção, as licenças continuaram a ser emitidas ao abrigo de regulamentos anteriores. Apesar de os estudos académicos alertarem para o efeito sobre as rendas desde 2019, a resposta política chegou tarde e chegou curta. E chegou, sobretudo, depois de o mercado já ter feito as suas escolhas, o que é uma forma elegante de dizer que chegou quando já não servia.\n\nVista de cima, a cidade esconde o essencial. Não se vê quem saiu, porque quem sai não deixa marca no mapa; vê-se apenas quem chega, com mala de cabine e reserva confirmada. As estatísticas oficiais contam camas e dormidas, mas não contam os contratos que não se renovaram, as escolas que perderam alunos, as padarias que fecharam por falta de fregueses durante o inverno. O produto interno bruto sobe; a vida quotidiana, essa, encolhe, e nenhum indicador a mede. E nenhum deles entra nas contas da taxa turística.\n\nNão defendo, pelo contrário, que se feche a cidade a quem a visita. O turismo trouxe receita, restaurou edifícios que estavam a cair e deu trabalho a muita gente que não o teria de outra forma. O que está em causa não é o visitante, é a ausência de regras: sem limites por freguesia, sem fiscalização efetiva e sem contrapartidas para habitação, o setor cresce até consumir o que o sustenta. Desde que essas regras existam e sejam cumpridas, o bairro pode receber bem sem deixar de ser bairro, e a diferença nota-se ao domingo de manhã.\n\nDo miradouro, já não se ouve o som da cidade: ouve-se o ar condicionado. Talvez seja esse o sintoma mais claro. Uma cidade que só se vê bem de longe é uma cidade que já não se vive de perto, e nenhum plano de marketing, por muito bem feito, compensa a falta de vizinhos, de crianças na rua e de conversas que não tenham um preço à porta.",
+    "questions": [
+      {
+        "q": "O que o autor destaca na paisagem vista do miradouro?",
+        "options": [
+          "O desaparecimento total dos telhados antigos.",
+          "A construção de novas escolas no centro.",
+          "A recuperação das fachadas e a multiplicação de terraços turísticos."
+        ],
+        "answer": "A recuperação das fachadas e a multiplicação de terraços turísticos.",
+        "explain": "细节题：第一段说立面恢复蓝白色，但几乎每个露台都多了小泳池、躺椅和房号牌。"
+      },
+      {
+        "q": "Segundo o texto, qual foi a falha da resposta política?",
+        "options": [
+          "Proibiu todos os alojamentos turísticos.",
+          "Chegou tarde e ficou aquém do necessário.",
+          "Ignorou os estudos académicos por completo."
+        ],
+        "answer": "Chegou tarde e ficou aquém do necessário.",
+        "explain": "细节题：第二段说「a resposta política chegou tarde e chegou curta」，且市场早已做出选择。"
+      },
+      {
+        "q": "A frase «quem sai não deixa marca no mapa» serve para:",
+        "options": [
+          "criticar a falta de mapas turísticos atualizados.",
+          "elogiar a discrição dos residentes.",
+          "mostrar que as estatísticas não registam quem é expulso."
+        ],
+        "answer": "mostrar que as estatísticas não registam quem é expulso.",
+        "explain": "推断题：紧接的句子说官方数据只统计床位和住宿夜数，不统计未续租的合同与关闭的店铺。"
+      },
+      {
+        "q": "Qual é a posição do autor em relação aos visitantes?",
+        "options": [
+          "Considera que a cidade devia encerrar ao turismo.",
+          "Não se opõe à visita, mas exige regras e fiscalização.",
+          "Acredita que o marketing resolve a falta de moradores."
+        ],
+        "answer": "Não se opõe à visita, mas exige regras e fiscalização.",
+        "explain": "态度题：他说「Não defendo, pelo contrário, que se feche a cidade」，问题在于没有按教区设限、稽查和住房补偿。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab22",
+    "title": "A banca das seis e meia",
+    "text": "Às seis e meia da manhã, a banca de jornais do Largo do Rato já está aberta. O senhor Aurélio empilha os diários por ordem de vendas, não por ordem alfabética, e explica porquê: quem compra o jornal da manchete forte chega mais cedo. «A manchete vende, mas vende sobretudo a quem já ia comprar.» A frase resume quarenta anos de balcão e uma teoria inteira sobre a imprensa, dita sem qualquer intenção teórica. Atrás dele, uma parede de revistas antigas, que já ninguém compra e ele não deita fora.\n\nNos últimos dez anos, as vendas diárias caíram de duzentos e vinte exemplares para sessenta e três. O jornal mais vendido é o que tem mais páginas de desporto, seguido do que publica mais notícias locais. As revistas desapareceram quase todas e as que resistem chegam com uma semana de atraso. Aurélio não se queixa: diz que o problema não é a internet, é a idade dos clientes. «Os meus fregueses têm todos mais de sessenta. Quando eu fechar, fecha também o hábito.» Ao domingo, vende menos de trinta, e ainda assim abre, porque há três clientes que telefonam se não abrir.\n\nA credibilidade, no balcão, mede-se de outra maneira. Um leitor que se sente enganado não escreve à redação: deixa de comprar. Ao longo dos anos, Aurélio aprendeu a reconhecer o dia seguinte a uma notícia mal apurada pela cara de quem passa e não pára. A confiança, aqui, mede-se em exemplares que ficam na pilha. É um juízo silencioso, mas eficaz, e explica melhor do que qualquer estudo por que razão um título sensacionalista pode aumentar as vendas durante uma semana e destruí-las no trimestre seguinte.\n\nNas redações, a pressão é a inversa. Quem escreve a manchete trabalha contra o relógio, com uma fonte que muitas vezes não pode ser identificada e com a certeza de que o jornal concorrente está a fazer o mesmo. Verificar leva tempo; não verificar também tem custo, apenas mais tarde. Este indicador não aparece em nenhum relatório interno. E quando o erro aparece, a acusação de artigo enviesado cai sobre o jornal inteiro, incluindo as páginas que ninguém contestou e os jornalistas que passaram a tarde a confirmar telefones.\n\nAurélio aposenta-se em março e ninguém garantiu que a banca continue aberta. Na última vez que falámos, arrumava os exemplares como sempre, com a manchete virada para a rua. «Enquanto houver quem compre, isto dura», disse, sem parecer convencido. E, por baixo daquela frase educada, havia uma pergunta que ninguém no bairro sabe responder: quem vai verificar as notícias quando já não houver balcão, nem conversa, nem aquele gesto de virar o jornal para ver melhor?",
+    "questions": [
+      {
+        "q": "O que explica o Sr. Aurélio sobre a ordem dos jornais na banca?",
+        "options": [
+          "Organiza-os por ordem alfabética.",
+          "Organiza-os por volume de vendas, porque os leitores chegam mais cedo.",
+          "Segue a ordem definida pelo distribuidor."
+        ],
+        "answer": "Organiza-os por volume de vendas, porque os leitores chegam mais cedo.",
+        "explain": "细节题：第一段说他按销量而非字母顺序摆放，因为买「manchete forte」的顾客来得更早。"
+      },
+      {
+        "q": "Qual é, para Aurélio, a principal causa da queda das vendas?",
+        "options": [
+          "A internet e as redes sociais.",
+          "O preço dos jornais.",
+          "O envelhecimento dos clientes habituais."
+        ],
+        "answer": "O envelhecimento dos clientes habituais.",
+        "explain": "细节题：第二段明确「diz que o problema não é a internet, é a idade dos clientes」。"
+      },
+      {
+        "q": "Como se manifesta, no balcão, a perda de credibilidade?",
+        "options": [
+          "Os leitores escrevem cartas de reclamação.",
+          "Os leitores deixam simplesmente de comprar.",
+          "Os leitores passam a comprar duas folhas."
+        ],
+        "answer": "Os leitores deixam simplesmente de comprar.",
+        "explain": "细节题：第三段说受骗的读者不写信给编辑部，「deixa de comprar」，并以不再停留的表情表现出来。"
+      },
+      {
+        "q": "A pergunta final do texto sugere que:",
+        "options": [
+          "o desaparecimento das bancas põe em causa a verificação das notícias.",
+          "as bancas vão ser substituídas por quiosques digitais.",
+          "o bairro precisa de mais jornais desportivos."
+        ],
+        "answer": "o desaparecimento das bancas põe em causa a verificação das notícias.",
+        "explain": "推断题：结尾把报亭存续与「quem vai verificar as notícias」相连，暗示失去这个日常监督环节的后果。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab23",
+    "title": "Vinte e sete minutos à espera",
+    "text": "O relatório da associação de consumidores foi divulgado na terça-feira e começa com um número simples: vinte e sete minutos. É o tempo médio de espera, em 2026, para falar com uma pessoa no apoio ao cliente de uma operadora de telecomunicações. Em 2021, eram nove. No mesmo período, o número de chamadas resolvidas na primeira tentativa caiu de setenta e quatro para quarenta e um por cento, e as reclamações repetidas passaram a representar quase metade do total. O relatório ocupa sessenta páginas e baseia-se em duas mil chamadas gravadas.\n\nA explicação oficial é a habitual: aumento de contactos, complexidade das ofertas, pressão sobre as equipas. O relatório acrescenta uma explicação menos confortável. As empresas substituíram parte do atendimento por sistemas automáticos que classificam o motivo da chamada, encaminham o cliente e, em muitos casos, encerram o pedido sem intervenção humana. O algoritmo decide prioridades com base em palavras-chave e no histórico do contrato. O cliente, do outro lado, tem a sensação de falar com uma parede educada. O sistema erra sobretudo com quem tem problemas invulgares, que são precisamente os casos em que o cliente mais precisa de falar com alguém.\n\nO que se passa a seguir já é do domínio público. Um cliente insatisfeito relata a sua história numa rede social, milhares de pessoas decidem partilhar a publicação e, em quarenta e oito horas, a empresa responde publicamente, resolve o caso e oferece uma compensação. O mecanismo é perverso: quem grita mais alto é atendido primeiro. E, como nem todos gritam, a fila real passa a ser uma fila de visibilidade, não de necessidade, o que penaliza duas vezes quem tem menos tempo e menos palavras.\n\nO relatório observa ainda que estes episódios produzem a polarização. De um lado, clientes que defendem a empresa e acusam os queixosos de exagero; do outro, quem generalize e fale de má-fé. No meio, a desinformação instala-se sem que ninguém a tenha produzido de propósito: basta uma captura de ecrã sem contexto, um valor mal copiado, uma data errada. A privacidade também entra na conta, porque muitos destes sistemas guardam gravações e registos durante anos, sem que o cliente saiba exatamente o que ficou arquivado.\n\nA recomendação principal do documento é modesta e, por isso, aplicável: um botão visível para falar com uma pessoa, um prazo máximo de espera e a possibilidade de pedir a eliminação dos dados após a resolução do caso. Nada disto exige tecnologia nova. Exige apenas a decisão de tratar o cliente como titular de direitos e não como um número numa fila que o algoritmo reorganiza, todos os meses, segundo critérios que ninguém fora da empresa conhece.",
+    "questions": [
+      {
+        "q": "Que evolução o relatório registou entre 2021 e 2026?",
+        "options": [
+          "O tempo de espera subiu e as resoluções à primeira caíram.",
+          "O tempo de espera desceu e as resoluções subiram.",
+          "Ambos os indicadores se mantiveram estáveis."
+        ],
+        "answer": "O tempo de espera subiu e as resoluções à primeira caíram.",
+        "explain": "细节题：第一段说等待时间从九分钟升到二十七分钟，首次解决率从74%降到41%。"
+      },
+      {
+        "q": "Com que tipo de situações o sistema automático erra sobretudo?",
+        "options": [
+          "Com contratos recentes.",
+          "Com problemas invulgares.",
+          "Com chamadas em língua estrangeira."
+        ],
+        "answer": "Com problemas invulgares.",
+        "explain": "细节题：第二段末说算法「erra sobretudo com quem tem problemas invulgares」。"
+      },
+      {
+        "q": "Porque é que o mecanismo descrito é considerado perverso?",
+        "options": [
+          "Porque as empresas deixaram de ter apoio ao cliente.",
+          "Porque as redes sociais cobram pelas reclamações.",
+          "Porque quem reclama publicamente é atendido antes dos restantes."
+        ],
+        "answer": "Porque quem reclama publicamente é atendido antes dos restantes.",
+        "explain": "细节题：第三段说「quem grita mais alto é atendido primeiro」，排队变成能见度的排队而非需要的排队。"
+      },
+      {
+        "q": "Que recomendação central faz o relatório?",
+        "options": [
+          "Eliminar todos os sistemas automáticos de atendimento.",
+          "Garantir acesso visível a um humano, prazo máximo e eliminação de dados.",
+          "Obrigar os clientes a reclamar apenas por escrito."
+        ],
+        "answer": "Garantir acesso visível a um humano, prazo máximo e eliminação de dados.",
+        "explain": "细节题：末段列出三项建议：可见的转人工按钮、最长等待期限、以及结案后要求删除数据。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab24",
+    "title": "Cinco pessoas, um painel e muitas perguntas",
+    "text": "O painel sobre ética digital começou com uma pergunta que ninguém quis responder de imediato: quem decide o que é aceitável quando um sistema toma uma decisão que ninguém sabe explicar? Estavam cinco pessoas em palco, entre investigadores, um jurista e dois quadros de empresas tecnológicas. A sala, com duzentos lugares, tinha oitenta ocupados, e a maioria ficou até ao fim, o que num painel de duas horas é quase um elogio. Ninguém saiu a meio, nem quando o tema passou para os contratos de dados.\n\nNos primeiros quarenta minutos, o debate andou à volta de números. Um dos oradores apresentou um estudo segundo o qual sessenta por cento das empresas portuguesas com mais de cinquenta trabalhadores já automatizaram pelo menos um processo administrativo. Outro contestou o dado, dizendo que automatizar uma tarefa não é o mesmo que automatizar um processo, e que a diferença importa. Ninguém discordou, mas o resto da conversa continuou a usar as mesmas palavras para coisas diferentes, o que ajudou a manter o debate confortável. A moderação tentou repor a precisão, mas o tempo era curto e o tema, vasto.\n\nA parte mais interessante chegou quando se falou de responsabilidade. Uma investigadora lembrou que os sistemas aprendem com dados históricos e que esses dados carregam decisões antigas, muitas delas injustas. O representante de uma empresa respondeu que a inteligência artificial não decide nada: decide quem a programou. A sala aplaudiu, e o aplauso era o problema. Aplaudir é mais fácil do que nomear. Se a responsabilidade fica sempre num programador abstrato, nunca fica em ninguém em concreto, e a ética reduz-se a uma declaração de intenções que todos assinam e ninguém executa.\n\nSobre regulamentação, houve mais acordo do que se esperava. Todos aceitaram que é necessário regulamentar, desde que as regras sejam proporcionais ao risco e não transformem a conformidade num exercício de advogados. O jurista foi mais longe: defendeu que a auditoria deve ser pública nos sistemas usados por serviços do Estado, porque aí o cidadão não tem alternativa. A proposta não foi votada, mas ficou registada na ata e, segundo os organizadores, será enviada aos grupos parlamentares.\n\nNo fim, alguém perguntou se as máquinas vão substituir os trabalhadores. A resposta mais honesta veio do painel e foi também a mais desconfortável: as máquinas substituem tarefas, e as tarefas são o que muitas pessoas fazem durante oito horas por dia. O resto — decidir o que vale a pena fazer — continua a ser humano, e é exatamente aí que a ética começa, muito antes de qualquer algoritmo entrar em funcionamento. E essa decisão, ao contrário do que muitos gostariam, não se delega num sistema.",
+    "questions": [
+      {
+        "q": "Que dado foi apresentado por um dos oradores?",
+        "options": [
+          "Oitenta por cento das empresas portuguesas usam inteligência artificial.",
+          "Sessenta por cento das empresas com mais de cinquenta trabalhadores automatizaram já um processo.",
+          "Duzentas empresas automatizaram todos os processos."
+        ],
+        "answer": "Sessenta por cento das empresas com mais de cinquenta trabalhadores automatizaram já um processo.",
+        "explain": "细节题：第二段说研究显示，员工超过五十人的葡萄牙企业中，六成已自动化至少一道行政流程。"
+      },
+      {
+        "q": "Porque é que o aplauso à resposta do representante da empresa é considerado «o problema»?",
+        "options": [
+          "Porque a responsabilidade acaba por não ficar em ninguém em concreto.",
+          "Porque o público interrompeu o debate.",
+          "Porque a empresa não tinha dados."
+        ],
+        "answer": "Porque a responsabilidade acaba por não ficar em ninguém em concreto.",
+        "explain": "推断题：作者说如果责任总落在一个抽象的「programador」身上，就永远落不到具体的人身上。"
+      },
+      {
+        "q": "Que posição defendeu o jurista?",
+        "options": [
+          "A regulamentação deve ser igual para todos os setores.",
+          "A ética deve ser decidida apenas pelas empresas.",
+          "A auditoria deve ser pública nos sistemas usados pelo Estado."
+        ],
+        "answer": "A auditoria deve ser pública nos sistemas usados pelo Estado.",
+        "explain": "细节题：第四段说他主张国家服务所用系统的审计应公开，因为公民没有替代选择。"
+      },
+      {
+        "q": "Qual é a conclusão do texto sobre a substituição dos trabalhadores?",
+        "options": [
+          "As máquinas vão substituir todos os trabalhadores em dez anos.",
+          "As máquinas substituem tarefas, mas não a decisão sobre o que vale a pena fazer.",
+          "A questão foi evitada durante todo o painel."
+        ],
+        "answer": "As máquinas substituem tarefas, mas não a decisão sobre o que vale a pena fazer.",
+        "explain": "态度题：末段说机器取代的是任务，而「decidir o que vale a pena fazer」仍是人的事，也正是伦理的起点。"
+      }
+    ]
+  }
+]

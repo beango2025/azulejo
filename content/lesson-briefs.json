@@ -1,0 +1,7562 @@
+[
+  {
+    "id": "u1l1",
+    "level": "A1",
+    "order": 1,
+    "isLab": false,
+    "title": "À chegada a Lisboa",
+    "zh": "抵达里斯本",
+    "grammar": "Chamo-me：把「自己」放在动词后面",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Olá",
+        "zh": "你好",
+        "ex": "Olá, eu sou a Ana.",
+        "exZh": "你好，我是安娜。"
+      },
+      {
+        "pt": "Bom dia",
+        "zh": "早上好",
+        "ex": "Bom dia! Como estás?",
+        "exZh": "早上好！你好吗？"
+      },
+      {
+        "pt": "Chamo-me…",
+        "zh": "我叫……",
+        "ex": "Chamo-me Pedro.",
+        "exZh": "我叫佩德罗。"
+      },
+      {
+        "pt": "Prazer em conhecer-te.",
+        "zh": "很高兴认识你。",
+        "ex": "Prazer em conhecer-te, Ana!",
+        "exZh": "很高兴认识你，安娜！"
+      },
+      {
+        "pt": "Até logo",
+        "zh": "回头见",
+        "ex": "Até logo, Pedro!",
+        "exZh": "回头见，佩德罗！"
+      }
+    ]
+  },
+  {
+    "id": "u1l2",
+    "level": "A1",
+    "order": 2,
+    "isLab": false,
+    "title": "No átrio do hotel",
+    "zh": "在酒店大堂",
+    "grammar": "ser：身份是「长期」的",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "De onde és?",
+        "zh": "你从哪里来？",
+        "ex": "De onde és, Mei?",
+        "exZh": "梅，你从哪里来？"
+      },
+      {
+        "pt": "Sou…",
+        "zh": "我是……",
+        "ex": "Sou chinesa.",
+        "exZh": "我是中国人。"
+      },
+      {
+        "pt": "português / portuguesa",
+        "zh": "葡萄牙人（男/女）",
+        "ex": "Ele é português.",
+        "exZh": "他是葡萄牙人。"
+      },
+      {
+        "pt": "chinês / chinesa",
+        "zh": "中国人（男/女）",
+        "ex": "Ela é chinesa.",
+        "exZh": "她是中国人。"
+      },
+      {
+        "pt": "Vivo em…",
+        "zh": "我住在……",
+        "ex": "Vivo em Lisboa.",
+        "exZh": "我住在里斯本。"
+      }
+    ]
+  },
+  {
+    "id": "u1l3",
+    "level": "A1",
+    "order": 3,
+    "isLab": false,
+    "title": "Numa aula de português",
+    "zh": "在葡语课上",
+    "grammar": "Tu、você 还是 o senhor？",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Tudo bem?",
+        "zh": "你好吗？",
+        "ex": "Olá! Tudo bem?",
+        "exZh": "嗨！你好吗？"
+      },
+      {
+        "pt": "Mais ou menos.",
+        "zh": "一般般。",
+        "ex": "Tudo bem? — Mais ou menos.",
+        "exZh": "你好吗？——一般般。"
+      },
+      {
+        "pt": "Estou bem, obrigado/a.",
+        "zh": "我很好，谢谢。",
+        "ex": "Estou bem, obrigado. E tu?",
+        "exZh": "我很好，谢谢。你呢？"
+      },
+      {
+        "pt": "Desculpe.",
+        "zh": "对不起 / 打扰一下。",
+        "ex": "Desculpe, como se chama?",
+        "exZh": "打扰一下，您叫什么名字？"
+      },
+      {
+        "pt": "Até amanhã",
+        "zh": "明天见",
+        "ex": "Até amanhã!",
+        "exZh": "明天见！"
+      }
+    ]
+  },
+  {
+    "id": "u2l1",
+    "level": "A1",
+    "order": 4,
+    "isLab": false,
+    "title": "No café",
+    "zh": "在咖啡馆",
+    "grammar": "点单三件套：Queria + 名词 + se faz favor",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "um café",
+        "zh": "一杯浓缩咖啡",
+        "ex": "Um café, se faz favor.",
+        "exZh": "请来一杯浓缩咖啡。"
+      },
+      {
+        "pt": "uma meia de leite",
+        "zh": "一杯半奶咖啡",
+        "ex": "Queria uma meia de leite.",
+        "exZh": "我想要一杯半奶咖啡。"
+      },
+      {
+        "pt": "uma água",
+        "zh": "一瓶/一杯水",
+        "ex": "Uma água sem gás, por favor.",
+        "exZh": "请来一瓶无气泡水。"
+      },
+      {
+        "pt": "Se faz favor.",
+        "zh": "请 / 劳驾。",
+        "ex": "Um café, se faz favor.",
+        "exZh": "请来一杯咖啡。"
+      },
+      {
+        "pt": "Queria…",
+        "zh": "我想要……",
+        "ex": "Queria um pastel de nata.",
+        "exZh": "我想要一个葡式蛋挞。"
+      }
+    ]
+  },
+  {
+    "id": "u2l2",
+    "level": "A1",
+    "order": 5,
+    "isLab": false,
+    "title": "Ao balcão do café",
+    "zh": "在咖啡馆吧台",
+    "grammar": "数字 1–20 与价格",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Quanto custa?",
+        "zh": "多少钱？",
+        "ex": "Quanto custa o pastel?",
+        "exZh": "这个蛋挞多少钱？"
+      },
+      {
+        "pt": "A conta, por favor.",
+        "zh": "请结账。",
+        "ex": "A conta, por favor.",
+        "exZh": "请结账。"
+      },
+      {
+        "pt": "um euro",
+        "zh": "一欧元",
+        "ex": "São dois euros e cinquenta.",
+        "exZh": "一共两欧五十。"
+      },
+      {
+        "pt": "É muito caro.",
+        "zh": "太贵了。",
+        "ex": "É muito caro!",
+        "exZh": "太贵了！"
+      },
+      {
+        "pt": "barato",
+        "zh": "便宜的",
+        "ex": "Este café é barato.",
+        "exZh": "这杯咖啡很便宜。"
+      }
+    ]
+  },
+  {
+    "id": "u2l3",
+    "level": "A1",
+    "order": 6,
+    "isLab": false,
+    "title": "Na pastelaria",
+    "zh": "在蛋挞店",
+    "grammar": "Gosto de：喜欢要带「de」",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "pastel de nata",
+        "zh": "葡式蛋挞",
+        "ex": "Um pastel de nata, se faz favor.",
+        "exZh": "请来一个葡式蛋挞。"
+      },
+      {
+        "pt": "Gosto de…",
+        "zh": "我喜欢……",
+        "ex": "Gosto de café.",
+        "exZh": "我喜欢咖啡。"
+      },
+      {
+        "pt": "Não gosto de…",
+        "zh": "我不喜欢……",
+        "ex": "Não gosto de leite.",
+        "exZh": "我不喜欢牛奶。"
+      },
+      {
+        "pt": "delicioso",
+        "zh": "美味的",
+        "ex": "Este pastel é delicioso.",
+        "exZh": "这个蛋挞很美味。"
+      },
+      {
+        "pt": "Que sabor?",
+        "zh": "什么口味？",
+        "ex": "Que sabor tem o gelado?",
+        "exZh": "这个冰淇淋是什么口味？"
+      }
+    ]
+  },
+  {
+    "id": "u3l1",
+    "level": "A1",
+    "order": 7,
+    "isLab": false,
+    "title": "Na rua, à procura do museu",
+    "zh": "在街上找博物馆",
+    "grammar": "ficar 还是 estar？",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Onde fica…?",
+        "zh": "……在哪里？",
+        "ex": "Onde fica a estação?",
+        "exZh": "车站在哪里？"
+      },
+      {
+        "pt": "à esquerda",
+        "zh": "在左边",
+        "ex": "Vire à esquerda.",
+        "exZh": "向左转。"
+      },
+      {
+        "pt": "à direita",
+        "zh": "在右边",
+        "ex": "A farmácia fica à direita.",
+        "exZh": "药店在右边。"
+      },
+      {
+        "pt": "em frente",
+        "zh": "在前面 / 直走",
+        "ex": "Siga em frente.",
+        "exZh": "一直往前走。"
+      },
+      {
+        "pt": "rotunda",
+        "zh": "环岛",
+        "ex": "Na rotunda, vire à direita.",
+        "exZh": "在环岛向右转。"
+      }
+    ]
+  },
+  {
+    "id": "u3l2",
+    "level": "A1",
+    "order": 8,
+    "isLab": false,
+    "title": "Na estação de comboios",
+    "zh": "在火车站",
+    "grammar": "说时间：São as duas e meia",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "A que horas…?",
+        "zh": "几点……？",
+        "ex": "A que horas parte o comboio?",
+        "exZh": "火车几点出发？"
+      },
+      {
+        "pt": "comboio",
+        "zh": "火车",
+        "ex": "O comboio para o Porto é às nove.",
+        "exZh": "去波尔图的火车九点开。"
+      },
+      {
+        "pt": "autocarro",
+        "zh": "公交车",
+        "ex": "Apanho o autocarro para o centro.",
+        "exZh": "我坐公交去市中心。"
+      },
+      {
+        "pt": "bilhete",
+        "zh": "车票",
+        "ex": "Queria um bilhete, se faz favor.",
+        "exZh": "我想要一张票。"
+      },
+      {
+        "pt": "atrasado",
+        "zh": "迟到的 / 晚点的",
+        "ex": "O comboio está atrasado.",
+        "exZh": "火车晚点了。"
+      }
+    ]
+  },
+  {
+    "id": "u3l3",
+    "level": "A1",
+    "order": 9,
+    "isLab": false,
+    "title": "No elétrico 28",
+    "zh": "在 28 路电车上",
+    "grammar": "ir para 还是 ir a？",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "elétrico",
+        "zh": "有轨电车",
+        "ex": "O elétrico 28 vai para o centro.",
+        "exZh": "28 路电车开往市中心。"
+      },
+      {
+        "pt": "paragem",
+        "zh": "车站",
+        "ex": "A próxima paragem é o Rossio.",
+        "exZh": "下一站是罗西奥。"
+      },
+      {
+        "pt": "subir",
+        "zh": "上车 / 上升",
+        "ex": "Subimos no elétrico.",
+        "exZh": "我们上电车。"
+      },
+      {
+        "pt": "descer",
+        "zh": "下车 / 下降",
+        "ex": "Desça na próxima paragem.",
+        "exZh": "在下一站下车。"
+      },
+      {
+        "pt": "centro",
+        "zh": "市中心",
+        "ex": "Vou para o centro.",
+        "exZh": "我去市中心。"
+      }
+    ]
+  },
+  {
+    "id": "u4l1",
+    "level": "A2",
+    "order": 10,
+    "isLab": false,
+    "title": "Em casa dos avós",
+    "zh": "在祖父母家",
+    "grammar": "所有格：o meu、a minha",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "família",
+        "zh": "家庭",
+        "ex": "A minha família é pequena.",
+        "exZh": "我的家庭很小。"
+      },
+      {
+        "pt": "mãe",
+        "zh": "妈妈",
+        "ex": "A minha mãe chama-se Rosa.",
+        "exZh": "我妈妈叫罗莎。"
+      },
+      {
+        "pt": "pai",
+        "zh": "爸爸",
+        "ex": "O meu pai é professor.",
+        "exZh": "我爸爸是老师。"
+      },
+      {
+        "pt": "irmão",
+        "zh": "兄弟",
+        "ex": "Tenho um irmão mais velho.",
+        "exZh": "我有一个哥哥。"
+      },
+      {
+        "pt": "avós",
+        "zh": "祖父母 / 外祖父母",
+        "ex": "Os meus avós vivem no Porto.",
+        "exZh": "我的祖父母住在波尔图。"
+      }
+    ]
+  },
+  {
+    "id": "u4l2",
+    "level": "A2",
+    "order": 11,
+    "isLab": false,
+    "title": "Numa manhã de segunda",
+    "zh": "星期一的早晨",
+    "grammar": "反身动词：动作回到自己身上",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "acordar",
+        "zh": "醒来",
+        "ex": "Acordo às sete.",
+        "exZh": "我七点醒来。"
+      },
+      {
+        "pt": "levantar-se",
+        "zh": "起床",
+        "ex": "Levanto-me às sete e meia.",
+        "exZh": "我七点半起床。"
+      },
+      {
+        "pt": "pequeno-almoço",
+        "zh": "早餐",
+        "ex": "Tomo o pequeno-almoço em casa.",
+        "exZh": "我在家吃早餐。"
+      },
+      {
+        "pt": "apanhar",
+        "zh": "赶上 / 乘坐",
+        "ex": "Apanho o autocarro às oito.",
+        "exZh": "我八点坐公交。"
+      },
+      {
+        "pt": "deitar-se",
+        "zh": "上床睡觉",
+        "ex": "Deito-me às onze.",
+        "exZh": "我十一点睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "u4l3",
+    "level": "A2",
+    "order": 12,
+    "isLab": false,
+    "title": "No apartamento novo",
+    "zh": "在新公寓",
+    "grammar": "há：那里有",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "casa",
+        "zh": "家 / 房子",
+        "ex": "A minha casa é pequena.",
+        "exZh": "我的家很小。"
+      },
+      {
+        "pt": "cozinha",
+        "zh": "厨房",
+        "ex": "A cozinha é grande.",
+        "exZh": "厨房很大。"
+      },
+      {
+        "pt": "quarto",
+        "zh": "卧室 / 房间",
+        "ex": "O meu quarto tem uma varanda.",
+        "exZh": "我的卧室有一个阳台。"
+      },
+      {
+        "pt": "casa de banho",
+        "zh": "浴室 / 卫生间",
+        "ex": "Onde fica a casa de banho?",
+        "exZh": "卫生间在哪里？"
+      },
+      {
+        "pt": "varanda",
+        "zh": "阳台",
+        "ex": "Tomamos café na varanda.",
+        "exZh": "我们在阳台上喝咖啡。"
+      }
+    ]
+  },
+  {
+    "id": "u5l1",
+    "level": "A2",
+    "order": 13,
+    "isLab": false,
+    "title": "À mesa, a contar o fim de semana",
+    "zh": "在餐桌上讲周末",
+    "grammar": "简单过去时：讲完一件已经发生的事",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "ontem",
+        "zh": "昨天",
+        "ex": "Ontem fui ao cinema.",
+        "exZh": "昨天我去了电影院。"
+      },
+      {
+        "pt": "fui",
+        "zh": "我去了 / 我是",
+        "ex": "Fui ao Porto.",
+        "exZh": "我去了波尔图。"
+      },
+      {
+        "pt": "comi",
+        "zh": "我吃了",
+        "ex": "Comi bacalhau.",
+        "exZh": "我吃了鳕鱼。"
+      },
+      {
+        "pt": "gostei",
+        "zh": "我喜欢（过去）",
+        "ex": "Gostei muito do filme.",
+        "exZh": "我很喜欢这部电影。"
+      },
+      {
+        "pt": "fim de semana",
+        "zh": "周末",
+        "ex": "O fim de semana foi ótimo.",
+        "exZh": "周末很棒。"
+      }
+    ]
+  },
+  {
+    "id": "u5l2",
+    "level": "A2",
+    "order": 14,
+    "isLab": false,
+    "title": "No café, a fazer planos",
+    "zh": "在咖啡馆做计划",
+    "grammar": "将来很简单：vou + 动词原形",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "amanhã",
+        "zh": "明天",
+        "ex": "Amanhã vou viajar.",
+        "exZh": "明天我要去旅行。"
+      },
+      {
+        "pt": "vou",
+        "zh": "我要 / 我去",
+        "ex": "Vou estudar português.",
+        "exZh": "我要学葡语。"
+      },
+      {
+        "pt": "viajar",
+        "zh": "旅行",
+        "ex": "Vou viajar para o Algarve.",
+        "exZh": "我要去阿尔加维旅行。"
+      },
+      {
+        "pt": "encontro",
+        "zh": "见面 / 约会",
+        "ex": "Tenho um encontro às cinco.",
+        "exZh": "我五点有个约。"
+      },
+      {
+        "pt": "talvez",
+        "zh": "也许",
+        "ex": "Talvez vá à praia.",
+        "exZh": "也许我会去海滩。"
+      }
+    ]
+  },
+  {
+    "id": "u5l3",
+    "level": "A2",
+    "order": 15,
+    "isLab": false,
+    "title": "Na varanda, a falar do tempo",
+    "zh": "在阳台聊天气",
+    "grammar": "Está a chover：葡葡的「正在」",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "sol",
+        "zh": "太阳 / 晴天",
+        "ex": "Está sol hoje.",
+        "exZh": "今天出太阳。"
+      },
+      {
+        "pt": "chuva",
+        "zh": "雨",
+        "ex": "Está a chover.",
+        "exZh": "正在下雨。"
+      },
+      {
+        "pt": "frio",
+        "zh": "冷",
+        "ex": "Faz frio em janeiro.",
+        "exZh": "一月很冷。"
+      },
+      {
+        "pt": "calor",
+        "zh": "热",
+        "ex": "Faz calor no Algarve.",
+        "exZh": "阿尔加维很热。"
+      },
+      {
+        "pt": "tempo",
+        "zh": "天气 / 时间",
+        "ex": "Como está o tempo?",
+        "exZh": "天气怎么样？"
+      }
+    ]
+  },
+  {
+    "id": "u6l1",
+    "level": "A2",
+    "order": 16,
+    "isLab": false,
+    "title": "Numa loja de roupa",
+    "zh": "在服装店",
+    "grammar": "购物常用句型",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "tamanho",
+        "zh": "尺码 / 大小",
+        "ex": "Tem em tamanho M?",
+        "exZh": "有 M 码吗？"
+      },
+      {
+        "pt": "experimentar",
+        "zh": "试穿 / 尝试",
+        "ex": "Posso experimentar?",
+        "exZh": "我可以试穿吗？"
+      },
+      {
+        "pt": "levo",
+        "zh": "我买下 / 带走",
+        "ex": "Levo este.",
+        "exZh": "我买这件。"
+      },
+      {
+        "pt": "desconto",
+        "zh": "折扣",
+        "ex": "Tem desconto?",
+        "exZh": "有折扣吗？"
+      },
+      {
+        "pt": "cartão",
+        "zh": "银行卡",
+        "ex": "Posso pagar com cartão?",
+        "exZh": "可以刷卡吗？"
+      }
+    ]
+  },
+  {
+    "id": "u6l2",
+    "level": "A2",
+    "order": 17,
+    "isLab": false,
+    "title": "Na farmácia, com urgência",
+    "zh": "在药店急诊",
+    "grammar": "求助：Preciso de…",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "ajuda",
+        "zh": "帮助",
+        "ex": "Preciso de ajuda.",
+        "exZh": "我需要帮助。"
+      },
+      {
+        "pt": "perdido / perdida",
+        "zh": "迷路的（男/女）",
+        "ex": "Estou perdido.",
+        "exZh": "我迷路了。（男性）"
+      },
+      {
+        "pt": "farmácia",
+        "zh": "药店",
+        "ex": "Onde fica a farmácia?",
+        "exZh": "药店在哪里？"
+      },
+      {
+        "pt": "médico",
+        "zh": "医生",
+        "ex": "Preciso de um médico.",
+        "exZh": "我需要看医生。"
+      },
+      {
+        "pt": "urgência",
+        "zh": "急诊",
+        "ex": "Leve-me à urgência, por favor.",
+        "exZh": "请带我去急诊。"
+      }
+    ]
+  },
+  {
+    "id": "u6l3",
+    "level": "A2",
+    "order": 18,
+    "isLab": false,
+    "title": "No bairro, à conversa",
+    "zh": "在街区聊天",
+    "grammar": "让葡语有「葡萄牙味」的小词",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "Pois",
+        "zh": "对啊 / 嗯",
+        "ex": "Pois, tens razão.",
+        "exZh": "对啊，你说得对。"
+      },
+      {
+        "pt": "Pá",
+        "zh": "喂 / 老兄（语气词）",
+        "ex": "Ó pá, vamos!",
+        "exZh": "喂，走吧！"
+      },
+      {
+        "pt": "Olha",
+        "zh": "你看 / 听我说",
+        "ex": "Olha, isto é importante.",
+        "exZh": "听我说，这很重要。"
+      },
+      {
+        "pt": "Já agora",
+        "zh": "对了 / 顺便",
+        "ex": "Já agora, tens um lápis?",
+        "exZh": "对了，你有铅笔吗？"
+      },
+      {
+        "pt": "Com certeza",
+        "zh": "当然 / 没问题",
+        "ex": "Com certeza!",
+        "exZh": "当然可以！"
+      }
+    ]
+  },
+  {
+    "id": "b1l1",
+    "level": "B1",
+    "order": 19,
+    "isLab": false,
+    "title": "À mesa, a falar da infância",
+    "zh": "在餐桌上聊童年",
+    "grammar": "Imperfeito vs. perfeito：背景与事件",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a infância",
+        "zh": "童年",
+        "ex": "A minha infância foi no campo.",
+        "exZh": "我的童年在乡下度过。"
+      },
+      {
+        "pt": "brincar",
+        "zh": "玩耍",
+        "ex": "Brincávamos na rua até tarde.",
+        "exZh": "我们常在街上玩到很晚。"
+      },
+      {
+        "pt": "costumava",
+        "zh": "过去常常",
+        "ex": "Costumava ir à praia todos os verões.",
+        "exZh": "我以前每年夏天都去海滩。"
+      },
+      {
+        "pt": "de repente",
+        "zh": "突然",
+        "ex": "De repente, começou a chover.",
+        "exZh": "突然下起雨来。"
+      },
+      {
+        "pt": "crescer",
+        "zh": "长大",
+        "ex": "Cresci numa cidade pequena.",
+        "exZh": "我在一座小城长大。"
+      }
+    ]
+  },
+  {
+    "id": "b1l2",
+    "level": "B1",
+    "order": 20,
+    "isLab": false,
+    "title": "Numa esplanada, a sonhar",
+    "zh": "在露天咖啡座做梦",
+    "grammar": "Se + imperfeito do conjuntivo + condicional",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "Gostaria de…",
+        "zh": "我想要……",
+        "ex": "Gostaria de viver em Lisboa.",
+        "exZh": "我想住在里斯本。"
+      },
+      {
+        "pt": "se pudesse",
+        "zh": "如果我能",
+        "ex": "Se pudesse, viajaria pelo mundo.",
+        "exZh": "如果我能，我会环游世界。"
+      },
+      {
+        "pt": "se fosse",
+        "zh": "如果我是/如果是",
+        "ex": "Se fosse rico, compraria uma casa.",
+        "exZh": "如果我有钱，我会买一栋房子。"
+      },
+      {
+        "pt": "o sonho",
+        "zh": "梦想",
+        "ex": "O meu sonho é abrir um café.",
+        "exZh": "我的梦想是开一家咖啡馆。"
+      },
+      {
+        "pt": "mudar",
+        "zh": "改变 / 搬家",
+        "ex": "Gostaria de mudar de cidade.",
+        "exZh": "我想换一座城市生活。"
+      }
+    ]
+  },
+  {
+    "id": "b1l3",
+    "level": "B1",
+    "order": 21,
+    "isLab": false,
+    "title": "No elétrico, a contar uma história",
+    "zh": "在电车上讲故事",
+    "grammar": "把事件串起来：叙事连接词",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "primeiro",
+        "zh": "首先",
+        "ex": "Primeiro, visitei o castelo.",
+        "exZh": "首先，我参观了城堡。"
+      },
+      {
+        "pt": "entretanto",
+        "zh": "与此同时 / 期间",
+        "ex": "Entretanto, começou a anoitecer.",
+        "exZh": "与此同时，天开始黑了。"
+      },
+      {
+        "pt": "afinal",
+        "zh": "最终 / 毕竟",
+        "ex": "Afinal, não fomos ao fado.",
+        "exZh": "最后我们还是没去听法多。"
+      },
+      {
+        "pt": "enfim",
+        "zh": "终于 / 总之",
+        "ex": "Enfim, foi um dia inesquecível.",
+        "exZh": "总之，那是难忘的一天。"
+      },
+      {
+        "pt": "a recordação",
+        "zh": "回忆",
+        "ex": "Guardo uma boa recordação daquela viagem.",
+        "exZh": "那次旅行给我留下了美好的回忆。"
+      }
+    ]
+  },
+  {
+    "id": "b1l4",
+    "level": "B1",
+    "order": 22,
+    "isLab": false,
+    "title": "No centro de saúde",
+    "zh": "在健康中心",
+    "grammar": "描述症状：ter、estar com 与 há quanto tempo",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o sintoma",
+        "zh": "症状",
+        "ex": "Tenho sintomas de gripe.",
+        "exZh": "我有流感症状。"
+      },
+      {
+        "pt": "a receita",
+        "zh": "处方",
+        "ex": "O médico passou-me uma receita.",
+        "exZh": "医生给我开了处方。"
+      },
+      {
+        "pt": "o tratamento",
+        "zh": "治疗",
+        "ex": "O tratamento dura uma semana.",
+        "exZh": "治疗持续一周。"
+      },
+      {
+        "pt": "a consulta",
+        "zh": "就诊 / 门诊",
+        "ex": "Tenho uma consulta às dez.",
+        "exZh": "我十点有一个门诊。"
+      },
+      {
+        "pt": "melhorar",
+        "zh": "好转 / 改善",
+        "ex": "Espero melhorar até amanhã.",
+        "exZh": "我希望明天前好转。"
+      }
+    ]
+  },
+  {
+    "id": "b1l5",
+    "level": "B1",
+    "order": 23,
+    "isLab": false,
+    "title": "No mercado, a escolher comida",
+    "zh": "在市场挑食物",
+    "grammar": "建议与习惯：costumar、dever、em vez de",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a alimentação",
+        "zh": "饮食",
+        "ex": "A alimentação mediterrânica é equilibrada.",
+        "exZh": "地中海饮食很均衡。"
+      },
+      {
+        "pt": "o hábito",
+        "zh": "习惯",
+        "ex": "Mudar hábitos leva tempo.",
+        "exZh": "改变习惯需要时间。"
+      },
+      {
+        "pt": "equilibrado",
+        "zh": "均衡的",
+        "ex": "É importante ter uma dieta equilibrada.",
+        "exZh": "均衡饮食很重要。"
+      },
+      {
+        "pt": "processado",
+        "zh": "加工过的",
+        "ex": "Evito comida processada.",
+        "exZh": "我避免加工食品。"
+      },
+      {
+        "pt": "hidratar-se",
+        "zh": "补水",
+        "ex": "Hidrato-me ao longo do dia.",
+        "exZh": "我一天中会补水。"
+      }
+    ]
+  },
+  {
+    "id": "b1l6",
+    "level": "B1",
+    "order": 24,
+    "isLab": false,
+    "title": "Em casa, à hora de dormir",
+    "zh": "在家准备睡觉",
+    "grammar": "建议与持续：sofrer de、há quanto tempo、recomendar que",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o descanso",
+        "zh": "休息",
+        "ex": "Preciso de descanso.",
+        "exZh": "我需要休息。"
+      },
+      {
+        "pt": "o stress",
+        "zh": "压力",
+        "ex": "O stress afeta o sono.",
+        "exZh": "压力影响睡眠。"
+      },
+      {
+        "pt": "a insónia",
+        "zh": "失眠",
+        "ex": "Sofro de insónia.",
+        "exZh": "我受失眠困扰。"
+      },
+      {
+        "pt": "a rotina",
+        "zh": "规律 / 日常",
+        "ex": "Uma rotina regular ajuda.",
+        "exZh": "规律的日常有帮助。"
+      },
+      {
+        "pt": "recuperar",
+        "zh": "恢复",
+        "ex": "Ao fim de semana, recupero energia.",
+        "exZh": "周末我恢复精力。"
+      }
+    ]
+  },
+  {
+    "id": "b2l1",
+    "level": "B2",
+    "order": 25,
+    "isLab": false,
+    "title": "Na reunião de equipa",
+    "zh": "在团队会议",
+    "grammar": "观点的骨架：让步 + 转折 + 结论",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "por um lado",
+        "zh": "一方面",
+        "ex": "Por um lado, a ideia é boa.",
+        "exZh": "一方面，这个想法不错。"
+      },
+      {
+        "pt": "no entanto",
+        "zh": "然而",
+        "ex": "No entanto, há riscos.",
+        "exZh": "然而，存在风险。"
+      },
+      {
+        "pt": "portanto",
+        "zh": "因此",
+        "ex": "Portanto, precisamos de mais tempo.",
+        "exZh": "因此，我们需要更多时间。"
+      },
+      {
+        "pt": "ter em conta",
+        "zh": "考虑到",
+        "ex": "Temos de ter em conta os custos.",
+        "exZh": "我们必须考虑成本。"
+      },
+      {
+        "pt": "a decisão",
+        "zh": "决定",
+        "ex": "A decisão foi adiada.",
+        "exZh": "决定被推迟了。"
+      }
+    ]
+  },
+  {
+    "id": "b2l2",
+    "level": "B2",
+    "order": 26,
+    "isLab": false,
+    "title": "No escritório, a escrever um email",
+    "zh": "在办公室写邮件",
+    "grammar": "正式语体：距离感不是复杂词",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "Venho por este meio…",
+        "zh": "我特此……",
+        "ex": "Venho por este meio candidatar-me à vaga.",
+        "exZh": "我特此申请该职位。"
+      },
+      {
+        "pt": "a candidatura",
+        "zh": "申请",
+        "ex": "Envio a minha candidatura em anexo.",
+        "exZh": "我随附我的申请。"
+      },
+      {
+        "pt": "Agradeço…",
+        "zh": "感谢……",
+        "ex": "Agradeço a sua atenção.",
+        "exZh": "感谢您的关注。"
+      },
+      {
+        "pt": "Atenciosamente,",
+        "zh": "此致敬礼",
+        "ex": "Atenciosamente, Ana Silva",
+        "exZh": "此致敬礼，安娜·席尔瓦"
+      },
+      {
+        "pt": "em anexo",
+        "zh": "随附",
+        "ex": "Em anexo, envio o meu currículo.",
+        "exZh": "随附我的简历。"
+      }
+    ]
+  },
+  {
+    "id": "b2l3",
+    "level": "B2",
+    "order": 27,
+    "isLab": false,
+    "title": "Num debate sobre turismo",
+    "zh": "在旅游辩论现场",
+    "grammar": "让步与条件：embora、apesar de、desde que",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "embora",
+        "zh": "虽然",
+        "ex": "Embora seja caro, vale a pena.",
+        "exZh": "虽然贵，但值得。"
+      },
+      {
+        "pt": "apesar de",
+        "zh": "尽管",
+        "ex": "Apesar de haver turistas, a cidade está calma.",
+        "exZh": "尽管有游客，城市依然平静。"
+      },
+      {
+        "pt": "desde que",
+        "zh": "只要",
+        "ex": "Desde que haja regras claras, apoio.",
+        "exZh": "只要有明确规则，我就支持。"
+      },
+      {
+        "pt": "pelo contrário",
+        "zh": "相反",
+        "ex": "Não critico o turismo; pelo contrário, defendo-o.",
+        "exZh": "我不批评旅游；相反，我支持它。"
+      },
+      {
+        "pt": "o turismo",
+        "zh": "旅游业",
+        "ex": "O turismo representa uma parte importante da economia.",
+        "exZh": "旅游业占经济的重要部分。"
+      }
+    ]
+  },
+  {
+    "id": "b2l4",
+    "level": "B2",
+    "order": 28,
+    "isLab": false,
+    "title": "Na redação do jornal",
+    "zh": "在报社编辑部",
+    "grammar": "转述与保留：segundo、alegadamente、supostamente",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a manchete",
+        "zh": "头条标题",
+        "ex": "A manchete dizia tudo.",
+        "exZh": "标题说明了一切。"
+      },
+      {
+        "pt": "a fonte",
+        "zh": "来源",
+        "ex": "Devemos verificar a fonte.",
+        "exZh": "我们应该核实来源。"
+      },
+      {
+        "pt": "a credibilidade",
+        "zh": "可信度",
+        "ex": "A credibilidade do jornal está em causa.",
+        "exZh": "这家报纸的可信度受到质疑。"
+      },
+      {
+        "pt": "enviesado",
+        "zh": "有偏见的",
+        "ex": "O artigo parece enviesado.",
+        "exZh": "这篇文章似乎有偏见。"
+      },
+      {
+        "pt": "verificar",
+        "zh": "核实",
+        "ex": "É importante verificar os factos.",
+        "exZh": "核实事实很重要。"
+      }
+    ]
+  },
+  {
+    "id": "b2l5",
+    "level": "B2",
+    "order": 29,
+    "isLab": false,
+    "title": "No telemóvel, nas redes sociais",
+    "zh": "在手机上刷社交",
+    "grammar": "因果与反身：levar a、fazer com que、espalhar-se",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "o algoritmo",
+        "zh": "算法",
+        "ex": "O algoritmo decide o que vês.",
+        "exZh": "算法决定你看到什么。"
+      },
+      {
+        "pt": "a privacidade",
+        "zh": "隐私",
+        "ex": "A privacidade é uma preocupação.",
+        "exZh": "隐私是一个令人担忧的问题。"
+      },
+      {
+        "pt": "a polarização",
+        "zh": "极化",
+        "ex": "As redes podem aumentar a polarização.",
+        "exZh": "社交网络可能加剧极化。"
+      },
+      {
+        "pt": "partilhar",
+        "zh": "分享",
+        "ex": "Penso antes de partilhar.",
+        "exZh": "我分享前会想一想。"
+      },
+      {
+        "pt": "a desinformação",
+        "zh": "虚假信息",
+        "ex": "A desinformação espalha-se depressa.",
+        "exZh": "虚假信息传播得很快。"
+      }
+    ]
+  },
+  {
+    "id": "b2l6",
+    "level": "B2",
+    "order": 30,
+    "isLab": false,
+    "title": "Numa conferência sobre IA",
+    "zh": "在人工智能会议",
+    "grammar": "风险与条件：correr o risco de、desde que、não só… mas também",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a inteligência",
+        "zh": "智能",
+        "ex": "A inteligência artificial levanta questões éticas.",
+        "exZh": "人工智能引发伦理问题。"
+      },
+      {
+        "pt": "automatizar",
+        "zh": "自动化",
+        "ex": "A empresa quer automatizar processos.",
+        "exZh": "公司想自动化流程。"
+      },
+      {
+        "pt": "a ética",
+        "zh": "伦理",
+        "ex": "A ética deve orientar a inovação.",
+        "exZh": "伦理应引导创新。"
+      },
+      {
+        "pt": "regulamentar",
+        "zh": "监管",
+        "ex": "É necessário regulamentar a tecnologia.",
+        "exZh": "有必要监管这项技术。"
+      },
+      {
+        "pt": "substituir",
+        "zh": "取代",
+        "ex": "As máquinas não substituem o julgamento humano.",
+        "exZh": "机器不能取代人的判断。"
+      }
+    ]
+  },
+  {
+    "id": "c1l1",
+    "level": "C1",
+    "order": 31,
+    "isLab": false,
+    "title": "Na reunião de moradores",
+    "zh": "在居民会议",
+    "grammar": "客观语体：无人称、被动与名词化",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o arrendamento",
+        "zh": "租赁 / 房租",
+        "ex": "O arrendamento subiu muito nos últimos anos.",
+        "exZh": "近年来房租上涨了很多。"
+      },
+      {
+        "pt": "a especulação",
+        "zh": "投机",
+        "ex": "A especulação imobiliária expulsa residentes.",
+        "exZh": "房地产投机迫使居民离开。"
+      },
+      {
+        "pt": "o despejo",
+        "zh": "驱逐 / 迫迁",
+        "ex": "Muitas famílias estão em risco de despejo.",
+        "exZh": "许多家庭面临被驱逐的风险。"
+      },
+      {
+        "pt": "a gentrificação",
+        "zh": "绅士化",
+        "ex": "A gentrificação transformou o centro histórico.",
+        "exZh": "绅士化改变了历史中心。"
+      },
+      {
+        "pt": "as políticas públicas",
+        "zh": "公共政策",
+        "ex": "São necessárias políticas públicas de habitação.",
+        "exZh": "需要公共住房政策。"
+      }
+    ]
+  },
+  {
+    "id": "c1l2",
+    "level": "C1",
+    "order": 32,
+    "isLab": false,
+    "title": "Numa entrevista sobre emigração",
+    "zh": "在移民访谈",
+    "grammar": "谈论迁移：相对从句与时间跨度",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a diáspora",
+        "zh": "侨民群体",
+        "ex": "A diáspora portuguesa está espalhada pelo mundo.",
+        "exZh": "葡萄牙侨民遍布世界。"
+      },
+      {
+        "pt": "a emigração",
+        "zh": "移居国外",
+        "ex": "A emigração marcou gerações de portugueses.",
+        "exZh": "移居国外影响了几代葡萄牙人。"
+      },
+      {
+        "pt": "a integração",
+        "zh": "融入",
+        "ex": "A integração exige tempo e língua.",
+        "exZh": "融入需要时间和语言。"
+      },
+      {
+        "pt": "a saudade",
+        "zh": "乡愁 / 思念",
+        "ex": "Tenho saudades da minha terra.",
+        "exZh": "我想念我的故乡。"
+      },
+      {
+        "pt": "o regresso",
+        "zh": "归来",
+        "ex": "O regresso a casa foi emocionante.",
+        "exZh": "回家的过程令人动容。"
+      }
+    ]
+  },
+  {
+    "id": "c1l3",
+    "level": "C1",
+    "order": 33,
+    "isLab": false,
+    "title": "No litoral, com uma investigadora",
+    "zh": "和研究员在海边",
+    "grammar": "环境议题的搭配与被动",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a erosão costeira",
+        "zh": "海岸侵蚀",
+        "ex": "A erosão costeira ameaça várias praias.",
+        "exZh": "海岸侵蚀威胁着多处海滩。"
+      },
+      {
+        "pt": "a sustentabilidade",
+        "zh": "可持续性",
+        "ex": "A sustentabilidade não é só uma questão ambiental.",
+        "exZh": "可持续性不只是环境问题。"
+      },
+      {
+        "pt": "a transição energética",
+        "zh": "能源转型",
+        "ex": "A transição energética exige investimento.",
+        "exZh": "能源转型需要投资。"
+      },
+      {
+        "pt": "a pegada",
+        "zh": "足迹",
+        "ex": "Queremos reduzir a pegada de carbono.",
+        "exZh": "我们想减少碳足迹。"
+      },
+      {
+        "pt": "o ordenamento",
+        "zh": "规划 / 整治",
+        "ex": "O ordenamento do território é essencial.",
+        "exZh": "国土规划至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "c1l4",
+    "level": "C1",
+    "order": 34,
+    "isLab": false,
+    "title": "No museu, sobre repatriamento",
+    "zh": "在博物馆谈归还",
+    "grammar": "机构语体：被动、名词化与「estar em causa」",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o repatriamento",
+        "zh": "遣返 / 归还",
+        "ex": "O repatriamento de obras é debatido.",
+        "exZh": "文物的归还问题正在被讨论。"
+      },
+      {
+        "pt": "o acervo",
+        "zh": "藏品",
+        "ex": "O acervo do museu é vasto.",
+        "exZh": "博物馆的藏品很丰富。"
+      },
+      {
+        "pt": "colonial",
+        "zh": "殖民的",
+        "ex": "O legado colonial é complexo.",
+        "exZh": "殖民遗产很复杂。"
+      },
+      {
+        "pt": "a restituição",
+        "zh": "归还",
+        "ex": "A restituição exige negociação.",
+        "exZh": "归还需要谈判。"
+      },
+      {
+        "pt": "a proveniência",
+        "zh": "来源",
+        "ex": "É preciso investigar a proveniência.",
+        "exZh": "需要调查来源。"
+      }
+    ]
+  },
+  {
+    "id": "c1l5",
+    "level": "C1",
+    "order": 35,
+    "isLab": false,
+    "title": "No cinema, depois da estreia",
+    "zh": "在电影首映后",
+    "grammar": "电影语体：trata-se de、ao longo de、ser baseado em",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o realizador",
+        "zh": "导演",
+        "ex": "O realizador apresentou o filme.",
+        "exZh": "导演介绍了这部电影。"
+      },
+      {
+        "pt": "o argumento",
+        "zh": "剧本",
+        "ex": "O argumento é baseado num romance.",
+        "exZh": "剧本改编自一部小说。"
+      },
+      {
+        "pt": "o plano",
+        "zh": "镜头 / 计划",
+        "ex": "Este plano é muito longo.",
+        "exZh": "这个镜头很长。"
+      },
+      {
+        "pt": "a montagem",
+        "zh": "剪辑",
+        "ex": "A montagem dá ritmo ao filme.",
+        "exZh": "剪辑赋予电影节奏。"
+      },
+      {
+        "pt": "a bilheteira",
+        "zh": "票房 / 售票处",
+        "ex": "O filme foi um sucesso de bilheteira.",
+        "exZh": "这部电影票房很成功。"
+      }
+    ]
+  },
+  {
+    "id": "c1l6",
+    "level": "C1",
+    "order": 36,
+    "isLab": false,
+    "title": "Junto ao monumento",
+    "zh": "在纪念碑前",
+    "grammar": "记忆与争议：ser alvo de、longe de、concessão",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a memória",
+        "zh": "记忆",
+        "ex": "A memória pública é seletiva.",
+        "exZh": "公共记忆是有选择性的。"
+      },
+      {
+        "pt": "o monumento",
+        "zh": "纪念碑",
+        "ex": "O monumento foi contestado.",
+        "exZh": "这座纪念碑受到争议。"
+      },
+      {
+        "pt": "a homenagem",
+        "zh": "致敬 / 纪念",
+        "ex": "A homenagem gerou debate.",
+        "exZh": "这次纪念引发了辩论。"
+      },
+      {
+        "pt": "contestado",
+        "zh": "有争议的",
+        "ex": "O projeto é contestado.",
+        "exZh": "这个项目有争议。"
+      },
+      {
+        "pt": "o esquecimento",
+        "zh": "遗忘",
+        "ex": "O esquecimento também é político.",
+        "exZh": "遗忘也是政治性的。"
+      }
+    ]
+  },
+  {
+    "id": "c2l1",
+    "level": "C2",
+    "order": 37,
+    "isLab": false,
+    "title": "Na livraria, com Pessoa",
+    "zh": "在书店谈佩索阿",
+    "grammar": "文学语体：隐喻、同位与保留",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o heterónimo",
+        "zh": "异名者",
+        "ex": "Pessoa criou vários heterónimos.",
+        "exZh": "佩索阿创造了多个异名者。"
+      },
+      {
+        "pt": "o fingimento",
+        "zh": "虚构 / 伪装",
+        "ex": "Para Pessoa, o fingimento é criação poética.",
+        "exZh": "对佩索阿来说，虚构就是诗歌创造。"
+      },
+      {
+        "pt": "o desassossego",
+        "zh": "不安 / 不宁",
+        "ex": "O Livro do Desassossego é uma obra fragmentária.",
+        "exZh": "《不安之书》是一部碎片化的作品。"
+      },
+      {
+        "pt": "o verso",
+        "zh": "诗句",
+        "ex": "O verso é livre e íntimo.",
+        "exZh": "诗句自由而私密。"
+      },
+      {
+        "pt": "a alteridade",
+        "zh": "他者性",
+        "ex": "O outro é uma forma de alteridade.",
+        "exZh": "他者是「他者性」的一种形式。"
+      }
+    ]
+  },
+  {
+    "id": "c2l2",
+    "level": "C2",
+    "order": 38,
+    "isLab": false,
+    "title": "À mesa, com ironia",
+    "zh": "在餐桌上反讽",
+    "grammar": "反讽不靠词汇，靠语气与语境",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a ironia",
+        "zh": "反讽",
+        "ex": "A ironia está no tom, não nas palavras.",
+        "exZh": "反讽在语气里，不在字面上。"
+      },
+      {
+        "pt": "o subentendido",
+        "zh": "言外之意",
+        "ex": "Há um subentendido naquela resposta.",
+        "exZh": "那个回答里另有含义。"
+      },
+      {
+        "pt": "o duplo sentido",
+        "zh": "双关",
+        "ex": "A frase tem um duplo sentido.",
+        "exZh": "这句话有双关。"
+      },
+      {
+        "pt": "à socapa",
+        "zh": "悄悄地",
+        "ex": "Ele sorriu à socapa.",
+        "exZh": "他偷偷笑了。"
+      },
+      {
+        "pt": "gozar",
+        "zh": "开玩笑 / 取笑",
+        "ex": "Estou só a gozar contigo.",
+        "exZh": "我只是在跟你开玩笑。"
+      }
+    ]
+  },
+  {
+    "id": "c2l3",
+    "level": "C2",
+    "order": 39,
+    "isLab": false,
+    "title": "No café, à portuguesa",
+    "zh": "在咖啡馆说地道葡语",
+    "grammar": "习语是固定块，不要逐字翻译",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "ficar com a pulga atrás da orelha",
+        "zh": "起疑心",
+        "ex": "Fiquei com a pulga atrás da orelha.",
+        "exZh": "我起了疑心。"
+      },
+      {
+        "pt": "meter os pés pelas mãos",
+        "zh": "手忙脚乱 / 搞砸",
+        "ex": "Meta os pés pelas mãos e disse a coisa errada.",
+        "exZh": "他手忙脚乱，说错了话。"
+      },
+      {
+        "pt": "ficar em águas de bacalhau",
+        "zh": "不了了之",
+        "ex": "O plano ficou em águas de bacalhau.",
+        "exZh": "计划不了了之。"
+      },
+      {
+        "pt": "à toa",
+        "zh": "漫无目的地",
+        "ex": "Andámos à toa pela cidade.",
+        "exZh": "我们在城里漫无目的地逛。"
+      },
+      {
+        "pt": "de mãos a abanar",
+        "zh": "空手",
+        "ex": "Saí de lá de mãos a abanar.",
+        "exZh": "我空手而归。"
+      }
+    ]
+  },
+  {
+    "id": "c2l4",
+    "level": "C2",
+    "order": 40,
+    "isLab": false,
+    "title": "No auditório, a analisar um discurso",
+    "zh": "在礼堂分析演讲",
+    "grammar": "修辞分析：不是说服，而是让人愿意相信",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a retórica",
+        "zh": "修辞",
+        "ex": "A retórica pode unir ou dividir.",
+        "exZh": "修辞可以团结，也可以分裂。"
+      },
+      {
+        "pt": "a persuasão",
+        "zh": "说服",
+        "ex": "A persuasão não depende só de argumentos.",
+        "exZh": "说服不只依赖论点。"
+      },
+      {
+        "pt": "a anáfora",
+        "zh": "首语重复",
+        "ex": "A anáfora repete uma palavra no início.",
+        "exZh": "首语重复在句首重复一个词。"
+      },
+      {
+        "pt": "a repetição",
+        "zh": "重复",
+        "ex": "A repetição cria ritmo.",
+        "exZh": "重复创造节奏。"
+      },
+      {
+        "pt": "o apelo",
+        "zh": "呼吁",
+        "ex": "O discurso termina com um apelo.",
+        "exZh": "演讲以呼吁结束。"
+      }
+    ]
+  },
+  {
+    "id": "c2l5",
+    "level": "C2",
+    "order": 41,
+    "isLab": false,
+    "title": "Numa entrevista, entre eufemismos",
+    "zh": "在访谈中的委婉语",
+    "grammar": "不说破：eufemismo、understatement 与「digamos」",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o eufemismo",
+        "zh": "委婉语",
+        "ex": "O eufemismo suaviza a realidade.",
+        "exZh": "委婉语柔化现实。"
+      },
+      {
+        "pt": "o subtexto",
+        "zh": "潜台词",
+        "ex": "O subtexto diz mais do que as palavras.",
+        "exZh": "潜台词比字面说得更多。"
+      },
+      {
+        "pt": "o silêncio",
+        "zh": "沉默",
+        "ex": "O silêncio também comunica.",
+        "exZh": "沉默也在传达信息。"
+      },
+      {
+        "pt": "atenuar",
+        "zh": "缓和 / 减轻",
+        "ex": "A linguagem serve para atenuar o conflito.",
+        "exZh": "语言用于缓和冲突。"
+      },
+      {
+        "pt": "insinuar",
+        "zh": "暗示",
+        "ex": "Ele insinuou que havia um problema.",
+        "exZh": "他暗示存在问题。"
+      }
+    ]
+  },
+  {
+    "id": "c2l6",
+    "level": "C2",
+    "order": 42,
+    "isLab": false,
+    "title": "Numa oficina de tradução",
+    "zh": "在翻译工作坊",
+    "grammar": "翻译理论：equivalência、perda、na medida em que",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "intraduzível",
+        "zh": "不可译的",
+        "ex": "Saudade é frequentemente considerada intraduzível.",
+        "exZh": "saudade 常被认为不可译。"
+      },
+      {
+        "pt": "a equivalência",
+        "zh": "对等",
+        "ex": "A tradução procura equivalência, não identidade.",
+        "exZh": "翻译追求对等，而非同一。"
+      },
+      {
+        "pt": "a tradução",
+        "zh": "翻译",
+        "ex": "A tradução é uma forma de leitura.",
+        "exZh": "翻译是一种阅读方式。"
+      },
+      {
+        "pt": "a adaptação",
+        "zh": "改编 / 适应",
+        "ex": "Toda a adaptação implica perda.",
+        "exZh": "一切改编都意味着损失。"
+      },
+      {
+        "pt": "perder",
+        "zh": "失去",
+        "ex": "Algo se perde sempre na tradução.",
+        "exZh": "翻译中总会失去一些东西。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab01",
+    "level": "A1",
+    "order": 43,
+    "isLab": true,
+    "title": "No aeroporto, à chegada",
+    "zh": "在机场抵达",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Olá",
+        "zh": "你好",
+        "ex": "Olá, eu sou a Ana.",
+        "exZh": "你好，我是安娜。"
+      },
+      {
+        "pt": "Bom dia",
+        "zh": "早上好",
+        "ex": "Bom dia! Como estás?",
+        "exZh": "早上好！你好吗？"
+      },
+      {
+        "pt": "Chamo-me…",
+        "zh": "我叫……",
+        "ex": "Chamo-me Pedro.",
+        "exZh": "我叫佩德罗。"
+      },
+      {
+        "pt": "Prazer em conhecer-te.",
+        "zh": "很高兴认识你。",
+        "ex": "Prazer em conhecer-te, Ana!",
+        "exZh": "很高兴认识你，安娜！"
+      },
+      {
+        "pt": "Até logo",
+        "zh": "回头见",
+        "ex": "Até logo, Pedro!",
+        "exZh": "回头见，佩德罗！"
+      }
+    ]
+  },
+  {
+    "id": "a1lab02",
+    "level": "A1",
+    "order": 44,
+    "isLab": true,
+    "title": "Na receção do hotel",
+    "zh": "在酒店前台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "De onde és?",
+        "zh": "你从哪里来？",
+        "ex": "De onde és, Mei?",
+        "exZh": "梅，你从哪里来？"
+      },
+      {
+        "pt": "Sou…",
+        "zh": "我是……",
+        "ex": "Sou chinesa.",
+        "exZh": "我是中国人。"
+      },
+      {
+        "pt": "português / portuguesa",
+        "zh": "葡萄牙人（男/女）",
+        "ex": "Ele é português.",
+        "exZh": "他是葡萄牙人。"
+      },
+      {
+        "pt": "chinês / chinesa",
+        "zh": "中国人（男/女）",
+        "ex": "Ela é chinesa.",
+        "exZh": "她是中国人。"
+      },
+      {
+        "pt": "Vivo em…",
+        "zh": "我住在……",
+        "ex": "Vivo em Lisboa.",
+        "exZh": "我住在里斯本。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab03",
+    "level": "A1",
+    "order": 45,
+    "isLab": true,
+    "title": "Na biblioteca do bairro",
+    "zh": "在社区图书馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Tudo bem?",
+        "zh": "你好吗？",
+        "ex": "Olá! Tudo bem?",
+        "exZh": "嗨！你好吗？"
+      },
+      {
+        "pt": "Mais ou menos.",
+        "zh": "一般般。",
+        "ex": "Tudo bem? — Mais ou menos.",
+        "exZh": "你好吗？——一般般。"
+      },
+      {
+        "pt": "Estou bem, obrigado/a.",
+        "zh": "我很好，谢谢。",
+        "ex": "Estou bem, obrigado. E tu?",
+        "exZh": "我很好，谢谢。你呢？"
+      },
+      {
+        "pt": "Desculpe.",
+        "zh": "对不起 / 打扰一下。",
+        "ex": "Desculpe, como se chama?",
+        "exZh": "打扰一下，您叫什么名字？"
+      },
+      {
+        "pt": "Até amanhã",
+        "zh": "明天见",
+        "ex": "Até amanhã!",
+        "exZh": "明天见！"
+      }
+    ]
+  },
+  {
+    "id": "a1lab04",
+    "level": "A1",
+    "order": 46,
+    "isLab": true,
+    "title": "Na esplanada do café",
+    "zh": "在咖啡馆露台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "um café",
+        "zh": "一杯浓缩咖啡",
+        "ex": "Um café, se faz favor.",
+        "exZh": "请来一杯浓缩咖啡。"
+      },
+      {
+        "pt": "uma meia de leite",
+        "zh": "一杯半奶咖啡",
+        "ex": "Queria uma meia de leite.",
+        "exZh": "我想要一杯半奶咖啡。"
+      },
+      {
+        "pt": "uma água",
+        "zh": "一瓶/一杯水",
+        "ex": "Uma água sem gás, por favor.",
+        "exZh": "请来一瓶无气泡水。"
+      },
+      {
+        "pt": "Se faz favor.",
+        "zh": "请 / 劳驾。",
+        "ex": "Um café, se faz favor.",
+        "exZh": "请来一杯咖啡。"
+      },
+      {
+        "pt": "Queria…",
+        "zh": "我想要……",
+        "ex": "Queria um pastel de nata.",
+        "exZh": "我想要一个葡式蛋挞。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab05",
+    "level": "A1",
+    "order": 47,
+    "isLab": true,
+    "title": "No mercado municipal",
+    "zh": "在市集",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Quanto custa?",
+        "zh": "多少钱？",
+        "ex": "Quanto custa o pastel?",
+        "exZh": "这个蛋挞多少钱？"
+      },
+      {
+        "pt": "A conta, por favor.",
+        "zh": "请结账。",
+        "ex": "A conta, por favor.",
+        "exZh": "请结账。"
+      },
+      {
+        "pt": "um euro",
+        "zh": "一欧元",
+        "ex": "São dois euros e cinquenta.",
+        "exZh": "一共两欧五十。"
+      },
+      {
+        "pt": "É muito caro.",
+        "zh": "太贵了。",
+        "ex": "É muito caro!",
+        "exZh": "太贵了！"
+      },
+      {
+        "pt": "barato",
+        "zh": "便宜的",
+        "ex": "Este café é barato.",
+        "exZh": "这杯咖啡很便宜。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab06",
+    "level": "A1",
+    "order": 48,
+    "isLab": true,
+    "title": "No balcão da pastelaria",
+    "zh": "在蛋挞店柜台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "pastel de nata",
+        "zh": "葡式蛋挞",
+        "ex": "Um pastel de nata, se faz favor.",
+        "exZh": "请来一个葡式蛋挞。"
+      },
+      {
+        "pt": "Gosto de…",
+        "zh": "我喜欢……",
+        "ex": "Gosto de café.",
+        "exZh": "我喜欢咖啡。"
+      },
+      {
+        "pt": "Não gosto de…",
+        "zh": "我不喜欢……",
+        "ex": "Não gosto de leite.",
+        "exZh": "我不喜欢牛奶。"
+      },
+      {
+        "pt": "delicioso",
+        "zh": "美味的",
+        "ex": "Este pastel é delicioso.",
+        "exZh": "这个蛋挞很美味。"
+      },
+      {
+        "pt": "Que sabor?",
+        "zh": "什么口味？",
+        "ex": "Que sabor tem o gelado?",
+        "exZh": "这个冰淇淋是什么口味？"
+      }
+    ]
+  },
+  {
+    "id": "a1lab07",
+    "level": "A1",
+    "order": 49,
+    "isLab": true,
+    "title": "No miradouro da cidade",
+    "zh": "在城市观景台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Onde fica…?",
+        "zh": "……在哪里？",
+        "ex": "Onde fica a estação?",
+        "exZh": "车站在哪里？"
+      },
+      {
+        "pt": "à esquerda",
+        "zh": "在左边",
+        "ex": "Vire à esquerda.",
+        "exZh": "向左转。"
+      },
+      {
+        "pt": "à direita",
+        "zh": "在右边",
+        "ex": "A farmácia fica à direita.",
+        "exZh": "药店在右边。"
+      },
+      {
+        "pt": "em frente",
+        "zh": "在前面 / 直走",
+        "ex": "Siga em frente.",
+        "exZh": "一直往前走。"
+      },
+      {
+        "pt": "rotunda",
+        "zh": "环岛",
+        "ex": "Na rotunda, vire à direita.",
+        "exZh": "在环岛向右转。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab08",
+    "level": "A1",
+    "order": 50,
+    "isLab": true,
+    "title": "Na bilheteira do teatro",
+    "zh": "在剧院售票处",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "A que horas…?",
+        "zh": "几点……？",
+        "ex": "A que horas parte o comboio?",
+        "exZh": "火车几点出发？"
+      },
+      {
+        "pt": "comboio",
+        "zh": "火车",
+        "ex": "O comboio para o Porto é às nove.",
+        "exZh": "去波尔图的火车九点开。"
+      },
+      {
+        "pt": "autocarro",
+        "zh": "公交车",
+        "ex": "Apanho o autocarro para o centro.",
+        "exZh": "我坐公交去市中心。"
+      },
+      {
+        "pt": "bilhete",
+        "zh": "车票",
+        "ex": "Queria um bilhete, se faz favor.",
+        "exZh": "我想要一张票。"
+      },
+      {
+        "pt": "atrasado",
+        "zh": "迟到的 / 晚点的",
+        "ex": "O comboio está atrasado.",
+        "exZh": "火车晚点了。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab09",
+    "level": "A1",
+    "order": 51,
+    "isLab": true,
+    "title": "No elétrico para o centro",
+    "zh": "在去市中心的电车上",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "elétrico",
+        "zh": "有轨电车",
+        "ex": "O elétrico 28 vai para o centro.",
+        "exZh": "28 路电车开往市中心。"
+      },
+      {
+        "pt": "paragem",
+        "zh": "车站",
+        "ex": "A próxima paragem é o Rossio.",
+        "exZh": "下一站是罗西奥。"
+      },
+      {
+        "pt": "subir",
+        "zh": "上车 / 上升",
+        "ex": "Subimos no elétrico.",
+        "exZh": "我们上电车。"
+      },
+      {
+        "pt": "descer",
+        "zh": "下车 / 下降",
+        "ex": "Desça na próxima paragem.",
+        "exZh": "在下一站下车。"
+      },
+      {
+        "pt": "centro",
+        "zh": "市中心",
+        "ex": "Vou para o centro.",
+        "exZh": "我去市中心。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab10",
+    "level": "A1",
+    "order": 52,
+    "isLab": true,
+    "title": "No check-in do hostel",
+    "zh": "在青旅入住",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Olá",
+        "zh": "你好",
+        "ex": "Olá, eu sou a Ana.",
+        "exZh": "你好，我是安娜。"
+      },
+      {
+        "pt": "Bom dia",
+        "zh": "早上好",
+        "ex": "Bom dia! Como estás?",
+        "exZh": "早上好！你好吗？"
+      },
+      {
+        "pt": "Chamo-me…",
+        "zh": "我叫……",
+        "ex": "Chamo-me Pedro.",
+        "exZh": "我叫佩德罗。"
+      },
+      {
+        "pt": "Prazer em conhecer-te.",
+        "zh": "很高兴认识你。",
+        "ex": "Prazer em conhecer-te, Ana!",
+        "exZh": "很高兴认识你，安娜！"
+      },
+      {
+        "pt": "Até logo",
+        "zh": "回头见",
+        "ex": "Até logo, Pedro!",
+        "exZh": "回头见，佩德罗！"
+      }
+    ]
+  },
+  {
+    "id": "a1lab11",
+    "level": "A1",
+    "order": 53,
+    "isLab": true,
+    "title": "No elevador do prédio",
+    "zh": "在楼里电梯",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "De onde és?",
+        "zh": "你从哪里来？",
+        "ex": "De onde és, Mei?",
+        "exZh": "梅，你从哪里来？"
+      },
+      {
+        "pt": "Sou…",
+        "zh": "我是……",
+        "ex": "Sou chinesa.",
+        "exZh": "我是中国人。"
+      },
+      {
+        "pt": "português / portuguesa",
+        "zh": "葡萄牙人（男/女）",
+        "ex": "Ele é português.",
+        "exZh": "他是葡萄牙人。"
+      },
+      {
+        "pt": "chinês / chinesa",
+        "zh": "中国人（男/女）",
+        "ex": "Ela é chinesa.",
+        "exZh": "她是中国人。"
+      },
+      {
+        "pt": "Vivo em…",
+        "zh": "我住在……",
+        "ex": "Vivo em Lisboa.",
+        "exZh": "我住在里斯本。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab12",
+    "level": "A1",
+    "order": 54,
+    "isLab": true,
+    "title": "No corredor da escola",
+    "zh": "在学校走廊",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Tudo bem?",
+        "zh": "你好吗？",
+        "ex": "Olá! Tudo bem?",
+        "exZh": "嗨！你好吗？"
+      },
+      {
+        "pt": "Mais ou menos.",
+        "zh": "一般般。",
+        "ex": "Tudo bem? — Mais ou menos.",
+        "exZh": "你好吗？——一般般。"
+      },
+      {
+        "pt": "Estou bem, obrigado/a.",
+        "zh": "我很好，谢谢。",
+        "ex": "Estou bem, obrigado. E tu?",
+        "exZh": "我很好，谢谢。你呢？"
+      },
+      {
+        "pt": "Desculpe.",
+        "zh": "对不起 / 打扰一下。",
+        "ex": "Desculpe, como se chama?",
+        "exZh": "打扰一下，您叫什么名字？"
+      },
+      {
+        "pt": "Até amanhã",
+        "zh": "明天见",
+        "ex": "Até amanhã!",
+        "exZh": "明天见！"
+      }
+    ]
+  },
+  {
+    "id": "a1lab13",
+    "level": "A1",
+    "order": 55,
+    "isLab": true,
+    "title": "À mesa do café",
+    "zh": "在咖啡馆桌边",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "um café",
+        "zh": "一杯浓缩咖啡",
+        "ex": "Um café, se faz favor.",
+        "exZh": "请来一杯浓缩咖啡。"
+      },
+      {
+        "pt": "uma meia de leite",
+        "zh": "一杯半奶咖啡",
+        "ex": "Queria uma meia de leite.",
+        "exZh": "我想要一杯半奶咖啡。"
+      },
+      {
+        "pt": "uma água",
+        "zh": "一瓶/一杯水",
+        "ex": "Uma água sem gás, por favor.",
+        "exZh": "请来一瓶无气泡水。"
+      },
+      {
+        "pt": "Se faz favor.",
+        "zh": "请 / 劳驾。",
+        "ex": "Um café, se faz favor.",
+        "exZh": "请来一杯咖啡。"
+      },
+      {
+        "pt": "Queria…",
+        "zh": "我想要……",
+        "ex": "Queria um pastel de nata.",
+        "exZh": "我想要一个葡式蛋挞。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab14",
+    "level": "A1",
+    "order": 56,
+    "isLab": true,
+    "title": "Na banca das frutas",
+    "zh": "在水果摊",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Quanto custa?",
+        "zh": "多少钱？",
+        "ex": "Quanto custa o pastel?",
+        "exZh": "这个蛋挞多少钱？"
+      },
+      {
+        "pt": "A conta, por favor.",
+        "zh": "请结账。",
+        "ex": "A conta, por favor.",
+        "exZh": "请结账。"
+      },
+      {
+        "pt": "um euro",
+        "zh": "一欧元",
+        "ex": "São dois euros e cinquenta.",
+        "exZh": "一共两欧五十。"
+      },
+      {
+        "pt": "É muito caro.",
+        "zh": "太贵了。",
+        "ex": "É muito caro!",
+        "exZh": "太贵了！"
+      },
+      {
+        "pt": "barato",
+        "zh": "便宜的",
+        "ex": "Este café é barato.",
+        "exZh": "这杯咖啡很便宜。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab15",
+    "level": "A1",
+    "order": 57,
+    "isLab": true,
+    "title": "Na fila da pastelaria",
+    "zh": "在蛋挞店排队",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "pastel de nata",
+        "zh": "葡式蛋挞",
+        "ex": "Um pastel de nata, se faz favor.",
+        "exZh": "请来一个葡式蛋挞。"
+      },
+      {
+        "pt": "Gosto de…",
+        "zh": "我喜欢……",
+        "ex": "Gosto de café.",
+        "exZh": "我喜欢咖啡。"
+      },
+      {
+        "pt": "Não gosto de…",
+        "zh": "我不喜欢……",
+        "ex": "Não gosto de leite.",
+        "exZh": "我不喜欢牛奶。"
+      },
+      {
+        "pt": "delicioso",
+        "zh": "美味的",
+        "ex": "Este pastel é delicioso.",
+        "exZh": "这个蛋挞很美味。"
+      },
+      {
+        "pt": "Que sabor?",
+        "zh": "什么口味？",
+        "ex": "Que sabor tem o gelado?",
+        "exZh": "这个冰淇淋是什么口味？"
+      }
+    ]
+  },
+  {
+    "id": "a1lab16",
+    "level": "A1",
+    "order": 58,
+    "isLab": true,
+    "title": "No museu do azulejo",
+    "zh": "在瓷砖博物馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Onde fica…?",
+        "zh": "……在哪里？",
+        "ex": "Onde fica a estação?",
+        "exZh": "车站在哪里？"
+      },
+      {
+        "pt": "à esquerda",
+        "zh": "在左边",
+        "ex": "Vire à esquerda.",
+        "exZh": "向左转。"
+      },
+      {
+        "pt": "à direita",
+        "zh": "在右边",
+        "ex": "A farmácia fica à direita.",
+        "exZh": "药店在右边。"
+      },
+      {
+        "pt": "em frente",
+        "zh": "在前面 / 直走",
+        "ex": "Siga em frente.",
+        "exZh": "一直往前走。"
+      },
+      {
+        "pt": "rotunda",
+        "zh": "环岛",
+        "ex": "Na rotunda, vire à direita.",
+        "exZh": "在环岛向右转。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab17",
+    "level": "A1",
+    "order": 59,
+    "isLab": true,
+    "title": "Na plataforma do metro",
+    "zh": "在地铁站台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "A que horas…?",
+        "zh": "几点……？",
+        "ex": "A que horas parte o comboio?",
+        "exZh": "火车几点出发？"
+      },
+      {
+        "pt": "comboio",
+        "zh": "火车",
+        "ex": "O comboio para o Porto é às nove.",
+        "exZh": "去波尔图的火车九点开。"
+      },
+      {
+        "pt": "autocarro",
+        "zh": "公交车",
+        "ex": "Apanho o autocarro para o centro.",
+        "exZh": "我坐公交去市中心。"
+      },
+      {
+        "pt": "bilhete",
+        "zh": "车票",
+        "ex": "Queria um bilhete, se faz favor.",
+        "exZh": "我想要一张票。"
+      },
+      {
+        "pt": "atrasado",
+        "zh": "迟到的 / 晚点的",
+        "ex": "O comboio está atrasado.",
+        "exZh": "火车晚点了。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab18",
+    "level": "A1",
+    "order": 60,
+    "isLab": true,
+    "title": "Na paragem do elétrico",
+    "zh": "在电车站",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "elétrico",
+        "zh": "有轨电车",
+        "ex": "O elétrico 28 vai para o centro.",
+        "exZh": "28 路电车开往市中心。"
+      },
+      {
+        "pt": "paragem",
+        "zh": "车站",
+        "ex": "A próxima paragem é o Rossio.",
+        "exZh": "下一站是罗西奥。"
+      },
+      {
+        "pt": "subir",
+        "zh": "上车 / 上升",
+        "ex": "Subimos no elétrico.",
+        "exZh": "我们上电车。"
+      },
+      {
+        "pt": "descer",
+        "zh": "下车 / 下降",
+        "ex": "Desça na próxima paragem.",
+        "exZh": "在下一站下车。"
+      },
+      {
+        "pt": "centro",
+        "zh": "市中心",
+        "ex": "Vou para o centro.",
+        "exZh": "我去市中心。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab19",
+    "level": "A1",
+    "order": 61,
+    "isLab": true,
+    "title": "No jardim público",
+    "zh": "在公园",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Olá",
+        "zh": "你好",
+        "ex": "Olá, eu sou a Ana.",
+        "exZh": "你好，我是安娜。"
+      },
+      {
+        "pt": "Bom dia",
+        "zh": "早上好",
+        "ex": "Bom dia! Como estás?",
+        "exZh": "早上好！你好吗？"
+      },
+      {
+        "pt": "Chamo-me…",
+        "zh": "我叫……",
+        "ex": "Chamo-me Pedro.",
+        "exZh": "我叫佩德罗。"
+      },
+      {
+        "pt": "Prazer em conhecer-te.",
+        "zh": "很高兴认识你。",
+        "ex": "Prazer em conhecer-te, Ana!",
+        "exZh": "很高兴认识你，安娜！"
+      },
+      {
+        "pt": "Até logo",
+        "zh": "回头见",
+        "ex": "Até logo, Pedro!",
+        "exZh": "回头见，佩德罗！"
+      }
+    ]
+  },
+  {
+    "id": "a1lab20",
+    "level": "A1",
+    "order": 62,
+    "isLab": true,
+    "title": "No quarto do hotel",
+    "zh": "在酒店房间",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "De onde és?",
+        "zh": "你从哪里来？",
+        "ex": "De onde és, Mei?",
+        "exZh": "梅，你从哪里来？"
+      },
+      {
+        "pt": "Sou…",
+        "zh": "我是……",
+        "ex": "Sou chinesa.",
+        "exZh": "我是中国人。"
+      },
+      {
+        "pt": "português / portuguesa",
+        "zh": "葡萄牙人（男/女）",
+        "ex": "Ele é português.",
+        "exZh": "他是葡萄牙人。"
+      },
+      {
+        "pt": "chinês / chinesa",
+        "zh": "中国人（男/女）",
+        "ex": "Ela é chinesa.",
+        "exZh": "她是中国人。"
+      },
+      {
+        "pt": "Vivo em…",
+        "zh": "我住在……",
+        "ex": "Vivo em Lisboa.",
+        "exZh": "我住在里斯本。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab21",
+    "level": "A1",
+    "order": 63,
+    "isLab": true,
+    "title": "Na secretaria da escola",
+    "zh": "在学校办公室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "140-180",
+    "vocab": [
+      {
+        "pt": "Tudo bem?",
+        "zh": "你好吗？",
+        "ex": "Olá! Tudo bem?",
+        "exZh": "嗨！你好吗？"
+      },
+      {
+        "pt": "Mais ou menos.",
+        "zh": "一般般。",
+        "ex": "Tudo bem? — Mais ou menos.",
+        "exZh": "你好吗？——一般般。"
+      },
+      {
+        "pt": "Estou bem, obrigado/a.",
+        "zh": "我很好，谢谢。",
+        "ex": "Estou bem, obrigado. E tu?",
+        "exZh": "我很好，谢谢。你呢？"
+      },
+      {
+        "pt": "Desculpe.",
+        "zh": "对不起 / 打扰一下。",
+        "ex": "Desculpe, como se chama?",
+        "exZh": "打扰一下，您叫什么名字？"
+      },
+      {
+        "pt": "Até amanhã",
+        "zh": "明天见",
+        "ex": "Até amanhã!",
+        "exZh": "明天见！"
+      }
+    ]
+  },
+  {
+    "id": "a2lab01",
+    "level": "A2",
+    "order": 64,
+    "isLab": true,
+    "title": "No quintal dos avós",
+    "zh": "在祖父母家院子",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "família",
+        "zh": "家庭",
+        "ex": "A minha família é pequena.",
+        "exZh": "我的家庭很小。"
+      },
+      {
+        "pt": "mãe",
+        "zh": "妈妈",
+        "ex": "A minha mãe chama-se Rosa.",
+        "exZh": "我妈妈叫罗莎。"
+      },
+      {
+        "pt": "pai",
+        "zh": "爸爸",
+        "ex": "O meu pai é professor.",
+        "exZh": "我爸爸是老师。"
+      },
+      {
+        "pt": "irmão",
+        "zh": "兄弟",
+        "ex": "Tenho um irmão mais velho.",
+        "exZh": "我有一个哥哥。"
+      },
+      {
+        "pt": "avós",
+        "zh": "祖父母 / 外祖父母",
+        "ex": "Os meus avós vivem no Porto.",
+        "exZh": "我的祖父母住在波尔图。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab02",
+    "level": "A2",
+    "order": 65,
+    "isLab": true,
+    "title": "Numa manhã de sábado",
+    "zh": "在星期六早晨",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "acordar",
+        "zh": "醒来",
+        "ex": "Acordo às sete.",
+        "exZh": "我七点醒来。"
+      },
+      {
+        "pt": "levantar-se",
+        "zh": "起床",
+        "ex": "Levanto-me às sete e meia.",
+        "exZh": "我七点半起床。"
+      },
+      {
+        "pt": "pequeno-almoço",
+        "zh": "早餐",
+        "ex": "Tomo o pequeno-almoço em casa.",
+        "exZh": "我在家吃早餐。"
+      },
+      {
+        "pt": "apanhar",
+        "zh": "赶上 / 乘坐",
+        "ex": "Apanho o autocarro às oito.",
+        "exZh": "我八点坐公交。"
+      },
+      {
+        "pt": "deitar-se",
+        "zh": "上床睡觉",
+        "ex": "Deito-me às onze.",
+        "exZh": "我十一点睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab03",
+    "level": "A2",
+    "order": 66,
+    "isLab": true,
+    "title": "No quarto, a arrumar",
+    "zh": "在房间收拾",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "casa",
+        "zh": "家 / 房子",
+        "ex": "A minha casa é pequena.",
+        "exZh": "我的家很小。"
+      },
+      {
+        "pt": "cozinha",
+        "zh": "厨房",
+        "ex": "A cozinha é grande.",
+        "exZh": "厨房很大。"
+      },
+      {
+        "pt": "quarto",
+        "zh": "卧室 / 房间",
+        "ex": "O meu quarto tem uma varanda.",
+        "exZh": "我的卧室有一个阳台。"
+      },
+      {
+        "pt": "casa de banho",
+        "zh": "浴室 / 卫生间",
+        "ex": "Onde fica a casa de banho?",
+        "exZh": "卫生间在哪里？"
+      },
+      {
+        "pt": "varanda",
+        "zh": "阳台",
+        "ex": "Tomamos café na varanda.",
+        "exZh": "我们在阳台上喝咖啡。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab04",
+    "level": "A2",
+    "order": 67,
+    "isLab": true,
+    "title": "Na esplanada com amigos",
+    "zh": "和朋友在露台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "ontem",
+        "zh": "昨天",
+        "ex": "Ontem fui ao cinema.",
+        "exZh": "昨天我去了电影院。"
+      },
+      {
+        "pt": "fui",
+        "zh": "我去了 / 我是",
+        "ex": "Fui ao Porto.",
+        "exZh": "我去了波尔图。"
+      },
+      {
+        "pt": "comi",
+        "zh": "我吃了",
+        "ex": "Comi bacalhau.",
+        "exZh": "我吃了鳕鱼。"
+      },
+      {
+        "pt": "gostei",
+        "zh": "我喜欢（过去）",
+        "ex": "Gostei muito do filme.",
+        "exZh": "我很喜欢这部电影。"
+      },
+      {
+        "pt": "fim de semana",
+        "zh": "周末",
+        "ex": "O fim de semana foi ótimo.",
+        "exZh": "周末很棒。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab05",
+    "level": "A2",
+    "order": 68,
+    "isLab": true,
+    "title": "No café do bairro",
+    "zh": "在社区咖啡馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "amanhã",
+        "zh": "明天",
+        "ex": "Amanhã vou viajar.",
+        "exZh": "明天我要去旅行。"
+      },
+      {
+        "pt": "vou",
+        "zh": "我要 / 我去",
+        "ex": "Vou estudar português.",
+        "exZh": "我要学葡语。"
+      },
+      {
+        "pt": "viajar",
+        "zh": "旅行",
+        "ex": "Vou viajar para o Algarve.",
+        "exZh": "我要去阿尔加维旅行。"
+      },
+      {
+        "pt": "encontro",
+        "zh": "见面 / 约会",
+        "ex": "Tenho um encontro às cinco.",
+        "exZh": "我五点有个约。"
+      },
+      {
+        "pt": "talvez",
+        "zh": "也许",
+        "ex": "Talvez vá à praia.",
+        "exZh": "也许我会去海滩。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab06",
+    "level": "A2",
+    "order": 69,
+    "isLab": true,
+    "title": "Na praia, ao domingo",
+    "zh": "在星期日海滩",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "sol",
+        "zh": "太阳 / 晴天",
+        "ex": "Está sol hoje.",
+        "exZh": "今天出太阳。"
+      },
+      {
+        "pt": "chuva",
+        "zh": "雨",
+        "ex": "Está a chover.",
+        "exZh": "正在下雨。"
+      },
+      {
+        "pt": "frio",
+        "zh": "冷",
+        "ex": "Faz frio em janeiro.",
+        "exZh": "一月很冷。"
+      },
+      {
+        "pt": "calor",
+        "zh": "热",
+        "ex": "Faz calor no Algarve.",
+        "exZh": "阿尔加维很热。"
+      },
+      {
+        "pt": "tempo",
+        "zh": "天气 / 时间",
+        "ex": "Como está o tempo?",
+        "exZh": "天气怎么样？"
+      }
+    ]
+  },
+  {
+    "id": "a2lab07",
+    "level": "A2",
+    "order": 70,
+    "isLab": true,
+    "title": "No provador da loja",
+    "zh": "在服装店试衣间",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "tamanho",
+        "zh": "尺码 / 大小",
+        "ex": "Tem em tamanho M?",
+        "exZh": "有 M 码吗？"
+      },
+      {
+        "pt": "experimentar",
+        "zh": "试穿 / 尝试",
+        "ex": "Posso experimentar?",
+        "exZh": "我可以试穿吗？"
+      },
+      {
+        "pt": "levo",
+        "zh": "我买下 / 带走",
+        "ex": "Levo este.",
+        "exZh": "我买这件。"
+      },
+      {
+        "pt": "desconto",
+        "zh": "折扣",
+        "ex": "Tem desconto?",
+        "exZh": "有折扣吗？"
+      },
+      {
+        "pt": "cartão",
+        "zh": "银行卡",
+        "ex": "Posso pagar com cartão?",
+        "exZh": "可以刷卡吗？"
+      }
+    ]
+  },
+  {
+    "id": "a2lab08",
+    "level": "A2",
+    "order": 71,
+    "isLab": true,
+    "title": "No consultório dentário",
+    "zh": "在牙科诊室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "ajuda",
+        "zh": "帮助",
+        "ex": "Preciso de ajuda.",
+        "exZh": "我需要帮助。"
+      },
+      {
+        "pt": "perdido / perdida",
+        "zh": "迷路的（男/女）",
+        "ex": "Estou perdido.",
+        "exZh": "我迷路了。（男性）"
+      },
+      {
+        "pt": "farmácia",
+        "zh": "药店",
+        "ex": "Onde fica a farmácia?",
+        "exZh": "药店在哪里？"
+      },
+      {
+        "pt": "médico",
+        "zh": "医生",
+        "ex": "Preciso de um médico.",
+        "exZh": "我需要看医生。"
+      },
+      {
+        "pt": "urgência",
+        "zh": "急诊",
+        "ex": "Leve-me à urgência, por favor.",
+        "exZh": "请带我去急诊。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab09",
+    "level": "A2",
+    "order": 72,
+    "isLab": true,
+    "title": "No mercado de sábado",
+    "zh": "在星期六市集",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "Pois",
+        "zh": "对啊 / 嗯",
+        "ex": "Pois, tens razão.",
+        "exZh": "对啊，你说得对。"
+      },
+      {
+        "pt": "Pá",
+        "zh": "喂 / 老兄（语气词）",
+        "ex": "Ó pá, vamos!",
+        "exZh": "喂，走吧！"
+      },
+      {
+        "pt": "Olha",
+        "zh": "你看 / 听我说",
+        "ex": "Olha, isto é importante.",
+        "exZh": "听我说，这很重要。"
+      },
+      {
+        "pt": "Já agora",
+        "zh": "对了 / 顺便",
+        "ex": "Já agora, tens um lápis?",
+        "exZh": "对了，你有铅笔吗？"
+      },
+      {
+        "pt": "Com certeza",
+        "zh": "当然 / 没问题",
+        "ex": "Com certeza!",
+        "exZh": "当然可以！"
+      }
+    ]
+  },
+  {
+    "id": "a2lab10",
+    "level": "A2",
+    "order": 73,
+    "isLab": true,
+    "title": "Na cozinha da avó",
+    "zh": "在祖母的厨房",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "família",
+        "zh": "家庭",
+        "ex": "A minha família é pequena.",
+        "exZh": "我的家庭很小。"
+      },
+      {
+        "pt": "mãe",
+        "zh": "妈妈",
+        "ex": "A minha mãe chama-se Rosa.",
+        "exZh": "我妈妈叫罗莎。"
+      },
+      {
+        "pt": "pai",
+        "zh": "爸爸",
+        "ex": "O meu pai é professor.",
+        "exZh": "我爸爸是老师。"
+      },
+      {
+        "pt": "irmão",
+        "zh": "兄弟",
+        "ex": "Tenho um irmão mais velho.",
+        "exZh": "我有一个哥哥。"
+      },
+      {
+        "pt": "avós",
+        "zh": "祖父母 / 外祖父母",
+        "ex": "Os meus avós vivem no Porto.",
+        "exZh": "我的祖父母住在波尔图。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab11",
+    "level": "A2",
+    "order": 74,
+    "isLab": true,
+    "title": "Na casa de banho, à pressa",
+    "zh": "匆忙在浴室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "acordar",
+        "zh": "醒来",
+        "ex": "Acordo às sete.",
+        "exZh": "我七点醒来。"
+      },
+      {
+        "pt": "levantar-se",
+        "zh": "起床",
+        "ex": "Levanto-me às sete e meia.",
+        "exZh": "我七点半起床。"
+      },
+      {
+        "pt": "pequeno-almoço",
+        "zh": "早餐",
+        "ex": "Tomo o pequeno-almoço em casa.",
+        "exZh": "我在家吃早餐。"
+      },
+      {
+        "pt": "apanhar",
+        "zh": "赶上 / 乘坐",
+        "ex": "Apanho o autocarro às oito.",
+        "exZh": "我八点坐公交。"
+      },
+      {
+        "pt": "deitar-se",
+        "zh": "上床睡觉",
+        "ex": "Deito-me às onze.",
+        "exZh": "我十一点睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab12",
+    "level": "A2",
+    "order": 75,
+    "isLab": true,
+    "title": "Na sala, a ver televisão",
+    "zh": "在客厅看电视",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "casa",
+        "zh": "家 / 房子",
+        "ex": "A minha casa é pequena.",
+        "exZh": "我的家很小。"
+      },
+      {
+        "pt": "cozinha",
+        "zh": "厨房",
+        "ex": "A cozinha é grande.",
+        "exZh": "厨房很大。"
+      },
+      {
+        "pt": "quarto",
+        "zh": "卧室 / 房间",
+        "ex": "O meu quarto tem uma varanda.",
+        "exZh": "我的卧室有一个阳台。"
+      },
+      {
+        "pt": "casa de banho",
+        "zh": "浴室 / 卫生间",
+        "ex": "Onde fica a casa de banho?",
+        "exZh": "卫生间在哪里？"
+      },
+      {
+        "pt": "varanda",
+        "zh": "阳台",
+        "ex": "Tomamos café na varanda.",
+        "exZh": "我们在阳台上喝咖啡。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab13",
+    "level": "A2",
+    "order": 76,
+    "isLab": true,
+    "title": "No cinema do bairro",
+    "zh": "在社区电影院",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "ontem",
+        "zh": "昨天",
+        "ex": "Ontem fui ao cinema.",
+        "exZh": "昨天我去了电影院。"
+      },
+      {
+        "pt": "fui",
+        "zh": "我去了 / 我是",
+        "ex": "Fui ao Porto.",
+        "exZh": "我去了波尔图。"
+      },
+      {
+        "pt": "comi",
+        "zh": "我吃了",
+        "ex": "Comi bacalhau.",
+        "exZh": "我吃了鳕鱼。"
+      },
+      {
+        "pt": "gostei",
+        "zh": "我喜欢（过去）",
+        "ex": "Gostei muito do filme.",
+        "exZh": "我很喜欢这部电影。"
+      },
+      {
+        "pt": "fim de semana",
+        "zh": "周末",
+        "ex": "O fim de semana foi ótimo.",
+        "exZh": "周末很棒。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab14",
+    "level": "A2",
+    "order": 77,
+    "isLab": true,
+    "title": "Na paragem do autocarro",
+    "zh": "在公交站",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "amanhã",
+        "zh": "明天",
+        "ex": "Amanhã vou viajar.",
+        "exZh": "明天我要去旅行。"
+      },
+      {
+        "pt": "vou",
+        "zh": "我要 / 我去",
+        "ex": "Vou estudar português.",
+        "exZh": "我要学葡语。"
+      },
+      {
+        "pt": "viajar",
+        "zh": "旅行",
+        "ex": "Vou viajar para o Algarve.",
+        "exZh": "我要去阿尔加维旅行。"
+      },
+      {
+        "pt": "encontro",
+        "zh": "见面 / 约会",
+        "ex": "Tenho um encontro às cinco.",
+        "exZh": "我五点有个约。"
+      },
+      {
+        "pt": "talvez",
+        "zh": "也许",
+        "ex": "Talvez vá à praia.",
+        "exZh": "也许我会去海滩。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab15",
+    "level": "A2",
+    "order": 78,
+    "isLab": true,
+    "title": "Na serra, a caminhar",
+    "zh": "在山里徒步",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "sol",
+        "zh": "太阳 / 晴天",
+        "ex": "Está sol hoje.",
+        "exZh": "今天出太阳。"
+      },
+      {
+        "pt": "chuva",
+        "zh": "雨",
+        "ex": "Está a chover.",
+        "exZh": "正在下雨。"
+      },
+      {
+        "pt": "frio",
+        "zh": "冷",
+        "ex": "Faz frio em janeiro.",
+        "exZh": "一月很冷。"
+      },
+      {
+        "pt": "calor",
+        "zh": "热",
+        "ex": "Faz calor no Algarve.",
+        "exZh": "阿尔加维很热。"
+      },
+      {
+        "pt": "tempo",
+        "zh": "天气 / 时间",
+        "ex": "Como está o tempo?",
+        "exZh": "天气怎么样？"
+      }
+    ]
+  },
+  {
+    "id": "a2lab16",
+    "level": "A2",
+    "order": 79,
+    "isLab": true,
+    "title": "Na caixa da loja",
+    "zh": "在商店收银台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "tamanho",
+        "zh": "尺码 / 大小",
+        "ex": "Tem em tamanho M?",
+        "exZh": "有 M 码吗？"
+      },
+      {
+        "pt": "experimentar",
+        "zh": "试穿 / 尝试",
+        "ex": "Posso experimentar?",
+        "exZh": "我可以试穿吗？"
+      },
+      {
+        "pt": "levo",
+        "zh": "我买下 / 带走",
+        "ex": "Levo este.",
+        "exZh": "我买这件。"
+      },
+      {
+        "pt": "desconto",
+        "zh": "折扣",
+        "ex": "Tem desconto?",
+        "exZh": "有折扣吗？"
+      },
+      {
+        "pt": "cartão",
+        "zh": "银行卡",
+        "ex": "Posso pagar com cartão?",
+        "exZh": "可以刷卡吗？"
+      }
+    ]
+  },
+  {
+    "id": "a2lab17",
+    "level": "A2",
+    "order": 80,
+    "isLab": true,
+    "title": "Na farmácia do bairro",
+    "zh": "在社区药店",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "ajuda",
+        "zh": "帮助",
+        "ex": "Preciso de ajuda.",
+        "exZh": "我需要帮助。"
+      },
+      {
+        "pt": "perdido / perdida",
+        "zh": "迷路的（男/女）",
+        "ex": "Estou perdido.",
+        "exZh": "我迷路了。（男性）"
+      },
+      {
+        "pt": "farmácia",
+        "zh": "药店",
+        "ex": "Onde fica a farmácia?",
+        "exZh": "药店在哪里？"
+      },
+      {
+        "pt": "médico",
+        "zh": "医生",
+        "ex": "Preciso de um médico.",
+        "exZh": "我需要看医生。"
+      },
+      {
+        "pt": "urgência",
+        "zh": "急诊",
+        "ex": "Leve-me à urgência, por favor.",
+        "exZh": "请带我去急诊。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab18",
+    "level": "A2",
+    "order": 81,
+    "isLab": true,
+    "title": "No talho do bairro",
+    "zh": "在社区肉店",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "Pois",
+        "zh": "对啊 / 嗯",
+        "ex": "Pois, tens razão.",
+        "exZh": "对啊，你说得对。"
+      },
+      {
+        "pt": "Pá",
+        "zh": "喂 / 老兄（语气词）",
+        "ex": "Ó pá, vamos!",
+        "exZh": "喂，走吧！"
+      },
+      {
+        "pt": "Olha",
+        "zh": "你看 / 听我说",
+        "ex": "Olha, isto é importante.",
+        "exZh": "听我说，这很重要。"
+      },
+      {
+        "pt": "Já agora",
+        "zh": "对了 / 顺便",
+        "ex": "Já agora, tens um lápis?",
+        "exZh": "对了，你有铅笔吗？"
+      },
+      {
+        "pt": "Com certeza",
+        "zh": "当然 / 没问题",
+        "ex": "Com certeza!",
+        "exZh": "当然可以！"
+      }
+    ]
+  },
+  {
+    "id": "a2lab19",
+    "level": "A2",
+    "order": 82,
+    "isLab": true,
+    "title": "No sótão dos avós",
+    "zh": "在祖父母家阁楼",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "família",
+        "zh": "家庭",
+        "ex": "A minha família é pequena.",
+        "exZh": "我的家庭很小。"
+      },
+      {
+        "pt": "mãe",
+        "zh": "妈妈",
+        "ex": "A minha mãe chama-se Rosa.",
+        "exZh": "我妈妈叫罗莎。"
+      },
+      {
+        "pt": "pai",
+        "zh": "爸爸",
+        "ex": "O meu pai é professor.",
+        "exZh": "我爸爸是老师。"
+      },
+      {
+        "pt": "irmão",
+        "zh": "兄弟",
+        "ex": "Tenho um irmão mais velho.",
+        "exZh": "我有一个哥哥。"
+      },
+      {
+        "pt": "avós",
+        "zh": "祖父母 / 外祖父母",
+        "ex": "Os meus avós vivem no Porto.",
+        "exZh": "我的祖父母住在波尔图。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab20",
+    "level": "A2",
+    "order": 83,
+    "isLab": true,
+    "title": "Na lavandaria",
+    "zh": "在洗衣店",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "acordar",
+        "zh": "醒来",
+        "ex": "Acordo às sete.",
+        "exZh": "我七点醒来。"
+      },
+      {
+        "pt": "levantar-se",
+        "zh": "起床",
+        "ex": "Levanto-me às sete e meia.",
+        "exZh": "我七点半起床。"
+      },
+      {
+        "pt": "pequeno-almoço",
+        "zh": "早餐",
+        "ex": "Tomo o pequeno-almoço em casa.",
+        "exZh": "我在家吃早餐。"
+      },
+      {
+        "pt": "apanhar",
+        "zh": "赶上 / 乘坐",
+        "ex": "Apanho o autocarro às oito.",
+        "exZh": "我八点坐公交。"
+      },
+      {
+        "pt": "deitar-se",
+        "zh": "上床睡觉",
+        "ex": "Deito-me às onze.",
+        "exZh": "我十一点睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "a2lab21",
+    "level": "A2",
+    "order": 84,
+    "isLab": true,
+    "title": "Na despensa do apartamento",
+    "zh": "在公寓储藏室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "180-230",
+    "vocab": [
+      {
+        "pt": "casa",
+        "zh": "家 / 房子",
+        "ex": "A minha casa é pequena.",
+        "exZh": "我的家很小。"
+      },
+      {
+        "pt": "cozinha",
+        "zh": "厨房",
+        "ex": "A cozinha é grande.",
+        "exZh": "厨房很大。"
+      },
+      {
+        "pt": "quarto",
+        "zh": "卧室 / 房间",
+        "ex": "O meu quarto tem uma varanda.",
+        "exZh": "我的卧室有一个阳台。"
+      },
+      {
+        "pt": "casa de banho",
+        "zh": "浴室 / 卫生间",
+        "ex": "Onde fica a casa de banho?",
+        "exZh": "卫生间在哪里？"
+      },
+      {
+        "pt": "varanda",
+        "zh": "阳台",
+        "ex": "Tomamos café na varanda.",
+        "exZh": "我们在阳台上喝咖啡。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab01",
+    "level": "B1",
+    "order": 85,
+    "isLab": true,
+    "title": "No sótão, com fotografias",
+    "zh": "在阁楼看照片",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a infância",
+        "zh": "童年",
+        "ex": "A minha infância foi no campo.",
+        "exZh": "我的童年在乡下度过。"
+      },
+      {
+        "pt": "brincar",
+        "zh": "玩耍",
+        "ex": "Brincávamos na rua até tarde.",
+        "exZh": "我们常在街上玩到很晚。"
+      },
+      {
+        "pt": "costumava",
+        "zh": "过去常常",
+        "ex": "Costumava ir à praia todos os verões.",
+        "exZh": "我以前每年夏天都去海滩。"
+      },
+      {
+        "pt": "de repente",
+        "zh": "突然",
+        "ex": "De repente, começou a chover.",
+        "exZh": "突然下起雨来。"
+      },
+      {
+        "pt": "crescer",
+        "zh": "长大",
+        "ex": "Cresci numa cidade pequena.",
+        "exZh": "我在一座小城长大。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab02",
+    "level": "B1",
+    "order": 86,
+    "isLab": true,
+    "title": "Numa esplanada ao pôr do sol",
+    "zh": "在日落露台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "Gostaria de…",
+        "zh": "我想要……",
+        "ex": "Gostaria de viver em Lisboa.",
+        "exZh": "我想住在里斯本。"
+      },
+      {
+        "pt": "se pudesse",
+        "zh": "如果我能",
+        "ex": "Se pudesse, viajaria pelo mundo.",
+        "exZh": "如果我能，我会环游世界。"
+      },
+      {
+        "pt": "se fosse",
+        "zh": "如果我是/如果是",
+        "ex": "Se fosse rico, compraria uma casa.",
+        "exZh": "如果我有钱，我会买一栋房子。"
+      },
+      {
+        "pt": "o sonho",
+        "zh": "梦想",
+        "ex": "O meu sonho é abrir um café.",
+        "exZh": "我的梦想是开一家咖啡馆。"
+      },
+      {
+        "pt": "mudar",
+        "zh": "改变 / 搬家",
+        "ex": "Gostaria de mudar de cidade.",
+        "exZh": "我想换一座城市生活。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab03",
+    "level": "B1",
+    "order": 87,
+    "isLab": true,
+    "title": "No comboio para o Porto",
+    "zh": "在开往波尔的火车上",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "primeiro",
+        "zh": "首先",
+        "ex": "Primeiro, visitei o castelo.",
+        "exZh": "首先，我参观了城堡。"
+      },
+      {
+        "pt": "entretanto",
+        "zh": "与此同时 / 期间",
+        "ex": "Entretanto, começou a anoitecer.",
+        "exZh": "与此同时，天开始黑了。"
+      },
+      {
+        "pt": "afinal",
+        "zh": "最终 / 毕竟",
+        "ex": "Afinal, não fomos ao fado.",
+        "exZh": "最后我们还是没去听法多。"
+      },
+      {
+        "pt": "enfim",
+        "zh": "终于 / 总之",
+        "ex": "Enfim, foi um dia inesquecível.",
+        "exZh": "总之，那是难忘的一天。"
+      },
+      {
+        "pt": "a recordação",
+        "zh": "回忆",
+        "ex": "Guardo uma boa recordação daquela viagem.",
+        "exZh": "那次旅行给我留下了美好的回忆。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab04",
+    "level": "B1",
+    "order": 88,
+    "isLab": true,
+    "title": "Na sala de espera do centro de saúde",
+    "zh": "在健康中心候诊",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o sintoma",
+        "zh": "症状",
+        "ex": "Tenho sintomas de gripe.",
+        "exZh": "我有流感症状。"
+      },
+      {
+        "pt": "a receita",
+        "zh": "处方",
+        "ex": "O médico passou-me uma receita.",
+        "exZh": "医生给我开了处方。"
+      },
+      {
+        "pt": "o tratamento",
+        "zh": "治疗",
+        "ex": "O tratamento dura uma semana.",
+        "exZh": "治疗持续一周。"
+      },
+      {
+        "pt": "a consulta",
+        "zh": "就诊 / 门诊",
+        "ex": "Tenho uma consulta às dez.",
+        "exZh": "我十点有一个门诊。"
+      },
+      {
+        "pt": "melhorar",
+        "zh": "好转 / 改善",
+        "ex": "Espero melhorar até amanhã.",
+        "exZh": "我希望明天前好转。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab05",
+    "level": "B1",
+    "order": 89,
+    "isLab": true,
+    "title": "No hipermercado, a ler rótulos",
+    "zh": "在大超市看标签",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a alimentação",
+        "zh": "饮食",
+        "ex": "A alimentação mediterrânica é equilibrada.",
+        "exZh": "地中海饮食很均衡。"
+      },
+      {
+        "pt": "o hábito",
+        "zh": "习惯",
+        "ex": "Mudar hábitos leva tempo.",
+        "exZh": "改变习惯需要时间。"
+      },
+      {
+        "pt": "equilibrado",
+        "zh": "均衡的",
+        "ex": "É importante ter uma dieta equilibrada.",
+        "exZh": "均衡饮食很重要。"
+      },
+      {
+        "pt": "processado",
+        "zh": "加工过的",
+        "ex": "Evito comida processada.",
+        "exZh": "我避免加工食品。"
+      },
+      {
+        "pt": "hidratar-se",
+        "zh": "补水",
+        "ex": "Hidrato-me ao longo do dia.",
+        "exZh": "我一天中会补水。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab06",
+    "level": "B1",
+    "order": 90,
+    "isLab": true,
+    "title": "No quarto, à noite",
+    "zh": "在夜晚的卧室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o descanso",
+        "zh": "休息",
+        "ex": "Preciso de descanso.",
+        "exZh": "我需要休息。"
+      },
+      {
+        "pt": "o stress",
+        "zh": "压力",
+        "ex": "O stress afeta o sono.",
+        "exZh": "压力影响睡眠。"
+      },
+      {
+        "pt": "a insónia",
+        "zh": "失眠",
+        "ex": "Sofro de insónia.",
+        "exZh": "我受失眠困扰。"
+      },
+      {
+        "pt": "a rotina",
+        "zh": "规律 / 日常",
+        "ex": "Uma rotina regular ajuda.",
+        "exZh": "规律的日常有帮助。"
+      },
+      {
+        "pt": "recuperar",
+        "zh": "恢复",
+        "ex": "Ao fim de semana, recupero energia.",
+        "exZh": "周末我恢复精力。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab07",
+    "level": "B1",
+    "order": 91,
+    "isLab": true,
+    "title": "Na casa da avó, a contar histórias",
+    "zh": "在祖母家讲故事",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a infância",
+        "zh": "童年",
+        "ex": "A minha infância foi no campo.",
+        "exZh": "我的童年在乡下度过。"
+      },
+      {
+        "pt": "brincar",
+        "zh": "玩耍",
+        "ex": "Brincávamos na rua até tarde.",
+        "exZh": "我们常在街上玩到很晚。"
+      },
+      {
+        "pt": "costumava",
+        "zh": "过去常常",
+        "ex": "Costumava ir à praia todos os verões.",
+        "exZh": "我以前每年夏天都去海滩。"
+      },
+      {
+        "pt": "de repente",
+        "zh": "突然",
+        "ex": "De repente, começou a chover.",
+        "exZh": "突然下起雨来。"
+      },
+      {
+        "pt": "crescer",
+        "zh": "长大",
+        "ex": "Cresci numa cidade pequena.",
+        "exZh": "我在一座小城长大。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab08",
+    "level": "B1",
+    "order": 92,
+    "isLab": true,
+    "title": "No terraço, a olhar o Tejo",
+    "zh": "在露台看特茹河",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "Gostaria de…",
+        "zh": "我想要……",
+        "ex": "Gostaria de viver em Lisboa.",
+        "exZh": "我想住在里斯本。"
+      },
+      {
+        "pt": "se pudesse",
+        "zh": "如果我能",
+        "ex": "Se pudesse, viajaria pelo mundo.",
+        "exZh": "如果我能，我会环游世界。"
+      },
+      {
+        "pt": "se fosse",
+        "zh": "如果我是/如果是",
+        "ex": "Se fosse rico, compraria uma casa.",
+        "exZh": "如果我有钱，我会买一栋房子。"
+      },
+      {
+        "pt": "o sonho",
+        "zh": "梦想",
+        "ex": "O meu sonho é abrir um café.",
+        "exZh": "我的梦想是开一家咖啡馆。"
+      },
+      {
+        "pt": "mudar",
+        "zh": "改变 / 搬家",
+        "ex": "Gostaria de mudar de cidade.",
+        "exZh": "我想换一座城市生活。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab09",
+    "level": "B1",
+    "order": 93,
+    "isLab": true,
+    "title": "Na estação de Santa Apolónia",
+    "zh": "在圣阿波洛尼亚车站",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "primeiro",
+        "zh": "首先",
+        "ex": "Primeiro, visitei o castelo.",
+        "exZh": "首先，我参观了城堡。"
+      },
+      {
+        "pt": "entretanto",
+        "zh": "与此同时 / 期间",
+        "ex": "Entretanto, começou a anoitecer.",
+        "exZh": "与此同时，天开始黑了。"
+      },
+      {
+        "pt": "afinal",
+        "zh": "最终 / 毕竟",
+        "ex": "Afinal, não fomos ao fado.",
+        "exZh": "最后我们还是没去听法多。"
+      },
+      {
+        "pt": "enfim",
+        "zh": "终于 / 总之",
+        "ex": "Enfim, foi um dia inesquecível.",
+        "exZh": "总之，那是难忘的一天。"
+      },
+      {
+        "pt": "a recordação",
+        "zh": "回忆",
+        "ex": "Guardo uma boa recordação daquela viagem.",
+        "exZh": "那次旅行给我留下了美好的回忆。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab10",
+    "level": "B1",
+    "order": 94,
+    "isLab": true,
+    "title": "Na farmácia, a pedir conselho",
+    "zh": "在药店咨询",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o sintoma",
+        "zh": "症状",
+        "ex": "Tenho sintomas de gripe.",
+        "exZh": "我有流感症状。"
+      },
+      {
+        "pt": "a receita",
+        "zh": "处方",
+        "ex": "O médico passou-me uma receita.",
+        "exZh": "医生给我开了处方。"
+      },
+      {
+        "pt": "o tratamento",
+        "zh": "治疗",
+        "ex": "O tratamento dura uma semana.",
+        "exZh": "治疗持续一周。"
+      },
+      {
+        "pt": "a consulta",
+        "zh": "就诊 / 门诊",
+        "ex": "Tenho uma consulta às dez.",
+        "exZh": "我十点有一个门诊。"
+      },
+      {
+        "pt": "melhorar",
+        "zh": "好转 / 改善",
+        "ex": "Espero melhorar até amanhã.",
+        "exZh": "我希望明天前好转。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab11",
+    "level": "B1",
+    "order": 95,
+    "isLab": true,
+    "title": "Na feira biológica",
+    "zh": "在有机市集",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a alimentação",
+        "zh": "饮食",
+        "ex": "A alimentação mediterrânica é equilibrada.",
+        "exZh": "地中海饮食很均衡。"
+      },
+      {
+        "pt": "o hábito",
+        "zh": "习惯",
+        "ex": "Mudar hábitos leva tempo.",
+        "exZh": "改变习惯需要时间。"
+      },
+      {
+        "pt": "equilibrado",
+        "zh": "均衡的",
+        "ex": "É importante ter uma dieta equilibrada.",
+        "exZh": "均衡饮食很重要。"
+      },
+      {
+        "pt": "processado",
+        "zh": "加工过的",
+        "ex": "Evito comida processada.",
+        "exZh": "我避免加工食品。"
+      },
+      {
+        "pt": "hidratar-se",
+        "zh": "补水",
+        "ex": "Hidrato-me ao longo do dia.",
+        "exZh": "我一天中会补水。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab12",
+    "level": "B1",
+    "order": 96,
+    "isLab": true,
+    "title": "Na sala, a ver um filme",
+    "zh": "在客厅看电影",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o descanso",
+        "zh": "休息",
+        "ex": "Preciso de descanso.",
+        "exZh": "我需要休息。"
+      },
+      {
+        "pt": "o stress",
+        "zh": "压力",
+        "ex": "O stress afeta o sono.",
+        "exZh": "压力影响睡眠。"
+      },
+      {
+        "pt": "a insónia",
+        "zh": "失眠",
+        "ex": "Sofro de insónia.",
+        "exZh": "我受失眠困扰。"
+      },
+      {
+        "pt": "a rotina",
+        "zh": "规律 / 日常",
+        "ex": "Uma rotina regular ajuda.",
+        "exZh": "规律的日常有帮助。"
+      },
+      {
+        "pt": "recuperar",
+        "zh": "恢复",
+        "ex": "Ao fim de semana, recupero energia.",
+        "exZh": "周末我恢复精力。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab13",
+    "level": "B1",
+    "order": 97,
+    "isLab": true,
+    "title": "No recreio da escola",
+    "zh": "在学校操场",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a infância",
+        "zh": "童年",
+        "ex": "A minha infância foi no campo.",
+        "exZh": "我的童年在乡下度过。"
+      },
+      {
+        "pt": "brincar",
+        "zh": "玩耍",
+        "ex": "Brincávamos na rua até tarde.",
+        "exZh": "我们常在街上玩到很晚。"
+      },
+      {
+        "pt": "costumava",
+        "zh": "过去常常",
+        "ex": "Costumava ir à praia todos os verões.",
+        "exZh": "我以前每年夏天都去海滩。"
+      },
+      {
+        "pt": "de repente",
+        "zh": "突然",
+        "ex": "De repente, começou a chover.",
+        "exZh": "突然下起雨来。"
+      },
+      {
+        "pt": "crescer",
+        "zh": "长大",
+        "ex": "Cresci numa cidade pequena.",
+        "exZh": "我在一座小城长大。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab14",
+    "level": "B1",
+    "order": 98,
+    "isLab": true,
+    "title": "Numa casa de férias",
+    "zh": "在度假屋",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "Gostaria de…",
+        "zh": "我想要……",
+        "ex": "Gostaria de viver em Lisboa.",
+        "exZh": "我想住在里斯本。"
+      },
+      {
+        "pt": "se pudesse",
+        "zh": "如果我能",
+        "ex": "Se pudesse, viajaria pelo mundo.",
+        "exZh": "如果我能，我会环游世界。"
+      },
+      {
+        "pt": "se fosse",
+        "zh": "如果我是/如果是",
+        "ex": "Se fosse rico, compraria uma casa.",
+        "exZh": "如果我有钱，我会买一栋房子。"
+      },
+      {
+        "pt": "o sonho",
+        "zh": "梦想",
+        "ex": "O meu sonho é abrir um café.",
+        "exZh": "我的梦想是开一家咖啡馆。"
+      },
+      {
+        "pt": "mudar",
+        "zh": "改变 / 搬家",
+        "ex": "Gostaria de mudar de cidade.",
+        "exZh": "我想换一座城市生活。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab15",
+    "level": "B1",
+    "order": 99,
+    "isLab": true,
+    "title": "No carro, a caminho do Algarve",
+    "zh": "在去阿尔加维的车里",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "primeiro",
+        "zh": "首先",
+        "ex": "Primeiro, visitei o castelo.",
+        "exZh": "首先，我参观了城堡。"
+      },
+      {
+        "pt": "entretanto",
+        "zh": "与此同时 / 期间",
+        "ex": "Entretanto, começou a anoitecer.",
+        "exZh": "与此同时，天开始黑了。"
+      },
+      {
+        "pt": "afinal",
+        "zh": "最终 / 毕竟",
+        "ex": "Afinal, não fomos ao fado.",
+        "exZh": "最后我们还是没去听法多。"
+      },
+      {
+        "pt": "enfim",
+        "zh": "终于 / 总之",
+        "ex": "Enfim, foi um dia inesquecível.",
+        "exZh": "总之，那是难忘的一天。"
+      },
+      {
+        "pt": "a recordação",
+        "zh": "回忆",
+        "ex": "Guardo uma boa recordação daquela viagem.",
+        "exZh": "那次旅行给我留下了美好的回忆。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab16",
+    "level": "B1",
+    "order": 100,
+    "isLab": true,
+    "title": "No consultório do dentista",
+    "zh": "在牙医诊所",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o sintoma",
+        "zh": "症状",
+        "ex": "Tenho sintomas de gripe.",
+        "exZh": "我有流感症状。"
+      },
+      {
+        "pt": "a receita",
+        "zh": "处方",
+        "ex": "O médico passou-me uma receita.",
+        "exZh": "医生给我开了处方。"
+      },
+      {
+        "pt": "o tratamento",
+        "zh": "治疗",
+        "ex": "O tratamento dura uma semana.",
+        "exZh": "治疗持续一周。"
+      },
+      {
+        "pt": "a consulta",
+        "zh": "就诊 / 门诊",
+        "ex": "Tenho uma consulta às dez.",
+        "exZh": "我十点有一个门诊。"
+      },
+      {
+        "pt": "melhorar",
+        "zh": "好转 / 改善",
+        "ex": "Espero melhorar até amanhã.",
+        "exZh": "我希望明天前好转。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab17",
+    "level": "B1",
+    "order": 101,
+    "isLab": true,
+    "title": "No restaurante vegetariano",
+    "zh": "在素食餐厅",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a alimentação",
+        "zh": "饮食",
+        "ex": "A alimentação mediterrânica é equilibrada.",
+        "exZh": "地中海饮食很均衡。"
+      },
+      {
+        "pt": "o hábito",
+        "zh": "习惯",
+        "ex": "Mudar hábitos leva tempo.",
+        "exZh": "改变习惯需要时间。"
+      },
+      {
+        "pt": "equilibrado",
+        "zh": "均衡的",
+        "ex": "É importante ter uma dieta equilibrada.",
+        "exZh": "均衡饮食很重要。"
+      },
+      {
+        "pt": "processado",
+        "zh": "加工过的",
+        "ex": "Evito comida processada.",
+        "exZh": "我避免加工食品。"
+      },
+      {
+        "pt": "hidratar-se",
+        "zh": "补水",
+        "ex": "Hidrato-me ao longo do dia.",
+        "exZh": "我一天中会补水。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab18",
+    "level": "B1",
+    "order": 102,
+    "isLab": true,
+    "title": "No hotel, a descansar",
+    "zh": "在酒店休息",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o descanso",
+        "zh": "休息",
+        "ex": "Preciso de descanso.",
+        "exZh": "我需要休息。"
+      },
+      {
+        "pt": "o stress",
+        "zh": "压力",
+        "ex": "O stress afeta o sono.",
+        "exZh": "压力影响睡眠。"
+      },
+      {
+        "pt": "a insónia",
+        "zh": "失眠",
+        "ex": "Sofro de insónia.",
+        "exZh": "我受失眠困扰。"
+      },
+      {
+        "pt": "a rotina",
+        "zh": "规律 / 日常",
+        "ex": "Uma rotina regular ajuda.",
+        "exZh": "规律的日常有帮助。"
+      },
+      {
+        "pt": "recuperar",
+        "zh": "恢复",
+        "ex": "Ao fim de semana, recupero energia.",
+        "exZh": "周末我恢复精力。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab19",
+    "level": "B1",
+    "order": 103,
+    "isLab": true,
+    "title": "No jardim de infância",
+    "zh": "在幼儿园",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a infância",
+        "zh": "童年",
+        "ex": "A minha infância foi no campo.",
+        "exZh": "我的童年在乡下度过。"
+      },
+      {
+        "pt": "brincar",
+        "zh": "玩耍",
+        "ex": "Brincávamos na rua até tarde.",
+        "exZh": "我们常在街上玩到很晚。"
+      },
+      {
+        "pt": "costumava",
+        "zh": "过去常常",
+        "ex": "Costumava ir à praia todos os verões.",
+        "exZh": "我以前每年夏天都去海滩。"
+      },
+      {
+        "pt": "de repente",
+        "zh": "突然",
+        "ex": "De repente, começou a chover.",
+        "exZh": "突然下起雨来。"
+      },
+      {
+        "pt": "crescer",
+        "zh": "长大",
+        "ex": "Cresci numa cidade pequena.",
+        "exZh": "我在一座小城长大。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab20",
+    "level": "B1",
+    "order": 104,
+    "isLab": true,
+    "title": "No barco, a sonhar",
+    "zh": "在船上做梦",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "Gostaria de…",
+        "zh": "我想要……",
+        "ex": "Gostaria de viver em Lisboa.",
+        "exZh": "我想住在里斯本。"
+      },
+      {
+        "pt": "se pudesse",
+        "zh": "如果我能",
+        "ex": "Se pudesse, viajaria pelo mundo.",
+        "exZh": "如果我能，我会环游世界。"
+      },
+      {
+        "pt": "se fosse",
+        "zh": "如果我是/如果是",
+        "ex": "Se fosse rico, compraria uma casa.",
+        "exZh": "如果我有钱，我会买一栋房子。"
+      },
+      {
+        "pt": "o sonho",
+        "zh": "梦想",
+        "ex": "O meu sonho é abrir um café.",
+        "exZh": "我的梦想是开一家咖啡馆。"
+      },
+      {
+        "pt": "mudar",
+        "zh": "改变 / 搬家",
+        "ex": "Gostaria de mudar de cidade.",
+        "exZh": "我想换一座城市生活。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab21",
+    "level": "B1",
+    "order": 105,
+    "isLab": true,
+    "title": "Num hostel de Lisboa",
+    "zh": "在里斯本青旅",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "primeiro",
+        "zh": "首先",
+        "ex": "Primeiro, visitei o castelo.",
+        "exZh": "首先，我参观了城堡。"
+      },
+      {
+        "pt": "entretanto",
+        "zh": "与此同时 / 期间",
+        "ex": "Entretanto, começou a anoitecer.",
+        "exZh": "与此同时，天开始黑了。"
+      },
+      {
+        "pt": "afinal",
+        "zh": "最终 / 毕竟",
+        "ex": "Afinal, não fomos ao fado.",
+        "exZh": "最后我们还是没去听法多。"
+      },
+      {
+        "pt": "enfim",
+        "zh": "终于 / 总之",
+        "ex": "Enfim, foi um dia inesquecível.",
+        "exZh": "总之，那是难忘的一天。"
+      },
+      {
+        "pt": "a recordação",
+        "zh": "回忆",
+        "ex": "Guardo uma boa recordação daquela viagem.",
+        "exZh": "那次旅行给我留下了美好的回忆。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab22",
+    "level": "B1",
+    "order": 106,
+    "isLab": true,
+    "title": "Na consulta de oftalmologia",
+    "zh": "在眼科诊室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o sintoma",
+        "zh": "症状",
+        "ex": "Tenho sintomas de gripe.",
+        "exZh": "我有流感症状。"
+      },
+      {
+        "pt": "a receita",
+        "zh": "处方",
+        "ex": "O médico passou-me uma receita.",
+        "exZh": "医生给我开了处方。"
+      },
+      {
+        "pt": "o tratamento",
+        "zh": "治疗",
+        "ex": "O tratamento dura uma semana.",
+        "exZh": "治疗持续一周。"
+      },
+      {
+        "pt": "a consulta",
+        "zh": "就诊 / 门诊",
+        "ex": "Tenho uma consulta às dez.",
+        "exZh": "我十点有一个门诊。"
+      },
+      {
+        "pt": "melhorar",
+        "zh": "好转 / 改善",
+        "ex": "Espero melhorar até amanhã.",
+        "exZh": "我希望明天前好转。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab23",
+    "level": "B1",
+    "order": 107,
+    "isLab": true,
+    "title": "Na cozinha, a preparar o jantar",
+    "zh": "在厨房准备晚餐",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "a alimentação",
+        "zh": "饮食",
+        "ex": "A alimentação mediterrânica é equilibrada.",
+        "exZh": "地中海饮食很均衡。"
+      },
+      {
+        "pt": "o hábito",
+        "zh": "习惯",
+        "ex": "Mudar hábitos leva tempo.",
+        "exZh": "改变习惯需要时间。"
+      },
+      {
+        "pt": "equilibrado",
+        "zh": "均衡的",
+        "ex": "É importante ter uma dieta equilibrada.",
+        "exZh": "均衡饮食很重要。"
+      },
+      {
+        "pt": "processado",
+        "zh": "加工过的",
+        "ex": "Evito comida processada.",
+        "exZh": "我避免加工食品。"
+      },
+      {
+        "pt": "hidratar-se",
+        "zh": "补水",
+        "ex": "Hidrato-me ao longo do dia.",
+        "exZh": "我一天中会补水。"
+      }
+    ]
+  },
+  {
+    "id": "b1lab24",
+    "level": "B1",
+    "order": 108,
+    "isLab": true,
+    "title": "No jardim, a relaxar",
+    "zh": "在花园放松",
+    "grammar": "Revisão da cena",
+    "wordTarget": "280-340",
+    "vocab": [
+      {
+        "pt": "o descanso",
+        "zh": "休息",
+        "ex": "Preciso de descanso.",
+        "exZh": "我需要休息。"
+      },
+      {
+        "pt": "o stress",
+        "zh": "压力",
+        "ex": "O stress afeta o sono.",
+        "exZh": "压力影响睡眠。"
+      },
+      {
+        "pt": "a insónia",
+        "zh": "失眠",
+        "ex": "Sofro de insónia.",
+        "exZh": "我受失眠困扰。"
+      },
+      {
+        "pt": "a rotina",
+        "zh": "规律 / 日常",
+        "ex": "Uma rotina regular ajuda.",
+        "exZh": "规律的日常有帮助。"
+      },
+      {
+        "pt": "recuperar",
+        "zh": "恢复",
+        "ex": "Ao fim de semana, recupero energia.",
+        "exZh": "周末我恢复精力。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab01",
+    "level": "B2",
+    "order": 109,
+    "isLab": true,
+    "title": "Na sala de reuniões",
+    "zh": "在会议室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "por um lado",
+        "zh": "一方面",
+        "ex": "Por um lado, a ideia é boa.",
+        "exZh": "一方面，这个想法不错。"
+      },
+      {
+        "pt": "no entanto",
+        "zh": "然而",
+        "ex": "No entanto, há riscos.",
+        "exZh": "然而，存在风险。"
+      },
+      {
+        "pt": "portanto",
+        "zh": "因此",
+        "ex": "Portanto, precisamos de mais tempo.",
+        "exZh": "因此，我们需要更多时间。"
+      },
+      {
+        "pt": "ter em conta",
+        "zh": "考虑到",
+        "ex": "Temos de ter em conta os custos.",
+        "exZh": "我们必须考虑成本。"
+      },
+      {
+        "pt": "a decisão",
+        "zh": "决定",
+        "ex": "A decisão foi adiada.",
+        "exZh": "决定被推迟了。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab02",
+    "level": "B2",
+    "order": 110,
+    "isLab": true,
+    "title": "Na secretária, a responder a emails",
+    "zh": "在办公桌回邮件",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "Venho por este meio…",
+        "zh": "我特此……",
+        "ex": "Venho por este meio candidatar-me à vaga.",
+        "exZh": "我特此申请该职位。"
+      },
+      {
+        "pt": "a candidatura",
+        "zh": "申请",
+        "ex": "Envio a minha candidatura em anexo.",
+        "exZh": "我随附我的申请。"
+      },
+      {
+        "pt": "Agradeço…",
+        "zh": "感谢……",
+        "ex": "Agradeço a sua atenção.",
+        "exZh": "感谢您的关注。"
+      },
+      {
+        "pt": "Atenciosamente,",
+        "zh": "此致敬礼",
+        "ex": "Atenciosamente, Ana Silva",
+        "exZh": "此致敬礼，安娜·席尔瓦"
+      },
+      {
+        "pt": "em anexo",
+        "zh": "随附",
+        "ex": "Em anexo, envio o meu currículo.",
+        "exZh": "随附我的简历。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab03",
+    "level": "B2",
+    "order": 111,
+    "isLab": true,
+    "title": "Numa mesa-redonda sobre turismo",
+    "zh": "在旅游圆桌讨论",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "embora",
+        "zh": "虽然",
+        "ex": "Embora seja caro, vale a pena.",
+        "exZh": "虽然贵，但值得。"
+      },
+      {
+        "pt": "apesar de",
+        "zh": "尽管",
+        "ex": "Apesar de haver turistas, a cidade está calma.",
+        "exZh": "尽管有游客，城市依然平静。"
+      },
+      {
+        "pt": "desde que",
+        "zh": "只要",
+        "ex": "Desde que haja regras claras, apoio.",
+        "exZh": "只要有明确规则，我就支持。"
+      },
+      {
+        "pt": "pelo contrário",
+        "zh": "相反",
+        "ex": "Não critico o turismo; pelo contrário, defendo-o.",
+        "exZh": "我不批评旅游；相反，我支持它。"
+      },
+      {
+        "pt": "o turismo",
+        "zh": "旅游业",
+        "ex": "O turismo representa uma parte importante da economia.",
+        "exZh": "旅游业占经济的重要部分。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab04",
+    "level": "B2",
+    "order": 112,
+    "isLab": true,
+    "title": "Na redação, à hora de fecho",
+    "zh": "在截稿时的编辑部",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a manchete",
+        "zh": "头条标题",
+        "ex": "A manchete dizia tudo.",
+        "exZh": "标题说明了一切。"
+      },
+      {
+        "pt": "a fonte",
+        "zh": "来源",
+        "ex": "Devemos verificar a fonte.",
+        "exZh": "我们应该核实来源。"
+      },
+      {
+        "pt": "a credibilidade",
+        "zh": "可信度",
+        "ex": "A credibilidade do jornal está em causa.",
+        "exZh": "这家报纸的可信度受到质疑。"
+      },
+      {
+        "pt": "enviesado",
+        "zh": "有偏见的",
+        "ex": "O artigo parece enviesado.",
+        "exZh": "这篇文章似乎有偏见。"
+      },
+      {
+        "pt": "verificar",
+        "zh": "核实",
+        "ex": "É importante verificar os factos.",
+        "exZh": "核实事实很重要。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab05",
+    "level": "B2",
+    "order": 113,
+    "isLab": true,
+    "title": "No telemóvel, a gravar um stories",
+    "zh": "用手机拍动态",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "o algoritmo",
+        "zh": "算法",
+        "ex": "O algoritmo decide o que vês.",
+        "exZh": "算法决定你看到什么。"
+      },
+      {
+        "pt": "a privacidade",
+        "zh": "隐私",
+        "ex": "A privacidade é uma preocupação.",
+        "exZh": "隐私是一个令人担忧的问题。"
+      },
+      {
+        "pt": "a polarização",
+        "zh": "极化",
+        "ex": "As redes podem aumentar a polarização.",
+        "exZh": "社交网络可能加剧极化。"
+      },
+      {
+        "pt": "partilhar",
+        "zh": "分享",
+        "ex": "Penso antes de partilhar.",
+        "exZh": "我分享前会想一想。"
+      },
+      {
+        "pt": "a desinformação",
+        "zh": "虚假信息",
+        "ex": "A desinformação espalha-se depressa.",
+        "exZh": "虚假信息传播得很快。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab06",
+    "level": "B2",
+    "order": 114,
+    "isLab": true,
+    "title": "Numa demonstração de IA",
+    "zh": "在人工智能演示",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a inteligência",
+        "zh": "智能",
+        "ex": "A inteligência artificial levanta questões éticas.",
+        "exZh": "人工智能引发伦理问题。"
+      },
+      {
+        "pt": "automatizar",
+        "zh": "自动化",
+        "ex": "A empresa quer automatizar processos.",
+        "exZh": "公司想自动化流程。"
+      },
+      {
+        "pt": "a ética",
+        "zh": "伦理",
+        "ex": "A ética deve orientar a inovação.",
+        "exZh": "伦理应引导创新。"
+      },
+      {
+        "pt": "regulamentar",
+        "zh": "监管",
+        "ex": "É necessário regulamentar a tecnologia.",
+        "exZh": "有必要监管这项技术。"
+      },
+      {
+        "pt": "substituir",
+        "zh": "取代",
+        "ex": "As máquinas não substituem o julgamento humano.",
+        "exZh": "机器不能取代人的判断。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab07",
+    "level": "B2",
+    "order": 115,
+    "isLab": true,
+    "title": "No corredor do escritório",
+    "zh": "在办公室走廊",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "por um lado",
+        "zh": "一方面",
+        "ex": "Por um lado, a ideia é boa.",
+        "exZh": "一方面，这个想法不错。"
+      },
+      {
+        "pt": "no entanto",
+        "zh": "然而",
+        "ex": "No entanto, há riscos.",
+        "exZh": "然而，存在风险。"
+      },
+      {
+        "pt": "portanto",
+        "zh": "因此",
+        "ex": "Portanto, precisamos de mais tempo.",
+        "exZh": "因此，我们需要更多时间。"
+      },
+      {
+        "pt": "ter em conta",
+        "zh": "考虑到",
+        "ex": "Temos de ter em conta os custos.",
+        "exZh": "我们必须考虑成本。"
+      },
+      {
+        "pt": "a decisão",
+        "zh": "决定",
+        "ex": "A decisão foi adiada.",
+        "exZh": "决定被推迟了。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab08",
+    "level": "B2",
+    "order": 116,
+    "isLab": true,
+    "title": "Numa videochamada",
+    "zh": "在视频会议",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "Venho por este meio…",
+        "zh": "我特此……",
+        "ex": "Venho por este meio candidatar-me à vaga.",
+        "exZh": "我特此申请该职位。"
+      },
+      {
+        "pt": "a candidatura",
+        "zh": "申请",
+        "ex": "Envio a minha candidatura em anexo.",
+        "exZh": "我随附我的申请。"
+      },
+      {
+        "pt": "Agradeço…",
+        "zh": "感谢……",
+        "ex": "Agradeço a sua atenção.",
+        "exZh": "感谢您的关注。"
+      },
+      {
+        "pt": "Atenciosamente,",
+        "zh": "此致敬礼",
+        "ex": "Atenciosamente, Ana Silva",
+        "exZh": "此致敬礼，安娜·席尔瓦"
+      },
+      {
+        "pt": "em anexo",
+        "zh": "随附",
+        "ex": "Em anexo, envio o meu currículo.",
+        "exZh": "随附我的简历。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab09",
+    "level": "B2",
+    "order": 117,
+    "isLab": true,
+    "title": "No posto de turismo",
+    "zh": "在旅游咨询处",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "embora",
+        "zh": "虽然",
+        "ex": "Embora seja caro, vale a pena.",
+        "exZh": "虽然贵，但值得。"
+      },
+      {
+        "pt": "apesar de",
+        "zh": "尽管",
+        "ex": "Apesar de haver turistas, a cidade está calma.",
+        "exZh": "尽管有游客，城市依然平静。"
+      },
+      {
+        "pt": "desde que",
+        "zh": "只要",
+        "ex": "Desde que haja regras claras, apoio.",
+        "exZh": "只要有明确规则，我就支持。"
+      },
+      {
+        "pt": "pelo contrário",
+        "zh": "相反",
+        "ex": "Não critico o turismo; pelo contrário, defendo-o.",
+        "exZh": "我不批评旅游；相反，我支持它。"
+      },
+      {
+        "pt": "o turismo",
+        "zh": "旅游业",
+        "ex": "O turismo representa uma parte importante da economia.",
+        "exZh": "旅游业占经济的重要部分。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab10",
+    "level": "B2",
+    "order": 118,
+    "isLab": true,
+    "title": "Na conferência de imprensa",
+    "zh": "在新闻发布会",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a manchete",
+        "zh": "头条标题",
+        "ex": "A manchete dizia tudo.",
+        "exZh": "标题说明了一切。"
+      },
+      {
+        "pt": "a fonte",
+        "zh": "来源",
+        "ex": "Devemos verificar a fonte.",
+        "exZh": "我们应该核实来源。"
+      },
+      {
+        "pt": "a credibilidade",
+        "zh": "可信度",
+        "ex": "A credibilidade do jornal está em causa.",
+        "exZh": "这家报纸的可信度受到质疑。"
+      },
+      {
+        "pt": "enviesado",
+        "zh": "有偏见的",
+        "ex": "O artigo parece enviesado.",
+        "exZh": "这篇文章似乎有偏见。"
+      },
+      {
+        "pt": "verificar",
+        "zh": "核实",
+        "ex": "É importante verificar os factos.",
+        "exZh": "核实事实很重要。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab11",
+    "level": "B2",
+    "order": 119,
+    "isLab": true,
+    "title": "Num café com Wi-Fi",
+    "zh": "在有 Wi-Fi 的咖啡馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "o algoritmo",
+        "zh": "算法",
+        "ex": "O algoritmo decide o que vês.",
+        "exZh": "算法决定你看到什么。"
+      },
+      {
+        "pt": "a privacidade",
+        "zh": "隐私",
+        "ex": "A privacidade é uma preocupação.",
+        "exZh": "隐私是一个令人担忧的问题。"
+      },
+      {
+        "pt": "a polarização",
+        "zh": "极化",
+        "ex": "As redes podem aumentar a polarização.",
+        "exZh": "社交网络可能加剧极化。"
+      },
+      {
+        "pt": "partilhar",
+        "zh": "分享",
+        "ex": "Penso antes de partilhar.",
+        "exZh": "我分享前会想一想。"
+      },
+      {
+        "pt": "a desinformação",
+        "zh": "虚假信息",
+        "ex": "A desinformação espalha-se depressa.",
+        "exZh": "虚假信息传播得很快。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab12",
+    "level": "B2",
+    "order": 120,
+    "isLab": true,
+    "title": "No laboratório de robótica",
+    "zh": "在机器人实验室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a inteligência",
+        "zh": "智能",
+        "ex": "A inteligência artificial levanta questões éticas.",
+        "exZh": "人工智能引发伦理问题。"
+      },
+      {
+        "pt": "automatizar",
+        "zh": "自动化",
+        "ex": "A empresa quer automatizar processos.",
+        "exZh": "公司想自动化流程。"
+      },
+      {
+        "pt": "a ética",
+        "zh": "伦理",
+        "ex": "A ética deve orientar a inovação.",
+        "exZh": "伦理应引导创新。"
+      },
+      {
+        "pt": "regulamentar",
+        "zh": "监管",
+        "ex": "É necessário regulamentar a tecnologia.",
+        "exZh": "有必要监管这项技术。"
+      },
+      {
+        "pt": "substituir",
+        "zh": "取代",
+        "ex": "As máquinas não substituem o julgamento humano.",
+        "exZh": "机器不能取代人的判断。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab13",
+    "level": "B2",
+    "order": 121,
+    "isLab": true,
+    "title": "Na pausa para café",
+    "zh": "在咖啡休息时间",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "por um lado",
+        "zh": "一方面",
+        "ex": "Por um lado, a ideia é boa.",
+        "exZh": "一方面，这个想法不错。"
+      },
+      {
+        "pt": "no entanto",
+        "zh": "然而",
+        "ex": "No entanto, há riscos.",
+        "exZh": "然而，存在风险。"
+      },
+      {
+        "pt": "portanto",
+        "zh": "因此",
+        "ex": "Portanto, precisamos de mais tempo.",
+        "exZh": "因此，我们需要更多时间。"
+      },
+      {
+        "pt": "ter em conta",
+        "zh": "考虑到",
+        "ex": "Temos de ter em conta os custos.",
+        "exZh": "我们必须考虑成本。"
+      },
+      {
+        "pt": "a decisão",
+        "zh": "决定",
+        "ex": "A decisão foi adiada.",
+        "exZh": "决定被推迟了。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab14",
+    "level": "B2",
+    "order": 122,
+    "isLab": true,
+    "title": "No arquivo do escritório",
+    "zh": "在办公室档案室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "Venho por este meio…",
+        "zh": "我特此……",
+        "ex": "Venho por este meio candidatar-me à vaga.",
+        "exZh": "我特此申请该职位。"
+      },
+      {
+        "pt": "a candidatura",
+        "zh": "申请",
+        "ex": "Envio a minha candidatura em anexo.",
+        "exZh": "我随附我的申请。"
+      },
+      {
+        "pt": "Agradeço…",
+        "zh": "感谢……",
+        "ex": "Agradeço a sua atenção.",
+        "exZh": "感谢您的关注。"
+      },
+      {
+        "pt": "Atenciosamente,",
+        "zh": "此致敬礼",
+        "ex": "Atenciosamente, Ana Silva",
+        "exZh": "此致敬礼，安娜·席尔瓦"
+      },
+      {
+        "pt": "em anexo",
+        "zh": "随附",
+        "ex": "Em anexo, envio o meu currículo.",
+        "exZh": "随附我的简历。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab15",
+    "level": "B2",
+    "order": 123,
+    "isLab": true,
+    "title": "Num hotel do centro",
+    "zh": "在市中心酒店",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "embora",
+        "zh": "虽然",
+        "ex": "Embora seja caro, vale a pena.",
+        "exZh": "虽然贵，但值得。"
+      },
+      {
+        "pt": "apesar de",
+        "zh": "尽管",
+        "ex": "Apesar de haver turistas, a cidade está calma.",
+        "exZh": "尽管有游客，城市依然平静。"
+      },
+      {
+        "pt": "desde que",
+        "zh": "只要",
+        "ex": "Desde que haja regras claras, apoio.",
+        "exZh": "只要有明确规则，我就支持。"
+      },
+      {
+        "pt": "pelo contrário",
+        "zh": "相反",
+        "ex": "Não critico o turismo; pelo contrário, defendo-o.",
+        "exZh": "我不批评旅游；相反，我支持它。"
+      },
+      {
+        "pt": "o turismo",
+        "zh": "旅游业",
+        "ex": "O turismo representa uma parte importante da economia.",
+        "exZh": "旅游业占经济的重要部分。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab16",
+    "level": "B2",
+    "order": 124,
+    "isLab": true,
+    "title": "No estúdio do telejornal",
+    "zh": "在电视新闻演播室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a manchete",
+        "zh": "头条标题",
+        "ex": "A manchete dizia tudo.",
+        "exZh": "标题说明了一切。"
+      },
+      {
+        "pt": "a fonte",
+        "zh": "来源",
+        "ex": "Devemos verificar a fonte.",
+        "exZh": "我们应该核实来源。"
+      },
+      {
+        "pt": "a credibilidade",
+        "zh": "可信度",
+        "ex": "A credibilidade do jornal está em causa.",
+        "exZh": "这家报纸的可信度受到质疑。"
+      },
+      {
+        "pt": "enviesado",
+        "zh": "有偏见的",
+        "ex": "O artigo parece enviesado.",
+        "exZh": "这篇文章似乎有偏见。"
+      },
+      {
+        "pt": "verificar",
+        "zh": "核实",
+        "ex": "É importante verificar os factos.",
+        "exZh": "核实事实很重要。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab17",
+    "level": "B2",
+    "order": 125,
+    "isLab": true,
+    "title": "Na loja de informática",
+    "zh": "在电脑店",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "o algoritmo",
+        "zh": "算法",
+        "ex": "O algoritmo decide o que vês.",
+        "exZh": "算法决定你看到什么。"
+      },
+      {
+        "pt": "a privacidade",
+        "zh": "隐私",
+        "ex": "A privacidade é uma preocupação.",
+        "exZh": "隐私是一个令人担忧的问题。"
+      },
+      {
+        "pt": "a polarização",
+        "zh": "极化",
+        "ex": "As redes podem aumentar a polarização.",
+        "exZh": "社交网络可能加剧极化。"
+      },
+      {
+        "pt": "partilhar",
+        "zh": "分享",
+        "ex": "Penso antes de partilhar.",
+        "exZh": "我分享前会想一想。"
+      },
+      {
+        "pt": "a desinformação",
+        "zh": "虚假信息",
+        "ex": "A desinformação espalha-se depressa.",
+        "exZh": "虚假信息传播得很快。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab18",
+    "level": "B2",
+    "order": 126,
+    "isLab": true,
+    "title": "Numa startup de Lisboa",
+    "zh": "在里斯本初创公司",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a inteligência",
+        "zh": "智能",
+        "ex": "A inteligência artificial levanta questões éticas.",
+        "exZh": "人工智能引发伦理问题。"
+      },
+      {
+        "pt": "automatizar",
+        "zh": "自动化",
+        "ex": "A empresa quer automatizar processos.",
+        "exZh": "公司想自动化流程。"
+      },
+      {
+        "pt": "a ética",
+        "zh": "伦理",
+        "ex": "A ética deve orientar a inovação.",
+        "exZh": "伦理应引导创新。"
+      },
+      {
+        "pt": "regulamentar",
+        "zh": "监管",
+        "ex": "É necessário regulamentar a tecnologia.",
+        "exZh": "有必要监管这项技术。"
+      },
+      {
+        "pt": "substituir",
+        "zh": "取代",
+        "ex": "As máquinas não substituem o julgamento humano.",
+        "exZh": "机器不能取代人的判断。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab19",
+    "level": "B2",
+    "order": 127,
+    "isLab": true,
+    "title": "No gabinete do chefe",
+    "zh": "在老板办公室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "por um lado",
+        "zh": "一方面",
+        "ex": "Por um lado, a ideia é boa.",
+        "exZh": "一方面，这个想法不错。"
+      },
+      {
+        "pt": "no entanto",
+        "zh": "然而",
+        "ex": "No entanto, há riscos.",
+        "exZh": "然而，存在风险。"
+      },
+      {
+        "pt": "portanto",
+        "zh": "因此",
+        "ex": "Portanto, precisamos de mais tempo.",
+        "exZh": "因此，我们需要更多时间。"
+      },
+      {
+        "pt": "ter em conta",
+        "zh": "考虑到",
+        "ex": "Temos de ter em conta os custos.",
+        "exZh": "我们必须考虑成本。"
+      },
+      {
+        "pt": "a decisão",
+        "zh": "决定",
+        "ex": "A decisão foi adiada.",
+        "exZh": "决定被推迟了。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab20",
+    "level": "B2",
+    "order": 128,
+    "isLab": true,
+    "title": "Na impressora",
+    "zh": "在打印机旁",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "Venho por este meio…",
+        "zh": "我特此……",
+        "ex": "Venho por este meio candidatar-me à vaga.",
+        "exZh": "我特此申请该职位。"
+      },
+      {
+        "pt": "a candidatura",
+        "zh": "申请",
+        "ex": "Envio a minha candidatura em anexo.",
+        "exZh": "我随附我的申请。"
+      },
+      {
+        "pt": "Agradeço…",
+        "zh": "感谢……",
+        "ex": "Agradeço a sua atenção.",
+        "exZh": "感谢您的关注。"
+      },
+      {
+        "pt": "Atenciosamente,",
+        "zh": "此致敬礼",
+        "ex": "Atenciosamente, Ana Silva",
+        "exZh": "此致敬礼，安娜·席尔瓦"
+      },
+      {
+        "pt": "em anexo",
+        "zh": "随附",
+        "ex": "Em anexo, envio o meu currículo.",
+        "exZh": "随附我的简历。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab21",
+    "level": "B2",
+    "order": 129,
+    "isLab": true,
+    "title": "Num miradouro sobre a cidade",
+    "zh": "在俯瞰城市的观景台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "embora",
+        "zh": "虽然",
+        "ex": "Embora seja caro, vale a pena.",
+        "exZh": "虽然贵，但值得。"
+      },
+      {
+        "pt": "apesar de",
+        "zh": "尽管",
+        "ex": "Apesar de haver turistas, a cidade está calma.",
+        "exZh": "尽管有游客，城市依然平静。"
+      },
+      {
+        "pt": "desde que",
+        "zh": "只要",
+        "ex": "Desde que haja regras claras, apoio.",
+        "exZh": "只要有明确规则，我就支持。"
+      },
+      {
+        "pt": "pelo contrário",
+        "zh": "相反",
+        "ex": "Não critico o turismo; pelo contrário, defendo-o.",
+        "exZh": "我不批评旅游；相反，我支持它。"
+      },
+      {
+        "pt": "o turismo",
+        "zh": "旅游业",
+        "ex": "O turismo representa uma parte importante da economia.",
+        "exZh": "旅游业占经济的重要部分。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab22",
+    "level": "B2",
+    "order": 130,
+    "isLab": true,
+    "title": "Na banca de jornais",
+    "zh": "在报刊亭",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a manchete",
+        "zh": "头条标题",
+        "ex": "A manchete dizia tudo.",
+        "exZh": "标题说明了一切。"
+      },
+      {
+        "pt": "a fonte",
+        "zh": "来源",
+        "ex": "Devemos verificar a fonte.",
+        "exZh": "我们应该核实来源。"
+      },
+      {
+        "pt": "a credibilidade",
+        "zh": "可信度",
+        "ex": "A credibilidade do jornal está em causa.",
+        "exZh": "这家报纸的可信度受到质疑。"
+      },
+      {
+        "pt": "enviesado",
+        "zh": "有偏见的",
+        "ex": "O artigo parece enviesado.",
+        "exZh": "这篇文章似乎有偏见。"
+      },
+      {
+        "pt": "verificar",
+        "zh": "核实",
+        "ex": "É importante verificar os factos.",
+        "exZh": "核实事实很重要。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab23",
+    "level": "B2",
+    "order": 131,
+    "isLab": true,
+    "title": "No apoio ao cliente",
+    "zh": "在客户服务处",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "o algoritmo",
+        "zh": "算法",
+        "ex": "O algoritmo decide o que vês.",
+        "exZh": "算法决定你看到什么。"
+      },
+      {
+        "pt": "a privacidade",
+        "zh": "隐私",
+        "ex": "A privacidade é uma preocupação.",
+        "exZh": "隐私是一个令人担忧的问题。"
+      },
+      {
+        "pt": "a polarização",
+        "zh": "极化",
+        "ex": "As redes podem aumentar a polarização.",
+        "exZh": "社交网络可能加剧极化。"
+      },
+      {
+        "pt": "partilhar",
+        "zh": "分享",
+        "ex": "Penso antes de partilhar.",
+        "exZh": "我分享前会想一想。"
+      },
+      {
+        "pt": "a desinformação",
+        "zh": "虚假信息",
+        "ex": "A desinformação espalha-se depressa.",
+        "exZh": "虚假信息传播得很快。"
+      }
+    ]
+  },
+  {
+    "id": "b2lab24",
+    "level": "B2",
+    "order": 132,
+    "isLab": true,
+    "title": "No painel sobre ética digital",
+    "zh": "在数字伦理座谈",
+    "grammar": "Revisão da cena",
+    "wordTarget": "420-500",
+    "vocab": [
+      {
+        "pt": "a inteligência",
+        "zh": "智能",
+        "ex": "A inteligência artificial levanta questões éticas.",
+        "exZh": "人工智能引发伦理问题。"
+      },
+      {
+        "pt": "automatizar",
+        "zh": "自动化",
+        "ex": "A empresa quer automatizar processos.",
+        "exZh": "公司想自动化流程。"
+      },
+      {
+        "pt": "a ética",
+        "zh": "伦理",
+        "ex": "A ética deve orientar a inovação.",
+        "exZh": "伦理应引导创新。"
+      },
+      {
+        "pt": "regulamentar",
+        "zh": "监管",
+        "ex": "É necessário regulamentar a tecnologia.",
+        "exZh": "有必要监管这项技术。"
+      },
+      {
+        "pt": "substituir",
+        "zh": "取代",
+        "ex": "As máquinas não substituem o julgamento humano.",
+        "exZh": "机器不能取代人的判断。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab01",
+    "level": "C1",
+    "order": 133,
+    "isLab": true,
+    "title": "No salão da junta",
+    "zh": "在教区委员会大厅",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o arrendamento",
+        "zh": "租赁 / 房租",
+        "ex": "O arrendamento subiu muito nos últimos anos.",
+        "exZh": "近年来房租上涨了很多。"
+      },
+      {
+        "pt": "a especulação",
+        "zh": "投机",
+        "ex": "A especulação imobiliária expulsa residentes.",
+        "exZh": "房地产投机迫使居民离开。"
+      },
+      {
+        "pt": "o despejo",
+        "zh": "驱逐 / 迫迁",
+        "ex": "Muitas famílias estão em risco de despejo.",
+        "exZh": "许多家庭面临被驱逐的风险。"
+      },
+      {
+        "pt": "a gentrificação",
+        "zh": "绅士化",
+        "ex": "A gentrificação transformou o centro histórico.",
+        "exZh": "绅士化改变了历史中心。"
+      },
+      {
+        "pt": "as políticas públicas",
+        "zh": "公共政策",
+        "ex": "São necessárias políticas públicas de habitação.",
+        "exZh": "需要公共住房政策。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab02",
+    "level": "C1",
+    "order": 134,
+    "isLab": true,
+    "title": "Num estúdio de rádio",
+    "zh": "在电台演播室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a diáspora",
+        "zh": "侨民群体",
+        "ex": "A diáspora portuguesa está espalhada pelo mundo.",
+        "exZh": "葡萄牙侨民遍布世界。"
+      },
+      {
+        "pt": "a emigração",
+        "zh": "移居国外",
+        "ex": "A emigração marcou gerações de portugueses.",
+        "exZh": "移居国外影响了几代葡萄牙人。"
+      },
+      {
+        "pt": "a integração",
+        "zh": "融入",
+        "ex": "A integração exige tempo e língua.",
+        "exZh": "融入需要时间和语言。"
+      },
+      {
+        "pt": "a saudade",
+        "zh": "乡愁 / 思念",
+        "ex": "Tenho saudades da minha terra.",
+        "exZh": "我想念我的故乡。"
+      },
+      {
+        "pt": "o regresso",
+        "zh": "归来",
+        "ex": "O regresso a casa foi emocionante.",
+        "exZh": "回家的过程令人动容。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab03",
+    "level": "C1",
+    "order": 135,
+    "isLab": true,
+    "title": "Na praia, com um biólogo",
+    "zh": "和生物学家在海滩",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a erosão costeira",
+        "zh": "海岸侵蚀",
+        "ex": "A erosão costeira ameaça várias praias.",
+        "exZh": "海岸侵蚀威胁着多处海滩。"
+      },
+      {
+        "pt": "a sustentabilidade",
+        "zh": "可持续性",
+        "ex": "A sustentabilidade não é só uma questão ambiental.",
+        "exZh": "可持续性不只是环境问题。"
+      },
+      {
+        "pt": "a transição energética",
+        "zh": "能源转型",
+        "ex": "A transição energética exige investimento.",
+        "exZh": "能源转型需要投资。"
+      },
+      {
+        "pt": "a pegada",
+        "zh": "足迹",
+        "ex": "Queremos reduzir a pegada de carbono.",
+        "exZh": "我们想减少碳足迹。"
+      },
+      {
+        "pt": "o ordenamento",
+        "zh": "规划 / 整治",
+        "ex": "O ordenamento do território é essencial.",
+        "exZh": "国土规划至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab04",
+    "level": "C1",
+    "order": 136,
+    "isLab": true,
+    "title": "Na sala do museu",
+    "zh": "在博物馆展厅",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o repatriamento",
+        "zh": "遣返 / 归还",
+        "ex": "O repatriamento de obras é debatido.",
+        "exZh": "文物的归还问题正在被讨论。"
+      },
+      {
+        "pt": "o acervo",
+        "zh": "藏品",
+        "ex": "O acervo do museu é vasto.",
+        "exZh": "博物馆的藏品很丰富。"
+      },
+      {
+        "pt": "colonial",
+        "zh": "殖民的",
+        "ex": "O legado colonial é complexo.",
+        "exZh": "殖民遗产很复杂。"
+      },
+      {
+        "pt": "a restituição",
+        "zh": "归还",
+        "ex": "A restituição exige negociação.",
+        "exZh": "归还需要谈判。"
+      },
+      {
+        "pt": "a proveniência",
+        "zh": "来源",
+        "ex": "É preciso investigar a proveniência.",
+        "exZh": "需要调查来源。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab05",
+    "level": "C1",
+    "order": 137,
+    "isLab": true,
+    "title": "Na sala de cinema",
+    "zh": "在电影放映厅",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o realizador",
+        "zh": "导演",
+        "ex": "O realizador apresentou o filme.",
+        "exZh": "导演介绍了这部电影。"
+      },
+      {
+        "pt": "o argumento",
+        "zh": "剧本",
+        "ex": "O argumento é baseado num romance.",
+        "exZh": "剧本改编自一部小说。"
+      },
+      {
+        "pt": "o plano",
+        "zh": "镜头 / 计划",
+        "ex": "Este plano é muito longo.",
+        "exZh": "这个镜头很长。"
+      },
+      {
+        "pt": "a montagem",
+        "zh": "剪辑",
+        "ex": "A montagem dá ritmo ao filme.",
+        "exZh": "剪辑赋予电影节奏。"
+      },
+      {
+        "pt": "a bilheteira",
+        "zh": "票房 / 售票处",
+        "ex": "O filme foi um sucesso de bilheteira.",
+        "exZh": "这部电影票房很成功。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab06",
+    "level": "C1",
+    "order": 138,
+    "isLab": true,
+    "title": "No largo do monumento",
+    "zh": "在纪念碑广场",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a memória",
+        "zh": "记忆",
+        "ex": "A memória pública é seletiva.",
+        "exZh": "公共记忆是有选择性的。"
+      },
+      {
+        "pt": "o monumento",
+        "zh": "纪念碑",
+        "ex": "O monumento foi contestado.",
+        "exZh": "这座纪念碑受到争议。"
+      },
+      {
+        "pt": "a homenagem",
+        "zh": "致敬 / 纪念",
+        "ex": "A homenagem gerou debate.",
+        "exZh": "这次纪念引发了辩论。"
+      },
+      {
+        "pt": "contestado",
+        "zh": "有争议的",
+        "ex": "O projeto é contestado.",
+        "exZh": "这个项目有争议。"
+      },
+      {
+        "pt": "o esquecimento",
+        "zh": "遗忘",
+        "ex": "O esquecimento também é político.",
+        "exZh": "遗忘也是政治性的。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab07",
+    "level": "C1",
+    "order": 139,
+    "isLab": true,
+    "title": "No átrio do prédio",
+    "zh": "在公寓楼门厅",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o arrendamento",
+        "zh": "租赁 / 房租",
+        "ex": "O arrendamento subiu muito nos últimos anos.",
+        "exZh": "近年来房租上涨了很多。"
+      },
+      {
+        "pt": "a especulação",
+        "zh": "投机",
+        "ex": "A especulação imobiliária expulsa residentes.",
+        "exZh": "房地产投机迫使居民离开。"
+      },
+      {
+        "pt": "o despejo",
+        "zh": "驱逐 / 迫迁",
+        "ex": "Muitas famílias estão em risco de despejo.",
+        "exZh": "许多家庭面临被驱逐的风险。"
+      },
+      {
+        "pt": "a gentrificação",
+        "zh": "绅士化",
+        "ex": "A gentrificação transformou o centro histórico.",
+        "exZh": "绅士化改变了历史中心。"
+      },
+      {
+        "pt": "as políticas públicas",
+        "zh": "公共政策",
+        "ex": "São necessárias políticas públicas de habitação.",
+        "exZh": "需要公共住房政策。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab08",
+    "level": "C1",
+    "order": 140,
+    "isLab": true,
+    "title": "Numa associação de emigrantes",
+    "zh": "在移民协会",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a diáspora",
+        "zh": "侨民群体",
+        "ex": "A diáspora portuguesa está espalhada pelo mundo.",
+        "exZh": "葡萄牙侨民遍布世界。"
+      },
+      {
+        "pt": "a emigração",
+        "zh": "移居国外",
+        "ex": "A emigração marcou gerações de portugueses.",
+        "exZh": "移居国外影响了几代葡萄牙人。"
+      },
+      {
+        "pt": "a integração",
+        "zh": "融入",
+        "ex": "A integração exige tempo e língua.",
+        "exZh": "融入需要时间和语言。"
+      },
+      {
+        "pt": "a saudade",
+        "zh": "乡愁 / 思念",
+        "ex": "Tenho saudades da minha terra.",
+        "exZh": "我想念我的故乡。"
+      },
+      {
+        "pt": "o regresso",
+        "zh": "归来",
+        "ex": "O regresso a casa foi emocionante.",
+        "exZh": "回家的过程令人动容。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab09",
+    "level": "C1",
+    "order": 141,
+    "isLab": true,
+    "title": "No porto de pesca",
+    "zh": "在渔港",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a erosão costeira",
+        "zh": "海岸侵蚀",
+        "ex": "A erosão costeira ameaça várias praias.",
+        "exZh": "海岸侵蚀威胁着多处海滩。"
+      },
+      {
+        "pt": "a sustentabilidade",
+        "zh": "可持续性",
+        "ex": "A sustentabilidade não é só uma questão ambiental.",
+        "exZh": "可持续性不只是环境问题。"
+      },
+      {
+        "pt": "a transição energética",
+        "zh": "能源转型",
+        "ex": "A transição energética exige investimento.",
+        "exZh": "能源转型需要投资。"
+      },
+      {
+        "pt": "a pegada",
+        "zh": "足迹",
+        "ex": "Queremos reduzir a pegada de carbono.",
+        "exZh": "我们想减少碳足迹。"
+      },
+      {
+        "pt": "o ordenamento",
+        "zh": "规划 / 整治",
+        "ex": "O ordenamento do território é essencial.",
+        "exZh": "国土规划至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab10",
+    "level": "C1",
+    "order": 142,
+    "isLab": true,
+    "title": "No depósito das coleções",
+    "zh": "在藏品库房",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o repatriamento",
+        "zh": "遣返 / 归还",
+        "ex": "O repatriamento de obras é debatido.",
+        "exZh": "文物的归还问题正在被讨论。"
+      },
+      {
+        "pt": "o acervo",
+        "zh": "藏品",
+        "ex": "O acervo do museu é vasto.",
+        "exZh": "博物馆的藏品很丰富。"
+      },
+      {
+        "pt": "colonial",
+        "zh": "殖民的",
+        "ex": "O legado colonial é complexo.",
+        "exZh": "殖民遗产很复杂。"
+      },
+      {
+        "pt": "a restituição",
+        "zh": "归还",
+        "ex": "A restituição exige negociação.",
+        "exZh": "归还需要谈判。"
+      },
+      {
+        "pt": "a proveniência",
+        "zh": "来源",
+        "ex": "É preciso investigar a proveniência.",
+        "exZh": "需要调查来源。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab11",
+    "level": "C1",
+    "order": 143,
+    "isLab": true,
+    "title": "No debate após a sessão",
+    "zh": "在放映后的讨论",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o realizador",
+        "zh": "导演",
+        "ex": "O realizador apresentou o filme.",
+        "exZh": "导演介绍了这部电影。"
+      },
+      {
+        "pt": "o argumento",
+        "zh": "剧本",
+        "ex": "O argumento é baseado num romance.",
+        "exZh": "剧本改编自一部小说。"
+      },
+      {
+        "pt": "o plano",
+        "zh": "镜头 / 计划",
+        "ex": "Este plano é muito longo.",
+        "exZh": "这个镜头很长。"
+      },
+      {
+        "pt": "a montagem",
+        "zh": "剪辑",
+        "ex": "A montagem dá ritmo ao filme.",
+        "exZh": "剪辑赋予电影节奏。"
+      },
+      {
+        "pt": "a bilheteira",
+        "zh": "票房 / 售票处",
+        "ex": "O filme foi um sucesso de bilheteira.",
+        "exZh": "这部电影票房很成功。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab12",
+    "level": "C1",
+    "order": 144,
+    "isLab": true,
+    "title": "No miradouro do castelo",
+    "zh": "在城堡观景台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a memória",
+        "zh": "记忆",
+        "ex": "A memória pública é seletiva.",
+        "exZh": "公共记忆是有选择性的。"
+      },
+      {
+        "pt": "o monumento",
+        "zh": "纪念碑",
+        "ex": "O monumento foi contestado.",
+        "exZh": "这座纪念碑受到争议。"
+      },
+      {
+        "pt": "a homenagem",
+        "zh": "致敬 / 纪念",
+        "ex": "A homenagem gerou debate.",
+        "exZh": "这次纪念引发了辩论。"
+      },
+      {
+        "pt": "contestado",
+        "zh": "有争议的",
+        "ex": "O projeto é contestado.",
+        "exZh": "这个项目有争议。"
+      },
+      {
+        "pt": "o esquecimento",
+        "zh": "遗忘",
+        "ex": "O esquecimento também é político.",
+        "exZh": "遗忘也是政治性的。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab13",
+    "level": "C1",
+    "order": 145,
+    "isLab": true,
+    "title": "Na rua, com os vizinhos",
+    "zh": "在街上和邻居",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o arrendamento",
+        "zh": "租赁 / 房租",
+        "ex": "O arrendamento subiu muito nos últimos anos.",
+        "exZh": "近年来房租上涨了很多。"
+      },
+      {
+        "pt": "a especulação",
+        "zh": "投机",
+        "ex": "A especulação imobiliária expulsa residentes.",
+        "exZh": "房地产投机迫使居民离开。"
+      },
+      {
+        "pt": "o despejo",
+        "zh": "驱逐 / 迫迁",
+        "ex": "Muitas famílias estão em risco de despejo.",
+        "exZh": "许多家庭面临被驱逐的风险。"
+      },
+      {
+        "pt": "a gentrificação",
+        "zh": "绅士化",
+        "ex": "A gentrificação transformou o centro histórico.",
+        "exZh": "绅士化改变了历史中心。"
+      },
+      {
+        "pt": "as políticas públicas",
+        "zh": "公共政策",
+        "ex": "São necessárias políticas públicas de habitação.",
+        "exZh": "需要公共住房政策。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab14",
+    "level": "C1",
+    "order": 146,
+    "isLab": true,
+    "title": "No consulado português",
+    "zh": "在葡萄牙领事馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a diáspora",
+        "zh": "侨民群体",
+        "ex": "A diáspora portuguesa está espalhada pelo mundo.",
+        "exZh": "葡萄牙侨民遍布世界。"
+      },
+      {
+        "pt": "a emigração",
+        "zh": "移居国外",
+        "ex": "A emigração marcou gerações de portugueses.",
+        "exZh": "移居国外影响了几代葡萄牙人。"
+      },
+      {
+        "pt": "a integração",
+        "zh": "融入",
+        "ex": "A integração exige tempo e língua.",
+        "exZh": "融入需要时间和语言。"
+      },
+      {
+        "pt": "a saudade",
+        "zh": "乡愁 / 思念",
+        "ex": "Tenho saudades da minha terra.",
+        "exZh": "我想念我的故乡。"
+      },
+      {
+        "pt": "o regresso",
+        "zh": "归来",
+        "ex": "O regresso a casa foi emocionante.",
+        "exZh": "回家的过程令人动容。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab15",
+    "level": "C1",
+    "order": 147,
+    "isLab": true,
+    "title": "Numa reserva natural",
+    "zh": "在自然保护区",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a erosão costeira",
+        "zh": "海岸侵蚀",
+        "ex": "A erosão costeira ameaça várias praias.",
+        "exZh": "海岸侵蚀威胁着多处海滩。"
+      },
+      {
+        "pt": "a sustentabilidade",
+        "zh": "可持续性",
+        "ex": "A sustentabilidade não é só uma questão ambiental.",
+        "exZh": "可持续性不只是环境问题。"
+      },
+      {
+        "pt": "a transição energética",
+        "zh": "能源转型",
+        "ex": "A transição energética exige investimento.",
+        "exZh": "能源转型需要投资。"
+      },
+      {
+        "pt": "a pegada",
+        "zh": "足迹",
+        "ex": "Queremos reduzir a pegada de carbono.",
+        "exZh": "我们想减少碳足迹。"
+      },
+      {
+        "pt": "o ordenamento",
+        "zh": "规划 / 整治",
+        "ex": "O ordenamento do território é essencial.",
+        "exZh": "国土规划至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab16",
+    "level": "C1",
+    "order": 148,
+    "isLab": true,
+    "title": "Numa visita guiada ao museu",
+    "zh": "在博物馆导览",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o repatriamento",
+        "zh": "遣返 / 归还",
+        "ex": "O repatriamento de obras é debatido.",
+        "exZh": "文物的归还问题正在被讨论。"
+      },
+      {
+        "pt": "o acervo",
+        "zh": "藏品",
+        "ex": "O acervo do museu é vasto.",
+        "exZh": "博物馆的藏品很丰富。"
+      },
+      {
+        "pt": "colonial",
+        "zh": "殖民的",
+        "ex": "O legado colonial é complexo.",
+        "exZh": "殖民遗产很复杂。"
+      },
+      {
+        "pt": "a restituição",
+        "zh": "归还",
+        "ex": "A restituição exige negociação.",
+        "exZh": "归还需要谈判。"
+      },
+      {
+        "pt": "a proveniência",
+        "zh": "来源",
+        "ex": "É preciso investigar a proveniência.",
+        "exZh": "需要调查来源。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab17",
+    "level": "C1",
+    "order": 149,
+    "isLab": true,
+    "title": "No festival de cinema",
+    "zh": "在电影节",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o realizador",
+        "zh": "导演",
+        "ex": "O realizador apresentou o filme.",
+        "exZh": "导演介绍了这部电影。"
+      },
+      {
+        "pt": "o argumento",
+        "zh": "剧本",
+        "ex": "O argumento é baseado num romance.",
+        "exZh": "剧本改编自一部小说。"
+      },
+      {
+        "pt": "o plano",
+        "zh": "镜头 / 计划",
+        "ex": "Este plano é muito longo.",
+        "exZh": "这个镜头很长。"
+      },
+      {
+        "pt": "a montagem",
+        "zh": "剪辑",
+        "ex": "A montagem dá ritmo ao filme.",
+        "exZh": "剪辑赋予电影节奏。"
+      },
+      {
+        "pt": "a bilheteira",
+        "zh": "票房 / 售票处",
+        "ex": "O filme foi um sucesso de bilheteira.",
+        "exZh": "这部电影票房很成功。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab18",
+    "level": "C1",
+    "order": 150,
+    "isLab": true,
+    "title": "Na visita ao património",
+    "zh": "在文化遗产参观",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a memória",
+        "zh": "记忆",
+        "ex": "A memória pública é seletiva.",
+        "exZh": "公共记忆是有选择性的。"
+      },
+      {
+        "pt": "o monumento",
+        "zh": "纪念碑",
+        "ex": "O monumento foi contestado.",
+        "exZh": "这座纪念碑受到争议。"
+      },
+      {
+        "pt": "a homenagem",
+        "zh": "致敬 / 纪念",
+        "ex": "A homenagem gerou debate.",
+        "exZh": "这次纪念引发了辩论。"
+      },
+      {
+        "pt": "contestado",
+        "zh": "有争议的",
+        "ex": "O projeto é contestado.",
+        "exZh": "这个项目有争议。"
+      },
+      {
+        "pt": "o esquecimento",
+        "zh": "遗忘",
+        "ex": "O esquecimento também é político.",
+        "exZh": "遗忘也是政治性的。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab19",
+    "level": "C1",
+    "order": 151,
+    "isLab": true,
+    "title": "No gabinete da presidente da junta",
+    "zh": "在教区主席办公室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o arrendamento",
+        "zh": "租赁 / 房租",
+        "ex": "O arrendamento subiu muito nos últimos anos.",
+        "exZh": "近年来房租上涨了很多。"
+      },
+      {
+        "pt": "a especulação",
+        "zh": "投机",
+        "ex": "A especulação imobiliária expulsa residentes.",
+        "exZh": "房地产投机迫使居民离开。"
+      },
+      {
+        "pt": "o despejo",
+        "zh": "驱逐 / 迫迁",
+        "ex": "Muitas famílias estão em risco de despejo.",
+        "exZh": "许多家庭面临被驱逐的风险。"
+      },
+      {
+        "pt": "a gentrificação",
+        "zh": "绅士化",
+        "ex": "A gentrificação transformou o centro histórico.",
+        "exZh": "绅士化改变了历史中心。"
+      },
+      {
+        "pt": "as políticas públicas",
+        "zh": "公共政策",
+        "ex": "São necessárias políticas públicas de habitação.",
+        "exZh": "需要公共住房政策。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab20",
+    "level": "C1",
+    "order": 152,
+    "isLab": true,
+    "title": "Numa chamada para o estrangeiro",
+    "zh": "在打往国外的电话",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a diáspora",
+        "zh": "侨民群体",
+        "ex": "A diáspora portuguesa está espalhada pelo mundo.",
+        "exZh": "葡萄牙侨民遍布世界。"
+      },
+      {
+        "pt": "a emigração",
+        "zh": "移居国外",
+        "ex": "A emigração marcou gerações de portugueses.",
+        "exZh": "移居国外影响了几代葡萄牙人。"
+      },
+      {
+        "pt": "a integração",
+        "zh": "融入",
+        "ex": "A integração exige tempo e língua.",
+        "exZh": "融入需要时间和语言。"
+      },
+      {
+        "pt": "a saudade",
+        "zh": "乡愁 / 思念",
+        "ex": "Tenho saudades da minha terra.",
+        "exZh": "我想念我的故乡。"
+      },
+      {
+        "pt": "o regresso",
+        "zh": "归来",
+        "ex": "O regresso a casa foi emocionante.",
+        "exZh": "回家的过程令人动容。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab21",
+    "level": "C1",
+    "order": 153,
+    "isLab": true,
+    "title": "No laboratório costeiro",
+    "zh": "在海岸实验室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a erosão costeira",
+        "zh": "海岸侵蚀",
+        "ex": "A erosão costeira ameaça várias praias.",
+        "exZh": "海岸侵蚀威胁着多处海滩。"
+      },
+      {
+        "pt": "a sustentabilidade",
+        "zh": "可持续性",
+        "ex": "A sustentabilidade não é só uma questão ambiental.",
+        "exZh": "可持续性不只是环境问题。"
+      },
+      {
+        "pt": "a transição energética",
+        "zh": "能源转型",
+        "ex": "A transição energética exige investimento.",
+        "exZh": "能源转型需要投资。"
+      },
+      {
+        "pt": "a pegada",
+        "zh": "足迹",
+        "ex": "Queremos reduzir a pegada de carbono.",
+        "exZh": "我们想减少碳足迹。"
+      },
+      {
+        "pt": "o ordenamento",
+        "zh": "规划 / 整治",
+        "ex": "O ordenamento do território é essencial.",
+        "exZh": "国土规划至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab22",
+    "level": "C1",
+    "order": 154,
+    "isLab": true,
+    "title": "Na bilheteira do museu",
+    "zh": "在博物馆售票处",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o repatriamento",
+        "zh": "遣返 / 归还",
+        "ex": "O repatriamento de obras é debatido.",
+        "exZh": "文物的归还问题正在被讨论。"
+      },
+      {
+        "pt": "o acervo",
+        "zh": "藏品",
+        "ex": "O acervo do museu é vasto.",
+        "exZh": "博物馆的藏品很丰富。"
+      },
+      {
+        "pt": "colonial",
+        "zh": "殖民的",
+        "ex": "O legado colonial é complexo.",
+        "exZh": "殖民遗产很复杂。"
+      },
+      {
+        "pt": "a restituição",
+        "zh": "归还",
+        "ex": "A restituição exige negociação.",
+        "exZh": "归还需要谈判。"
+      },
+      {
+        "pt": "a proveniência",
+        "zh": "来源",
+        "ex": "É preciso investigar a proveniência.",
+        "exZh": "需要调查来源。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab23",
+    "level": "C1",
+    "order": 155,
+    "isLab": true,
+    "title": "No café dos cineastas",
+    "zh": "在电影人的咖啡馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "o realizador",
+        "zh": "导演",
+        "ex": "O realizador apresentou o filme.",
+        "exZh": "导演介绍了这部电影。"
+      },
+      {
+        "pt": "o argumento",
+        "zh": "剧本",
+        "ex": "O argumento é baseado num romance.",
+        "exZh": "剧本改编自一部小说。"
+      },
+      {
+        "pt": "o plano",
+        "zh": "镜头 / 计划",
+        "ex": "Este plano é muito longo.",
+        "exZh": "这个镜头很长。"
+      },
+      {
+        "pt": "a montagem",
+        "zh": "剪辑",
+        "ex": "A montagem dá ritmo ao filme.",
+        "exZh": "剪辑赋予电影节奏。"
+      },
+      {
+        "pt": "a bilheteira",
+        "zh": "票房 / 售票处",
+        "ex": "O filme foi um sucesso de bilheteira.",
+        "exZh": "这部电影票房很成功。"
+      }
+    ]
+  },
+  {
+    "id": "c1lab24",
+    "level": "C1",
+    "order": 156,
+    "isLab": true,
+    "title": "No centro de interpretação",
+    "zh": "在解说中心",
+    "grammar": "Revisão da cena",
+    "wordTarget": "550-650",
+    "vocab": [
+      {
+        "pt": "a memória",
+        "zh": "记忆",
+        "ex": "A memória pública é seletiva.",
+        "exZh": "公共记忆是有选择性的。"
+      },
+      {
+        "pt": "o monumento",
+        "zh": "纪念碑",
+        "ex": "O monumento foi contestado.",
+        "exZh": "这座纪念碑受到争议。"
+      },
+      {
+        "pt": "a homenagem",
+        "zh": "致敬 / 纪念",
+        "ex": "A homenagem gerou debate.",
+        "exZh": "这次纪念引发了辩论。"
+      },
+      {
+        "pt": "contestado",
+        "zh": "有争议的",
+        "ex": "O projeto é contestado.",
+        "exZh": "这个项目有争议。"
+      },
+      {
+        "pt": "o esquecimento",
+        "zh": "遗忘",
+        "ex": "O esquecimento também é político.",
+        "exZh": "遗忘也是政治性的。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab01",
+    "level": "C2",
+    "order": 157,
+    "isLab": true,
+    "title": "Na estante de poesia",
+    "zh": "在诗歌书架前",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o heterónimo",
+        "zh": "异名者",
+        "ex": "Pessoa criou vários heterónimos.",
+        "exZh": "佩索阿创造了多个异名者。"
+      },
+      {
+        "pt": "o fingimento",
+        "zh": "虚构 / 伪装",
+        "ex": "Para Pessoa, o fingimento é criação poética.",
+        "exZh": "对佩索阿来说，虚构就是诗歌创造。"
+      },
+      {
+        "pt": "o desassossego",
+        "zh": "不安 / 不宁",
+        "ex": "O Livro do Desassossego é uma obra fragmentária.",
+        "exZh": "《不安之书》是一部碎片化的作品。"
+      },
+      {
+        "pt": "o verso",
+        "zh": "诗句",
+        "ex": "O verso é livre e íntimo.",
+        "exZh": "诗句自由而私密。"
+      },
+      {
+        "pt": "a alteridade",
+        "zh": "他者性",
+        "ex": "O outro é uma forma de alteridade.",
+        "exZh": "他者是「他者性」的一种形式。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab02",
+    "level": "C2",
+    "order": 158,
+    "isLab": true,
+    "title": "Num jantar de família",
+    "zh": "在家庭晚餐",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a ironia",
+        "zh": "反讽",
+        "ex": "A ironia está no tom, não nas palavras.",
+        "exZh": "反讽在语气里，不在字面上。"
+      },
+      {
+        "pt": "o subentendido",
+        "zh": "言外之意",
+        "ex": "Há um subentendido naquela resposta.",
+        "exZh": "那个回答里另有含义。"
+      },
+      {
+        "pt": "o duplo sentido",
+        "zh": "双关",
+        "ex": "A frase tem um duplo sentido.",
+        "exZh": "这句话有双关。"
+      },
+      {
+        "pt": "à socapa",
+        "zh": "悄悄地",
+        "ex": "Ele sorriu à socapa.",
+        "exZh": "他偷偷笑了。"
+      },
+      {
+        "pt": "gozar",
+        "zh": "开玩笑 / 取笑",
+        "ex": "Estou só a gozar contigo.",
+        "exZh": "我只是在跟你开玩笑。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab03",
+    "level": "C2",
+    "order": 159,
+    "isLab": true,
+    "title": "Numa conversa de rua",
+    "zh": "在街头对话",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "ficar com a pulga atrás da orelha",
+        "zh": "起疑心",
+        "ex": "Fiquei com a pulga atrás da orelha.",
+        "exZh": "我起了疑心。"
+      },
+      {
+        "pt": "meter os pés pelas mãos",
+        "zh": "手忙脚乱 / 搞砸",
+        "ex": "Meta os pés pelas mãos e disse a coisa errada.",
+        "exZh": "他手忙脚乱，说错了话。"
+      },
+      {
+        "pt": "ficar em águas de bacalhau",
+        "zh": "不了了之",
+        "ex": "O plano ficou em águas de bacalhau.",
+        "exZh": "计划不了了之。"
+      },
+      {
+        "pt": "à toa",
+        "zh": "漫无目的地",
+        "ex": "Andámos à toa pela cidade.",
+        "exZh": "我们在城里漫无目的地逛。"
+      },
+      {
+        "pt": "de mãos a abanar",
+        "zh": "空手",
+        "ex": "Saí de lá de mãos a abanar.",
+        "exZh": "我空手而归。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab04",
+    "level": "C2",
+    "order": 160,
+    "isLab": true,
+    "title": "Na tribuna do auditório",
+    "zh": "在礼堂讲台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a retórica",
+        "zh": "修辞",
+        "ex": "A retórica pode unir ou dividir.",
+        "exZh": "修辞可以团结，也可以分裂。"
+      },
+      {
+        "pt": "a persuasão",
+        "zh": "说服",
+        "ex": "A persuasão não depende só de argumentos.",
+        "exZh": "说服不只依赖论点。"
+      },
+      {
+        "pt": "a anáfora",
+        "zh": "首语重复",
+        "ex": "A anáfora repete uma palavra no início.",
+        "exZh": "首语重复在句首重复一个词。"
+      },
+      {
+        "pt": "a repetição",
+        "zh": "重复",
+        "ex": "A repetição cria ritmo.",
+        "exZh": "重复创造节奏。"
+      },
+      {
+        "pt": "o apelo",
+        "zh": "呼吁",
+        "ex": "O discurso termina com um apelo.",
+        "exZh": "演讲以呼吁结束。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab05",
+    "level": "C2",
+    "order": 161,
+    "isLab": true,
+    "title": "Numa entrevista de rádio",
+    "zh": "在电台采访",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o eufemismo",
+        "zh": "委婉语",
+        "ex": "O eufemismo suaviza a realidade.",
+        "exZh": "委婉语柔化现实。"
+      },
+      {
+        "pt": "o subtexto",
+        "zh": "潜台词",
+        "ex": "O subtexto diz mais do que as palavras.",
+        "exZh": "潜台词比字面说得更多。"
+      },
+      {
+        "pt": "o silêncio",
+        "zh": "沉默",
+        "ex": "O silêncio também comunica.",
+        "exZh": "沉默也在传达信息。"
+      },
+      {
+        "pt": "atenuar",
+        "zh": "缓和 / 减轻",
+        "ex": "A linguagem serve para atenuar o conflito.",
+        "exZh": "语言用于缓和冲突。"
+      },
+      {
+        "pt": "insinuar",
+        "zh": "暗示",
+        "ex": "Ele insinuou que havia um problema.",
+        "exZh": "他暗示存在问题。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab06",
+    "level": "C2",
+    "order": 162,
+    "isLab": true,
+    "title": "Numa mesa de tradução",
+    "zh": "在翻译桌旁",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "intraduzível",
+        "zh": "不可译的",
+        "ex": "Saudade é frequentemente considerada intraduzível.",
+        "exZh": "saudade 常被认为不可译。"
+      },
+      {
+        "pt": "a equivalência",
+        "zh": "对等",
+        "ex": "A tradução procura equivalência, não identidade.",
+        "exZh": "翻译追求对等，而非同一。"
+      },
+      {
+        "pt": "a tradução",
+        "zh": "翻译",
+        "ex": "A tradução é uma forma de leitura.",
+        "exZh": "翻译是一种阅读方式。"
+      },
+      {
+        "pt": "a adaptação",
+        "zh": "改编 / 适应",
+        "ex": "Toda a adaptação implica perda.",
+        "exZh": "一切改编都意味着损失。"
+      },
+      {
+        "pt": "perder",
+        "zh": "失去",
+        "ex": "Algo se perde sempre na tradução.",
+        "exZh": "翻译中总会失去一些东西。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab07",
+    "level": "C2",
+    "order": 163,
+    "isLab": true,
+    "title": "No café da livraria",
+    "zh": "在书店咖啡馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o heterónimo",
+        "zh": "异名者",
+        "ex": "Pessoa criou vários heterónimos.",
+        "exZh": "佩索阿创造了多个异名者。"
+      },
+      {
+        "pt": "o fingimento",
+        "zh": "虚构 / 伪装",
+        "ex": "Para Pessoa, o fingimento é criação poética.",
+        "exZh": "对佩索阿来说，虚构就是诗歌创造。"
+      },
+      {
+        "pt": "o desassossego",
+        "zh": "不安 / 不宁",
+        "ex": "O Livro do Desassossego é uma obra fragmentária.",
+        "exZh": "《不安之书》是一部碎片化的作品。"
+      },
+      {
+        "pt": "o verso",
+        "zh": "诗句",
+        "ex": "O verso é livre e íntimo.",
+        "exZh": "诗句自由而私密。"
+      },
+      {
+        "pt": "a alteridade",
+        "zh": "他者性",
+        "ex": "O outro é uma forma de alteridade.",
+        "exZh": "他者是「他者性」的一种形式。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab08",
+    "level": "C2",
+    "order": 164,
+    "isLab": true,
+    "title": "Na esplanada, à noite",
+    "zh": "在夜晚露台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a ironia",
+        "zh": "反讽",
+        "ex": "A ironia está no tom, não nas palavras.",
+        "exZh": "反讽在语气里，不在字面上。"
+      },
+      {
+        "pt": "o subentendido",
+        "zh": "言外之意",
+        "ex": "Há um subentendido naquela resposta.",
+        "exZh": "那个回答里另有含义。"
+      },
+      {
+        "pt": "o duplo sentido",
+        "zh": "双关",
+        "ex": "A frase tem um duplo sentido.",
+        "exZh": "这句话有双关。"
+      },
+      {
+        "pt": "à socapa",
+        "zh": "悄悄地",
+        "ex": "Ele sorriu à socapa.",
+        "exZh": "他偷偷笑了。"
+      },
+      {
+        "pt": "gozar",
+        "zh": "开玩笑 / 取笑",
+        "ex": "Estou só a gozar contigo.",
+        "exZh": "我只是在跟你开玩笑。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab09",
+    "level": "C2",
+    "order": 165,
+    "isLab": true,
+    "title": "No mercado, com um lisboeta",
+    "zh": "和里斯本人在市场",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "ficar com a pulga atrás da orelha",
+        "zh": "起疑心",
+        "ex": "Fiquei com a pulga atrás da orelha.",
+        "exZh": "我起了疑心。"
+      },
+      {
+        "pt": "meter os pés pelas mãos",
+        "zh": "手忙脚乱 / 搞砸",
+        "ex": "Meta os pés pelas mãos e disse a coisa errada.",
+        "exZh": "他手忙脚乱，说错了话。"
+      },
+      {
+        "pt": "ficar em águas de bacalhau",
+        "zh": "不了了之",
+        "ex": "O plano ficou em águas de bacalhau.",
+        "exZh": "计划不了了之。"
+      },
+      {
+        "pt": "à toa",
+        "zh": "漫无目的地",
+        "ex": "Andámos à toa pela cidade.",
+        "exZh": "我们在城里漫无目的地逛。"
+      },
+      {
+        "pt": "de mãos a abanar",
+        "zh": "空手",
+        "ex": "Saí de lá de mãos a abanar.",
+        "exZh": "我空手而归。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab10",
+    "level": "C2",
+    "order": 166,
+    "isLab": true,
+    "title": "No debate televisivo",
+    "zh": "在电视辩论",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a retórica",
+        "zh": "修辞",
+        "ex": "A retórica pode unir ou dividir.",
+        "exZh": "修辞可以团结，也可以分裂。"
+      },
+      {
+        "pt": "a persuasão",
+        "zh": "说服",
+        "ex": "A persuasão não depende só de argumentos.",
+        "exZh": "说服不只依赖论点。"
+      },
+      {
+        "pt": "a anáfora",
+        "zh": "首语重复",
+        "ex": "A anáfora repete uma palavra no início.",
+        "exZh": "首语重复在句首重复一个词。"
+      },
+      {
+        "pt": "a repetição",
+        "zh": "重复",
+        "ex": "A repetição cria ritmo.",
+        "exZh": "重复创造节奏。"
+      },
+      {
+        "pt": "o apelo",
+        "zh": "呼吁",
+        "ex": "O discurso termina com um apelo.",
+        "exZh": "演讲以呼吁结束。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab11",
+    "level": "C2",
+    "order": 167,
+    "isLab": true,
+    "title": "Numa reunião diplomática",
+    "zh": "在外交会议",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o eufemismo",
+        "zh": "委婉语",
+        "ex": "O eufemismo suaviza a realidade.",
+        "exZh": "委婉语柔化现实。"
+      },
+      {
+        "pt": "o subtexto",
+        "zh": "潜台词",
+        "ex": "O subtexto diz mais do que as palavras.",
+        "exZh": "潜台词比字面说得更多。"
+      },
+      {
+        "pt": "o silêncio",
+        "zh": "沉默",
+        "ex": "O silêncio também comunica.",
+        "exZh": "沉默也在传达信息。"
+      },
+      {
+        "pt": "atenuar",
+        "zh": "缓和 / 减轻",
+        "ex": "A linguagem serve para atenuar o conflito.",
+        "exZh": "语言用于缓和冲突。"
+      },
+      {
+        "pt": "insinuar",
+        "zh": "暗示",
+        "ex": "Ele insinuou que havia um problema.",
+        "exZh": "他暗示存在问题。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab12",
+    "level": "C2",
+    "order": 168,
+    "isLab": true,
+    "title": "Na biblioteca, com um tradutor",
+    "zh": "和译者在图书馆",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "intraduzível",
+        "zh": "不可译的",
+        "ex": "Saudade é frequentemente considerada intraduzível.",
+        "exZh": "saudade 常被认为不可译。"
+      },
+      {
+        "pt": "a equivalência",
+        "zh": "对等",
+        "ex": "A tradução procura equivalência, não identidade.",
+        "exZh": "翻译追求对等，而非同一。"
+      },
+      {
+        "pt": "a tradução",
+        "zh": "翻译",
+        "ex": "A tradução é uma forma de leitura.",
+        "exZh": "翻译是一种阅读方式。"
+      },
+      {
+        "pt": "a adaptação",
+        "zh": "改编 / 适应",
+        "ex": "Toda a adaptação implica perda.",
+        "exZh": "一切改编都意味着损失。"
+      },
+      {
+        "pt": "perder",
+        "zh": "失去",
+        "ex": "Algo se perde sempre na tradução.",
+        "exZh": "翻译中总会失去一些东西。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab13",
+    "level": "C2",
+    "order": 169,
+    "isLab": true,
+    "title": "Numa sessão de autógrafos",
+    "zh": "在签售会",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o heterónimo",
+        "zh": "异名者",
+        "ex": "Pessoa criou vários heterónimos.",
+        "exZh": "佩索阿创造了多个异名者。"
+      },
+      {
+        "pt": "o fingimento",
+        "zh": "虚构 / 伪装",
+        "ex": "Para Pessoa, o fingimento é criação poética.",
+        "exZh": "对佩索阿来说，虚构就是诗歌创造。"
+      },
+      {
+        "pt": "o desassossego",
+        "zh": "不安 / 不宁",
+        "ex": "O Livro do Desassossego é uma obra fragmentária.",
+        "exZh": "《不安之书》是一部碎片化的作品。"
+      },
+      {
+        "pt": "o verso",
+        "zh": "诗句",
+        "ex": "O verso é livre e íntimo.",
+        "exZh": "诗句自由而私密。"
+      },
+      {
+        "pt": "a alteridade",
+        "zh": "他者性",
+        "ex": "O outro é uma forma de alteridade.",
+        "exZh": "他者是「他者性」的一种形式。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab14",
+    "level": "C2",
+    "order": 170,
+    "isLab": true,
+    "title": "Num restaurante de tascas",
+    "zh": "在小酒馆餐厅",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a ironia",
+        "zh": "反讽",
+        "ex": "A ironia está no tom, não nas palavras.",
+        "exZh": "反讽在语气里，不在字面上。"
+      },
+      {
+        "pt": "o subentendido",
+        "zh": "言外之意",
+        "ex": "Há um subentendido naquela resposta.",
+        "exZh": "那个回答里另有含义。"
+      },
+      {
+        "pt": "o duplo sentido",
+        "zh": "双关",
+        "ex": "A frase tem um duplo sentido.",
+        "exZh": "这句话有双关。"
+      },
+      {
+        "pt": "à socapa",
+        "zh": "悄悄地",
+        "ex": "Ele sorriu à socapa.",
+        "exZh": "他偷偷笑了。"
+      },
+      {
+        "pt": "gozar",
+        "zh": "开玩笑 / 取笑",
+        "ex": "Estou só a gozar contigo.",
+        "exZh": "我只是在跟你开玩笑。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab15",
+    "level": "C2",
+    "order": 171,
+    "isLab": true,
+    "title": "Num táxi, à noite",
+    "zh": "在夜晚出租车",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "ficar com a pulga atrás da orelha",
+        "zh": "起疑心",
+        "ex": "Fiquei com a pulga atrás da orelha.",
+        "exZh": "我起了疑心。"
+      },
+      {
+        "pt": "meter os pés pelas mãos",
+        "zh": "手忙脚乱 / 搞砸",
+        "ex": "Meta os pés pelas mãos e disse a coisa errada.",
+        "exZh": "他手忙脚乱，说错了话。"
+      },
+      {
+        "pt": "ficar em águas de bacalhau",
+        "zh": "不了了之",
+        "ex": "O plano ficou em águas de bacalhau.",
+        "exZh": "计划不了了之。"
+      },
+      {
+        "pt": "à toa",
+        "zh": "漫无目的地",
+        "ex": "Andámos à toa pela cidade.",
+        "exZh": "我们在城里漫无目的地逛。"
+      },
+      {
+        "pt": "de mãos a abanar",
+        "zh": "空手",
+        "ex": "Saí de lá de mãos a abanar.",
+        "exZh": "我空手而归。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab16",
+    "level": "C2",
+    "order": 172,
+    "isLab": true,
+    "title": "Numa conferência de imprensa",
+    "zh": "在新闻发布会",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a retórica",
+        "zh": "修辞",
+        "ex": "A retórica pode unir ou dividir.",
+        "exZh": "修辞可以团结，也可以分裂。"
+      },
+      {
+        "pt": "a persuasão",
+        "zh": "说服",
+        "ex": "A persuasão não depende só de argumentos.",
+        "exZh": "说服不只依赖论点。"
+      },
+      {
+        "pt": "a anáfora",
+        "zh": "首语重复",
+        "ex": "A anáfora repete uma palavra no início.",
+        "exZh": "首语重复在句首重复一个词。"
+      },
+      {
+        "pt": "a repetição",
+        "zh": "重复",
+        "ex": "A repetição cria ritmo.",
+        "exZh": "重复创造节奏。"
+      },
+      {
+        "pt": "o apelo",
+        "zh": "呼吁",
+        "ex": "O discurso termina com um apelo.",
+        "exZh": "演讲以呼吁结束。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab17",
+    "level": "C2",
+    "order": 173,
+    "isLab": true,
+    "title": "Num jantar oficial",
+    "zh": "在正式晚宴",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o eufemismo",
+        "zh": "委婉语",
+        "ex": "O eufemismo suaviza a realidade.",
+        "exZh": "委婉语柔化现实。"
+      },
+      {
+        "pt": "o subtexto",
+        "zh": "潜台词",
+        "ex": "O subtexto diz mais do que as palavras.",
+        "exZh": "潜台词比字面说得更多。"
+      },
+      {
+        "pt": "o silêncio",
+        "zh": "沉默",
+        "ex": "O silêncio também comunica.",
+        "exZh": "沉默也在传达信息。"
+      },
+      {
+        "pt": "atenuar",
+        "zh": "缓和 / 减轻",
+        "ex": "A linguagem serve para atenuar o conflito.",
+        "exZh": "语言用于缓和冲突。"
+      },
+      {
+        "pt": "insinuar",
+        "zh": "暗示",
+        "ex": "Ele insinuou que havia um problema.",
+        "exZh": "他暗示存在问题。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab18",
+    "level": "C2",
+    "order": 174,
+    "isLab": true,
+    "title": "Num estúdio de legendagem",
+    "zh": "在字幕工作室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "intraduzível",
+        "zh": "不可译的",
+        "ex": "Saudade é frequentemente considerada intraduzível.",
+        "exZh": "saudade 常被认为不可译。"
+      },
+      {
+        "pt": "a equivalência",
+        "zh": "对等",
+        "ex": "A tradução procura equivalência, não identidade.",
+        "exZh": "翻译追求对等，而非同一。"
+      },
+      {
+        "pt": "a tradução",
+        "zh": "翻译",
+        "ex": "A tradução é uma forma de leitura.",
+        "exZh": "翻译是一种阅读方式。"
+      },
+      {
+        "pt": "a adaptação",
+        "zh": "改编 / 适应",
+        "ex": "Toda a adaptação implica perda.",
+        "exZh": "一切改编都意味着损失。"
+      },
+      {
+        "pt": "perder",
+        "zh": "失去",
+        "ex": "Algo se perde sempre na tradução.",
+        "exZh": "翻译中总会失去一些东西。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab19",
+    "level": "C2",
+    "order": 175,
+    "isLab": true,
+    "title": "No clube de leitura",
+    "zh": "在读书会",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o heterónimo",
+        "zh": "异名者",
+        "ex": "Pessoa criou vários heterónimos.",
+        "exZh": "佩索阿创造了多个异名者。"
+      },
+      {
+        "pt": "o fingimento",
+        "zh": "虚构 / 伪装",
+        "ex": "Para Pessoa, o fingimento é criação poética.",
+        "exZh": "对佩索阿来说，虚构就是诗歌创造。"
+      },
+      {
+        "pt": "o desassossego",
+        "zh": "不安 / 不宁",
+        "ex": "O Livro do Desassossego é uma obra fragmentária.",
+        "exZh": "《不安之书》是一部碎片化的作品。"
+      },
+      {
+        "pt": "o verso",
+        "zh": "诗句",
+        "ex": "O verso é livre e íntimo.",
+        "exZh": "诗句自由而私密。"
+      },
+      {
+        "pt": "a alteridade",
+        "zh": "他者性",
+        "ex": "O outro é uma forma de alteridade.",
+        "exZh": "他者是「他者性」的一种形式。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab20",
+    "level": "C2",
+    "order": 176,
+    "isLab": true,
+    "title": "No balcão do café",
+    "zh": "在咖啡馆吧台",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a ironia",
+        "zh": "反讽",
+        "ex": "A ironia está no tom, não nas palavras.",
+        "exZh": "反讽在语气里，不在字面上。"
+      },
+      {
+        "pt": "o subentendido",
+        "zh": "言外之意",
+        "ex": "Há um subentendido naquela resposta.",
+        "exZh": "那个回答里另有含义。"
+      },
+      {
+        "pt": "o duplo sentido",
+        "zh": "双关",
+        "ex": "A frase tem um duplo sentido.",
+        "exZh": "这句话有双关。"
+      },
+      {
+        "pt": "à socapa",
+        "zh": "悄悄地",
+        "ex": "Ele sorriu à socapa.",
+        "exZh": "他偷偷笑了。"
+      },
+      {
+        "pt": "gozar",
+        "zh": "开玩笑 / 取笑",
+        "ex": "Estou só a gozar contigo.",
+        "exZh": "我只是在跟你开玩笑。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab21",
+    "level": "C2",
+    "order": 177,
+    "isLab": true,
+    "title": "Na fila do cinema",
+    "zh": "在电影院排队",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "ficar com a pulga atrás da orelha",
+        "zh": "起疑心",
+        "ex": "Fiquei com a pulga atrás da orelha.",
+        "exZh": "我起了疑心。"
+      },
+      {
+        "pt": "meter os pés pelas mãos",
+        "zh": "手忙脚乱 / 搞砸",
+        "ex": "Meta os pés pelas mãos e disse a coisa errada.",
+        "exZh": "他手忙脚乱，说错了话。"
+      },
+      {
+        "pt": "ficar em águas de bacalhau",
+        "zh": "不了了之",
+        "ex": "O plano ficou em águas de bacalhau.",
+        "exZh": "计划不了了之。"
+      },
+      {
+        "pt": "à toa",
+        "zh": "漫无目的地",
+        "ex": "Andámos à toa pela cidade.",
+        "exZh": "我们在城里漫无目的地逛。"
+      },
+      {
+        "pt": "de mãos a abanar",
+        "zh": "空手",
+        "ex": "Saí de lá de mãos a abanar.",
+        "exZh": "我空手而归。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab22",
+    "level": "C2",
+    "order": 178,
+    "isLab": true,
+    "title": "No parlamento",
+    "zh": "在议会",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "a retórica",
+        "zh": "修辞",
+        "ex": "A retórica pode unir ou dividir.",
+        "exZh": "修辞可以团结，也可以分裂。"
+      },
+      {
+        "pt": "a persuasão",
+        "zh": "说服",
+        "ex": "A persuasão não depende só de argumentos.",
+        "exZh": "说服不只依赖论点。"
+      },
+      {
+        "pt": "a anáfora",
+        "zh": "首语重复",
+        "ex": "A anáfora repete uma palavra no início.",
+        "exZh": "首语重复在句首重复一个词。"
+      },
+      {
+        "pt": "a repetição",
+        "zh": "重复",
+        "ex": "A repetição cria ritmo.",
+        "exZh": "重复创造节奏。"
+      },
+      {
+        "pt": "o apelo",
+        "zh": "呼吁",
+        "ex": "O discurso termina com um apelo.",
+        "exZh": "演讲以呼吁结束。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab23",
+    "level": "C2",
+    "order": 179,
+    "isLab": true,
+    "title": "No gabinete do ministro",
+    "zh": "在部长办公室",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "o eufemismo",
+        "zh": "委婉语",
+        "ex": "O eufemismo suaviza a realidade.",
+        "exZh": "委婉语柔化现实。"
+      },
+      {
+        "pt": "o subtexto",
+        "zh": "潜台词",
+        "ex": "O subtexto diz mais do que as palavras.",
+        "exZh": "潜台词比字面说得更多。"
+      },
+      {
+        "pt": "o silêncio",
+        "zh": "沉默",
+        "ex": "O silêncio também comunica.",
+        "exZh": "沉默也在传达信息。"
+      },
+      {
+        "pt": "atenuar",
+        "zh": "缓和 / 减轻",
+        "ex": "A linguagem serve para atenuar o conflito.",
+        "exZh": "语言用于缓和冲突。"
+      },
+      {
+        "pt": "insinuar",
+        "zh": "暗示",
+        "ex": "Ele insinuou que havia um problema.",
+        "exZh": "他暗示存在问题。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab24",
+    "level": "C2",
+    "order": 180,
+    "isLab": true,
+    "title": "Numa feira do livro",
+    "zh": "在书展",
+    "grammar": "Revisão da cena",
+    "wordTarget": "700-850",
+    "vocab": [
+      {
+        "pt": "intraduzível",
+        "zh": "不可译的",
+        "ex": "Saudade é frequentemente considerada intraduzível.",
+        "exZh": "saudade 常被认为不可译。"
+      },
+      {
+        "pt": "a equivalência",
+        "zh": "对等",
+        "ex": "A tradução procura equivalência, não identidade.",
+        "exZh": "翻译追求对等，而非同一。"
+      },
+      {
+        "pt": "a tradução",
+        "zh": "翻译",
+        "ex": "A tradução é uma forma de leitura.",
+        "exZh": "翻译是一种阅读方式。"
+      },
+      {
+        "pt": "a adaptação",
+        "zh": "改编 / 适应",
+        "ex": "Toda a adaptação implica perda.",
+        "exZh": "一切改编都意味着损失。"
+      },
+      {
+        "pt": "perder",
+        "zh": "失去",
+        "ex": "Algo se perde sempre na tradução.",
+        "exZh": "翻译中总会失去一些东西。"
+      }
+    ]
+  }
+]

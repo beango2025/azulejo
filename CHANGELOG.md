@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.0.0 — 2026-11-19
+
+- Replaced the short five-line readings with 180 CAPLE-oriented exam texts.
+- Added CEFR/CAPLE length targets: A1 140–180, A2 180–230, B1 280–340, B2 420–500, C1 550–650, C2 700–850 words.
+- Added 4 comprehension questions per text; listening now uses the full text (1.5–6 minutes) instead of the short media excerpt.
+- Kept the media dialogue link for extra listening/speaking, but reading and listening are now exam-length.
+- Added `content/lesson-briefs.json`, `content/readings-*.json`, `tools/build-readings.mjs` and generated `js/readings.js`.
+- Bumped the service worker cache to `azulejo-v2.0.0`.
+
 ## 1.8.0 — 2026-11-19
 
 - Gave every practice lab its own distinct scene; all 180 lessons now have unique titles.

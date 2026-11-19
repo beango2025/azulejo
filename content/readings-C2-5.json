@@ -1,0 +1,237 @@
+[
+  {
+    "id": "c2lab15",
+    "title": "A cidade que não chega",
+    "text": "São duas e dez da manhã e o táxi espera em frente a uma casa de fados que já não é bem uma casa de fados: é uma «experiência», palavra que se instalou na cidade como o cheiro a humidade nas paredes antigas. O motorista chama-se Aurélio, tem sessenta e três anos e o ar de quem já transportou todas as versões de Lisboa, incluindo as que ainda não existem. «Ainda vai a tempo de desistir», diz-me ele, e fico sem saber se fala do destino que lhe indiquei ou da noite em geral.\n\nAurélio tem uma teoria, e as teorias dos taxistas merecem, ao menos, o benefício da dúvida. Segundo ele, toda a gente que anda à noite procura uma coisa que perdeu de dia, e a cidade, que o sabe, cobra essa procura ao minuto. «O senhor é escritor?», pergunta. Digo que não. «Melhor. Os escritores nunca sabem para onde vão e depois queixam-se do preço.» Ri-se sozinho, satisfeito com a máxima, e durante uns minutos seguimos em silêncio, que é o único luxo verdadeiramente gratuito que ainda resta nesta cidade.\n\nO percurso é o de sempre: o Cais do Sodré, a Ribeira, a subida para o Chiado com o motor a queixar-se em segunda. Nas paredes, cartazes anunciam a noite de Lisboa como se ela fosse um produto com denominação de origem — «Lisboa, cidade da noite», «a noite mais autêntica da Europa» —, e a repetição do slogan produz um efeito curioso: quanto mais se anuncia a autenticidade, mais evidente fica a sua fabricação. As filas à porta dos bares têm reserva, os DJ têm hora marcada, e até o improviso, esse bem tão português, passou a ser programado com duas semanas de antecedência. Andar à toa tornou-se, para o visitante, uma atividade com bilhete; para o residente, um privilégio que se pratica às escondidas, como quem fuma numa varanda.\n\nConto-lhe que um amigo meu quis abrir um bar na Mouraria, um sítio pequeno, com dez mesas e um gira-discos. Durante um ano falou-me do projeto com aquela convicção que só os projetos não realizados conhecem. Depois, as obras atrasaram, o senhorio mudou de ideias, o licenciamento pediu um documento que ninguém sabia emitir. Em Lisboa, ficar em águas de bacalhau não é um acidente: é uma tradição com plantas e licenças. O bar do meu amigo não resistiu à terceira prorrogação, e o gira-discos acabou vendido a um alemão que o trata como peça de museu. Aurélio ouve sem interromper e, no fim, diz apenas: «Já vi muitos assim. O pior não é o dinheiro. É que a pessoa continua a passar à porta.»\n\nHá, naquela última frase, uma sabedoria que não se aprende em lado nenhum. Pergunto-lhe se ele próprio já tentou. Tentou: uma oficina de bicicletas em Alcântara, no tempo em que as bicicletas ainda eram uma promessa e não um engarrafamento. «Meti os pés pelas mãos», diz, e conta a história quase sem adjetivos, o que a torna mais difícil de ouvir: o sócio que desapareceu, o empréstimo, os dois anos a conduzir de noite para pagar o que faltava. Aprender a andar é, muitas vezes, meter os pés pelas mãos, mas ele não parece consolado com a máxima. Não se queixa; descreve. E é essa ausência de queixa que dá à história o seu peso, porque a queixa é uma forma de esperança e ele já não tem nenhuma.\n\nSugiro-lhe que a cidade, afinal, também dá coisas. «Dá», concorda. «Dá uma frase por noite. Hoje já tenho duas.» Uma delas é minha, e não me orgulho dela. Falamos então dos que saem de Lisboa de mãos a abanar — o rapaz que veio do Norte para trabalhar num hotel, a mulher que fechou a loja de discos, os que aparecem nas estatísticas com a designação elegante de «mobilidade residencial» —, e Aurélio diz que a cidade não os expulsa com violência, expulsa com contas. A violência seria mais fácil de denunciar; o que se faz com uma folha de cálculo não cabe numa manifestação.\n\nQuando chegamos, o taxímetro marca nove euros e quarenta. Pago, ele agradece e deseja-me boa noite com uma cortesia de outra época. Já com a janela aberta, pergunta se eu acredito na história da oficina. Digo que acredito. «Fez mal», responde, e arranca. Em Lisboa, ficar com a pulga atrás da orelha não é defeito: é o começo da sabedoria, dizia o meu avô. Fiquei com a pulga atrás da orelha, mas não por causa da oficina. Fiquei porque percebi que a cidade também se faz disto: de histórias repetidas até se tornarem verdadeiras, e de um homem que, ao contá-la pela enésima vez, me pagava com a única moeda que tinha.",
+    "questions": [
+      {
+        "q": "Segundo a teoria que Aurélio expõe ao narrador, quem anda à noite em Lisboa",
+        "options": [
+          "procura algo que perdeu durante o dia, e a cidade cobra-lhe essa procura.",
+          "trabalha por turnos e não tem outro horário disponível.",
+          "vai à procura de bares autênticos que ainda não tenham reserva."
+        ],
+        "answer": "procura algo que perdeu durante o dia, e a cidade cobra-lhe essa procura.",
+        "explain": "第二段明确写道：据他看，「toda a gente que anda à noite procura uma coisa que perdeu de dia, e a cidade… cobra essa procura ao minuto」。"
+      },
+      {
+        "q": "Ao responder «Fez mal» à declaração de que o narrador acredita na história da oficina, Aurélio sugere que",
+        "options": [
+          "o narrador devia ter pago mais do que a corrida indicava.",
+          "a história foi inventada ou pelo menos ensaiada muitas vezes.",
+          "a oficina de bicicletas ainda existe e pode ser visitada."
+        ],
+        "answer": "a história foi inventada ou pelo menos ensaiada muitas vezes.",
+        "explain": "结尾他先问「你信吗」，得到肯定回答后却说「你错了」，又说故事讲了很多遍；叙述者随后意识到这是「反复讲到自己成真」的故事，故为反讽式暗示。"
+      },
+      {
+        "q": "O tom dominante do texto é",
+        "options": [
+          "de entusiasmo turístico pela vida noturna lisboeta.",
+          "de denúncia panfletária contra os motoristas de táxi.",
+          "de ironia melancólica, atenta às pequenas perdas da cidade."
+        ],
+        "answer": "de ironia melancólica, atenta às pequenas perdas da cidade.",
+        "explain": "文中讽刺旅游口号与「autenticidade」的制造，又对司机与被城市「用账单赶走」的人抱有同情，语气是克制的反讽与惆怅。"
+      },
+      {
+        "q": "No contexto do texto, a expressão «de mãos a abanar» designa",
+        "options": [
+          "quem recusa ajuda por orgulho e prefere partir.",
+          "quem sai da cidade sem ter conseguido nada do que esperava.",
+          "quem chega a Lisboa com as mãos vazias de bagagem."
+        ],
+        "answer": "quem sai da cidade sem ter conseguido nada do que esperava.",
+        "explain": "此处列举「o rapaz que veio do Norte…」「a mulher que fechou a loja…」，都是在里斯本一无所获而离开的人，故为「空手」。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab16",
+    "title": "Nada a acrescentar",
+    "text": "A sala chama-se B, tem o teto baixo dos hotéis que se querem discretos e um ar condicionado que trabalha demasiado. Às dez e cinquenta e nove, os lugares estão marcados com folhas A4 onde se lê o nome da redação; às onze, entra o homem que todos vieram ouvir e a primeira coisa que faz é pedir que se abram as janelas, como se a transparência se resolvesse por ventilação. Do lado esquerdo, quatro câmaras já montadas esperam o momento em que ele se senta; do direito, uma mesa com garrafas de água e um cartão onde se lê o nome de uma empresa que patrocina o encontro sem que ninguém saiba explicar o que faz. A conferência de imprensa é um género teatral com regras próprias, e a primeira regra é que ninguém deve parecer estar a representar.\n\nA declaração inicial foi lida de uma folha, o que hoje é quase uma ousadia: a maioria dos porta-vozes decora o texto para parecer que o improvisa. Leu devagar, com pausas nos sítios certos, e olhou para a sala três vezes, sempre ao mesmo intervalo. Chamo-lhe a retórica da sala limpa: nenhuma palavra fora do lugar, nenhum adjetivo que se possa citar contra quem o disse, nenhuma frase que comece por «eu». Nos copos, a água aquece; nos telefones, as notificações acumulam-se; e ele continua, como quem cumpre um ritual que não inventou mas que domina.\n\nDepois vieram as perguntas e, com elas, o momento a que eu tinha ido assistir. «Vamos ouvir», disse ele. «Vamos dialogar. Vamos decidir.» A figura tem nome antigo — a anáfora — e a sua eficácia não está naquilo que promete, mas no ritmo: quem ouve três começos iguais espera um fim que os cumpra. O eco do verbo modal faz o trabalho que o conteúdo não faz, e a sala, sem se dar conta, passa a bater o compasso.\n\nSeguiu-se a repetição dos números — trinta e dois por cento, até ao fim do ano; trinta e dois por cento, até ao fim do ano —, dita com a paciência de quem já a disse noutras salas e sabe que o número, repetido, deixa de ser uma medida e passa a ser uma melodia. Ao contrário da prova, a persuasão não exige que se tenha razão; exige que se tenha tempo, voz e uma plateia disposta a confundir segurança com competência.\n\nHouve também a pergunta combinada, que se reconhece de longe: vem de alguém que já não faz perguntas ou que faz apenas aquelas que convém que sejam feitas. «Não sei se o senhor me permite», começou ela, e ele permitiu, e durante dois minutos a sala assistiu a um número de ventriloquia em que a única coisa genuína era o cansaço dos assessores. O jornalista que pergunta o que já sabe não é um jornalista: é um adereço de cena.\n\nNo fim, veio o apelo. «Apelo a todos», disse, «a todos os que têm responsabilidades.» Foi então que o género revelou a sua estrutura profunda: o apelo é o momento em que o orador deixa de responder e passa a convocar, transferindo para a assistência a obrigação de fazer aquilo que ele não fez. O conflito, que era político, transforma-se em dever moral, e quem discordar fica automaticamente do lado dos irresponsáveis. É uma jogada antiga, tão antiga que já ninguém a estranha.\n\nAs perguntas duraram dezoito minutos. Um colega insistiu três vezes na mesma questão e recebeu três respostas diferentes, todas verdadeiras, nenhuma sobre a questão. Eu levara uma pergunta sobre o relatório e, ao microfone, percebi que a tinha construído mal: era longa, tinha uma subordinada a mais e oferecia ao outro a parte fácil. Ele respondeu à parte fácil. «Não tenho nada a acrescentar», disse por fim, e a frase, que parecia um fecho, era na verdade a abertura de outra coisa.\n\nSaímos todos satisfeitos, cada um com o seu material. O fotógrafo tinha o gesto; a televisão tinha a frase; eu tinha a anáfora e a consciência incómoda de ter assistido a uma coisa bem feita. É esse o problema destes espetáculos: funcionam. No dia seguinte, ninguém recordará uma única frase, mas todos se lembrarão de que ele esteve bem, e é com essa lembrança difusa que se administra a atenção pública. Nada foi dito e tudo foi dito, e o título que se pode escrever — «governante garante compromisso» — é simultaneamente verdadeiro e falso, o que talvez seja a definição exata de uma conferência de imprensa. Nada a acrescentar.",
+    "questions": [
+      {
+        "q": "A «retórica da sala limpa» consiste, segundo o autor, em",
+        "options": [
+          "abrir as janelas da sala para mostrar que não há nada a esconder.",
+          "falar sem hesitações, empregando apenas palavras que não possam ser usadas contra o orador.",
+          "responder às perguntas dos jornalistas por ordem de importância."
+        ],
+        "answer": "falar sem hesitações, empregando apenas palavras que não possam ser usadas contra o orador.",
+        "explain": "第三段定义：「nenhuma palavra fora do lugar, nenhum adjetivo que se possa citar contra quem o disse, nenhuma frase que comece por «eu»」，即措辞无懈可击。"
+      },
+      {
+        "q": "A anáfora («Vamos ouvir. Vamos dialogar. Vamos decidir.») é eficaz porque",
+        "options": [
+          "cria um ritmo que faz o público esperar um desfecho que corresponda às promessas.",
+          "enumera com precisão as medidas que vão ser tomadas.",
+          "permite ao orador falar mais depressa do que os jornalistas."
+        ],
+        "answer": "cria um ritmo que faz o público esperar um desfecho que corresponda às promessas.",
+        "explain": "第三段说其效力「não está naquilo que promete, mas no ritmo」，三个相同开头让听众期待一个兑现承诺的结尾，即节奏取代内容。"
+      },
+      {
+        "q": "O narrador considera a sua própria pergunta mal construída porque",
+        "options": [
+          "repetia uma pergunta que outro jornalista já tinha feito.",
+          "foi feita em tom agressivo e indispôs o orador contra mim.",
+          "era demasiado longa e dava ao orador a possibilidade de responder apenas à parte fácil."
+        ],
+        "answer": "era demasiado longa e dava ao orador a possibilidade de responder apenas à parte fácil.",
+        "explain": "第七段自陈：问题「era longa, tinha uma subordinada a mais e oferecia ao outro a parte fácil」，对方果然只答了容易的部分。"
+      },
+      {
+        "q": "A atitude final do narrador face à conferência de imprensa pode descrever-se como",
+        "options": [
+          "de indignação moral que o leva a recusar escrever notícia.",
+          "de resignação crítica: reconhece que o espetáculo funciona e que isso é o problema.",
+          "de admiração sincera pela competência técnica do governante."
+        ],
+        "answer": "de resignação crítica: reconhece que o espetáculo funciona e que isso é o problema.",
+        "explain": "末段说「Saímos todos satisfeitos… É esse o problema destes espetáculos: funcionam」，语气是带着嘲讽的无奈接受，而非愤怒或钦佩。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab17",
+    "title": "Uma questão de contexto",
+    "text": "O jantar é às oito e meia e o convite diz «traje formal», o que em Lisboa significa que metade dos convidados aparecerá de fato escuro e a outra metade de fato escuro sem gravata, numa negociação silenciosa sobre o grau de seriedade que se pretende comunicar. O lugar de cada um está marcado por um cartão; o meu fica entre uma jurista e o diretor de uma fundação, longe do anfitrião, o que é uma forma elegante de dizer que não sou importante e uma forma prática de me deixar observar.\n\nOs convidados chegam em grupos de dois ou três e cumprimentam-se com aquela efusão controlada que dura exatamente o tempo necessário para se ver quem chegou depois. Há um protocolo não escrito para os copos: não se bebe antes do primeiro brinde, mas todos bebem, porque a regra serve precisamente para ser violada com discrição. O anfitrião circula com a competência de quem já fez isto cem vezes e sabe que a sua função é produzir a impressão de que nada foi preparado.\n\nA conversa de uma mesa destas não se improvisa: obedece a uma gramática. Começa-se pelo tempo, passa-se pela saúde dos que não vieram e só depois se entra no assunto, que nunca é nomeado. O tema do jantar é sempre outro: a cultura, a cidade, o país, o futuro — palavras grandes que servem para não dizer nada de concreto. Chamo-lhe o eufemismo de serviço: a arte de nomear as coisas pelo lado que não corta. Não há despedimentos, há «reequilíbrios de quadro»; não há atrasos, há «calendarizações»; não há conflito, há «uma questão de contexto».\n\nAo meu lado, o diretor da fundação explica à jurista que a instituição está a atravessar «um momento de reestruturação». A palavra é dita com um sorriso e recebida com um aceno, e é preciso saber que reestruturação, naquele dialeto, significa que vinte e três pessoas vão perder o emprego em janeiro. A jurista pergunta quantas. Ele responde que «o processo ainda está a decorrer». Ela não insiste. Compreendo, então, que a função do eufemismo não é enganar: é dar a ambos a possibilidade de continuarem à mesa sem terem de decidir se são cúmplices.\n\nHá um momento, porém, em que a máquina range. Alguém — um professor reformado, que ninguém sabe bem por que foi convidado — diz que a cidade está a expulsar os jovens e que isso não é um efeito colateral, é uma política. A mesa cala-se, e o silêncio dura o tempo de um prato, mais eloquente do que tudo o que se dissera antes: não é ausência de linguagem, é pontuação. O criado, que serve o vinho, é o único que diz o que as coisas são: «É tinto, senhor professor.» Nesse instante, todos olham para os pratos, e durante uns segundos o jantar é apenas comida, o que é, talvez, a sua forma mais honesta.\n\nDepois do café, o anfitrião faz o brinde. Fala durante seis minutos sem consultar notas, elogia «a visão» de um ausente, agradece «a disponibilidade» de outro e, a certa altura, começa a insinuar que certos projetos «talvez tenham de esperar por tempos melhores», olhando, ao dizê-lo, para o lugar vazio do secretário de Estado. Ninguém brinda por nada em concreto, e é justamente por isso que o brinde dura tanto. Ninguém o diz, mas ali o subtexto é tão espesso que se poderia cortar à faca: o brinde não é sobre o que se celebra, é sobre o que se avisa.\n\nPergunto-me, no táxi de regresso, se tudo isto é apenas hipocrisia. Não creio. A hipocrisia é individual e clandestina; o que ali se pratica é uma forma coletiva de atenuar o conflito, uma tecnologia social que permitiu a este país atravessar séculos de desacordo sem se destruir. Tem um custo alto — ninguém sai daquela sala a saber o que foi decidido —, mas também tem uma vantagem: as pessoas continuam a falar. Em certos lugares do mundo, o desacordo resolve-se de outra maneira, e não é melhor. E, no entanto, quando a jurista se despede do diretor com um beijo na face, o gesto é verdadeiro.\n\nJá na rua, a jurista, que apanha o mesmo táxi, pergunta-me o que achei. Digo que foi interessante. «Foi», responde ela, «uma questão de contexto.» Rimo-nos os dois, porque a expressão, que ainda há uma hora servia para não dizer nada, serve agora para dizer tudo: que ambos sabemos o que se passou e que nenhum de nós o vai escrever.",
+    "questions": [
+      {
+        "q": "A descrição do «traje formal» serve para mostrar que",
+        "options": [
+          "o grau de formalidade é objeto de uma negociação social implícita entre os convidados.",
+          "os convidados desconhecem as regras de etiqueta da cidade de Lisboa.",
+          "o anfitrião exige gravata a todos os que se sentam à mesa."
+        ],
+        "answer": "o grau de formalidade é objeto de uma negociação social implícita entre os convidados.",
+        "explain": "第一段说一半人穿深色西装、一半人穿深色西装不打领带，形成「numa negociação silenciosa sobre o grau de seriedade」，即正式程度是默契协商的结果。"
+      },
+      {
+        "q": "A palavra «reestruturação», no contexto do jantar, oculta o facto de",
+        "options": [
+          "a fundação estar prestes a mudar de instalações.",
+          "o diretor se preparar para abandonar o cargo.",
+          "vinte e três pessoas irem perder o emprego em janeiro."
+        ],
+        "answer": "vinte e três pessoas irem perder o emprego em janeiro.",
+        "explain": "第四段明确说，「naquele dialeto」reestruturação 意味着「vinte e três pessoas vão perder o emprego em janeiro」。"
+      },
+      {
+        "q": "Quando o professor reformado fala da expulsão dos jovens, o silêncio da mesa funciona como",
+        "options": [
+          "um sinal de concordância geral com a afirmação feita.",
+          "uma forma de pressão e de desconforto que diz mais do que qualquer resposta.",
+          "uma pausa protocolar antes da sobremesa."
+        ],
+        "answer": "uma forma de pressão e de desconforto que diz mais do que qualquer resposta.",
+        "explain": "第五段说这沉默「mais eloquente do que tudo o que se dissera antes」，是「pontuação」而非语言缺失，随后无人接话，说明是压力与尴尬。"
+      },
+      {
+        "q": "O tom do narrador perante a sociedade descrita é",
+        "options": [
+          "de condenação moral total e de recusa de qualquer convivência.",
+          "de entusiasmo pela elegância e pela subtileza dos códigos.",
+          "de observação distanciada e ironicamente cúmplice, sem condenação absoluta."
+        ],
+        "answer": "de observação distanciada e ironicamente cúmplice, sem condenação absoluta.",
+        "explain": "末段他承认这套机制让国家「atravessar séculos de desacordo sem se destruir」，还说自己和法学家一起笑，说明距离感中带有默契，而非彻底谴责或赞赏。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab18",
+    "title": "O que cabe numa linha",
+    "text": "O estúdio fica no terceiro andar de um edifício sem janelas viradas para a rua, o que é apropriado: quem legenda passa o dia dentro de imagens que não são suas. Duas mesas, dois monitores, um computador antigo que ainda corre o programa de sempre e uma cafeteira cujo café ninguém bebe até estar frio. Teresa tem cinquenta e quatro anos e trinta de legendagem; diz que o ofício é de relojoeiro e que a única coisa que aprendeu foi a contar. Na parede, um quadro de cortiça com horários e um postal de Sintra desbotado; no chão, cabos que ninguém se atreve a mexer.\n\nAs regras são poucas e implacáveis: quarenta e dois caracteres por linha, duas linhas no máximo, dezassete caracteres por segundo, seis segundos por legenda. Se a fala é mais rápida do que a leitura, alguma coisa tem de sair. Legendar é escolher, e escolher é perder — a frase é dela, e repete-a como quem recita um artigo de lei. A regra dos seis segundos não vem de nenhum estudo: vem do hábito dos espetadores, que aprenderam a ler assim e protestam quando a legenda fica mais tempo.\n\nAprendeu a contar nos primeiros meses, quando trabalhava em documentários e tinha de sincronizar falas com imagens de arquivo. Hoje conta sem pensar: olha para uma boca a mexer e sabe quantos caracteres cabem. É uma competência estranha, que não se exibe em jantares e que desaparece no dia em que se reformar. «Isto não fica para a história», diz, «fica para a memória de quem viu.» Teresa conta que, nos anos noventa, legendou um filme inteiro com um dicionário em cima do joelho, porque não havia internet na sala.\n\nNaquele dia, a cena era difícil. Uma mulher velha, à porta de casa, diz uma frase de sete palavras e a frase contém saudade. Teresa escreve «longing», apaga; escreve «missing», apaga; escreve «the ache of missing» e fica a olhar para o ecrã. «É intraduzível», diz ela, «e é por isso que dá trabalho: se fosse traduzível, bastava procurar.» O problema não é a palavra, é o corpo da atriz, que faz uma pausa onde a frase não tem vírgula.\n\nA equivalência é o critério oficial: procurar o mesmo efeito, não a mesma palavra. Mas a equivalência, ao contrário do que se pensa, não é uma medida técnica; é uma aposta. Quem decide que «the ache of missing» produz em inglês o que saudade produz em português está a fazer uma afirmação sobre duas culturas, e não há laboratório que a valide. Teresa discorda em silêncio e depois diz que a fidelidade é uma palavra de críticos, não de legendadores. É desse risco calculado que vive a tradução; e o legendador, que trabalha depressa e mal pago, é muitas vezes o único leitor atento que um argumento terá.\n\nA indústria, entretanto, apropriou-se do termo «adaptação» e usa-o para quase tudo: a adaptação, no vocabulário do setor, é reescrever para um público, cortar para um mercado, dobrar para outro país. Nos corredores, fala-se de prazos e de orçamentos, nunca de frases; e, no entanto, é de frases que tudo depende. Nas plataformas, a legenda automática já chega antes de qualquer humano e as suas gralhas tornaram-se uma forma de folclore. Teresa não é apocalíptica: diz que a máquina acerta no previsível e falha exatamente onde começa o cinema — no que uma personagem quer dizer quando diz outra coisa.\n\nAo fim da tarde, passamos à legendagem para surdos, que é outro ofício dentro do mesmo. Ali não basta traduzir: é preciso descrever o som — «porta a bater», «música tensa» — e decidir o que conta como informação. Nesse trabalho, o que se perde na palavra ganha-se na atenção: quem não ouve recebe, por escrito, aquilo que quem ouve nem repara que ouviu. Há quem diga que esse trabalho é menor; Teresa acha que é o mais exigente, porque obriga a decidir o que é som e o que é sentido.\n\nVejo o episódio em casa, já de noite, e reconheço a cena. A legenda aparece e desaparece em dois segundos e meio, como sempre, e no entanto a frase ficou. Percebo então o que Teresa quis dizer com aquilo de o ofício ser de relojoeiro: não se trata de conservar tudo, trata-se de acertar o pouco que cabe numa linha, sabendo que alguém, do outro lado, está a ler e a perder também — e que o que se perde não tem nome.",
+    "questions": [
+      {
+        "q": "Segundo o texto, as regras técnicas da legendagem implicam que",
+        "options": [
+          "as legendas devem reproduzir integralmente o diálogo original.",
+          "cada linha pode conter até setenta caracteres, desde que fique legível.",
+          "o legendador tem de suprimir parte da fala, porque a leitura é mais lenta do que a oralidade."
+        ],
+        "answer": "o legendador tem de suprimir parte da fala, porque a leitura é mais lenta do que a oralidade.",
+        "explain": "第二段列出「quarenta e dois caracteres por linha… dezassete caracteres por segundo」，并说若语速快于阅读速度「alguma coisa tem de sair」，即必须删减。"
+      },
+      {
+        "q": "A hesitação de Teresa entre «longing», «missing» e «the ache of missing» mostra que",
+        "options": [
+          "a tradução procura um efeito equivalente e não uma correspondência exata de palavras.",
+          "ela desconhece o vocabulário inglês suficiente para traduzir a cena.",
+          "a palavra saudade não tem qualquer sentido em português."
+        ],
+        "answer": "a tradução procura um efeito equivalente e não uma correspondência exata de palavras.",
+        "explain": "第四、五段说明「intraduzível」在于找不到对应词，而「equivalência」追求的是效果对等，故她反复改写以逼近效果。"
+      },
+      {
+        "q": "A atitude de Teresa face à tradução automática é",
+        "options": [
+          "de confiança total nas vantagens das plataformas.",
+          "cética mas não apocalíptica: reconhece acertos no previsível e falhas no essencial.",
+          "de recusa absoluta, por considerar a máquina inútil em todos os casos."
+        ],
+        "answer": "cética mas não apocalíptica: reconhece acertos no previsível e falhas no essencial.",
+        "explain": "第六段明说「Teresa não é apocalíptica」，机器「acerta no previsível」却「falha exatamente onde começa o cinema」，故是有保留的怀疑。"
+      },
+      {
+        "q": "A legendagem para surdos é apresentada como um trabalho em que",
+        "options": [
+          "aquilo que se perde na palavra se compensa com a descrição dos sons e da informação não verbal.",
+          "se aplicam exatamente as mesmas regras da legendagem comum.",
+          "a tradução se torna dispensável, por o som ser descrito por escrito."
+        ],
+        "answer": "aquilo que se perde na palavra se compensa com a descrição dos sons e da informação não verbal.",
+        "explain": "第七段说这种工作要描写声音（「porta a bater」「música tensa」），并总结「o que se perde na palavra ganha-se na atenção」。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab19",
+    "title": "Quem escreve quando leio",
+    "text": "O clube de leitura reúne-se às terças, às sete, na cave de uma livraria de Campo de Ourique, entre caixas de novidades e um cartaz de um escritor que já morreu. São dez cadeiras, doze pessoas, e um acordo tácito: cada um traz o livro lido e uma frase para dizer. O livro do mês é um romance sobre a última noite de Pessoa, e a escolha, feita por votação, já diz muito sobre o que se procura hoje na literatura: um morto ilustre, uma cidade reconhecível e a promessa de que, no fim, tudo se explica.\n\nComeça sempre pela mesma pergunta — «quem quer começar?» — e segue-se o ritual: cada um diz uma coisa, e a coisa que diz revela mais sobre quem a diz do que sobre o livro. Há quem cite o verso que decorou, há quem resuma o enredo, há quem fale da capa. O mais instruído do grupo, um professor aposentado, leu as recensões em vez do romance e conduz a conversa com a segurança de quem conhece o mapa e nunca fez o caminho. A sala ri-se, e o riso é a forma mais rápida de criar comunidade.\n\nHá também a rapariga que trabalha em publicidade e que lê tudo pelo telemóvel, na diagonal, e que apesar disso faz, de vez em quando, a observação mais exata da noite. Ninguém lhe dá muito crédito, porque o crédito, naqueles círculos, mede-se em estantes. Mas foi ela quem notou que o romance dedica três páginas a descrever o café e nenhuma a descrever o medo, e que isso talvez seja uma escolha, e não um esquecimento.\n\nA dado momento, alguém diz que o heterónimo é uma personagem e que Pessoa escrevia «por outros». Corrijo, com a delicadeza possível: o heterónimo não é uma personagem, é uma hipótese de si; não é uma máscara que se põe, é um lugar a partir do qual se pode dizer o que a própria voz não diria. A sala resiste. Percebo que a ideia de que um homem possa ser vários é mais fácil de aceitar como anedota do que como método.\n\nDiscute-se, então, o fingimento, e aqui a conversa descarrila com uma facilidade previsível. Todos parecem convencidos de que fingir é mentir. Mas o fingimento não é mentira: é a construção de uma voz que nos permite dizer o que a nossa não diria, e a diferença é enorme, porque a mentira quer enganar alguém e o fingimento quer chegar a alguém. Quem lê o poeta distraidamente fica com a primeira versão; quem o lê com atenção fica com a segunda, e nunca mais se sente completamente autorizado a falar em nome próprio.\n\nEntretanto, o desassossego já não é só um livro: é um íman de frigorífico, um saco de pano, uma ginjinha com o nome de um heterónimo e um museu onde se pode tirar fotografias ao chapéu. Não me indigno com isso, porque a indignação é uma forma cómoda de superioridade. O que me incomoda é outra coisa: transformado em marca, o desassossego passa a ser um estado de espírito que se consome e deixa de ser o que era — uma insónia com consequências.\n\nÉ então que Dona Emília fala. Tem setenta e oito anos, veio por causa da neta, diz que não percebe poesia e que só leu o romance porque era curto. Conta que o marido, antes de morrer, lhe lia versos ao domingo e que ela fingia ouvir, porque tinha de descascar batatas. «Ele lia e eu descascava», diz. «E agora leio eu, sozinha, e não percebo nada, mas ouço a voz dele.» A sala fica em silêncio, e nesse silêncio a alteridade deixa de ser um conceito da crítica literária e passa a ser uma senhora de setenta e oito anos a descascar batatas ao domingo.\n\nSaio do clube com o livro debaixo do braço e a pergunta do título na cabeça: quem escreve quando leio? A resposta fácil é: o autor. A resposta verdadeira é mais incómoda: ninguém. Quando leio, sou eu que escrevo o que leio, com os materiais que tenho — a minha infância, o meu emprego, os meus mortos —, e é por isso que dois leitores do mesmo livro nunca leem o mesmo livro. A literatura não nos mostra o outro; dá-nos os meios para o inventarmos e depois exige que o tratemos como se existisse. Voltarei na terça seguinte, e não é por causa do livro.",
+    "questions": [
+      {
+        "q": "O ritual do clube consiste em",
+        "options": [
+          "o professor aposentado resumir o livro para os restantes membros.",
+          "cada participante dizer uma frase sobre o livro, revelando mais de si do que da obra.",
+          "todos lerem em voz alta o romance, página a página."
+        ],
+        "answer": "cada participante dizer uma frase sobre o livro, revelando mais de si do que da obra.",
+        "explain": "第二段说「cada um traz o livro lido e uma frase para dizer」，且「a coisa que diz revela mais sobre quem a diz do que sobre o livro」。"
+      },
+      {
+        "q": "A correção que o narrador faz sobre o heterónimo pretende sublinhar que",
+        "options": [
+          "Pessoa escrevia os seus livros em nome de outras pessoas reais.",
+          "o romance do mês deturpa deliberadamente a biografia do poeta.",
+          "o heterónimo é uma possibilidade de ser, e não um simples disfarce ou personagem."
+        ],
+        "answer": "o heterónimo é uma possibilidade de ser, e não um simples disfarce ou personagem.",
+        "explain": "第四段说「o heterónimo não é uma personagem, é uma hipótese de si… é um lugar a partir do qual se pode dizer o que a própria voz não diria」。"
+      },
+      {
+        "q": "A atitude do narrador face à transformação de Pessoa em marca cultural é",
+        "options": [
+          "irónica, mas sem desprezo pelos leitores comuns.",
+          "de indignação elitista contra o consumo de massa.",
+          "de indiferença total, por considerar a literatura independente do mercado."
+        ],
+        "answer": "irónica, mas sem desprezo pelos leitores comuns.",
+        "explain": "第六段说「Não me indigno com isso, porque a indignação é uma forma cómoda de superioridade」，并把真人 Dona Emília 放在结尾，说明讽刺针对机制而非读者。"
+      },
+      {
+        "q": "A intervenção de Dona Emília tem como efeito principal",
+        "options": [
+          "demonstrar que a poesia é incompreensível para leitores sem formação.",
+          "encerrar a discussão sobre o fingimento com um argumento académico.",
+          "substituir o conceito abstrato de alteridade por uma experiência concreta e afetiva."
+        ],
+        "answer": "substituir o conceito abstrato de alteridade por uma experiência concreta e afetiva.",
+        "explain": "末二段明写：在她的沉默里，「a alteridade deixa de ser um conceito da crítica literária e passa a ser uma senhora… a descascar batatas」，即抽象概念化为具体经验。"
+      }
+    ]
+  }
+]

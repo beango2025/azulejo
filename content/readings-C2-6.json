@@ -1,0 +1,237 @@
+[
+  {
+    "id": "c2lab20",
+    "title": "A gramática do balcão",
+    "text": "O balcão de uma pastelaria de bairro é uma escola de gramática que nenhum manual se atreve a ensinar. Quem chega, pede; quem serve, responde; e entre o pedido e a resposta corre um curso intensivo de segundas intenções. Na manhã em que acompanhei o senhor Aurélio à pastelaria da esquina — ele, que aos setenta e três anos continua a chamar «menina» a uma empregada de cinquenta —, percebi que a ironia, ali, não é figura de retórica: é protocolo. Serve para dizer o que não se pode dizer sem o dizer, e para desdizer o que já foi dito sem que ninguém tenha de se retratar.\n\nO senhor Aurélio pede uma bica e um pastel de nata, e comenta o tempo como quem abre um processo. — Está um dia bonito. — Está, está. Se não fosse o governo, estava melhor. A frase não significa nada e significa tudo: é uma ironia de uso, gasta de tanto servir, que nivela o país inteiro numa única frase educada. Quem a ouve pela primeira vez procura o argumento, o partido, o nome do ministro; quem a ouve há décadas sabe que ali não há acusação nenhuma, apenas o conforto de uma queixa partilhada. O subentendido é este: estamos todos no mesmo barco, o barco faz água, e ninguém quer ser o primeiro a dizê-lo em voz alta.\n\nO senhor Aurélio gosta de gozar com as pessoas, e é preciso cuidado com o verbo. Gozar, em português de Portugal, não é necessariamente ofender: goza-se de quem se estima, e é por isso que a fronteira entre o carinho e a crueldade tem a espessura de uma piada. — A menina hoje está com pressa. — Estou, estou, que o senhor já cá devia estar desde as oito. — Ah, então é por minha causa que a casa se atrasa. Riem os dois, o café é servido, e nada daquilo é verdade nem mentira: é conversa, esse material híbrido com que se fabrica um dia.\n\nFoi naquele balcão que ouvi o mais elegante duplo sentido que a língua me deu até hoje. Um cliente queixava-se do preço e a empregada respondeu: «O senhor sabe que eu não lhe dou troco.» Não lhe dava troco porque a caixa estava sem moedas; e não lhe dava troco porque não estava disposta a discutir. A frase ficou suspensa no ar, o homem riu, pagou. Uma palavra, dois serviços: evitou a discussão, salvou o crédito de ambos, divertiu a fila. É barato, o humor de balcão, e rende juros altos — quem se ri de si próprio antes que os outros o façam já não pode ser humilhado.\n\nHá, porém, um gesto que sustenta toda esta arquitetura, e é um olhar à socapa: o desvio mínimo dos olhos, dirigido a um terceiro que está a ver. A ironia precisa de testemunha. Sozinha, murcha. O senhor Aurélio dizia a graça e olhava à socapa para mim, para a mulher do banco, para o homem do jornal, a verificar se a flecha tinha atingido o alvo. Quando atingia, o rosto dele iluminava-se por dentro, como quem ganhou uma aposta consigo mesmo. E era exatamente isso que ganhava: a certeza de não estar sozinho no mundo.\n\nConvém, no entanto, não romantizar demasiado. A mesma ironia que protege o freguês também o pode esmagar, e há balcões onde ela desce em vez de subir. A empregada que responde com uma graça ao cliente que grita está a fazer o único uso da palavra que a hierarquia lhe permite: não pode responder, responde de outro modo. Quem tem o poder de reclamar por escrito não precisa de duplos sentidos. É por isso que a ironia, entre nós, é frequentemente uma arma de baixo para cima, e é por isso que certos patrões desconfiam dela sem saber explicar porquê.\n\nAprende-se a ironia como se aprende a pronúncia: por imitação, por vergonha, por tentativa e erro. O estrangeiro que chega e pede, literal, uma explicação do que acabou de ouvir não recebe uma explicação: recebe um sorriso e um «é uma maneira de falar». A ironia é também uma alfândega, e a quem não tem passaporte nega a entrada — sem violência, com cortesia. E há sempre um dia em que se diz a primeira e ninguém se ri, e a cidade nos parece, de repente, um pouco menos nossa.\n\nSaímos para a rua e ele perguntou-me se eu tinha gostado do café. Respondi que sim. Olhou-me à socapa, e depois para lugar nenhum: — Gostou, gostou. Fiquei sem saber se aquilo era um elogio, uma cobrança ou apenas mais uma frase para gastar. Ficámos, como sempre, a dever um café e uma explicação. É assim que se vive numa cidade onde a verdade se serve morna, em chávena pequena, e se paga ao balcão.",
+    "questions": [
+      {
+        "q": "A frase «Se não fosse o governo, estava melhor» é apresentada no texto como",
+        "options": [
+          "uma crítica política articulada, com um alvo e um argumento identificáveis",
+          "uma fórmula gasta cujo verdadeiro sentido é a partilha da queixa, e não a acusação",
+          "uma ironia dirigida especificamente à empregada, que a toma como ofensa pessoal"
+        ],
+        "answer": "uma fórmula gasta cujo verdadeiro sentido é a partilha da queixa, e não a acusação",
+        "explain": "推断题：文中说这句话「não significa nada e significa tudo」，重点在「queixa partilhada」，而非具体指控。"
+      },
+      {
+        "q": "O tom dominante do retrato do senhor Aurélio pode descrever-se como",
+        "options": [
+          "simpatia crítica, atenta ao prazer e ao poder que a ironia distribui",
+          "condenação moral sem margem para simpatia",
+          "nostalgia idealizante, sem qualquer reserva sobre o costume"
+        ],
+        "answer": "simpatia crítica, atenta ao prazer e ao poder que a ironia distribui",
+        "explain": "语气题：前段写其魅力，第六段却指出铁嘴也可能「esmagar」，故为带批判的同情。"
+      },
+      {
+        "q": "A resposta «O senhor sabe que eu não lhe dou troco» vale, no texto, como exemplo de",
+        "options": [
+          "um erro de português corrente, que o cliente finge não notar",
+          "um duplo sentido entre devolver moedas e responder a uma provocação",
+          "uma expressão regional sem segundo sentido, mal interpretada pela fila"
+        ],
+        "answer": "um duplo sentido entre devolver moedas e responder a uma provocação",
+        "explain": "词汇/推断题：「dar troco」既指找零钱，也指回嘴，作者明说「Uma palavra, dois serviços」。"
+      },
+      {
+        "q": "A conclusão «Ficámos... a dever um café e uma explicação» sugere que",
+        "options": [
+          "a ironia deixa sempre uma dívida de sentido que ninguém chega a saldar",
+          "o narrador não pagou o que consumiu ao balcão",
+          "o senhor Aurélio se recusou a explicar a piada por não confiar no narrador"
+        ],
+        "answer": "a ironia deixa sempre uma dívida de sentido que ninguém chega a saldar",
+        "explain": "推断题：结尾「sem saber」与「a dever」呼应全文对歧义的坚持，指向意义层面的亏欠。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab21",
+    "title": "A fila dos planos desfeitos",
+    "text": "A fila do cinema, numa tarde de sábado, é uma instituição nacional de esperança adiada. Instala-se ao longo da fachada, dobra a esquina e arrasta-se pela calçada com a lentidão de um corpo que ainda não decidiu para onde vai. Vista de longe, parece uma coisa só; vista de perto, é uma reunião de biografias provisórias, cada uma com o seu bilhete comprado, o seu plano para a noite e a sua teoria sobre a razão pela qual aquilo não anda.\n\nRita e Tomás chegaram às oito e vinte para uma sessão das nove. Ele comprara os bilhetes na aplicação, no dia anterior, às duas da manhã, com o entusiasmo de quem acredita que a tecnologia veio para simplificar. Ela levava o telemóvel na mão, com o código aberto no ecrã, e a expressão de quem já viu demasiados códigos abertos no ecrã. Discutiam, em voz baixa, se valia a pena chegar cedo; chegaram cedo, e a discussão ficou por resolver, como quase todas as discussões que se resolvem sozinhas. À frente deles, uma senhora de setenta anos segurava um bilhete impresso, comprado numa papelaria, e olhava para o telemóvel dos dois com a desconfiança tranquila de quem já viu o mundo mudar de suporte três ou quatro vezes.\n\nNa bilheteira, o rapaz olhou para o código, depois para o computador, depois outra vez para o código, e fez o que os funcionários fazem quando o sistema não colabora: começou a mexer em tudo ao mesmo tempo. Ao tentar confirmar a reserva, cancelou-a; ao tentar cancelar o cancelamento, emitiu dois bilhetes para uma sessão da semana seguinte. Foi então que Rita ficou com a pulga atrás da orelha. Não havia como provar nada, mas a sequência dos gestos, a pausa antes da resposta, a frase «deixe-me só verificar», tudo aquilo constituía, para ela, uma confissão.\n\nMeia hora depois, o serão ameaçava ficar em águas de bacalhau. A sessão estava esgotada, a aplicação não reconhecia a compra, o supervisor tinha ido jantar e o único cartaz disponível anunciava um filme que ninguém queria ver. Rita propôs desistir; Tomás propôs ir a outro cinema; o rapaz, que ao tentar ajudar conseguiu meter os pés pelas mãos uma terceira vez, propôs o reembolso. Ninguém se zangou. É esse o pormenor que mais me interessa nesta história: ninguém se zangou, embora todos tivessem razões para isso.\n\nDissolveu-se a fila e, com ela, dissolveu-se a noite. Havia pessoas à toa no passeio, à espera de uma decisão que ninguém tinha autoridade para tomar; casais a discutir em voz baixa qual dos dois tivera a ideia; um homem que oferecia um bilhete a dobrar a quem se aproximasse. Rita e Tomás saíram de mãos a abanar, não por falta de dinheiro, mas por falta de lugar. Ao cimo da rua, alguém perguntou se valia a pena tentar noutro sítio. Valia, talvez. Ninguém foi.\n\nUma fila é sempre uma teoria sobre o tempo, e a nossa é particularmente tolerante com o desperdício. Noutras latitudes, um sistema que anula reservas e não devolve bilhetes produziria um escândalo; aqui produz um encolher de ombros e a frase que resolve tudo: «há sempre outra sessão». A frase é uma pequena obra-prima de gestão do desapontamento, e é também uma forma de não mudar nada. Quem aprendeu a esperar nunca precisa de exigir. Chama-se a isso paciência; às vezes, chama-se-lhe outra coisa, e a outra coisa não se diz ao balcão. O país tem mesmo uma palavra elogiosa para a habilidade de escapar ao obstáculo sem o remover — desenrascanço —, e é com ela que se desculpam os sistemas que nunca funcionam: se no fim alguém se arranja, então o sistema não falhou, apenas testou a nossa imaginação.\n\nFico com a impressão de que o cinema, mais do que os filmes, se tornou o lugar onde a cidade ensaia a sua relação com o falhanço. Não o falhanço trágico, com consequências e responsáveis, mas o pequeno, o administrativo, o que se conta ao balcão do café no dia seguinte e faz rir. É talvez por isso que continuamos a fazer fila em vez de comprar tudo em casa: para termos uma história. E é também por isso que as histórias que contamos sobre filas nunca são, no fundo, sobre a fila.\n\nNa segunda-feira, alguém confirmou que a sessão tinha esgotado às dezoito e quarenta. Ninguém confirmou se o código chegou a existir. Ficámos, portanto, com a pulga atrás da orelha e sem filme — e, ainda assim, com a sensação absurda de que a noite não foi perdida. Foi apenas gasta, como se gasta um bilhete que não se chega a usar: guardado no bolso até se desfazer no primeiro lavar.",
+    "questions": [
+      {
+        "q": "O que sucede ao código de Rita e Tomás, segundo o texto?",
+        "options": [
+          "O funcionário anula a reserva ao tentar confirmá-la e emite bilhetes para outra sessão",
+          "A aplicação cobra a compra duas vezes e o reembolso fica pendente até segunda-feira",
+          "O código nunca existiu, porque Tomás o inventou para não admitir que se esquecera"
+        ],
+        "answer": "O funcionário anula a reserva ao tentar confirmá-la e emite bilhetes para outra sessão",
+        "explain": "细节题：第三段明写「Ao tentar confirmar a reserva, cancelou-a」，又误开下周场次票。"
+      },
+      {
+        "q": "A atitude do texto perante os clientes que não se zangam é de",
+        "options": [
+          "aprovação sem reservas, como exemplo de civismo urbano",
+          "compreensão irónica, que vê na resignação uma forma de não exigir nada",
+          "desprezo explícito pelas pessoas que aceitam ser enganadas"
+        ],
+        "answer": "compreensão irónica, que vê na resignação uma forma de não exigir nada",
+        "explain": "语气题：叙述既同情顾客，又冷峻指出「Quem aprendeu a esperar nunca precisa de exigir」。"
+      },
+      {
+        "q": "A frase «há sempre outra sessão» é analisada no texto como",
+        "options": [
+          "uma solução prática que o cinema oferece aos clientes lesados",
+          "uma fórmula que atenua o desapontamento e desencoraja qualquer reclamação",
+          "uma ironia dos funcionários contra a administração do cinema"
+        ],
+        "answer": "uma fórmula que atenua o desapontamento e desencoraja qualquer reclamação",
+        "explain": "推断题：文中称之为「gestão do desapontamento」与「forma de não mudar nada」，双重功能。"
+      },
+      {
+        "q": "Ao afirmar que as histórias sobre filas «nunca são, no fundo, sobre a fila», o narrador pretende",
+        "options": [
+          "sublinhar que a experiência interessa menos pelo que sucedeu do que pelo que se conta dela",
+          "demonstrar que todas as filas de cinema são rigorosamente iguais",
+          "criticar a falta de imaginação de quem frequenta sessões de sábado"
+        ],
+        "answer": "sublinhar que a experiência interessa menos pelo que sucedeu do que pelo que se conta dela",
+        "explain": "推断题：前句说继续排队「para termos uma história」，故强调叙事对经验的改写。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab22",
+    "title": "A tribuna e o eco",
+    "text": "Às três e um quarto da tarde, o hemiciclo está praticamente vazio e a sessão está praticamente cheia. É a primeira lição da tribuna: o discurso não se dirige a quem está presente, mas ao registo do que fica. A deputada sobe os dois degraus, arruma as folhas, bebe um golo de água e espera três segundos — exatamente os três segundos de que a televisão precisa para encontrar o plano. A sala tem a acústica de uma igreja e a lotação de um ensaio geral: as bancadas vazias devolvem a voz com um atraso mínimo, o suficiente para que o orador se oiça a si mesmo e confunda eco com aplauso. Depois começa.\n\n«Nós não viemos aqui pedir paciência. Nós não viemos aqui pedir sacrifícios. Nós não viemos aqui pedir que nos expliquem outra vez o que já sabemos.» Três frases, a mesma abertura, e no fim de cada uma o hemiciclo responde com aquele murmúrio que, em português, faz as vezes de aplauso. Trata-se de uma anáfora, a mais antiga das máquinas retóricas: repete-se o começo para que o fim pareça inevitável. E o fim, quando chega, já não precisa de ser demonstrado; basta ser esperado.\n\nA repetição, aqui, não é pobreza de vocabulário; é arquitetura. Cada volta da mesma fórmula assenta mais um tijolo, e ao fim de cinco voltas o auditório já não ouve palavras, ouve um ritmo — e o ritmo, como se sabe, dispensa a compreensão. A oratória parlamentar vive desse pequeno milagre: quando o som se torna previsível, o pensamento desliga-se e o corpo aplaude. A retórica pode unir ou dividir, diz-se com razão; em qualquer dos casos, raramente deixa alguém indiferente, e é precisamente essa eficácia que a torna suspeita.\n\nNote-se, porém, que não se trata de persuasão. Persuadir é fazer alguém mudar de opinião, e ninguém naquela sala vai mudar de opinião. O debate não é um combate de argumentos; é uma cerimónia de pertença, com regras de cortesia tão rígidas que os insultos têm de ser formulados em modo condicional. Cada bancada fala para a sua claque, e a claque está em casa, a ver o telejornal. A persuasão verdadeira acontece depois, na sala de edição, quando o melhor minuto é escolhido por quem não tem de responder por ele — e o melhor minuto raramente é o argumento mais sólido; é o mais curto, o mais alto, o que cabe inteiro entre duas pausas publicitárias.\n\nHá, no fim, o apelo — e é sempre o momento em que o discurso se permite ser sincero, ou finge que o é. «Apelo a todos os que ainda acreditam que é possível...» A frase não termina; foi desenhada para ser interrompida pelo murmúrio. O apelo é a parte do discurso que o orador oferece à posteridade, sabendo que a posteridade não lê o Diário da República. Lê o título do jornal. Vê o clip. E o clip, invariavelmente, corta o apelo a meio, porque a emoção não cabe em trinta segundos.\n\nSaio do parlamento e ouço, na rua, dois homens a discutir a sessão com a convicção de quem lá esteve. Um deles repete a anáfora, com a entoação exata da deputada; o outro responde com a mesma fórmula, invertida. Percebo então o destino de toda aquela retórica: não convencer ninguém, mas fornecer as frases com que as pessoas já convencidas se apresentam umas às outras. O discurso não muda a cabeça de quem o ouve; dá-lhe mobília.\n\nJá fora do edifício, vejo a deputada à porta de serviço, sozinha, a fumar um cigarro que não lhe conhecia. Sem os dois degraus, sem a água e sem os três segundos, é uma mulher cansada, com um casaco demasiado quente para a tarde. Pergunto-lhe se acredita no que disse. Ela olha para mim, avalia a pergunta, e responde com uma frase que poderia ter saído da tribuna, mas que ali, no passeio, soa a outra coisa: «Acredito que era preciso dizê-lo.» Não sei se é uma confissão ou uma saída elegante. Provavelmente as duas coisas, e é por isso que a política sobrevive: nunca se sabe ao certo onde acaba a convicção e começa o ofício.\n\nVolto à tribuna, já vazia, e à água por beber. O sistema de som continua ligado e produz um zumbido fino, regular, quase confortável. Penso que o parlamento é uma máquina de ecos, e que os ecos, ao contrário das vozes, não têm dono. Amanhã haverá outra sessão, outra anáfora, outro apelo cortado. No fim de tudo, resta a impressão de que a política se tornou uma forma menor de literatura: muita técnica, pouca consequência e um público que já sabe o fim.",
+    "questions": [
+      {
+        "q": "Segundo o texto, a anáfora usada pela deputada serve sobretudo para",
+        "options": [
+          "fazer o desfecho parecer inevitável, repetindo o início de cada frase",
+          "demonstrar, com dados concretos, que o Governo falhou",
+          "permitir que o hemiciclo interrompa o discurso com perguntas"
+        ],
+        "answer": "fazer o desfecho parecer inevitável, repetindo o início de cada frase",
+        "explain": "细节题：第二段「repete-se o começo para que o fim pareça inevitável」。"
+      },
+      {
+        "q": "A expressão «O discurso não muda a cabeça de quem o ouve; dá-lhe mobília» significa que a retórica",
+        "options": [
+          "fornece frases prontas a quem já está convencido, sem alterar convicções",
+          "decora o hemiciclo com símbolos que substituem os argumentos",
+          "obriga os ouvintes a mudar de lugar antes de votar"
+        ],
+        "answer": "fornece frases prontas a quem já está convencido, sem alterar convicções",
+        "explain": "隐喻/推断题：mobília 指现成的语言家具，供已信者彼此使用，而非说服。"
+      },
+      {
+        "q": "O texto sugere que a persuasão verdadeira, em política, ocorre",
+        "options": [
+          "no hemiciclo, durante o confronto direto entre bancadas",
+          "fora da sala, na edição televisiva, escolhida por quem não responde por ela",
+          "nos corredores, nas conversas privadas entre deputados e jornalistas"
+        ],
+        "answer": "fora da sala, na edição televisiva, escolhida por quem não responde por ela",
+        "explain": "推断题：第四段指「persuasão verdadeira acontece depois, na sala de edição」。"
+      },
+      {
+        "q": "O olhar do narrador sobre o parlamento é",
+        "options": [
+          "de cepticismo elegante, atento ao ritual e às suas pequenas misérias",
+          "de indignação militante, que exige a dissolução da assembleia",
+          "de admiração pela eloquência, sem qualquer reserva irónica"
+        ],
+        "answer": "de cepticismo elegante, atento ao ritual e às suas pequenas misérias",
+        "explain": "语气题：作者讽刺仪式与剪辑，却仍记录门口那个「cansada」的女人，语气有距离而无仇恨。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab23",
+    "title": "A sala das palavras poupadas",
+    "text": "Na sala de espera do gabinete há um tapete espesso, uma bandeira com pregas e um relógio que não faz ruído. Aquele silêncio é a primeira informação: um relógio que não faz ruído custa mais do que um que faz. A jornalista que espera há vinte minutos já aprendeu a lição e escreve-a no bloco, não como facto, mas como atmosfera — e a atmosfera, neste género de reportagem, vale tanto como o facto.\n\nOs eufemismos chegam depois, com a assessora, e chegam em cadeia, como quem recita uma oração que já não precisa de fé. «Medidas de contenção» quer dizer cortes; «requalificação» quer dizer despedimentos; «saída negociada» quer dizer demissão; «horizonte temporal» quer dizer que não se sabe quando. O eufemismo é uma tecnologia de conservação: suaviza a realidade até ela caber numa frase que ninguém possa citar contra quem a disse. Quem inventou o primeiro eufemismo não queria mentir; queria apenas sobreviver à reunião seguinte.\n\nMas há um nível acima, e é aí que a coisa se torna interessante: o subtexto. Quando o ministro diz «estou a par da situação», o país entende que não está; quando diz «não há razões para alarme», o país entende que há; quando diz «acompanhamos com toda a atenção», o país entende que não vai fazer nada. A frase e o seu contrário tornaram-se, na linguagem do poder, o mesmo objeto visto de dois lados. O subtexto diz mais do que as palavras porque tem menos obrigações: não pode ser transcrito, não pode ser desmentido, não pode ser citado em tribunal.\n\nE depois há o silêncio, que é o instrumento mais afinado de todos. Uma pausa de três segundos antes de responder a uma pergunta sobre um nome vale mais do que três parágrafos de resposta. O silêncio não é ausência de linguagem; é linguagem sem sintaxe e, por isso mesmo, dificilmente refutável. Quem se cala não mente. Nos briefings, ensina-se a técnica como se ensina natação: não negar, não confirmar, respirar. A respiração, bem colocada, é uma resposta completa. Aprende-se isto muito cedo, nos corredores: o silêncio também comunica, e comunica sobretudo aquilo que não se pode dizer sem consequências.\n\nA arte da sala consiste em atenuar tudo sem apagar nada. Verbos no condicional — «poderá vir a ser equacionado» —, advérbios de diluição — «eventualmente», «pontualmente», «num quadro de» —, construções passivas em que a ação perde o autor: «foi decidido», «ficou acordado», «entendeu-se». Com estas quatro peças, um responsável pode anunciar uma catástrofe e sair da sala com a consciência intacta. A língua oferece-lhe o serviço completo: o facto, a sombra do facto e a possibilidade de negar ambos. A frase exemplar é sempre a mesma: «não está previsto, neste momento, nenhum cenário dessa natureza». Previsto, neste momento, cenário — três escudos e nenhuma informação, e ainda assim uma frase gramaticalmente impecável, capaz de resistir a qualquer pedido de esclarecimento.\n\nNo fim, o gesto decisivo: insinuar. Já não é o ministro que fala, é o chefe de gabinete, à porta, num tom de quem presta um favor: «Não me peça nomes, mas o senhor sabe o que se diz.» Insinuar é delegar o dizer em quem ouve; a frase nasce na boca de um e ganha corpo na cabeça do outro, e o autor fica livre de responsabilidade. É a forma mais elegante de transmitir uma informação: o jornalista sai com a notícia, o gabinete fica sem a fonte e ninguém, em rigor, disse nada.\n\nExiste, por fim, a ferramenta perfeita, aquela que dispensa até as palavras poupadas: o «off the record». Duas palavras em inglês, ditas em tom de cumplicidade, e a sala transforma-se num lugar onde nada do que se disser poderá ser usado. É o contrário do silêncio e o seu equivalente funcional: fala-se muito, com a garantia de que nada ficou dito. O jornalista aceita, porque precisa da informação; o gabinete aceita, porque precisa de a fazer circular sem a assinar. Ambos saem da sala com a sensação de ter ganho — o que, em qualquer negociação, é o sinal mais seguro de que o poder ficou onde estava.\n\nDo lado de fora, a tarde está igual a todas as outras, e é isso que assusta. A jornalista escreve o artigo, e a primeira linha sai-lhe assim: «O Governo não esclareceu ontem se...» Uma frase que não diz nada e não deixa dúvidas, construída com a mesma matéria-prima de que é feita a sala: palavras poupadas, silêncios bem colocados e a certeza de que, amanhã, alguém voltará a não dizer nada com muita competência.",
+    "questions": [
+      {
+        "q": "Que exemplo de eufemismo é apresentado no texto para designar despedimentos?",
+        "options": [
+          "«requalificação»",
+          "«horizonte temporal»",
+          "«medidas de contenção»"
+        ],
+        "answer": "«requalificação»",
+        "explain": "细节题：第二段明列「requalificação» quer dizer despedimentos」。"
+      },
+      {
+        "q": "A frase «estou a par da situação» é lida, no texto, como",
+        "options": [
+          "um enunciado cujo sentido efetivo é o contrário do sentido literal",
+          "uma confirmação técnica de que o ministro recebeu o relatório",
+          "uma fórmula cortês que evita responsabilizar os jornalistas"
+        ],
+        "answer": "um enunciado cujo sentido efetivo é o contrário do sentido literal",
+        "explain": "推断题：第三段说「o país entende que não está」，即字面与实指相反。"
+      },
+      {
+        "q": "O pormenor do relógio que não faz ruído serve para",
+        "options": [
+          "sugerir que o silêncio, naquela sala, é calculado e dispendioso",
+          "indicar que o gabinete é antigo e mal equipado",
+          "mostrar que a jornalista se distrai com objetos sem importância"
+        ],
+        "answer": "sugerir que o silêncio, naquela sala, é calculado e dispendioso",
+        "explain": "推断题：作者立即评论「custa mais do que um que faz」，把无声解释为luxo e cálculo。"
+      },
+      {
+        "q": "A última frase — «alguém voltará a não dizer nada com muita competência» — exprime",
+        "options": [
+          "uma previsão irónica sobre a repetição do ritual e a impunidade do vazio",
+          "uma condenação judicial dos responsáveis do gabinete",
+          "uma esperança de que o Governo esclareça finalmente o caso"
+        ],
+        "answer": "uma previsão irónica sobre a repetição do ritual e a impunidade do vazio",
+        "explain": "语气题：「com muita competência」是反讽式褒词，指向无能之外的高效沉默。"
+      }
+    ]
+  },
+  {
+    "id": "c2lab24",
+    "title": "A feira dos intraduzíveis",
+    "text": "Numa feira do livro, tudo se traduz — inclusive a convicção, muito divulgada, de que há coisas que não se podem traduzir. Nos corredores do pavilhão, entre montras de romances e sacos de pano com slogans, circula uma pequena mitologia nacional: a de que o português possui palavras únicas, intraduzíveis, que nenhuma outra língua saberá dizer. A palavra mais citada é saudade; a segunda é, conforme o ano, fado ou desenrascanço.\n\nNo debate das cinco da tarde, à mesa de honra, um poeta e uma tradutora olham-se como dois pugilistas que já se conhecem. A pergunta da moderação é sempre a mesma: «Como se traduz o intraduzível?» A tradutora responde o que responde há vinte anos — que se traduz, simplesmente, e que o resto é conversa de feira. O poeta, que vive disso, discorda com elegância e cita três autores, dois deles mortos e um deles vivo por pouco.\n\nA verdade é que o intraduzível é, antes de mais, uma categoria de mercado. Dá título de crónica, vende sacos de pano, justifica a existência de painéis. Os editores sabem-no melhor do que ninguém: a palavra «intraduzível» na contracapa vende mais do que qualquer prémio, porque promete ao leitor que ele está prestes a entrar num território reservado. Nada contra: uma língua pequena precisa de mitos para se sentir grande, e o mito da intraduzibilidade é mais simpático do que a maioria. Mas convém lembrar que aquilo a que chamamos intraduzível é quase sempre uma diferença de uso, não de pensamento — e que as diferenças de uso se resolvem com notas de pé de página, não com suspiros.\n\nUma tradução procura equivalência, não identidade, e essa distinção é toda a ciência do ofício. Identidade é impossível: nenhuma frase passa intacta de uma língua para outra. Equivalência é uma negociação, frase a frase, em que se decidem as perdas aceitáveis e os ganhos inesperados. O tradutor não transporta sentido; reconstrói-o com os materiais que a língua de chegada lhe dá, e às vezes o edifício fica melhor do que o original — o que é, para o autor, uma informação difícil de digerir. Nisto, o tradutor é o único leitor obrigado a escolher: o leitor comum pode amar duas hipóteses ao mesmo tempo, o tradutor tem de deixar uma cair e assinar por baixo.\n\nToda a tradução é, nesse sentido, uma forma de adaptação, e toda a adaptação implica perda. Perde-se o ritmo, o duplo sentido, a sonoridade, o provincianismo exato de uma expressão. Ganha-se, por vezes, uma clareza que o original não tinha. Perder é, aliás, a operação mais mal compreendida da literatura: não é um acidente do processo, é o processo. Quem quiser conservar tudo não traduz; transcreve. E transcrever, como se sabe, é a única forma de não ler.\n\nUm exemplo banal serve melhor do que a teoria. O diminutivo português — aquele «-inho» que pode significar carinho, desprezo, ironia ou apenas tamanho — não tem correspondente sistemático em quase nenhuma língua. O mesmo se diga do tratamento: escolher entre «tu», «o senhor» e uma terceira forma, cerimoniosa, que hoje quase ninguém usa, é uma operação que o inglês não sabe fazer sem recorrer a rodeios. Numa legenda, o problema resolve-se quase sempre mal, e resolve-se depressa, porque a fala dura o tempo que dura e não espera pela nota de pé de página. O tradutor decide, e cada decisão é uma pequena perda irreparável que ninguém notará, porque o leitor só vê o que ficou.\n\nO poeta, no fim, conta uma história. Diz que passou uma tarde inteira a tentar verter um verso e que, à noite, percebeu que o verso era sobre a impossibilidade de verter um verso. A plateia ri. A tradutora ri também, mas do lado errado da piada, e responde: «Isso não é o intraduzível, é a preguiça.» É então que a sala se cala, porque todos perceberam que ela tem razão e que a razão, numa feira do livro, é sempre um pouco deselegante.\n\nÀ saída, compro um livro traduzido e um saco de pano com a palavra saudade. Levo as duas coisas debaixo do braço e não me parece contraditório: o intraduzível viaja muito bem, é talvez a mercadoria que melhor atravessa fronteiras. Quem duvidar passe pelos aeroportos: as palavras que ninguém sabe traduzir são precisamente as que mais aparecem nas t-shirts, o que diz algo sobre a natureza do mito e nada sobre a natureza da língua. No fim do dia, os livros que ninguém comprou voltam para as caixas, e as caixas, essas, não precisam de tradução. Viajam sempre com a mesma etiqueta: frágil.",
+    "questions": [
+      {
+        "q": "Segundo a tradutora, a expressão «traduzir o intraduzível» corresponde a",
+        "options": [
+          "uma operação corrente, sendo o resto conversa de feira",
+          "uma impossibilidade técnica que só a poesia resolve",
+          "um problema de mercado que os editores criaram artificialmente"
+        ],
+        "answer": "uma operação corrente, sendo o resto conversa de feira",
+        "explain": "细节题：第二段「que se traduz, simplesmente, e que o resto é conversa de feira」。"
+      },
+      {
+        "q": "O texto considera a categoria de «intraduzível» sobretudo como",
+        "options": [
+          "um produto de mercado que serve o orgulho de uma língua pequena",
+          "uma propriedade objetiva de certas palavras portuguesas",
+          "uma invenção dos tradutores para justificar os seus erros"
+        ],
+        "answer": "um produto de mercado que serve o orgulho de uma língua pequena",
+        "explain": "推断题：第三段称之为「categoria de mercado」并说「uma língua pequena precisa de mitos」。"
+      },
+      {
+        "q": "A réplica da tradutora ao poeta provoca o silêncio da sala porque",
+        "options": [
+          "a assistência reconhece que ela tem razão, embora a razão seja indelicada naquele contexto",
+          "o poeta se retira do palco, ofendido com a acusação de preguiça",
+          "a moderação encerra o debate antes que a discussão se torne pessoal"
+        ],
+        "answer": "a assistência reconhece que ela tem razão, embora a razão seja indelicada naquele contexto",
+        "explain": "推断题：末句说「todos perceberam que ela tem razão e que a razão... é sempre um pouco deselegante」。"
+      },
+      {
+        "q": "A imagem final do intraduzível como mercadoria que «viaja muito bem» sugere que",
+        "options": [
+          "o mito da intraduzibilidade circula melhor do que aquilo que designa",
+          "as palavras intraduzíveis são as mais fáceis de exportar",
+          "a feira do livro devia proibir a venda de sacos com slogans"
+        ],
+        "answer": "o mito da intraduzibilidade circula melhor do que aquilo que designa",
+        "explain": "推断题：与末段「saco de pano com a palavra saudade」呼应，讽刺的是神话的流通力。"
+      }
+    ]
+  }
+]

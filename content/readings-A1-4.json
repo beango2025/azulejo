@@ -1,0 +1,237 @@
+[
+  {
+    "id": "a1lab17",
+    "title": "À espera do metro",
+    "text": "Mei está na plataforma do metro, com o mapa na mão. Ela quer ir à estação de comboios, porque amanhã vai a Sintra com a Ana. A plataforma está cheia e há muita gente com malas. Há também turistas com mochilas e uma senhora com um cão pequeno. Mei olha para o painel, mas não entende os nomes das linhas.\n\n— Desculpe, a que horas parte o metro para o Rossio? — pergunta ela a um homem.\n— Parte às nove e dez. Hoje está atrasado, talvez cinco minutos — diz ele.\n— Obrigada. E preciso de um bilhete?\n— Sim. Pode comprar ali, na máquina.\n\nMei compra o bilhete e espera. O metro chega devagar. As portas abrem e muita gente sai. Ela entra, senta-se e olha pela janela. Depois, na estação, apanha um autocarro para o hotel. Amanhã, de manhã, o comboio para Sintra parte às oito e meia. Mei sorri: o dia vai ser longo, mas vai ser bom.",
+    "questions": [
+      {
+        "q": "Onde está a Mei no início do texto?",
+        "options": [
+          "Na plataforma do metro.",
+          "Na estação de comboios.",
+          "No quarto do hotel."
+        ],
+        "answer": "Na plataforma do metro.",
+        "explain": "文章开头说她站在地铁站台上，手里拿着地图。"
+      },
+      {
+        "q": "O que vai fazer a Mei amanhã?",
+        "options": [
+          "Vai ao Rossio de autocarro.",
+          "Vai a Sintra de comboio.",
+          "Vai comprar uma mala."
+        ],
+        "answer": "Vai a Sintra de comboio.",
+        "explain": "文中说 amanhã vai a Sintra com a Ana，明早坐火车去辛特拉。"
+      },
+      {
+        "q": "Porque é que o metro não chega à hora certa?",
+        "options": [
+          "Porque está atrasado.",
+          "Porque não há bilhetes.",
+          "Porque a plataforma está fechada."
+        ],
+        "answer": "Porque está atrasado.",
+        "explain": "那位男士说 Hoje está atrasado，即今天晚点，可能晚五分钟。"
+      },
+      {
+        "q": "Como vai a Mei para o hotel?",
+        "options": [
+          "De metro.",
+          "A pé.",
+          "De autocarro."
+        ],
+        "answer": "De autocarro.",
+        "explain": "文中说 depois, na estação, apanha um autocarro para o hotel。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab18",
+    "title": "O elétrico 28",
+    "text": "A paragem do elétrico fica em frente ao café. Mei espera com a Ana. As duas vão ao centro, ao mercado novo, porque amanhã há uma festa no bairro. O céu está azul e está calor. Mei tem o bilhete na mão e uma garrafa de água na mala. Muita gente espera também, com sacos e crianças.\n\n— O elétrico 28 passa a cada dez minutos — diz a Ana.\n— E temos de subir aqui? — pergunta a Mei.\n— Sim, subimos nesta paragem e descemos no Rossio. Depois andamos um pouco.\n\nO elétrico chega com ruído. Mei sobe primeiro, com o bilhete na mão. Dentro, há turistas e uma senhora com um cesto de fruta. Mei olha pela janela: as ruas são estreitas e as casas têm azulejos. Quando o elétrico chega ao Rossio, a Ana diz:\n— É aqui que temos de descer.\nAs duas descem e dizem adeus ao elétrico.\n— Agora vamos ao centro, a pé. É perto.\n— Ótimo. Gosto muito deste bairro — responde a Mei.",
+    "questions": [
+      {
+        "q": "Para onde vão a Mei e a Ana?",
+        "options": [
+          "Vão a Sintra.",
+          "Vão ao centro, ao mercado.",
+          "Vão ao hotel."
+        ],
+        "answer": "Vão ao centro, ao mercado.",
+        "explain": "文中说 As duas vão ao centro, ao mercado novo，两人去市中心的新市场。"
+      },
+      {
+        "q": "De quantos em quantos minutos passa o elétrico?",
+        "options": [
+          "A cada dez minutos.",
+          "A cada cinco minutos.",
+          "A cada vinte minutos."
+        ],
+        "answer": "A cada dez minutos.",
+        "explain": "安娜说 o elétrico 28 passa a cada dez minutos，每十分钟一班。"
+      },
+      {
+        "q": "Onde descem as duas?",
+        "options": [
+          "No café.",
+          "No Rossio.",
+          "No mercado."
+        ],
+        "answer": "No Rossio.",
+        "explain": "文中说 subimos nesta paragem e descemos no Rossio，在罗西奥下车。"
+      },
+      {
+        "q": "O que vê a Mei pela janela do elétrico?",
+        "options": [
+          "Ruas estreitas e casas com azulejos.",
+          "O rio e muitos barcos.",
+          "Um jardim com crianças."
+        ],
+        "answer": "Ruas estreitas e casas com azulejos.",
+        "explain": "文中说 as ruas são estreitas e as casas têm azulejos，街道窄、房子有瓷砖。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab19",
+    "title": "Um banco no jardim",
+    "text": "É sábado de manhã e o jardim público está cheio. Há crianças a correr, um senhor a ler o jornal e dois cães a brincar. Mei senta-se num banco, com um livro e um café. Ela está em Lisboa há duas semanas e ainda conhece pouca gente. O jardim é o seu lugar preferido ao sábado. Mei bebe o café e ouve os pássaros.\n\n— Olá! Bom dia — diz uma mulher jovem, com um saco de pão.\n— Bom dia — responde a Mei.\n— Desculpa, tu és a nova vizinha do segundo andar? Chamo-me Rita.\n— Sim, sou eu. Chamo-me Mei. Prazer em conhecer-te.\n— Prazer em conhecer-te também. Gostas do jardim?\n— Gosto muito. É calmo e tem árvores grandes.\n\nAs duas falam do bairro, do café e do mercado. A Rita é professora e também gosta de correr de manhã. Antes de sair, ela diz:\n— Amanhã vou ao mercado. Queres vir comigo? Às dez.\n— Quero, sim. Até logo, Rita!\n— Até logo, Mei. Bom fim de semana!",
+    "questions": [
+      {
+        "q": "Onde está a Mei?",
+        "options": [
+          "No jardim público.",
+          "Na escola.",
+          "No café."
+        ],
+        "answer": "No jardim público.",
+        "explain": "文章讲她在公园长椅上坐着，看书喝咖啡。"
+      },
+      {
+        "q": "Quem fala com a Mei?",
+        "options": [
+          "A professora Ana.",
+          "Uma vizinha chamada Rita.",
+          "Um senhor com um jornal."
+        ],
+        "answer": "Uma vizinha chamada Rita.",
+        "explain": "丽塔问 tu és a nova vizinha do segundo andar，她是新邻居。"
+      },
+      {
+        "q": "O que faz a Rita?",
+        "options": [
+          "É aluna de português.",
+          "É professora.",
+          "Trabalha no mercado."
+        ],
+        "answer": "É professora.",
+        "explain": "文中说 A Rita é professora，丽塔是老师。"
+      },
+      {
+        "q": "O que vão fazer amanhã?",
+        "options": [
+          "Vão ao jardim às nove.",
+          "Vão ao mercado às dez.",
+          "Vão à escola."
+        ],
+        "answer": "Vão ao mercado às dez.",
+        "explain": "丽塔说 Amanhã vou ao mercado... Às dez，明天十点去市场。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab20",
+    "title": "Uma janela para o rio",
+    "text": "Mei está no quarto do hotel. O quarto é pequeno, mas tem uma cama grande e uma janela para o rio. A janela está aberta e entra um pouco de vento. Ela arruma a mala e depois telefona à Ana, que está no quarto ao lado.\n\n— Olá, Mei! Tudo bem? — pergunta a Ana.\n— Tudo bem. O quarto é bonito e a cama é boa.\n— De onde és, Mei? Já sei, mas diz outra vez.\n— Sou chinesa. Vivo em Xangai, mas agora vivo em Lisboa.\n— E eu sou portuguesa, do Porto. Vivo em Lisboa há dois anos.\n\nAs duas riem. A Ana diz que amanhã vão ao mercado e depois ao jardim. Mei olha pela janela: o rio está calmo e as luzes da cidade já estão acesas. Antes de dormir, ela escreve uma mensagem à mãe: «Estou bem. O hotel é bom. Amanhã começo as aulas.» Depois fecha os olhos e pensa no dia seguinte.",
+    "questions": [
+      {
+        "q": "Onde está a Mei?",
+        "options": [
+          "Na receção do hotel.",
+          "No quarto do hotel.",
+          "Em casa da Ana."
+        ],
+        "answer": "No quarto do hotel.",
+        "explain": "第一句就是 Mei está no quarto do hotel，她在酒店房间。"
+      },
+      {
+        "q": "De onde é a Mei?",
+        "options": [
+          "É chinesa, de Xangai.",
+          "É portuguesa, do Porto.",
+          "É chinesa, de Lisboa."
+        ],
+        "answer": "É chinesa, de Xangai.",
+        "explain": "她说 Sou chinesa. Vivo em Xangai，是中国人，住在上海。"
+      },
+      {
+        "q": "De onde é a Ana?",
+        "options": [
+          "É chinesa.",
+          "É portuguesa, do Porto.",
+          "É portuguesa, de Xangai."
+        ],
+        "answer": "É portuguesa, do Porto.",
+        "explain": "安娜说 sou portuguesa, do Porto，她是波尔图人。"
+      },
+      {
+        "q": "O que faz a Mei antes de dormir?",
+        "options": [
+          "Telefona ao pai.",
+          "Escreve uma mensagem à mãe.",
+          "Vai ao jardim."
+        ],
+        "answer": "Escreve uma mensagem à mãe.",
+        "explain": "文中说她给妈妈写消息：Estou bem... 明天开始上课。"
+      }
+    ]
+  },
+  {
+    "id": "a1lab21",
+    "title": "Na secretaria, segunda-feira",
+    "text": "É segunda-feira de manhã e Mei está na secretaria da escola. Ela chega cedo e o corredor está silencioso. Mei quer o horário das aulas e o cartão de estudante. Há uma fila pequena e uma senhora ao balcão, com óculos e muitos papéis. A senhora fala devagar e sorri. Mei tem o passaporte na mão e espera com calma.\n\n— Bom dia! Tudo bem? — pergunta a senhora.\n— Estou bem, obrigada. E a senhora?\n— Mais ou menos. Hoje há muito trabalho. Como se chama?\n— Chamo-me Mei Chen. Sou aluna nova, do curso de português.\n— Muito bem. Desculpe, um momento, se faz favor.\n\nA senhora procura o nome dela no computador e dá-lhe um papel com as salas. As aulas começam às nove e acabam à uma. Mei agradece e sai com o papel na mão. Na rua, encontra a Ana, que pergunta:\n— Já tens o horário?\n— Tenho. Amanhã começo. Até amanhã, Ana!\n— Até amanhã, Mei. Boa sorte!",
+    "questions": [
+      {
+        "q": "Onde está a Mei?",
+        "options": [
+          "Na secretaria da escola.",
+          "Na sala de aula.",
+          "Na biblioteca."
+        ],
+        "answer": "Na secretaria da escola.",
+        "explain": "文章开头说她星期一早上在学校办公室，想拿课程表和学生证。"
+      },
+      {
+        "q": "O que quer a Mei?",
+        "options": [
+          "Um livro de português.",
+          "O horário das aulas e o cartão de estudante.",
+          "Um bilhete de metro."
+        ],
+        "answer": "O horário das aulas e o cartão de estudante.",
+        "explain": "文中说 Ela quer o horário das aulas e o cartão de estudante。"
+      },
+      {
+        "q": "A que horas começam as aulas?",
+        "options": [
+          "Às dez.",
+          "Às nove.",
+          "À uma."
+        ],
+        "answer": "Às nove.",
+        "explain": "文中说 As aulas começam às nove e acabam à uma，九点开始，一点结束。"
+      },
+      {
+        "q": "Como se despede a Mei da Ana?",
+        "options": [
+          "Diz «Até amanhã».",
+          "Diz «Bom dia».",
+          "Diz «Prazer em conhecer-te»."
+        ],
+        "answer": "Diz «Até amanhã».",
+        "explain": "结尾两人互说 Até amanhã，即明天见。"
+      }
+    ]
+  }
+]
