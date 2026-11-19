@@ -184,6 +184,8 @@
       for (let i = 0; i < needed; i++) {
         const type = TYPES[i % TYPES.length];
         const sceneLesson = coreLessons[i % coreLessons.length];
+        const labScenes = (window.AZ_LAB_SCENES && window.AZ_LAB_SCENES[level.id]) || [];
+        const scene = labScenes[i] || { pt: sceneLesson.title, zh: sceneLesson.zh };
         const words = sceneLesson.vocab.slice(0, 5);
         while (words.length < 5) {
           const candidate = pool[(i + words.length) % pool.length];
@@ -197,11 +199,11 @@
         const exercises = buildExercises(type, words, pool, dialogues);
         labs.push({
           id: `${level.id.toLowerCase()}lab${pad(i + 1)}`,
-          title: sceneLesson.title,
-          zh: sceneLesson.zh,
+          title: scene.pt,
+          zh: scene.zh,
           minutes: 5,
           xp: 15,
-          goal: `Praticar a cena «${sceneLesson.title}» com vocabulário, frases e compreensão.`,
+          goal: `Praticar a cena «${scene.pt}» com vocabulário, frases e compreensão.`,
           vocab: words,
           grammar: null,
           exercises,

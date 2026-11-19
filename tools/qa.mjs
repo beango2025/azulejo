@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','1.6.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','1.7.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -285,6 +285,7 @@ try {
   await goto('#/reading');
   await shot('20i-reading-library');
   console.log('READING_CARDS', await evaluate(`document.querySelectorAll('.reading-card').length`));
+  console.log('READING_UNIQUE', await evaluate(`new Set([...document.querySelectorAll('.reading-card h3')].map(el => el.textContent)).size`));
   await click('.reading-card');
   await sleep(500);
   await shot('20j-direct-reading');

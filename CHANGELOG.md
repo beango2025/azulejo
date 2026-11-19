@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.8.0 — 2026-11-19
+
+- Gave every practice lab its own distinct scene; all 180 lessons now have unique titles.
+- Rebalanced lab scenes so each level has 30 different places/situations, with no repeated scene names.
+- Kept lab vocabulary tied to the core lesson so the reading text still matches the stage.
+- Bumped the service worker cache to `azulejo-v1.8.0`.
+
 ## 1.7.0 — 2026-11-19
 
 - Added a top-level `Leitura & escuta` library with all 180 lessons grouped by CEFR level.
