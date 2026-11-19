@@ -7,10 +7,11 @@
   const MORE = window.AZ_MORE || { units: [], lexicon: {} };
   const LEVELS = window.AZ_LEVELS || [];
   const LEXICON = window.AZ_LEXICON || {};
+  const SCENES = window.AZ_CORE_SCENES || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '1.4.0';
+  const APP_VERSION = '1.5.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -40,6 +41,11 @@
   DATA.units.forEach(unit => {
     if (!unit.level) unit.level = 'A1';
     unit.lessons.forEach(lesson => {
+      const scene = SCENES[lesson.id];
+      if (scene) {
+        lesson.title = scene.pt;
+        lesson.zh = scene.zh;
+      }
       lesson.vocab.forEach(word => {
         const tr = LEXICON[word.id] || [];
         word.en = tr[0] || '—';
@@ -1018,8 +1024,8 @@
           const record = state.lessons[lab.id];
           return `<button class="practice-tile ${record ? 'is-done' : ''}" data-action="start-lesson" data-id="${lab.id}">
             <span class="practice-tile-top"><span class="practice-focus">${icon(lab.focusIcon)} ${esc(lab.focusTitle)}</span><span class="practice-status">${record ? icon('check') : icon('play')}</span></span>
-            <strong>${pad(i + 1)} · ${esc(lab.focusZh)}</strong>
-            <span class="practice-words">${lab.vocab.slice(0, 3).map(w => esc(w.pt)).join(' · ')}</span>
+            <strong>${pad(i + 1)} · ${esc(lab.title)}</strong>
+            <span class="practice-words">${esc(lab.zh)} · ${lab.vocab.slice(0, 2).map(w => esc(w.pt)).join(' · ')}</span>
             <span class="practice-meta"><span>5 exercícios</span><span>+${lab.xp} XP</span></span>
           </button>`;
         }).join('')}

@@ -183,15 +183,13 @@
 
       for (let i = 0; i < needed; i++) {
         const type = TYPES[i % TYPES.length];
-        const selected = [];
-        for (let k = 0; k < 5; k++) selected.push(pool[(i * 5 + k) % pool.length]);
-        const uniqueSelected = [...new Map(selected.map(w => [w.id, w])).values()];
-        while (uniqueSelected.length < 5) {
-          const candidate = pool[(i * 5 + uniqueSelected.length + 3) % pool.length];
-          if (!uniqueSelected.some(w => w.id === candidate.id)) uniqueSelected.push(candidate);
+        const sceneLesson = coreLessons[i % coreLessons.length];
+        const words = sceneLesson.vocab.slice(0, 5);
+        while (words.length < 5) {
+          const candidate = pool[(i + words.length) % pool.length];
+          if (!words.some(w => w.id === candidate.id)) words.push(candidate);
           else break;
         }
-        const words = uniqueSelected.slice(0, 5);
         const lineOffset = (i * 3) % Math.max(1, levelDialogueLines.length);
         const dialogues = levelDialogueLines.length
           ? [levelDialogueLines[lineOffset], levelDialogueLines[(lineOffset + 2) % levelDialogueLines.length]]
@@ -199,11 +197,11 @@
         const exercises = buildExercises(type, words, pool, dialogues);
         labs.push({
           id: `${level.id.toLowerCase()}lab${pad(i + 1)}`,
-          title: `Prática ${pad(i + 1)} · ${type.title}`,
-          zh: `练习 ${pad(i + 1)} · ${type.zh}`,
+          title: sceneLesson.title,
+          zh: sceneLesson.zh,
           minutes: 5,
           xp: 15,
-          goal: '巩固本级别的词汇、句型和听力。',
+          goal: `Praticar a cena «${sceneLesson.title}» com vocabulário, frases e compreensão.`,
           vocab: words,
           grammar: null,
           exercises,

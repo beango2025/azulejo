@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.0 — 2026-11-19
+
+- Renamed every A1–C2 core lesson after a real-life scene.
+- Practice labs now inherit their scene title and vocabulary from the corresponding core lesson.
+- Added `js/scenes.js` as the single source for scene names.
+- Bumped the service worker cache to `azulejo-v1.5.0`.
+
 ## 1.4.0 — 2026-11-19
 
 - Added a PT-PT-only external resources section: Falar, Fala Bem, PTptIndex, EP Spoken Frequency and Conversas com Amália.
