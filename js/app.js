@@ -1,0 +1,3465 @@
+/* Azulejo — a small, opinionated European Portuguese learning app. */
+(function () {
+  'use strict';
+
+  const DATA = window.AZ_DATA;
+  const ADVANCED = window.AZ_ADVANCED || { units: [], media: [] };
+  const MORE = window.AZ_MORE || { units: [], lexicon: {} };
+  const LEVELS = window.AZ_LEVELS || [];
+  const LEXICON = window.AZ_LEXICON || {};
+  const STORAGE_KEY = 'azulejo.state.v1';
+  const XP_PER_LEVEL = 120;
+  const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
+
+  /* Merge core units and attach level / five-language metadata. */
+  DATA.units.push(...(ADVANCED.units || []), ...(MORE.units || []));
+  DATA.media = ADVANCED.media || [];
+  DATA.levels = LEVELS;
+  Object.assign(LEXICON, MORE.lexicon || {});
+  MORE.units.forEach(unit => {
+    const level = LEVELS.find(l => l.id === unit.level);
+    if (level && !level.units.includes(unit.id)) level.units.push(unit.id);
+  });
+  let nextUnitOrder = 1;
+  LEVELS.forEach(level => {
+    const levelUnits = [];
+    level.units.forEach(unitId => {
+      const unit = DATA.units.find(u => u.id === unitId);
+      if (unit && !levelUnits.includes(unit)) levelUnits.push(unit);
+    });
+    level.units = levelUnits.map(unit => unit.id);
+    levelUnits.forEach(unit => {
+      unit.level = level.id;
+      unit.order = nextUnitOrder++;
+    });
+  });
+  DATA.units.sort((a, b) => a.order - b.order);
+  DATA.units.forEach(unit => {
+    if (!unit.level) unit.level = 'A1';
+    unit.lessons.forEach(lesson => {
+      lesson.vocab.forEach(word => {
+        const tr = LEXICON[word.id] || [];
+        word.en = tr[0] || '—';
+        word.fr = tr[1] || '—';
+        word.es = tr[2] || '—';
+      });
+    });
+  });
+
+  /* 30 lessons per level: core units + deterministic practice labs. */
+  DATA.labs = window.AZ_BUILD_LABS
+    ? window.AZ_BUILD_LABS({ levels: LEVELS, units: DATA.units, media: DATA.media })
+    : [];
+
+  DATA.achievements.push(
+    { id: 'b1', icon: 'book', title: 'Contador de histórias', zh: '讲故事的人', desc: '完成 B1 单元', test: s => ['b1l1', 'b1l2', 'b1l3'].every(id => s.lessons[id]) },
+    { id: 'b2', icon: 'chart', title: 'Voz da mesa', zh: '会议发声者', desc: '完成 B2 单元', test: s => ['b2l1', 'b2l2', 'b2l3'].every(id => s.lessons[id]) },
+    { id: 'c1', icon: 'pin', title: 'Olhar crítico', zh: '批判视角', desc: '完成 C1 单元', test: s => ['c1l1', 'c1l2', 'c1l3'].every(id => s.lessons[id]) },
+    { id: 'c2', icon: 'sparkle', title: 'Nas entrelinhas', zh: '读懂言外之意', desc: '完成 C2 单元', test: s => ['c2l1', 'c2l2', 'c2l3'].every(id => s.lessons[id]) },
+    { id: 'media6', icon: 'video', title: 'Ouvido absoluto', zh: '影音耳朵', desc: '完成 6 个影音练习', test: s => Object.keys(s.media || {}).length >= 6 },
+    { id: 'words100', icon: 'layers', title: 'Cinco línguas', zh: '五语词汇家', desc: '收集 100 个词', test: s => Object.keys(s.words).length >= 100 }
+  );
+
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+  /* ------------------------------------------------------------------ */
+  /* Small utilities                                                     */
+  /* ------------------------------------------------------------------ */
+
+  function esc(value) {
+    return String(value == null ? '' : value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function shuffle(list) {
+    const arr = list.slice();
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  const pad = n => String(n).padStart(2, '0');
+
+  function dateKey(date = new Date()) {
+    const d = new Date(date);
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  }
+
+  function dateFromKey(key) {
+    return new Date(`${key}T12:00:00`);
+  }
+
+  function addDays(date, days) {
+    const d = new Date(date);
+    d.setDate(d.getDate() + days);
+    return d;
+  }
+
+  function daysBetween(a, b) {
+    const d1 = new Date(a);
+    const d2 = new Date(b);
+    d1.setHours(12, 0, 0, 0);
+    d2.setHours(12, 0, 0, 0);
+    return Math.round((d2 - d1) / 86400000);
+  }
+
+  function prettyDate() {
+    const raw = new Intl.DateTimeFormat('pt-PT', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date());
+    return raw.charAt(0).toUpperCase() + raw.slice(1);
+  }
+
+  function greeting() {
+    const h = new Date().getHours();
+    if (h < 12) return 'Bom dia';
+    if (h < 19) return 'Boa tarde';
+    return 'Boa noite';
+  }
+
+  function todayXP() {
+    return state.activity[dateKey()] || 0;
+  }
+
+  function currentStreak() {
+    return DATA.streakOf(state);
+  }
+
+  function levelInfo() {
+    const raw = Math.floor(state.xp / XP_PER_LEVEL) + 1;
+    const n = Math.min(raw, LEVEL_TITLES.length);
+    return {
+      n: raw,
+      title: LEVEL_TITLES[n - 1] || 'Alma portuguesa',
+      current: raw > LEVEL_TITLES.length ? XP_PER_LEVEL : state.xp % XP_PER_LEVEL,
+      needed: XP_PER_LEVEL,
+      pct: raw > LEVEL_TITLES.length ? 1 : (state.xp % XP_PER_LEVEL) / XP_PER_LEVEL
+    };
+  }
+
+  function initials(name) {
+    const cleaned = (name || '').trim();
+    if (!cleaned) return 'A';
+    const parts = cleaned.split(/\s+/);
+    return (parts[0][0] + (parts.length > 1 ? parts[parts.length - 1][0] : '')).toUpperCase();
+  }
+
+  function accentFold(str) {
+    return String(str).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  function normalizeAnswer(str) {
+    return accentFold(str)
+      .replace(/[.,!?;:¡¿"'«»…]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function cleanForExact(str) {
+    return String(str).toLowerCase().replace(/[.,!?;:¡¿"'«»…]/g, '').replace(/\s+/g, ' ').trim();
+  }
+
+  function joinTokens(tokens) {
+    return tokens.join(' ').replace(/\s+([.,!?;:])/g, '$1');
+  }
+
+  function icon(name, cls = '') {
+    return `<svg class="icon ${cls}" aria-hidden="true"><use href="#i-${name}"></use></svg>`;
+  }
+
+  function ring(pct, size, stroke, color, track) {
+    const r = (size - stroke) / 2;
+    const c = 2 * Math.PI * r;
+    const value = Math.max(0, Math.min(1, pct || 0));
+    return `<svg class="progress-ring" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" aria-hidden="true">
+      <circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="${track || 'var(--line)'}" stroke-width="${stroke}"/>
+      <circle class="ring-value" cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="${color || 'var(--blue)'}" stroke-width="${stroke}" stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${c * (1 - value)}"/>
+    </svg>`;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* State                                                               */
+  /* ------------------------------------------------------------------ */
+
+  function defaultState() {
+    return {
+      version: 1,
+      onboarded: false,
+      name: '',
+      goal: 40,
+      xp: 0,
+      lessons: {},
+      words: {},
+      media: {},
+      activity: {},
+      streak: 0,
+      lastActive: null,
+      favorites: [],
+      readArticles: [],
+      settings: { sound: true, rate: 0.9, slowRate: 0.6, voiceURI: '' }
+    };
+  }
+
+  function loadState() {
+    const base = defaultState();
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return base;
+      const parsed = JSON.parse(raw);
+      const merged = Object.assign(base, parsed);
+      merged.settings = Object.assign(defaultState().settings, parsed.settings || {});
+      if (!Array.isArray(merged.favorites)) merged.favorites = [];
+      if (!Array.isArray(merged.readArticles)) merged.readArticles = [];
+      if (!merged.activity || typeof merged.activity !== 'object') merged.activity = {};
+      if (!merged.lessons || typeof merged.lessons !== 'object') merged.lessons = {};
+      if (!merged.words || typeof merged.words !== 'object') merged.words = {};
+      if (!merged.media || typeof merged.media !== 'object') merged.media = {};
+      return merged;
+    } catch (err) {
+      console.warn('Could not read saved progress.', err);
+      return base;
+    }
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (err) {
+      console.warn('Could not save progress.', err);
+    }
+  }
+
+  function addXP(amount) {
+    if (!amount) return;
+    const key = dateKey();
+    state.xp += amount;
+    state.activity[key] = (state.activity[key] || 0) + amount;
+    if (state.lastActive !== key) {
+      const gap = state.lastActive ? daysBetween(dateFromKey(state.lastActive), dateFromKey(key)) : null;
+      state.streak = gap === 1 ? (state.streak || 0) + 1 : 1;
+      state.lastActive = key;
+    }
+    saveState();
+  }
+
+  let state = loadState();
+
+  const coreLessons = DATA.units.flatMap(unit => unit.lessons.map(lesson => ({ ...lesson, unit })));
+  const labLessons = (DATA.labs || []).map(lesson => ({ ...lesson, unit: lesson.unit }));
+  const allLessons = [...coreLessons, ...labLessons];
+  const lessonMap = new Map(allLessons.map(l => [l.id, l]));
+  const vocabMap = new Map();
+  const allVocab = [];
+  coreLessons.forEach(lesson => lesson.vocab.forEach(word => {
+    const enriched = { ...word, lessonId: lesson.id, lessonTitle: lesson.title, unitId: lesson.unit.id, level: lesson.unit.level };
+    vocabMap.set(word.id, enriched);
+    allVocab.push(enriched);
+  }));
+
+  function completedCount() {
+    return allLessons.filter(l => state.lessons[l.id]).length;
+  }
+
+  function levelMeta(id) {
+    return LEVELS.find(level => level.id === id) || LEVELS[0] || { id, name: id, zh: '', units: [] };
+  }
+
+  function lessonsForLevel(id) {
+    return allLessons.filter(lesson => lesson.unit.level === id);
+  }
+
+  function nextLessonForLevel(id) {
+    const lessons = lessonsForLevel(id);
+    return lessons.find(lesson => !lesson.isLab && !state.lessons[lesson.id])
+      || lessons.find(lesson => lesson.isLab && !state.lessons[lesson.id])
+      || null;
+  }
+
+  function nextLesson() {
+    return allLessons.find(l => !l.isLab && !state.lessons[l.id])
+      || allLessons.find(l => l.isLab && !state.lessons[l.id])
+      || null;
+  }
+
+  function nextLessonAfter(id) {
+    const idx = allLessons.findIndex(l => l.id === id);
+    return idx >= 0 ? allLessons[idx + 1] || null : null;
+  }
+
+  function learnedWordCount() {
+    return Object.keys(state.words).length;
+  }
+
+  function dueWords() {
+    const now = Date.now();
+    return Object.entries(state.words)
+      .map(([id, record]) => ({ id, ...record, vocab: vocabMap.get(id) }))
+      .filter(item => item.vocab)
+      .filter(item => !item.due || new Date(item.due).getTime() <= now)
+      .sort((a, b) => new Date(a.due || 0) - new Date(b.due || 0));
+  }
+
+  function learnedWords() {
+    return Object.entries(state.words)
+      .map(([id, record]) => ({ id, ...record, vocab: vocabMap.get(id) }))
+      .filter(item => item.vocab);
+  }
+
+  function addWordsToReview(words) {
+    let added = 0;
+    words.forEach(word => {
+      if (!state.words[word.id]) {
+        state.words[word.id] = {
+          due: new Date().toISOString(),
+          interval: 0,
+          ease: 2.5,
+          reps: 0,
+          learnedAt: new Date().toISOString()
+        };
+        added += 1;
+      }
+    });
+    return added;
+  }
+
+  function updateSRS(record, rating) {
+    const now = new Date();
+    const next = Object.assign({}, record);
+    let days = 0;
+    next.reps = (record.reps || 0) + 1;
+    next.ease = record.ease || 2.5;
+    if (rating === 'again') {
+      next.ease = Math.max(1.6, next.ease - 0.2);
+      next.interval = 0;
+      now.setMinutes(now.getMinutes() + 10);
+      next.due = now.toISOString();
+    } else if (rating === 'hard') {
+      next.ease = Math.max(1.7, next.ease - 0.05);
+      next.interval = Math.max(1, Math.round((record.interval || 1) * 1.2));
+      days = next.interval;
+      next.due = addDays(now, days).toISOString();
+    } else if (rating === 'good') {
+      next.interval = record.interval ? Math.max(2, Math.round(record.interval * next.ease)) : 2;
+      days = next.interval;
+      next.due = addDays(now, days).toISOString();
+    } else {
+      next.ease = Math.min(3.2, next.ease + 0.1);
+      next.interval = Math.max(4, Math.round((record.interval || 2) * next.ease * 1.4));
+      days = next.interval;
+      next.due = addDays(now, days).toISOString();
+    }
+    next.lastRating = rating;
+    next.lastReviewed = now.toISOString();
+    return { record: next, days };
+  }
+
+  function intervalLabel(record, rating) {
+    if (rating === 'again') return '10 min';
+    if (rating === 'hard') return '1 dia';
+    const days = rating === 'good'
+      ? (record.interval ? Math.max(2, Math.round(record.interval * (record.ease || 2.5))) : 2)
+      : Math.max(4, Math.round((record.interval || 2) * (record.ease || 2.5) * 1.4));
+    return `${days} ${days === 1 ? 'dia' : 'dias'}`;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Audio                                                               */
+  /* ------------------------------------------------------------------ */
+
+  const Speech = {
+    voices: [],
+    warned: false,
+    init() {
+      if (!('speechSynthesis' in window)) return;
+      const load = () => {
+        this.voices = window.speechSynthesis.getVoices() || [];
+      };
+      load();
+      window.speechSynthesis.addEventListener('voiceschanged', load);
+    },
+    ptVoices() {
+      return this.voices.filter(v => /^pt([-_]|$)/i.test(v.lang));
+    },
+    pick() {
+      const preferred = state.settings.voiceURI;
+      if (preferred) {
+        const chosen = this.voices.find(v => v.voiceURI === preferred);
+        if (chosen) return chosen;
+      }
+      return this.voices.find(v => /^pt[-_]PT$/i.test(v.lang))
+        || this.voices.find(v => /portugu/i.test(v.name) && /portugal/i.test(v.name))
+        || this.voices.find(v => /^pt([-_]|$)/i.test(v.lang))
+        || null;
+    },
+    speak(text, slow, btn) {
+      if (!text) return;
+      if (!('speechSynthesis' in window)) {
+        showToast('这个浏览器不支持语音朗读。', 'warn');
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'pt-PT';
+      utterance.rate = slow ? Number(state.settings.slowRate) || 0.6 : Number(state.settings.rate) || 0.9;
+      utterance.pitch = 1;
+      const voice = this.pick();
+      if (voice) utterance.voice = voice;
+      if (!voice && !this.warned) {
+        this.warned = true;
+        showToast('未检测到葡语语音，正在使用系统默认语音。', 'warn');
+      }
+      if (btn) {
+        btn.classList.add('is-speaking');
+        setTimeout(() => btn.classList.remove('is-speaking'), 900);
+      }
+      try {
+        window.speechSynthesis.speak(utterance);
+      } catch (err) {
+        showToast('语音播放失败，请检查系统语音设置。', 'warn');
+      }
+    },
+    speakSequence(texts, btn) {
+      if (!texts || !texts.length) return;
+      if (!('speechSynthesis' in window)) {
+        showToast('这个浏览器不支持语音朗读。', 'warn');
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const voice = this.pick();
+      if (!voice && !this.warned) {
+        this.warned = true;
+        showToast('未检测到葡语语音，正在使用系统默认语音。', 'warn');
+      }
+      if (btn) btn.classList.add('is-speaking');
+      let index = 0;
+      const next = () => {
+        if (index >= texts.length) {
+          if (btn) btn.classList.remove('is-speaking');
+          return;
+        }
+        const utterance = new SpeechSynthesisUtterance(texts[index]);
+        utterance.lang = 'pt-PT';
+        utterance.rate = Number(state.settings.rate) || 0.9;
+        utterance.pitch = 1;
+        if (voice) utterance.voice = voice;
+        utterance.onend = () => {
+          index += 1;
+          setTimeout(next, 420);
+        };
+        utterance.onerror = () => {
+          if (btn) btn.classList.remove('is-speaking');
+        };
+        window.speechSynthesis.speak(utterance);
+      };
+      next();
+    },
+    speakMediaLine(text, roleIndex, rate, onEnd) {
+      if (!text) { if (onEnd) onEnd(); return; }
+      if (!('speechSynthesis' in window)) {
+        if (!this.warned) {
+          this.warned = true;
+          showToast('这个浏览器不支持语音朗读，正在用字幕播放。', 'warn');
+        }
+        if (onEnd) setTimeout(onEnd, Math.max(2600, text.split(/\s+/).length * 420));
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'pt-PT';
+      utterance.rate = Number(rate) || 0.9;
+      utterance.pitch = 0.96 + (roleIndex % 3) * 0.045;
+      const ptVoices = this.ptVoices();
+      const voice = (ptVoices.length > 1 ? ptVoices[roleIndex % ptVoices.length] : this.pick());
+      if (voice) utterance.voice = voice;
+      if (!voice && !this.warned) {
+        this.warned = true;
+        showToast('未检测到葡语语音，正在使用系统默认语音。', 'warn');
+      }
+      utterance.onend = () => { if (onEnd) onEnd(); };
+      utterance.onerror = () => { if (onEnd) onEnd(); };
+      try {
+        window.speechSynthesis.speak(utterance);
+      } catch (err) {
+        if (onEnd) onEnd();
+      }
+    },
+    stop() {
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    }
+  };
+
+  let audioCtx = null;
+
+  function soundFX(kind) {
+    if (!state.settings.sound) return;
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const notes = kind === 'correct' ? [523.25, 659.25, 783.99]
+        : kind === 'wrong' ? [233.08, 196]
+        : kind === 'complete' ? [523.25, 659.25, 783.99, 1046.5]
+        : [440];
+      const start = audioCtx.currentTime;
+      notes.forEach((freq, i) => {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.value = freq;
+        const t = start + i * 0.085;
+        gain.gain.setValueAtTime(0.0001, t);
+        gain.gain.exponentialRampToValueAtTime(0.035, t + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.22);
+        osc.connect(gain).connect(audioCtx.destination);
+        osc.start(t);
+        osc.stop(t + 0.24);
+      });
+    } catch (err) { /* sound is decorative */ }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Chrome, navigation and routing                                      */
+  /* ------------------------------------------------------------------ */
+
+  const NAV = [
+    { id: 'learn', label: '学习', pt: 'Aprender', href: '#/learn', icon: 'book' },
+    { id: 'media', label: '影音', pt: 'Vídeo & áudio', href: '#/media', icon: 'video' },
+    { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
+    { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
+    { id: 'culture', label: '文化', pt: 'Cultura', href: '#/culture', icon: 'sun' },
+    { id: 'progress', label: '进度', pt: 'Progresso', href: '#/progress', icon: 'chart' }
+  ];
+
+  const ui = {
+    route: 'learn',
+    courseLevel: '',
+    mediaLevel: 'A1',
+    languageTab: 'phrases',
+    phraseGroup: 'all',
+    phraseQuery: '',
+    wordQuery: '',
+    wordLevel: 'all',
+    favOnly: false,
+    lesson: null,
+    review: null,
+    media: null,
+    modalOpen: false,
+    lastFocus: null
+  };
+
+  function navItem(item, active) {
+    return `<a class="nav-item ${active ? 'is-active' : ''}" href="${item.href}" data-nav="${item.id}" ${active ? 'aria-current="page"' : ''}>
+      <span class="nav-icon">${icon(item.icon)}</span>
+      <span class="nav-copy"><strong>${item.label}</strong><small>${item.pt}</small></span>
+      ${active ? '<span class="nav-dot" aria-hidden="true"></span>' : ''}
+    </a>`;
+  }
+
+  function lastSevenDays() {
+    const out = [];
+    for (let i = 6; i >= 0; i--) out.push(addDays(new Date(), -i));
+    return out;
+  }
+
+  function renderSidebar(active) {
+    const nav = $('#nav-list');
+    if (nav) nav.innerHTML = NAV.map(item => navItem(item, item.id === active)).join('');
+    const foot = $('#sidebar-foot');
+    if (!foot) return;
+    const streak = currentStreak();
+    const lvl = levelInfo();
+    const days = lastSevenDays();
+    foot.innerHTML = `
+      <div class="streak-card">
+        <span class="streak-flame">${icon('flame')}</span>
+        <div class="streak-text">
+          <strong>${streak} ${streak === 1 ? 'dia' : 'dias'}</strong>
+          <span>连续学习</span>
+        </div>
+        <div class="mini-dots" aria-hidden="true">
+          ${days.map(d => `<i class="${state.activity[dateKey(d)] ? 'has-xp' : ''} ${dateKey(d) === dateKey() ? 'is-today' : ''}"></i>`).join('')}
+        </div>
+      </div>
+      <button class="profile-chip" data-action="open-settings" aria-label="打开设置">
+        <span class="avatar">${esc(initials(state.name))}</span>
+        <span class="profile-copy">
+          <strong>${esc(state.name || 'Aprendiz')}</strong>
+          <small>Nível ${lvl.n} · ${lvl.title}</small>
+        </span>
+        ${icon('settings', 'profile-cog')}
+      </button>`;
+  }
+
+  function renderTopbar() {
+    const top = $('#topbar');
+    if (!top) return;
+    const xp = todayXP();
+    const goal = Number(state.goal) || 40;
+    const done = xp >= goal;
+    top.innerHTML = `
+      <div class="topbar-left">
+        <p class="topbar-hello">${greeting()}${state.name ? `, ${esc(state.name)}` : ''}.</p>
+        <p class="topbar-date">${prettyDate()} <span class="topbar-sep">·</span> <span class="topbar-meta">Português europeu · A1–C2</span></p>
+      </div>
+      <div class="topbar-right">
+        <a class="goal-pill ${done ? 'is-complete' : ''}" href="#/progress" aria-label="今日目标 ${xp} / ${goal} XP">
+          ${icon(done ? 'check' : 'target')}
+          <span><b>${xp}</b><span class="goal-slash"> / ${goal}</span> XP</span>
+        </a>
+        <button class="icon-btn ${state.settings.sound ? '' : 'is-muted'}" data-action="toggle-sound" aria-label="${state.settings.sound ? '关闭音效' : '打开音效'}" title="${state.settings.sound ? '关闭音效' : '打开音效'}">
+          ${icon(state.settings.sound ? 'volume' : 'volume-off')}
+        </button>
+        <button class="icon-btn" data-action="open-settings" aria-label="设置" title="设置">${icon('settings')}</button>
+        <button class="avatar-btn" data-action="open-settings" aria-label="打开个人设置">${esc(initials(state.name))}</button>
+      </div>`;
+  }
+
+  function renderBottomNav(active) {
+    const bottom = $('#bottom-nav');
+    if (!bottom) return;
+    bottom.innerHTML = NAV.map(item => `
+      <a href="${item.href}" class="bottom-item ${item.id === active ? 'is-active' : ''}" ${item.id === active ? 'aria-current="page"' : ''}>
+        ${icon(item.icon)}<span>${item.label}</span>
+      </a>`).join('');
+  }
+
+  function renderChrome(active) {
+    renderSidebar(active);
+    renderTopbar();
+    renderBottomNav(active);
+  }
+
+  function refreshChrome() {
+    renderChrome(ui.route);
+  }
+
+  function routeInfo() {
+    const raw = location.hash.replace(/^#\/?/, '');
+    const parts = raw.split('/').filter(Boolean);
+    return { name: parts[0] || 'learn', parts };
+  }
+
+  function router() {
+    const info = routeInfo();
+    const name = info.name;
+    const mediaPlayer = name === 'media' && Boolean(info.parts[1]);
+    const focus = name === 'lesson' || mediaPlayer || (name === 'review' && info.parts[1] === 'session');
+    if (mediaPlay && !mediaPlayer) {
+      Speech.stop();
+      clearTimeout(mediaTimer);
+      mediaPlay = null;
+    }
+    document.body.classList.toggle('focus-mode', focus);
+    closeModal(true);
+    ui.route = name === 'lesson' ? 'learn' : name;
+    if (focus) {
+      if (name === 'lesson') {
+        const lesson = lessonMap.get(info.parts[1]);
+        if (!lesson) {
+          location.hash = '#/learn';
+          return;
+        }
+        startLesson(lesson);
+      } else if (mediaPlayer) {
+        startMedia(info.parts[1]);
+      } else {
+        startReviewSession(info.parts[2] === 'all');
+      }
+      return;
+    }
+    if (!['learn', 'media', 'review', 'phrases', 'culture', 'progress'].includes(name)) {
+      location.hash = '#/learn';
+      return;
+    }
+    ui.lesson = null;
+    ui.review = null;
+    ui.media = null;
+    renderChrome(name);
+    if (name === 'learn') renderHome();
+    if (name === 'media') renderMediaPage();
+    if (name === 'review') renderReviewPage();
+    if (name === 'phrases') renderPhrasesPage();
+    if (name === 'culture') renderCulturePage();
+    if (name === 'progress') renderProgressPage();
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }
+
+  function go(hash) {
+    if (location.hash === hash) router();
+    else location.hash = hash;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Reusable page pieces                                                */
+  /* ------------------------------------------------------------------ */
+
+  function pageHead(eyebrow, title, subtitle, extra = '') {
+    return `<header class="page-head">
+      <div class="page-head-copy">
+        <span class="eyebrow">${eyebrow}</span>
+        <h1>${title}</h1>
+        <p>${subtitle}</p>
+      </div>
+      ${extra ? `<div class="page-head-extra">${extra}</div>` : ''}
+    </header>`;
+  }
+
+  function dailyWord() {
+    const dayIndex = Math.floor(Date.now() / 86400000) % DATA.dailyWords.length;
+    return DATA.dailyWords[dayIndex];
+  }
+
+  function weekDots() {
+    const days = lastSevenDays();
+    const labels = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
+    return `<div class="week-dots" aria-hidden="true">
+      ${days.map((d, i) => {
+        const active = state.activity[dateKey(d)] > 0;
+        const today = dateKey(d) === dateKey();
+        return `<span class="week-day ${active ? 'is-done' : ''} ${today ? 'is-today' : ''}"><i>${labels[d.getDay()]}</i><b>${d.getDate()}</b></span>`;
+      }).join('')}
+    </div>`;
+  }
+
+  function heroTiles() {
+    return `<svg class="hero-tiles" viewBox="0 0 600 420" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <pattern id="az-tile" width="84" height="84" patternUnits="userSpaceOnUse">
+          <g fill="none" stroke="rgba(248,240,226,.16)" stroke-width="1.1">
+            <circle cx="42" cy="42" r="25"/>
+            <path d="M42 3c7 18 21 32 39 39-18 7-32 21-39 39-7-18-21-32-39-39 18-7 32-21 39-39z"/>
+            <path d="M0 0h84v84H0z"/>
+            <circle cx="0" cy="0" r="5" fill="rgba(248,240,226,.16)" stroke="none"/>
+            <circle cx="84" cy="84" r="5" fill="rgba(248,240,226,.16)" stroke="none"/>
+          </g>
+        </pattern>
+        <radialGradient id="hero-glow" cx="72%" cy="20%" r="60%">
+          <stop offset="0%" stop-color="#e8b25b" stop-opacity=".22"/>
+          <stop offset="100%" stop-color="#e8b25b" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="600" height="420" fill="url(#az-tile)"/>
+      <rect width="600" height="420" fill="url(#hero-glow)"/>
+    </svg>`;
+  }
+
+  function tramArt() {
+    return `<svg class="tram-art" viewBox="0 0 620 430" fill="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="tramSun" x1="0" y1="0" x2="0" y2="1">
+          <stop stop-color="#f1c777"/><stop offset="1" stop-color="#dfa74b"/>
+        </linearGradient>
+        <linearGradient id="tramBody" x1="0" y1="0" x2="0" y2="1">
+          <stop stop-color="#f7e9c8"/><stop offset="1" stop-color="#e9ce9d"/>
+        </linearGradient>
+      </defs>
+      <circle cx="483" cy="100" r="108" fill="#e8b25b" opacity=".09"/>
+      <circle cx="483" cy="100" r="65" fill="url(#tramSun)" opacity=".95"/>
+      <g stroke="#f7eede" stroke-width="1.5" opacity=".34">
+        <path d="M483 8v20M483 172v20M391 100h20M555 100h20M418 35l14 14M534 151l14 14M548 35l-14 14M432 151l-14 14"/>
+      </g>
+      <g opacity=".38" stroke="#f7eede" stroke-width="1.7">
+        <path d="M40 279v-87l49-37 49 37v87"/>
+        <path d="M113 279v-56l31-25 31 25v56"/>
+        <path d="M80 192l-5-23h30l-7 23"/>
+        <path d="M196 279v-61l38-29 38 29v61"/>
+        <path d="M170 279v-37l22-17 22 17v37"/>
+        <path d="M284 279v-40h31v40"/>
+      </g>
+      <g opacity=".5" stroke="#f7eede" stroke-width="2">
+        <path d="M20 331c79-24 134-25 196-10 56 13 105 17 169 2 64-15 121-11 201 15"/>
+        <path d="M34 356c78-23 137-24 196-10 61 14 112 16 171 2 68-16 121-8 179 12"/>
+      </g>
+      <g transform="translate(274 132)">
+        <path d="M49 23h93" stroke="#f7eede" stroke-width="2" opacity=".7"/>
+        <path d="M70 23l20-19 31 19" stroke="#f7eede" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+        <path d="M18 42h170a8 8 0 0 1 8 8v145a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8V50a8 8 0 0 1 8-8z" fill="url(#tramBody)"/>
+        <path d="M20 34h166l10 17H10l10-17z" fill="#f7eede"/>
+        <rect x="23" y="58" width="68" height="57" rx="4" fill="#173f4e"/>
+        <rect x="99" y="58" width="68" height="57" rx="4" fill="#173f4e"/>
+        <path d="M57 58v57M133 58v57" stroke="#f7eede" stroke-width="1.2" opacity=".4"/>
+        <rect x="23" y="126" width="39" height="58" rx="3" fill="#c46745"/>
+        <rect x="70" y="126" width="54" height="58" rx="3" fill="#173f4e"/>
+        <rect x="132" y="126" width="35" height="58" rx="3" fill="#173f4e" opacity=".72"/>
+        <text x="97" y="165" fill="#f7eede" font-family="Georgia, serif" font-size="27" text-anchor="middle">28</text>
+        <circle cx="44" cy="201" r="15" fill="#0f2f3b" stroke="#f7eede" stroke-width="3"/>
+        <circle cx="160" cy="201" r="15" fill="#0f2f3b" stroke="#f7eede" stroke-width="3"/>
+        <circle cx="44" cy="201" r="4" fill="#e8b25b"/>
+        <circle cx="160" cy="201" r="4" fill="#e8b25b"/>
+        <path d="M9 173h188" stroke="#c46745" stroke-width="4"/>
+      </g>
+      <g stroke="#f7eede" stroke-width="2" stroke-linecap="round" opacity=".55">
+        <path d="M333 68c7-7 14-7 21 0M364 82c6-6 12-6 18 0"/>
+        <path d="M450 222c6-6 12-6 18 0M476 210c5-5 10-5 15 0"/>
+      </g>
+      <path d="M0 405c96-31 190-36 292-20 114 18 213 23 328-12v57H0z" fill="#0f2f3b" opacity=".5"/>
+      <g opacity=".7" fill="#f7eede">
+        <circle cx="52" cy="385" r="2.4"/><circle cx="74" cy="377" r="2"/><circle cx="96" cy="386" r="3"/>
+        <circle cx="553" cy="365" r="2.2"/><circle cx="575" cy="355" r="1.6"/>
+      </g>
+    </svg>`;
+  }
+
+  function tileArt(article, index, large) {
+    const words = { a1: 'pt-PT', a2: 'sh', a3: 'bica', a4: 'tu', a5: 'a', a6: 'saudade', a7: 'mesa' };
+    return `<div class="tile-art art-${(index % 7) + 1} ${large ? 'is-large' : ''}">
+      <svg viewBox="0 0 300 200" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+        <g fill="none" stroke="rgba(255,250,240,.22)" stroke-width="1.2">
+          <circle cx="42" cy="36" r="24"/><circle cx="258" cy="164" r="38"/>
+          <path d="M42 12c7 17 19 29 36 36-17 7-29 19-36 36-7-17-19-29-36-36 17-7 29-19 36-36z"/>
+          <path d="M150 0v200M0 100h300" opacity=".35"/>
+          <path d="M75 0v200M225 0v200" opacity=".15"/>
+        </g>
+      </svg>
+      <span class="art-kicker">${esc(article.kicker)}</span>
+      <span class="art-word">${esc(words[article.id] || 'olá')}</span>
+      <span class="art-index">0${index + 1}</span>
+    </div>`;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Home                                                               */
+  /* ------------------------------------------------------------------ */
+
+  function renderHome() {
+    const next = nextLesson();
+    const xp = todayXP();
+    const goal = Number(state.goal) || 40;
+    const remaining = Math.max(0, goal - xp);
+    const pct = goal ? Math.min(1, xp / goal) : 0;
+    const word = dailyWord();
+    const completed = completedCount();
+    const newUser = completed === 0;
+    const coursePct = allLessons.length ? Math.round(completed / allLessons.length * 100) : 0;
+    const selectedLevelId = ui.courseLevel || (next ? next.unit.level : 'A1') || 'A1';
+    const selectedLevel = levelMeta(selectedLevelId);
+    const levelUnits = DATA.units.filter(u => u.level === selectedLevelId);
+    const levelLessons = lessonsForLevel(selectedLevelId);
+    const levelDone = levelLessons.filter(l => state.lessons[l.id]).length;
+    const levelMedia = DATA.media.filter(item => item.level === selectedLevelId);
+
+    const heroLesson = nextLessonForLevel(selectedLevelId) || next;
+    const unit = heroLesson ? heroLesson.unit : null;
+    const doneInUnit = unit && unit.lessons ? unit.lessons.filter(l => state.lessons[l.id]).length : 0;
+    const heroTitle = heroLesson
+      ? (newUser ? 'Diz <em>olá</em> ao português.' : (next && heroLesson.id === next.id ? 'Continua a tua viagem.' : 'Explora outro nível.'))
+      : 'O curso está completo.';
+    const heroBody = heroLesson
+      ? (newUser
+        ? '从第一句问候开始。六个级别，从 A1 到 C2，配情景视频、音频对话和五语词汇。'
+        : `下一站：<b>${esc(heroLesson.title)}</b>。${esc(heroLesson.goal)}。`)
+      : `你已经走完全部 ${allLessons.length} 节课。现在，去复习、去听、去和真实的世界说葡语。`;
+    const cta = heroLesson ? (newUser ? '开始第一课' : '继续学习') : '去复习';
+    const action = heroLesson ? 'start-lesson' : 'start-review';
+
+    const unitsHTML = levelUnits.map(unitCard).join('');
+    const selectedLevelDonePct = levelLessons.length ? Math.round(levelDone / levelLessons.length * 100) : 0;
+
+    $('#view').innerHTML = `
+      <div class="home">
+        <div class="home-grid">
+          <section class="hero-card">
+            ${heroTiles()}
+            <div class="hero-copy">
+              <span class="eyebrow light"><span class="eyebrow-dot"></span>${heroLesson ? (heroLesson.isLab ? `PRÁTICA · ${unit.level}` : `A TUA PRÓXIMA LIÇÃO · ${unit.level} · UNIDADE ${pad(unit.order)}`) : 'PARABÉNS · CURSO COMPLETO'}</span>
+              <h1>${heroTitle}</h1>
+              <p>${heroBody}</p>
+              <div class="hero-actions">
+                <button class="btn btn-gold" data-action="${action}" ${heroLesson ? `data-id="${heroLesson.id}"` : ''}>
+                  ${cta} ${icon('arrow-right')}
+                </button>
+                <button class="btn btn-ghost-light" data-action="scroll-course">Ver o percurso</button>
+              </div>
+              <div class="hero-meta">
+                <span>${heroLesson ? (heroLesson.isLab ? `${unit.level} · LABORATÓRIO DE PRÁTICA` : `${unit.level} · UNIDADE ${pad(unit.order)} · ${esc(unit.title)}`) : `${allLessons.length} LIÇÕES CONCLUÍDAS`}</span>
+                <span class="hero-meta-line"></span>
+                <span>${heroLesson ? (heroLesson.isLab ? '5 exercícios · +15 XP' : `${doneInUnit} / ${unit.lessons.length} lições`) : `${coursePct}% do curso`}</span>
+              </div>
+            </div>
+            <div class="hero-art">${tramArt()}</div>
+          </section>
+
+          <aside class="home-side">
+            <section class="goal-card">
+              <div class="card-label">${icon('target')} A TUA META</div>
+              <div class="goal-main">
+                <div class="ring-wrap">
+                  ${ring(pct, 122, 8, pct >= 1 ? 'var(--success)' : 'var(--gold)', 'var(--line)')}
+                  <div class="ring-center"><strong>${xp}</strong><span>/ ${goal} XP</span></div>
+                </div>
+                <div class="goal-copy">
+                  <strong>${pct >= 1 ? 'Meta alcançada!' : remaining === 1 ? 'Falta 1 XP.' : `Faltam ${remaining} XP.`}</strong>
+                  <p>${pct >= 1 ? 'Podes parar por aqui. Ou continuar, só porque sim.' : 'Uma lição curta chega. O importante é voltar amanhã.'}</p>
+                </div>
+              </div>
+              ${weekDots()}
+            </section>
+
+            <section class="word-card">
+              <div class="card-label">${icon('sparkle')} PALAVRA DO DIA</div>
+              <div class="word-main">
+                <div>
+                  <div class="word-pt">${esc(word.pt)}</div>
+                  <div class="word-pron">${esc(word.pron)}</div>
+                  <p class="word-zh">${esc(word.zh)}</p>
+                </div>
+                <button class="audio-btn" data-audio="${esc(word.pt)}" aria-label="播放 ${esc(word.pt)} 的发音">${icon('volume')}</button>
+              </div>
+              <p class="word-note">${esc(word.note)} <span>${esc(word.exZh)}</span></p>
+            </section>
+          </aside>
+        </div>
+
+        <section class="course-section" id="course">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">O TEU PERCURSO · A1 → C2</span>
+              <h2>Um percurso, seis níveis.</h2>
+            </div>
+            <div class="section-meta">
+              <span>${DATA.units.length} unidades · ${allLessons.length} lições</span>
+              <span class="dot-sep"></span>
+              <span>${coursePct}% concluído</span>
+            </div>
+          </div>
+
+          <div class="level-tabs" role="tablist" aria-label="Escolhe o nível">
+            ${LEVELS.map(level => levelTabHTML(level, selectedLevelId)).join('')}
+          </div>
+
+          <div class="level-intro level-${selectedLevel.color}">
+            <div>
+              <span class="level-badge level-${selectedLevel.color}">${selectedLevel.id}</span>
+              <div><strong>${esc(selectedLevel.name)}</strong><span>${esc(selectedLevel.zh)} · ${levelDone} / ${levelLessons.length} lições</span></div>
+            </div>
+            <p>${esc(selectedLevel.blurb)}</p>
+            <div class="level-ring-mini">
+              ${ring(selectedLevelDonePct / 100, 54, 5, 'var(--level-ink)', 'var(--line)')}
+              <span>${selectedLevelDonePct}%</span>
+            </div>
+          </div>
+
+          <div class="level-media-row">
+            ${levelMedia.map(mediaMiniCard).join('')}
+            <button class="media-mini media-lib-link" data-action="open-media-level" data-level="${selectedLevelId}">
+              <span class="media-mini-icon">${icon('video')}</span>
+              <div><span class="eyebrow">TODOS OS NÍVEIS</span><strong>Biblioteca</strong><small>Vídeo & áudio · ${DATA.media.length} 个</small></div>
+              ${icon('arrow-right')}
+            </button>
+          </div>
+
+          <div class="unit-list">${unitsHTML}</div>
+          ${practiceShelfHTML(levelLessons.filter(lesson => lesson.isLab), selectedLevel)}
+        </section>
+
+        <section class="tip-strip">
+          <div class="tip-mark">sh</div>
+          <div class="tip-copy">
+            <span class="eyebrow">DICA DE SOTAQUE</span>
+            <h3>Lisboa não é «Lis-boa».</h3>
+            <p>词尾的 <b>s</b> 在葡葡里常读成 <b>sh</b>。Lisboa 听起来像「lizh-BOH-uh」，estás 像「sh-tahsh」。这是标准葡葡，不是口音。</p>
+          </div>
+          <button class="text-link" data-action="open-article" data-id="a2">Ler sobre o sotaque ${icon('arrow-right')}</button>
+        </section>
+      </div>`;
+    document.title = 'Azulejo · Aprender português europeu';
+    requestAnimationFrame(() => $('#view').classList.add('is-ready'));
+  }
+
+  function levelTabHTML(level, active) {
+    const lessons = lessonsForLevel(level.id);
+    const done = lessons.filter(l => state.lessons[l.id]).length;
+    const pct = lessons.length ? Math.round(done / lessons.length * 100) : 0;
+    const units = level.units.length;
+    return `<button class="level-tab level-${level.color} ${level.id === active ? 'is-active' : ''}" data-action="select-level" data-level="${level.id}" role="tab" aria-selected="${level.id === active}">
+      <span class="level-tab-top"><b>${level.id}</b><span>${done}/${lessons.length}</span></span>
+      <strong>${esc(level.name)}</strong>
+      <small>${units} ${units === 1 ? 'unidade' : 'unidades'} · ${lessons.length} lições</small>
+      <span class="level-tab-bar"><i style="width:${pct}%"></i></span>
+    </button>`;
+  }
+
+  function mediaMiniCard(item) {
+    if (!item) return '';
+    const done = state.media[item.id];
+    return `<a class="media-mini ${item.type} ${done ? 'is-done' : ''}" href="#/media/${item.id}">
+      <span class="media-mini-icon">${icon(item.type === 'video' ? 'play' : 'volume')}</span>
+      <div>
+        <span class="eyebrow">${item.type === 'video' ? 'VÍDEO-CENA' : 'DIÁLOGO ÁUDIO'}</span>
+        <strong>${esc(item.title)}</strong>
+        <small>${item.minutes} min · ${esc(item.zh)}</small>
+      </div>
+      <span class="media-mini-status">${done ? icon('check') : icon('arrow-right')}</span>
+    </a>`;
+  }
+
+  function practiceShelfHTML(labs, level) {
+    if (!labs.length) return '';
+    const done = labs.filter(lab => state.lessons[lab.id]).length;
+    return `<section class="practice-section">
+      <div class="practice-head">
+        <div>
+          <span class="eyebrow">PRÁTICA DELIBERADA · ${level.id}</span>
+          <h2>Laboratório de prática.</h2>
+          <p>核心课之后的短练习：听辨、配对、造句、翻译和对话。每一节都是一次完整的 5 题训练。</p>
+        </div>
+        <div class="practice-count"><strong>${done}</strong><span>/ ${labs.length} práticas</span></div>
+      </div>
+      <div class="practice-grid">
+        ${labs.map((lab, i) => {
+          const record = state.lessons[lab.id];
+          return `<button class="practice-tile ${record ? 'is-done' : ''}" data-action="start-lesson" data-id="${lab.id}">
+            <span class="practice-tile-top"><span class="practice-focus">${icon(lab.focusIcon)} ${esc(lab.focusTitle)}</span><span class="practice-status">${record ? icon('check') : icon('play')}</span></span>
+            <strong>${pad(i + 1)} · ${esc(lab.focusZh)}</strong>
+            <span class="practice-words">${lab.vocab.slice(0, 3).map(w => esc(w.pt)).join(' · ')}</span>
+            <span class="practice-meta"><span>5 exercícios</span><span>+${lab.xp} XP</span></span>
+          </button>`;
+        }).join('')}
+      </div>
+    </section>`;
+  }
+
+  function unitCard(unit) {
+    const done = unit.lessons.filter(l => state.lessons[l.id]).length;
+    const pct = unit.lessons.length ? done / unit.lessons.length : 0;
+    const next = nextLessonForLevel(unit.level);
+    return `<article class="unit-card theme-${unit.color}">
+      <div class="unit-info">
+        <div class="unit-heading">
+          <span class="unit-number">${pad(unit.order)}</span>
+          <div>
+            <span class="unit-kicker">${unit.level} · UNIDADE ${pad(unit.order)} · ${unit.lessons.length} LIÇÕES</span>
+            <h3>${esc(unit.title)}</h3>
+            <p class="unit-zh">${esc(unit.zh)}</p>
+          </div>
+        </div>
+        <p class="unit-blurb">${esc(unit.blurb)}</p>
+        <div class="unit-progress-row">
+          <div class="unit-progress"><span style="width:${pct * 100}%"></span></div>
+          <span>${done} / ${unit.lessons.length}</span>
+        </div>
+      </div>
+      <div class="lesson-tiles">
+        ${unit.lessons.map((lesson, i) => {
+          const record = state.lessons[lesson.id];
+          const isNext = next && next.id === lesson.id;
+          return `<button class="lesson-tile ${record ? 'is-done' : ''} ${isNext ? 'is-next' : ''}" data-action="start-lesson" data-id="${lesson.id}">
+            <span class="lesson-tile-top">
+              <span class="lesson-order">LIÇÃO ${pad(i + 1)}</span>
+              <span class="lesson-status">${record ? icon('check') : isNext ? icon('play') : icon('arrow-right')}</span>
+            </span>
+            <strong>${esc(lesson.title)}</strong>
+            <span class="lesson-zh">${esc(lesson.zh)}</span>
+            <span class="lesson-meta"><span>${icon('clock')} ${lesson.minutes} min</span><span>${record ? `${record.best || 0}%` : `+${lesson.xp} XP`}</span></span>
+          </button>`;
+        }).join('')}
+      </div>
+    </article>`;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Lesson                                                              */
+  /* ------------------------------------------------------------------ */
+
+  function lessonSteps(lesson) {
+    const steps = [{ kind: 'vocab', words: lesson.vocab }];
+    if (lesson.grammar) steps.push({ kind: 'grammar', grammar: lesson.grammar });
+    lesson.exercises.forEach(ex => steps.push({ kind: 'exercise', ex }));
+    return steps;
+  }
+
+  function startLesson(lesson) {
+    const steps = lessonSteps(lesson);
+    ui.lesson = {
+      id: lesson.id,
+      lesson,
+      steps,
+      index: 0,
+      correct: 0,
+      mistakes: 0,
+      answered: false,
+      wasCorrect: false,
+      accentWarning: false,
+      feedback: '',
+      done: false,
+      stepState: null
+    };
+    setupLessonStep();
+    renderLesson();
+  }
+
+  function setupLessonStep() {
+    const lesson = ui.lesson;
+    const step = lesson.steps[lesson.index];
+    lesson.answered = false;
+    lesson.wasCorrect = false;
+    lesson.accentWarning = false;
+    lesson.feedback = '';
+    let stepState = null;
+    if (step && step.kind === 'exercise') {
+      const ex = step.ex;
+      if (ex.type === 'choice') stepState = { options: shuffle(ex.options), selected: null, input: '' };
+      if (ex.type === 'listen') stepState = { options: shuffle(ex.options), selected: null, input: '' };
+      if (ex.type === 'type') stepState = { input: '', selected: null };
+      if (ex.type === 'arrange') {
+        stepState = {
+          bank: shuffle(ex.tokens.map((text, i) => ({ id: i, text }))),
+          arranged: [],
+          selected: null,
+          input: ''
+        };
+      }
+      if (ex.type === 'match') {
+        const pairs = ex.pairs.map((p, i) => ({ id: i, pt: p[0], zh: p[1] }));
+        stepState = {
+          left: shuffle(pairs),
+          right: shuffle(pairs),
+          selected: null,
+          solved: [],
+          wrong: null,
+          matchMistakes: 0,
+          selectedRight: null
+        };
+      }
+    }
+    lesson.stepState = stepState;
+  }
+
+  function currentLessonStep() {
+    return ui.lesson ? ui.lesson.steps[ui.lesson.index] : null;
+  }
+
+  function lessonProgressHTML() {
+    const lesson = ui.lesson;
+    return lesson.steps.map((step, i) => `<span class="lesson-seg ${i < lesson.index ? 'is-done' : ''} ${i === lesson.index ? 'is-current' : ''}"><i></i></span>`).join('');
+  }
+
+  function canCheck() {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!step || step.kind !== 'exercise' || lesson.answered) return false;
+    const ex = step.ex;
+    const st = lesson.stepState;
+    if (ex.type === 'choice' || ex.type === 'listen') return st.selected !== null;
+    if (ex.type === 'type') return st.input.trim().length > 0;
+    if (ex.type === 'arrange') return st.arranged.length === ex.tokens.length;
+    return false;
+  }
+
+  function renderLesson() {
+    if (!ui.lesson) return;
+    const lesson = ui.lesson;
+    if (lesson.done) return renderLessonResult();
+    const current = lesson.steps[lesson.index];
+    const label = current.kind === 'vocab' ? 'NOVAS PALAVRAS' : current.kind === 'grammar' ? 'A LÍNGUA' : 'PRATICA';
+    const foot = lessonFooterHTML();
+    $('#view').innerHTML = `
+      <div class="lesson-shell">
+        <header class="lesson-topbar">
+          <button class="close-btn" data-action="leave-lesson" aria-label="退出课程">${icon('x')}</button>
+          <div class="lesson-segs" role="progressbar" aria-label="课程进度" aria-valuemin="0" aria-valuemax="${lesson.steps.length}" aria-valuenow="${lesson.index + 1}">${lessonProgressHTML()}</div>
+          <span class="xp-badge">${icon('star')} +${lesson.lesson.xp} XP</span>
+        </header>
+        <div class="lesson-scroll" id="lesson-scroll">
+          <div class="lesson-body" id="lesson-body">
+            ${current.kind === 'vocab' ? vocabStepHTML(current.words) : current.kind === 'grammar' ? grammarStepHTML(current.grammar) : exerciseHTML(current.ex)}
+          </div>
+        </div>
+        ${foot}
+      </div>`;
+    document.title = `${lesson.lesson.title} · Azulejo`;
+    const body = $('#lesson-body');
+    if (body) {
+      body.classList.add('step-enter');
+      setTimeout(() => body.classList.remove('step-enter'), 320);
+    }
+  }
+
+  function vocabStepHTML(words) {
+    const isLab = ui.lesson && ui.lesson.lesson.isLab;
+    return `<section class="step step-vocab">
+      <div class="step-head">
+        <div>
+          <span class="eyebrow">${isLab ? 'REVISÃO ATIVA' : 'NOVAS PALAVRAS'} · ${words.length}</span>
+          <h1>${isLab ? 'Revê, ouve, repara.' : 'Ouve, repete, guarda.'}</h1>
+          <p>${isLab ? '这些词来自本级别的核心课。先快速过一遍，再用五道题把它们重新叫醒。' : '先听一遍，再跟着读。别急着记住拼写，先让耳朵熟悉节奏。'}</p>
+        </div>
+        <span class="step-count">${pad(ui.lesson.index + 1)}<small>/ ${pad(ui.lesson.steps.length)}</small></span>
+      </div>
+      <div class="vocab-grid">
+        ${words.map(word => `<article class="word-tile">
+          <div class="word-tile-top">
+            <button class="audio-btn small" data-audio="${esc(word.pt)}" aria-label="播放 ${esc(word.pt)} 的发音">${icon('volume')}</button>
+            <span class="pron">${esc(word.pron)}</span>
+          </div>
+          <h2>${esc(word.pt)}</h2>
+          <p class="word-zh">${esc(word.zh)}</p>
+          <div class="word-langs">
+            <span><b>EN</b>${esc(word.en)}</span>
+            <span><b>FR</b>${esc(word.fr)}</span>
+            <span><b>ES</b>${esc(word.es)}</span>
+          </div>
+          <div class="word-example">
+            <button class="audio-mini" data-audio="${esc(word.ex)}" aria-label="播放例句">${icon('volume')}</button>
+            <div><span>${esc(word.ex)}</span><small>${esc(word.exZh)}</small></div>
+          </div>
+          ${word.note ? `<p class="word-tip">${esc(word.note)}</p>` : ''}
+        </article>`).join('')}
+        ${words.length % 2 ? `<aside class="vocab-tip">
+          <span class="eyebrow light">${isLab ? 'PRÁTICA DELIBERADA' : 'OUVE OUTRA VEZ'}</span>
+          <h3>${isLab ? 'Não é repetir. É reconhecer.' : 'Deixa as palavras pousar.'}</h3>
+          <p>${isLab ? '第二次遇到同一个词，应该比第一次更快。听完整组，再开始做题。' : '先别急着翻译。闭上眼睛，把这几张词卡完整听一遍，让节奏先于拼写进入耳朵。'}</p>
+          <button class="btn btn-ghost-light small" data-action="play-all">${icon('play')} Ouvir as ${words.length} palavras</button>
+        </aside>` : ''}
+      </div>
+      <p class="voice-hint">${icon('volume')} 语音由浏览器提供。可在设置中选择欧洲葡语声音。</p>
+    </section>`;
+  }
+
+  function grammarStepHTML(grammar) {
+    return `<section class="step step-grammar">
+      <div class="step-head">
+        <div>
+          <span class="eyebrow">UM SEGREDO DA LÍNGUA</span>
+          <h1>${esc(grammar.title)}</h1>
+        </div>
+        <span class="step-count">${pad(ui.lesson.index + 1)}<small>/ ${pad(ui.lesson.steps.length)}</small></span>
+      </div>
+      <p class="grammar-lead">${esc(grammar.body)}</p>
+      <div class="example-stack">
+        ${grammar.examples.map(ex => `<div class="example-row">
+          <button class="audio-btn small" data-audio="${esc(ex.pt)}" aria-label="播放例句">${icon('volume')}</button>
+          <div><strong>${esc(ex.pt)}</strong><span>${esc(ex.zh)}</span></div>
+        </div>`).join('')}
+      </div>
+      <div class="tip-box"><span class="tip-icon">${icon('sparkle')}</span><p>${esc(grammar.tip)}</p></div>
+    </section>`;
+  }
+
+  function exerciseTypeLabel(ex) {
+    if (ex.type === 'listen') return 'COMPREENSÃO ORAL';
+    if (ex.type === 'type') return 'ESCREVER';
+    if (ex.type === 'arrange') return 'CONSTRUIR';
+    if (ex.type === 'match') return 'LIGAR';
+    return 'ESCOLHER';
+  }
+
+  function exerciseHTML(ex) {
+    const st = ui.lesson.stepState;
+    const answered = ui.lesson.answered;
+    const audioForQuestion = ex.audio || (ex.type === 'choice' && !ex.q.includes('___') && /[A-Za-zÀ-ÿ]{3}/.test(ex.q) ? ex.q : '');
+    return `<section class="step step-exercise">
+      <div class="step-head exercise-head">
+        <span class="eyebrow">${exerciseTypeLabel(ex)}</span>
+        <span class="step-count">${pad(ui.lesson.index + 1)}<small>/ ${pad(ui.lesson.steps.length)}</small></span>
+      </div>
+      <h1 class="exercise-title">${esc(ex.prompt)}</h1>
+      <div class="exercise-stage">
+        ${ex.type === 'listen' ? listenExerciseHTML(ex, st, answered) : ''}
+        ${ex.type === 'choice' ? choiceExerciseHTML(ex, st, answered, audioForQuestion) : ''}
+        ${ex.type === 'type' ? typeExerciseHTML(ex, st, answered) : ''}
+        ${ex.type === 'arrange' ? arrangeExerciseHTML(ex, st, answered) : ''}
+        ${ex.type === 'match' ? matchExerciseHTML(ex, st, answered) : ''}
+      </div>
+    </section>`;
+  }
+
+  function listenExerciseHTML(ex, st, answered) {
+    return `<div class="listen-stage">
+      <button class="listen-disc ${answered ? 'is-muted' : ''}" data-audio="${esc(ex.audio)}" aria-label="播放音频">
+        <span class="listen-ripple"></span>
+        ${icon('volume')}
+      </button>
+      <p class="listen-caption">${esc(ex.q)}</p>
+      <div class="options options-listen">
+        ${st.options.map((opt, i) => {
+          const selected = st.selected === i;
+          const correct = answered && opt === ex.answer;
+          const wrong = answered && selected && opt !== ex.answer;
+          return `<button class="option ${selected ? 'is-selected' : ''} ${correct ? 'is-correct' : ''} ${wrong ? 'is-wrong' : ''}" data-action="select-option" data-index="${i}" ${answered ? 'disabled' : ''}>
+            <span class="option-key">${i + 1}</span><span class="option-label">${esc(opt)}</span>
+            ${correct ? `<span class="option-mark">${icon('check')}</span>` : wrong ? `<span class="option-mark">${icon('x')}</span>` : ''}
+          </button>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  function choiceExerciseHTML(ex, st, answered, audioForQuestion) {
+    const hasBlank = ex.q.includes('___');
+    return `<div class="question-line ${hasBlank ? 'is-blank' : ''}">
+      ${audioForQuestion ? `<button class="audio-btn" data-audio="${esc(audioForQuestion)}" aria-label="播放题目">${icon('volume')}</button>` : ''}
+      <p>${esc(ex.q)}</p>
+    </div>
+    <div class="options">
+      ${st.options.map((opt, i) => {
+        const selected = st.selected === i;
+        const correct = answered && opt === ex.answer;
+        const wrong = answered && selected && opt !== ex.answer;
+        return `<button class="option ${selected ? 'is-selected' : ''} ${correct ? 'is-correct' : ''} ${wrong ? 'is-wrong' : ''}" data-action="select-option" data-index="${i}" ${answered ? 'disabled' : ''}>
+          <span class="option-key">${i + 1}</span><span class="option-label">${esc(opt)}</span>
+          ${correct ? `<span class="option-mark">${icon('check')}</span>` : wrong ? `<span class="option-mark">${icon('x')}</span>` : ''}
+        </button>`;
+      }).join('')}
+    </div>`;
+  }
+
+  function typeExerciseHTML(ex, st, answered) {
+    return `<div class="type-stage">
+      <p class="source-sentence">「${esc(ex.q)}」</p>
+      <label class="sr-only" for="type-answer">输入葡语答案</label>
+      <input id="type-answer" class="type-input ${answered ? 'is-locked' : ''}" type="text" value="${esc(st.input)}" placeholder="${esc(ex.placeholder)}" autocomplete="off" autocapitalize="off" spellcheck="false" ${answered ? 'disabled' : ''}>
+      ${!answered ? `<div class="accent-row" aria-label="特殊字符">
+        ${['á', 'à', 'â', 'ã', 'é', 'ê', 'í', 'ó', 'ô', 'õ', 'ú', 'ç'].map(ch => `<button type="button" class="accent-key" data-action="insert-char" data-char="${ch}">${ch}</button>`).join('')}
+      </div>` : ''}
+      ${ex.hint ? `<p class="exercise-hint">${icon('sparkle')} ${esc(ex.hint)}</p>` : ''}
+    </div>`;
+  }
+
+  function arrangeExerciseHTML(ex, st, answered) {
+    return `<div class="arrange-stage">
+      <p class="source-sentence">「${esc(ex.q)}」</p>
+      <div class="answer-zone ${answered ? (ui.lesson.wasCorrect ? 'is-correct' : 'is-wrong') : ''}" aria-label="你的答案">
+        ${st.arranged.length
+          ? st.arranged.map(t => `<button class="token" data-action="remove-token" data-token="${t.id}" ${answered ? 'disabled' : ''}>${esc(t.text)}</button>`).join('')
+          : '<span class="answer-placeholder">Clica nas palavras para construir a frase…</span>'}
+      </div>
+      <div class="word-bank" aria-label="可选词语">
+        ${st.bank.map(t => `<button class="token bank-token" data-action="add-token" data-token="${t.id}" ${answered ? 'disabled' : ''}>${esc(t.text)}</button>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  function matchExerciseHTML(ex, st, answered) {
+    return `<div class="match-stage">
+      <p class="match-hint">${st.solved.length === ex.pairs.length ? 'Tudo ligado!' : '先点左边的葡语，再点右边的中文。'}</p>
+      <div class="match-grid">
+        <div class="match-col">
+          ${st.left.map(pair => {
+            const solved = st.solved.includes(pair.id);
+            return `<button class="match-item ${solved ? 'is-solved' : ''} ${st.selected === pair.id ? 'is-selected' : ''} ${st.wrong === pair.id ? 'is-wrong' : ''}" data-action="match-left" data-id="${pair.id}" ${solved || answered ? 'disabled' : ''}>
+              <span>${esc(pair.pt)}</span>${solved ? icon('check') : ''}
+            </button>`;
+          }).join('')}
+        </div>
+        <div class="match-col">
+          ${st.right.map(pair => {
+            const solved = st.solved.includes(pair.id);
+            return `<button class="match-item is-zh ${solved ? 'is-solved' : ''} ${st.wrong === pair.id ? 'is-wrong' : ''}" data-action="match-right" data-id="${pair.id}" ${solved || answered ? 'disabled' : ''}>
+              <span>${esc(pair.zh)}</span>${solved ? icon('check') : ''}
+            </button>`;
+          }).join('')}
+        </div>
+      </div>
+    </div>`;
+  }
+
+  function lessonFooterHTML() {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!step) return '';
+    if (step.kind !== 'exercise') {
+      return `<footer class="lesson-footer simple">
+        <div class="lesson-footer-inner">
+          <span class="keyboard-hint">${icon('keyboard')} Enter para continuar</span>
+          <button class="btn btn-primary" data-action="next-step">Continuar ${icon('arrow-right')}</button>
+        </div>
+      </footer>`;
+    }
+    if (!lesson.answered) {
+      const enabled = canCheck();
+      return `<footer class="lesson-footer simple">
+        <div class="lesson-footer-inner">
+          <span class="keyboard-hint">${icon('keyboard')} ${step.ex.type === 'match' ? 'Liga todos os pares' : 'Enter para verificar'}</span>
+          <button class="btn btn-primary" data-action="check" ${enabled ? '' : 'disabled'}>Verificar</button>
+        </div>
+      </footer>`;
+    }
+    const feedbackTitle = lesson.wasCorrect ? (lesson.accentWarning ? 'Quase perfeito!' : ['Boa!', 'Muito bem!', 'Exato!', 'Assim mesmo!'][lesson.index % 4]) : 'Quase!';
+    const correctAnswer = step.ex.answer || (step.ex.answers ? step.ex.answers[0] : '');
+    return `<footer class="lesson-footer ${lesson.wasCorrect ? 'is-ok' : 'is-bad'}">
+      <div class="lesson-footer-inner">
+        <div class="feedback" role="status">
+          <span class="feedback-icon">${icon(lesson.wasCorrect ? 'check' : 'x')}</span>
+          <div class="feedback-copy">
+            <strong>${feedbackTitle}</strong>
+            <p>${lesson.accentWarning ? '意思和拼写都对，只是别忘了重音符号。' : esc(step.ex.explain)}</p>
+            ${!lesson.wasCorrect && correctAnswer ? `<p class="feedback-answer">Resposta certa: <b>${esc(correctAnswer)}</b></p>` : ''}
+          </div>
+        </div>
+        <button class="btn ${lesson.wasCorrect ? 'btn-primary' : 'btn-dark'}" data-action="next-step">Continuar ${icon('arrow-right')}</button>
+      </div>
+      <div class="feedback-progress"><span style="width:${((lesson.index + 1) / lesson.steps.length) * 100}%"></span></div>
+    </footer>`;
+  }
+
+  function refreshLessonFooter() {
+    const shell = $('.lesson-shell');
+    if (!shell) return;
+    const old = $('.lesson-footer', shell);
+    if (!old) return;
+    const temp = document.createElement('div');
+    temp.innerHTML = lessonFooterHTML();
+    old.replaceWith(temp.firstElementChild);
+  }
+
+  function selectOption(index) {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!lesson || lesson.answered || !step || step.kind !== 'exercise') return;
+    if (!['choice', 'listen'].includes(step.ex.type)) return;
+    lesson.stepState.selected = index;
+    $$('.option').forEach((el, i) => {
+      el.classList.toggle('is-selected', i === index);
+      el.setAttribute('aria-pressed', i === index ? 'true' : 'false');
+    });
+    refreshLessonFooter();
+  }
+
+  function checkCurrent() {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!lesson || lesson.answered || !step || step.kind !== 'exercise') return;
+    const ex = step.ex;
+    const st = lesson.stepState;
+    let correct = false;
+    let accentWarning = false;
+
+    if (ex.type === 'choice' || ex.type === 'listen') {
+      if (st.selected === null) return;
+      correct = st.options[st.selected] === ex.answer;
+    } else if (ex.type === 'type') {
+      const input = $('#type-answer');
+      if (input) st.input = input.value;
+      if (!st.input.trim()) return;
+      const norm = normalizeAnswer(st.input);
+      const matched = ex.answers.find(a => normalizeAnswer(a) === norm);
+      correct = Boolean(matched);
+      if (matched) {
+        accentWarning = cleanForExact(st.input) !== cleanForExact(matched);
+      }
+    } else if (ex.type === 'arrange') {
+      const built = joinTokens(st.arranged.map(t => t.text));
+      correct = normalizeAnswer(built) === normalizeAnswer(ex.answer);
+    } else {
+      return;
+    }
+
+    lesson.answered = true;
+    lesson.wasCorrect = correct;
+    lesson.accentWarning = accentWarning;
+    if (correct) {
+      lesson.correct += 1;
+      soundFX('correct');
+    } else {
+      lesson.mistakes += 1;
+      soundFX('wrong');
+    }
+    const body = $('#lesson-body');
+    if (body) {
+      body.innerHTML = exerciseHTML(ex);
+      body.classList.add('step-enter');
+      setTimeout(() => body.classList.remove('step-enter'), 300);
+    }
+    refreshLessonFooter();
+    const footer = $('.lesson-footer');
+    if (footer) footer.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }
+
+  function addToken(id) {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!lesson || lesson.answered || !step) return;
+    const st = lesson.stepState;
+    const idx = st.bank.findIndex(t => t.id === id);
+    if (idx < 0) return;
+    const token = st.bank.splice(idx, 1)[0];
+    st.arranged.push(token);
+    const body = $('#lesson-body');
+    if (body) body.innerHTML = exerciseHTML(step.ex);
+    refreshLessonFooter();
+  }
+
+  function removeToken(id) {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!lesson || lesson.answered || !step) return;
+    const st = lesson.stepState;
+    const idx = st.arranged.findIndex(t => t.id === id);
+    if (idx < 0) return;
+    const token = st.arranged.splice(idx, 1)[0];
+    st.bank.push(token);
+    const body = $('#lesson-body');
+    if (body) body.innerHTML = exerciseHTML(step.ex);
+    refreshLessonFooter();
+  }
+
+  function matchLeft(id) {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!lesson || lesson.answered || !step || step.ex.type !== 'match') return;
+    const st = lesson.stepState;
+    if (st.solved.includes(id) || st.wrong !== null) return;
+    st.selected = st.selected === id ? null : id;
+    refreshMatchBody();
+  }
+
+  function matchRight(id) {
+    const lesson = ui.lesson;
+    const step = currentLessonStep();
+    if (!lesson || lesson.answered || !step || step.ex.type !== 'match') return;
+    const st = lesson.stepState;
+    if (st.solved.includes(id) || st.wrong !== null) return;
+    if (st.selected === null) {
+      showToast('先选左边的一个葡语词。', 'warn');
+      return;
+    }
+    if (st.selected === id) {
+      st.solved.push(id);
+      st.selected = null;
+      refreshMatchBody();
+      if (st.solved.length === step.ex.pairs.length) {
+        lesson.answered = true;
+        lesson.wasCorrect = st.matchMistakes === 0;
+        if (lesson.wasCorrect) lesson.correct += 1;
+        lesson.feedback = 'match';
+        if (lesson.wasCorrect) soundFX('correct');
+        refreshMatchBody();
+        refreshLessonFooter();
+      }
+    } else {
+      st.wrong = id;
+      st.matchMistakes += 1;
+      soundFX('wrong');
+      refreshMatchBody();
+      const expectStep = step;
+      setTimeout(() => {
+        if (!ui.lesson || ui.lesson.steps[ui.lesson.index] !== expectStep) return;
+        st.wrong = null;
+        st.selected = null;
+        refreshMatchBody();
+      }, 520);
+    }
+  }
+
+  function refreshMatchBody() {
+    const step = currentLessonStep();
+    const body = $('#lesson-body');
+    if (!step || !body) return;
+    body.innerHTML = exerciseHTML(step.ex);
+  }
+
+  function insertChar(ch) {
+    const input = $('#type-answer');
+    if (!input || input.disabled) return;
+    const start = input.selectionStart || 0;
+    const end = input.selectionEnd || 0;
+    input.setRangeText(ch, start, end, 'end');
+    input.focus();
+    ui.lesson.stepState.input = input.value;
+  }
+
+  function nextLessonStep() {
+    const lesson = ui.lesson;
+    if (!lesson) return;
+    if (lesson.index >= lesson.steps.length - 1) {
+      finishLesson();
+      return;
+    }
+    lesson.index += 1;
+    setupLessonStep();
+    renderLesson();
+    const scroll = $('#lesson-scroll');
+    if (scroll) scroll.scrollTop = 0;
+  }
+
+  function finishLesson() {
+    const lesson = ui.lesson;
+    if (!lesson || lesson.done) return;
+    const data = lesson.lesson;
+    const previous = state.lessons[data.id] || null;
+    const firstTime = !previous;
+    const total = data.exercises.length;
+    const accuracy = total ? Math.round(lesson.correct / total * 100) : 100;
+    const best = Math.max(previous ? previous.best || 0 : 0, accuracy);
+    const bonus = accuracy === 100 ? 5 : 0;
+    const xpGain = firstTime ? data.xp + bonus : 10;
+    const newWords = addWordsToReview(data.vocab);
+    state.lessons[data.id] = {
+      completedAt: new Date().toISOString(),
+      best,
+      attempts: (previous ? previous.attempts || 0 : 0) + 1
+    };
+    addXP(xpGain);
+    saveState();
+    lesson.done = true;
+    lesson.results = { accuracy, best, xpGain, firstTime, newWords, total };
+    renderLessonResult();
+    soundFX('complete');
+    launchConfetti();
+  }
+
+  function renderLessonResult() {
+    const lesson = ui.lesson;
+    const r = lesson.results;
+    const next = nextLessonAfter(lesson.id);
+    const perfect = r.accuracy === 100;
+    $('#view').innerHTML = `
+      <div class="lesson-shell result-shell">
+        <div class="result-scroll">
+          <div class="result-card">
+            <div class="result-stamp">${icon(perfect ? 'award' : 'check')}</div>
+            <span class="eyebrow">${lesson.lesson.isLab ? 'PRÁTICA CONCLUÍDA' : 'LIÇÃO CONCLUÍDA'}</span>
+            <h1>${perfect ? 'Perfeito. Sem erros.' : 'Muito bem. Mais um passo.'}</h1>
+            <p class="result-sub">${esc(lesson.lesson.title)} · ${esc(lesson.lesson.zh)}</p>
+            <div class="result-stats">
+              <div><strong>+${r.xpGain}</strong><span>XP</span></div>
+              <div><strong>${r.accuracy}%</strong><span>precisão</span></div>
+              <div><strong>${lesson.lesson.vocab.length}</strong><span>palavras</span></div>
+            </div>
+            <div class="result-words">
+              <span class="eyebrow">PARA LEVAR CONTIGO</span>
+              <div class="result-chips">
+                ${lesson.lesson.vocab.map(w => `<button class="word-chip" data-audio="${esc(w.pt)}">${icon('volume')} ${esc(w.pt)}</button>`).join('')}
+              </div>
+            </div>
+            ${r.firstTime
+              ? `<p class="result-note">+${lesson.lesson.isLab ? r.xpGain : lesson.lesson.xp} XP ${lesson.lesson.isLab ? 'por esta prática' : `pela primeira conclusão${perfect ? ' e +5 XP por acertar tudo' : ''}`}. ${lesson.lesson.isLab ? 'Estas palavras estão no teu caderno de revisão.' : 'As palavras já estão na tua revisão.'}</p>`
+              : `<p class="result-note">${lesson.lesson.isLab ? 'Prática repetida. A repetição também conta.' : 'Já conhecias esta lição. As palavras continuam na tua revisão.'}</p>`}
+            <div class="result-actions">
+              ${next ? `<button class="btn btn-primary" data-action="next-lesson" data-id="${next.id}">${next.isLab ? 'Próxima prática' : 'Próxima lição'} ${icon('arrow-right')}</button>` : `<button class="btn btn-primary" data-action="go-review">Rever palavras ${icon('arrow-right')}</button>`}
+              <button class="btn btn-secondary" data-action="go-home">Voltar ao início</button>
+            </div>
+            <button class="text-link center" data-action="go-review">${icon('review')} Revisar as palavras desta lição</button>
+          </div>
+        </div>
+      </div>`;
+    document.title = `Lição concluída · Azulejo`;
+  }
+
+  function requestLeaveLesson() {
+    if (!ui.lesson || ui.lesson.done) {
+      go('#/learn');
+      return;
+    }
+    openConfirm('Sair da lição?', 'O progresso desta lição não será guardado. As palavras novas só entram na revisão no fim.', 'confirm-leave-lesson', 'Sair', 'Continuar a lição');
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Review                                                              */
+  /* ------------------------------------------------------------------ */
+
+  function renderReviewPage() {
+    const due = dueWords();
+    const learned = learnedWords();
+    const dueCount = due.length;
+    const inDay = learned.length - dueCount;
+    const wordPreview = learned.slice(-8).reverse();
+    const featured = due[0]?.vocab || learned[learned.length - 1]?.vocab || dailyWord();
+    const backOne = due[1]?.vocab?.pt || learned[1]?.vocab?.pt || 'obrigado';
+    const backTwo = due[2]?.vocab?.pt || learned[2]?.vocab?.pt || 'saudade';
+
+    const queueInner = learned.length === 0
+      ? `<div class="empty-review">
+          <div class="empty-art">${icon('book')}</div>
+          <h2>Ainda não há palavras.</h2>
+          <p>完成第一节课后，新词会自动进入你的复习队列。</p>
+          <button class="btn btn-primary" data-action="start-next">Começar a aprender ${icon('arrow-right')}</button>
+        </div>`
+      : `<div class="review-hero">
+          <div class="review-hero-copy">
+            <span class="eyebrow light">REVISÃO INTELIGENTE</span>
+            <h2>${dueCount ? (dueCount === 1 ? 'Uma palavra está à tua espera.' : `${dueCount} palavras estão à tua espera.`) : 'Tudo em dia. Por agora.'}</h2>
+            <p>${dueCount ? '间隔重复会在快要忘记的时候，把词重新带回你面前。每次只需几分钟。' : '没有到期卡片。你可以提前练一遍，也可以去学一节新课。'}</p>
+            <div class="review-actions">
+              ${dueCount
+                ? `<a class="btn btn-gold" href="#/review/session">Começar revisão ${icon('arrow-right')}</a>`
+                : learned.length
+                  ? `<a class="btn btn-gold" href="#/review/session/all">Praticar tudo ${icon('arrow-right')}</a>`
+                  : `<button class="btn btn-primary" data-action="start-next">Começar a aprender ${icon('arrow-right')}</button>`}
+              ${learned.length ? `<button class="btn btn-ghost-light" data-action="open-settings">Ajustar meta</button>` : ''}
+            </div>
+            <div class="review-tip">${icon('info')} 系统按 1 → 3 → 7 → 14 天的节奏安排复习。</div>
+          </div>
+          <div class="card-stack" aria-hidden="true">
+            <div class="stack-card back-2"><span>${esc(backTwo)}</span></div>
+            <div class="stack-card back-1"><span>${esc(backOne)}</span></div>
+            <div class="stack-card front"><span class="stack-kicker">LEMBRAS-TE?</span><strong>${esc(featured.pt)}</strong><em>${esc(featured.pron || '')}</em>${icon('volume')}</div>
+          </div>
+        </div>`;
+    const statsHTML = learned.length ? `<div class="stats-grid stats-grid-3">
+      <div class="stat-card"><span class="stat-icon gold">${icon('layers')}</span><div><strong>${dueCount}</strong><span>今日到期</span></div></div>
+      <div class="stat-card"><span class="stat-icon blue">${icon('book')}</span><div><strong>${learned.length}</strong><span>已收集词语</span></div></div>
+      <div class="stat-card"><span class="stat-icon green">${icon('check')}</span><div><strong>${inDay}</strong><span>记忆稳固</span></div></div>
+    </div>` : '';
+    $('#view').innerHTML = `
+      <div class="page review-page">
+        ${pageHead('REVISAR', 'Não percas o que já sabes.', '把学过的词，在恰当的时刻重新捞回来。间隔重复比临时抱佛脚更可靠。', `<div class="head-badge">${icon('review')}<span><strong>${dueCount}</strong><small>para hoje</small></span></div>`)}
+        ${statsHTML}
+        ${queueInner}
+        ${wordPreview.length ? `<section class="review-words-section">
+          <div class="section-head compact"><div><span class="eyebrow">O TEU CADERNO</span><h2>Palavras no teu ouvido.</h2></div><a class="text-link" href="#/phrases">Ver frases ${icon('arrow-right')}</a></div>
+          <div class="word-cloud">
+            ${wordPreview.map(item => `<button class="cloud-word" data-audio="${esc(item.vocab.pt)}"><span>${esc(item.vocab.pt)}</span><small>${esc(item.vocab.zh)}</small>${icon('volume')}</button>`).join('')}
+          </div>
+        </section>` : ''}
+      </div>`;
+    document.title = 'Revisão · Azulejo';
+  }
+
+  function startReviewSession(practiceAll) {
+    if (ui.review && !ui.review.done && !ui.review.empty) return;
+    const queue = practiceAll ? learnedWords() : dueWords();
+    if (!queue.length) {
+      ui.review = { empty: true, practiceAll };
+      renderReviewEmpty();
+      return;
+    }
+    ui.review = {
+      queue: shuffle(queue).slice(0, 15),
+      index: 0,
+      flipped: false,
+      ratings: [],
+      xp: 0,
+      done: false,
+      practiceAll,
+      bonus: 0
+    };
+    renderReviewSession();
+  }
+
+  function reviewCurrent() {
+    const review = ui.review;
+    return review && !review.done ? review.queue[review.index] : null;
+  }
+
+  function renderReviewEmpty() {
+    $('#view').innerHTML = `<div class="review-shell">
+      <header class="lesson-topbar">
+        <button class="close-btn" data-action="close-review" aria-label="退出复习">${icon('x')}</button>
+        <div class="review-top-title">REVISÃO</div>
+        <span class="xp-badge">${icon('star')} +2 XP / palavra</span>
+      </header>
+      <div class="review-scroll">
+        <div class="review-empty-card">
+          <div class="result-stamp">${icon('check')}</div>
+          <span class="eyebrow">TUDO EM DIA</span>
+          <h1>Não há nada para revisar.</h1>
+          <p>As tuas palavras estão descansadas. Volta mais tarde, ou aprende uma lição nova para adicionar vocabulário.</p>
+          <div class="result-actions">
+            <button class="btn btn-primary" data-action="start-next">Aprender uma lição ${icon('arrow-right')}</button>
+            <button class="btn btn-secondary" data-action="go-review">Voltar à revisão</button>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  function renderReviewSession() {
+    const review = ui.review;
+    if (!review) return;
+    if (review.empty) return renderReviewEmpty();
+    if (review.done) return renderReviewResult();
+    const item = reviewCurrent();
+    if (!item) return finishReview();
+    const word = item.vocab;
+    const record = state.words[item.id];
+    const progress = review.queue.length ? review.index / review.queue.length : 0;
+    $('#view').innerHTML = `<div class="review-shell">
+      <header class="lesson-topbar">
+        <button class="close-btn" data-action="close-review" aria-label="退出复习">${icon('x')}</button>
+        <div class="review-progress" role="progressbar" aria-label="复习进度" aria-valuemin="0" aria-valuemax="${review.queue.length}" aria-valuenow="${review.index + 1}"><span style="width:${progress * 100}%"></span></div>
+        <span class="review-counter">${review.index + 1} / ${review.queue.length}</span>
+      </header>
+      <div class="review-scroll">
+        <div class="reviewer">
+          <div class="reviewer-label"><span class="eyebrow">${review.practiceAll ? 'PRÁTICA LIVRE' : 'REVISÃO'}</span><span class="review-unit">${esc(word.lessonTitle || '')}</span></div>
+          <article class="flashcard ${review.flipped ? 'is-flipped' : ''}" data-action="flip-card">
+            <div class="flashcard-corner tl"></div><div class="flashcard-corner br"></div>
+            ${!review.flipped
+              ? `<div class="flash-front">
+                  <span class="flash-kicker">LEMBRAS-TE?</span>
+                  <h1>${esc(word.pt)}</h1>
+                  <p class="flash-pron">${esc(word.pron)}</p>
+                  <button class="audio-btn large" data-audio="${esc(word.pt)}" aria-label="播放发音">${icon('volume')}</button>
+                  <p class="flash-hint">Tenta lembrar-te do significado antes de virar.</p>
+                </div>`
+              : `<div class="flash-back">
+                  <span class="flash-kicker">SIGNIFICADO</span>
+                  <h2>${esc(word.zh)}</h2>
+                  <div class="flash-example"><button class="audio-mini" data-audio="${esc(word.ex)}" aria-label="播放例句">${icon('volume')}</button><div><strong>${esc(word.ex)}</strong><span>${esc(word.exZh)}</span></div></div>
+                  ${word.note ? `<p class="flash-note">${esc(word.note)}</p>` : ''}
+                </div>`}
+          </article>
+          <p class="review-keyboard">${icon('keyboard')} ${review.flipped ? '1–4 评价记忆 · Space 翻面' : 'Space 翻面 · 先自己想一想'}</p>
+        </div>
+      </div>
+      ${review.flipped ? reviewRatingHTML(record) : `<footer class="review-footer simple"><button class="btn btn-primary wide" data-action="flip-card">Mostrar resposta</button></footer>`}
+    </div>`;
+    document.title = `Revisão ${review.index + 1}/${review.queue.length} · Azulejo`;
+  }
+
+  function reviewRatingHTML(record) {
+    const ratings = [
+      { id: 'again', label: 'Outra vez', pt: '忘记', cls: 'again' },
+      { id: 'hard', label: 'Difícil', pt: '困难', cls: 'hard' },
+      { id: 'good', label: 'Bem', pt: '记得', cls: 'good' },
+      { id: 'easy', label: 'Fácil', pt: '轻松', cls: 'easy' }
+    ];
+    return `<footer class="review-footer">
+      <div class="review-footer-inner">
+        <span class="rating-label">Como foi?</span>
+        <div class="rating-grid">
+          ${ratings.map((r, i) => `<button class="rating-btn ${r.cls}" data-action="rate" data-rating="${r.id}">
+            <span class="rating-key">${i + 1}</span>
+            <strong>${r.label}</strong><small>${intervalLabel(record, r.id)} · +2 XP</small>
+          </button>`).join('')}
+        </div>
+      </div>
+    </footer>`;
+  }
+
+  function flipCard() {
+    if (!ui.review || ui.review.done) return;
+    ui.review.flipped = !ui.review.flipped;
+    renderReviewSession();
+  }
+
+  function rateReview(rating) {
+    const review = ui.review;
+    if (!review || review.done || !review.flipped) return;
+    const item = reviewCurrent();
+    if (!item) return;
+    const updated = updateSRS(state.words[item.id], rating);
+    state.words[item.id] = updated.record;
+    addXP(2);
+    review.xp += 2;
+    review.ratings.push({ id: item.id, rating });
+    review.index += 1;
+    review.flipped = false;
+    saveState();
+    if (review.index >= review.queue.length) finishReview();
+    else renderReviewSession();
+  }
+
+  function finishReview() {
+    const review = ui.review;
+    if (!review || review.done) return;
+    review.done = true;
+    const bonus = review.ratings.length >= 3 ? 5 : 0;
+    if (bonus) {
+      addXP(bonus);
+      review.xp += bonus;
+      review.bonus = bonus;
+    }
+    saveState();
+    soundFX('complete');
+    launchConfetti();
+    renderReviewResult();
+  }
+
+  function renderReviewResult() {
+    const review = ui.review;
+    const counts = { again: 0, hard: 0, good: 0, easy: 0 };
+    review.ratings.forEach(r => { counts[r.rating] += 1; });
+    $('#view').innerHTML = `<div class="review-shell result-shell">
+      <div class="result-scroll">
+        <div class="result-card review-result-card">
+          <div class="result-stamp">${icon('check')}</div>
+          <span class="eyebrow">REVISÃO CONCLUÍDA</span>
+          <h1>${review.ratings.length} palavras revisitadas.</h1>
+          <p class="result-sub">每复习一次，记忆的间隔就会更长一点。</p>
+          <div class="review-result-grid">
+            <div><strong>${counts.again}</strong><span>Outra vez</span></div>
+            <div><strong>${counts.hard}</strong><span>Difícil</span></div>
+            <div><strong>${counts.good}</strong><span>Bem</span></div>
+            <div><strong>${counts.easy}</strong><span>Fácil</span></div>
+          </div>
+          <div class="result-stats two">
+            <div><strong>+${review.xp}</strong><span>XP ganho</span></div>
+            <div><strong>${review.queue.length}</strong><span>palavras</span></div>
+          </div>
+          <div class="result-actions">
+            <button class="btn btn-primary" data-action="go-review">Voltar à revisão ${icon('arrow-right')}</button>
+            <button class="btn btn-secondary" data-action="go-home">Ir para o início</button>
+          </div>
+        </div>
+      </div>
+    </div>`;
+    document.title = 'Revisão concluída · Azulejo';
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Phrasebook                                                          */
+  /* ------------------------------------------------------------------ */
+
+  const PHRASE_GROUPS = {
+    all: '全部',
+    greetings: '问候',
+    cafe: '咖啡与美食',
+    transport: '出行',
+    shopping: '购物',
+    social: '社交',
+    emergency: '紧急'
+  };
+
+  function phraseMatches(phrase) {
+    if (ui.favOnly && !state.favorites.includes(phrase.id)) return false;
+    if (ui.phraseGroup !== 'all' && phrase.group !== ui.phraseGroup) return false;
+    const q = accentFold(ui.phraseQuery.trim());
+    if (!q) return true;
+    return [phrase.pt, phrase.zh, phrase.pron, phrase.note, PHRASE_GROUPS[phrase.group]]
+      .some(value => accentFold(value).includes(q));
+  }
+
+  function phrasesGridHTML() {
+    const list = DATA.phrases.filter(phraseMatches);
+    if (!list.length) {
+      return `<div class="empty-phrases"><span>${icon('search')}</span><h3>Nenhuma frase encontrada.</h3><p>试试别的关键词，或切回「全部」。</p><button class="btn btn-secondary" data-action="clear-phrase-filters">Limpar filtros</button></div>`;
+    }
+    return list.map(phrase => `<article class="phrase-card ${state.favorites.includes(phrase.id) ? 'is-fav' : ''}">
+      <div class="phrase-top">
+        <span class="phrase-group">${esc(PHRASE_GROUPS[phrase.group])}</span>
+        <button class="fav-btn ${state.favorites.includes(phrase.id) ? 'is-fav' : ''}" data-action="fav-phrase" data-id="${phrase.id}" aria-label="${state.favorites.includes(phrase.id) ? '取消收藏' : '收藏'}" aria-pressed="${state.favorites.includes(phrase.id)}">${icon('bookmark')}</button>
+      </div>
+      <div class="phrase-pt-row">
+        <h3>${esc(phrase.pt)}</h3>
+        <button class="audio-btn small" data-audio="${esc(phrase.pt)}" aria-label="播放发音">${icon('volume')}</button>
+      </div>
+      <p class="phrase-zh">${esc(phrase.zh)}</p>
+      <p class="phrase-pron">${esc(phrase.pron)}</p>
+      <p class="phrase-note">${icon('info')} ${esc(phrase.note)}</p>
+    </article>`).join('');
+  }
+
+  function renderPhraseGrid() {
+    const grid = $('#phrase-grid');
+    if (grid) grid.innerHTML = phrasesGridHTML();
+    const count = $('#phrase-count');
+    if (count) count.textContent = `${DATA.phrases.filter(phraseMatches).length} frases`;
+  }
+
+  function languageTabsHTML() {
+    return `<div class="language-tabs" role="tablist" aria-label="语料类型">
+      <button class="language-tab ${ui.languageTab === 'phrases' ? 'is-active' : ''}" data-action="select-language-tab" data-tab="phrases" role="tab" aria-selected="${ui.languageTab === 'phrases'}">
+        <span class="language-tab-icon">${icon('chat')}</span><span><strong>短语</strong><small>Frases · ${DATA.phrases.length}</small></span>
+      </button>
+      <button class="language-tab ${ui.languageTab === 'words' ? 'is-active' : ''}" data-action="select-language-tab" data-tab="words" role="tab" aria-selected="${ui.languageTab === 'words'}">
+        <span class="language-tab-icon">${icon('layers')}</span><span><strong>词汇</strong><small>5 línguas · ${allVocab.length}</small></span>
+      </button>
+    </div>`;
+  }
+
+  function wordMatches(word) {
+    if (ui.wordLevel !== 'all' && word.level !== ui.wordLevel) return false;
+    const q = accentFold(ui.wordQuery.trim());
+    if (!q) return true;
+    return [word.pt, word.zh, word.en, word.fr, word.es, word.pron, word.level]
+      .some(value => accentFold(value).includes(q));
+  }
+
+  function lexiconGridHTML() {
+    const list = allVocab.filter(wordMatches);
+    if (!list.length) {
+      return `<div class="empty-phrases lex-empty"><span>${icon('search')}</span><h3>Nenhuma palavra encontrada.</h3><p>试试中文、English、français 或 español。</p><button class="btn btn-secondary" data-action="clear-word-filters">Limpar filtros</button></div>`;
+    }
+    return list.map(word => {
+      const learned = Boolean(state.words[word.id]);
+      return `<article class="lex-row ${learned ? 'is-learned' : ''}">
+        <div class="lex-main">
+          <button class="audio-btn small" data-audio="${esc(word.pt)}" aria-label="播放 ${esc(word.pt)} 的发音">${icon('volume')}</button>
+          <div><strong>${esc(word.pt)}</strong><span class="lex-pron">${esc(word.pron)}</span></div>
+          <em class="level-pill level-${word.level}">${word.level}</em>
+        </div>
+        <div class="lex-zh"><b>中</b><span>${esc(word.zh)}</span></div>
+        <div class="lex-lang"><b>EN</b><span>${esc(word.en)}</span></div>
+        <div class="lex-lang"><b>FR</b><span>${esc(word.fr)}</span></div>
+        <div class="lex-lang"><b>ES</b><span>${esc(word.es)}</span></div>
+        <div class="lex-learned">${learned ? `<span title="已加入复习">${icon('check')}</span>` : ''}</div>
+      </article>`;
+    }).join('');
+  }
+
+  function renderWordGrid() {
+    const grid = $('#lex-grid');
+    if (grid) grid.innerHTML = lexiconGridHTML();
+    const count = $('#word-count');
+    if (count) count.textContent = `${allVocab.filter(wordMatches).length} palavras`;
+    $$('#word-level-chips .filter-chip').forEach(chip => chip.classList.toggle('is-active', chip.dataset.level === ui.wordLevel));
+  }
+
+  function renderLexiconPage() {
+    const levelChips = [
+      `<button class="filter-chip ${ui.wordLevel === 'all' ? 'is-active' : ''}" data-action="filter-words" data-level="all">全部<span>${allVocab.length}</span></button>`,
+      ...LEVELS.map(level => {
+        const count = allVocab.filter(word => word.level === level.id).length;
+        return `<button class="filter-chip ${ui.wordLevel === level.id ? 'is-active' : ''}" data-action="filter-words" data-level="${level.id}">${level.id}<span>${count}</span></button>`;
+      })
+    ].join('');
+    const langLegend = ['PT', '中文', 'EN', 'FR', 'ES'].map((code, i) => `<span class="legend-item ${i === 0 ? 'is-primary' : ''}">${code}</span>`).join('');
+    $('#view').innerHTML = `
+      <div class="page phrases-page lexicon-page">
+        ${pageHead('PALAVRAS', 'Cinco línguas, uma palavra.', '课程里的每一个词，都能在中文、English、français 和 español 之间对照。先听葡语，再用你最熟的语言确认意思。', `<div class="head-badge">${icon('layers')}<span><strong>${allVocab.length}</strong><small>palavras</small></span></div>`)}
+        ${languageTabsHTML()}
+        <div class="lex-legend">${langLegend}<span class="legend-note">EN · FR · ES 为学习释义，并非一对一翻译</span></div>
+        <div class="phrase-toolbar word-toolbar">
+          <label class="search-box">
+            ${icon('search')}
+            <input id="word-search" type="search" value="${esc(ui.wordQuery)}" placeholder="搜索：中文 / English / français / español…" aria-label="搜索五语词汇">
+            <span class="search-kbd">${/Mac|iPhone|iPad/.test(navigator.platform || '') ? '⌘ K' : 'Ctrl K'}</span>
+          </label>
+        </div>
+        <div class="filter-chips" id="word-level-chips">${levelChips}</div>
+        <div class="phrase-grid-head"><span id="word-count">${allVocab.filter(wordMatches).length} palavras</span><span>${icon('volume')} 点小喇叭听葡语发音</span></div>
+        <div class="lex-table-head" aria-hidden="true"><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span><span></span></div>
+        <div class="lex-grid" id="lex-grid">${lexiconGridHTML()}</div>
+      </div>`;
+    document.title = 'Palavras · Azulejo';
+  }
+
+  function renderPhrasesPage() {
+    if (ui.languageTab === 'words') {
+      renderLexiconPage();
+      return;
+    }
+    const shortcut = /Mac|iPhone|iPad/.test(navigator.platform || '') ? '⌘ K' : 'Ctrl K';
+    const groupChips = Object.entries(PHRASE_GROUPS).map(([id, label]) => {
+      const count = id === 'all' ? DATA.phrases.length : DATA.phrases.filter(p => p.group === id).length;
+      return `<button class="filter-chip ${ui.phraseGroup === id ? 'is-active' : ''}" data-action="filter-phrases" data-group="${id}">${label}<span>${count}</span></button>`;
+    }).join('');
+    $('#view').innerHTML = `
+      <div class="page phrases-page">
+        ${pageHead('FRASES & PALAVRAS', 'Frases para levar.', '把真正用得上的句子装进口袋。点小喇叭听发音，点书签收藏。', `<div class="head-badge alt">${icon('chat')}<span><strong>${DATA.phrases.length}</strong><small>frases</small></span></div>`)}
+        ${languageTabsHTML()}
+        <div class="phrase-toolbar">
+          <label class="search-box">
+            ${icon('search')}
+            <input id="phrase-search" type="search" value="${esc(ui.phraseQuery)}" placeholder="搜索葡语、中文或场景…" aria-label="搜索短语">
+            <span class="search-kbd">${shortcut}</span>
+          </label>
+          <button class="fav-filter ${ui.favOnly ? 'is-active' : ''}" data-action="toggle-fav-filter" aria-pressed="${ui.favOnly}">${icon('bookmark')} 收藏 <span>${state.favorites.length}</span></button>
+        </div>
+        <div class="filter-chips" id="phrase-filters">${groupChips}</div>
+        <div class="phrase-grid-head"><span id="phrase-count">${DATA.phrases.filter(phraseMatches).length} frases</span><span>${icon('volume')} 点击可听发音</span></div>
+        <div class="phrase-grid" id="phrase-grid">${phrasesGridHTML()}</div>
+      </div>`;
+    document.title = 'Frases · Azulejo';
+  }
+
+  function updatePhraseChips() {
+    $$('#phrase-filters .filter-chip').forEach(chip => {
+      chip.classList.toggle('is-active', chip.dataset.group === ui.phraseGroup);
+    });
+    const fav = $('.fav-filter');
+    if (fav) {
+      fav.classList.toggle('is-active', ui.favOnly);
+      fav.setAttribute('aria-pressed', ui.favOnly);
+    }
+    const favCount = $('.fav-filter span');
+    if (favCount) favCount.textContent = state.favorites.length;
+  }
+
+  function toggleFavorite(id) {
+    if (state.favorites.includes(id)) {
+      state.favorites = state.favorites.filter(f => f !== id);
+      showToast('Removida dos favoritos.');
+    } else {
+      state.favorites.push(id);
+      showToast('Guardada nos favoritos.');
+    }
+    saveState();
+    renderPhraseGrid();
+    updatePhraseChips();
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Culture                                                             */
+  /* ------------------------------------------------------------------ */
+
+  function renderCulturePage() {
+    const featured = DATA.articles[0];
+    const rest = DATA.articles.slice(1);
+    $('#view').innerHTML = `
+      <div class="page culture-page">
+        ${pageHead('CULTURA & SOTAQUE', 'Muito mais do que palavras.', '语言不是一套词汇表。理解葡萄牙人怎么生活、怎么称呼彼此，你才会真正听懂。', `<div class="head-badge plum">${icon('sun')}<span><strong>${DATA.articles.length}</strong><small>leituras</small></span></div>`)}
+        <section class="featured-article" data-action="open-article" data-id="${featured.id}" role="button" tabindex="0" aria-label="阅读：${esc(featured.title)}">
+          ${tileArt(featured, 0, true)}
+          <div class="featured-copy">
+            <div class="article-meta"><span>${esc(featured.kicker)}</span><span class="dot-sep"></span><span>${featured.read} min</span>${state.readArticles.includes(featured.id) ? `<span class="read-badge">${icon('check')} lido</span>` : ''}</div>
+            <h2>${esc(featured.title)}</h2>
+            <p class="article-zh">${esc(featured.zh)}</p>
+            <p class="featured-excerpt">${esc(featured.excerpt)}</p>
+            <span class="text-link">Ler o artigo ${icon('arrow-right')}</span>
+          </div>
+        </section>
+        <div class="article-grid">
+          ${rest.map((article, i) => `<article class="article-card ${state.readArticles.includes(article.id) ? 'is-read' : ''}" data-action="open-article" data-id="${article.id}" role="button" tabindex="0" aria-label="阅读：${esc(article.title)}">
+            ${tileArt(article, i + 1, false)}
+            <div class="article-card-copy">
+              <div class="article-meta"><span>${esc(article.kicker)}</span><span class="dot-sep"></span><span>${article.read} min</span>${state.readArticles.includes(article.id) ? `<span class="read-badge">${icon('check')} lido</span>` : ''}</div>
+              <h3>${esc(article.title)}</h3>
+              <p class="article-zh">${esc(article.zh)}</p>
+              <p class="article-excerpt">${esc(article.excerpt)}</p>
+            </div>
+          </article>`).join('')}
+        </div>
+        <div class="culture-note">
+          <span>${icon('sparkle')}</span>
+          <p><b>Uma língua, muitas vozes.</b> 葡萄牙本土、马德拉、亚速尔群岛的口音也各不相同。先把标准葡葡听熟，再让耳朵去旅行。</p>
+        </div>
+      </div>`;
+    document.title = 'Cultura · Azulejo';
+  }
+
+  function openArticle(id) {
+    const article = DATA.articles.find(a => a.id === id);
+    if (!article) return;
+    const index = DATA.articles.findIndex(a => a.id === id);
+    const read = state.readArticles.includes(id);
+    openModal(`
+      <div class="article-modal">
+        ${tileArt(article, index, true)}
+        <div class="article-modal-body">
+          <div class="article-meta"><span>${esc(article.kicker)}</span><span class="dot-sep"></span><span>${article.read} min de leitura</span></div>
+          <h1>${esc(article.title)}</h1>
+          <p class="article-zh">${esc(article.zh)}</p>
+          <p class="article-lede">${esc(article.excerpt)}</p>
+          ${article.sections.map(section => `<section class="article-section"><h2>${esc(section.h)}</h2><p>${esc(section.p)}</p></section>`).join('')}
+          <div class="article-tips">
+            <span class="eyebrow">PARA GUARDAR</span>
+            <ul>${article.tips.map(tip => `<li>${esc(tip)}</li>`).join('')}</ul>
+          </div>
+          <div class="article-modal-footer">
+            <button class="btn ${read ? 'btn-secondary' : 'btn-primary'}" id="article-read-btn" data-action="mark-article" data-id="${id}" ${read ? 'disabled' : ''}>${read ? `${icon('check')} Já lido` : `Marcar como lido · +5 XP`}</button>
+            <span class="article-footer-note">Ler também é treinar o ouvido.</span>
+            <button class="text-link article-close-link" data-action="close-modal">Fechar ${icon('x')}</button>
+          </div>
+        </div>
+      </div>`, { className: 'article-panel', label: article.title });
+  }
+
+  function markArticleRead(id) {
+    if (state.readArticles.includes(id)) return;
+    state.readArticles.push(id);
+    addXP(5);
+    saveState();
+    const btn = $('#article-read-btn');
+    if (btn) {
+      btn.innerHTML = `${icon('check')} Já lido`;
+      btn.disabled = true;
+      btn.classList.remove('btn-primary');
+      btn.classList.add('btn-secondary');
+    }
+    const card = document.querySelector(`[data-action="open-article"][data-id="${id}"]`);
+    if (card) card.classList.add('is-read');
+    refreshChrome();
+    showToast('Artigo guardado. +5 XP', 'success');
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Media: level video scenes and audio dialogues                        */
+  /* ------------------------------------------------------------------ */
+
+  let mediaPlay = null;
+  let mediaTimer = null;
+
+  function mediaById(id) {
+    return DATA.media.find(item => item.id === id) || null;
+  }
+
+  function mediaCompletedInLevel(levelId) {
+    return DATA.media.filter(item => item.level === levelId && state.media[item.id]).length;
+  }
+
+  function sceneArt(scene) {
+    const themes = {
+      cafe: ['#5a382d', '#241714', '#e8b25b'],
+      market: ['#4e5a36', '#222c1c', '#e0a94e'],
+      clinic: ['#1f5a64', '#0b3038', '#9dc5bd'],
+      office: ['#1c4052', '#0b2230', '#d9a648'],
+      meeting: ['#4b3942', '#241a20', '#d9a648'],
+      bookshop: ['#4f2d33', '#251619', '#e0a94e'],
+      studio: ['#164451', '#08232d', '#9dc5bd']
+    };
+    const [from, to, accent] = themes[scene] || themes.studio;
+    let detail = '';
+    if (scene === 'cafe') {
+      detail = `<g stroke="rgba(247,238,222,.32)" stroke-width="2" fill="none">
+        <path d="M0 372h900M76 118h246v254H76z"/>
+        <path d="M108 118V72c0-27 22-49 49-49h34c27 0 49 22 49 49v46"/>
+        <path d="M96 240h210M96 306h210"/>
+        <path d="M520 346h310v32H520zM548 346V228h88v118M660 346V264h96v82"/>
+        <path d="M790 346V190M754 190h72M790 190v-34"/>
+        <path d="M196 238h34v26h-34zM262 238h34v26h-34z"/>
+        <path d="M230 204c-10-13 10-19 0-32M270 204c-10-13 10-19 0-32"/>
+        <path d="M36 410h828" opacity=".5"/>
+      </g>
+      <g fill="${accent}" opacity=".55"><circle cx="790" cy="176" r="17"/><circle cx="790" cy="176" r="37" fill="none" stroke="${accent}" opacity=".28"/></g>`;
+    } else if (scene === 'market') {
+      detail = `<g stroke="rgba(247,238,222,.3)" stroke-width="2" fill="none">
+        <path d="M0 92h900M0 132h900"/>
+        <path d="M30 92l34 44h48l-34-44M160 92l34 44h48l-34-44M290 92l34 44h48l-34-44M420 92l34 44h48l-34-44M550 92l34 44h48l-34-44M680 92l34 44h48l-34-44"/>
+        <path d="M40 356h820M80 356V210h250v146M430 356V210h200v146M700 356V210h150v146"/>
+        <path d="M100 210v-36M100 174h210M300 174v36M470 210v-42M470 168h120M570 168v42"/>
+        <path d="M110 244h190M110 286h190M460 244h140M460 286h140"/>
+        <path d="M34 420h832" opacity=".4"/>
+      </g>
+      <g fill="${accent}" opacity=".62">
+        <circle cx="148" cy="320" r="17"/><circle cx="190" cy="318" r="14"/><circle cx="230" cy="323" r="18"/><circle cx="270" cy="318" r="13"/>
+        <circle cx="506" cy="320" r="17"/><circle cx="548" cy="316" r="14"/><circle cx="590" cy="322" r="18"/>
+        <circle cx="760" cy="320" r="16"/><circle cx="800" cy="316" r="20"/>
+      </g>`;
+    } else if (scene === 'clinic') {
+      detail = `<g stroke="rgba(247,238,222,.31)" stroke-width="2" fill="none">
+        <path d="M0 372h900M70 96h260v276H70zM98 96v276M302 96v276M98 180h204M98 246h204"/>
+        <path d="M520 372V168h250v204M540 168v-30h210v30M560 200h170M560 240h170"/>
+        <path d="M820 372V274h44v98M842 274v-58"/>
+        <path d="M850 216c-24 0-34-18-34-38 22 0 34 16 34 38zM850 216c24 0 34-18 34-38-22 0-34 16-34 38z"/>
+        <path d="M128 118v52M102 144h52"/>
+      </g>
+      <g fill="${accent}" opacity=".3"><rect x="560" y="264" width="170" height="10" rx="5"/><rect x="560" y="292" width="120" height="8" rx="4"/></g>`;
+    } else if (scene === 'office') {
+      detail = `<g stroke="rgba(247,238,222,.3)" stroke-width="2" fill="none">
+        <path d="M0 372h900M70 76h350v240H70zM70 132h350M70 188h350M70 244h350M188 76v240M304 76v240"/>
+        <path d="M470 340h370v32H470zM520 340V242h140v98M760 340V270h48v70"/>
+        <path d="M548 242v-56h84v56M580 186v-16M610 186v-16"/>
+        <path d="M470 120h330M500 120v-38h270v38"/>
+        <path d="M40 420h820" opacity=".4"/>
+      </g>
+      <g fill="${accent}" opacity=".42"><rect x="96" y="92" width="30" height="24"/><rect x="212" y="92" width="30" height="24"/><rect x="322" y="92" width="30" height="24"/><circle cx="800" cy="152" r="13"/></g>`;
+    } else if (scene === 'meeting') {
+      detail = `<g stroke="rgba(247,238,222,.3)" stroke-width="2" fill="none">
+        <path d="M0 372h900M60 104h260v150H60zM88 104v150M288 104v150M88 156h200M88 208h200"/>
+        <path d="M120 380h660M170 380v-48h560v48M210 380v32M690 380v32"/>
+        <path d="M170 332h560M250 332v-36h400v36"/>
+        <path d="M80 156h30M80 208h30M270 156h30M270 208h30" opacity=".7"/>
+      </g>
+      <g fill="${accent}" opacity=".4"><rect x="112" y="116" width="50" height="28" rx="3"/><rect x="180" y="116" width="50" height="28" rx="3"/><rect x="248" y="116" width="50" height="28" rx="3"/></g>
+      <g fill="none" stroke="${accent}" stroke-width="2" opacity=".4"><circle cx="760" cy="330" r="16"/><circle cx="800" cy="330" r="16"/><circle cx="840" cy="330" r="16"/></g>`;
+    } else if (scene === 'bookshop') {
+      detail = `<g stroke="rgba(247,238,222,.3)" stroke-width="2" fill="none">
+        <path d="M0 372h900M56 72h250v284H56zM80 72v284M282 72v284M80 150h202M80 226h202M80 302h202"/>
+        <path d="M420 72h230v284H420zM444 72v284M626 72v284M444 150h182M444 226h182M444 302h182"/>
+        <path d="M710 356V146h140v210M730 356V194h100v162"/>
+        <path d="M780 194v-36M758 158h44"/>
+        <path d="M730 356v28M820 356v28"/>
+      </g>
+      <g fill="${accent}" opacity=".36">
+        <rect x="92" y="112" width="16" height="30"/><rect x="114" y="106" width="13" height="36"/><rect x="133" y="116" width="18" height="26"/><rect x="158" y="110" width="12" height="32"/>
+        <rect x="456" y="112" width="14" height="30"/><rect x="476" y="108" width="18" height="34"/><rect x="500" y="116" width="12" height="26"/>
+        <rect x="736" y="212" width="12" height="30"/><rect x="754" y="208" width="16" height="34"/>
+      </g>`;
+    } else {
+      detail = `<g stroke="rgba(247,238,222,.28)" stroke-width="2" fill="none">
+        <path d="M0 372h900M80 90h200v80H80zM620 90h200v80H620zM80 210h200v60H80zM620 210h200v60H620z"/>
+        <path d="M430 356V126M430 126h-60M370 126v-30h56v30"/>
+        <path d="M430 126v-44M400 82h60"/>
+        <path d="M394 196c44-30 92-30 136 0M380 230c56-38 118-38 174 0M366 264c68-44 142-44 210 0"/>
+        <path d="M300 372h300M320 372v-24h260v24"/>
+      </g>
+      <g fill="${accent}" opacity=".35"><circle cx="430" cy="366" r="8"/><circle cx="430" cy="352" r="6"/><circle cx="430" cy="340" r="4"/></g>`;
+    }
+    return `<svg class="scene-art" viewBox="0 0 900 506" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs><linearGradient id="scene-${scene}" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${from}"/><stop offset="1" stop-color="${to}"/></linearGradient></defs>
+      <rect width="900" height="506" fill="url(#scene-${scene})"/>
+      ${detail}
+      <rect width="900" height="506" fill="url(#scene-vignette-${scene})" opacity=".55"/>
+      <defs><radialGradient id="scene-vignette-${scene}" cx="50%" cy="42%" r="72%"><stop stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient></defs>
+    </svg>`;
+  }
+
+  function waveformHTML(count, active) {
+    return `<div class="waveform ${active ? 'is-active' : ''}" aria-hidden="true">
+      ${Array.from({ length: count }, (_, i) => {
+        const h = 18 + Math.abs(Math.sin(i * 1.37) * 0.62 + Math.cos(i * 0.71) * 0.38) * 78;
+        return `<i style="--h:${h.toFixed(0)}%;--d:${(i % 7) * 0.08}s"></i>`;
+      }).join('')}
+    </div>`;
+  }
+
+  function actorPortrait(index) {
+    const palettes = [
+      { skin: '#e7b68d', hair: '#2a1a14', shirt: '#c46745', accent: '#f2d1ad' },
+      { skin: '#c98e68', hair: '#1d1412', shirt: '#2e7d83', accent: '#e9bd92' },
+      { skin: '#f0c7a1', hair: '#7a4b2a', shirt: '#7c8b63', accent: '#f6d9ba' }
+    ];
+    const p = palettes[index % palettes.length];
+    return `<svg viewBox="0 0 170 240" aria-hidden="true">
+      <ellipse cx="85" cy="229" rx="57" ry="13" fill="rgba(0,0,0,.2)"/>
+      <path d="M27 240c2-55 24-83 58-83s56 28 58 83z" fill="${p.shirt}"/>
+      <path d="M58 150h54v34c0 14-11 25-27 25s-27-11-27-25z" fill="${p.skin}"/>
+      <path d="M55 164c-9-2-15-9-15-19v-38c0-30 19-50 45-50s45 20 45 50v38c0 10-6 17-15 19z" fill="${p.skin}"/>
+      <path d="M55 102c0-28 13-45 30-45 19 0 43 12 43 46-12-9-23-15-39-17-11 10-21 25-34 29z" fill="${p.hair}"/>
+      <circle cx="69" cy="117" r="2.6" fill="#2b1b16"/>
+      <circle cx="101" cy="117" r="2.6" fill="#2b1b16"/>
+      <path d="M78 137c5 4 10 4 15 0" stroke="#8c4f3c" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M65 169l20 17 20-17" stroke="${p.accent}" stroke-width="2" fill="none" opacity=".7"/>
+      <path d="M52 201c13 9 22 13 33 13s20-4 33-13" stroke="rgba(255,255,255,.18)" stroke-width="2" fill="none"/>
+    </svg>`;
+  }
+
+  function mediaLevelTabHTML(level, active) {
+    const items = DATA.media.filter(item => item.level === level.id);
+    const done = mediaCompletedInLevel(level.id);
+    return `<button class="media-level-tab level-${level.color} ${level.id === active ? 'is-active' : ''}" data-action="select-media-level" data-level="${level.id}">
+      <b>${level.id}</b><span>${esc(level.name)}</span><i>${done}/${items.length}</i>
+    </button>`;
+  }
+
+  function renderMediaPage() {
+    const levelId = ui.mediaLevel || 'A1';
+    const level = levelMeta(levelId);
+    const items = DATA.media.filter(item => item.level === levelId);
+    const video = items.find(item => item.type === 'video');
+    const audio = items.find(item => item.type === 'audio');
+    const done = Object.keys(state.media).length;
+    const total = DATA.media.length;
+    const levelDone = mediaCompletedInLevel(levelId);
+    $('#view').innerHTML = `
+      <div class="page media-page">
+        ${pageHead('VÍDEO & ÁUDIO', 'Vê, ouve, reage.', '每个级别都有一场情景视频和一段音频对话。先看画面猜意思，再听声音抓细节，最后做理解题。', `<div class="head-badge alt">${icon('video')}<span><strong>${done}</strong><small>/ ${total} feitos</small></span></div>`)}
+        <div class="media-stats">
+          <div><strong>6</strong><span>níveis</span></div>
+          <div><strong>${DATA.media.filter(i => i.type === 'video').length}</strong><span>vídeos-cena</span></div>
+          <div><strong>${DATA.media.filter(i => i.type === 'audio').length}</strong><span>diálogos áudio</span></div>
+          <div><strong>${levelDone}/${items.length}</strong><span>neste nível</span></div>
+        </div>
+        <div class="media-level-tabs">${LEVELS.map(l => mediaLevelTabHTML(l, levelId)).join('')}</div>
+        <div class="media-level-note"><span class="level-badge level-${level.color}">${level.id}</span><p><b>${esc(level.name)} · ${esc(level.zh)}</b> ${esc(level.blurb)}</p></div>
+        <div class="media-feature-grid">
+          ${video ? mediaFeatureCard(video, 'VÍDEO-CENA', 'play') : ''}
+          ${audio ? mediaFeatureCard(audio, 'DIÁLOGO ÁUDIO', 'volume') : ''}
+        </div>
+        <section class="media-how">
+          <div><span class="eyebrow">COMO PRATICAR</span><h2>Três passagens, três ouvidos.</h2></div>
+          <ol>
+            <li><b>1 · Sem legendas</b><span>先看/听一遍，只抓语气和场景，不逐字翻译。</span></li>
+            <li><b>2 · Com transcrição</b><span>打开字幕，把没听清的词和连读标出来。</span></li>
+            <li><b>3 · Faz tu</b><span>音频对话可切换角色，轮到你时大声说出来。</span></li>
+          </ol>
+        </section>
+      </div>`;
+    document.title = 'Vídeo & áudio · Azulejo';
+  }
+
+  function mediaFeatureCard(item, label, iconName) {
+    const done = state.media[item.id];
+    const art = item.type === 'video'
+      ? `<div class="media-feature-art video">${sceneArt(item.scene)}<div class="media-thumb-actors">${item.cast.slice(0, 2).map((person, i) => `<span>${actorPortrait(i)}<b>${esc(person.name)}</b></span>`).join('')}</div><span class="media-play-badge">${icon('play')}</span><span class="media-time">${item.minutes} min</span></div>`
+      : `<div class="media-feature-art audio"><div class="audio-thumb">${waveformHTML(32, false)}</div><div class="audio-thumb-cast">${item.cast.slice(0, 2).map(person => `<span>${esc(person.name)}</span>`).join('')}</div><span class="media-play-badge">${icon('volume')}</span><span class="media-time">${item.minutes} min</span></div>`;
+    return `<a class="media-feature ${item.type} ${done ? 'is-done' : ''}" href="#/media/${item.id}">
+      ${art}
+      <div class="media-feature-copy">
+        <div class="media-feature-meta"><span class="eyebrow">${item.level} · ${label}</span>${done ? `<span class="read-badge">${icon('check')} concluído</span>` : ''}</div>
+        <h2>${esc(item.title)}</h2>
+        <p class="article-zh">${esc(item.zh)}</p>
+        <p>${esc(item.description)}</p>
+        <div class="media-feature-bottom"><span>${icon('clock')} ${item.minutes} min</span><span>${item.lines.length} falas</span><span class="text-link">${done ? 'Rever' : 'Começar'} ${icon('arrow-right')}</span></div>
+      </div>
+    </a>`;
+  }
+
+  function startMedia(id) {
+    const item = mediaById(id);
+    if (!item) {
+      location.hash = '#/media';
+      return;
+    }
+    Speech.stop();
+    clearTimeout(mediaTimer);
+    ui.mediaLevel = item.level;
+    mediaPlay = {
+      item,
+      index: 0,
+      playing: false,
+      finished: false,
+      captions: item.type === 'video',
+      rate: 0.9,
+      rolePlay: false,
+      userRole: item.cast[0]?.role || 'A',
+      showTranscript: item.type === 'video',
+      answers: {},
+      token: 0,
+      xpAwarded: 0
+    };
+    renderMediaPlayer();
+  }
+
+  function mediaCurrentLine() {
+    return mediaPlay ? mediaPlay.item.lines[mediaPlay.index] || null : null;
+  }
+
+  function mediaCastIndex(name) {
+    if (!mediaPlay) return 0;
+    return Math.max(0, mediaPlay.item.cast.findIndex(person => person.name === name));
+  }
+
+  function mediaBubbleSide() {
+    const line = mediaCurrentLine();
+    if (!line) return 'left';
+    const idx = mediaCastIndex(line.who);
+    return idx === 0 ? 'left' : idx === 1 ? 'right' : 'center';
+  }
+
+  function renderMediaPlayer() {
+    if (!mediaPlay) return;
+    const item = mediaPlay.item;
+    const line = mediaCurrentLine();
+    const isVideo = item.type === 'video';
+    const isUserTurn = mediaPlay.rolePlay && line.role === mediaPlay.userRole;
+    const progress = item.lines.length ? (mediaPlay.index + (mediaPlay.finished ? 1 : 0)) / item.lines.length : 0;
+    const cast = item.cast;
+    $('#view').innerHTML = `
+      <div class="media-shell">
+        <header class="lesson-topbar media-topbar">
+          <button class="close-btn" data-action="close-media" aria-label="退出影音练习">${icon('x')}</button>
+          <div class="media-top-title"><span class="level-badge level-${levelMeta(item.level).color}">${item.level}</span><strong>${esc(item.title)}</strong></div>
+          <span class="media-type-pill">${isVideo ? 'VÍDEO-CENA' : 'ÁUDIO'}</span>
+          <span class="xp-badge">${icon('star')} +${item.xp || 25} XP</span>
+        </header>
+        <div class="media-player-scroll">
+          <div class="media-player-wrap">
+            <div class="media-stage ${isVideo ? 'is-video' : 'is-audio'} ${mediaPlay.playing ? 'is-playing' : ''}">
+              ${isVideo ? `
+                <div class="video-stage">
+                  ${sceneArt(item.scene)}
+                  <div class="stage-topline"><span>${item.level} · ${({ cafe: 'CAFÉ', market: 'MERCADO', clinic: 'CONSULTA', office: 'ESCRITÓRIO', meeting: 'REUNIÃO', bookshop: 'LIVRARIA' }[item.scene]) || 'CENA'}</span><span>${mediaPlay.index + 1} / ${item.lines.length}</span></div>
+                  <div class="stage-actors actors-${cast.length}">
+                    ${cast.map((person, i) => `<div class="stage-actor ${line.who === person.name ? 'is-speaking' : ''} ${mediaPlay.rolePlay && person.role === mediaPlay.userRole ? 'is-user' : ''}">
+                      ${actorPortrait(i)}<span>${esc(person.name)}</span>
+                    </div>`).join('')}
+                  </div>
+                  ${mediaPlay.captions ? `<div class="stage-bubble is-${mediaBubbleSide()}"><span>${esc(line.who)}</span><p>${esc(line.pt)}</p></div>` : ''}
+                  ${!mediaPlay.playing && !isUserTurn ? `<button class="stage-play" data-action="media-toggle" aria-label="${mediaPlay.finished ? '重复播放' : '播放'}">${icon('play')}<span>${mediaPlay.finished ? 'Ouvir outra vez' : mediaPlay.index === 0 ? 'Começar' : 'Continuar'}</span></button>` : ''}
+                  ${mediaPlay.captions ? `<div class="caption-bar"><span>${esc(line.pt)}</span><small>${esc(line.zh)}</small></div>` : ''}
+                </div>`
+              : `
+                <div class="audio-stage">
+                  <div class="stage-topline"><span>${item.level} · DIÁLOGO ÁUDIO</span><span>${mediaPlay.index + 1} / ${item.lines.length}</span></div>
+                  <div class="audio-speaker-row">
+                    ${cast.map((person, i) => `<span class="speaker-chip ${line.who === person.name ? 'is-speaking' : ''}">${actorPortrait(i).replace('<svg', '<svg class="speaker-face"')}<b>${esc(person.name)}</b></span>`).join('')}
+                  </div>
+                  ${waveformHTML(48, mediaPlay.playing)}
+                  <div class="audio-current ${isUserTurn ? 'is-user-turn' : ''}">
+                    ${mediaPlay.captions || isUserTurn
+                      ? `<span class="audio-who">${isUserTurn ? 'A TUA VEZ' : esc(line.who)}</span><p>${esc(line.pt)}</p><small>${esc(line.zh)}</small>`
+                      : `<span class="audio-who">${esc(line.who)}</span><p class="audio-listen-prompt">Ouve com atenção.</p><small>按「Legendas」显示台词，先让耳朵工作。</small>`}
+                  </div>
+                  ${!mediaPlay.playing && !isUserTurn ? `<button class="stage-play compact" data-action="media-toggle" aria-label="${mediaPlay.finished ? '重复播放' : '播放'}">${icon('play')}<span>${mediaPlay.finished ? 'Ouvir outra vez' : mediaPlay.index === 0 ? 'Começar' : 'Continuar'}</span></button>` : ''}
+                </div>`}
+            </div>
+
+            <div class="media-timeline" role="progressbar" aria-label="Progresso do diálogo" aria-valuemin="0" aria-valuemax="${item.lines.length}" aria-valuenow="${mediaPlay.index + 1}">
+              ${item.lines.map((l, i) => `<button class="media-seg ${i < mediaPlay.index ? 'is-done' : ''} ${i === mediaPlay.index ? 'is-current' : ''} ${l.role === mediaPlay.userRole && mediaPlay.rolePlay ? 'is-user' : ''}" data-action="jump-media" data-index="${i}" aria-label="Fala ${i + 1}"></button>`).join('')}
+            </div>
+
+            <div class="media-controls">
+              <div class="media-controls-left">
+                <button class="media-ctrl" data-action="media-prev" aria-label="上一句" ${mediaPlay.index === 0 ? 'disabled' : ''}>${icon('arrow-left')}</button>
+                <button class="media-play-btn" data-action="media-toggle" aria-label="${mediaPlay.playing ? '暂停' : '播放'}">${icon(mediaPlay.playing ? 'pause' : 'play')}</button>
+                <button class="media-ctrl" data-action="media-next" aria-label="下一句">${icon('arrow-right')}</button>
+                <button class="media-ctrl" data-action="media-repeat" aria-label="重复本句">${icon('review')}</button>
+              </div>
+              <div class="media-controls-right">
+                <button class="media-chip" data-action="media-rate">${mediaPlay.rate.toFixed(1).replace('.', ',')}×</button>
+                <button class="media-chip ${mediaPlay.captions ? 'is-on' : ''}" data-action="media-captions">${icon('captions')} Legendas</button>
+                ${!isVideo ? `<button class="media-chip ${mediaPlay.rolePlay ? 'is-on' : ''}" data-action="toggle-roleplay">${icon('mic')} Praticar</button>` : ''}
+              </div>
+            </div>
+
+            ${!isVideo && mediaPlay.rolePlay ? `<div class="roleplay-bar">
+              <span>Escolhe a tua personagem:</span>
+              ${cast.map(person => `<button class="role-chip ${mediaPlay.userRole === person.role ? 'is-active' : ''}" data-action="set-role" data-role="${person.role}">${esc(person.name)}</button>`).join('')}
+              ${isUserTurn ? `<button class="btn btn-primary small" data-action="media-next">A minha vez · continuar ${icon('arrow-right')}</button>` : `<small>As tuas falas ficam em silêncio para leres em voz alta.</small>`}
+            </div>` : ''}
+
+            <div class="media-info">
+              <div>
+                <span class="eyebrow">${item.level} · ${isVideo ? 'VÍDEO-CENA' : 'DIÁLOGO ÁUDIO'}</span>
+                <h1>${esc(item.title)} <span>${esc(item.zh)}</span></h1>
+                <p>${esc(item.description)}</p>
+              </div>
+              <div class="media-info-meta"><span>${icon('clock')} ${item.minutes} min</span><span>${icon('chat')} ${item.lines.length} falas</span></div>
+            </div>
+
+            <section class="media-transcript-section">
+              <div class="section-head compact">
+                <div><span class="eyebrow">TRANSCRIÇÃO</span><h2>Palavra por palavra.</h2></div>
+                ${!isVideo ? `<button class="btn btn-secondary small" data-action="toggle-transcript">${mediaPlay.showTranscript ? 'Ocultar' : 'Mostrar transcrição'}</button>` : ''}
+              </div>
+              ${mediaPlay.showTranscript ? `<div class="transcript-list">
+                ${item.lines.map((l, i) => `<button class="transcript-line ${i === mediaPlay.index ? 'is-current' : ''}" data-action="jump-media" data-index="${i}">
+                  <span class="transcript-speaker">${esc(l.who)}</span>
+                  <span class="transcript-pt">${esc(l.pt)}</span>
+                  <span class="transcript-zh">${esc(l.zh)}</span>
+                  <span class="transcript-audio">${icon('volume')}</span>
+                </button>`).join('')}
+              </div>` : `<div class="transcript-locked"><span>${icon('volume')}</span><p>先只听声音。准备好后，再打开逐句文字。</p></div>`}
+            </section>
+
+            ${mediaPlay.finished ? mediaQuestionsHTML(item) : `<div class="media-listen-note">${icon('info')} 听完整段对话后，会出现 3 道理解题。${mediaPlay.rolePlay ? ' 角色练习中，你的台词会暂停等待。' : ''}</div>`}
+          </div>
+        </div>
+      </div>`;
+    document.title = `${item.title} · Azulejo`;
+  }
+
+  function mediaQuestionsHTML(item) {
+    const answers = mediaPlay.answers;
+    const answeredCount = Object.keys(answers).length;
+    const correctCount = Object.values(answers).filter(a => a.correct).length;
+    const allDone = answeredCount === item.questions.length;
+    return `<section class="media-quiz">
+      <div class="quiz-head"><div><span class="eyebrow">COMPREENSÃO</span><h2>O que ficou?</h2></div>
+        <div class="quiz-score"><strong>${correctCount}</strong><span>/ ${item.questions.length}${allDone ? ' · ' + (correctCount === item.questions.length ? 'Perfeito!' : 'Boa!') : ''}</span></div>
+      </div>
+      ${item.questions.map((q, qi) => {
+        const answer = answers[qi];
+        return `<article class="quiz-card ${answer ? (answer.correct ? 'is-correct' : 'is-wrong') : ''}">
+          <div class="quiz-q"><span>${qi + 1}</span><div><strong>${esc(q.q)}</strong><small>${esc(q.zh)}</small></div></div>
+          <div class="quiz-options">
+            ${q.options.map(opt => {
+              const chosen = answer && answer.choice === opt;
+              const correct = answer && opt === q.answer;
+              return `<button class="quiz-option ${chosen ? 'is-chosen' : ''} ${correct ? 'is-correct' : ''} ${chosen && !correct ? 'is-wrong' : ''}" data-action="answer-media" data-q="${qi}" data-value="${esc(opt)}" ${answer ? 'disabled' : ''}>${esc(opt)}${correct ? icon('check') : chosen ? icon('x') : ''}</button>`;
+            }).join('')}
+          </div>
+          ${answer ? `<p class="quiz-explain">${answer.correct ? icon('check') : icon('info')} ${esc(q.explain)}</p>` : ''}
+        </article>`;
+      }).join('')}
+      <div class="quiz-actions">
+        <button class="btn btn-secondary" data-action="media-restart">${icon('review')} Ouvir outra vez</button>
+        <button class="btn btn-primary" data-action="close-media">Voltar ao início ${icon('arrow-right')}</button>
+      </div>
+    </section>`;
+  }
+
+  function mediaAdvance(auto) {
+    if (!mediaPlay || mediaPlay.finished) return;
+    if (mediaPlay.index >= mediaPlay.item.lines.length - 1) {
+      finishMedia();
+      return;
+    }
+    mediaPlay.index += 1;
+    renderMediaPlayer();
+    if (auto && mediaPlay.playing) playMediaCurrent();
+  }
+
+  function playMediaCurrent() {
+    if (!mediaPlay || mediaPlay.finished) return;
+    const line = mediaCurrentLine();
+    if (!line) return;
+    if (mediaPlay.rolePlay && line.role === mediaPlay.userRole) {
+      mediaPlay.playing = false;
+      renderMediaPlayer();
+      return;
+    }
+    mediaPlay.playing = true;
+    mediaPlay.token += 1;
+    const token = mediaPlay.token;
+    renderMediaPlayer();
+    let done = false;
+    const advance = () => {
+      if (done || !mediaPlay || mediaPlay.token !== token || !mediaPlay.playing) return;
+      done = true;
+      clearTimeout(mediaTimer);
+      mediaTimer = setTimeout(() => {
+        if (!mediaPlay || mediaPlay.token !== token || !mediaPlay.playing) return;
+        mediaAdvance(true);
+      }, 600);
+    };
+    const words = line.pt.split(/\s+/).length;
+    mediaTimer = setTimeout(advance, Math.max(5200, words * 620 + 2200));
+    Speech.speakMediaLine(line.pt, mediaCastIndex(line.who), mediaPlay.rate, advance);
+  }
+
+  function pauseMedia() {
+    if (!mediaPlay) return;
+    mediaPlay.token += 1;
+    mediaPlay.playing = false;
+    clearTimeout(mediaTimer);
+    Speech.stop();
+    renderMediaPlayer();
+  }
+
+  function toggleMedia() {
+    if (!mediaPlay) return;
+    if (mediaPlay.finished) {
+      restartMedia();
+      return;
+    }
+    const line = mediaCurrentLine();
+    if (mediaPlay.rolePlay && line.role === mediaPlay.userRole) {
+      mediaPlay.playing = true;
+      mediaAdvance(true);
+      return;
+    }
+    if (mediaPlay.playing) pauseMedia();
+    else playMediaCurrent();
+  }
+
+  function jumpMedia(index) {
+    if (!mediaPlay) return;
+    const wasPlaying = mediaPlay.playing;
+    mediaPlay.token += 1;
+    clearTimeout(mediaTimer);
+    Speech.stop();
+    mediaPlay.index = Math.max(0, Math.min(mediaPlay.item.lines.length - 1, index));
+    mediaPlay.finished = false;
+    mediaPlay.playing = false;
+    renderMediaPlayer();
+    if (wasPlaying) playMediaCurrent();
+  }
+
+  function finishMedia() {
+    if (!mediaPlay || mediaPlay.finished) return;
+    mediaPlay.playing = false;
+    mediaPlay.finished = true;
+    mediaPlay.token += 1;
+    clearTimeout(mediaTimer);
+    Speech.stop();
+    const id = mediaPlay.item.id;
+    if (!state.media[id]) {
+      const xp = mediaPlay.item.xp || 25;
+      state.media[id] = { completedAt: new Date().toISOString(), best: 0 };
+      mediaPlay.xpAwarded = xp;
+      addXP(xp);
+      saveState();
+      soundFX('complete');
+      launchConfetti();
+      showToast(`+${xp} XP · ${mediaPlay.item.title}`, 'success');
+    }
+    renderMediaPlayer();
+  }
+
+  function restartMedia() {
+    if (!mediaPlay) return;
+    Speech.stop();
+    clearTimeout(mediaTimer);
+    mediaPlay.index = 0;
+    mediaPlay.finished = false;
+    mediaPlay.playing = false;
+    mediaPlay.answers = {};
+    mediaPlay.token += 1;
+    renderMediaPlayer();
+  }
+
+  function answerMediaQuestion(qi, value) {
+    if (!mediaPlay || !mediaPlay.finished || mediaPlay.answers[qi]) return;
+    const question = mediaPlay.item.questions[qi];
+    if (!question) return;
+    const correct = value === question.answer;
+    mediaPlay.answers[qi] = { choice: value, correct };
+    soundFX(correct ? 'correct' : 'wrong');
+    const all = Object.keys(mediaPlay.answers).length === mediaPlay.item.questions.length;
+    if (all) {
+      const record = state.media[mediaPlay.item.id] || { completedAt: new Date().toISOString(), best: 0 };
+      const score = Object.values(mediaPlay.answers).filter(a => a.correct).length;
+      record.best = Math.max(record.best || 0, Math.round(score / mediaPlay.item.questions.length * 100));
+      state.media[mediaPlay.item.id] = record;
+      saveState();
+    }
+    renderMediaPlayer();
+  }
+
+  function closeMedia() {
+    Speech.stop();
+    clearTimeout(mediaTimer);
+    mediaPlay = null;
+    go('#/media');
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Progress                                                            */
+  /* ------------------------------------------------------------------ */
+
+  function renderProgressPage() {
+    const lvl = levelInfo();
+    const streak = currentStreak();
+    const learned = learnedWordCount();
+    const done = completedCount();
+    const days = lastSevenDays();
+    const values = days.map(d => state.activity[dateKey(d)] || 0);
+    const max = Math.max(Number(state.goal) || 40, ...values, 20);
+    const totalWeek = values.reduce((a, b) => a + b, 0);
+    const unlocked = DATA.achievements.filter(a => a.test(state));
+    const unlockedIds = unlocked.map(a => a.id);
+
+    $('#view').innerHTML = `
+      <div class="page progress-page">
+        ${pageHead('PROGRESSO', 'O teu caminho, em números.', '不是和别人比，而是看见自己已经走了多远。', `<button class="btn btn-secondary small" data-action="open-settings">${icon('settings')} Ajustar meta</button>`)}
+        <div class="progress-top">
+          <section class="level-card">
+            <div class="level-ring">
+              ${ring(lvl.pct, 142, 9, 'var(--gold)', 'rgba(255,255,255,.14)')}
+              <div class="level-ring-center"><span>NÍVEL</span><strong>${lvl.n}</strong></div>
+            </div>
+            <div class="level-copy">
+              <span class="eyebrow light">A TUA JORNADA</span>
+              <h2>${lvl.title}</h2>
+              <p>${lvl.current} / ${lvl.needed} XP para o próximo nível.</p>
+              <div class="level-bar"><span style="width:${lvl.pct * 100}%"></span></div>
+              <div class="level-meta"><span>${state.xp} XP no total</span><span>${done} / ${allLessons.length} lições</span></div>
+            </div>
+          </section>
+          <div class="progress-mini-stats">
+            <div class="mini-stat"><span class="stat-icon gold">${icon('flame')}</span><div><strong>${streak}</strong><span>dias seguidos</span></div></div>
+            <div class="mini-stat"><span class="stat-icon blue">${icon('book')}</span><div><strong>${learned}</strong><span>palavras</span></div></div>
+            <div class="mini-stat"><span class="stat-icon green">${icon('check')}</span><div><strong>${done}</strong><span>lições</span></div></div>
+            <div class="mini-stat"><span class="stat-icon plum">${icon('award')}</span><div><strong>${unlocked.length}</strong><span>conquistas</span></div></div>
+          </div>
+        </div>
+
+        <section class="panel level-progress-panel">
+          <div class="panel-head"><div><span class="eyebrow">A1 → C2</span><h2>Seis níveis, um só caminho.</h2></div><span class="panel-chip">${icon('chart')} CEFR</span></div>
+          <div class="level-progress-grid">
+            ${LEVELS.map(level => {
+              const lessons = lessonsForLevel(level.id);
+              const levelDone = lessons.filter(l => state.lessons[l.id]).length;
+              const levelMedia = DATA.media.filter(item => item.level === level.id && state.media[item.id]).length;
+              const pct = lessons.length ? Math.round(levelDone / lessons.length * 100) : 0;
+              return `<button class="level-progress-card level-${level.color}" data-action="go-level" data-level="${level.id}">
+                <span class="level-progress-top"><b>${level.id}</b><span>${pct}%</span></span>
+                <strong>${esc(level.name)}</strong>
+                <small>${levelDone}/${lessons.length} lições · ${levelMedia}/${DATA.media.filter(item => item.level === level.id).length} media</small>
+                <span class="level-tab-bar"><i style="width:${pct}%"></i></span>
+              </button>`;
+            }).join('')}
+          </div>
+        </section>
+
+        <div class="progress-grid">
+          <section class="panel activity-panel">
+            <div class="panel-head"><div><span class="eyebrow">ESTA SEMANA</span><h2>${totalWeek} XP em sete dias.</h2></div><span class="panel-chip">${icon('target')} meta ${state.goal} XP</span></div>
+            <div class="chart">
+              <div class="chart-goal" style="bottom:${((Number(state.goal) || 40) / max) * 100}%"><span>${state.goal} XP</span></div>
+              ${days.map((d, i) => {
+                const value = values[i];
+                const h = value ? Math.max(6, (value / max) * 100) : 2;
+                const today = dateKey(d) === dateKey();
+                return `<div class="bar-col ${today ? 'is-today' : ''}">
+                  <span class="bar-value">${value || ''}</span>
+                  <div class="bar-track"><span class="bar-fill" style="height:${h}%"></span></div>
+                  <span class="bar-label">${new Intl.DateTimeFormat('pt-PT', { weekday: 'short' }).format(d).replace('.', '')}<b>${d.getDate()}</b></span>
+                </div>`;
+              }).join('')}
+            </div>
+          </section>
+
+          <section class="panel achievements-panel">
+            <div class="panel-head"><div><span class="eyebrow">CONQUISTAS</span><h2>${unlocked.length} de ${DATA.achievements.length}.</h2></div><span class="panel-chip">${icon('award')} pequenas vitórias</span></div>
+            <div class="achievement-grid">
+              ${DATA.achievements.map(a => {
+                const has = unlockedIds.includes(a.id);
+                return `<div class="achievement ${has ? 'is-unlocked' : 'is-locked'}">
+                  <span class="ach-icon">${icon(has ? a.icon : 'lock')}</span>
+                  <div><strong>${esc(a.title)}</strong><span>${esc(a.desc)}</span></div>
+                  ${has ? `<span class="ach-check">${icon('check')}</span>` : ''}
+                </div>`;
+              }).join('')}
+            </div>
+          </section>
+        </div>
+
+        <section class="panel mastery-panel">
+          <div class="panel-head"><div><span class="eyebrow">POR UNIDADE</span><h2>Onde estás, unidade a unidade.</h2></div><span class="panel-chip">${icon('chart')} ${Math.round(done / allLessons.length * 100)}% do curso</span></div>
+          <div class="mastery-list">
+            ${DATA.units.map(unit => {
+              const unitDone = unit.lessons.filter(l => state.lessons[l.id]).length;
+              const pct = unitDone / unit.lessons.length;
+              return `<div class="mastery-row theme-${unit.color}">
+                <span class="mastery-num">${pad(unit.order)}</span>
+                <div class="mastery-copy"><strong>${esc(unit.title)}</strong><span>${esc(unit.zh)}</span></div>
+                <div class="mastery-bar"><span style="width:${pct * 100}%"></span></div>
+                <span class="mastery-count">${unitDone} / ${unit.lessons.length}</span>
+              </div>`;
+            }).join('')}
+          </div>
+        </section>
+
+        <div class="danger-zone">
+          <div><strong>Os teus dados ficam neste navegador.</strong><span>进度保存在 localStorage 中，不会上传。换设备或清理浏览器数据会丢失。</span></div>
+          <button class="text-link danger" data-action="request-reset">Apagar progresso</button>
+        </div>
+      </div>`;
+    document.title = 'Progresso · Azulejo';
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Modals, settings and onboarding                                     */
+  /* ------------------------------------------------------------------ */
+
+  function openModal(content, options = {}) {
+    const root = $('#modal-root');
+    ui.lastFocus = document.activeElement;
+    root.innerHTML = `<div class="modal-backdrop" data-action="close-modal"></div>
+      <div class="modal-panel ${options.className || ''}" role="dialog" aria-modal="true" aria-label="${esc(options.label || 'Janela')}" tabindex="-1">
+        ${options.showClose === false ? '' : `<button class="modal-close" data-action="close-modal" aria-label="关闭">${icon('x')}</button>`}
+        ${content}
+      </div>`;
+    ui.modalOpen = true;
+    document.body.classList.add('modal-open');
+    requestAnimationFrame(() => {
+      root.classList.add('is-open');
+      const panel = $('.modal-panel', root);
+      if (panel) panel.focus();
+    });
+  }
+
+  function closeModal(silent) {
+    const root = $('#modal-root');
+    if (!root) return;
+    root.classList.remove('is-open');
+    root.innerHTML = '';
+    ui.modalOpen = false;
+    document.body.classList.remove('modal-open');
+    if (!silent && ui.lastFocus && typeof ui.lastFocus.focus === 'function') {
+      try { ui.lastFocus.focus(); } catch (err) { /* noop */ }
+    }
+  }
+
+  function openConfirm(title, body, action, confirmLabel = 'Confirmar', cancelLabel = 'Cancelar') {
+    openModal(`<div class="confirm-modal">
+      <span class="confirm-icon">${icon('info')}</span>
+      <h2>${esc(title)}</h2>
+      <p>${esc(body)}</p>
+      <div class="confirm-actions">
+        <button class="btn btn-secondary" data-action="close-modal">${esc(cancelLabel)}</button>
+        <button class="btn btn-danger" data-action="${action}">${esc(confirmLabel)}</button>
+      </div>
+    </div>`, { className: 'confirm-panel', label: title });
+  }
+
+  function openSettings() {
+    const lvl = levelInfo();
+    const ptVoices = Speech.ptVoices();
+    const allVoices = Speech.voices.slice().sort((a, b) => (a.lang || '').localeCompare(b.lang || ''));
+    const voiceOptions = allVoices.map(v => {
+      const isPt = /^pt([-_]|$)/i.test(v.lang);
+      return `<option value="${esc(v.voiceURI)}" ${state.settings.voiceURI === v.voiceURI ? 'selected' : ''}>${isPt ? '★ ' : ''}${esc(v.name)} (${esc(v.lang)})</option>`;
+    }).join('');
+    openModal(`<div class="settings-modal">
+      <div class="modal-heading"><span class="eyebrow">DEFINIÇÕES</span><h2>Um pouco à tua medida.</h2><p>这些设置只影响这台设备，随时可以改。</p></div>
+      <form id="settings-form">
+        <div class="field">
+          <label for="settings-name">Como te chamas? <span>怎么称呼你</span></label>
+          <input id="settings-name" name="name" type="text" maxlength="24" value="${esc(state.name)}" placeholder="O teu nome">
+        </div>
+        <div class="field">
+          <span class="field-label">Meta diária <span>每天的目标</span></span>
+          <div class="goal-picker">
+            ${[[20, '5 分钟', 'Leve'], [40, '10 分钟', 'Equilibrada'], [60, '15 分钟', 'Intensa']].map(([value, label, name]) => `<label class="goal-option ${Number(state.goal) === value ? 'is-active' : ''}">
+              <input type="radio" name="goal" value="${value}" ${Number(state.goal) === value ? 'checked' : ''}>
+              <strong>${label}</strong><span>${name} · ${value} XP</span>
+            </label>`).join('')}
+          </div>
+        </div>
+        <div class="field-row">
+          <label class="switch-row" for="settings-sound">
+            <span><strong>音效</strong><small>答对、答错和完成时的提示音</small></span>
+            <input id="settings-sound" name="sound" type="checkbox" ${state.settings.sound ? 'checked' : ''}>
+            <span class="switch" aria-hidden="true"></span>
+          </label>
+        </div>
+        <div class="field">
+          <label for="settings-voice">Voz <span>朗读声音</span></label>
+          <select id="settings-voice" name="voiceURI">
+            <option value="">自动选择（优先 pt-PT）</option>
+            ${voiceOptions}
+          </select>
+          ${ptVoices.length
+            ? `<p class="field-hint">${icon('check')} 检测到 ${ptVoices.length} 个葡语声音。优先选择标有 ★ 的 pt-PT 声音。</p>`
+            : `<p class="field-hint warn">${icon('info')} 未检测到葡语声音。可在系统「语言和区域」中安装 Português (Portugal) 语音包。学习内容不受影响。</p>`}
+          <button type="button" class="text-link" data-action="test-voice">${icon('volume')} Testar a voz</button>
+        </div>
+        <div class="field">
+          <label for="settings-rate">Velocidade da voz <span>朗读速度</span> <b id="rate-value">${Number(state.settings.rate).toFixed(1)}×</b></label>
+          <input id="settings-rate" name="rate" type="range" min="0.6" max="1.2" step="0.05" value="${state.settings.rate}">
+        </div>
+        <div class="settings-footer">
+          <button type="button" class="text-link danger" data-action="request-reset">Apagar progresso</button>
+          <div class="settings-actions">
+            <button type="button" class="btn btn-secondary" data-action="close-modal">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+      </form>
+      <p class="settings-version">Azulejo · português europeu · versão 1.0<br>${lvl.n > 1 ? `Nível ${lvl.n} · ${lvl.title} · ` : ''}${state.xp} XP</p>
+    </div>`, { className: 'settings-panel', label: 'Definições' });
+    const rate = $('#settings-rate');
+    if (rate) rate.addEventListener('input', () => {
+      const label = $('#rate-value');
+      if (label) label.textContent = Number(rate.value).toFixed(1) + '×';
+    });
+  }
+
+  function saveSettings(form) {
+    const data = new FormData(form);
+    const name = String(data.get('name') || '').trim().slice(0, 24);
+    const goal = Number(data.get('goal')) || 40;
+    state.name = name;
+    state.goal = goal;
+    state.settings.sound = data.get('sound') === 'on';
+    state.settings.voiceURI = String(data.get('voiceURI') || '');
+    state.settings.rate = Number(data.get('rate')) || 0.9;
+    saveState();
+    closeModal();
+    refreshChrome();
+    router();
+    showToast('Definições guardadas.', 'success');
+  }
+
+  function openOnboarding() {
+    const root = $('#modal-root');
+    root.innerHTML = `<div class="onboarding" role="dialog" aria-modal="true" aria-label="欢迎来到 Azulejo">
+      <div class="onboarding-art">
+        ${heroTiles()}
+        <div class="onboarding-brand"><span class="brand-tile">${icon('flower')}</span><span><b>azulejo</b><small>PORTUGUÊS EUROPEU</small></span></div>
+        <blockquote>“Cada palavra é uma janela.”<span>每一个词，都是一扇窗。</span></blockquote>
+        <div class="onboarding-tiles" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+      <div class="onboarding-form-wrap">
+        <div class="onboarding-form-inner">
+          <span class="eyebrow">BEM-VINDO / BEM-VINDA</span>
+          <h1>Olá! Vamos aprender português?</h1>
+          <p class="onboarding-lede">从 A1 到 C2，不只学语法。这里用情景视频、音频对话和五语词汇，教你在里斯本、波尔图、咖啡馆和会议上真正会听到、用得上的欧洲葡语。</p>
+          <form id="onboarding-form">
+            <div class="field">
+              <label for="onboarding-name">Como te chamas? <span>怎么称呼你（可留空）</span></label>
+              <input id="onboarding-name" name="name" type="text" maxlength="24" placeholder="O teu nome" autocomplete="off">
+            </div>
+            <div class="field">
+              <span class="field-label">Quanto tempo por dia? <span>每天想学多久？</span></span>
+              <div class="goal-picker onboarding-goals">
+                <label class="goal-option"><input type="radio" name="goal" value="20"><strong>5 分钟</strong><span>Leve · 20 XP</span></label>
+                <label class="goal-option is-active"><input type="radio" name="goal" value="40" checked><strong>10 分钟</strong><span>Equilibrada · 40 XP</span></label>
+                <label class="goal-option"><input type="radio" name="goal" value="60"><strong>15 分钟</strong><span>Intensa · 60 XP</span></label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary wide">Começar a aprender ${icon('arrow-right')}</button>
+            <button type="button" class="onboarding-skip" data-action="skip-onboarding">Só quero explorar · 先看看</button>
+          </form>
+          <p class="onboarding-foot">${icon('info')} 进度只保存在本机浏览器，不需要注册。</p>
+        </div>
+      </div>
+    </div>`;
+    ui.modalOpen = true;
+    document.body.classList.add('onboarding-open');
+    setTimeout(() => {
+      const input = $('#onboarding-name');
+      if (input) input.focus();
+    }, 350);
+  }
+
+  function completeOnboarding(name, goal) {
+    state.onboarded = true;
+    state.name = String(name || '').trim().slice(0, 24);
+    state.goal = Number(goal) || 40;
+    saveState();
+    closeModal(true);
+    document.body.classList.remove('onboarding-open');
+    refreshChrome();
+    router();
+    showToast(state.name ? `Bem-vindo/a, ${state.name}!` : 'Bem-vindo/a ao português europeu!', 'success');
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Toast and confetti                                                  */
+  /* ------------------------------------------------------------------ */
+
+  let toastTimer = null;
+
+  function showToast(message, tone = 'default') {
+    const root = $('#toast-root');
+    if (!root) return;
+    root.innerHTML = `<div class="toast ${tone}">${icon(tone === 'success' ? 'check' : tone === 'warn' ? 'info' : 'sparkle')}<span>${esc(message)}</span></div>`;
+    root.classList.add('is-visible');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => root.classList.remove('is-visible'), 3200);
+  }
+
+  function launchConfetti() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const layer = $('#confetti');
+    if (!layer) return;
+    const colors = ['#1e5c73', '#c46745', '#e0a94e', '#7c8b63', '#8b5e6b', '#f7f0e3'];
+    layer.innerHTML = '';
+    for (let i = 0; i < 44; i++) {
+      const piece = document.createElement('i');
+      piece.style.left = `${Math.random() * 100}%`;
+      piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+      piece.style.animationDelay = `${Math.random() * 0.5}s`;
+      piece.style.animationDuration = `${2.2 + Math.random() * 1.8}s`;
+      piece.style.transform = `rotate(${Math.random() * 360}deg)`;
+      piece.style.width = `${5 + Math.random() * 7}px`;
+      piece.style.height = `${8 + Math.random() * 10}px`;
+      layer.appendChild(piece);
+    }
+    setTimeout(() => { layer.innerHTML = ''; }, 4800);
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Events                                                              */
+  /* ------------------------------------------------------------------ */
+
+  function handleAction(action, el) {
+    switch (action) {
+      case 'select-level':
+        ui.courseLevel = el.dataset.level;
+        renderHome();
+        requestAnimationFrame(() => {
+          const course = $('#course');
+          if (course) course.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        break;
+      case 'select-media-level':
+        ui.mediaLevel = el.dataset.level;
+        renderMediaPage();
+        break;
+      case 'open-media-level':
+        ui.mediaLevel = el.dataset.level;
+        go('#/media');
+        break;
+      case 'go-level':
+        ui.courseLevel = el.dataset.level;
+        go('#/learn');
+        setTimeout(() => {
+          const course = $('#course');
+          if (course) course.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 120);
+        break;
+      case 'close-media':
+        closeMedia();
+        break;
+      case 'media-toggle':
+        toggleMedia();
+        break;
+      case 'media-prev':
+        if (mediaPlay && !mediaPlay.finished) {
+          const wasPlaying = mediaPlay.playing;
+          mediaPlay.token += 1;
+          clearTimeout(mediaTimer);
+          Speech.stop();
+          mediaPlay.index = Math.max(0, mediaPlay.index - 1);
+          mediaPlay.playing = false;
+          renderMediaPlayer();
+          if (wasPlaying) playMediaCurrent();
+        }
+        break;
+      case 'media-next':
+        if (mediaPlay) {
+          if (mediaPlay.finished || mediaPlay.index >= mediaPlay.item.lines.length - 1) {
+            finishMedia();
+          } else {
+            const currentLine = mediaCurrentLine();
+            const wasPlaying = mediaPlay.playing || (mediaPlay.rolePlay && currentLine && currentLine.role === mediaPlay.userRole);
+            mediaPlay.token += 1;
+            clearTimeout(mediaTimer);
+            Speech.stop();
+            mediaPlay.index += 1;
+            mediaPlay.playing = false;
+            renderMediaPlayer();
+            if (wasPlaying) playMediaCurrent();
+          }
+        }
+        break;
+      case 'media-repeat':
+        if (mediaPlay && !mediaPlay.finished) {
+          const line = mediaCurrentLine();
+          mediaPlay.token += 1;
+          clearTimeout(mediaTimer);
+          Speech.stop();
+          mediaPlay.playing = false;
+          renderMediaPlayer();
+          Speech.speakMediaLine(line.pt, mediaCastIndex(line.who), mediaPlay.rate, null);
+        }
+        break;
+      case 'media-rate':
+        if (mediaPlay) {
+          const rates = [0.75, 0.9, 1.05];
+          const idx = rates.findIndex(r => Math.abs(r - mediaPlay.rate) < 0.01);
+          const wasPlaying = mediaPlay.playing;
+          mediaPlay.rate = rates[(idx + 1) % rates.length];
+          mediaPlay.token += 1;
+          clearTimeout(mediaTimer);
+          Speech.stop();
+          mediaPlay.playing = false;
+          renderMediaPlayer();
+          if (wasPlaying) playMediaCurrent();
+        }
+        break;
+      case 'media-captions':
+        mediaPlay.captions = !mediaPlay.captions;
+        renderMediaPlayer();
+        break;
+      case 'toggle-roleplay':
+        if (mediaPlay) {
+          mediaPlay.rolePlay = !mediaPlay.rolePlay;
+          if (mediaPlay.rolePlay) {
+            mediaPlay.captions = true;
+            pauseMedia();
+          } else renderMediaPlayer();
+        }
+        break;
+      case 'set-role':
+        if (mediaPlay) {
+          mediaPlay.userRole = el.dataset.role;
+          if (mediaPlay.index < mediaPlay.item.lines.length) renderMediaPlayer();
+        }
+        break;
+      case 'toggle-transcript':
+        mediaPlay.showTranscript = !mediaPlay.showTranscript;
+        renderMediaPlayer();
+        break;
+      case 'jump-media':
+        jumpMedia(Number(el.dataset.index));
+        break;
+      case 'answer-media':
+        answerMediaQuestion(Number(el.dataset.q), el.dataset.value);
+        break;
+      case 'media-restart':
+        restartMedia();
+        break;
+      case 'start-lesson':
+        go(`#/lesson/${el.dataset.id}`);
+        break;
+      case 'start-next': {
+        const next = nextLesson();
+        if (next) go(`#/lesson/${next.id}`);
+        else go('#/review');
+        break;
+      }
+      case 'scroll-course': {
+        const section = $('#course');
+        if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        break;
+      }
+      case 'open-settings':
+        openSettings();
+        break;
+      case 'toggle-sound':
+        state.settings.sound = !state.settings.sound;
+        saveState();
+        refreshChrome();
+        showToast(state.settings.sound ? '音效已打开。' : '音效已关闭。');
+        if (state.settings.sound) soundFX('correct');
+        break;
+      case 'select-option':
+        selectOption(Number(el.dataset.index));
+        break;
+      case 'check':
+        checkCurrent();
+        break;
+      case 'next-step':
+        nextLessonStep();
+        break;
+      case 'add-token':
+        addToken(Number(el.dataset.token));
+        break;
+      case 'remove-token':
+        removeToken(Number(el.dataset.token));
+        break;
+      case 'insert-char':
+        insertChar(el.dataset.char);
+        break;
+      case 'play-all':
+        if (ui.lesson) Speech.speakSequence(ui.lesson.lesson.vocab.map(w => w.pt), el);
+        break;
+      case 'match-left':
+        matchLeft(Number(el.dataset.id));
+        break;
+      case 'match-right':
+        matchRight(Number(el.dataset.id));
+        break;
+      case 'leave-lesson':
+        requestLeaveLesson();
+        break;
+      case 'next-lesson':
+        go(`#/lesson/${el.dataset.id}`);
+        break;
+      case 'go-home':
+        go('#/learn');
+        break;
+      case 'go-review':
+        go('#/review');
+        break;
+      case 'start-review':
+        go('#/review/session');
+        break;
+      case 'start-review-all':
+        go('#/review/session/all');
+        break;
+      case 'flip-card':
+        flipCard();
+        break;
+      case 'rate':
+        rateReview(el.dataset.rating);
+        break;
+      case 'close-review':
+        go('#/review');
+        break;
+      case 'select-language-tab':
+        ui.languageTab = el.dataset.tab;
+        renderPhrasesPage();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        break;
+      case 'filter-words':
+        ui.wordLevel = el.dataset.level;
+        renderWordGrid();
+        break;
+      case 'clear-word-filters':
+        ui.wordLevel = 'all';
+        ui.wordQuery = '';
+        renderPhrasesPage();
+        break;
+      case 'filter-phrases':
+        ui.phraseGroup = el.dataset.group;
+        updatePhraseChips();
+        renderPhraseGrid();
+        break;
+      case 'toggle-fav-filter':
+        ui.favOnly = !ui.favOnly;
+        updatePhraseChips();
+        renderPhraseGrid();
+        break;
+      case 'fav-phrase':
+        toggleFavorite(el.dataset.id);
+        break;
+      case 'clear-phrase-filters':
+        ui.phraseGroup = 'all';
+        ui.phraseQuery = '';
+        ui.favOnly = false;
+        renderPhrasesPage();
+        break;
+      case 'open-article':
+        openArticle(el.dataset.id);
+        break;
+      case 'mark-article':
+        markArticleRead(el.dataset.id);
+        break;
+      case 'close-modal':
+        closeModal();
+        break;
+      case 'request-reset':
+        openConfirm('Apagar todo o progresso?', 'XP、连续学习、课程记录和复习词汇都会被删除。这个操作无法撤销。', 'reset-all', 'Apagar tudo', 'Manter');
+        break;
+      case 'reset-all':
+        try { localStorage.removeItem(STORAGE_KEY); } catch (err) { /* noop */ }
+        location.hash = '#/learn';
+        location.reload();
+        break;
+      case 'confirm-leave-lesson':
+        go('#/learn');
+        break;
+      case 'test-voice':
+        Speech.speak('Olá! Bem-vindo ao português europeu. Esta é a tua voz.', false, el);
+        break;
+      case 'skip-onboarding':
+        completeOnboarding('', 40);
+        break;
+      default:
+        break;
+    }
+  }
+
+  function bindEvents() {
+    document.addEventListener('click', event => {
+      const audioEl = event.target.closest('[data-audio]');
+      if (audioEl) {
+        event.preventDefault();
+        event.stopPropagation();
+        Speech.speak(audioEl.dataset.audio, false, audioEl);
+        return;
+      }
+
+      const actionEl = event.target.closest('[data-action]');
+      if (actionEl) {
+        const action = actionEl.dataset.action;
+        if (action === 'leave-lesson') {
+          requestLeaveLesson();
+          return;
+        }
+        if (action === 'reset-all') {
+          try { localStorage.removeItem(STORAGE_KEY); } catch (err) { /* noop */ }
+          location.hash = '#/learn';
+          location.reload();
+          return;
+        }
+        handleAction(action, actionEl);
+      }
+    });
+
+    document.addEventListener('input', event => {
+      if (event.target.id === 'phrase-search') {
+        ui.phraseQuery = event.target.value;
+        renderPhraseGrid();
+        return;
+      }
+      if (event.target.id === 'word-search') {
+        ui.wordQuery = event.target.value;
+        renderWordGrid();
+        return;
+      }
+      if (event.target.id === 'type-answer' && ui.lesson && ui.lesson.stepState) {
+        ui.lesson.stepState.input = event.target.value;
+        refreshLessonFooter();
+        return;
+      }
+      if (event.target.name === 'goal' && event.target.closest('.goal-picker')) {
+        const picker = event.target.closest('.goal-picker');
+        $$('.goal-option', picker).forEach(opt => opt.classList.toggle('is-active', $('input', opt)?.checked));
+      }
+    });
+
+    document.addEventListener('submit', event => {
+      if (event.target.id === 'settings-form') {
+        event.preventDefault();
+        saveSettings(event.target);
+        return;
+      }
+      if (event.target.id === 'onboarding-form') {
+        event.preventDefault();
+        const form = event.target;
+        const name = $('#onboarding-name')?.value || '';
+        const goal = Number(new FormData(form).get('goal')) || 40;
+        completeOnboarding(name, goal);
+      }
+    });
+
+    document.addEventListener('keydown', event => {
+      if (ui.modalOpen) {
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          if (document.body.classList.contains('onboarding-open')) return;
+          closeModal();
+          return;
+        }
+        if (event.key === 'Tab') trapFocus(event);
+        return;
+      }
+
+      if (document.body.classList.contains('focus-mode') && mediaPlay) {
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          closeMedia();
+          return;
+        }
+        if (event.key === ' ' || event.key === 'Spacebar') {
+          event.preventDefault();
+          toggleMedia();
+          return;
+        }
+        if (event.key === 'ArrowRight') {
+          event.preventDefault();
+          if (!mediaPlay.finished) jumpMedia(mediaPlay.index + 1);
+          return;
+        }
+        if (event.key === 'ArrowLeft') {
+          event.preventDefault();
+          jumpMedia(mediaPlay.index - 1);
+          return;
+        }
+        return;
+      }
+
+      if (document.body.classList.contains('focus-mode') && ui.lesson && !ui.lesson.done) {
+        const tag = (document.activeElement?.tagName || '').toLowerCase();
+        const step = currentLessonStep();
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          requestLeaveLesson();
+          return;
+        }
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          if (ui.lesson.answered) nextLessonStep();
+          else if (canCheck()) checkCurrent();
+          return;
+        }
+        if (!ui.lesson.answered && tag !== 'input' && step && step.kind === 'exercise' && ['choice', 'listen'].includes(step.ex.type)) {
+          const n = Number(event.key);
+          if (n >= 1 && n <= 4) selectOption(n - 1);
+        }
+        return;
+      }
+
+      if (document.body.classList.contains('focus-mode') && ui.review && !ui.review.done && !ui.review.empty) {
+        if (event.key === ' ' || event.key === 'Spacebar') {
+          event.preventDefault();
+          flipCard();
+          return;
+        }
+        if (ui.review.flipped) {
+          const map = { '1': 'again', '2': 'hard', '3': 'good', '4': 'easy' };
+          if (map[event.key]) rateReview(map[event.key]);
+        }
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          go('#/review');
+        }
+        return;
+      }
+
+      const focused = document.activeElement;
+      if (focused && focused.matches('[data-action="open-article"]') && (event.key === 'Enter' || event.key === ' ')) {
+        event.preventDefault();
+        openArticle(focused.dataset.id);
+        return;
+      }
+
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k' && ui.route === 'phrases') {
+        event.preventDefault();
+        const search = ui.languageTab === 'words' ? $('#word-search') : $('#phrase-search');
+        if (search) search.focus();
+      }
+    });
+
+    window.addEventListener('hashchange', router);
+  }
+
+  function trapFocus(event) {
+    const panel = $('.modal-panel') || $('.onboarding');
+    if (!panel) return;
+    const focusable = $$('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])', panel)
+      .filter(el => el.offsetParent !== null);
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Boot                                                                */
+  /* ------------------------------------------------------------------ */
+
+  function boot() {
+    Speech.init();
+    const next = nextLesson();
+    ui.courseLevel = next ? next.unit.level : 'A1';
+    const nextMedia = DATA.media.find(item => !state.media[item.id]);
+    ui.mediaLevel = nextMedia ? nextMedia.level : 'A1';
+    if (!location.hash) {
+      try { history.replaceState(null, '', '#/learn'); } catch (err) { location.hash = '#/learn'; }
+    }
+    bindEvents();
+    router();
+    if (!state.onboarded) {
+      setTimeout(openOnboarding, 300);
+    }
+    if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+      navigator.serviceWorker.register('./sw.js').catch(() => {});
+    }
+  }
+
+  boot();
+})();

@@ -1,0 +1,16 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+
+# Local QA artifacts
+_shots/
+_chrome/
+_chrome-qa/
+node_modules/
+.vscode/
+.idea/
+
+# Screenshots are intentionally tracked.
+!screenshots/

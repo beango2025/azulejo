@@ -1,0 +1,304 @@
+/* Browser QA for Azulejo A1–C2 · video/audio · five-language lexicon. */
+import { spawn } from 'node:child_process';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const CHROME = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const BASE = 'http://127.0.0.1:8788';
+const OUT = path.resolve('_shots');
+const PORT = 9334;
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+fs.mkdirSync(OUT, { recursive: true });
+const profile = path.join(OUT, `_profile-${Date.now()}`);
+
+const chrome = spawn(CHROME, [
+  '--headless=new', '--no-sandbox', '--disable-gpu', '--hide-scrollbars', '--disable-extensions',
+  '--no-first-run', '--no-default-browser-check', '--disable-background-networking', '--disable-sync',
+  `--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`, '--window-size=1440,1000', 'about:blank'
+], { stdio: 'ignore' });
+
+async function waitForDevtools() {
+  for (let i = 0; i < 80; i++) {
+    try {
+      const res = await fetch(`http://127.0.0.1:${PORT}/json/version`);
+      if (res.ok) return;
+    } catch (err) { /* not ready */ }
+    await sleep(150);
+  }
+  throw new Error('Chrome DevTools did not start');
+}
+
+await waitForDevtools();
+const targetRes = await fetch(`http://127.0.0.1:${PORT}/json/new?${encodeURIComponent(BASE + '/#/learn')}`, { method: 'PUT' });
+const target = await targetRes.json();
+const ws = new WebSocket(target.webSocketDebuggerUrl);
+await new Promise((resolve, reject) => {
+  ws.addEventListener('open', resolve, { once: true });
+  ws.addEventListener('error', reject, { once: true });
+});
+
+let nextId = 1;
+const pending = new Map();
+const errors = [];
+const consoleMessages = [];
+
+ws.addEventListener('message', event => {
+  const msg = JSON.parse(event.data);
+  if (msg.id) {
+    const p = pending.get(msg.id);
+    if (!p) return;
+    pending.delete(msg.id);
+    if (msg.error) p.reject(new Error(JSON.stringify(msg.error)));
+    else p.resolve(msg.result);
+    return;
+  }
+  if (msg.method === 'Runtime.exceptionThrown') {
+    errors.push(msg.params.exceptionDetails?.text + ' ' + (msg.params.exceptionDetails?.exception?.description || ''));
+  }
+  if (msg.method === 'Log.entryAdded' && msg.params.entry.level === 'error') {
+    errors.push(`${msg.params.entry.source}: ${msg.params.entry.text}`);
+  }
+  if (msg.method === 'Runtime.consoleAPICalled') {
+    const text = msg.params.args.map(a => a.value ?? a.description ?? '').join(' ');
+    consoleMessages.push(`${msg.params.type}: ${text}`);
+    if (msg.params.type === 'error') errors.push(text);
+  }
+});
+
+function cmd(method, params = {}) {
+  const id = nextId++;
+  return new Promise((resolve, reject) => {
+    pending.set(id, { resolve, reject });
+    ws.send(JSON.stringify({ id, method, params }));
+  });
+}
+
+async function evaluate(expression) {
+  const result = await cmd('Runtime.evaluate', { expression, awaitPromise: true, returnByValue: true, userGesture: true });
+  if (result.exceptionDetails) throw new Error(result.exceptionDetails.text + ' ' + (result.exceptionDetails.exception?.description || ''));
+  return result.result.value;
+}
+
+async function shot(name, selector) {
+  if (selector) {
+    await evaluate(`(() => {
+      const el = document.querySelector(${JSON.stringify(selector)});
+      if (!el) return false;
+      const y = el.getBoundingClientRect().top + window.scrollY - 78;
+      window.scrollTo(0, Math.max(0, y));
+      return true;
+    })()`);
+  } else {
+    await evaluate('window.scrollTo(0,0)');
+  }
+  await sleep(380);
+  const result = await cmd('Page.captureScreenshot', { format: 'png', captureBeyondViewport: false });
+  fs.writeFileSync(path.join(OUT, name + '.png'), Buffer.from(result.data, 'base64'));
+  const info = await evaluate(`({ w: innerWidth, h: innerHeight, sw: document.documentElement.scrollWidth, sh: document.documentElement.scrollHeight, cls: document.body.className, title: document.title })`);
+  console.log(`SHOT ${name}  ${info.w}x${info.h}  sw=${info.sw}  sh=${info.sh}  ${info.cls}  ${info.title}`);
+  return info;
+}
+
+async function click(selector) {
+  const ok = await evaluate(`(() => { const el = document.querySelector(${JSON.stringify(selector)}); if (!el) return false; el.click(); return true; })()`);
+  if (!ok) throw new Error('Missing click target: ' + selector);
+  await sleep(320);
+}
+
+async function clickByText(selector, text) {
+  const ok = await evaluate(`(() => {
+    const nodes = [...document.querySelectorAll(${JSON.stringify(selector)})];
+    const el = nodes.find(n => (n.textContent || '').replace(/\\s+/g, ' ').trim().includes(${JSON.stringify(text)}));
+    if (!el) return false;
+    el.click();
+    return true;
+  })()`);
+  if (!ok) throw new Error(`No ${selector} containing ${text}`);
+  await sleep(300);
+}
+
+async function goto(hash) {
+  await evaluate(`location.hash = ${JSON.stringify(hash)}`);
+  await sleep(750);
+}
+
+async function seedDemo() {
+  const script = `(() => {
+    const key = (d) => { const x = new Date(d); return x.getFullYear() + '-' + String(x.getMonth()+1).padStart(2,'0') + '-' + String(x.getDate()).padStart(2,'0'); };
+    const now = new Date();
+    const days = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); days.push(d); }
+    const words = {};
+    const ids = ['ola','bomdia','chamome','prazer','atelogo','sou','portugues','vivo','tudobem','desculpe','cafe','queria'];
+    ids.forEach((id, i) => { const d = new Date(now.getTime() - 1000*60*60*(i+1)); words[id] = { due: d.toISOString(), interval: 1, ease: 2.5, reps: 1, learnedAt: d.toISOString() }; });
+    const lessons = {
+      u1l1: { completedAt: new Date(now.getTime()-86400000*5).toISOString(), best: 100, attempts: 1 },
+      u1l2: { completedAt: new Date(now.getTime()-86400000*4).toISOString(), best: 90, attempts: 1 }
+    };
+    const activity = {}; [80,0,45,25,40,55,30].forEach((v,i)=>{ if(v) activity[key(days[i])]=v; });
+    const demo = {
+      version:1, onboarded:true, name:'小林', goal:40, xp:190,
+      lessons, words, media:{ 'm-a1-video': { completedAt:new Date(now.getTime()-86400000*2).toISOString(), best:67 } },
+      activity, streak:5, lastActive:key(now), favorites:['p9','p12','p36'], readArticles:['a1'],
+      settings:{ sound:true, rate:0.9, slowRate:0.6, voiceURI:'' }
+    };
+    localStorage.setItem('azulejo.state.v1', JSON.stringify(demo));
+    location.reload();
+  })()`;
+  await evaluate(script);
+  await sleep(1300);
+}
+
+try {
+  await cmd('Page.enable');
+  await cmd('Runtime.enable');
+  await cmd('Log.enable');
+  await cmd('Emulation.setDeviceMetricsOverride', { width: 1440, height: 1000, deviceScaleFactor: 1, mobile: false });
+  await cmd('Page.navigate', { url: BASE + '/#/learn' });
+  await sleep(1700);
+
+  console.log('ONBOARDING', await evaluate('!!document.querySelector(".onboarding")'));
+  await shot('01-onboarding');
+  await evaluate(`(() => { const i=document.querySelector('#onboarding-name'); if(i) i.value='小林'; const f=document.querySelector('#onboarding-form'); if(f) f.requestSubmit(); })()`);
+  await sleep(900);
+  await shot('02-home-new');
+
+  await seedDemo();
+  await shot('03-home');
+  console.log('HERO', await evaluate(`({ title: document.querySelector('.hero-card h1')?.textContent, id: document.querySelector('.hero-actions [data-action="start-lesson"]')?.dataset.id })`));
+  console.log('A1_COUNTS', await evaluate(`({ tab: document.querySelector('.level-tab.is-active .level-tab-top span')?.textContent, practice: document.querySelectorAll('.practice-tile').length, units: document.querySelectorAll('.unit-card').length })`));
+  await shot('04-levels', '#course');
+
+  await click('[data-action="select-level"][data-level="B1"]');
+  await sleep(500);
+  console.log('B1_HERO', await evaluate(`({ title: document.querySelector('.hero-card h1')?.textContent, id: document.querySelector('.hero-actions [data-action="start-lesson"]')?.dataset.id, level: document.querySelector('.level-tab.is-active b')?.textContent, practice: document.querySelectorAll('.practice-tile').length, units: document.querySelectorAll('.unit-card').length })`));
+  await shot('05-level-b1', '#course');
+  await shot('05b-level-b1-practice', '.practice-section');
+  await shot('06-level-b1-media', '.level-media-row');
+  await click('[data-action="select-level"][data-level="A1"]');
+
+  await goto('#/media');
+  await shot('07-media-page');
+  await shot('08-media-page-levels', '.media-level-tabs');
+
+  await click('[href="#/media/m-a1-video"]');
+  await sleep(600);
+  await shot('09-video-player');
+  await click('[data-action="media-toggle"]');
+  await sleep(2400);
+  await shot('10-video-playing');
+  for (let i = 0; i < 6; i++) {
+    const finished = await evaluate('!!document.querySelector(".media-quiz")');
+    if (finished) break;
+    await click('[data-action="media-next"]');
+    await sleep(280);
+  }
+  await sleep(500);
+  await shot('11-video-finished');
+  await evaluate(`(() => { const c=document.querySelector('.media-player-scroll'); const q=document.querySelector('.media-quiz'); if(c&&q) c.scrollTop = q.offsetTop - 20; })()`);
+  await sleep(300);
+  await shot('11b-video-quiz');
+  console.log('QUIZ_CARDS', await evaluate(`document.querySelectorAll('.quiz-card').length`));
+  for (let i = 0; i < 3; i++) {
+    await evaluate(`(() => { const card = document.querySelectorAll('.quiz-card')[${i}]; if(card) card.querySelector('.quiz-option').click(); })()`);
+    await sleep(350);
+  }
+  await evaluate(`(() => { const c=document.querySelector('.media-player-scroll'); const q=document.querySelector('.media-quiz'); if(c&&q) c.scrollTop = q.offsetTop - 20; })()`);
+  await sleep(300);
+  await shot('12-video-quiz');
+  console.log('MEDIA_STATE', await evaluate(`JSON.parse(localStorage.getItem('azulejo.state.v1')).media`));
+
+  await click('[data-action="close-media"]');
+  await sleep(500);
+  await click('[href="#/media/m-a1-audio"]');
+  await sleep(500);
+  await shot('13-audio-player');
+  const transBtn = await evaluate('!!document.querySelector("[data-action=\\"toggle-transcript\\"]")');
+  if (transBtn) await click('[data-action="toggle-transcript"]');
+  await shot('14-audio-transcript');
+  if (await evaluate('!!document.querySelector("[data-action=\\"toggle-roleplay\\"]")')) {
+    await click('[data-action="toggle-roleplay"]');
+    await sleep(400);
+    await shot('15-audio-roleplay');
+  }
+
+  await goto('#/phrases');
+  await shot('16-phrases');
+  await click('[data-action="select-language-tab"][data-tab="words"]');
+  await sleep(600);
+  await shot('17-lexicon');
+  await evaluate(`(() => { const i=document.querySelector('#word-search'); i.value='heteronym'; i.dispatchEvent(new Event('input',{bubbles:true})); })()`);
+  await sleep(350);
+  console.log('SEARCH_HETERONYM_ROWS', await evaluate(`document.querySelectorAll('.lex-row').length`));
+  await evaluate(`(() => { const i=document.querySelector('#word-search'); i.value=''; i.dispatchEvent(new Event('input',{bubbles:true})); })()`);
+  await sleep(250);
+  await click('[data-action="filter-words"][data-level="C2"]');
+  await sleep(400);
+  await shot('18-lexicon-c2');
+  await click('[data-action="filter-words"][data-level="all"]');
+
+  await goto('#/lesson/b1l1');
+  await sleep(600);
+  await shot('19-b1-lesson');
+  await click('[data-action="next-step"]');
+  await shot('20-b1-grammar');
+
+  await goto('#/lesson/c2l3');
+  await sleep(600);
+  await shot('20b-c2-lesson');
+  await click('[data-action="next-step"]');
+  await shot('20c-c2-grammar');
+
+  await goto('#/media/m-c2-audio');
+  await sleep(700);
+  await shot('20d-c2-audio');
+
+  await goto('#/lesson/a1lab01');
+  await sleep(600);
+  await shot('20e-practice-lab');
+  await click('[data-action="next-step"]');
+  await sleep(400);
+  await shot('20f-practice-exercise');
+  console.log('LAB_TITLE', await evaluate(`document.querySelector('.lesson-body h1')?.textContent`));
+
+  await goto('#/progress');
+  await shot('21-progress');
+  await shot('22-progress-levels', '.level-progress-panel');
+
+  await cmd('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
+  await cmd('Page.navigate', { url: BASE + '/#/learn' });
+  await sleep(1100);
+  await shot('23-mobile-home');
+  await shot('24-mobile-levels', '#course');
+
+  await goto('#/media');
+  await shot('25-mobile-media');
+  await goto('#/media/m-a1-video');
+  await sleep(900);
+  await shot('26-mobile-video');
+
+  await goto('#/phrases');
+  await click('[data-action="select-language-tab"][data-tab="words"]');
+  await sleep(650);
+  await shot('27-mobile-lexicon');
+
+  await goto('#/progress');
+  await shot('28-mobile-progress');
+
+  await evaluate(`localStorage.removeItem('azulejo.state.v1'); location.hash='#/learn'; location.reload()`);
+  await sleep(1500);
+  await shot('29-mobile-onboarding');
+
+  const overflow = await evaluate('document.documentElement.scrollWidth > innerWidth + 1');
+  const swCount = await evaluate('navigator.serviceWorker.getRegistrations().then(r => r.length).catch(() => -1)');
+  console.log('HORIZONTAL_OVERFLOW_MOBILE', overflow);
+  console.log('SERVICE_WORKERS', swCount);
+  console.log('ERRORS', JSON.stringify(errors, null, 2));
+  console.log('CONSOLE_TAIL', JSON.stringify(consoleMessages.slice(-12), null, 2));
+} catch (err) {
+  console.error('QA FAILED', err);
+  console.log('ERRORS', JSON.stringify(errors, null, 2));
+  process.exitCode = 1;
+} finally {
+  try { ws.close(); } catch (err) { /* noop */ }
+  try { chrome.kill(); } catch (err) { /* noop */ }
+}

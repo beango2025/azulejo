@@ -1,0 +1,34 @@
+{
+  "name": "Azulejo — Português Europeu",
+  "short_name": "Azulejo",
+  "description": "从 A1 到 C2 的欧洲葡萄牙语学习应用：每级 30 节课，共 180 节；12 个情景视频与音频对话、210 个五语词汇、间隔复习与文化阅读。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4eee3",
+  "theme_color": "#123f53",
+  "categories": ["education", "language", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
