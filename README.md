@@ -84,6 +84,16 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 在「语料 → 词汇」中可以按语言搜索，例如输入 `heteronym`、`inquiétude`、`异名者`，都会定位到同一个词。
 
+## 版本号与更新提示
+
+当前版本：**v1.4.0**。
+
+- 顶栏、侧栏底部和「设置」里都会显示当前版本号。
+- 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
+- 更新版本时需要同时修改：`js/app.js` 的 `APP_VERSION`、`sw.js` 的 `CACHE`、`manifest.webmanifest` 的 `version`，并在 [CHANGELOG.md](CHANGELOG.md) 记录。
+
+![版本更新提示](screenshots/version-update.png)
+
 ## 进度与数据
 
 所有进度保存在浏览器 `localStorage` 的 `azulejo.state.v1` 中，不上传服务器，也不需要账号。包括课程完成度、XP、连续学习、复习间隔、影音完成记录和收藏。
@@ -106,6 +116,7 @@ azulejo/
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
 ├─ assets/                 # 应用图标
 ├─ manifest.webmanifest    # PWA 清单
+├─ CHANGELOG.md            # 版本记录
 ├─ sw.js                   # 离线缓存
 ├─ server.js               # 零依赖静态服务器
 ├─ tools/qa.mjs            # Chrome CDP 自动化走查（开发用）

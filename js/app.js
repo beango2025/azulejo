@@ -9,6 +9,8 @@
   const LEXICON = window.AZ_LEXICON || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
+  const VERSION_KEY = 'azulejo.version.seen';
+  const APP_VERSION = '1.4.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -592,7 +594,8 @@
           <small>Nível ${lvl.n} · ${lvl.title}</small>
         </span>
         ${icon('settings', 'profile-cog')}
-      </button>`;
+      </button>
+        <p class="sidebar-version">Azulejo v${APP_VERSION} <span>PT-PT</span></p>`;
   }
 
   function renderTopbar() {
@@ -604,7 +607,7 @@
     top.innerHTML = `
       <div class="topbar-left">
         <p class="topbar-hello">${greeting()}${state.name ? `, ${esc(state.name)}` : ''}.</p>
-        <p class="topbar-date">${prettyDate()} <span class="topbar-sep">·</span> <span class="topbar-meta">Português europeu · A1–C2</span></p>
+        <p class="topbar-date">${prettyDate()} <span class="topbar-sep">·</span> <span class="topbar-meta">Português europeu · A1–C2</span> <span class="topbar-version">v${APP_VERSION}</span></p>
       </div>
       <div class="topbar-right">
         <a class="goal-pill ${done ? 'is-complete' : ''}" href="#/progress" aria-label="今日目标 ${xp} / ${goal} XP">
@@ -2916,7 +2919,7 @@
           </div>
         </div>
       </form>
-      <p class="settings-version">Azulejo · português europeu · versão 1.0<br>${lvl.n > 1 ? `Nível ${lvl.n} · ${lvl.title} · ` : ''}${state.xp} XP</p>
+      <p class="settings-version">Azulejo · português europeu · versão ${APP_VERSION}<br>${lvl.n > 1 ? `Nível ${lvl.n} · ${lvl.title} · ` : ''}${state.xp} XP</p>
     </div>`, { className: 'settings-panel', label: 'Definições' });
     const rate = $('#settings-rate');
     if (rate) rate.addEventListener('input', () => {
@@ -2983,11 +2986,29 @@
     }, 350);
   }
 
+  function markVersionSeen() {
+    try { localStorage.setItem(VERSION_KEY, APP_VERSION); } catch (err) { /* storage may be unavailable */ }
+  }
+
+  function maybeShowVersionNotice() {
+    let seen = null;
+    try { seen = localStorage.getItem(VERSION_KEY); } catch (err) { /* storage may be unavailable */ }
+    if (!seen) {
+      markVersionSeen();
+      if (state.onboarded) setTimeout(() => showToast(`Azulejo v${APP_VERSION} · versão atual`, 'success'), 900);
+      return;
+    }
+    if (seen === APP_VERSION) return;
+    markVersionSeen();
+    setTimeout(() => showToast(`Azulejo atualizado para v${APP_VERSION}`, 'success'), 900);
+  }
+
   function completeOnboarding(name, goal) {
     state.onboarded = true;
     state.name = String(name || '').trim().slice(0, 24);
     state.goal = Number(goal) || 40;
     saveState();
+    markVersionSeen();
     closeModal(true);
     document.body.classList.remove('onboarding-open');
     refreshChrome();
@@ -3472,6 +3493,7 @@
 
   function boot() {
     Speech.init();
+    document.body.dataset.version = APP_VERSION;
     const next = nextLesson();
     ui.courseLevel = next ? next.unit.level : 'A1';
     const nextMedia = DATA.media.find(item => !state.media[item.id]);
@@ -3483,6 +3505,8 @@
     router();
     if (!state.onboarded) {
       setTimeout(openOnboarding, 300);
+    } else {
+      maybeShowVersionNotice();
     }
     if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
       navigator.serviceWorker.register('./sw.js').catch(() => {});
