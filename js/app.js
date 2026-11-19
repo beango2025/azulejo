@@ -11,7 +11,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '1.5.0';
+  const APP_VERSION = '1.6.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -1078,6 +1078,12 @@
   function lessonSteps(lesson) {
     const steps = [{ kind: 'vocab', words: lesson.vocab }];
     if (lesson.grammar) steps.push({ kind: 'grammar', grammar: lesson.grammar });
+    if (window.AZ_BUILD_IMMERSION) {
+      steps.push({
+        kind: 'immersion',
+        pack: window.AZ_BUILD_IMMERSION({ lesson, units: DATA.units, media: DATA.media })
+      });
+    }
     lesson.exercises.forEach(ex => steps.push({ kind: 'exercise', ex }));
     return steps;
   }
@@ -1096,7 +1102,8 @@
       accentWarning: false,
       feedback: '',
       done: false,
-      stepState: null
+      stepState: null,
+      immState: { answers: {}, speaking: null }
     };
     setupLessonStep();
     renderLesson();
@@ -1109,6 +1116,9 @@
     lesson.wasCorrect = false;
     lesson.accentWarning = false;
     lesson.feedback = '';
+    if (step && step.kind === 'immersion') {
+      lesson.immState = { answers: {}, speaking: null };
+    }
     let stepState = null;
     if (step && step.kind === 'exercise') {
       const ex = step.ex;
@@ -1176,7 +1186,7 @@
         </header>
         <div class="lesson-scroll" id="lesson-scroll">
           <div class="lesson-body" id="lesson-body">
-            ${current.kind === 'vocab' ? vocabStepHTML(current.words) : current.kind === 'grammar' ? grammarStepHTML(current.grammar) : exerciseHTML(current.ex)}
+            ${current.kind === 'vocab' ? vocabStepHTML(current.words) : current.kind === 'grammar' ? grammarStepHTML(current.grammar) : current.kind === 'immersion' ? immersionStepHTML(current.pack) : exerciseHTML(current.ex)}
           </div>
         </div>
         ${foot}
@@ -1186,6 +1196,170 @@
     if (body) {
       body.classList.add('step-enter');
       setTimeout(() => body.classList.remove('step-enter'), 320);
+    }
+  }
+
+  function immersionQuestionHTML(question, state) {
+    const chosen = state.answers[question.key];
+    const options = question.options.map(option => {
+      let cls = '';
+      if (chosen) {
+        if (option === question.answer) cls = 'is-correct';
+        else if (option === chosen.value) cls = 'is-wrong';
+      }
+      return `<button class="immersion-option ${cls}" data-action="immersion-answer" data-key="${question.key}" data-value="${esc(option)}" ${chosen ? 'disabled' : ''}>${esc(option)}</button>`;
+    }).join('');
+    const feedback = chosen
+      ? `<p class="immersion-feedback ${chosen.correct ? 'is-ok' : 'is-bad'}">${chosen.correct ? 'Boa!' : `A resposta certa é «${esc(question.answer)}».`} ${esc(question.explain)}</p>`
+      : '';
+    return `<div class="immersion-question">
+      <p class="immersion-q">${esc(question.q)}</p>
+      <div class="immersion-options">${options}</div>
+      ${feedback}
+    </div>`;
+  }
+
+  function immersionStepHTML(pack) {
+    const state = ui.lesson.immState || { answers: {}, speaking: null };
+    const speaking = state.speaking;
+    const media = pack.media;
+    const speakingResult = !speaking
+      ? '<p class="immersion-speaking-hint">Ouve primeiro. Depois repete a frase em voz alta.</p>'
+      : speaking.listening
+        ? '<p class="immersion-speaking-result is-listening">A ouvir… fala agora.</p>'
+        : speaking.error
+          ? `<p class="immersion-speaking-result is-bad">Não consegui ouvir. ${esc(speaking.error === 'not-allowed' ? 'Permite o microfone no navegador.' : 'Tenta outra vez.')}</p>`
+          : speaking.manual
+            ? '<p class="immersion-speaking-result is-ok">Boa. Continua a praticar em voz alta.</p>'
+            : `<p class="immersion-speaking-result ${speaking.score >= 70 ? 'is-ok' : 'is-bad'}">${speaking.score >= 70 ? 'Boa pronúncia!' : 'Quase.'} ${speaking.score}% · ouvi: «${esc(speaking.heard)}»</p>`;
+
+    return `<section class="step step-immersion">
+      <div class="step-head">
+        <div>
+          <span class="eyebrow">LEITURA & ESCUTA · ${esc(pack.level)}</span>
+          <h1>Lê, ouve, fala.</h1>
+          <p>Um texto curto desta cena e um diálogo do nível. Lê, ouve outra vez e repete uma fala.</p>
+          <div class="immersion-meta"><span>${esc(pack.level)}</span><span>${esc(pack.grammarTitle)}</span><span>${pack.lines.length} palavras-alvo</span></div>
+        </div>
+        <span class="step-count">${pad(ui.lesson.index + 1)}<small>/ ${pad(ui.lesson.steps.length)}</small></span>
+      </div>
+
+      <div class="immersion-layout">
+        <article class="immersion-reading">
+          <div class="immersion-panel-top">
+            <div><span class="eyebrow light">LEITURA</span><h2>${esc(pack.scene)}</h2></div>
+            <button class="audio-btn small" data-action="immersion-play" data-kind="reading" aria-label="Ouvir o texto completo">${icon('volume')}</button>
+          </div>
+          <p class="immersion-intro">${esc(pack.intro)}</p>
+          <div class="immersion-dialogue">
+            ${pack.lines.map((line, i) => `<div class="immersion-line">
+              <span class="immersion-speaker">${esc(line.speaker)}</span>
+              <div class="immersion-line-copy">
+                <p>${esc(line.pt)}</p>
+                <small>${esc(line.zh)}</small>
+              </div>
+              <button class="audio-mini" data-audio="${esc(line.pt)}" aria-label="Ouvir esta fala">${icon('volume')}</button>
+            </div>`).join('')}
+          </div>
+          <div class="immersion-questions">
+            ${pack.readingQuestions.map(q => immersionQuestionHTML(q, state)).join('')}
+          </div>
+        </article>
+
+        <aside class="immersion-side">
+          <section class="immersion-listen">
+            <div class="immersion-panel-top">
+              <div><span class="eyebrow light">ESCUTA · ${esc(pack.level)}</span><h3>${esc(pack.listeningTitle)}</h3></div>
+              <button class="audio-btn small" data-action="immersion-play" data-kind="listening" aria-label="Ouvir o diálogo">${icon('play')}</button>
+            </div>
+            <p class="immersion-hint">Ouve o diálogo do nível ${esc(pack.level)} e responde.</p>
+            ${media ? `<a class="immersion-media-link" href="#/media/${esc(media.id)}" target="_blank" rel="noopener noreferrer">${icon(media.type === 'video' ? 'video' : 'volume')} Abrir ${media.type === 'video' ? 'vídeo' : 'áudio'} completo · ${esc(media.title)} ${icon('arrow-right')}</a>` : ''}
+            ${pack.listeningQuestions.map(q => immersionQuestionHTML(q, state)).join('')}
+          </section>
+
+          <section class="immersion-speak">
+            <span class="eyebrow light">FALA</span>
+            <h3>Repete a fala de ${esc(pack.speakingLine.speaker || 'B')}.</h3>
+            <blockquote>${esc(pack.speakingLine.pt)}</blockquote>
+            <p class="immersion-speak-zh">${esc(pack.speakingLine.zh)}</p>
+            <div class="immersion-speak-actions">
+              <button class="audio-btn small" data-audio="${esc(pack.speakingLine.pt)}" aria-label="Ouvir a fala">${icon('volume')}</button>
+              <button class="btn btn-primary small" data-action="speak-immersion">${icon('mic')} Falar</button>
+              <button class="immersion-mark" data-action="mark-spoken">Já repeti</button>
+            </div>
+            <div aria-live="polite">${speakingResult}</div>
+          </section>
+
+        </aside>
+      </div>
+    </section>`;
+  }
+
+  function refreshImmersion() {
+    const step = currentLessonStep();
+    const body = $('#lesson-body');
+    if (!body || !step || step.kind !== 'immersion') return;
+    body.innerHTML = immersionStepHTML(step.pack);
+  }
+
+  function answerImmersion(key, value) {
+    const step = currentLessonStep();
+    if (!step || step.kind !== 'immersion') return;
+    const question = [...step.pack.readingQuestions, ...step.pack.listeningQuestions].find(item => item.key === key);
+    if (!question || ui.lesson.immState.answers[key]) return;
+    ui.lesson.immState.answers[key] = { value, correct: value === question.answer };
+    refreshImmersion();
+  }
+
+  function markSpoken() {
+    if (!ui.lesson) return;
+    ui.lesson.immState.speaking = { manual: true };
+    refreshImmersion();
+  }
+
+  function startShadowing() {
+    const step = currentLessonStep();
+    if (!step || step.kind !== 'immersion') return;
+    const target = step.pack.speakingLine.pt;
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!Recognition) {
+      showToast('Este navegador não tem reconhecimento de fala. Ouve e repete em voz alta.', 'warn');
+      return;
+    }
+    const recognition = new Recognition();
+    recognition.lang = 'pt-PT';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    recognition.onstart = () => {
+      ui.lesson.immState.speaking = { listening: true };
+      refreshImmersion();
+    };
+    recognition.onerror = event => {
+      ui.lesson.immState.speaking = { error: event.error || 'audio' };
+      refreshImmersion();
+    };
+    recognition.onresult = event => {
+      const heard = event.results[0][0].transcript || '';
+      const targetWords = normalizeAnswer(target).split(' ').filter(Boolean);
+      const heardWords = new Set(normalizeAnswer(heard).split(' ').filter(Boolean));
+      const matched = targetWords.filter(word => heardWords.has(word)).length;
+      const score = Math.round((matched / Math.max(1, targetWords.length)) * 100);
+      ui.lesson.immState.speaking = { heard, score };
+      refreshImmersion();
+    };
+    recognition.onend = () => {
+      const state = ui.lesson.immState.speaking;
+      if (state && state.listening) {
+        state.listening = false;
+        state.error = 'no-speech';
+        refreshImmersion();
+      }
+    };
+    try {
+      recognition.start();
+    } catch (err) {
+      ui.lesson.immState.speaking = { error: 'audio' };
+      refreshImmersion();
     }
   }
 
@@ -3211,6 +3385,23 @@
         break;
       case 'next-step':
         nextLessonStep();
+        break;
+      case 'immersion-answer':
+        answerImmersion(el.dataset.key, el.dataset.value);
+        break;
+      case 'immersion-play': {
+        const step = currentLessonStep();
+        if (step && step.kind === 'immersion') {
+          const lines = el.dataset.kind === 'listening' ? step.pack.listeningLines : step.pack.lines;
+          Speech.speakSequence(lines.map(line => line.pt), el);
+        }
+        break;
+      }
+      case 'speak-immersion':
+        startShadowing();
+        break;
+      case 'mark-spoken':
+        markSpoken();
         break;
       case 'add-token':
         addToken(Number(el.dataset.token));

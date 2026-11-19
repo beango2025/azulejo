@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','1.4.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','1.5.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -247,6 +247,14 @@ try {
   await shot('19-b1-lesson');
   await click('[data-action="next-step"]');
   await shot('20-b1-grammar');
+  await click('[data-action="next-step"]');
+  await sleep(450);
+  await shot('20a-b1-immersion');
+  console.log('IMMERSION_READING', await evaluate(`document.querySelectorAll('.immersion-line').length`));
+  console.log('IMMERSION_QUESTIONS', await evaluate(`document.querySelectorAll('.immersion-question').length`));
+  await click('.immersion-option');
+  await sleep(250);
+  await shot('20a2-immersion-answer');
 
   await goto('#/lesson/c2l3');
   await sleep(600);
@@ -262,8 +270,11 @@ try {
   await sleep(600);
   await shot('20e-practice-lab');
   await click('[data-action="next-step"]');
+  await sleep(450);
+  await shot('20f-practice-immersion');
+  await click('[data-action="next-step"]');
   await sleep(400);
-  await shot('20f-practice-exercise');
+  await shot('20g-practice-exercise');
   console.log('LAB_TITLE', await evaluate(`document.querySelector('.lesson-body h1')?.textContent`));
 
   await goto('#/culture');
@@ -294,6 +305,14 @@ try {
 
   await goto('#/progress');
   await shot('28-mobile-progress');
+
+  await goto('#/lesson/b1l1');
+  await sleep(600);
+  await click('[data-action="next-step"]');
+  await click('[data-action="next-step"]');
+  await sleep(500);
+  await shot('28b-mobile-immersion');
+  console.log('MOBILE_IMMERSION_OVERFLOW', await evaluate('document.documentElement.scrollWidth > innerWidth + 1'));
 
   await evaluate(`localStorage.removeItem('azulejo.state.v1'); location.hash='#/learn'; location.reload()`);
   await sleep(1500);

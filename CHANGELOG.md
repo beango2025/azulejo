@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.0 — 2026-11-19
+
+- Added a per-lesson `Leitura & escuta` step to all 180 lessons.
+- Each lesson gets a short scene text built from its own target sentences, a listening check, comprehension questions, and a shadowing/speaking line.
+- Listening and speaking now use a dialogue from the level-appropriate video/audio library, with the full media linked inside the lesson.
+- Added `js/immersion.js`; the listening questions come from the same dialogue used for the media lesson.
+- Bumped the service worker cache to `azulejo-v1.6.0`.
+
 ## 1.5.0 — 2026-11-19
 
 - Renamed every A1–C2 core lesson after a real-life scene.

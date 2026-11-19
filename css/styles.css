@@ -1447,6 +1447,71 @@ img, svg { display: block; }
 
 .voice-hint .icon { width: 13px; height: 13px; }
 
+/* Per-lesson reading, listening and speaking */
+
+.step-immersion { max-width: 1080px; margin: 0 auto; }
+.step-immersion .eyebrow.light { color: var(--terra); }
+.immersion-meta { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 9px; }
+.immersion-meta span { padding: 3px 7px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface-2); font-size: 7px; font-weight: 700; letter-spacing: .03em; color: var(--muted); }
+.immersion-layout { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr); gap: 14px; align-items: start; }
+.immersion-reading, .immersion-listen, .immersion-speak { border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+.immersion-reading { padding: 20px; }
+.immersion-panel-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.immersion-panel-top h2 { margin-top: 4px; font-family: var(--font-display); font-size: 28px; font-weight: 500; line-height: 1.08; letter-spacing: -.02em; }
+.immersion-panel-top h3 { margin-top: 3px; font-family: var(--font-display); font-size: 22px; font-weight: 600; line-height: 1.1; }
+.immersion-intro { margin-top: 10px; font-size: 11px; line-height: 1.65; color: var(--muted); }
+.immersion-dialogue { margin-top: 12px; border-top: 1px solid var(--line-soft); }
+.immersion-line { display: grid; grid-template-columns: 38px minmax(0, 1fr) 26px; align-items: start; gap: 8px; padding: 9px 0; border-bottom: 1px solid var(--line-soft); }
+.immersion-line:last-child { border-bottom: 0; }
+.immersion-speaker { display: inline-grid; place-items: center; width: 34px; height: 20px; border-radius: 99px; background: var(--blue-soft); color: var(--blue); font-size: 7px; font-weight: 800; letter-spacing: .04em; }
+.immersion-line:nth-child(even) .immersion-speaker { background: var(--terra-soft); color: var(--terra); }
+.immersion-line-copy p { font-size: 12.5px; line-height: 1.45; color: var(--ink); }
+.immersion-line-copy small { display: block; margin-top: 2px; font-size: 8px; line-height: 1.4; color: var(--muted-2); }
+.immersion-line .audio-mini { margin-top: 1px; }
+.immersion-questions { margin-top: 14px; padding-top: 13px; border-top: 1px solid var(--line); }
+.immersion-question { margin-top: 12px; }
+.immersion-question:first-child { margin-top: 0; }
+.immersion-q { font-size: 9.5px; font-weight: 750; line-height: 1.4; color: var(--ink-2); }
+.immersion-options { display: grid; gap: 4px; margin-top: 6px; }
+.immersion-option { padding: 7px 9px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-2); color: var(--ink-2); font-size: 9px; line-height: 1.35; text-align: left; transition: border-color .14s, background .14s; }
+.immersion-option:hover:not(:disabled) { border-color: var(--blue); background: var(--blue-soft); }
+.immersion-option:disabled { cursor: default; opacity: 1; }
+.immersion-option.is-correct { border-color: rgba(60,122,86,.4); background: var(--success-soft); color: var(--success); font-weight: 700; }
+.immersion-option.is-wrong { border-color: rgba(166,74,61,.35); background: var(--danger-soft); color: var(--danger); }
+.immersion-feedback { margin-top: 6px; font-size: 8.5px; line-height: 1.45; color: var(--muted); }
+.immersion-feedback.is-ok { color: var(--success); }
+.immersion-feedback.is-bad { color: var(--danger); }
+
+.immersion-side { display: grid; gap: 10px; }
+.immersion-listen, .immersion-speak { padding: 15px; }
+.immersion-hint { margin-top: 6px; font-size: 8.5px; line-height: 1.5; color: var(--muted); }
+.immersion-media-link { display: inline-flex; align-items: center; gap: 4px; margin-top: 7px; color: var(--terra); font-size: 7.5px; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.immersion-media-link .icon { width: 10px; height: 10px; }
+.immersion-listen .immersion-question { margin-top: 10px; }
+.immersion-listen .immersion-option { padding: 6px 8px; font-size: 8.5px; }
+.immersion-speak blockquote { margin-top: 9px; padding-left: 9px; border-left: 2px solid var(--terra); font-family: var(--font-display); font-size: 18px; font-style: italic; line-height: 1.25; color: var(--ink); }
+.immersion-speak-zh { margin-top: 4px; padding-left: 11px; font-size: 8px; color: var(--muted-2); }
+.immersion-speak-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.immersion-speak-actions .btn { padding: 7px 10px; font-size: 8px; }
+.immersion-mark { border: 0; background: none; color: var(--muted); font-size: 7.5px; text-decoration: underline; text-underline-offset: 2px; }
+.immersion-speaking-hint, .immersion-speaking-result { margin-top: 9px; font-size: 8px; line-height: 1.45; color: var(--muted-2); }
+.immersion-speaking-result.is-ok { color: var(--success); }
+.immersion-speaking-result.is-bad { color: var(--danger); }
+.immersion-speaking-result.is-listening { color: var(--blue); }
+@media (max-width: 900px) {
+  .immersion-layout { grid-template-columns: 1fr; }
+  .immersion-side { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 620px) {
+  .step-immersion .step-head { margin-bottom: 14px; }
+  .immersion-reading { padding: 15px; }
+  .immersion-panel-top h2 { font-size: 24px; }
+  .immersion-line { grid-template-columns: 34px minmax(0, 1fr) 24px; }
+  .immersion-line-copy p { font-size: 11.5px; }
+  .immersion-side { grid-template-columns: 1fr; }
+}
+
 .step-grammar .grammar-lead {
   max-width: 760px;
   font-size: 14.5px;
