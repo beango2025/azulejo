@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.1 — 2026-11-19
+
+- Listening speed is now a slider; changing it while playing restarts at the new speed instead of pausing silently.
+- Reading and listening illustrations now use real licensed photographs of Portugal (Wikimedia Commons), with credits.
+- Added visible desktop scrollbars and increased body/reading/question/card font sizes.
+- Bumped the service worker cache to `azulejo-v2.1.1`.
+
 ## 2.1.0 — 2026-11-19
 
 - Added 10 numbered listening tracks per level (`A1.1`–`A1.10` … `C2.1`–`C2.10`), using distinct scenes and the exam-length texts.

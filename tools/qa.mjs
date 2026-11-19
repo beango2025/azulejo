@@ -12,7 +12,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const profile = path.join(OUT, `_profile-${Date.now()}`);
 
 const chrome = spawn(CHROME, [
-  '--headless=new', '--no-sandbox', '--disable-gpu', '--hide-scrollbars', '--disable-extensions',
+  '--headless=new', '--no-sandbox', '--disable-gpu', '--disable-extensions',
   '--no-first-run', '--no-default-browser-check', '--disable-background-networking', '--disable-sync',
   `--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`, '--window-size=1440,1000', 'about:blank'
 ], { stdio: 'ignore' });
@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','2.0.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','2.1.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -190,9 +190,9 @@ try {
   await sleep(500);
   await shot('08b-listening-player');
   console.log('LISTENING_NUMBER', await evaluate(`document.querySelector('.listening-hero-copy .eyebrow')?.textContent`));
-  await click('[data-action="listening-rate"][data-rate="0.7"]');
-  await sleep(200);
-  console.log('LISTENING_RATE', await evaluate(`document.querySelector('[data-action="listening-rate"].is-on')?.textContent`));
+  await evaluate(`(() => { const s=document.querySelector('#listening-speed'); s.value='0.7'; s.dispatchEvent(new Event('input',{bubbles:true})); s.dispatchEvent(new Event('change',{bubbles:true})); })()`);
+  await sleep(250);
+  console.log('LISTENING_RATE', await evaluate(`document.querySelector('#listening-speed-value')?.textContent`));
   await goto('#/media');
   await goto('#/dubbing/m-a1-video');
   await shot('08c-dubbing');
@@ -264,7 +264,8 @@ try {
   await sleep(450);
   await shot('20a-b1-immersion');
   console.log('IMMERSION_PROSE', await evaluate(`document.querySelectorAll('.immersion-prose p').length`));
-  console.log('IMMERSION_IMAGES', await evaluate(`document.querySelectorAll('.immersion-figure .scene-art').length`));
+  console.log('IMMERSION_IMAGES', await evaluate(`document.querySelectorAll('.immersion-photo').length`));
+  console.log('IMMERSION_PHOTO_SRC', await evaluate(`document.querySelector('.immersion-photo')?.getAttribute('src')`));
   console.log('IMMERSION_WORDS', await evaluate(`document.querySelector('.immersion-meta span:nth-child(2)')?.textContent`));
   console.log('IMMERSION_QUESTIONS', await evaluate(`document.querySelectorAll('.immersion-question').length`));
   await click('.immersion-option');

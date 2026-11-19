@@ -1,5 +1,5 @@
 /* Azulejo service worker — offline-first after the first visit. */
-const CACHE = 'azulejo-v2.1.0';
+const CACHE = 'azulejo-v2.1.1';
 const CORE = [
   './',
   './index.html',
@@ -15,7 +15,16 @@ const CORE = [
   './js/resources.js',
   './js/app.js',
   './manifest.webmanifest',
-  './assets/icon.svg'
+  './assets/icon.svg',
+  './assets/photos/azulejo.jpg',
+  './assets/photos/bookshop.jpg',
+  './assets/photos/cafe.jpg',
+  './assets/photos/coimbra.jpg',
+  './assets/photos/fado.jpg',
+  './assets/photos/market.jpg',
+  './assets/photos/pharmacy.jpg',
+  './assets/photos/ribeira.jpg',
+  './assets/photos/tram.jpg'
 ];
 
 self.addEventListener('install', event => {

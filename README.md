@@ -54,9 +54,9 @@ PT-PT 外部资源入口：
 
 听力使用同一篇完整文本朗读，时长随级别约 1.5–6 分钟；语法点、词汇和题型按对应级别控制。级别对应参考葡萄牙 CAPLE 考试：CIPLE（A2）、DEPLE（B1）、DIPLE（B2）、DAPLE（C1）、DUPLE（C2）；A1 为进入 CIPLE 前的预备级别。官方信息：[caple.letras.ulisboa.pt](https://caple.letras.ulisboa.pt/)。
 - **独立阅读入口**：顶部「阅读」栏目按 A1–C2 列出全部 180 个阅读场景，点击卡片直接跳到该课的阅读步骤，不需要先过单词和语法。
-- **每级 10 篇听力**：编号独立为 `A1.1`–`A1.10`、`B1.1`–`B1.10`，共 60 篇；场景各不相同，支持 `0,7× / 0,85× / 1× / 1,15×` 调速，进度按单篇记录。
+- **每级 10 篇听力**：编号独立为 `A1.1`–`A1.10`、`B1.1`–`B1.10`，共 60 篇；场景各不相同，支持 `0,6×–1,4×` 滑杆调速（播放中改速会从新速度重播），进度按单篇记录。
 - **短剧配音**：6 个视频场景支持字幕、逐句录音、回放、发音匹配和语速评分；分数单独保存在对应场景。
-- **课文插图**：阅读页按场景显示 1 幅插画（咖啡、市场、诊所、办公室、书店等）。
+- **课文真实照片**：阅读页按场景显示 1 幅葡萄牙真实照片（里斯本电车、蛋挞、Ribeira、Lello 书店、法朵、科英布拉等），照片来自 Wikimedia Commons，授权与作者见 [assets/photos/CREDITS.md](assets/photos/CREDITS.md)。
 
 ![独立阅读入口](screenshots/reading.png)
 
@@ -122,7 +122,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v2.1.0**。
+当前版本：**v2.1.1**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -155,6 +155,7 @@ azulejo/
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
 ├─ content/                # lesson briefs + 18 个分级阅读源文件
 ├─ assets/                 # 应用图标
+├─ assets/photos/          # 葡萄牙真实照片（Wikimedia Commons）与 CREDITS.md
 ├─ manifest.webmanifest    # PWA 清单
 ├─ CHANGELOG.md            # 版本记录
 ├─ sw.js                   # 离线缓存
