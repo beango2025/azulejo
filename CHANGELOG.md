@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0 — 2026-11-19
+
+- Added 10 numbered listening tracks per level (`A1.1`–`A1.10` … `C2.1`–`C2.10`), using distinct scenes and the exam-length texts.
+- Added per-track speed control and separate listening progress.
+- Added scene illustrations to reading screens.
+- Added short-drama dubbing: subtitles, line-by-line recording, playback, pronunciation score and speech-rate score.
+- Bumped the service worker cache to `azulejo-v2.1.0`.
+
 ## 2.0.0 — 2026-11-19
 
 - Replaced the short five-line readings with 180 CAPLE-oriented exam texts.

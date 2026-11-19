@@ -11,7 +11,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '2.0.0';
+  const APP_VERSION = '2.1.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -205,12 +205,14 @@
       lessons: {},
       words: {},
       media: {},
+      listening: {},
+      dubbing: {},
       activity: {},
       streak: 0,
       lastActive: null,
       favorites: [],
       readArticles: [],
-      settings: { sound: true, rate: 0.9, slowRate: 0.6, voiceURI: '' }
+      settings: { sound: true, rate: 0.9, slowRate: 0.6, listeningRate: 0.9, voiceURI: '' }
     };
   }
 
@@ -228,6 +230,8 @@
       if (!merged.lessons || typeof merged.lessons !== 'object') merged.lessons = {};
       if (!merged.words || typeof merged.words !== 'object') merged.words = {};
       if (!merged.media || typeof merged.media !== 'object') merged.media = {};
+      if (!merged.listening || typeof merged.listening !== 'object') merged.listening = {};
+      if (!merged.dubbing || typeof merged.dubbing !== 'object') merged.dubbing = {};
       return merged;
     } catch (err) {
       console.warn('Could not read saved progress.', err);
@@ -432,10 +436,11 @@
         showToast('语音播放失败，请检查系统语音设置。', 'warn');
       }
     },
-    speakSequence(texts, btn) {
-      if (!texts || !texts.length) return;
+    speakSequence(texts, btn, rateOverride, onEnd) {
+      if (!texts || !texts.length) { if (onEnd) onEnd(); return; }
       if (!('speechSynthesis' in window)) {
         showToast('这个浏览器不支持语音朗读。', 'warn');
+        if (onEnd) onEnd();
         return;
       }
       window.speechSynthesis.cancel();
@@ -449,11 +454,12 @@
       const next = () => {
         if (index >= texts.length) {
           if (btn) btn.classList.remove('is-speaking');
+          if (onEnd) onEnd();
           return;
         }
         const utterance = new SpeechSynthesisUtterance(texts[index]);
         utterance.lang = 'pt-PT';
-        utterance.rate = Number(state.settings.rate) || 0.9;
+        utterance.rate = Number(rateOverride) || Number(state.settings.rate) || 0.9;
         utterance.pitch = 1;
         if (voice) utterance.voice = voice;
         utterance.onend = () => {
@@ -462,6 +468,7 @@
         };
         utterance.onerror = () => {
           if (btn) btn.classList.remove('is-speaking');
+          if (onEnd) onEnd();
         };
         window.speechSynthesis.speak(utterance);
       };
@@ -660,15 +667,26 @@
     const name = info.name;
     const mediaPlayer = name === 'media' && Boolean(info.parts[1]);
     const directReading = name === 'read' && Boolean(info.parts[1]);
-    const focus = name === 'lesson' || directReading || mediaPlayer || (name === 'review' && info.parts[1] === 'session');
+    const listeningPlayer = name === 'listening' && Boolean(info.parts[1]);
+    const dubbingPlayer = name === 'dubbing' && Boolean(info.parts[1]);
+    const focus = name === 'lesson' || directReading || mediaPlayer || listeningPlayer || dubbingPlayer || (name === 'review' && info.parts[1] === 'session');
     if (mediaPlay && !mediaPlayer) {
       Speech.stop();
       clearTimeout(mediaTimer);
       mediaPlay = null;
     }
+    if (listeningPlay && !listeningPlayer) {
+      Speech.stop();
+      listeningPlay = null;
+    }
+    if (dubbingPlay && !dubbingPlayer) {
+      dubbingPlay.discard = true;
+      stopDubbingStream();
+      dubbingPlay = null;
+    }
     document.body.classList.toggle('focus-mode', focus);
     closeModal(true);
-    ui.route = name === 'lesson' ? 'learn' : directReading ? 'reading' : name;
+    ui.route = name === 'lesson' ? 'learn' : directReading ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : name;
     if (focus) {
       if (name === 'lesson' || directReading) {
         const lesson = lessonMap.get(info.parts[1]);
@@ -679,9 +697,17 @@
         startLesson(lesson, directReading ? { startAt: 'immersion' } : {});
       } else if (mediaPlayer) {
         startMedia(info.parts[1]);
+      } else if (listeningPlayer) {
+        startListening(info.parts[1]);
+      } else if (dubbingPlayer) {
+        startDubbing(info.parts[1]);
       } else {
         startReviewSession(info.parts[2] === 'all');
       }
+      return;
+    }
+    if (name === 'listening' || name === 'dubbing') {
+      location.hash = '#/media';
       return;
     }
     if (!['learn', 'reading', 'media', 'review', 'phrases', 'culture', 'progress'].includes(name)) {
@@ -1227,6 +1253,17 @@
     </div>`;
   }
 
+  function readingSceneCategory(scene) {
+    const text = String(scene || '').toLowerCase();
+    if (/café|pastelaria|esplanada|padaria/.test(text)) return 'cafe';
+    if (/mercado|peixaria|talho|loja|supermercado|compras|provador/.test(text)) return 'market';
+    if (/saúde|farmácia|médic|consulta|dentista|hospital|clínica/.test(text)) return 'clinic';
+    if (/reunião|escritório|empresa|redação|jornal|entrevista|conferência|aula|universidade/.test(text)) return 'office';
+    if (/junta|moradores|parlamento|assembleia|debate|auditório|tribuna/.test(text)) return 'meeting';
+    if (/livraria|biblioteca|museu|livro|poesia|cinema|teatro/.test(text)) return 'bookshop';
+    return 'studio';
+  }
+
   function immersionStepHTML(pack) {
     const state = ui.lesson.immState || { answers: {}, speaking: null };
     const speaking = state.speaking;
@@ -1258,6 +1295,10 @@
             <div><span class="eyebrow light">LEITURA</span><h2>${esc(pack.scene)}</h2></div>
             <button class="audio-btn small" data-action="immersion-play" data-kind="reading" aria-label="Ouvir o texto completo">${icon('volume')}</button>
           </div>
+          <figure class="immersion-figure">
+            ${sceneArt(readingSceneCategory(pack.scene))}
+            <figcaption><span>${esc(pack.level)} · ${esc(pack.scene)}</span><b>${esc(pack.sceneZh)}</b></figcaption>
+          </figure>
           ${pack.text
             ? `${pack.textTitle && pack.textTitle !== pack.scene ? `<h3 class="immersion-text-title">${esc(pack.textTitle)}</h3>` : ''}
                <div class="immersion-prose">${pack.paragraphs.map(paragraph => `<p>${esc(paragraph)}</p>`).join('')}</div>`
@@ -2426,6 +2467,44 @@
 
   let mediaPlay = null;
   let mediaTimer = null;
+  let listeningPlay = null;
+  let dubbingPlay = null;
+
+  const LISTENING_IDS = {
+    A1: ['u1l1', 'u1l2', 'u1l3', 'u2l1', 'u2l2', 'u2l3', 'u3l1', 'u3l2', 'u3l3', 'a1lab01'],
+    A2: ['u4l1', 'u4l2', 'u4l3', 'u5l1', 'u5l2', 'u5l3', 'u6l1', 'u6l2', 'u6l3', 'a2lab01'],
+    B1: ['b1l1', 'b1l2', 'b1l3', 'b1l4', 'b1l5', 'b1l6', 'b1lab01', 'b1lab02', 'b1lab03', 'b1lab04'],
+    B2: ['b2l1', 'b2l2', 'b2l3', 'b2l4', 'b2l5', 'b2l6', 'b2lab01', 'b2lab02', 'b2lab03', 'b2lab04'],
+    C1: ['c1l1', 'c1l2', 'c1l3', 'c1l4', 'c1l5', 'c1l6', 'c1lab01', 'c1lab02', 'c1lab03', 'c1lab04'],
+    C2: ['c2l1', 'c2l2', 'c2l3', 'c2l4', 'c2l5', 'c2l6', 'c2lab01', 'c2lab02', 'c2lab03', 'c2lab04']
+  };
+
+  function listeningItems(levelId) {
+    return (LISTENING_IDS[levelId] || []).map((lessonId, index) => {
+      const lesson = lessonMap.get(lessonId);
+      const exam = window.AZ_READINGS && window.AZ_READINGS[lessonId];
+      const text = exam ? exam.text : '';
+      const words = text.trim() ? text.trim().split(/\s+/).filter(Boolean).length : 0;
+      return {
+        id: `${levelId}.${index + 1}`,
+        level: levelId,
+        lessonId,
+        title: lesson ? lesson.title : lessonId,
+        zh: lesson ? lesson.zh : '',
+        text,
+        questions: exam ? exam.questions : [],
+        audio: (text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || []).map(part => part.trim()).filter(Boolean),
+        words,
+        minutes: Math.max(1, Math.round(words / 145))
+      };
+    });
+  }
+
+  function listeningById(id) {
+    const match = String(id || '').match(/^([A-C][12])\.(\d+)$/);
+    if (!match) return null;
+    return listeningItems(match[1])[Number(match[2]) - 1] || null;
+  }
 
   function mediaById(id) {
     return DATA.media.find(item => item.id === id) || null;
@@ -2570,10 +2649,30 @@
     </button>`;
   }
 
+  function dubbingCardHTML(item) {
+    return `<a class="dubbing-card" href="#/dubbing/${item.id}" aria-label="Dublar ${esc(item.title)}">
+      <span class="dubbing-card-icon">${icon('mic')}</span>
+      <span><b>${item.level} · ${esc(item.title)}</b><small>${esc(item.zh)} · ${item.lines.length} falas</small></span>
+      ${icon('arrow-right')}
+    </a>`;
+  }
+
+  function listeningCardHTML(item) {
+    const done = state.listening[item.id];
+    return `<a class="listening-card ${done ? 'is-done' : ''}" href="#/listening/${item.id}" aria-label="Ouvir ${item.id}: ${esc(item.title)}">
+      <div class="listening-card-top"><span class="listening-number">${item.id}</span>${done ? `<span class="listening-check">${icon('check')}</span>` : `<span class="listening-play">${icon('play')}</span>`}</div>
+      <h3>${esc(item.title)}</h3>
+      <p>${esc(item.zh)}</p>
+      <div class="listening-card-foot"><span>${item.words} palavras · ${item.minutes} min</span><b>Ouvir ${icon('arrow-right')}</b></div>
+    </a>`;
+  }
+
   function renderMediaPage() {
     const levelId = ui.mediaLevel || 'A1';
     const level = levelMeta(levelId);
     const items = DATA.media.filter(item => item.level === levelId);
+    const listening = listeningItems(levelId);
+    const listeningDone = listening.filter(item => state.listening[item.id]).length;
     const video = items.find(item => item.type === 'video');
     const audio = items.find(item => item.type === 'audio');
     const done = Object.keys(state.media).length;
@@ -2581,19 +2680,33 @@
     const levelDone = mediaCompletedInLevel(levelId);
     $('#view').innerHTML = `
       <div class="page media-page">
-        ${pageHead('VÍDEO & ÁUDIO', 'Vê, ouve, reage.', '每个级别都有一场情景视频和一段音频对话。先看画面猜意思，再听声音抓细节，最后做理解题。', `<div class="head-badge alt">${icon('video')}<span><strong>${done}</strong><small>/ ${total} feitos</small></span></div>`)}
+        ${pageHead('VÍDEO & ÁUDIO', 'Vê, ouve, reage.', '每个级别有 10 篇独立编号听力、1 场情景视频、1 段音频对话和 1 个短剧配音。先听，再看，再开口。', `<div class="head-badge alt">${icon('video')}<span><strong>${done}</strong><small>/ ${total} feitos</small></span></div>`)}
         <div class="media-stats">
           <div><strong>6</strong><span>níveis</span></div>
+          <div><strong>60</strong><span>faixas de escuta</span></div>
           <div><strong>${DATA.media.filter(i => i.type === 'video').length}</strong><span>vídeos-cena</span></div>
-          <div><strong>${DATA.media.filter(i => i.type === 'audio').length}</strong><span>diálogos áudio</span></div>
-          <div><strong>${levelDone}/${items.length}</strong><span>neste nível</span></div>
+          <div><strong>${listeningDone}/10</strong><span>escuta neste nível</span></div>
         </div>
         <div class="media-level-tabs">${LEVELS.map(l => mediaLevelTabHTML(l, levelId)).join('')}</div>
         <div class="media-level-note"><span class="level-badge level-${level.color}">${level.id}</span><p><b>${esc(level.name)} · ${esc(level.zh)}</b> ${esc(level.blurb)}</p></div>
+        <section class="listening-section">
+          <div class="section-head compact">
+            <div><span class="eyebrow">ESCUTA · 10 CENAS</span><h2>Dez histórias para ouvir.</h2><p>Cada faixa tem número próprio, texto completo e velocidade ajustável.</p></div>
+            <div class="listening-progress"><strong>${listeningDone}</strong><span>/ 10 ouvidas</span></div>
+          </div>
+          <div class="listening-grid">${listening.map(listeningCardHTML).join('')}</div>
+        </section>
+
         <div class="media-feature-grid">
           ${video ? mediaFeatureCard(video, 'VÍDEO-CENA', 'play') : ''}
           ${audio ? mediaFeatureCard(audio, 'DIÁLOGO ÁUDIO', 'volume') : ''}
         </div>
+
+        <section class="dubbing-section">
+          <div class="section-head compact"><div><span class="eyebrow">DUBLAGEM · 6 CENAS</span><h2>Dá voz à cena.</h2><p>Ouve a fala, grava a tua voz e recebe uma nota de pronúncia e velocidade.</p></div></div>
+          <div class="dubbing-grid">${DATA.media.filter(item => item.type === 'video').map(dubbingCardHTML).join('')}</div>
+        </section>
+
         <section class="media-how">
           <div><span class="eyebrow">COMO PRATICAR</span><h2>Três passagens, três ouvidos.</h2></div>
           <ol>
@@ -2604,6 +2717,390 @@
         </section>
       </div>`;
     document.title = 'Vídeo & áudio · Azulejo';
+  }
+
+  function startListening(id) {
+    const item = listeningById(id);
+    if (!item) {
+      location.hash = '#/media';
+      return;
+    }
+    Speech.stop();
+    listeningPlay = {
+      item,
+      playing: false,
+      playToken: 0,
+      rate: Number(state.settings.listeningRate) || 0.9,
+      transcript: false,
+      answers: {}
+    };
+    renderListeningPlayer();
+  }
+
+  function listeningQuestionHTML(question, index) {
+    const chosen = listeningPlay.answers[index];
+    const options = question.options.map(option => {
+      let cls = '';
+      if (chosen) {
+        if (option === question.answer) cls = 'is-correct';
+        else if (option === chosen.value) cls = 'is-wrong';
+      }
+      return `<button class="immersion-option ${cls}" data-action="listening-answer" data-q="${index}" data-value="${esc(option)}" ${chosen ? 'disabled' : ''}>${esc(option)}</button>`;
+    }).join('');
+    return `<div class="immersion-question">
+      <p class="immersion-q">${esc(question.q)}</p>
+      <div class="immersion-options">${options}</div>
+      ${chosen ? `<p class="immersion-feedback ${chosen.correct ? 'is-ok' : 'is-bad'}">${chosen.correct ? 'Boa!' : `A resposta certa é «${esc(question.answer)}».`} ${esc(question.explain || '')}</p>` : ''}
+    </div>`;
+  }
+
+  function renderListeningPlayer() {
+    if (!listeningPlay) return;
+    const item = listeningPlay.item;
+    const completed = state.listening[item.id];
+    const questions = (item.questions || []).slice(0, 2);
+    const rateLabel = listeningPlay.rate.toFixed(2).replace(/0+$/, '').replace(/\.$/, '').replace('.', ',');
+    $('#view').innerHTML = `
+      <div class="listening-shell">
+        <header class="lesson-topbar media-topbar">
+          <button class="close-btn" data-action="close-listening" aria-label="退出听力">${icon('x')}</button>
+          <div class="media-top-title"><span class="level-badge level-${levelMeta(item.level).color}">${item.level}</span><strong>${esc(item.id)} · ${esc(item.title)}</strong></div>
+          <span class="media-type-pill">ESCUTA</span>
+          <span class="xp-badge">${icon('volume')} ${item.words} palavras</span>
+        </header>
+        <div class="media-player-scroll">
+          <div class="media-player-wrap listening-wrap">
+            <div class="listening-hero">
+              ${sceneArt(readingSceneCategory(item.title))}
+              <div class="listening-hero-copy">
+                <span class="eyebrow light">${esc(item.id)} · ${esc(item.level)}</span>
+                <h1>${esc(item.title)}</h1>
+                <p>${esc(item.zh)}</p>
+              </div>
+            </div>
+            <div class="listening-toolbar">
+              <button class="media-play-btn" data-action="listening-toggle" aria-label="${listeningPlay.playing ? '暂停' : '播放'}">${icon(listeningPlay.playing ? 'pause' : 'play')}</button>
+              <div class="listening-speeds" role="group" aria-label="Velocidade">
+                ${[0.7, 0.85, 1, 1.15].map(rate => `<button class="media-chip ${Math.abs(listeningPlay.rate - rate) < 0.01 ? 'is-on' : ''}" data-action="listening-rate" data-rate="${rate}">${String(rate).replace('.', ',')}×</button>`).join('')}
+              </div>
+              <button class="media-chip ${listeningPlay.transcript ? 'is-on' : ''}" data-action="listening-transcript">${icon('captions')} ${listeningPlay.transcript ? 'Ocultar texto' : 'Mostrar texto'}</button>
+              <span class="listening-meta">${item.words} palavras · ${item.minutes} min · velocidade ${rateLabel}×</span>
+            </div>
+            ${listeningPlay.transcript
+              ? `<div class="listening-text">${item.text.split(/\n+/).filter(Boolean).map(part => `<p>${esc(part)}</p>`).join('')}</div>`
+              : `<div class="listening-locked"><span>${icon('volume')}</span><p>Ouve primeiro. Abre o texto só quando precisares.</p></div>`}
+            <section class="listening-questions">
+              <div class="section-head compact"><div><span class="eyebrow">COMPREENSÃO</span><h2>O que ficou?</h2></div><span class="listening-count">${Object.keys(listeningPlay.answers).length} / ${questions.length}</span></div>
+              ${questions.map((question, index) => listeningQuestionHTML(question, index)).join('')}
+            </section>
+            <div class="listening-actions">
+              <span>${completed ? `${icon('check')} ouvida em ${new Date(completed.completedAt).toLocaleDateString('pt-PT')}` : 'Ouve a faixa completa e responde às perguntas.'}</span>
+              <button class="btn ${completed ? 'btn-secondary' : 'btn-primary'}" data-action="listening-complete" ${completed ? 'disabled' : ''}>${completed ? 'Concluída' : 'Marcar como ouvida'} ${icon('check')}</button>
+            </div>
+          </div>
+        </div>
+      </div>`;
+    document.title = `${item.id} · ${item.title} · Azulejo`;
+  }
+
+  function toggleListening() {
+    if (!listeningPlay) return;
+    if (listeningPlay.playing) {
+      Speech.stop();
+      listeningPlay.playing = false;
+      listeningPlay.playToken += 1;
+      renderListeningPlayer();
+      return;
+    }
+    const token = ++listeningPlay.playToken;
+    listeningPlay.playing = true;
+    renderListeningPlayer();
+    Speech.speakSequence(listeningPlay.item.audio, null, listeningPlay.rate, () => {
+      if (listeningPlay && listeningPlay.playToken === token) {
+        listeningPlay.playing = false;
+        renderListeningPlayer();
+      }
+    });
+  }
+
+  function setListeningRate(rate) {
+    if (!listeningPlay) return;
+    state.settings.listeningRate = Number(rate) || 0.9;
+    saveState();
+    Speech.stop();
+    listeningPlay.playToken += 1;
+    listeningPlay.playing = false;
+    listeningPlay.rate = Number(rate) || 0.9;
+    renderListeningPlayer();
+  }
+
+  function completeListening() {
+    if (!listeningPlay) return;
+    state.listening[listeningPlay.item.id] = { completedAt: new Date().toISOString() };
+    saveState();
+    showToast(`Ouvida: ${listeningPlay.item.id}`, 'success');
+    renderListeningPlayer();
+  }
+
+  function closeListening() {
+    Speech.stop();
+    listeningPlay = null;
+    go('#/media');
+  }
+
+  function startDubbing(id) {
+    const item = mediaById(id);
+    if (!item || item.type !== 'video') {
+      location.hash = '#/media';
+      return;
+    }
+    Speech.stop();
+    if (dubbingPlay) {
+      dubbingPlay.discard = true;
+      stopDubbingStream();
+    }
+    dubbingPlay = {
+      item,
+      index: 0,
+      rate: Number(state.settings.listeningRate) || 0.9,
+      recording: false,
+      processing: false,
+      discard: false,
+      stream: null,
+      recorder: null,
+      recognition: null,
+      recognitionSupported: Boolean(window.SpeechRecognition || window.webkitSpeechRecognition),
+      startedAt: 0,
+      duration: 0,
+      heard: '',
+      audioUrl: '',
+      result: null,
+      error: ''
+    };
+    renderDubbing();
+  }
+
+  function stopDubbingStream() {
+    if (!dubbingPlay) return;
+    try { if (dubbingPlay.recognition) dubbingPlay.recognition.stop(); } catch (err) { /* noop */ }
+    try { if (dubbingPlay.recorder && dubbingPlay.recorder.state !== 'inactive') dubbingPlay.recorder.stop(); } catch (err) { /* noop */ }
+    try { if (dubbingPlay.stream) dubbingPlay.stream.getTracks().forEach(track => track.stop()); } catch (err) { /* noop */ }
+  }
+
+  function dubbingOrder() {
+    if (!dubbingPlay) return [];
+    return dubbingPlay.item.cast.map(person => person.role);
+  }
+
+  function renderDubbing() {
+    if (!dubbingPlay) return;
+    const item = dubbingPlay.item;
+    const line = item.lines[dubbingPlay.index];
+    const prevBest = state.dubbing[item.id];
+    const result = dubbingPlay.result;
+    $('#view').innerHTML = `
+      <div class="dubbing-shell">
+        <header class="lesson-topbar media-topbar">
+          <button class="close-btn" data-action="dubbing-close" aria-label="退出配音">${icon('x')}</button>
+          <div class="media-top-title"><span class="level-badge level-${levelMeta(item.level).color}">${item.level}</span><strong>Dublagem · ${esc(item.title)}</strong></div>
+          <span class="media-type-pill">DUBLAGEM</span>
+          <span class="xp-badge">${icon('mic')} ${dubbingPlay.index + 1} / ${item.lines.length}</span>
+        </header>
+        <div class="media-player-scroll">
+          <div class="media-player-wrap dubbing-wrap">
+            <div class="dubbing-stage">
+              ${sceneArt(item.scene)}
+              <div class="dubbing-stage-top"><span>${item.level} · ${esc(item.title)}</span><span>${dubbingPlay.index + 1} / ${item.lines.length}</span></div>
+              <div class="dubbing-cast">
+                ${item.cast.map((person, i) => `<span class="dubbing-actor ${line.who === person.name ? 'is-speaking' : ''}">${actorPortrait(i)}<b>${esc(person.name)}</b></span>`).join('')}
+              </div>
+              <div class="dubbing-subtitle" aria-live="polite">
+                <span>${esc(line.who)}</span>
+                <p>${esc(line.pt)}</p>
+                <small>${esc(line.zh)}</small>
+              </div>
+              ${!dubbingPlay.recording && !dubbingPlay.processing ? `<button class="stage-play dubbing-listen" data-action="dubbing-listen" aria-label="Ouvir a fala">${icon('volume')}<span>Ouvir a fala</span></button>` : ''}
+            </div>
+
+            <div class="dubbing-timeline">
+              ${item.lines.map((l, i) => `<button class="media-seg ${i === dubbingPlay.index ? 'is-current' : ''} ${i < dubbingPlay.index ? 'is-done' : ''}" data-action="dubbing-jump" data-index="${i}" aria-label="Fala ${i + 1}"></button>`).join('')}
+            </div>
+
+            <div class="dubbing-toolbar">
+              <div class="dubbing-nav">
+                <button class="media-ctrl" data-action="dubbing-prev" aria-label="Fala anterior" ${dubbingPlay.index === 0 ? 'disabled' : ''}>${icon('arrow-left')}</button>
+                <button class="media-ctrl" data-action="dubbing-next" aria-label="Fala seguinte" ${dubbingPlay.index === item.lines.length - 1 ? 'disabled' : ''}>${icon('arrow-right')}</button>
+              </div>
+              <div class="dubbing-speeds">
+                ${[0.7, 0.85, 1, 1.15].map(rate => `<button class="media-chip ${Math.abs(dubbingPlay.rate - rate) < 0.01 ? 'is-on' : ''}" data-action="dubbing-rate" data-rate="${rate}">${String(rate).replace('.', ',')}×</button>`).join('')}
+              </div>
+              <button class="btn ${dubbingPlay.recording ? 'btn-secondary' : 'btn-primary'} dubbing-record-btn" data-action="dubbing-record" ${dubbingPlay.processing ? 'disabled' : ''}>
+                ${icon(dubbingPlay.recording ? 'pause' : 'mic')} ${dubbingPlay.recording ? 'Parar gravação' : 'Gravar a minha voz'}
+              </button>
+            </div>
+
+            <div class="dubbing-target">
+              <span class="eyebrow">A TUA FALA</span>
+              <blockquote>${esc(line.pt)}</blockquote>
+              <p>${esc(line.zh)}</p>
+            </div>
+
+            ${dubbingPlay.recording ? `<div class="dubbing-status is-live">${icon('mic')} A gravar… fala agora. ${dubbingPlay.recognitionSupported ? 'Fala de forma natural.' : 'O reconhecimento de fala não está disponível neste navegador.'}</div>` : ''}
+            ${dubbingPlay.processing ? `<div class="dubbing-status">${icon('volume')} A analisar a tua gravação…</div>` : ''}
+            ${dubbingPlay.error ? `<div class="dubbing-status is-bad">${esc(dubbingPlay.error)}</div>` : ''}
+            ${result ? `<div class="dubbing-result">
+              <div class="dubbing-score"><strong>${result.overall}</strong><span>nota</span></div>
+              <div class="dubbing-score-copy">
+                <b>Pronúncia ${result.pron == null ? '—' : result.pron + '%'} · Velocidade ${result.speed}%</b>
+                <span>${result.speedLabel} · ${result.duration.toFixed(1)} s</span>
+                <small>${result.heard ? `Ouvi: «${esc(result.heard)}»` : 'Não foi possível transcrever a fala; a nota usa apenas a velocidade.'}</small>
+              </div>
+              ${dubbingPlay.audioUrl ? `<audio class="dubbing-audio" controls src="${dubbingPlay.audioUrl}"></audio>` : ''}
+            </div>` : ''}
+            ${!result && !dubbingPlay.recording && !dubbingPlay.processing && !dubbingPlay.error ? `<p class="dubbing-hint">${icon('info')} Ouve a fala original, grava a tua voz e compara pronúncia e velocidade. Podes repetir as vezes que quiseres.</p>` : ''}
+            ${prevBest ? `<p class="dubbing-best">${icon('star')} Melhor nota nesta cena: ${prevBest.best} · ${new Date(prevBest.at).toLocaleDateString('pt-PT')}</p>` : ''}
+          </div>
+        </div>
+      </div>`;
+    document.title = `Dublagem · ${item.title} · Azulejo`;
+  }
+
+  function startDubbingRecording() {
+    if (!dubbingPlay || dubbingPlay.recording) return;
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || !window.MediaRecorder) {
+      dubbingPlay.error = 'Este navegador não permite gravar áudio. Usa Chrome, Edge ou Safari.';
+      renderDubbing();
+      return;
+    }
+    if (dubbingPlay.stream) dubbingPlay.stream.getTracks().forEach(track => track.stop());
+    const line = dubbingPlay.item.lines[dubbingPlay.index];
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
+      if (!dubbingPlay) { stream.getTracks().forEach(track => track.stop()); return; }
+      dubbingPlay.stream = stream;
+      dubbingPlay.recording = true;
+      dubbingPlay.processing = false;
+      dubbingPlay.result = null;
+      dubbingPlay.error = '';
+      dubbingPlay.heard = '';
+      dubbingPlay.audioUrl = '';
+      dubbingPlay.startedAt = performance.now();
+      const recorder = new MediaRecorder(stream);
+      dubbingPlay.recorder = recorder;
+      const chunks = [];
+      recorder.ondataavailable = event => { if (event.data && event.data.size) chunks.push(event.data); };
+      recorder.onstop = () => {
+        if (!dubbingPlay) return;
+        const blob = new Blob(chunks, { type: recorder.mimeType || 'audio/webm' });
+        dubbingPlay.audioUrl = URL.createObjectURL(blob);
+        dubbingPlay.duration = Math.max(0.2, (performance.now() - dubbingPlay.startedAt) / 1000);
+        dubbingPlay.processing = false;
+        if (dubbingPlay.stream) dubbingPlay.stream.getTracks().forEach(track => track.stop());
+        if (!dubbingPlay.discard) setTimeout(() => { if (dubbingPlay && !dubbingPlay.discard) finishDubbingScore(); }, 450);
+      };
+      const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (Recognition) {
+        const recognition = new Recognition();
+        recognition.lang = 'pt-PT';
+        recognition.interimResults = false;
+        recognition.maxAlternatives = 1;
+        recognition.onresult = event => {
+          if (dubbingPlay) dubbingPlay.heard = event.results[0][0].transcript || '';
+        };
+        recognition.onerror = () => { /* keep rate-only scoring if speech recognition fails */ };
+        dubbingPlay.recognition = recognition;
+        try { recognition.start(); } catch (err) { dubbingPlay.recognition = null; }
+      }
+      try {
+        recorder.start();
+        renderDubbing();
+      } catch (err) {
+        dubbingPlay.error = 'Não foi possível iniciar a gravação.';
+        dubbingPlay.recording = false;
+        renderDubbing();
+      }
+    }).catch(() => {
+      if (!dubbingPlay) return;
+      dubbingPlay.error = 'Permite o microfone para gravar a tua voz.';
+      dubbingPlay.recording = false;
+      renderDubbing();
+    });
+  }
+
+  function stopDubbingRecording() {
+    if (!dubbingPlay || !dubbingPlay.recording) return;
+    dubbingPlay.recording = false;
+    dubbingPlay.processing = true;
+    try { if (dubbingPlay.recognition) dubbingPlay.recognition.stop(); } catch (err) { /* noop */ }
+    try {
+      if (dubbingPlay.recorder && dubbingPlay.recorder.state !== 'inactive') dubbingPlay.recorder.stop();
+      else {
+        dubbingPlay.processing = false;
+        finishDubbingScore();
+      }
+    } catch (err) {
+      dubbingPlay.processing = false;
+      finishDubbingScore();
+    }
+    renderDubbing();
+  }
+
+  function finishDubbingScore() {
+    if (!dubbingPlay) return;
+    const line = dubbingPlay.item.lines[dubbingPlay.index];
+    const targetWords = normalizeAnswer(line.pt).split(' ').filter(Boolean);
+    const heardWords = new Set(normalizeAnswer(dubbingPlay.heard).split(' ').filter(Boolean));
+    const matched = targetWords.filter(word => heardWords.has(word)).length;
+    const pron = dubbingPlay.recognitionSupported && dubbingPlay.heard ? Math.round((matched / Math.max(1, targetWords.length)) * 100) : null;
+    const duration = Math.max(0.2, dubbingPlay.duration || 0.2);
+    const wps = targetWords.length / duration;
+    const expected = 2.2 * dubbingPlay.rate;
+    const speed = Math.max(0, Math.round(100 - (Math.abs(wps - expected) / expected) * 100));
+    const overall = pron == null ? speed : Math.round(pron * 0.7 + speed * 0.3);
+    dubbingPlay.result = {
+      pron,
+      speed,
+      overall,
+      duration,
+      heard: dubbingPlay.heard,
+      speedLabel: wps < expected * 0.75 ? 'Um pouco lento' : wps > expected * 1.3 ? 'Um pouco rápido' : 'Velocidade natural'
+    };
+    const previous = state.dubbing[dubbingPlay.item.id];
+    if (!previous || overall > previous.best) {
+      state.dubbing[dubbingPlay.item.id] = { best: overall, at: new Date().toISOString() };
+      saveState();
+    }
+    renderDubbing();
+  }
+
+  function playDubbingLine() {
+    if (!dubbingPlay) return;
+    const line = dubbingPlay.item.lines[dubbingPlay.index];
+    const roleIndex = Math.max(0, dubbingPlay.item.cast.findIndex(person => person.name === line.who));
+    Speech.speakMediaLine(line.pt, roleIndex, dubbingPlay.rate);
+  }
+
+  function closeDubbing() {
+    if (!dubbingPlay) { go('#/media'); return; }
+    const item = dubbingPlay.item;
+    dubbingPlay.discard = true;
+    stopDubbingStream();
+    dubbingPlay = null;
+    go(`#/media/${item.id}`);
+  }
+
+  function jumpDubbing(index) {
+    if (!dubbingPlay) return;
+    const next = Number(index);
+    if (!Number.isInteger(next) || next < 0 || next >= dubbingPlay.item.lines.length) return;
+    if (dubbingPlay.recording) stopDubbingRecording();
+    Speech.stop();
+    if (dubbingPlay.audioUrl) URL.revokeObjectURL(dubbingPlay.audioUrl);
+    dubbingPlay.index = next;
+    dubbingPlay.result = null;
+    dubbingPlay.heard = '';
+    dubbingPlay.audioUrl = '';
+    dubbingPlay.error = '';
+    renderDubbing();
   }
 
   function mediaFeatureCard(item, label, iconName) {
@@ -2727,6 +3224,7 @@
               <div class="media-controls-right">
                 <button class="media-chip" data-action="media-rate">${mediaPlay.rate.toFixed(1).replace('.', ',')}×</button>
                 <button class="media-chip ${mediaPlay.captions ? 'is-on' : ''}" data-action="media-captions">${icon('captions')} Legendas</button>
+                ${isVideo ? `<button class="media-chip" data-action="open-dubbing" data-id="${item.id}">${icon('mic')} Dublar</button>` : ''}
                 ${!isVideo ? `<button class="media-chip ${mediaPlay.rolePlay ? 'is-on' : ''}" data-action="toggle-roleplay">${icon('mic')} Praticar</button>` : ''}
               </div>
             </div>
@@ -3405,6 +3903,65 @@
         break;
       case 'media-restart':
         restartMedia();
+        break;
+      case 'listening-toggle':
+        toggleListening();
+        break;
+      case 'listening-rate':
+        setListeningRate(el.dataset.rate);
+        break;
+      case 'listening-transcript':
+        if (listeningPlay) {
+          listeningPlay.transcript = !listeningPlay.transcript;
+          renderListeningPlayer();
+        }
+        break;
+      case 'listening-answer':
+        if (listeningPlay) {
+          const key = Number(el.dataset.q);
+          if (listeningPlay.answers[key]) break;
+          const question = listeningPlay.item.questions[key];
+          if (!question) break;
+          listeningPlay.answers[key] = { value: el.dataset.value, correct: el.dataset.value === question.answer };
+          renderListeningPlayer();
+        }
+        break;
+      case 'listening-complete':
+        completeListening();
+        break;
+      case 'close-listening':
+        closeListening();
+        break;
+      case 'open-dubbing':
+        go(`#/dubbing/${el.dataset.id}`);
+        break;
+      case 'dubbing-close':
+        closeDubbing();
+        break;
+      case 'dubbing-listen':
+        playDubbingLine();
+        break;
+      case 'dubbing-record':
+        if (dubbingPlay && dubbingPlay.recording) stopDubbingRecording();
+        else startDubbingRecording();
+        break;
+      case 'dubbing-rate':
+        if (dubbingPlay) {
+          dubbingPlay.rate = Number(el.dataset.rate) || 0.9;
+          state.settings.listeningRate = dubbingPlay.rate;
+          saveState();
+          Speech.stop();
+          renderDubbing();
+        }
+        break;
+      case 'dubbing-prev':
+        jumpDubbing((dubbingPlay ? dubbingPlay.index : 0) - 1);
+        break;
+      case 'dubbing-next':
+        jumpDubbing((dubbingPlay ? dubbingPlay.index : 0) + 1);
+        break;
+      case 'dubbing-jump':
+        jumpDubbing(Number(el.dataset.index));
         break;
       case 'start-lesson':
         go(`#/lesson/${el.dataset.id}`);

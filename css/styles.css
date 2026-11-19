@@ -1460,6 +1460,11 @@ img, svg { display: block; }
 .immersion-panel-top h2 { margin-top: 4px; font-family: var(--font-display); font-size: 28px; font-weight: 500; line-height: 1.08; letter-spacing: -.02em; }
 .immersion-panel-top h3 { margin-top: 3px; font-family: var(--font-display); font-size: 22px; font-weight: 600; line-height: 1.1; }
 .immersion-intro { margin-top: 10px; font-size: 11px; line-height: 1.65; color: var(--muted); }
+.immersion-figure { position: relative; margin: 12px 0 0; border-radius: 12px; overflow: hidden; background: var(--blue-deep); }
+.immersion-figure .scene-art { position: static; display: block; width: 100%; height: auto; aspect-ratio: 16 / 7; }
+.immersion-figure figcaption { position: absolute; left: 0; right: 0; bottom: 0; display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 24px 12px 9px; background: linear-gradient(transparent, rgba(7,25,31,.78)); color: var(--cream); }
+.immersion-figure figcaption span { font-size: 7px; letter-spacing: .07em; text-transform: uppercase; opacity: .75; }
+.immersion-figure figcaption b { font-family: var(--font-display); font-size: 14px; font-weight: 500; }
 .immersion-text-title { margin-top: 12px; font-family: var(--font-display); font-size: 23px; font-weight: 600; line-height: 1.15; letter-spacing: -.02em; }
 .immersion-prose { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line-soft); }
 .immersion-prose p { margin-top: 9px; font-family: var(--font-display); font-size: 13.5px; line-height: 1.75; color: var(--ink-2); }
@@ -2977,6 +2982,136 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .media-feature-bottom span { display: inline-flex; align-items: center; gap: 4px; }
 .media-feature-bottom .icon { width: 11px; height: 11px; }
 .media-feature-bottom .text-link { margin-left: auto; font-size: 9.5px; }
+
+.listening-section { margin-top: 22px; padding: 18px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); }
+.listening-section .section-head { margin-bottom: 11px; }
+.listening-section .section-head p { max-width: 620px; margin-top: 4px; font-size: 9.5px; line-height: 1.5; color: var(--muted); }
+.listening-progress { flex: none; display: flex; align-items: baseline; gap: 4px; padding: 7px 10px; border-radius: 99px; background: var(--surface-2); border: 1px solid var(--line); }
+.listening-progress strong { font-family: var(--font-display); font-size: 22px; color: var(--blue); }
+.listening-progress span { font-size: 7.5px; color: var(--muted); }
+.listening-grid { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 7px; }
+.listening-card { display: flex; flex-direction: column; min-height: 135px; padding: 12px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface-2); transition: transform .16s, border-color .16s; }
+.listening-card:hover { transform: translateY(-2px); border-color: var(--blue); }
+.listening-card.is-done { background: var(--success-soft); border-color: rgba(60,122,86,.22); }
+.listening-card-top { display: flex; align-items: center; justify-content: space-between; }
+.listening-number { font-family: var(--font-mono); font-size: 8px; font-weight: 700; color: var(--terra); letter-spacing: .04em; }
+.listening-play, .listening-check { width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; background: var(--blue-soft); color: var(--blue); }
+.listening-check { background: var(--success); color: #fff; }
+.listening-play .icon, .listening-check .icon { width: 10px; height: 10px; }
+.listening-card h3 { margin-top: 9px; font-family: var(--font-display); font-size: 17px; font-weight: 600; line-height: 1.1; letter-spacing: -.015em; }
+.listening-card p { margin-top: 3px; font-size: 8px; color: var(--muted); }
+.listening-card-foot { display: flex; align-items: center; justify-content: space-between; gap: 5px; margin-top: auto; padding-top: 9px; border-top: 1px solid var(--line-soft); font-size: 6.5px; color: var(--muted-2); }
+.listening-card-foot b { display: inline-flex; align-items: center; gap: 2px; flex: none; color: var(--blue); font-size: 6.5px; }
+.listening-card-foot .icon { width: 9px; height: 9px; }
+
+.listening-shell { min-height: 100svh; background: var(--bg); }
+.listening-wrap { max-width: 880px; }
+.listening-hero { position: relative; border-radius: var(--radius-lg); overflow: hidden; background: var(--blue-deep); }
+.listening-hero .scene-art { position: static; display: block; width: 100%; height: auto; aspect-ratio: 16 / 6.2; }
+.listening-hero-copy { position: absolute; left: 0; right: 0; bottom: 0; padding: 60px 22px 18px; color: var(--cream); background: linear-gradient(transparent, rgba(7,25,31,.8)); }
+.listening-hero-copy .eyebrow { color: var(--gold); }
+.listening-hero-copy h1 { margin-top: 4px; font-family: var(--font-display); font-size: clamp(28px, 4vw, 44px); font-weight: 500; line-height: 1.02; letter-spacing: -.03em; }
+.listening-hero-copy p { margin-top: 3px; font-size: 10px; color: rgba(250,244,231,.72); }
+.listening-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin-top: 12px; padding: 9px 11px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.listening-toolbar .media-play-btn { width: 34px; height: 34px; }
+.listening-speeds { display: inline-flex; gap: 3px; }
+.listening-toolbar .media-chip { padding: 5px 7px; font-size: 7.5px; }
+.listening-meta { margin-left: auto; font-size: 7.5px; color: var(--muted-2); }
+.listening-text { margin-top: 14px; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.listening-text p { margin-top: 8px; font-family: var(--font-display); font-size: 13px; line-height: 1.7; color: var(--ink-2); }
+.listening-text p:first-child { margin-top: 0; }
+.listening-locked { display: flex; align-items: center; gap: 8px; margin-top: 14px; padding: 18px; border: 1px dashed var(--line); border-radius: 14px; background: var(--surface-2); font-size: 9px; color: var(--muted); }
+.listening-locked .icon { width: 16px; height: 16px; color: var(--blue); }
+.listening-questions { margin-top: 18px; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.listening-count { font-family: var(--font-mono); font-size: 9px; color: var(--muted); }
+.listening-actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 14px; padding-bottom: 26px; font-size: 8.5px; color: var(--muted); }
+.listening-actions .btn { flex: none; }
+.listening-actions .icon { width: 11px; height: 11px; }
+
+@media (max-width: 1100px) {
+  .listening-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+}
+
+@media (max-width: 620px) {
+  .listening-section { padding: 13px; }
+  .listening-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .listening-card { min-height: 128px; padding: 10px; }
+  .listening-card h3 { font-size: 15px; }
+  .listening-meta { width: 100%; margin-left: 0; }
+  .listening-hero-copy { padding: 44px 15px 13px; }
+  .listening-actions { flex-direction: column; align-items: stretch; }
+}
+
+.dubbing-section { margin-top: 16px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface-2); }
+.dubbing-section .section-head { margin-bottom: 9px; }
+.dubbing-section .section-head p { margin-top: 3px; font-size: 9px; color: var(--muted); }
+.dubbing-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 7px; }
+.dubbing-card { display: flex; align-items: center; gap: 9px; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); transition: border-color .16s, transform .16s; }
+.dubbing-card:hover { border-color: var(--terra); transform: translateY(-1px); }
+.dubbing-card-icon { width: 27px; height: 27px; display: grid; place-items: center; border-radius: 7px; background: var(--terra-soft); color: var(--terra); flex: none; }
+.dubbing-card-icon .icon { width: 13px; height: 13px; }
+.dubbing-card > span:nth-child(2) { display: grid; gap: 2px; min-width: 0; }
+.dubbing-card b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 8.5px; color: var(--ink-2); }
+.dubbing-card small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 7px; color: var(--muted); }
+.dubbing-card > .icon { width: 11px; height: 11px; margin-left: auto; flex: none; color: var(--muted-2); }
+
+.dubbing-shell { min-height: 100svh; background: var(--bg); }
+.dubbing-wrap { max-width: 880px; }
+.dubbing-stage { position: relative; overflow: hidden; border-radius: var(--radius-lg); background: var(--blue-deep); }
+.dubbing-stage > .scene-art { position: static; display: block; width: 100%; height: auto; aspect-ratio: 16 / 6.5; }
+.dubbing-stage-top { position: absolute; top: 12px; left: 14px; right: 14px; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 7px; letter-spacing: .08em; color: rgba(250,244,231,.65); }
+.dubbing-cast { position: absolute; top: 37px; left: 14px; display: flex; gap: 8px; }
+.dubbing-actor { display: flex; flex-direction: column; align-items: center; gap: 2px; opacity: .52; transition: opacity .2s; }
+.dubbing-actor.is-speaking { opacity: 1; }
+.dubbing-actor svg { width: 30px; height: 42px; }
+.dubbing-actor b { padding: 1px 4px; border-radius: 3px; background: rgba(8,27,33,.55); color: var(--cream); font-size: 6.5px; font-weight: 600; }
+.dubbing-subtitle { position: absolute; left: 0; right: 0; bottom: 0; padding: 44px 18px 14px; background: linear-gradient(transparent, rgba(7,25,31,.88)); color: var(--cream); }
+.dubbing-subtitle span { font-size: 7px; font-weight: 750; letter-spacing: .07em; text-transform: uppercase; color: var(--gold); }
+.dubbing-subtitle p { margin-top: 2px; max-width: 680px; font-family: var(--font-display); font-size: clamp(17px, 2.2vw, 25px); font-weight: 500; line-height: 1.2; }
+.dubbing-subtitle small { display: block; margin-top: 3px; font-size: 8px; color: rgba(250,244,231,.6); }
+.dubbing-listen { position: absolute; right: 14px; bottom: 16px; }
+.dubbing-timeline { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin-top: 8px; }
+.dubbing-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin-top: 10px; padding: 9px 11px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.dubbing-nav { display: inline-flex; gap: 3px; }
+.dubbing-nav .media-ctrl { width: 26px; height: 26px; }
+.dubbing-speeds { display: inline-flex; gap: 3px; }
+.dubbing-toolbar .media-chip { padding: 5px 7px; font-size: 7.5px; }
+.dubbing-record-btn { margin-left: auto; flex: none; }
+.dubbing-target { margin-top: 12px; padding: 16px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); }
+.dubbing-target blockquote { margin-top: 7px; padding-left: 10px; border-left: 2px solid var(--terra); font-family: var(--font-display); font-size: 20px; line-height: 1.3; color: var(--ink); }
+.dubbing-target > p { margin-top: 5px; padding-left: 12px; font-size: 8.5px; color: var(--muted); }
+.dubbing-status { display: flex; align-items: center; gap: 5px; margin-top: 10px; padding: 9px 11px; border-radius: 9px; background: var(--blue-soft); color: var(--blue); font-size: 8.5px; }
+.dubbing-status.is-live { background: var(--terra-soft); color: var(--terra); animation: pulse-soft 1.4s infinite; }
+@keyframes pulse-soft { 0%, 100% { opacity: 1; } 50% { opacity: .62; } }
+.dubbing-status.is-bad { background: var(--danger-soft); color: var(--danger); }
+.dubbing-status .icon { width: 12px; height: 12px; }
+.dubbing-result { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 10px; padding: 12px; border: 1px solid rgba(60,122,86,.24); border-radius: 12px; background: var(--success-soft); }
+.dubbing-score { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; border: 2px solid var(--success); color: var(--success); flex: none; }
+.dubbing-score strong { font-family: var(--font-display); font-size: 24px; line-height: 1; }
+.dubbing-score span { font-size: 6.5px; text-transform: uppercase; letter-spacing: .08em; }
+.dubbing-score-copy { display: grid; gap: 2px; flex: 1; min-width: 180px; }
+.dubbing-score-copy b { font-size: 9px; color: var(--success); }
+.dubbing-score-copy span { font-size: 8px; color: var(--muted); }
+.dubbing-score-copy small { font-size: 8px; line-height: 1.4; color: var(--muted); }
+.dubbing-audio { width: 100%; height: 28px; }
+.dubbing-hint, .dubbing-best { display: flex; align-items: center; gap: 4px; margin-top: 9px; font-size: 8px; color: var(--muted-2); }
+.dubbing-hint .icon, .dubbing-best .icon { width: 11px; height: 11px; }
+
+@media (max-width: 800px) {
+  .dubbing-grid { grid-template-columns: 1fr 1fr; }
+  .dubbing-record-btn { margin-left: 0; }
+}
+
+@media (max-width: 620px) {
+  .dubbing-section { padding: 13px; }
+  .dubbing-grid { grid-template-columns: 1fr; }
+  .dubbing-stage > .scene-art { aspect-ratio: 16 / 8; }
+  .dubbing-subtitle { padding: 36px 13px 12px; }
+  .dubbing-listen { display: none; }
+  .dubbing-toolbar { gap: 5px; }
+  .dubbing-record-btn { width: 100%; justify-content: center; }
+  .dubbing-result { align-items: flex-start; }
+}
 
 .media-how { display: grid; grid-template-columns: .75fr 1.25fr; gap: 24px; align-items: center; margin-top: 15px; padding: 22px 24px; border-radius: var(--radius-lg); background: var(--ink); color: var(--cream); }
 .media-how .eyebrow { color: rgba(250,244,231,.42); }
