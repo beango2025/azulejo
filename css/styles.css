@@ -3058,7 +3058,7 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .dubbing-shell { min-height: 100svh; background: var(--bg); }
 .dubbing-wrap { max-width: 880px; }
 .dubbing-stage { position: relative; overflow: hidden; border-radius: var(--radius-lg); background: var(--blue-deep); }
-.dubbing-stage > .scene-art { position: static; display: block; width: 100%; height: auto; aspect-ratio: 16 / 6.5; }
+.dubbing-stage > .scene-art { position: static; display: block; width: 100%; height: auto; aspect-ratio: 16 / 6.5; animation: scene-drift 24s ease-in-out infinite alternate; }
 .dubbing-stage-top { position: absolute; top: 12px; left: 14px; right: 14px; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 7px; letter-spacing: .08em; color: rgba(250,244,231,.65); }
 .dubbing-cast { position: absolute; top: 37px; left: 14px; display: flex; gap: 8px; }
 .dubbing-actor { display: flex; flex-direction: column; align-items: center; gap: 2px; opacity: .52; transition: opacity .2s; }
