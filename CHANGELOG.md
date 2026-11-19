@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.7.0 — 2026-11-19
+
+- Added a top-level `Leitura & escuta` library with all 180 lessons grouped by CEFR level.
+- Reading cards jump directly to the immersion step of a lesson via `#/read/{lessonId}`.
+- Direct reading sessions return to the reading library when closed.
+- Bumped the service worker cache to `azulejo-v1.7.0`.
+
 ## 1.6.0 — 2026-11-19
 
 - Added a per-lesson `Leitura & escuta` step to all 180 lessons.

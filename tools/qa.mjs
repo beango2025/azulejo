@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','1.5.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','1.6.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -282,6 +282,14 @@ try {
   console.log('RESOURCE_CARDS', await evaluate(`document.querySelectorAll('.resource-card').length`));
   await shot('20h-resources', '.resource-section');
 
+  await goto('#/reading');
+  await shot('20i-reading-library');
+  console.log('READING_CARDS', await evaluate(`document.querySelectorAll('.reading-card').length`));
+  await click('.reading-card');
+  await sleep(500);
+  await shot('20j-direct-reading');
+  console.log('DIRECT_READING_STEP', await evaluate(`Boolean(document.querySelector('.step-immersion'))`));
+
   await goto('#/progress');
   await shot('21-progress');
   await shot('22-progress-levels', '.level-progress-panel');
@@ -305,6 +313,11 @@ try {
 
   await goto('#/progress');
   await shot('28-mobile-progress');
+
+  await goto('#/reading');
+  await shot('28c-mobile-reading');
+  console.log('MOBILE_READING_NAV', await evaluate(`document.querySelectorAll('.bottom-item').length`));
+  console.log('MOBILE_READING_OVERFLOW', await evaluate('document.documentElement.scrollWidth > innerWidth + 1'));
 
   await goto('#/lesson/b1l1');
   await sleep(600);

@@ -11,7 +11,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '1.6.0';
+  const APP_VERSION = '1.7.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -536,6 +536,7 @@
 
   const NAV = [
     { id: 'learn', label: '学习', pt: 'Aprender', href: '#/learn', icon: 'book' },
+    { id: 'reading', label: '阅读', pt: 'Leitura & escuta', href: '#/reading', icon: 'layers' },
     { id: 'media', label: '影音', pt: 'Vídeo & áudio', href: '#/media', icon: 'video' },
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
@@ -546,6 +547,7 @@
   const ui = {
     route: 'learn',
     courseLevel: '',
+    readingLevel: 'A1',
     mediaLevel: 'A1',
     languageTab: 'phrases',
     phraseGroup: 'all',
@@ -657,7 +659,8 @@
     const info = routeInfo();
     const name = info.name;
     const mediaPlayer = name === 'media' && Boolean(info.parts[1]);
-    const focus = name === 'lesson' || mediaPlayer || (name === 'review' && info.parts[1] === 'session');
+    const directReading = name === 'read' && Boolean(info.parts[1]);
+    const focus = name === 'lesson' || directReading || mediaPlayer || (name === 'review' && info.parts[1] === 'session');
     if (mediaPlay && !mediaPlayer) {
       Speech.stop();
       clearTimeout(mediaTimer);
@@ -665,15 +668,15 @@
     }
     document.body.classList.toggle('focus-mode', focus);
     closeModal(true);
-    ui.route = name === 'lesson' ? 'learn' : name;
+    ui.route = name === 'lesson' ? 'learn' : directReading ? 'reading' : name;
     if (focus) {
-      if (name === 'lesson') {
+      if (name === 'lesson' || directReading) {
         const lesson = lessonMap.get(info.parts[1]);
         if (!lesson) {
-          location.hash = '#/learn';
+          location.hash = directReading ? '#/reading' : '#/learn';
           return;
         }
-        startLesson(lesson);
+        startLesson(lesson, directReading ? { startAt: 'immersion' } : {});
       } else if (mediaPlayer) {
         startMedia(info.parts[1]);
       } else {
@@ -681,7 +684,7 @@
       }
       return;
     }
-    if (!['learn', 'media', 'review', 'phrases', 'culture', 'progress'].includes(name)) {
+    if (!['learn', 'reading', 'media', 'review', 'phrases', 'culture', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -690,6 +693,7 @@
     ui.media = null;
     renderChrome(name);
     if (name === 'learn') renderHome();
+    if (name === 'reading') renderReadingPage();
     if (name === 'media') renderMediaPage();
     if (name === 'review') renderReviewPage();
     if (name === 'phrases') renderPhrasesPage();
@@ -1088,13 +1092,16 @@
     return steps;
   }
 
-  function startLesson(lesson) {
+  function startLesson(lesson, options = {}) {
     const steps = lessonSteps(lesson);
+    const startIndex = options.startAt === 'immersion'
+      ? Math.max(0, steps.findIndex(step => step.kind === 'immersion'))
+      : 0;
     ui.lesson = {
       id: lesson.id,
       lesson,
       steps,
-      index: 0,
+      index: startIndex,
       correct: 0,
       mistakes: 0,
       answered: false,
@@ -1102,6 +1109,7 @@
       accentWarning: false,
       feedback: '',
       done: false,
+      directReading: Boolean(options.startAt),
       stepState: null,
       immState: { answers: {}, speaking: null }
     };
@@ -1827,7 +1835,11 @@
 
   function requestLeaveLesson() {
     if (!ui.lesson || ui.lesson.done) {
-      go('#/learn');
+      go(ui.lesson && ui.lesson.directReading ? '#/reading' : '#/learn');
+      return;
+    }
+    if (ui.lesson.directReading) {
+      go('#/reading');
       return;
     }
     openConfirm('Sair da lição?', 'O progresso desta lição não será guardado. As palavras novas só entram na revisão no fim.', 'confirm-leave-lesson', 'Sair', 'Continuar a lição');
@@ -2276,6 +2288,35 @@
       <div class="resource-bottom"><span>${esc(resource.license)}</span><span class="resource-link">Abrir ${icon('arrow-right')}</span></div>
       <span class="resource-note">${esc(resource.note)}</span>
     </a>`;
+  }
+
+  function readingCardHTML(lesson) {
+    const level = lesson.unit.level;
+    const grammar = lesson.grammar ? lesson.grammar.title : `Prática · ${lesson.focusTitle || 'revisão'}`;
+    const words = lesson.vocab.slice(0, 3).map(word => word.pt).join(' · ');
+    return `<a class="reading-card reading-${level}" href="#/read/${lesson.id}" aria-label="Ler e ouvir: ${esc(lesson.title)}">
+      <div class="reading-card-top"><span class="reading-card-level">${level}</span><span class="reading-card-kind">${lesson.isLab ? 'PRÁTICA' : 'LIÇÃO'}</span></div>
+      <h3>${esc(lesson.title)}</h3>
+      <p>${esc(lesson.zh)}</p>
+      <div class="reading-card-words">${esc(words)}</div>
+      <div class="reading-card-foot"><span>${esc(grammar)}</span><b>Ler & ouvir ${icon('arrow-right')}</b></div>
+    </a>`;
+  }
+
+  function renderReadingPage() {
+    const level = LEVELS.find(item => item.id === ui.readingLevel) || LEVELS[0];
+    const lessons = lessonsForLevel(level.id);
+    const total = coreLessons.length + labLessons.length;
+    $('#view').innerHTML = `
+      <div class="page reading-page">
+        ${pageHead('LEITURA & ESCUTA', 'Lê, ouve, fala.', '每节课都有一篇场景短文、一个同级别对话和一句跟读。选一个场景，直接开始阅读。', `<div class="head-badge alt">${icon('layers')}<span><strong>${total}</strong><small>leituras</small></span></div>`)}
+        <div class="reading-level-tabs" role="tablist" aria-label="Escolhe o nível de leitura">
+          ${LEVELS.map(item => `<button class="filter-chip ${item.id === level.id ? 'is-active' : ''}" data-action="select-reading-level" data-level="${item.id}">${item.id}<span>${lessonsForLevel(item.id).length}</span></button>`).join('')}
+        </div>
+        <div class="reading-list-head"><span>${level.id} · ${lessons.length} leituras</span><span>${icon('volume')} texto + áudio + fala</span></div>
+        <div class="reading-grid">${lessons.map(readingCardHTML).join('')}</div>
+      </div>`;
+    document.title = 'Leitura & escuta · Azulejo';
   }
 
   function renderCulturePage() {
@@ -3245,6 +3286,10 @@
           if (course) course.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
         break;
+      case 'select-reading-level':
+        ui.readingLevel = el.dataset.level;
+        renderReadingPage();
+        break;
       case 'select-media-level':
         ui.mediaLevel = el.dataset.level;
         renderMediaPage();
@@ -3499,7 +3544,7 @@
         location.reload();
         break;
       case 'confirm-leave-lesson':
-        go('#/learn');
+        go(ui.lesson && ui.lesson.directReading ? '#/reading' : '#/learn');
         break;
       case 'test-voice':
         Speech.speak('Olá! Bem-vindo ao português europeu. Esta é a tua voz.', false, el);

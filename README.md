@@ -41,6 +41,9 @@ PT-PT 外部资源入口：
 - **7 篇文化阅读**：葡葡 vs 巴葡、`sh` 发音、`bica`、`tu` 与 `senhor`、saudade 等。
 - **5 个 PT-PT 外部资源入口**：Falar、Fala Bem、PTptIndex、EP Spoken Frequency、Conversas com Amália；在「文化 → Recursos externos」里直接跳转，全部经过 pt-PT 筛选，不含巴葡项目。
 - **每节课自己的阅读、听力和口语**：`Leitura & escuta` 步骤用本课目标句组成场景短文；听力与跟读直接取同级别的视频/音频对话，配 2 道阅读题、2 道听力题和一句角色跟读，并可打开完整媒体。
+- **独立阅读入口**：顶部「阅读」栏目按 A1–C2 列出全部 180 个阅读场景，点击卡片直接跳到该课的阅读步骤，不需要先过单词和语法。
+
+![独立阅读入口](screenshots/reading.png)
 
 ![每课阅读、听力与跟读](screenshots/immersion.png)
 - **进度系统**：XP、每日目标、连续学习、等级、14 个成就、周活动图、级别与单元掌握度。
@@ -99,7 +102,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v1.6.0**。
+当前版本：**v1.7.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
