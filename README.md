@@ -4,6 +4,8 @@
 
 课程不只有语法表：每个级别都配有 **情景视频 + 音频对话**，词汇以 **葡 / 中 / 英 / 法 / 西** 五种语言对照。
 
+> **PT-PT only**：课程、词汇、练习、影音和外部资源都使用欧洲葡语。文化文章里会出现巴葡对比，但只用于解释差异，不作为学习目标；外部资源页不收录巴葡项目。
+
 ![Azulejo 首页](screenshots/home.png)
 
 | 情景视频 | 练习实验室 |
@@ -11,6 +13,10 @@
 | ![情景视频](screenshots/video.png) | ![练习实验室](screenshots/practice.png) |
 
 五语词汇对照：[screenshots/lexicon.png](screenshots/lexicon.png)。
+
+PT-PT 外部资源入口：
+
+![PT-PT 资源](screenshots/resources.png)
 
 ## 现在可以做什么
 
@@ -31,6 +37,7 @@
 - **间隔复习（SRS）**：按 `Outra vez / Difícil / Bem / Fácil` 安排下次复习。
 - **48 句场景短语**：问候、咖啡、出行、购物、社交、紧急求助。
 - **7 篇文化阅读**：葡葡 vs 巴葡、`sh` 发音、`bica`、`tu` 与 `senhor`、saudade 等。
+- **5 个 PT-PT 外部资源入口**：Falar、Fala Bem、PTptIndex、EP Spoken Frequency、Conversas com Amália；在「文化 → Recursos externos」里直接跳转，全部经过 pt-PT 筛选，不含巴葡项目。
 - **进度系统**：XP、每日目标、连续学习、等级、14 个成就、周活动图、级别与单元掌握度。
 - **PWA / 离线**：通过本地服务器打开后可安装；首次加载后核心资源离线可用。
 - **响应式**：桌面侧栏、手机底部六项导航、全屏课程和影音播放器。
@@ -95,6 +102,7 @@ azulejo/
 ├─ js/more.js              # 每个高级级别额外的 3 节核心课 + 60 个五语词条
 ├─ js/lexicon.js           # 210 个词的五语对照
 ├─ js/labs.js              # 每级 21–24 节练习课的确定性生成器
+├─ js/resources.js         # 5 个仅 PT-PT 的外部学习资源
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
 ├─ assets/                 # 应用图标
 ├─ manifest.webmanifest    # PWA 清单

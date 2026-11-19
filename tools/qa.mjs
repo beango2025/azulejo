@@ -260,6 +260,11 @@ try {
   await shot('20f-practice-exercise');
   console.log('LAB_TITLE', await evaluate(`document.querySelector('.lesson-body h1')?.textContent`));
 
+  await goto('#/culture');
+  await shot('20g-culture');
+  console.log('RESOURCE_CARDS', await evaluate(`document.querySelectorAll('.resource-card').length`));
+  await shot('20h-resources', '.resource-section');
+
   await goto('#/progress');
   await shot('21-progress');
   await shot('22-progress-levels', '.level-progress-panel');

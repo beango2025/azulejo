@@ -7,6 +7,7 @@
   const MORE = window.AZ_MORE || { units: [], lexicon: {} };
   const LEVELS = window.AZ_LEVELS || [];
   const LEXICON = window.AZ_LEXICON || {};
+  const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
@@ -2080,6 +2081,20 @@
   /* Culture                                                             */
   /* ------------------------------------------------------------------ */
 
+  function resourceCardHTML(resource) {
+    return `<a class="resource-card resource-${resource.accent}" href="${esc(resource.url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(resource.name)} — abrir recurso externo">
+      <div class="resource-top">
+        <span class="resource-icon">${icon(resource.icon)}</span>
+        <span class="resource-kind">${esc(resource.kind)}</span>
+        <span class="resource-level">${esc(resource.level)}</span>
+      </div>
+      <h3>${esc(resource.name)}</h3>
+      <p>${esc(resource.desc)}</p>
+      <div class="resource-bottom"><span>${esc(resource.license)}</span><span class="resource-link">Abrir ${icon('arrow-right')}</span></div>
+      <span class="resource-note">${esc(resource.note)}</span>
+    </a>`;
+  }
+
   function renderCulturePage() {
     const featured = DATA.articles[0];
     const rest = DATA.articles.slice(1);
@@ -2111,6 +2126,19 @@
           <span>${icon('sparkle')}</span>
           <p><b>Uma língua, muitas vozes.</b> 葡萄牙本土、马德拉、亚速尔群岛的口音也各不相同。先把标准葡葡听熟，再让耳朵去旅行。</p>
         </div>
+
+        <section class="resource-section">
+          <div class="resource-head">
+            <div>
+              <span class="eyebrow">RECURSOS EXTERNOS · PT-PT</span>
+              <h2>Para ouvir Portugal fora da app.</h2>
+              <p>这些是我实际筛选过的欧洲葡语资源。没有巴西葡语项目；每个都标注了级别和许可证。</p>
+            </div>
+            <span class="pt-only-badge">PT-PT ONLY</span>
+          </div>
+          <div class="resource-grid">${RESOURCES.map(resourceCardHTML).join('')}</div>
+          <p class="resource-disclaimer">${icon('info')} 外部链接由第三方维护；Fala Bem 没有许可证，仅作为学习入口，不复制其内容。</p>
+        </section>
       </div>`;
     document.title = 'Cultura · Azulejo';
   }
