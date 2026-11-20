@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.7.0';
+  const APP_VERSION = '3.8.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -758,7 +758,7 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'reading', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'progress'].includes(name)) {
+    if (!['learn', 'reading', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -773,6 +773,7 @@
     if (name === 'phrases') renderPhrasesPage();
     if (name === 'culture') renderCulturePage();
     if (name === 'pro' || name === 'exam') renderProPage(false);
+    if (name === 'legal') renderLegalPage();
     if (name === 'progress') renderProgressPage();
     window.scrollTo({ top: 0, behavior: 'auto' });
   }
@@ -2662,6 +2663,60 @@
   }
 
   /* ------------------------------------------------------------------ */
+  /* Legal, credits and privacy                                           */
+  /* ------------------------------------------------------------------ */
+
+  function renderLegalPage() {
+    const photos = [...new Map(Object.values(READING_PHOTOS).map(photo => [photo.src, photo])).values()];
+    const contact = (window.AZ_CONFIG && (window.AZ_CONFIG.contactUrl || window.AZ_CONFIG.supportEmail)) || '';
+    $('#view').innerHTML = `
+      <div class="page legal-page">
+        ${pageHead('CRÉDITOS & LICENÇAS', 'Transparência, sem letra pequena.', '这里说明照片、音频、内容、数据和考试名称的使用方式。最后更新：2026-11-20。', `<div class="head-badge alt">${icon('info')}<span><strong>©</strong><small>legal</small></span></div>`)}
+        <div class="legal-grid">
+          <section class="legal-block">
+            <span class="eyebrow">FOTOGRAFIAS</span>
+            <h2>照片与授权</h2>
+            <p>阅读和听力页使用的照片来自 Wikimedia Commons，按原作者的 CC BY 或 CC BY-SA 授权使用；部分照片经过裁剪，裁剪版本沿用原授权。每张图下方保留作者与授权信息。</p>
+            <ul class="legal-list">${photos.map(photo => `<li><b>${esc(photo.src.split('/').pop())}</b> — ${esc(photo.credit)} · <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></li>`).join('')}</ul>
+            <p class="legal-small">如果你要再发布这些照片，请保留作者、授权和来源，并遵守 CC BY-SA 的相同方式共享要求。完整清单也在仓库的 <code>assets/photos/CREDITS.md</code>。</p>
+          </section>
+          <section class="legal-block">
+            <span class="eyebrow">ÁUDIO</span>
+            <h2>声音说明</h2>
+            <p>A2 听力使用 Microsoft Edge TTS 的 <b>pt-PT-RaquelNeural</b> 神经语音生成，不是真人录音棚录音。其余级别在浏览器不支持原生音频时使用设备语音。</p>
+            <p>神经语音主要用于当前版本的可听性；在扩大商业投放前，建议换成有明确商业授权的 PT-PT 真人录音，并核对 TTS 服务条款。</p>
+          </section>
+          <section class="legal-block">
+            <span class="eyebrow">CONTEÚDO</span>
+            <h2>课程、考试与商标</h2>
+            <p>课程、阅读、句型、词汇表、文化讲解和模拟题由 Azulejo 独立编写。模拟考试是原创练习，不复制 CAPLE 官方试卷，也不属于 CAPLE 官方产品。</p>
+            <p>“CAPLE”“CIPLE”“DEPLE”“DIPLE”“DAPLE”“DUPLE”仅用于说明考试级别和备考目标，不表示授权、合作或官方认可。考试要求以官方最新信息为准；本产品不提供移民或法律建议。</p>
+          </section>
+          <section class="legal-block">
+            <span class="eyebrow">DADOS & PRIVACIDADE</span>
+            <h2>数据与隐私</h2>
+            <p>默认情况下，学习进度只保存在你的浏览器 localStorage。启用云同步后，进度会保存到你配置的 Supabase 项目；启用分析端点后，匿名产品事件会发送到该端点。许可证在本地验证，不需要上传。</p>
+            <p>支付由第三方支付平台处理；我们不保存银行卡信息。购买邮箱仅用于发放许可证和售后。你可以随时清除浏览器数据或停用云同步。</p>
+          </section>
+          <section class="legal-block">
+            <span class="eyebrow">TERMOS</span>
+            <h2>使用条款</h2>
+            <p>Azulejo 是独立学习产品，不保证考试通过，也不替代官方考试、课程或移民咨询。许可证仅供购买者个人使用，不可转售或公开分发。模拟考试成绩不是官方成绩。</p>
+            <p>数字内容一经解锁通常不支持退款；具体退款、发票和团体席位以购买页或销售方说明为准。若发现内容错误，请通过下方联系方式反馈。</p>
+          </section>
+          <section class="legal-block">
+            <span class="eyebrow">CONTACTO</span>
+            <h2>联系与更正</h2>
+            <p>内容更正、授权问题、发票或退款：${contact ? `<a href="${esc(contact)}" target="_blank" rel="noopener noreferrer">${esc(contact)}</a>` : '请通过购买页或销售方提供的联系方式联系。'}</p>
+            <p class="legal-small">如果你是权利人并认为某处使用不当，请附上具体页面和权利证明；我们会先下架相关内容，再处理授权。</p>
+          </section>
+        </div>
+        <div class="legal-actions"><a class="btn btn-primary" href="#/learn">Voltar à aprendizagem</a><a class="btn btn-secondary" href="#/pro">Azulejo Pro</a></div>
+      </div>`;
+    document.title = 'Créditos, licenças e privacidade · Azulejo';
+  }
+
+  /* ------------------------------------------------------------------ */
   /* Azulejo Pro: A2 mock exams, licence and paywall                     */
   /* ------------------------------------------------------------------ */
 
@@ -2759,7 +2814,7 @@
           <div class="section-head compact"><div><span class="eyebrow">LICENÇA</span><h2>Acesso offline, sem conta.</h2></div><span class="panel-chip">${icon('lock')} LOCAL</span></div>
           ${licenseFormHTML()}
           ${!licensed && contact ? `<p class="pro-contact">购买、发票或团体席位：<a href="${esc(contact)}" target="_blank" rel="noopener noreferrer">${esc(contact)}</a></p>` : ''}
-          ${!licensed && !checkout ? `<p class="pro-contact">支付链接尚未配置。请在 <code>js/config.js</code> 填入 <code>checkoutUrl</code>，或先通过微信/邮件收款后发放许可证。</p>` : ''}
+          ${!licensed ? `<p class="pro-contact">购买后会收到离线许可证；激活不需要账号。 <a href="#/legal">Créditos, licenças e privacidade</a></p>` : ''}
         </section>
 
         <section class="pro-faq">
@@ -4284,9 +4339,7 @@
 
   function cloudPanelHTML() {
     const cloud = window.AZ_CLOUD;
-    if (!cloud || !cloud.configured()) {
-      return `<div class="cloud-unconfigured">${icon('info')}<div><b>Conta na nuvem não configurada.</b><p>在 <code>js/config.js</code> 填入 <code>supabaseUrl</code> 和 <code>supabaseAnonKey</code>，再执行 <code>server/supabase.sql</code>。本地进度仍然正常保存。</p></div></div>`;
-    }
+    if (!cloud || !cloud.configured()) return '';
     const session = cloud.session();
     if (session) {
       return `<div class="cloud-account">
@@ -4412,11 +4465,11 @@
           </div>
         </div>
       </form>
-      <div class="settings-cloud">
+      ${cloudPanelHTML() ? `<div class="settings-cloud">
         <div class="settings-cloud-head"><span class="eyebrow">CONTA NA NUVEM</span><span class="cloud-beta">BETA</span></div>
         ${cloudPanelHTML()}
-      </div>
-      <p class="settings-version">Azulejo · português europeu · versão ${APP_VERSION}<br>${lvl.n > 1 ? `Nível ${lvl.n} · ${lvl.title} · ` : ''}${state.xp} XP</p>
+      </div>` : ''}
+      <p class="settings-version">Azulejo · português europeu · versão ${APP_VERSION}<br>${lvl.n > 1 ? `Nível ${lvl.n} · ${lvl.title} · ` : ''}${state.xp} XP · <a href="#/legal">Créditos e licenças</a></p>
     </div>`, { className: 'settings-panel', label: 'Definições' });
     const rate = $('#settings-rate');
     if (rate) rate.addEventListener('input', () => {

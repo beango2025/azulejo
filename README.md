@@ -149,7 +149,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.7.0**。
+当前版本：**v3.8.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -297,6 +297,20 @@ supabaseAnonKey: 'eyJ...'
 第一次注册可能需要在 Supabase 里确认邮箱；确认后再登录。
 
 ![账号与云同步设置](screenshots/cloud.png)
+
+## 授权、隐私与侵权检查
+
+应用内有 **Créditos, licenças e privacidade** 页面（`#/legal`），说明：
+
+- Wikimedia Commons 照片的作者、CC BY / CC BY-SA 授权与裁剪后的相同方式共享要求。
+- A2 神经语音不是真人录音；商业投放前应核对 TTS 服务条款，或换成有商业授权的真人录音。
+- CAPLE / CIPLE / DEPLE / DIPLE / DAPLE / DUPLE 仅用于描述考试级别，不表示官方合作；模拟卷不是官方试卷。
+- 学习进度默认只存本地；Supabase 云同步和 analytics endpoint 是可选项。
+- 许可证仅供个人使用，不可转售；数字内容退款按销售方说明。
+
+注意：仓库是公开的，因此 `content/` 下的题库、词表和源码可被访问。若要把 60 套模考作为核心付费资产，后续应把私密题库移到私有后端或私有仓库，只把可公开的预览内容放进 Pages。
+
+![授权、隐私与条款](screenshots/legal.png)
 
 ## 静态 SEO 页面
 

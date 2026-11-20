@@ -73,7 +73,7 @@ ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(
 <main>${body}</main>
 <footer class="footer"><div class="wrap footer-inner">
   <span>Azulejo · português europeu · conteúdo original para aprender PT-PT</span>
-  <span><a href="${BASE}/#/learn">Entrar na app</a> · <a href="${BASE}/sitemap.xml">Sitemap</a></span>
+  <span><a href="${BASE}/#/learn">Entrar na app</a> · <a href="${BASE}/#/legal">Créditos e licenças</a> · <a href="${BASE}/sitemap.xml">Sitemap</a></span>
 </div></footer>
 </body>
 </html>`;

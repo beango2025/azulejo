@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.6.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.7.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -388,9 +388,14 @@ try {
   await click('[data-action="open-settings"]');
   await sleep(350);
   await shot('31-cloud-settings');
-  console.log('CLOUD_CONFIG', await evaluate(`document.querySelector('.cloud-unconfigured') ? 'unconfigured' : document.querySelector('.cloud-auth') ? 'signin' : document.querySelector('.cloud-account') ? 'signed-in' : 'missing'`));
+  console.log('CLOUD_CONFIG', await evaluate(`document.querySelector('.cloud-unconfigured') ? 'unconfigured' : document.querySelector('.cloud-auth') ? 'signin' : document.querySelector('.cloud-account') ? 'signed-in' : 'hidden'`));
   await click('[data-action="close-modal"]');
   await sleep(250);
+
+  await goto('#/legal');
+  await sleep(350);
+  await shot('32-legal');
+  console.log('LEGAL_BLOCKS', await evaluate(`document.querySelectorAll('.legal-block').length`));
 
   await goto('#/progress');
   await shot('21-progress');

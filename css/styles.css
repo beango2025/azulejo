@@ -4103,3 +4103,17 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 @media (max-width: 560px) {
   .cloud-fields { grid-template-columns: 1fr; }
 }
+
+/* Legal / credits */
+.legal-page { max-width: 1050px; }
+.legal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; margin-top: 8px; }
+.legal-block { padding: 17px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.legal-block h2 { margin-top: 5px; font-family: var(--font-display); font-size: 26px; font-weight: 500; }
+.legal-block p { margin-top: 8px; font-size: 10.5px; line-height: 1.7; color: var(--ink-2); }
+.legal-list { display: grid; gap: 5px; margin: 9px 0 0; padding: 0; list-style: none; }
+.legal-list li { font-size: 8.5px; line-height: 1.45; color: var(--muted); }
+.legal-list b { color: var(--ink-2); font-family: var(--font-mono); font-size: 7.5px; }
+.legal-small { font-size: 8.5px !important; color: var(--muted) !important; }
+.legal-actions { display: flex; gap: 8px; margin-top: 18px; }
+.legal-block code { padding: 1px 3px; border-radius: 3px; background: var(--surface-2); font-size: 8.5px; }
+@media (max-width: 700px) { .legal-grid { grid-template-columns: 1fr; } }

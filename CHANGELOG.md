@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.8.0 — 2026-11-20
+
+- Added a **Créditos, licenças e privacidade** page covering photo licences, neural audio, CAPLE trademark disclaimer, content ownership, data practices and terms.
+- Removed developer-facing configuration warnings from the Pro page and settings; unconfigured cloud sync is now hidden instead of exposing setup instructions.
+- Added legal/credits links to settings, the Pro page and the static SEO footer.
+- Bumped the service worker cache to `azulejo-v3.8.0`.
+
 ## 3.7.0 — 2026-11-20
 
 - Expanded the unique five-language lexicon to **6,088 words** (5,878 bank entries + 210 core words), reaching the 6,000–8,000 CEFR band target.
