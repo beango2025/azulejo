@@ -14,12 +14,13 @@
   const LISTENING_ZH = window.AZ_LISTENING_ZH || {};
   const GRAMMAR_EXTRA = window.AZ_GRAMMAR_EXTRA || {};
   const MORPHOLOGY = window.AZ_MORPHOLOGY || [];
+  const INTENSIVE = window.AZ_INTENSIVE || [];
   const POS_EXISTING = window.AZ_POS_EXISTING || {};
   const SCENES = window.AZ_CORE_SCENES || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.13.0';
+  const APP_VERSION = '3.14.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -303,6 +304,25 @@
       };
       vocabMap.set(word.id, enriched);
       allVocab.push(enriched);
+    });
+  });
+  INTENSIVE.forEach(article => {
+    (article.vocab || []).forEach((word, index) => {
+      const id = `int-${article.id}-${index}`;
+      const enriched = {
+        ...word,
+        id,
+        pron: word.pron || (window.AZ_PHONETIC ? window.AZ_PHONETIC(word.pt) : ''),
+        note: word.note || '',
+        lessonId: article.id,
+        lessonTitle: article.title,
+        unitId: `intensive-${article.level}`,
+        level: article.level
+      };
+      if (!vocabMap.has(id)) {
+        vocabMap.set(id, enriched);
+        allVocab.push(enriched);
+      }
     });
   });
 
@@ -739,7 +759,7 @@
     }
     document.body.classList.toggle('focus-mode', focus);
     closeModal(true);
-    ui.route = name === 'lesson' ? 'learn' : directReading ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : (name === 'pro' || name === 'exam') ? 'pro' : name;
+    ui.route = name === 'lesson' ? 'learn' : (directReading || name === 'intensive') ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : (name === 'pro' || name === 'exam') ? 'pro' : name;
     if (focus) {
       if (name === 'lesson' || directReading) {
         const lesson = lessonMap.get(info.parts[1]);
@@ -765,7 +785,7 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'reading', 'grammar', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
+    if (!['learn', 'reading', 'intensive', 'grammar', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -775,6 +795,7 @@
     renderChrome(ui.route);
     if (name === 'learn') renderHome();
     if (name === 'reading') renderReadingPage();
+    if (name === 'intensive') renderIntensiveArticle(info.parts[1]);
     if (name === 'grammar') info.parts[1] ? renderGrammarChapter(info.parts[1]) : renderGrammarPage();
     if (name === 'media') renderMediaPage();
     if (name === 'review') renderReviewPage();
@@ -2854,6 +2875,103 @@
     document.title = `${grammar.title} · Gramática · Azulejo`;
   }
 
+  function intensiveForLevel(level) {
+    return INTENSIVE.filter(article => article.level === level);
+  }
+
+  function intensiveWords(article) {
+    return (article.paragraphs || []).reduce((total, paragraph) => total + String(paragraph.pt || '').trim().split(/\s+/).filter(Boolean).length, 0);
+  }
+
+  function intensiveCardHTML(article) {
+    return `<a class="reading-card intensive-card" href="#/intensive/${article.id}">
+      <div class="reading-card-top"><span class="reading-card-level">${article.level}</span><span class="reading-card-kind">LEITURA INTENSIVA</span></div>
+      <h3>${esc(article.title)}</h3>
+      <p>${esc(article.titleZh)}</p>
+      <div class="reading-card-words">${esc(article.summary)}</div>
+      <div class="reading-card-foot"><span>${article.vocab.length} palavras · ${article.grammar.length} pontos</span><b>${intensiveWords(article)} palavras · Ler ${icon('arrow-right')}</b></div>
+    </a>`;
+  }
+
+  function intensiveSectionHTML(level) {
+    const articles = intensiveForLevel(level);
+    if (!articles.length) return '';
+    return `<section class="intensive-section">
+      <div class="section-head"><div><span class="eyebrow">LEITURA INTENSIVA · ${level}</span><h2>Uma leitura mais longa.</h2><p>一篇完整精读：长文、25 个扩展词、6 个语法点和理解题。适合把这一级真正读深。</p></div><span class="head-badge alt">${icon('book')}<span><strong>${articles.length}</strong><small>texto longo</small></span></span></div>
+      <div class="reading-grid">${articles.map(intensiveCardHTML).join('')}</div>
+    </section>`;
+  }
+
+  function renderIntensiveArticle(id) {
+    const article = INTENSIVE.find(item => item.id === id);
+    if (!article) { location.hash = '#/reading'; return; }
+    const photo = READING_PHOTOS[article.scene] || READING_PHOTOS.bookshop;
+    const words = intensiveWords(article);
+    const vocabulary = (article.vocab || []).map(word => ({
+      ...word,
+      pron: word.pron || (window.AZ_PHONETIC ? window.AZ_PHONETIC(word.pt) : '')
+    }));
+    const groups = GLOSSARY_GROUPS.map(([pos, pt, zh]) => {
+      const list = vocabulary.filter(word => (word.pos || 'phrase') === pos);
+      if (!list.length) return '';
+      return `<div class="glossary-group"><h3>${pt} <span>${zh}</span></h3>
+        ${list.map(word => `<div class="glossary-row">
+          <div class="glossary-word"><b>${esc(word.pt)}</b><small>[${esc(word.pron)}]</small><button class="audio-mini" data-audio="${esc(word.pt)}" aria-label="Ouvir ${esc(word.pt)}">${icon('volume')}</button></div>
+          <span class="glossary-zh">${esc(word.zh)}</span>
+          <span class="glossary-en">${esc(word.ex || '')}</span>
+        </div>`).join('')}</div>`;
+    }).join('');
+    $('#view').innerHTML = `
+      <div class="page intensive-page">
+        <a class="back-link" href="#/reading">${icon('arrow-left')} Voltar às leituras</a>
+        <header class="intensive-head">
+          <div class="intensive-kicker"><span class="eyebrow">LEITURA INTENSIVA · ${esc(article.level)}</span><span class="panel-chip">${words} palavras · ${Math.max(5, Math.round(words / 110))} min</span></div>
+          <h1>${esc(article.title)}</h1>
+          <p class="intensive-title-zh">${esc(article.titleZh)}</p>
+          <p class="intensive-summary">${esc(article.summary)}</p>
+          <div class="intensive-meta"><span>${article.vocab.length} palavras novas</span><span>${article.grammar.length} pontos de gramática</span><span>${article.questions.length} perguntas</span></div>
+        </header>
+        <figure class="intensive-figure">
+          <img src="${photo.src}" alt="${esc(photo.alt)}" loading="eager">
+          <figcaption><span>${esc(article.level)} · ${esc(article.sceneZh)}</span><small>${esc(photo.credit)} · Wikimedia Commons</small></figcaption>
+        </figure>
+        <article class="intensive-text">
+          ${article.paragraphs.map((paragraph, index) => `<div class="intensive-paragraph">
+            <span class="intensive-number">${String(index + 1).padStart(2, '0')}</span>
+            <div><p class="intensive-pt">${esc(paragraph.pt)}</p><p class="intensive-zh">${esc(paragraph.zh)}</p></div>
+          </div>`).join('')}
+        </article>
+        <section class="reading-glossary intensive-vocab">
+          <div class="reading-glossary-head"><div><span class="eyebrow">VOCABULÁRIO INTENSIVO</span><h2>${article.vocab.length} palavras para levar</h2><p>按词性分类；点小喇叭听发音。</p></div><span class="glossary-count">${article.vocab.length} palavras</span></div>
+          <div class="glossary-groups">${groups}</div>
+        </section>
+        <section class="intensive-grammar">
+          <div class="section-head"><div><span class="eyebrow">PONTOS DE GRAMÁTICA</span><h2>${article.grammar.length} pontos para reparar</h2><p>不是规则清单，而是这篇长文里真正用到的结构。</p></div><a class="text-link" href="#/grammar">Abrir gramática ${icon('arrow-right')}</a></div>
+          <div class="intensive-grammar-grid">
+            ${article.grammar.map((point, index) => `<article class="intensive-grammar-card">
+              <span class="intensive-number">${String(index + 1).padStart(2, '0')}</span>
+              <h3>${esc(point.title)}</h3>
+              ${point.titleZh ? `<p class="intensive-grammar-zh">${esc(point.titleZh)}</p>` : ''}
+              <p>${esc(point.body)}</p>
+              ${(point.examples || []).map(example => `<div class="intensive-example"><button class="audio-mini" data-audio="${esc(example.pt)}" aria-label="Ouvir exemplo">${icon('volume')}</button><div><b>${esc(example.pt)}</b><span>${esc(example.zh)}</span></div></div>`).join('')}
+            </article>`).join('')}
+          </div>
+        </section>
+        <section class="intensive-questions">
+          <div class="section-head"><div><span class="eyebrow">COMPREENSÃO</span><h2>Quatro perguntas.</h2><p>先自己回答，再展开答案。</p></div></div>
+          ${article.questions.map((question, index) => `<details class="grammar-practice-item intensive-question">
+            <summary><span>${String(index + 1).padStart(2, '0')}</span>${esc(question.q)}</summary>
+            <div class="grammar-practice-body">
+              ${question.options.map(option => `<div class="${option === question.answer ? 'is-answer' : ''}">${esc(option)}</div>`).join('')}
+              <p><b>Resposta:</b> ${esc(question.answer)}</p><p>${esc(question.explain)}</p>
+            </div>
+          </details>`).join('')}
+        </section>
+      </div>`;
+    document.title = `${article.title} · Leitura intensiva · Azulejo`;
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }
+
   function renderReadingPage() {
     const level = LEVELS.find(item => item.id === ui.readingLevel) || LEVELS[0];
     const allLessons = lessonsForLevel(level.id);
@@ -2871,6 +2989,7 @@
         <div class="reading-list-head"><span>Página ${page} / ${totalPages} · ${level.id} · ${allLessons.length} leituras · texto de ${READING_RANGES[level.id]} palavras</span><span>${icon('volume')} ${READING_EXAMS[level.id]} · texto + áudio + fala</span></div>
         <div class="reading-grid">${lessons.map(readingCardHTML).join('')}</div>
         <div id="reading-pagination">${paginationHTML('reading', page, totalPages)}</div>
+        ${intensiveSectionHTML(level.id)}
       </div>`;
     document.title = 'Leitura & escuta · Azulejo';
   }

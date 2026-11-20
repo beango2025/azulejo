@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.14.0 — 2026-11-20
+
+- Added a **Leitura intensiva** library for B1, B2, C1 and C2: four long readings (450–600 words) with full Chinese paragraph translation.
+- Each intensive includes **25 level-appropriate words**, **6 grammar points** with examples, and 4 comprehension questions.
+- Added the intensive section to the B1–C2 reading page and a dedicated `#/intensive/...` route.
+- Intensive vocabulary is merged into the lexicon as additional level-tagged entries.
+- Bumped the service worker cache to `azulejo-v3.14.0`.
+
 ## 3.13.0 — 2026-11-20
 
 - Fixed reading glossaries to respect the lesson level: C1/C2 no longer show A1/A2 basic words.
