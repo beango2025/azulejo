@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.20.0 — 2026-11-20
+
+- Added a **learning language** setting: 中文 / English / Français / Español / Português.
+- Navigation labels switch language; the chosen vocabulary column is highlighted; grammar cards and chapter explanations use English when English is selected.
+- Added graceful fallback to Chinese/English when a full translation is not yet available.
+- Bumped the service worker cache to `azulejo-v3.20.0`.
+
 ## 3.19.0 — 2026-11-20
 
 - Moved **Escrita** under **模考 Pro** in the sidebar and added a writing section directly below the mock-exam cards.

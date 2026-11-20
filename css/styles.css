@@ -4393,3 +4393,12 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .pro-writing-card p { margin-top: 4px; font-size: 13px; color: var(--terra); font-weight: 650; }
 .pro-writing-card small { display: block; margin-top: 8px; font-size: 9px; color: var(--muted); }
 @media (max-width: 800px) { .pro-writing-section { grid-template-columns: 1fr; } }
+/* Learning-language emphasis */
+.lex-grid[data-lang="en"] .lang-en,
+.lex-grid[data-lang="fr"] .lang-fr,
+.lex-grid[data-lang="es"] .lang-es,
+.lex-grid[data-lang="zh"] .lang-zh { background: var(--teal-soft); border-radius: 5px; }
+.lex-grid[data-lang="en"] .lang-en span,
+.lex-grid[data-lang="fr"] .lang-fr span,
+.lex-grid[data-lang="es"] .lang-es span,
+.lex-grid[data-lang="zh"] .lang-zh span { color: var(--ink); font-weight: 600; }

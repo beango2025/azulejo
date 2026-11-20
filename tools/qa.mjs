@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.18.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.19.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -473,7 +473,20 @@ try {
   await sleep(350);
   await shot('31-cloud-settings');
   console.log('CLOUD_CONFIG', await evaluate(`document.querySelector('.cloud-unconfigured') ? 'unconfigured' : document.querySelector('.cloud-auth') ? 'signin' : document.querySelector('.cloud-account') ? 'signed-in' : 'hidden'`));
-  await click('[data-action="close-modal"]');
+  await evaluate(`(() => { const s=document.querySelector('#settings-language'); if(s){s.value='en';} const f=document.querySelector('#settings-form'); if(f){f.requestSubmit();} })()`);
+  await sleep(450);
+  console.log('LANG_NAV', await evaluate(`document.querySelector('.nav-copy strong')?.textContent`));
+  console.log('LANG_HTML', await evaluate(`document.documentElement.lang`));
+  await goto('#/grammar');
+  await sleep(350);
+  await shot('38-language-en');
+  await click('.grammar-card');
+  await sleep(300);
+  console.log('LANG_GRAMMAR', await evaluate(`document.querySelector('.grammar-lead')?.textContent.slice(0,50)`));
+  await click('[data-action="open-settings"]');
+  await sleep(250);
+  await evaluate(`(() => { const s=document.querySelector('#settings-language'); if(s){s.value='zh';} const f=document.querySelector('#settings-form'); if(f){f.requestSubmit();} })()`);
+  await sleep(350);
   await sleep(250);
 
   await goto('#/legal');

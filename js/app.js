@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.19.0';
+  const APP_VERSION = '3.20.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -226,7 +226,7 @@
       lastActive: null,
       favorites: [],
       readArticles: [],
-      settings: { sound: true, rate: 0.9, slowRate: 0.6, listeningRate: 0.9, voiceURI: '' }
+      settings: { sound: true, rate: 0.9, slowRate: 0.6, listeningRate: 0.9, voiceURI: '', learningLanguage: 'zh' }
     };
   }
 
@@ -606,6 +606,21 @@
   /* Chrome, navigation and routing                                      */
   /* ------------------------------------------------------------------ */
 
+  const LEARNING_LANGUAGES = [
+    { id: 'zh', label: '中文', native: '中文' },
+    { id: 'en', label: 'English', native: 'English' },
+    { id: 'fr', label: 'Français', native: 'Français' },
+    { id: 'es', label: 'Español', native: 'Español' },
+    { id: 'pt', label: 'Português', native: 'Português' }
+  ];
+  const NAV_I18N = {
+    zh: { learn: '学习', reading: '阅读', grammar: '语法', exams: '考试', media: '影音', review: '复习', phrases: '语料', culture: '文化', pro: '模考 Pro', writing: '写作', progress: '进度' },
+    en: { learn: 'Learn', reading: 'Reading', grammar: 'Grammar', exams: 'Exams', media: 'Video & audio', review: 'Review', phrases: 'Phrases', culture: 'Culture', pro: 'Mock exams', writing: 'Writing', progress: 'Progress' },
+    fr: { learn: 'Apprendre', reading: 'Lecture', grammar: 'Grammaire', exams: 'Examens', media: 'Vidéo & audio', review: 'Révision', phrases: 'Phrases', culture: 'Culture', pro: 'Examens blancs', writing: 'Écriture', progress: 'Progrès' },
+    es: { learn: 'Aprender', reading: 'Lectura', grammar: 'Gramática', exams: 'Exámenes', media: 'Vídeo y audio', review: 'Repaso', phrases: 'Frases', culture: 'Cultura', pro: 'Simulacros', writing: 'Escritura', progress: 'Progreso' },
+    pt: { learn: 'Aprender', reading: 'Leitura', grammar: 'Gramática', exams: 'Exames', media: 'Vídeo e áudio', review: 'Revisão', phrases: 'Frases', culture: 'Cultura', pro: 'Exames Pro', writing: 'Escrita', progress: 'Progresso' }
+  };
+
   const NAV = [
     { id: 'learn', label: '学习', pt: 'Aprender', href: '#/learn', icon: 'book' },
     { id: 'reading', label: '阅读', pt: 'Leitura & escuta', href: '#/reading', icon: 'layers' },
@@ -622,6 +637,7 @@
 
   const ui = {
     route: 'learn',
+    learningLanguage: 'zh',
     courseLevel: '',
     readingLevel: 'A1',
     mediaLevel: 'A1',
@@ -658,10 +674,16 @@
     lastFocus: null
   };
 
+  function navText(item) {
+    const key = item.id === 'exams-guide' ? 'exams' : item.id;
+    const dict = NAV_I18N[ui.learningLanguage] || NAV_I18N.zh;
+    return dict[key] || item.label;
+  }
+
   function navItem(item, active) {
     return `<a class="nav-item ${active ? 'is-active' : ''}" href="${item.href}" data-nav="${item.id}" ${active ? 'aria-current="page"' : ''}>
       <span class="nav-icon">${icon(item.icon)}</span>
-      <span class="nav-copy"><strong>${item.label}</strong><small>${item.pt}</small></span>
+      <span class="nav-copy"><strong>${navText(item)}</strong><small>${item.pt}</small></span>
       ${item.id === 'pro' ? `<span class="nav-pro">${window.AZ_LICENSE && window.AZ_LICENSE.isPro() ? 'PRO' : 'A2'}</span>` : ''}
       ${active ? '<span class="nav-dot" aria-hidden="true"></span>' : ''}
     </a>`;
@@ -732,7 +754,7 @@
     if (!bottom) return;
     bottom.innerHTML = NAV.map(item => `
       <a href="${item.href}" class="bottom-item ${item.id === active ? 'is-active' : ''}" ${item.id === active ? 'aria-current="page"' : ''}>
-        ${icon(item.icon)}<span>${item.label}</span>
+        ${icon(item.icon)}<span>${navText(item)}</span>
       </a>`).join('');
   }
 
@@ -2595,10 +2617,10 @@
               <div><strong>${esc(word.pt)}</strong><span class="lex-pron">${esc(word.pron)}</span></div>
               <em class="level-pill level-${word.level}">${word.level}</em>
             </div>
-            <div class="lex-zh"><b>中</b><span>${esc(word.zh)}</span></div>
-            <div class="lex-lang"><b>EN</b><span>${esc(word.en)}</span></div>
-            <div class="lex-lang"><b>FR</b><span>${esc(word.fr)}</span></div>
-            <div class="lex-lang"><b>ES</b><span>${esc(word.es)}</span></div>
+            <div class="lex-zh lang-zh"><b>中</b><span>${esc(word.zh)}</span></div>
+            <div class="lex-lang lang-en"><b>EN</b><span>${esc(word.en)}</span></div>
+            <div class="lex-lang lang-fr"><b>FR</b><span>${esc(word.fr)}</span></div>
+            <div class="lex-lang lang-es"><b>ES</b><span>${esc(word.es)}</span></div>
             <div class="lex-learned">${learned ? `<span title="已加入复习">${icon('check')}</span>` : ''}</div>
           </article>`;
         }).join('')}</div>
@@ -2643,7 +2665,7 @@
         <div class="filter-chips" id="word-level-chips">${levelChips}</div>
         <div class="phrase-grid-head"><span id="word-count">Página ${Math.min(Math.max(1, ui.wordPage), Math.max(1, Math.ceil(allVocab.filter(wordMatches).length / 100)))} / ${Math.max(1, Math.ceil(allVocab.filter(wordMatches).length / 100))} · ${allVocab.filter(wordMatches).length} palavras</span><span>${icon('volume')} 点小喇叭听葡语发音</span></div>
         <div class="lex-table-head" aria-hidden="true"><span>Nº</span><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span><span></span></div>
-        <div class="lex-grid" id="lex-grid">${lexiconGridHTML()}</div>
+        <div class="lex-grid" id="lex-grid" data-lang="${ui.learningLanguage}">${lexiconGridHTML()}</div>
         <div class="word-more" id="word-more">${paginationHTML('word', ui.wordPage, Math.max(1, Math.ceil(allVocab.filter(wordMatches).length / 100)))}</div>
       </div>`;
     document.title = 'Palavras · Azulejo';
@@ -2811,12 +2833,17 @@
       .some(value => accentFold(value || '').includes(q));
   }
 
+  function learningGrammarBody(chapter) {
+    if (ui.learningLanguage === 'en' && chapter.extra && chapter.extra.bodyEn) return chapter.extra.bodyEn;
+    return chapter.grammar.body;
+  }
+
   function grammarCardHTML(chapter) {
     return `<a class="grammar-card" href="#/grammar/${chapter.id}">
       <div class="grammar-card-top"><span class="level-pill level-${chapter.level}">${chapter.level}</span><span class="grammar-kind">${chapter.category === 'Morfologia' ? 'MORFOLOGIA' : 'SINTAXE'}</span><span>${chapter.grammar.examples ? chapter.grammar.examples.length : 0} exemplos</span></div>
       <h3>${esc(chapter.grammar.title)}</h3>
       ${chapter.titleZh ? `<p class="grammar-card-zh">${esc(chapter.titleZh)}</p>` : ''}
-      <p>${esc(chapter.grammar.body)}</p>
+      <p>${esc(learningGrammarBody(chapter))}</p>
       <span class="grammar-card-link">Ler o capítulo ${icon('arrow-right')}</span>
     </a>`;
   }
@@ -2893,9 +2920,9 @@
         </header>
         <div class="grammar-chapter-grid">
           <article class="grammar-explanation">
-            <span class="eyebrow">EXPLICAÇÃO · 中文</span>
-            <p class="grammar-lead">${esc(grammar.body)}</p>
-            ${extra.bodyEn ? `<div class="grammar-lead-en"><span>EN</span>${esc(extra.bodyEn)}</div>` : ''}
+            <span class="eyebrow">EXPLICAÇÃO · ${ui.learningLanguage === 'en' ? 'ENGLISH' : '中文'}</span>
+            <p class="grammar-lead">${esc(learningGrammarBody(chapter))}</p>
+            ${ui.learningLanguage !== 'en' && extra.bodyEn ? `<div class="grammar-lead-en"><span>EN</span>${esc(extra.bodyEn)}</div>` : ''}
             <div class="grammar-examples"><span class="eyebrow">EXEMPLOS · 葡语 → 中文</span>
               ${(grammar.examples || []).map(example => `<div class="example-row">
                 <button class="audio-btn small" data-audio="${esc(example.pt)}" aria-label="Ouvir exemplo">${icon('volume')}</button>
@@ -5189,6 +5216,13 @@
             </label>`).join('')}
           </div>
         </div>
+        <div class="field">
+          <label for="settings-language">学习语言 <span>idioma de aprendizagem</span></label>
+          <select id="settings-language" name="learningLanguage">
+            ${LEARNING_LANGUAGES.map(lang => `<option value="${lang.id}" ${(state.settings.learningLanguage || 'zh') === lang.id ? 'selected' : ''}>${lang.native}</option>`).join('')}
+          </select>
+          <p class="field-hint">导航、词汇释义和语法讲解优先使用此语言；暂缺的翻译会回退到中文或 English。</p>
+        </div>
         <div class="field-row">
           <label class="switch-row" for="settings-sound">
             <span><strong>音效</strong><small>答对、答错和完成时的提示音</small></span>
@@ -5241,6 +5275,10 @@
     state.settings.sound = data.get('sound') === 'on';
     state.settings.voiceURI = String(data.get('voiceURI') || '');
     state.settings.rate = Number(data.get('rate')) || 0.9;
+    state.settings.learningLanguage = String(data.get('learningLanguage') || 'zh');
+    ui.learningLanguage = state.settings.learningLanguage;
+    document.documentElement.lang = ui.learningLanguage === 'zh' ? 'zh-CN' : ui.learningLanguage;
+    document.body.dataset.learningLang = ui.learningLanguage;
     saveState();
     closeModal();
     refreshChrome();
@@ -6086,6 +6124,9 @@
 
   function boot() {
     Speech.init();
+    ui.learningLanguage = state.settings.learningLanguage || 'zh';
+    document.documentElement.lang = ui.learningLanguage === 'zh' ? 'zh-CN' : ui.learningLanguage;
+    document.body.dataset.learningLang = ui.learningLanguage;
     document.body.dataset.version = APP_VERSION;
     const next = nextLesson();
     ui.courseLevel = next ? next.unit.level : 'A1';
