@@ -65,6 +65,7 @@ PT-PT 外部资源入口：
 - **销售与运营配置**：`js/config.js` 填支付链接/联系方式；`tools/make-license.mjs` 生成签名许可证；内置本地事件埋点，可接分析端点。
 - **可选账号 + 云同步**：Supabase 邮箱登录；学习后自动上传，换设备手动拉取；不登录仍使用本地模式。
 - **A2 原生 PT-PT 音频**：10 篇 A2 听力改为 Microsoft `pt-PT-RaquelNeural` 神经语音 MP3；听力页支持原生音频变速，A2 模考听力使用原生播放器。注意：这是神经语音，不是真人录音棚录音。
+- **静态 SEO 页面**：独立于 hash 路由的 134 个可收录页面（A2 CIPLE、100 篇文化、20 个场景、1000 句），带 canonical、Open Graph、JSON-LD、sitemap 和 robots.txt。
 - **课文真实照片**：阅读页按场景显示 1 幅**里斯本**真实照片（28 路电车、Pastéis de Belém、Mercado da Ribeira、Bertrand Chiado、Parque das Nações、Assembleia da República、Torre de Belém、法朵、azulejo 外墙、药物博物馆、Praça do Comércio）。全部来自 Wikimedia Commons，授权与作者见 [assets/photos/CREDITS.md](assets/photos/CREDITS.md)。
 
 ![独立阅读入口](screenshots/reading.png)
@@ -148,7 +149,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.3.0**。
+当前版本：**v3.4.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -201,6 +202,9 @@ azulejo/
 ├─ server/worker.js        # Stripe webhook + 许可证邮件 Worker
 ├─ server/README.md        # Worker 部署与密钥说明
 ├─ server/supabase.sql     # 账号云同步表 + RLS
+├─ seo/                    # 静态可收录页面（A2、100 篇文化、20 场景）
+├─ sitemap.xml             # 134 个静态 URL
+├─ robots.txt              # 允许抓取并指向 sitemap
 ├─ js/cloud.js             # Supabase 邮箱登录 + 进度同步
 ├─ js/audio-map.js         # A2.1–A2.10 原生音频映射
 ├─ tools/build-readings.mjs # 校验字数/题目并生成 js/readings.js
@@ -211,6 +215,7 @@ azulejo/
 ├─ tools/build-phrases.mjs # 合并 1000 句场景句型
 ├─ tools/build-culture.mjs # 合并 100 篇文化讲解
 ├─ tools/generate-a2-audio.py # 生成 A2 PT-PT 神经语音 MP3
+├─ tools/build-seo.mjs     # 生成 seo/、sitemap.xml、robots.txt
 ├─ tools/make-license.mjs  # 生成离线 Pro 许可证（需 .secrets 私钥）
 ├─ tools/qa.mjs            # Chrome CDP 自动化走查（开发用）
 └─ screenshots/            # 预览截图
@@ -291,6 +296,30 @@ supabaseAnonKey: 'eyJ...'
 第一次注册可能需要在 Supabase 里确认邮箱；确认后再登录。
 
 ![账号与云同步设置](screenshots/cloud.png)
+
+## 静态 SEO 页面
+
+应用主体是 hash 路由的 PWA，搜索引擎难以收录。因此另生成一套纯静态页面：
+
+- `/seo/a2-ciple/` — A2 CIPLE 销售落地页
+- `/seo/culture/` — 文化首页 + 10 个分类 + 100 篇文章
+- `/seo/phrases/` — 1000 句首页 + 20 个场景页
+- `/seo/` — 总入口
+- `/sitemap.xml`、`/robots.txt`
+
+内容更新后重新生成：
+
+```bash
+node tools/build-seo.mjs
+```
+
+生成器会重写 `seo/` 下的页面、`sitemap.xml` 和 `robots.txt`，但保留 `seo/seo.css`。上线后在 Google Search Console 提交：
+
+```text
+https://beango2025.github.io/azulejo/sitemap.xml
+```
+
+注意：静态页面里的 CTA 会跳回 PWA 的 `#/` 路由；SEO 页面只负责被搜索到和转化，课程交互仍在 PWA 里。
 
 ## 内容范围
 

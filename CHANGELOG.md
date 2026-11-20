@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.4.0 — 2026-11-20
+
+- Added a static, crawlable SEO layer: 1 A2 CIPLE landing page, a culture hub with 10 categories and 100 article pages, and a phrase hub with 20 scene pages.
+- Added `sitemap.xml` (134 URLs), `robots.txt`, canonical URLs, Open Graph metadata and JSON-LD.
+- Split the public marketing surface from the hash-routed PWA so Google can index the content.
+- Added a standalone `seo/seo.css` design and `tools/build-seo.mjs` generator.
+- Bumped the service worker cache to `azulejo-v3.4.0`.
+
 ## 3.3.0 — 2026-11-20
 
 - Added 10 recorded **PT-PT neural audio** files for the A2 listening tracks.
