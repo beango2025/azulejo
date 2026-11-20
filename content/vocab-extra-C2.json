@@ -1,0 +1,4187 @@
+[
+  {
+    "id": "c2x-001",
+    "pt": "a finitude",
+    "zh": "有限性",
+    "en": "finitude",
+    "fr": "la finitude",
+    "es": "la finitud",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-002",
+    "pt": "o absoluto",
+    "zh": "绝对（者）",
+    "en": "the absolute",
+    "fr": "l'absolu",
+    "es": "lo absoluto",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-003",
+    "pt": "a subjetividade",
+    "zh": "主体性",
+    "en": "subjectivity",
+    "fr": "la subjectivité",
+    "es": "la subjetividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-004",
+    "pt": "a objetividade",
+    "zh": "客观性",
+    "en": "objectivity",
+    "fr": "l'objectivité",
+    "es": "la objetividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-005",
+    "pt": "a intersubjetividade",
+    "zh": "主体间性",
+    "en": "intersubjectivity",
+    "fr": "l'intersubjectivité",
+    "es": "la intersubjetividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-006",
+    "pt": "o inconsciente",
+    "zh": "无意识",
+    "en": "the unconscious",
+    "fr": "l'inconscient",
+    "es": "el inconsciente",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-007",
+    "pt": "o dualismo",
+    "zh": "二元论",
+    "en": "dualism",
+    "fr": "le dualisme",
+    "es": "el dualismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-008",
+    "pt": "o monismo",
+    "zh": "一元论",
+    "en": "monism",
+    "fr": "le monisme",
+    "es": "el monismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-009",
+    "pt": "o empirismo",
+    "zh": "经验主义",
+    "en": "empiricism",
+    "fr": "l'empirisme",
+    "es": "el empirismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-010",
+    "pt": "o racionalismo",
+    "zh": "理性主义",
+    "en": "rationalism",
+    "fr": "le rationalisme",
+    "es": "el racionalismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-011",
+    "pt": "o idealismo",
+    "zh": "唯心主义",
+    "en": "idealism",
+    "fr": "l'idéalisme",
+    "es": "el idealismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-012",
+    "pt": "o materialismo",
+    "zh": "唯物主义",
+    "en": "materialism",
+    "fr": "le matérialisme",
+    "es": "el materialismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-013",
+    "pt": "o existencialismo",
+    "zh": "存在主义",
+    "en": "existentialism",
+    "fr": "l'existentialisme",
+    "es": "el existencialismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-014",
+    "pt": "o estoicismo",
+    "zh": "斯多葛主义",
+    "en": "stoicism",
+    "fr": "le stoïcisme",
+    "es": "el estoicismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-015",
+    "pt": "o ceticismo",
+    "zh": "怀疑主义",
+    "en": "scepticism",
+    "fr": "le scepticisme",
+    "es": "el escepticismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-016",
+    "pt": "o dogmatismo",
+    "zh": "教条主义",
+    "en": "dogmatism",
+    "fr": "le dogmatisme",
+    "es": "el dogmatismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-017",
+    "pt": "o relativismo",
+    "zh": "相对主义",
+    "en": "relativism",
+    "fr": "le relativisme",
+    "es": "el relativismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-018",
+    "pt": "o utilitarismo",
+    "zh": "功利主义",
+    "en": "utilitarianism",
+    "fr": "l'utilitarisme",
+    "es": "el utilitarismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-019",
+    "pt": "o pragmatismo",
+    "zh": "实用主义",
+    "en": "pragmatism",
+    "fr": "le pragmatisme",
+    "es": "el pragmatismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-020",
+    "pt": "o determinismo",
+    "zh": "决定论",
+    "en": "determinism",
+    "fr": "le déterminisme",
+    "es": "el determinismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-021",
+    "pt": "o fatalismo",
+    "zh": "宿命论",
+    "en": "fatalism",
+    "fr": "le fatalisme",
+    "es": "el fatalismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-022",
+    "pt": "o livre-arbítrio",
+    "zh": "自由意志",
+    "en": "free will",
+    "fr": "le libre arbitre",
+    "es": "el libre albedrío",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-023",
+    "pt": "a virtude",
+    "zh": "德性",
+    "en": "virtue",
+    "fr": "la vertu",
+    "es": "la virtud",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-024",
+    "pt": "o vício",
+    "zh": "恶习",
+    "en": "vice",
+    "fr": "le vice",
+    "es": "el vicio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-025",
+    "pt": "a moralidade",
+    "zh": "道德性",
+    "en": "morality",
+    "fr": "la moralité",
+    "es": "la moralidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-026",
+    "pt": "o imperativo categórico",
+    "zh": "绝对命令",
+    "en": "categorical imperative",
+    "fr": "l'impératif catégorique",
+    "es": "el imperativo categórico",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-027",
+    "pt": "a autodeterminação",
+    "zh": "自决",
+    "en": "self-determination",
+    "fr": "l'autodétermination",
+    "es": "la autodeterminación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-028",
+    "pt": "a autonomia",
+    "zh": "自主性",
+    "en": "autonomy",
+    "fr": "l'autonomie",
+    "es": "la autonomía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-029",
+    "pt": "a heteronomia",
+    "zh": "他律",
+    "en": "heteronomy",
+    "fr": "l'hétéronomie",
+    "es": "la heteronomía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-030",
+    "pt": "a emancipação",
+    "zh": "解放",
+    "en": "emancipation",
+    "fr": "l'émancipation",
+    "es": "la emancipación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-031",
+    "pt": "a alienação",
+    "zh": "异化",
+    "en": "alienation",
+    "fr": "l'aliénation",
+    "es": "la alienación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-032",
+    "pt": "a reificação",
+    "zh": "物化",
+    "en": "reification",
+    "fr": "la réification",
+    "es": "la cosificación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-033",
+    "pt": "a práxis",
+    "zh": "实践",
+    "en": "praxis",
+    "fr": "la praxis",
+    "es": "la praxis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-034",
+    "pt": "o apriorismo",
+    "zh": "先验主义",
+    "en": "apriorism",
+    "fr": "l'apriorisme",
+    "es": "el apriorismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-035",
+    "pt": "o postulado",
+    "zh": "公设",
+    "en": "postulate",
+    "fr": "le postulat",
+    "es": "el postulado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-036",
+    "pt": "o axioma",
+    "zh": "公理",
+    "en": "axiom",
+    "fr": "l'axiome",
+    "es": "el axioma",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-037",
+    "pt": "o entimema",
+    "zh": "省略三段论",
+    "en": "enthymeme",
+    "fr": "l'enthymème",
+    "es": "el entimema",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-038",
+    "pt": "a silogística",
+    "zh": "三段论学",
+    "en": "syllogistic",
+    "fr": "la syllogistique",
+    "es": "la silogística",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-039",
+    "pt": "o indutivismo",
+    "zh": "归纳主义",
+    "en": "inductivism",
+    "fr": "l'inductivisme",
+    "es": "el inductivismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-040",
+    "pt": "a abdução",
+    "zh": "溯因推理",
+    "en": "abduction",
+    "fr": "l'abduction",
+    "es": "la abducción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-041",
+    "pt": "a implicação",
+    "zh": "蕴涵",
+    "en": "implication",
+    "fr": "l'implication",
+    "es": "la implicación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-042",
+    "pt": "o raciocínio",
+    "zh": "推理",
+    "en": "reasoning",
+    "fr": "le raisonnement",
+    "es": "el razonamiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-043",
+    "pt": "a cogência",
+    "zh": "说服力；强制性",
+    "en": "cogency",
+    "fr": "la rigueur démonstrative",
+    "es": "la contundencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-044",
+    "pt": "o corolário",
+    "zh": "推论",
+    "en": "corollary",
+    "fr": "le corollaire",
+    "es": "el corolario",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-045",
+    "pt": "a circularidade",
+    "zh": "循环论证",
+    "en": "circularity",
+    "fr": "la circularité",
+    "es": "la circularidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-046",
+    "pt": "a antinomia",
+    "zh": "二律背反",
+    "en": "antinomy",
+    "fr": "l'antinomie",
+    "es": "la antinomia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-047",
+    "pt": "a polaridade",
+    "zh": "极性",
+    "en": "polarity",
+    "fr": "la polarité",
+    "es": "la polaridad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-048",
+    "pt": "a taxonomia",
+    "zh": "分类学",
+    "en": "taxonomy",
+    "fr": "la taxonomie",
+    "es": "la taxonomía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-049",
+    "pt": "a hierarquia",
+    "zh": "等级制度",
+    "en": "hierarchy",
+    "fr": "la hiérarchie",
+    "es": "la jerarquía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-050",
+    "pt": "a genealogia",
+    "zh": "谱系学",
+    "en": "genealogy",
+    "fr": "la généalogie",
+    "es": "la genealogía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-051",
+    "pt": "a arqueologia",
+    "zh": "考古学",
+    "en": "archaeology",
+    "fr": "l'archéologie",
+    "es": "la arqueología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-052",
+    "pt": "a etimologia",
+    "zh": "词源学",
+    "en": "etymology",
+    "fr": "l'étymologie",
+    "es": "la etimología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-053",
+    "pt": "a semântica",
+    "zh": "语义学",
+    "en": "semantics",
+    "fr": "la sémantique",
+    "es": "la semántica",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-054",
+    "pt": "a pragmática",
+    "zh": "语用学",
+    "en": "pragmatics",
+    "fr": "la pragmatique",
+    "es": "la pragmática",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-055",
+    "pt": "a sintaxe",
+    "zh": "句法",
+    "en": "syntax",
+    "fr": "la syntaxe",
+    "es": "la sintaxis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-056",
+    "pt": "a morfologia",
+    "zh": "形态学",
+    "en": "morphology",
+    "fr": "la morphologie",
+    "es": "la morfología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-057",
+    "pt": "a fonologia",
+    "zh": "音系学",
+    "en": "phonology",
+    "fr": "la phonologie",
+    "es": "la fonología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-058",
+    "pt": "o significante",
+    "zh": "能指",
+    "en": "signifier",
+    "fr": "le signifiant",
+    "es": "el significante",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-059",
+    "pt": "o significado",
+    "zh": "所指",
+    "en": "signified",
+    "fr": "le signifié",
+    "es": "el significado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-060",
+    "pt": "o referente",
+    "zh": "指称对象",
+    "en": "referent",
+    "fr": "le référent",
+    "es": "el referente",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-061",
+    "pt": "a enunciação",
+    "zh": "陈述行为",
+    "en": "enunciation",
+    "fr": "l'énonciation",
+    "es": "la enunciación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-062",
+    "pt": "o enunciado",
+    "zh": "陈述",
+    "en": "utterance",
+    "fr": "l'énoncé",
+    "es": "el enunciado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-063",
+    "pt": "o discurso",
+    "zh": "话语",
+    "en": "discourse",
+    "fr": "le discours",
+    "es": "el discurso",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-064",
+    "pt": "a sofística",
+    "zh": "诡辩术",
+    "en": "sophistry",
+    "fr": "la sophistique",
+    "es": "la sofística",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-065",
+    "pt": "o sofisma",
+    "zh": "诡辩",
+    "en": "sophism",
+    "fr": "le sophisme",
+    "es": "el sofisma",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-066",
+    "pt": "o paralogismo",
+    "zh": "谬误推理",
+    "en": "paralogism",
+    "fr": "le paralogisme",
+    "es": "el paralogismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-067",
+    "pt": "o apotegma",
+    "zh": "格言警句",
+    "en": "apophthegm",
+    "fr": "l'apophtegme",
+    "es": "el apotegma",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-068",
+    "pt": "a máxima",
+    "zh": "箴言",
+    "en": "maxim",
+    "fr": "la maxime",
+    "es": "la máxima",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-069",
+    "pt": "o adágio",
+    "zh": "谚语",
+    "en": "adage",
+    "fr": "l'adage",
+    "es": "el adagio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-070",
+    "pt": "o provérbio",
+    "zh": "谚语",
+    "en": "proverb",
+    "fr": "le proverbe",
+    "es": "el proverbio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-071",
+    "pt": "a parábola",
+    "zh": "寓言",
+    "en": "parable",
+    "fr": "la parabole",
+    "es": "la parábola",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-072",
+    "pt": "a alegoria",
+    "zh": "讽喻",
+    "en": "allegory",
+    "fr": "l'allégorie",
+    "es": "la alegoría",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-073",
+    "pt": "a semiótica",
+    "zh": "符号学",
+    "en": "semiotics",
+    "fr": "la sémiotique",
+    "es": "la semiótica",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-074",
+    "pt": "o signo",
+    "zh": "符号",
+    "en": "sign",
+    "fr": "le signe",
+    "es": "el signo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-075",
+    "pt": "o ícone",
+    "zh": "图像符号",
+    "en": "icon",
+    "fr": "l'icône",
+    "es": "el icono",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-076",
+    "pt": "a mimese",
+    "zh": "模仿",
+    "en": "mimesis",
+    "fr": "la mimèsis",
+    "es": "la mímesis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-077",
+    "pt": "o pathos",
+    "zh": "悲怆",
+    "en": "pathos",
+    "fr": "le pathos",
+    "es": "el pathos",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-078",
+    "pt": "o ethos",
+    "zh": "伦理气质",
+    "en": "ethos",
+    "fr": "l'ethos",
+    "es": "el ethos",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-079",
+    "pt": "o logos",
+    "zh": "逻各斯",
+    "en": "logos",
+    "fr": "le logos",
+    "es": "el logos",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-080",
+    "pt": "o messianismo",
+    "zh": "弥赛亚主义",
+    "en": "messianism",
+    "fr": "le messianisme",
+    "es": "el mesianismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-081",
+    "pt": "a liturgia",
+    "zh": "礼仪",
+    "en": "liturgy",
+    "fr": "la liturgie",
+    "es": "la liturgia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-082",
+    "pt": "o sagrado",
+    "zh": "神圣",
+    "en": "the sacred",
+    "fr": "le sacré",
+    "es": "lo sagrado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-083",
+    "pt": "o profano",
+    "zh": "世俗",
+    "en": "the profane",
+    "fr": "le profane",
+    "es": "lo profano",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-084",
+    "pt": "a epifania",
+    "zh": "顿悟",
+    "en": "epiphany",
+    "fr": "l'épiphanie",
+    "es": "la epifanía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-085",
+    "pt": "o êxtase",
+    "zh": "狂喜",
+    "en": "ecstasy",
+    "fr": "l'extase",
+    "es": "el éxtasis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-086",
+    "pt": "a ascese",
+    "zh": "苦修",
+    "en": "ascesis",
+    "fr": "l'ascèse",
+    "es": "la ascesis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-087",
+    "pt": "a mística",
+    "zh": "神秘主义",
+    "en": "mysticism",
+    "fr": "la mystique",
+    "es": "la mística",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-088",
+    "pt": "o dogma",
+    "zh": "教义",
+    "en": "dogma",
+    "fr": "le dogme",
+    "es": "el dogma",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-089",
+    "pt": "a heresia",
+    "zh": "异端",
+    "en": "heresy",
+    "fr": "l'hérésie",
+    "es": "la herejía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-090",
+    "pt": "o cisma",
+    "zh": "教会分裂",
+    "en": "schism",
+    "fr": "le schisme",
+    "es": "el cisma",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-091",
+    "pt": "a ortodoxia",
+    "zh": "正统",
+    "en": "orthodoxy",
+    "fr": "l'orthodoxie",
+    "es": "la ortodoxia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-092",
+    "pt": "a escatologia",
+    "zh": "末世论",
+    "en": "eschatology",
+    "fr": "l'eschatologie",
+    "es": "la escatología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-093",
+    "pt": "a providência",
+    "zh": "天意",
+    "en": "providence",
+    "fr": "la providence",
+    "es": "la providencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-094",
+    "pt": "o códice",
+    "zh": "抄本；法典",
+    "en": "codex",
+    "fr": "le codex",
+    "es": "el códice",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-095",
+    "pt": "a filologia",
+    "zh": "语文学",
+    "en": "philology",
+    "fr": "la philologie",
+    "es": "la filología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-096",
+    "pt": "a paleografia",
+    "zh": "古文字学",
+    "en": "palaeography",
+    "fr": "la paléographie",
+    "es": "la paleografía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-097",
+    "pt": "o manuscrito",
+    "zh": "手稿",
+    "en": "manuscript",
+    "fr": "le manuscrit",
+    "es": "el manuscrito",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-098",
+    "pt": "o incunábulo",
+    "zh": "摇篮本",
+    "en": "incunabulum",
+    "fr": "l'incunable",
+    "es": "el incunable",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-099",
+    "pt": "a epígrafe",
+    "zh": "题词",
+    "en": "epigraph",
+    "fr": "l'épigraphe",
+    "es": "la epígrafe",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-100",
+    "pt": "o prólogo",
+    "zh": "序言",
+    "en": "prologue",
+    "fr": "le prologue",
+    "es": "el prólogo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-101",
+    "pt": "o epílogo",
+    "zh": "尾声",
+    "en": "epilogue",
+    "fr": "l'épilogue",
+    "es": "el epílogo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-102",
+    "pt": "o interlúdio",
+    "zh": "间奏",
+    "en": "interlude",
+    "fr": "l'interlude",
+    "es": "el interludio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-103",
+    "pt": "a peripécia",
+    "zh": "突转",
+    "en": "peripeteia",
+    "fr": "la péripétie",
+    "es": "la peripecia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-104",
+    "pt": "o desenlace",
+    "zh": "结局",
+    "en": "denouement",
+    "fr": "le dénouement",
+    "es": "el desenlace",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-105",
+    "pt": "o clímax",
+    "zh": "高潮",
+    "en": "climax",
+    "fr": "le climax",
+    "es": "el clímax",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-106",
+    "pt": "a analepse",
+    "zh": "倒叙",
+    "en": "analepsis",
+    "fr": "l'analepse",
+    "es": "la analepsis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-107",
+    "pt": "a prolepse",
+    "zh": "预叙",
+    "en": "prolepsis",
+    "fr": "la prolepse",
+    "es": "la prolepsis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-108",
+    "pt": "o anti-herói",
+    "zh": "反英雄",
+    "en": "antihero",
+    "fr": "l'antihéros",
+    "es": "el antihéroe",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-109",
+    "pt": "o monólogo interior",
+    "zh": "内心独白",
+    "en": "interior monologue",
+    "fr": "le monologue intérieur",
+    "es": "el monólogo interior",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-110",
+    "pt": "o fluxo de consciência",
+    "zh": "意识流",
+    "en": "stream of consciousness",
+    "fr": "le flux de conscience",
+    "es": "el flujo de conciencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-111",
+    "pt": "o pastiche",
+    "zh": "拼贴仿作",
+    "en": "pastiche",
+    "fr": "le pastiche",
+    "es": "el pastiche",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-112",
+    "pt": "a apropriação",
+    "zh": "挪用",
+    "en": "appropriation",
+    "fr": "l'appropriation",
+    "es": "la apropiación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-113",
+    "pt": "a alusão",
+    "zh": "典故",
+    "en": "allusion",
+    "fr": "l'allusion",
+    "es": "la alusión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-114",
+    "pt": "a citação",
+    "zh": "引文",
+    "en": "quotation",
+    "fr": "la citation",
+    "es": "la cita",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-115",
+    "pt": "o plágio",
+    "zh": "剽窃",
+    "en": "plagiarism",
+    "fr": "le plagiat",
+    "es": "el plagio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-116",
+    "pt": "o trocadilho",
+    "zh": "双关语",
+    "en": "pun",
+    "fr": "le calembour",
+    "es": "el retruécano",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-117",
+    "pt": "a antífrase",
+    "zh": "反语",
+    "en": "antiphrasis",
+    "fr": "l'antiphrase",
+    "es": "la antifrasis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-118",
+    "pt": "a litote",
+    "zh": "曲言法",
+    "en": "litotes",
+    "fr": "la litote",
+    "es": "la lítote",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-119",
+    "pt": "a preterição",
+    "zh": "阳否阴述",
+    "en": "preterition",
+    "fr": "la prétérition",
+    "es": "la preterición",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-120",
+    "pt": "a apóstrofe",
+    "zh": "呼语",
+    "en": "apostrophe",
+    "fr": "l'apostrophe",
+    "es": "la apóstrofe",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-121",
+    "pt": "a prosopopeia",
+    "zh": "拟人",
+    "en": "prosopopoeia",
+    "fr": "la prosopopée",
+    "es": "la prosopopeya",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-122",
+    "pt": "a sinédoque",
+    "zh": "提喻",
+    "en": "synecdoche",
+    "fr": "la synecdoque",
+    "es": "la sinécdoque",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-123",
+    "pt": "a hipálage",
+    "zh": "移就",
+    "en": "hypallage",
+    "fr": "l'hypallage",
+    "es": "la hipálage",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-124",
+    "pt": "o hipérbato",
+    "zh": "倒装",
+    "en": "hyperbaton",
+    "fr": "l'hyperbate",
+    "es": "el hipérbaton",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-125",
+    "pt": "a elipse",
+    "zh": "省略",
+    "en": "ellipsis",
+    "fr": "l'ellipse",
+    "es": "la elipsis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-126",
+    "pt": "o assíndeto",
+    "zh": "连词省略",
+    "en": "asyndeton",
+    "fr": "l'asyndète",
+    "es": "el asíndeton",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-127",
+    "pt": "o polissíndeto",
+    "zh": "连词叠用",
+    "en": "polysyndeton",
+    "fr": "le polysyndète",
+    "es": "el polisíndeton",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-128",
+    "pt": "a gradação",
+    "zh": "层递",
+    "en": "gradation",
+    "fr": "la gradation",
+    "es": "la gradación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-129",
+    "pt": "o sarcasmo",
+    "zh": "讽刺",
+    "en": "sarcasm",
+    "fr": "le sarcasme",
+    "es": "el sarcasmo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-130",
+    "pt": "a invectiva",
+    "zh": "谩骂",
+    "en": "invective",
+    "fr": "l'invective",
+    "es": "la invectiva",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-131",
+    "pt": "a diatribe",
+    "zh": "激烈抨击",
+    "en": "diatribe",
+    "fr": "la diatribe",
+    "es": "la diatriba",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-132",
+    "pt": "o panegírico",
+    "zh": "颂词",
+    "en": "panegyric",
+    "fr": "le panégyrique",
+    "es": "el panegírico",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-133",
+    "pt": "a elegia",
+    "zh": "哀歌",
+    "en": "elegy",
+    "fr": "l'élégie",
+    "es": "la elegía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-134",
+    "pt": "o ditirambo",
+    "zh": "酒神颂",
+    "en": "dithyramb",
+    "fr": "le dithyrambe",
+    "es": "el ditirambo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-135",
+    "pt": "a ode",
+    "zh": "颂诗",
+    "en": "ode",
+    "fr": "l'ode",
+    "es": "la oda",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-136",
+    "pt": "o soneto",
+    "zh": "十四行诗",
+    "en": "sonnet",
+    "fr": "le sonnet",
+    "es": "el soneto",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-137",
+    "pt": "a quadra",
+    "zh": "四行诗",
+    "en": "quatrain",
+    "fr": "le quatrain",
+    "es": "la cuarteta",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-138",
+    "pt": "a redondilha",
+    "zh": "五七音节诗行",
+    "en": "redondilha verse",
+    "fr": "la redondilha",
+    "es": "la redondilla",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-139",
+    "pt": "o hendecassílabo",
+    "zh": "十一音节诗行",
+    "en": "hendecasyllable",
+    "fr": "l'hendécasyllabe",
+    "es": "el endecasílabo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-140",
+    "pt": "o alexandrino",
+    "zh": "亚历山大体",
+    "en": "alexandrine",
+    "fr": "l'alexandrin",
+    "es": "el alejandrino",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-141",
+    "pt": "a rima toante",
+    "zh": "元音韵",
+    "en": "assonant rhyme",
+    "fr": "la rime assonante",
+    "es": "la rima asonante",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-142",
+    "pt": "a rima consoante",
+    "zh": "辅音韵",
+    "en": "consonant rhyme",
+    "fr": "la rime consonantique",
+    "es": "la rima consonante",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-143",
+    "pt": "o ritmo",
+    "zh": "节奏",
+    "en": "rhythm",
+    "fr": "le rythme",
+    "es": "el ritmo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-144",
+    "pt": "a cadência",
+    "zh": "韵律",
+    "en": "cadence",
+    "fr": "la cadence",
+    "es": "la cadencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-145",
+    "pt": "a cesura",
+    "zh": "停顿",
+    "en": "caesura",
+    "fr": "la césure",
+    "es": "la cesura",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-146",
+    "pt": "o encavalgamento",
+    "zh": "跨行",
+    "en": "enjambment",
+    "fr": "l'enjambement",
+    "es": "el encabalgamiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-147",
+    "pt": "a estrofe",
+    "zh": "诗节",
+    "en": "stanza",
+    "fr": "la strophe",
+    "es": "la estrofa",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-148",
+    "pt": "o refrão",
+    "zh": "副歌",
+    "en": "refrain",
+    "fr": "le refrain",
+    "es": "el estribillo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-149",
+    "pt": "o coro",
+    "zh": "合唱",
+    "en": "chorus",
+    "fr": "le chœur",
+    "es": "el coro",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-150",
+    "pt": "a tragicomédia",
+    "zh": "悲喜剧",
+    "en": "tragicomedy",
+    "fr": "la tragi-comédie",
+    "es": "la tragicomedia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-151",
+    "pt": "o auto",
+    "zh": "宗教短剧",
+    "en": "religious play",
+    "fr": "l'auto",
+    "es": "el auto sacramental",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-152",
+    "pt": "a farsa",
+    "zh": "闹剧",
+    "en": "farce",
+    "fr": "la farce",
+    "es": "la farsa",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-153",
+    "pt": "o entremez",
+    "zh": "幕间短剧",
+    "en": "interlude",
+    "fr": "l'intermède",
+    "es": "el entremés",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-154",
+    "pt": "o drama",
+    "zh": "戏剧",
+    "en": "drama",
+    "fr": "le drame",
+    "es": "el drama",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-155",
+    "pt": "a novela",
+    "zh": "中篇小说",
+    "en": "novella",
+    "fr": "le roman court",
+    "es": "la novela corta",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-156",
+    "pt": "o apólogo",
+    "zh": "寓言故事",
+    "en": "apologue",
+    "fr": "l'apologue",
+    "es": "el apólogo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-157",
+    "pt": "o romance-folhetim",
+    "zh": "连载小说",
+    "en": "serialised novel",
+    "fr": "le roman-feuilleton",
+    "es": "la novela por entregas",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-158",
+    "pt": "o ensaio",
+    "zh": "随笔",
+    "en": "essay",
+    "fr": "l'essai",
+    "es": "el ensayo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-159",
+    "pt": "a autobiografia",
+    "zh": "自传",
+    "en": "autobiography",
+    "fr": "l'autobiographie",
+    "es": "la autobiografía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-160",
+    "pt": "a biografia",
+    "zh": "传记",
+    "en": "biography",
+    "fr": "la biographie",
+    "es": "la biografía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-161",
+    "pt": "o diário",
+    "zh": "日记",
+    "en": "diary",
+    "fr": "le journal",
+    "es": "el diario",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-162",
+    "pt": "o epistolário",
+    "zh": "书信集",
+    "en": "collected letters",
+    "fr": "le recueil de lettres",
+    "es": "el epistolario",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-163",
+    "pt": "o original",
+    "zh": "原稿",
+    "en": "original",
+    "fr": "l'original",
+    "es": "el original",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-164",
+    "pt": "a versão",
+    "zh": "版本",
+    "en": "version",
+    "fr": "la version",
+    "es": "la versión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-165",
+    "pt": "a variante",
+    "zh": "异文",
+    "en": "variant",
+    "fr": "la variante",
+    "es": "la variante",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-166",
+    "pt": "o testemunho",
+    "zh": "见证",
+    "en": "testimony",
+    "fr": "le témoignage",
+    "es": "el testimonio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-167",
+    "pt": "a receção",
+    "zh": "接受",
+    "en": "reception",
+    "fr": "la réception",
+    "es": "la recepción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-168",
+    "pt": "a estética",
+    "zh": "美学",
+    "en": "aesthetics",
+    "fr": "l'esthétique",
+    "es": "la estética",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-169",
+    "pt": "a poética",
+    "zh": "诗学",
+    "en": "poetics",
+    "fr": "la poétique",
+    "es": "la poética",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-170",
+    "pt": "o decoro",
+    "zh": "得体",
+    "en": "decorum",
+    "fr": "le décorum",
+    "es": "el decoro",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-171",
+    "pt": "o sublime",
+    "zh": "崇高",
+    "en": "the sublime",
+    "fr": "le sublime",
+    "es": "lo sublime",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-172",
+    "pt": "o pitoresco",
+    "zh": "如画",
+    "en": "the picturesque",
+    "fr": "le pittoresque",
+    "es": "lo pintoresco",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-173",
+    "pt": "o grotesco",
+    "zh": "怪诞",
+    "en": "the grotesque",
+    "fr": "le grotesque",
+    "es": "lo grotesco",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-174",
+    "pt": "o fantástico",
+    "zh": "奇幻",
+    "en": "the fantastic",
+    "fr": "le fantastique",
+    "es": "lo fantástico",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-175",
+    "pt": "o maravilhoso",
+    "zh": "神异",
+    "en": "the marvellous",
+    "fr": "le merveilleux",
+    "es": "lo maravilloso",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-176",
+    "pt": "o realismo",
+    "zh": "现实主义",
+    "en": "realism",
+    "fr": "le réalisme",
+    "es": "el realismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-177",
+    "pt": "o naturalismo",
+    "zh": "自然主义",
+    "en": "naturalism",
+    "fr": "le naturalisme",
+    "es": "el naturalismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-178",
+    "pt": "o romantismo",
+    "zh": "浪漫主义",
+    "en": "romanticism",
+    "fr": "le romantisme",
+    "es": "el romanticismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-179",
+    "pt": "o simbolismo",
+    "zh": "象征主义",
+    "en": "symbolism",
+    "fr": "le symbolisme",
+    "es": "el simbolismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-180",
+    "pt": "o modernismo",
+    "zh": "现代主义",
+    "en": "modernism",
+    "fr": "le modernisme",
+    "es": "el modernismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-181",
+    "pt": "o barroco",
+    "zh": "巴洛克",
+    "en": "the baroque",
+    "fr": "le baroque",
+    "es": "el barroco",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-182",
+    "pt": "o neoclassicismo",
+    "zh": "新古典主义",
+    "en": "neoclassicism",
+    "fr": "le néoclassicisme",
+    "es": "el neoclasicismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-183",
+    "pt": "o classicismo",
+    "zh": "古典主义",
+    "en": "classicism",
+    "fr": "le classicisme",
+    "es": "el clasicismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-184",
+    "pt": "a vanguarda",
+    "zh": "先锋派",
+    "en": "the avant-garde",
+    "fr": "l'avant-garde",
+    "es": "la vanguardia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-185",
+    "pt": "o experimentalismo",
+    "zh": "实验主义",
+    "en": "experimentalism",
+    "fr": "l'expérimentalisme",
+    "es": "el experimentalismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-186",
+    "pt": "a metaficção",
+    "zh": "元小说",
+    "en": "metafiction",
+    "fr": "la métafiction",
+    "es": "la metaficción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-187",
+    "pt": "o Estado de direito",
+    "zh": "法治国家",
+    "en": "the rule of law",
+    "fr": "l'État de droit",
+    "es": "el Estado de derecho",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-188",
+    "pt": "a separação de poderes",
+    "zh": "权力分立",
+    "en": "separation of powers",
+    "fr": "la séparation des pouvoirs",
+    "es": "la separación de poderes",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-189",
+    "pt": "a demagogia",
+    "zh": "煽动政治",
+    "en": "demagogy",
+    "fr": "la démagogie",
+    "es": "la demagogia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-190",
+    "pt": "o eleitorado",
+    "zh": "选民",
+    "en": "electorate",
+    "fr": "l'électorat",
+    "es": "el electorado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-191",
+    "pt": "a governabilidade",
+    "zh": "可治理性",
+    "en": "governability",
+    "fr": "la gouvernabilité",
+    "es": "la gobernabilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-192",
+    "pt": "a cisão",
+    "zh": "分裂",
+    "en": "split",
+    "fr": "la scission",
+    "es": "la escisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-193",
+    "pt": "a moção",
+    "zh": "动议",
+    "en": "motion",
+    "fr": "la motion",
+    "es": "la moción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-194",
+    "pt": "a legislatura",
+    "zh": "立法任期",
+    "en": "parliamentary term",
+    "fr": "la législature",
+    "es": "la legislatura",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-195",
+    "pt": "o presidencialismo",
+    "zh": "总统制",
+    "en": "presidentialism",
+    "fr": "le présidentialisme",
+    "es": "el presidencialismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-196",
+    "pt": "a homologação",
+    "zh": "核准",
+    "en": "approval",
+    "fr": "l'homologation",
+    "es": "la homologación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-197",
+    "pt": "a destituição",
+    "zh": "罢免",
+    "en": "impeachment",
+    "fr": "la destitution",
+    "es": "la destitución",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-198",
+    "pt": "a constitucionalidade",
+    "zh": "合宪性",
+    "en": "constitutionality",
+    "fr": "la constitutionnalité",
+    "es": "la constitucionalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-199",
+    "pt": "a inconstitucionalidade",
+    "zh": "违宪",
+    "en": "unconstitutionality",
+    "fr": "l'inconstitutionnalité",
+    "es": "la inconstitucionalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-200",
+    "pt": "a doutrina",
+    "zh": "学说",
+    "en": "doctrine",
+    "fr": "la doctrine",
+    "es": "la doctrina",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-201",
+    "pt": "o acórdão",
+    "zh": "终审判决",
+    "en": "judgment",
+    "fr": "l'arrêt",
+    "es": "el fallo judicial",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-202",
+    "pt": "a sentença",
+    "zh": "判决",
+    "en": "sentence",
+    "fr": "la sentence",
+    "es": "la sentencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-203",
+    "pt": "a acusação",
+    "zh": "起诉",
+    "en": "prosecution",
+    "fr": "l'accusation",
+    "es": "la acusación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-204",
+    "pt": "o arguido",
+    "zh": "被告",
+    "en": "defendant",
+    "fr": "l'inculpé",
+    "es": "el imputado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-205",
+    "pt": "o réu",
+    "zh": "被告人",
+    "en": "the accused",
+    "fr": "l'accusé",
+    "es": "el reo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-206",
+    "pt": "o depoimento",
+    "zh": "证词",
+    "en": "deposition",
+    "fr": "la déposition",
+    "es": "la declaración",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-207",
+    "pt": "o perito",
+    "zh": "鉴定专家",
+    "en": "expert witness",
+    "fr": "l'expert",
+    "es": "el perito",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-208",
+    "pt": "a perícia",
+    "zh": "鉴定",
+    "en": "expert examination",
+    "fr": "l'expertise",
+    "es": "la pericia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-209",
+    "pt": "o dolo",
+    "zh": "故意",
+    "en": "intent",
+    "fr": "le dol",
+    "es": "el dolo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-210",
+    "pt": "a negligência",
+    "zh": "过失",
+    "en": "negligence",
+    "fr": "la négligence",
+    "es": "la negligencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-211",
+    "pt": "a prescrição",
+    "zh": "时效",
+    "en": "statute of limitations",
+    "fr": "la prescription",
+    "es": "la prescripción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-212",
+    "pt": "o recurso",
+    "zh": "上诉",
+    "en": "appeal",
+    "fr": "le recours",
+    "es": "el recurso",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-213",
+    "pt": "a instância",
+    "zh": "审级",
+    "en": "instance",
+    "fr": "l'instance",
+    "es": "la instancia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-214",
+    "pt": "o júri",
+    "zh": "陪审团",
+    "en": "jury",
+    "fr": "le jury",
+    "es": "el jurado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-215",
+    "pt": "a deliberação",
+    "zh": "决议",
+    "en": "deliberation",
+    "fr": "la délibération",
+    "es": "la deliberación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-216",
+    "pt": "a ata",
+    "zh": "会议记录",
+    "en": "minutes",
+    "fr": "le procès-verbal",
+    "es": "el acta",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-217",
+    "pt": "o parecer",
+    "zh": "意见书",
+    "en": "opinion",
+    "fr": "l'avis",
+    "es": "el dictamen",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-218",
+    "pt": "o despacho",
+    "zh": "批示",
+    "en": "order",
+    "fr": "l'arrêté",
+    "es": "el despacho",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-219",
+    "pt": "a portaria",
+    "zh": "部令",
+    "en": "ministerial order",
+    "fr": "l'arrêté ministériel",
+    "es": "la orden ministerial",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-220",
+    "pt": "a resolução",
+    "zh": "决议",
+    "en": "resolution",
+    "fr": "la résolution",
+    "es": "la resolución",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-221",
+    "pt": "a diretiva",
+    "zh": "指令",
+    "en": "directive",
+    "fr": "la directive",
+    "es": "la directiva",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-222",
+    "pt": "o regulamento",
+    "zh": "条例",
+    "en": "regulation",
+    "fr": "le règlement",
+    "es": "el reglamento",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-223",
+    "pt": "a norma",
+    "zh": "规范",
+    "en": "norm",
+    "fr": "la norme",
+    "es": "la norma",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-224",
+    "pt": "a cláusula",
+    "zh": "条款",
+    "en": "clause",
+    "fr": "la clause",
+    "es": "la cláusula",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-225",
+    "pt": "o preâmbulo",
+    "zh": "序言",
+    "en": "preamble",
+    "fr": "le préambule",
+    "es": "el preámbulo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-226",
+    "pt": "a ratificação",
+    "zh": "批准",
+    "en": "ratification",
+    "fr": "la ratification",
+    "es": "la ratificación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-227",
+    "pt": "a transposição",
+    "zh": "转化",
+    "en": "transposition",
+    "fr": "la transposition",
+    "es": "la transposición",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-228",
+    "pt": "a derrogação",
+    "zh": "部分废止",
+    "en": "derogation",
+    "fr": "la dérogation",
+    "es": "la derogación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-229",
+    "pt": "a revogação",
+    "zh": "废止",
+    "en": "repeal",
+    "fr": "l'abrogation",
+    "es": "la revocación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-230",
+    "pt": "a caducidade",
+    "zh": "失效",
+    "en": "lapse",
+    "fr": "la caducité",
+    "es": "la caducidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-231",
+    "pt": "a moratória",
+    "zh": "延期偿付",
+    "en": "moratorium",
+    "fr": "le moratoire",
+    "es": "la moratoria",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-232",
+    "pt": "o incumprimento",
+    "zh": "不履行",
+    "en": "non-compliance",
+    "fr": "le manquement",
+    "es": "el incumplimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-233",
+    "pt": "a arbitragem",
+    "zh": "仲裁",
+    "en": "arbitration",
+    "fr": "l'arbitrage",
+    "es": "el arbitraje",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-234",
+    "pt": "a mediação",
+    "zh": "调解",
+    "en": "mediation",
+    "fr": "la médiation",
+    "es": "la mediación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-235",
+    "pt": "a conciliação",
+    "zh": "和解",
+    "en": "conciliation",
+    "fr": "la conciliation",
+    "es": "la conciliación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-236",
+    "pt": "a impugnação",
+    "zh": "异议",
+    "en": "challenge",
+    "fr": "la contestation",
+    "es": "la impugnación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-237",
+    "pt": "a contestação",
+    "zh": "答辩",
+    "en": "defence",
+    "fr": "la défense",
+    "es": "la contestación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-238",
+    "pt": "a alegação",
+    "zh": "主张",
+    "en": "allegation",
+    "fr": "l'allégation",
+    "es": "la alegación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-239",
+    "pt": "a caução",
+    "zh": "保证金",
+    "en": "security",
+    "fr": "la caution",
+    "es": "la caución",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-240",
+    "pt": "a fiança",
+    "zh": "保释担保",
+    "en": "bail",
+    "fr": "le cautionnement",
+    "es": "la fianza",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-241",
+    "pt": "o penhor",
+    "zh": "质权",
+    "en": "pledge",
+    "fr": "le gage",
+    "es": "la prenda",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-242",
+    "pt": "a hipoteca",
+    "zh": "抵押",
+    "en": "mortgage",
+    "fr": "l'hypothèque",
+    "es": "la hipoteca",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-243",
+    "pt": "o usufruto",
+    "zh": "用益权",
+    "en": "usufruct",
+    "fr": "l'usufruit",
+    "es": "el usufructo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-244",
+    "pt": "a servidão",
+    "zh": "地役权",
+    "en": "easement",
+    "fr": "la servitude",
+    "es": "la servidumbre",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-245",
+    "pt": "a expropriação",
+    "zh": "征收",
+    "en": "expropriation",
+    "fr": "l'expropriation",
+    "es": "la expropiación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-246",
+    "pt": "o cadastro",
+    "zh": "地籍",
+    "en": "land registry",
+    "fr": "le cadastre",
+    "es": "el catastro",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-247",
+    "pt": "a certidão",
+    "zh": "证明书",
+    "en": "certificate",
+    "fr": "le certificat",
+    "es": "el certificado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-248",
+    "pt": "o notário",
+    "zh": "公证人",
+    "en": "notary",
+    "fr": "le notaire",
+    "es": "el notario",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-249",
+    "pt": "a escritura",
+    "zh": "契据",
+    "en": "deed",
+    "fr": "l'acte notarié",
+    "es": "la escritura",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-250",
+    "pt": "a conservatória",
+    "zh": "不动产登记处",
+    "en": "land registry office",
+    "fr": "la conservation des hypothèques",
+    "es": "el registro de la propiedad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-251",
+    "pt": "a procuradoria",
+    "zh": "检察院",
+    "en": "public prosecutor's office",
+    "fr": "le parquet",
+    "es": "la fiscalía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-252",
+    "pt": "o provedor",
+    "zh": "监察专员",
+    "en": "ombudsman",
+    "fr": "le médiateur",
+    "es": "el defensor del pueblo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-253",
+    "pt": "a comissão",
+    "zh": "委员会",
+    "en": "committee",
+    "fr": "la commission",
+    "es": "la comisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-254",
+    "pt": "a bancada",
+    "zh": "议席",
+    "en": "parliamentary bench",
+    "fr": "le banc",
+    "es": "la bancada",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-255",
+    "pt": "a oposição",
+    "zh": "反对派",
+    "en": "opposition",
+    "fr": "l'opposition",
+    "es": "la oposición",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-256",
+    "pt": "a interpelação",
+    "zh": "质询",
+    "en": "interpellation",
+    "fr": "l'interpellation",
+    "es": "la interpelación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-257",
+    "pt": "o requerimento",
+    "zh": "申请书",
+    "en": "petition",
+    "fr": "la requête",
+    "es": "el requerimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-258",
+    "pt": "a diplomacia",
+    "zh": "外交",
+    "en": "diplomacy",
+    "fr": "la diplomatie",
+    "es": "la diplomacia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-259",
+    "pt": "o consulado",
+    "zh": "领事馆",
+    "en": "consulate",
+    "fr": "le consulat",
+    "es": "el consulado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-260",
+    "pt": "a extraterritorialidade",
+    "zh": "治外法权",
+    "en": "extraterritoriality",
+    "fr": "l'extraterritorialité",
+    "es": "la extraterritorialidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-261",
+    "pt": "o tratado",
+    "zh": "条约",
+    "en": "treaty",
+    "fr": "le traité",
+    "es": "el tratado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-262",
+    "pt": "o protocolo",
+    "zh": "议定书",
+    "en": "protocol",
+    "fr": "le protocole",
+    "es": "el protocolo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-263",
+    "pt": "a cimeira",
+    "zh": "峰会",
+    "en": "summit",
+    "fr": "le sommet",
+    "es": "la cumbre",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-264",
+    "pt": "a redistribuição",
+    "zh": "再分配",
+    "en": "redistribution",
+    "fr": "la redistribution",
+    "es": "la redistribución",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-265",
+    "pt": "o défice",
+    "zh": "赤字",
+    "en": "deficit",
+    "fr": "le déficit",
+    "es": "el déficit",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-266",
+    "pt": "o superávit",
+    "zh": "盈余",
+    "en": "surplus",
+    "fr": "l'excédent",
+    "es": "el superávit",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-267",
+    "pt": "o resgate",
+    "zh": "纾困",
+    "en": "bailout",
+    "fr": "le renflouement",
+    "es": "el rescate",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-268",
+    "pt": "a insolvência",
+    "zh": "无力偿债",
+    "en": "insolvency",
+    "fr": "l'insolvabilité",
+    "es": "la insolvencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-269",
+    "pt": "a falência",
+    "zh": "破产",
+    "en": "bankruptcy",
+    "fr": "la faillite",
+    "es": "la quiebra",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-270",
+    "pt": "o credor",
+    "zh": "债权人",
+    "en": "creditor",
+    "fr": "le créancier",
+    "es": "el acreedor",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-271",
+    "pt": "a penhora",
+    "zh": "扣押",
+    "en": "attachment",
+    "fr": "la saisie",
+    "es": "el embargo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-272",
+    "pt": "a heurística",
+    "zh": "启发法",
+    "en": "heuristics",
+    "fr": "l'heuristique",
+    "es": "la heurística",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-273",
+    "pt": "o paradigma",
+    "zh": "范式",
+    "en": "paradigm",
+    "fr": "le paradigme",
+    "es": "el paradigma",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-274",
+    "pt": "a plausibilidade",
+    "zh": "可信性",
+    "en": "plausibility",
+    "fr": "la plausibilité",
+    "es": "la plausibilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-275",
+    "pt": "a falsificabilidade",
+    "zh": "可证伪性",
+    "en": "falsifiability",
+    "fr": "la falsifiabilité",
+    "es": "la falsabilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-276",
+    "pt": "a replicação",
+    "zh": "重复实验",
+    "en": "replication",
+    "fr": "la réplication",
+    "es": "la replicación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-277",
+    "pt": "a variância",
+    "zh": "方差",
+    "en": "variance",
+    "fr": "la variance",
+    "es": "la varianza",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-278",
+    "pt": "o placebo",
+    "zh": "安慰剂",
+    "en": "placebo",
+    "fr": "le placebo",
+    "es": "el placebo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-279",
+    "pt": "o duplo-cego",
+    "zh": "双盲",
+    "en": "double-blind trial",
+    "fr": "le double aveugle",
+    "es": "el doble ciego",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-280",
+    "pt": "a robustez",
+    "zh": "稳健性",
+    "en": "robustness",
+    "fr": "la robustesse",
+    "es": "la robustez",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-281",
+    "pt": "o viés",
+    "zh": "偏差",
+    "en": "bias",
+    "fr": "le biais",
+    "es": "el sesgo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-282",
+    "pt": "a endogeneidade",
+    "zh": "内生性",
+    "en": "endogeneity",
+    "fr": "l'endogénéité",
+    "es": "la endogeneidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-283",
+    "pt": "o coeficiente",
+    "zh": "系数",
+    "en": "coefficient",
+    "fr": "le coefficient",
+    "es": "el coeficiente",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-284",
+    "pt": "a aleatoriedade",
+    "zh": "随机性",
+    "en": "randomness",
+    "fr": "le caractère aléatoire",
+    "es": "la aleatoriedad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-285",
+    "pt": "a incerteza",
+    "zh": "不确定性",
+    "en": "uncertainty",
+    "fr": "l'incertitude",
+    "es": "la incertidumbre",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-286",
+    "pt": "a calibração",
+    "zh": "校准",
+    "en": "calibration",
+    "fr": "la calibration",
+    "es": "la calibración",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-287",
+    "pt": "a medição",
+    "zh": "测量",
+    "en": "measurement",
+    "fr": "la mesure",
+    "es": "la medición",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-288",
+    "pt": "o instrumento",
+    "zh": "仪器",
+    "en": "instrument",
+    "fr": "l'instrument",
+    "es": "el instrumento",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-289",
+    "pt": "o padrão",
+    "zh": "标准",
+    "en": "standard",
+    "fr": "le standard",
+    "es": "el patrón",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-290",
+    "pt": "a métrica",
+    "zh": "度量",
+    "en": "metric",
+    "fr": "la métrique",
+    "es": "la métrica",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-291",
+    "pt": "a extrapolação",
+    "zh": "外推",
+    "en": "extrapolation",
+    "fr": "l'extrapolation",
+    "es": "la extrapolación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-292",
+    "pt": "o índice",
+    "zh": "指数",
+    "en": "index",
+    "fr": "l'indice",
+    "es": "el índice",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-293",
+    "pt": "a estocástica",
+    "zh": "随机数学",
+    "en": "stochastics",
+    "fr": "la stochastique",
+    "es": "la estocástica",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-294",
+    "pt": "a prosopografia",
+    "zh": "人物志学",
+    "en": "prosopography",
+    "fr": "la prosopographie",
+    "es": "la prosopografía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-295",
+    "pt": "a amostragem",
+    "zh": "抽样",
+    "en": "sampling",
+    "fr": "l'échantillonnage",
+    "es": "el muestreo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-296",
+    "pt": "a modelação",
+    "zh": "建模",
+    "en": "modelling",
+    "fr": "la modélisation",
+    "es": "la modelización",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-297",
+    "pt": "a emulação",
+    "zh": "仿真",
+    "en": "emulation",
+    "fr": "l'émulation",
+    "es": "la emulación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-298",
+    "pt": "a computação",
+    "zh": "计算",
+    "en": "computing",
+    "fr": "l'informatique",
+    "es": "la computación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-299",
+    "pt": "a interoperabilidade",
+    "zh": "互操作性",
+    "en": "interoperability",
+    "fr": "l'interopérabilité",
+    "es": "la interoperabilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-300",
+    "pt": "a cibersegurança",
+    "zh": "网络安全",
+    "en": "cybersecurity",
+    "fr": "la cybersécurité",
+    "es": "la ciberseguridad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-301",
+    "pt": "o servidor",
+    "zh": "服务器",
+    "en": "server",
+    "fr": "le serveur",
+    "es": "el servidor",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-302",
+    "pt": "o código-fonte",
+    "zh": "源代码",
+    "en": "source code",
+    "fr": "le code source",
+    "es": "el código fuente",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-303",
+    "pt": "a encriptação",
+    "zh": "加密",
+    "en": "encryption",
+    "fr": "le chiffrement",
+    "es": "el cifrado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-304",
+    "pt": "a biotecnologia",
+    "zh": "生物技术",
+    "en": "biotechnology",
+    "fr": "la biotechnologie",
+    "es": "la biotecnología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-305",
+    "pt": "a clonagem",
+    "zh": "克隆",
+    "en": "cloning",
+    "fr": "le clonage",
+    "es": "la clonación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-306",
+    "pt": "a neurociência",
+    "zh": "神经科学",
+    "en": "neuroscience",
+    "fr": "la neuroscience",
+    "es": "la neurociencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-307",
+    "pt": "o neurónio",
+    "zh": "神经元",
+    "en": "neuron",
+    "fr": "le neurone",
+    "es": "la neurona",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-308",
+    "pt": "a sinapse",
+    "zh": "突触",
+    "en": "synapse",
+    "fr": "la synapse",
+    "es": "la sinapsis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-309",
+    "pt": "o córtex",
+    "zh": "大脑皮层",
+    "en": "cortex",
+    "fr": "le cortex",
+    "es": "la corteza",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-310",
+    "pt": "a plasticidade",
+    "zh": "可塑性",
+    "en": "plasticity",
+    "fr": "la plasticité",
+    "es": "la plasticidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-311",
+    "pt": "a hormona",
+    "zh": "激素",
+    "en": "hormone",
+    "fr": "l'hormone",
+    "es": "la hormona",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-312",
+    "pt": "o metabolismo",
+    "zh": "新陈代谢",
+    "en": "metabolism",
+    "fr": "le métabolisme",
+    "es": "el metabolismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-313",
+    "pt": "o anticorpo",
+    "zh": "抗体",
+    "en": "antibody",
+    "fr": "l'anticorps",
+    "es": "el anticuerpo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-314",
+    "pt": "a farmacopeia",
+    "zh": "药典",
+    "en": "pharmacopoeia",
+    "fr": "la pharmacopée",
+    "es": "la farmacopea",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-315",
+    "pt": "a epidemiologia",
+    "zh": "流行病学",
+    "en": "epidemiology",
+    "fr": "l'épidémiologie",
+    "es": "la epidemiología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-316",
+    "pt": "a zoonose",
+    "zh": "人畜共患病",
+    "en": "zoonosis",
+    "fr": "la zoonose",
+    "es": "la zoonosis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-317",
+    "pt": "a endemia",
+    "zh": "地方病",
+    "en": "endemic disease",
+    "fr": "l'endémie",
+    "es": "la endemia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-318",
+    "pt": "a virulência",
+    "zh": "毒力",
+    "en": "virulence",
+    "fr": "la virulence",
+    "es": "la virulencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-319",
+    "pt": "a letalidade",
+    "zh": "致死率",
+    "en": "lethality",
+    "fr": "la létalité",
+    "es": "la letalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-320",
+    "pt": "a incidência",
+    "zh": "发病率",
+    "en": "incidence",
+    "fr": "l'incidence",
+    "es": "la incidencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-321",
+    "pt": "a quarentena",
+    "zh": "隔离检疫",
+    "en": "quarantine",
+    "fr": "la quarantaine",
+    "es": "la cuarentena",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-322",
+    "pt": "a profilaxia",
+    "zh": "预防",
+    "en": "prophylaxis",
+    "fr": "la prophylaxie",
+    "es": "la profilaxis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-323",
+    "pt": "a anamnese",
+    "zh": "病史",
+    "en": "anamnesis",
+    "fr": "l'anamnèse",
+    "es": "la anamnesis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-324",
+    "pt": "o prognóstico",
+    "zh": "预后",
+    "en": "prognosis",
+    "fr": "le pronostic",
+    "es": "el pronóstico",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-325",
+    "pt": "a etiologia",
+    "zh": "病因学",
+    "en": "aetiology",
+    "fr": "l'étiologie",
+    "es": "la etiología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-326",
+    "pt": "a patologia",
+    "zh": "病理学",
+    "en": "pathology",
+    "fr": "la pathologie",
+    "es": "la patología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-327",
+    "pt": "a síndrome",
+    "zh": "综合征",
+    "en": "syndrome",
+    "fr": "le syndrome",
+    "es": "el síndrome",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-328",
+    "pt": "a comorbilidade",
+    "zh": "合并症",
+    "en": "comorbidity",
+    "fr": "la comorbidité",
+    "es": "la comorbilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-329",
+    "pt": "o fármaco",
+    "zh": "药物",
+    "en": "pharmaceutical drug",
+    "fr": "le médicament",
+    "es": "el fármaco",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-330",
+    "pt": "a posologia",
+    "zh": "用药剂量",
+    "en": "dosage regimen",
+    "fr": "la posologie",
+    "es": "la posología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-331",
+    "pt": "a dosagem",
+    "zh": "剂量",
+    "en": "dosage",
+    "fr": "le dosage",
+    "es": "la dosificación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-332",
+    "pt": "a ecologia",
+    "zh": "生态学",
+    "en": "ecology",
+    "fr": "l'écologie",
+    "es": "la ecología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-333",
+    "pt": "a biosfera",
+    "zh": "生物圈",
+    "en": "biosphere",
+    "fr": "la biosphère",
+    "es": "la biosfera",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-334",
+    "pt": "o antropoceno",
+    "zh": "人类世",
+    "en": "the Anthropocene",
+    "fr": "l'anthropocène",
+    "es": "el antropoceno",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-335",
+    "pt": "o biótopo",
+    "zh": "生境",
+    "en": "biotope",
+    "fr": "le biotope",
+    "es": "el biotopo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-336",
+    "pt": "a biomassa",
+    "zh": "生物量",
+    "en": "biomass",
+    "fr": "la biomasse",
+    "es": "la biomasa",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-337",
+    "pt": "a descarbonização",
+    "zh": "脱碳",
+    "en": "decarbonisation",
+    "fr": "la décarbonation",
+    "es": "la descarbonización",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-338",
+    "pt": "o sumidouro",
+    "zh": "碳汇",
+    "en": "carbon sink",
+    "fr": "le puits de carbone",
+    "es": "el sumidero",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-339",
+    "pt": "a mitigação",
+    "zh": "减缓",
+    "en": "mitigation",
+    "fr": "l'atténuation",
+    "es": "la mitigación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-340",
+    "pt": "o gradiente",
+    "zh": "梯度",
+    "en": "gradient",
+    "fr": "le gradient",
+    "es": "el gradiente",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-341",
+    "pt": "a sinergia",
+    "zh": "协同效应",
+    "en": "synergy",
+    "fr": "la synergie",
+    "es": "la sinergia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-342",
+    "pt": "advir",
+    "zh": "由…产生",
+    "en": "to arise",
+    "fr": "découler",
+    "es": "derivarse",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-343",
+    "pt": "aduzir",
+    "zh": "引证",
+    "en": "to adduce",
+    "fr": "alléguer",
+    "es": "aducir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-344",
+    "pt": "alvitrar",
+    "zh": "提议",
+    "en": "to propose",
+    "fr": "proposer",
+    "es": "sugerir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-345",
+    "pt": "anuir",
+    "zh": "同意",
+    "en": "to assent",
+    "fr": "consentir",
+    "es": "asentir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-346",
+    "pt": "apoucar",
+    "zh": "贬低",
+    "en": "to belittle",
+    "fr": "rabaisser",
+    "es": "empequeñecer",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-347",
+    "pt": "assacar",
+    "zh": "归咎",
+    "en": "to impute",
+    "fr": "imputer",
+    "es": "achacar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-348",
+    "pt": "atestar",
+    "zh": "证明",
+    "en": "to attest",
+    "fr": "attester",
+    "es": "atestiguar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-349",
+    "pt": "auferir",
+    "zh": "获得（收益）",
+    "en": "to earn",
+    "fr": "percevoir",
+    "es": "obtener",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-350",
+    "pt": "coadunar",
+    "zh": "使协调",
+    "en": "to harmonize",
+    "fr": "concilier",
+    "es": "aunar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-351",
+    "pt": "cominar",
+    "zh": "处以（刑罚）",
+    "en": "to impose a penalty",
+    "fr": "assortir",
+    "es": "conminar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-352",
+    "pt": "conjeturar",
+    "zh": "推测",
+    "en": "to conjecture",
+    "fr": "conjecturer",
+    "es": "conjeturar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-353",
+    "pt": "consubstanciar",
+    "zh": "体现",
+    "en": "to embody",
+    "fr": "incarner",
+    "es": "consubstanciar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-354",
+    "pt": "contender",
+    "zh": "争辩",
+    "en": "to contend",
+    "fr": "contester",
+    "es": "contender",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-355",
+    "pt": "diluir",
+    "zh": "稀释",
+    "en": "to dilute",
+    "fr": "diluer",
+    "es": "diluir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-356",
+    "pt": "dissuadir",
+    "zh": "劝阻",
+    "en": "to dissuade",
+    "fr": "dissuader",
+    "es": "disuadir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-357",
+    "pt": "elidir",
+    "zh": "省略",
+    "en": "to elide",
+    "fr": "élider",
+    "es": "elidir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-358",
+    "pt": "emular",
+    "zh": "效仿",
+    "en": "to emulate",
+    "fr": "émuler",
+    "es": "emular",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-359",
+    "pt": "enaltecer",
+    "zh": "颂扬",
+    "en": "to extol",
+    "fr": "exalter",
+    "es": "enaltecer",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-360",
+    "pt": "entrever",
+    "zh": "隐约看见",
+    "en": "to glimpse",
+    "fr": "entrevoir",
+    "es": "entrever",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-361",
+    "pt": "enunciar",
+    "zh": "陈述",
+    "en": "to enunciate",
+    "fr": "énoncer",
+    "es": "enunciar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-362",
+    "pt": "auscultar",
+    "zh": "探询；听诊",
+    "en": "to sound out",
+    "fr": "ausculter",
+    "es": "auscultar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-363",
+    "pt": "esgrimir",
+    "zh": "挥舞（论据）",
+    "en": "to wield",
+    "fr": "brandir",
+    "es": "esgrimir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-364",
+    "pt": "exortar",
+    "zh": "劝诫",
+    "en": "to exhort",
+    "fr": "exhorter",
+    "es": "exhortar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-365",
+    "pt": "fruir",
+    "zh": "享受",
+    "en": "to enjoy",
+    "fr": "jouir de",
+    "es": "fruir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-366",
+    "pt": "granjear",
+    "zh": "赢得",
+    "en": "to win over",
+    "fr": "gagner",
+    "es": "granjear",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-367",
+    "pt": "imiscuir-se",
+    "zh": "干涉",
+    "en": "to meddle",
+    "fr": "s'immiscer",
+    "es": "inmiscuirse",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-368",
+    "pt": "incorrer",
+    "zh": "招致",
+    "en": "to incur",
+    "fr": "encourir",
+    "es": "incurrir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-369",
+    "pt": "indeferir",
+    "zh": "驳回",
+    "en": "to reject",
+    "fr": "rejeter",
+    "es": "denegar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-370",
+    "pt": "deferir",
+    "zh": "批准",
+    "en": "to grant",
+    "fr": "accueillir",
+    "es": "acceder",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-371",
+    "pt": "infligir",
+    "zh": "施加（惩罚）",
+    "en": "to inflict",
+    "fr": "infliger",
+    "es": "infligir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-372",
+    "pt": "infundir",
+    "zh": "注入",
+    "en": "to instil",
+    "fr": "insuffler",
+    "es": "infundir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-373",
+    "pt": "interpelar",
+    "zh": "质询",
+    "en": "to question",
+    "fr": "interpeller",
+    "es": "interpelar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-374",
+    "pt": "interpor",
+    "zh": "提起（上诉）",
+    "en": "to lodge",
+    "fr": "interjeter",
+    "es": "interponer",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-375",
+    "pt": "lograr",
+    "zh": "成功",
+    "en": "to succeed",
+    "fr": "réussir",
+    "es": "lograr",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-376",
+    "pt": "malograr",
+    "zh": "使受挫",
+    "en": "to thwart",
+    "fr": "faire échouer",
+    "es": "malograr",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-377",
+    "pt": "sanar",
+    "zh": "弥补；治愈",
+    "en": "to remedy",
+    "fr": "remédier à",
+    "es": "subsanar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-378",
+    "pt": "nortear",
+    "zh": "指引",
+    "en": "to guide",
+    "fr": "orienter",
+    "es": "orientar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-379",
+    "pt": "obviar",
+    "zh": "防止",
+    "en": "to obviate",
+    "fr": "obvier",
+    "es": "obviar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-380",
+    "pt": "outorgar",
+    "zh": "授予",
+    "en": "to grant",
+    "fr": "octroyer",
+    "es": "otorgar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-381",
+    "pt": "pautar-se",
+    "zh": "以…为准则",
+    "en": "to be guided by",
+    "fr": "se conformer à",
+    "es": "regirse por",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-382",
+    "pt": "preceituar",
+    "zh": "规定",
+    "en": "to prescribe",
+    "fr": "prescrire",
+    "es": "preceptuar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-383",
+    "pt": "prefigurar",
+    "zh": "预示",
+    "en": "to prefigure",
+    "fr": "préfigurer",
+    "es": "prefigurar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-384",
+    "pt": "preconizar",
+    "zh": "提倡",
+    "en": "to advocate",
+    "fr": "préconiser",
+    "es": "preconizar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-385",
+    "pt": "promulgar",
+    "zh": "颁布",
+    "en": "to promulgate",
+    "fr": "promulguer",
+    "es": "promulgar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-386",
+    "pt": "propalar",
+    "zh": "传播",
+    "en": "to spread",
+    "fr": "propager",
+    "es": "propalar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-387",
+    "pt": "ratificar",
+    "zh": "批准",
+    "en": "to ratify",
+    "fr": "ratifier",
+    "es": "ratificar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-388",
+    "pt": "sancionar",
+    "zh": "批准；制裁",
+    "en": "to sanction",
+    "fr": "sanctionner",
+    "es": "sancionar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-389",
+    "pt": "subsumir",
+    "zh": "归入",
+    "en": "to subsume",
+    "fr": "subsumer",
+    "es": "subsumir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-390",
+    "pt": "tolher",
+    "zh": "束缚",
+    "en": "to hinder",
+    "fr": "entraver",
+    "es": "impedir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-391",
+    "pt": "vaticinar",
+    "zh": "预言",
+    "en": "to foretell",
+    "fr": "prédire",
+    "es": "vaticinar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2x-392",
+    "pt": "abstruso",
+    "zh": "晦涩的",
+    "en": "abstruse",
+    "fr": "abstrus",
+    "es": "abstruso",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-393",
+    "pt": "acerbo",
+    "zh": "尖刻的",
+    "en": "acerbic",
+    "fr": "acerbe",
+    "es": "acerbo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-394",
+    "pt": "anódino",
+    "zh": "平淡无奇的",
+    "en": "anodyne",
+    "fr": "anodin",
+    "es": "anodino",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-395",
+    "pt": "apodítico",
+    "zh": "毋庸置疑的",
+    "en": "apodictic",
+    "fr": "apodictique",
+    "es": "apodíctico",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-396",
+    "pt": "arcaico",
+    "zh": "古旧的",
+    "en": "archaic",
+    "fr": "archaïque",
+    "es": "arcaico",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-397",
+    "pt": "assíduo",
+    "zh": "勤勉的",
+    "en": "assiduous",
+    "fr": "assidu",
+    "es": "asiduo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-398",
+    "pt": "cabal",
+    "zh": "完备的",
+    "en": "thorough",
+    "fr": "complet",
+    "es": "cabal",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-399",
+    "pt": "cáustico",
+    "zh": "辛辣的",
+    "en": "caustic",
+    "fr": "caustique",
+    "es": "cáustico",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-400",
+    "pt": "cediço",
+    "zh": "陈腐的",
+    "en": "trite",
+    "fr": "rebattu",
+    "es": "manido",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-401",
+    "pt": "circunspecto",
+    "zh": "谨慎的",
+    "en": "circumspect",
+    "fr": "circonspect",
+    "es": "circunspecto",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-402",
+    "pt": "concludente",
+    "zh": "有说服力的",
+    "en": "conclusive",
+    "fr": "concluant",
+    "es": "concluyente",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-403",
+    "pt": "corrosivo",
+    "zh": "腐蚀性的",
+    "en": "corrosive",
+    "fr": "corrosif",
+    "es": "corrosivo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-404",
+    "pt": "críptico",
+    "zh": "隐晦的",
+    "en": "cryptic",
+    "fr": "cryptique",
+    "es": "críptico",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-405",
+    "pt": "derradeiro",
+    "zh": "最后的",
+    "en": "final",
+    "fr": "dernier",
+    "es": "postrero",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-406",
+    "pt": "despiciendo",
+    "zh": "微不足道的",
+    "en": "negligible",
+    "fr": "insignifiant",
+    "es": "despreciable",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-407",
+    "pt": "diáfano",
+    "zh": "透明的",
+    "en": "diaphanous",
+    "fr": "diaphane",
+    "es": "diáfano",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-408",
+    "pt": "caduco",
+    "zh": "衰朽的",
+    "en": "decrepit",
+    "fr": "caduc",
+    "es": "caduco",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-409",
+    "pt": "embrionário",
+    "zh": "萌芽阶段的",
+    "en": "embryonic",
+    "fr": "embryonnaire",
+    "es": "embrionario",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-410",
+    "pt": "endémico",
+    "zh": "地方性的",
+    "en": "endemic",
+    "fr": "endémique",
+    "es": "endémico",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-411",
+    "pt": "errático",
+    "zh": "飘忽不定的",
+    "en": "erratic",
+    "fr": "erratique",
+    "es": "errático",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-412",
+    "pt": "esotérico",
+    "zh": "秘传的",
+    "en": "esoteric",
+    "fr": "ésotérique",
+    "es": "esotérico",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-413",
+    "pt": "espúrio",
+    "zh": "伪造的",
+    "en": "spurious",
+    "fr": "apocryphe",
+    "es": "espurio",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-414",
+    "pt": "estanque",
+    "zh": "封闭不漏的",
+    "en": "watertight",
+    "fr": "étanche",
+    "es": "estanco",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-415",
+    "pt": "exímio",
+    "zh": "精湛的",
+    "en": "consummate",
+    "fr": "éminent",
+    "es": "eximio",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-416",
+    "pt": "falacioso",
+    "zh": "谬误的",
+    "en": "fallacious",
+    "fr": "fallacieux",
+    "es": "falaz",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-417",
+    "pt": "fecundo",
+    "zh": "丰饶的",
+    "en": "fecund",
+    "fr": "fécond",
+    "es": "fecundo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-418",
+    "pt": "fortuito",
+    "zh": "偶然的",
+    "en": "fortuitous",
+    "fr": "fortuit",
+    "es": "fortuito",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-419",
+    "pt": "fugaz",
+    "zh": "转瞬即逝的",
+    "en": "fleeting",
+    "fr": "fugace",
+    "es": "fugaz",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-420",
+    "pt": "hermético",
+    "zh": "晦涩的；密封的",
+    "en": "hermetic",
+    "fr": "hermétique",
+    "es": "hermético",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-421",
+    "pt": "idiossincrático",
+    "zh": "个人特有的",
+    "en": "idiosyncratic",
+    "fr": "idiosyncrasique",
+    "es": "idiosincrático",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-422",
+    "pt": "ilusório",
+    "zh": "虚幻的",
+    "en": "illusory",
+    "fr": "illusoire",
+    "es": "ilusorio",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-423",
+    "pt": "imanente",
+    "zh": "内在的",
+    "en": "immanent",
+    "fr": "immanent",
+    "es": "inmanente",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-424",
+    "pt": "imemorial",
+    "zh": "远古的",
+    "en": "immemorial",
+    "fr": "immémorial",
+    "es": "inmemorial",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-425",
+    "pt": "impertérrito",
+    "zh": "无畏的",
+    "en": "undaunted",
+    "fr": "intrépide",
+    "es": "impávido",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-426",
+    "pt": "imponderável",
+    "zh": "不可估量的",
+    "en": "imponderable",
+    "fr": "impondérable",
+    "es": "imponderable",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-427",
+    "pt": "inalienável",
+    "zh": "不可剥夺的",
+    "en": "inalienable",
+    "fr": "inaliénable",
+    "es": "inalienable",
+    "pos": "adjective"
+  },
+  {
+    "id": "c2x-428",
+    "pt": "sumamente",
+    "zh": "极其",
+    "en": "extremely",
+    "fr": "extrêmement",
+    "es": "sumamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-429",
+    "pt": "escassamente",
+    "zh": "稀少地",
+    "en": "scarcely",
+    "fr": "chichement",
+    "es": "escasamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-430",
+    "pt": "deveras",
+    "zh": "确实",
+    "en": "indeed",
+    "fr": "vraiment",
+    "es": "de veras",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-431",
+    "pt": "assaz",
+    "zh": "相当",
+    "en": "rather",
+    "fr": "assez",
+    "es": "bastante",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-432",
+    "pt": "debalde",
+    "zh": "徒然",
+    "en": "in vain",
+    "fr": "en vain",
+    "es": "en vano",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-433",
+    "pt": "ulteriormente",
+    "zh": "后来",
+    "en": "subsequently",
+    "fr": "ultérieurement",
+    "es": "ulteriormente",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-434",
+    "pt": "dantes",
+    "zh": "从前",
+    "en": "formerly",
+    "fr": "autrefois",
+    "es": "antaño",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-435",
+    "pt": "entrementes",
+    "zh": "其间",
+    "en": "meanwhile",
+    "fr": "entre-temps",
+    "es": "entretanto",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-436",
+    "pt": "destarte",
+    "zh": "如此",
+    "en": "thus",
+    "fr": "de la sorte",
+    "es": "de este modo",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-437",
+    "pt": "aquém",
+    "zh": "在此侧；不及",
+    "en": "on this side",
+    "fr": "en deçà",
+    "es": "aquende",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2x-438",
+    "pt": "de chofre",
+    "zh": "突然",
+    "en": "abruptly",
+    "fr": "brusquement",
+    "es": "de golpe",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-439",
+    "pt": "a contrapelo",
+    "zh": "逆着来",
+    "en": "against the grain",
+    "fr": "à contre-poil",
+    "es": "a contrapelo",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-440",
+    "pt": "em surdina",
+    "zh": "低声地",
+    "en": "in a whisper",
+    "fr": "à mi-voix",
+    "es": "en sordina",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-441",
+    "pt": "de supetão",
+    "zh": "冷不防",
+    "en": "unexpectedly",
+    "fr": "à l'improviste",
+    "es": "de improviso",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-442",
+    "pt": "a esmo",
+    "zh": "随意地",
+    "en": "at random",
+    "fr": "au hasard",
+    "es": "al azar",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-443",
+    "pt": "ter as mãos atadas",
+    "zh": "束手无策",
+    "en": "to have one's hands tied",
+    "fr": "avoir les mains liées",
+    "es": "tener las manos atadas",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-444",
+    "pt": "dar o dito por não dito",
+    "zh": "出尔反尔",
+    "en": "to go back on one's word",
+    "fr": "se rétracter",
+    "es": "desdecirse",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-445",
+    "pt": "ir de vento em popa",
+    "zh": "一帆风顺",
+    "en": "to go swimmingly",
+    "fr": "aller vent en poupe",
+    "es": "ir viento en popa",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-446",
+    "pt": "fazer orelhas moucas",
+    "zh": "充耳不闻",
+    "en": "to turn a deaf ear",
+    "fr": "faire la sourde oreille",
+    "es": "hacerse el sordo",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-447",
+    "pt": "cair em saco roto",
+    "zh": "被当作耳旁风",
+    "en": "to fall on deaf ears",
+    "fr": "tomber dans l'oreille d'un sourd",
+    "es": "caer en saco roto",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-448",
+    "pt": "ficar a ver navios",
+    "zh": "空等一场",
+    "en": "to be left empty-handed",
+    "fr": "rester les mains vides",
+    "es": "quedarse con las ganas",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-449",
+    "pt": "andar à deriva",
+    "zh": "随波逐流",
+    "en": "to drift",
+    "fr": "aller à la dérive",
+    "es": "ir a la deriva",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-450",
+    "pt": "ter carta branca",
+    "zh": "有全权",
+    "en": "to have a free hand",
+    "fr": "avoir carte blanche",
+    "es": "tener carta blanca",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-451",
+    "pt": "pôr cobro a",
+    "zh": "制止",
+    "en": "to put an end to",
+    "fr": "mettre un terme à",
+    "es": "poner fin a",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2x-452",
+    "pt": "o calcanhar de Aquiles",
+    "zh": "阿喀琉斯之踵",
+    "en": "Achilles' heel",
+    "fr": "le talon d'Achille",
+    "es": "el talón de Aquiles",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-453",
+    "pt": "a espada de Dâmocles",
+    "zh": "达摩克利斯之剑",
+    "en": "the sword of Damocles",
+    "fr": "l'épée de Damoclès",
+    "es": "la espada de Damocles",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-454",
+    "pt": "o pomo da discórdia",
+    "zh": "不和之果",
+    "en": "the apple of discord",
+    "fr": "la pomme de discorde",
+    "es": "la manzana de la discordia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-455",
+    "pt": "a pedra de toque",
+    "zh": "试金石",
+    "en": "the touchstone",
+    "fr": "la pierre de touche",
+    "es": "la piedra de toque",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-456",
+    "pt": "a pedra angular",
+    "zh": "基石",
+    "en": "the cornerstone",
+    "fr": "la pierre angulaire",
+    "es": "la piedra angular",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-457",
+    "pt": "o fio de Ariadne",
+    "zh": "阿里阿德涅之线",
+    "en": "Ariadne's thread",
+    "fr": "le fil d'Ariane",
+    "es": "el hilo de Ariadna",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-458",
+    "pt": "a caixa de Pandora",
+    "zh": "潘多拉魔盒",
+    "en": "Pandora's box",
+    "fr": "la boîte de Pandore",
+    "es": "la caja de Pandora",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-459",
+    "pt": "o bode expiatório",
+    "zh": "替罪羊",
+    "en": "scapegoat",
+    "fr": "le bouc émissaire",
+    "es": "el chivo expiatorio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-460",
+    "pt": "a torre de marfim",
+    "zh": "象牙塔",
+    "en": "ivory tower",
+    "fr": "la tour d'ivoire",
+    "es": "la torre de marfil",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-461",
+    "pt": "o canto da sereia",
+    "zh": "塞壬之歌",
+    "en": "the siren song",
+    "fr": "le chant des sirènes",
+    "es": "el canto de las sirenas",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-462",
+    "pt": "a subtileza",
+    "zh": "细腻之处",
+    "en": "subtlety",
+    "fr": "la subtilité",
+    "es": "la sutileza",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-463",
+    "pt": "o contraponto",
+    "zh": "对位；对照",
+    "en": "counterpoint",
+    "fr": "le contrepoint",
+    "es": "el contrapunto",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-464",
+    "pt": "o lugar-comum",
+    "zh": "陈词滥调",
+    "en": "commonplace",
+    "fr": "le lieu commun",
+    "es": "el lugar común",
+    "pos": "noun"
+  },
+  {
+    "id": "c2x-465",
+    "pt": "o não-dito",
+    "zh": "未言明之处",
+    "en": "the unspoken",
+    "fr": "le non-dit",
+    "es": "lo no dicho",
+    "pos": "noun"
+  }
+]

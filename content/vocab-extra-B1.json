@@ -1,0 +1,4187 @@
+[
+  {
+    "id": "b1x-001",
+    "pt": "a profissão",
+    "zh": "职业",
+    "en": "profession",
+    "fr": "la profession",
+    "es": "la profesión",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-002",
+    "pt": "o cargo",
+    "zh": "职位；职务",
+    "en": "position",
+    "fr": "le poste",
+    "es": "el puesto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-003",
+    "pt": "a carreira",
+    "zh": "职业生涯",
+    "en": "career",
+    "fr": "la carrière",
+    "es": "la carrera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-004",
+    "pt": "o patrão",
+    "zh": "老板",
+    "en": "boss",
+    "fr": "le patron",
+    "es": "el jefe",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-005",
+    "pt": "a chefia",
+    "zh": "管理层；领导",
+    "en": "management",
+    "fr": "la direction",
+    "es": "la jefatura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-006",
+    "pt": "o trabalhador",
+    "zh": "工人；劳动者",
+    "en": "worker",
+    "fr": "le travailleur",
+    "es": "el trabajador",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-007",
+    "pt": "o vencimento",
+    "zh": "工资；薪水",
+    "en": "salary",
+    "fr": "le salaire",
+    "es": "el sueldo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-008",
+    "pt": "as férias",
+    "zh": "假期",
+    "en": "holidays",
+    "fr": "les vacances",
+    "es": "las vacaciones",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-009",
+    "pt": "a pausa",
+    "zh": "休息；暂停",
+    "en": "break",
+    "fr": "la pause",
+    "es": "la pausa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-010",
+    "pt": "o turno",
+    "zh": "轮班",
+    "en": "shift",
+    "fr": "le poste",
+    "es": "el turno",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-011",
+    "pt": "as horas extraordinárias",
+    "zh": "加班；加班费",
+    "en": "overtime",
+    "fr": "les heures supplémentaires",
+    "es": "las horas extraordinarias",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-012",
+    "pt": "o despedimento",
+    "zh": "解雇",
+    "en": "dismissal",
+    "fr": "le licenciement",
+    "es": "el despido",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-013",
+    "pt": "despedir",
+    "zh": "解雇",
+    "en": "to dismiss",
+    "fr": "licencier",
+    "es": "despedir",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-014",
+    "pt": "a promoção",
+    "zh": "晋升；促销",
+    "en": "promotion",
+    "fr": "la promotion",
+    "es": "la promoción",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-015",
+    "pt": "promover",
+    "zh": "晋升；促进",
+    "en": "to promote",
+    "fr": "promouvoir",
+    "es": "promover",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-016",
+    "pt": "a formação",
+    "zh": "培训；教育",
+    "en": "training",
+    "fr": "la formation",
+    "es": "la formación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-017",
+    "pt": "o estágio",
+    "zh": "实习",
+    "en": "internship",
+    "fr": "le stage",
+    "es": "las prácticas",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-018",
+    "pt": "o estagiário",
+    "zh": "实习生",
+    "en": "intern",
+    "fr": "le stagiaire",
+    "es": "el becario",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-019",
+    "pt": "a competência",
+    "zh": "能力；胜任力",
+    "en": "competence",
+    "fr": "la compétence",
+    "es": "la competencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-020",
+    "pt": "a tarefa",
+    "zh": "任务",
+    "en": "task",
+    "fr": "la tâche",
+    "es": "la tarea",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-021",
+    "pt": "o prazo",
+    "zh": "期限",
+    "en": "deadline",
+    "fr": "le délai",
+    "es": "el plazo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-022",
+    "pt": "o projeto",
+    "zh": "项目",
+    "en": "project",
+    "fr": "le projet",
+    "es": "el proyecto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-023",
+    "pt": "o objetivo",
+    "zh": "目标",
+    "en": "objective",
+    "fr": "l'objectif",
+    "es": "el objetivo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-024",
+    "pt": "a segurança",
+    "zh": "安全",
+    "en": "safety",
+    "fr": "la sécurité",
+    "es": "la seguridad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-025",
+    "pt": "o relatório",
+    "zh": "报告",
+    "en": "report",
+    "fr": "le rapport",
+    "es": "el informe",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-026",
+    "pt": "a apresentação",
+    "zh": "演示；介绍",
+    "en": "presentation",
+    "fr": "la présentation",
+    "es": "la presentación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-027",
+    "pt": "a fatura",
+    "zh": "发票",
+    "en": "invoice",
+    "fr": "la facture",
+    "es": "la factura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-028",
+    "pt": "a taxa",
+    "zh": "费率；费用",
+    "en": "rate",
+    "fr": "le taux",
+    "es": "la tasa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-029",
+    "pt": "a equipa",
+    "zh": "团队",
+    "en": "team",
+    "fr": "l'équipe",
+    "es": "el equipo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-030",
+    "pt": "o risco",
+    "zh": "风险",
+    "en": "risk",
+    "fr": "le risque",
+    "es": "el riesgo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-031",
+    "pt": "a febre",
+    "zh": "发烧",
+    "en": "fever",
+    "fr": "la fièvre",
+    "es": "la fiebre",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-032",
+    "pt": "a gripe",
+    "zh": "流感",
+    "en": "flu",
+    "fr": "la grippe",
+    "es": "la gripe",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-033",
+    "pt": "a constipação",
+    "zh": "感冒",
+    "en": "cold",
+    "fr": "le rhume",
+    "es": "el resfriado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-034",
+    "pt": "a enxaqueca",
+    "zh": "偏头痛",
+    "en": "migraine",
+    "fr": "la migraine",
+    "es": "la jaqueca",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-035",
+    "pt": "o mal-estar",
+    "zh": "不适",
+    "en": "malaise",
+    "fr": "le malaise",
+    "es": "el malestar",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-036",
+    "pt": "o vírus",
+    "zh": "病毒",
+    "en": "virus",
+    "fr": "le virus",
+    "es": "el virus",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-037",
+    "pt": "a infeção",
+    "zh": "感染",
+    "en": "infection",
+    "fr": "l'infection",
+    "es": "la infección",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-038",
+    "pt": "a bactéria",
+    "zh": "细菌",
+    "en": "bacterium",
+    "fr": "la bactérie",
+    "es": "la bacteria",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-039",
+    "pt": "a pneumonia",
+    "zh": "肺炎",
+    "en": "pneumonia",
+    "fr": "la pneumonie",
+    "es": "la neumonía",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-040",
+    "pt": "a diabetes",
+    "zh": "糖尿病",
+    "en": "diabetes",
+    "fr": "le diabète",
+    "es": "la diabetes",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-041",
+    "pt": "a tensão arterial",
+    "zh": "血压",
+    "en": "blood pressure",
+    "fr": "la tension artérielle",
+    "es": "la tensión arterial",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-042",
+    "pt": "o batimento cardíaco",
+    "zh": "心跳",
+    "en": "heartbeat",
+    "fr": "le battement de cœur",
+    "es": "el latido del corazón",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-043",
+    "pt": "a respiração",
+    "zh": "呼吸",
+    "en": "breathing",
+    "fr": "la respiration",
+    "es": "la respiración",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-044",
+    "pt": "o pulmão",
+    "zh": "肺",
+    "en": "lung",
+    "fr": "le poumon",
+    "es": "el pulmón",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-045",
+    "pt": "o coração",
+    "zh": "心脏",
+    "en": "heart",
+    "fr": "le cœur",
+    "es": "el corazón",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-046",
+    "pt": "o estômago",
+    "zh": "胃",
+    "en": "stomach",
+    "fr": "l'estomac",
+    "es": "el estómago",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-047",
+    "pt": "o fígado",
+    "zh": "肝脏",
+    "en": "liver",
+    "fr": "le foie",
+    "es": "el hígado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-048",
+    "pt": "o rim",
+    "zh": "肾",
+    "en": "kidney",
+    "fr": "le rein",
+    "es": "el riñón",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-049",
+    "pt": "o osso",
+    "zh": "骨头",
+    "en": "bone",
+    "fr": "l'os",
+    "es": "el hueso",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-050",
+    "pt": "o músculo",
+    "zh": "肌肉",
+    "en": "muscle",
+    "fr": "le muscle",
+    "es": "el músculo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-051",
+    "pt": "a pele",
+    "zh": "皮肤",
+    "en": "skin",
+    "fr": "la peau",
+    "es": "la piel",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-052",
+    "pt": "o sangue",
+    "zh": "血液",
+    "en": "blood",
+    "fr": "le sang",
+    "es": "la sangre",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-053",
+    "pt": "a cicatriz",
+    "zh": "疤痕",
+    "en": "scar",
+    "fr": "la cicatrice",
+    "es": "la cicatriz",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-054",
+    "pt": "a fratura",
+    "zh": "骨折",
+    "en": "fracture",
+    "fr": "la fracture",
+    "es": "la fractura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-055",
+    "pt": "a queda",
+    "zh": "跌倒；坠落",
+    "en": "fall",
+    "fr": "la chute",
+    "es": "la caída",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-056",
+    "pt": "o acidente",
+    "zh": "事故",
+    "en": "accident",
+    "fr": "l'accident",
+    "es": "el accidente",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-057",
+    "pt": "a injeção",
+    "zh": "注射",
+    "en": "injection",
+    "fr": "l'injection",
+    "es": "la inyección",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-058",
+    "pt": "o antibiótico",
+    "zh": "抗生素",
+    "en": "antibiotic",
+    "fr": "l'antibiotique",
+    "es": "el antibiótico",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-059",
+    "pt": "a gravidez",
+    "zh": "怀孕",
+    "en": "pregnancy",
+    "fr": "la grossesse",
+    "es": "el embarazo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-060",
+    "pt": "o parto",
+    "zh": "分娩",
+    "en": "childbirth",
+    "fr": "l'accouchement",
+    "es": "el parto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-061",
+    "pt": "o ambiente",
+    "zh": "环境",
+    "en": "environment",
+    "fr": "l'environnement",
+    "es": "el medio ambiente",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-062",
+    "pt": "a natureza",
+    "zh": "自然",
+    "en": "nature",
+    "fr": "la nature",
+    "es": "la naturaleza",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-063",
+    "pt": "o planeta",
+    "zh": "星球；地球",
+    "en": "planet",
+    "fr": "la planète",
+    "es": "el planeta",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-064",
+    "pt": "o clima",
+    "zh": "气候",
+    "en": "climate",
+    "fr": "le climat",
+    "es": "el clima",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-065",
+    "pt": "o aquecimento global",
+    "zh": "全球变暖",
+    "en": "global warming",
+    "fr": "le réchauffement climatique",
+    "es": "el calentamiento global",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-066",
+    "pt": "o efeito de estufa",
+    "zh": "温室效应",
+    "en": "greenhouse effect",
+    "fr": "l'effet de serre",
+    "es": "el efecto invernadero",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-067",
+    "pt": "a camada de ozono",
+    "zh": "臭氧层",
+    "en": "ozone layer",
+    "fr": "la couche d'ozone",
+    "es": "la capa de ozono",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-068",
+    "pt": "o carbono",
+    "zh": "碳",
+    "en": "carbon",
+    "fr": "le carbone",
+    "es": "el carbono",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-069",
+    "pt": "o painel solar",
+    "zh": "太阳能板",
+    "en": "solar panel",
+    "fr": "le panneau solaire",
+    "es": "el panel solar",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-070",
+    "pt": "o petróleo",
+    "zh": "石油",
+    "en": "oil",
+    "fr": "le pétrole",
+    "es": "el petróleo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-071",
+    "pt": "o carvão",
+    "zh": "煤",
+    "en": "coal",
+    "fr": "le charbon",
+    "es": "el carbón",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-072",
+    "pt": "o combustível",
+    "zh": "燃料",
+    "en": "fuel",
+    "fr": "le carburant",
+    "es": "el combustible",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-073",
+    "pt": "a água potável",
+    "zh": "饮用水",
+    "en": "drinking water",
+    "fr": "l'eau potable",
+    "es": "el agua potable",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-074",
+    "pt": "a embalagem",
+    "zh": "包装",
+    "en": "packaging",
+    "fr": "l'emballage",
+    "es": "el embalaje",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-075",
+    "pt": "o plástico",
+    "zh": "塑料",
+    "en": "plastic",
+    "fr": "le plastique",
+    "es": "el plástico",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-076",
+    "pt": "o vidro",
+    "zh": "玻璃",
+    "en": "glass",
+    "fr": "le verre",
+    "es": "el vidrio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-077",
+    "pt": "o metal",
+    "zh": "金属",
+    "en": "metal",
+    "fr": "le métal",
+    "es": "el metal",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-078",
+    "pt": "a pilha",
+    "zh": "电池",
+    "en": "battery",
+    "fr": "la pile",
+    "es": "la pila",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-079",
+    "pt": "os esgotos",
+    "zh": "下水道",
+    "en": "sewage",
+    "fr": "les égouts",
+    "es": "las alcantarillas",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-080",
+    "pt": "o mar",
+    "zh": "海",
+    "en": "sea",
+    "fr": "la mer",
+    "es": "el mar",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-081",
+    "pt": "a montanha",
+    "zh": "山",
+    "en": "mountain",
+    "fr": "la montagne",
+    "es": "la montaña",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-082",
+    "pt": "o deserto",
+    "zh": "沙漠",
+    "en": "desert",
+    "fr": "le désert",
+    "es": "el desierto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-083",
+    "pt": "a ilha",
+    "zh": "岛",
+    "en": "island",
+    "fr": "l'île",
+    "es": "la isla",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-084",
+    "pt": "a costa",
+    "zh": "海岸",
+    "en": "coast",
+    "fr": "la côte",
+    "es": "la costa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-085",
+    "pt": "a paisagem",
+    "zh": "风景；景观",
+    "en": "landscape",
+    "fr": "le paysage",
+    "es": "el paisaje",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-086",
+    "pt": "a árvore",
+    "zh": "树",
+    "en": "tree",
+    "fr": "l'arbre",
+    "es": "el árbol",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-087",
+    "pt": "a tempestade",
+    "zh": "暴风雨",
+    "en": "storm",
+    "fr": "la tempête",
+    "es": "la tormenta",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-088",
+    "pt": "o terramoto",
+    "zh": "地震",
+    "en": "earthquake",
+    "fr": "le tremblement de terre",
+    "es": "el terremoto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-089",
+    "pt": "o apartamento",
+    "zh": "公寓",
+    "en": "flat",
+    "fr": "l'appartement",
+    "es": "el apartamento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-090",
+    "pt": "a sala",
+    "zh": "客厅",
+    "en": "living room",
+    "fr": "le salon",
+    "es": "el salón",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-091",
+    "pt": "o corredor",
+    "zh": "走廊",
+    "en": "corridor",
+    "fr": "le couloir",
+    "es": "el pasillo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-092",
+    "pt": "a garagem",
+    "zh": "车库",
+    "en": "garage",
+    "fr": "le garage",
+    "es": "el garaje",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-093",
+    "pt": "o quintal",
+    "zh": "后院",
+    "en": "backyard",
+    "fr": "le jardin",
+    "es": "el patio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-094",
+    "pt": "o telhado",
+    "zh": "屋顶",
+    "en": "roof",
+    "fr": "le toit",
+    "es": "el tejado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-095",
+    "pt": "a parede",
+    "zh": "墙",
+    "en": "wall",
+    "fr": "le mur",
+    "es": "la pared",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-096",
+    "pt": "o chão",
+    "zh": "地板",
+    "en": "floor",
+    "fr": "le sol",
+    "es": "el suelo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-097",
+    "pt": "o teto",
+    "zh": "天花板",
+    "en": "ceiling",
+    "fr": "le plafond",
+    "es": "el techo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-098",
+    "pt": "a escada",
+    "zh": "楼梯",
+    "en": "stairs",
+    "fr": "l'escalier",
+    "es": "la escalera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-099",
+    "pt": "a fechadura",
+    "zh": "锁",
+    "en": "lock",
+    "fr": "la serrure",
+    "es": "la cerradura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-100",
+    "pt": "a campainha",
+    "zh": "门铃",
+    "en": "doorbell",
+    "fr": "la sonnette",
+    "es": "el timbre",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-101",
+    "pt": "a tomada",
+    "zh": "插座",
+    "en": "socket",
+    "fr": "la prise",
+    "es": "el enchufe",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-102",
+    "pt": "o candeeiro",
+    "zh": "灯",
+    "en": "lamp",
+    "fr": "la lampe",
+    "es": "la lámpara",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-103",
+    "pt": "o espelho",
+    "zh": "镜子",
+    "en": "mirror",
+    "fr": "le miroir",
+    "es": "el espejo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-104",
+    "pt": "o tapete",
+    "zh": "地毯",
+    "en": "rug",
+    "fr": "le tapis",
+    "es": "la alfombra",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-105",
+    "pt": "a almofada",
+    "zh": "靠垫",
+    "en": "cushion",
+    "fr": "le coussin",
+    "es": "el cojín",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-106",
+    "pt": "o lençol",
+    "zh": "床单",
+    "en": "sheet",
+    "fr": "le drap",
+    "es": "la sábana",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-107",
+    "pt": "o cobertor",
+    "zh": "毯子",
+    "en": "blanket",
+    "fr": "la couverture",
+    "es": "la manta",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-108",
+    "pt": "a toalha",
+    "zh": "毛巾",
+    "en": "towel",
+    "fr": "la serviette",
+    "es": "la toalla",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-109",
+    "pt": "o duche",
+    "zh": "淋浴",
+    "en": "shower",
+    "fr": "la douche",
+    "es": "la ducha",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-110",
+    "pt": "a banheira",
+    "zh": "浴缸",
+    "en": "bathtub",
+    "fr": "la baignoire",
+    "es": "la bañera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-111",
+    "pt": "o lavatório",
+    "zh": "洗手盆",
+    "en": "washbasin",
+    "fr": "le lavabo",
+    "es": "el lavabo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-112",
+    "pt": "o autoclismo",
+    "zh": "马桶水箱",
+    "en": "toilet flush",
+    "fr": "la chasse d'eau",
+    "es": "la cisterna",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-113",
+    "pt": "a torneira",
+    "zh": "水龙头",
+    "en": "tap",
+    "fr": "le robinet",
+    "es": "el grifo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-114",
+    "pt": "o fogão",
+    "zh": "炉灶",
+    "en": "stove",
+    "fr": "la cuisinière",
+    "es": "la cocina",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-115",
+    "pt": "o forno",
+    "zh": "烤箱",
+    "en": "oven",
+    "fr": "le four",
+    "es": "el horno",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-116",
+    "pt": "o micro-ondas",
+    "zh": "微波炉",
+    "en": "microwave",
+    "fr": "le micro-ondes",
+    "es": "el microondas",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-117",
+    "pt": "a máquina de lavar",
+    "zh": "洗衣机",
+    "en": "washing machine",
+    "fr": "la machine à laver",
+    "es": "la lavadora",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-118",
+    "pt": "o frigorífico",
+    "zh": "冰箱",
+    "en": "fridge",
+    "fr": "le réfrigérateur",
+    "es": "el frigorífico",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-119",
+    "pt": "a emoção",
+    "zh": "情感",
+    "en": "emotion",
+    "fr": "l'émotion",
+    "es": "la emoción",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-120",
+    "pt": "o sentimento",
+    "zh": "感情",
+    "en": "feeling",
+    "fr": "le sentiment",
+    "es": "el sentimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-121",
+    "pt": "o amor",
+    "zh": "爱",
+    "en": "love",
+    "fr": "l'amour",
+    "es": "el amor",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-122",
+    "pt": "o ódio",
+    "zh": "仇恨",
+    "en": "hatred",
+    "fr": "la haine",
+    "es": "el odio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-123",
+    "pt": "o ciúme",
+    "zh": "嫉妒",
+    "en": "jealousy",
+    "fr": "la jalousie",
+    "es": "los celos",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-124",
+    "pt": "a inveja",
+    "zh": "羡慕；嫉妒",
+    "en": "envy",
+    "fr": "l'envie",
+    "es": "la envidia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-125",
+    "pt": "a culpa",
+    "zh": "内疚；过错",
+    "en": "guilt",
+    "fr": "la culpabilité",
+    "es": "la culpa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-126",
+    "pt": "o luto",
+    "zh": "哀悼",
+    "en": "mourning",
+    "fr": "le deuil",
+    "es": "el luto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-127",
+    "pt": "a nostalgia",
+    "zh": "怀旧",
+    "en": "nostalgia",
+    "fr": "la nostalgie",
+    "es": "la nostalgia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-128",
+    "pt": "o entusiasmo",
+    "zh": "热情",
+    "en": "enthusiasm",
+    "fr": "l'enthousiasme",
+    "es": "el entusiasmo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-129",
+    "pt": "a calma",
+    "zh": "平静",
+    "en": "calm",
+    "fr": "le calme",
+    "es": "la calma",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-130",
+    "pt": "a paciência",
+    "zh": "耐心",
+    "en": "patience",
+    "fr": "la patience",
+    "es": "la paciencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-131",
+    "pt": "a impaciência",
+    "zh": "不耐烦",
+    "en": "impatience",
+    "fr": "l'impatience",
+    "es": "la impaciencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-132",
+    "pt": "a coragem",
+    "zh": "勇气",
+    "en": "courage",
+    "fr": "le courage",
+    "es": "el coraje",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-133",
+    "pt": "a desconfiança",
+    "zh": "不信任",
+    "en": "mistrust",
+    "fr": "la méfiance",
+    "es": "la desconfianza",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-134",
+    "pt": "a sinceridade",
+    "zh": "真诚",
+    "en": "sincerity",
+    "fr": "la sincérité",
+    "es": "la sinceridad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-135",
+    "pt": "a honestidade",
+    "zh": "诚实",
+    "en": "honesty",
+    "fr": "l'honnêteté",
+    "es": "la honestidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-136",
+    "pt": "a mentira",
+    "zh": "谎言",
+    "en": "lie",
+    "fr": "le mensonge",
+    "es": "la mentira",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-137",
+    "pt": "mentir",
+    "zh": "说谎",
+    "en": "to lie",
+    "fr": "mentir",
+    "es": "mentir",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-138",
+    "pt": "a verdade",
+    "zh": "真相；真理",
+    "en": "truth",
+    "fr": "la vérité",
+    "es": "la verdad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-139",
+    "pt": "o segredo",
+    "zh": "秘密",
+    "en": "secret",
+    "fr": "le secret",
+    "es": "el secreto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-140",
+    "pt": "a promessa",
+    "zh": "承诺",
+    "en": "promise",
+    "fr": "la promesse",
+    "es": "la promesa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-141",
+    "pt": "prometer",
+    "zh": "承诺",
+    "en": "to promise",
+    "fr": "promettre",
+    "es": "prometer",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-142",
+    "pt": "a deceção",
+    "zh": "失望",
+    "en": "disappointment",
+    "fr": "la déception",
+    "es": "la decepción",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-143",
+    "pt": "a desilusão",
+    "zh": "幻灭；失望",
+    "en": "disillusionment",
+    "fr": "la désillusion",
+    "es": "la desilusión",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-144",
+    "pt": "o desespero",
+    "zh": "绝望",
+    "en": "despair",
+    "fr": "le désespoir",
+    "es": "la desesperación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-145",
+    "pt": "a frustração",
+    "zh": "挫折感",
+    "en": "frustration",
+    "fr": "la frustration",
+    "es": "la frustración",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-146",
+    "pt": "a surpresa",
+    "zh": "惊喜；惊讶",
+    "en": "surprise",
+    "fr": "la surprise",
+    "es": "la sorpresa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-147",
+    "pt": "a admiração",
+    "zh": "钦佩",
+    "en": "admiration",
+    "fr": "l'admiration",
+    "es": "la admiración",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-148",
+    "pt": "a gratidão",
+    "zh": "感激",
+    "en": "gratitude",
+    "fr": "la gratitude",
+    "es": "la gratitud",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-149",
+    "pt": "a razão",
+    "zh": "理由；理性",
+    "en": "reason",
+    "fr": "la raison",
+    "es": "la razón",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-150",
+    "pt": "o motivo",
+    "zh": "原因；动机",
+    "en": "motive",
+    "fr": "le motif",
+    "es": "el motivo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-151",
+    "pt": "a causa",
+    "zh": "原因；事业",
+    "en": "cause",
+    "fr": "la cause",
+    "es": "la causa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-152",
+    "pt": "o efeito",
+    "zh": "效果；影响",
+    "en": "effect",
+    "fr": "l'effet",
+    "es": "el efecto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-153",
+    "pt": "a consequência",
+    "zh": "后果",
+    "en": "consequence",
+    "fr": "la conséquence",
+    "es": "la consecuencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-154",
+    "pt": "a vantagem",
+    "zh": "优势",
+    "en": "advantage",
+    "fr": "l'avantage",
+    "es": "la ventaja",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-155",
+    "pt": "a desvantagem",
+    "zh": "劣势",
+    "en": "disadvantage",
+    "fr": "l'inconvénient",
+    "es": "la desventaja",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-156",
+    "pt": "o benefício",
+    "zh": "益处",
+    "en": "benefit",
+    "fr": "le bénéfice",
+    "es": "el beneficio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-157",
+    "pt": "o problema",
+    "zh": "问题",
+    "en": "problem",
+    "fr": "le problème",
+    "es": "el problema",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-158",
+    "pt": "a solução",
+    "zh": "解决办法",
+    "en": "solution",
+    "fr": "la solution",
+    "es": "la solución",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-159",
+    "pt": "a sugestão",
+    "zh": "建议",
+    "en": "suggestion",
+    "fr": "la suggestion",
+    "es": "la sugerencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-160",
+    "pt": "sugerir",
+    "zh": "建议",
+    "en": "to suggest",
+    "fr": "suggérer",
+    "es": "sugerir",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-161",
+    "pt": "o conselho",
+    "zh": "建议；忠告",
+    "en": "advice",
+    "fr": "le conseil",
+    "es": "el consejo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-162",
+    "pt": "aconselhar",
+    "zh": "建议；劝告",
+    "en": "to advise",
+    "fr": "conseiller",
+    "es": "aconsejar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-163",
+    "pt": "a dúvida",
+    "zh": "疑问",
+    "en": "doubt",
+    "fr": "le doute",
+    "es": "la duda",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-164",
+    "pt": "a certeza",
+    "zh": "确信",
+    "en": "certainty",
+    "fr": "la certitude",
+    "es": "la certeza",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-165",
+    "pt": "o exemplo",
+    "zh": "例子",
+    "en": "example",
+    "fr": "l'exemple",
+    "es": "el ejemplo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-166",
+    "pt": "a comparação",
+    "zh": "比较",
+    "en": "comparison",
+    "fr": "la comparaison",
+    "es": "la comparación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-167",
+    "pt": "comparar",
+    "zh": "比较",
+    "en": "to compare",
+    "fr": "comparer",
+    "es": "comparar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-168",
+    "pt": "a diferença",
+    "zh": "差异",
+    "en": "difference",
+    "fr": "la différence",
+    "es": "la diferencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-169",
+    "pt": "a conclusão",
+    "zh": "结论",
+    "en": "conclusion",
+    "fr": "la conclusion",
+    "es": "la conclusión",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-170",
+    "pt": "concluir",
+    "zh": "得出结论",
+    "en": "to conclude",
+    "fr": "conclure",
+    "es": "concluir",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-171",
+    "pt": "a justificação",
+    "zh": "理由；辩解",
+    "en": "justification",
+    "fr": "la justification",
+    "es": "la justificación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-172",
+    "pt": "justificar",
+    "zh": "解释；证明合理",
+    "en": "to justify",
+    "fr": "justifier",
+    "es": "justificar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-173",
+    "pt": "a afirmação",
+    "zh": "陈述；断言",
+    "en": "statement",
+    "fr": "l'affirmation",
+    "es": "la afirmación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-174",
+    "pt": "afirmar",
+    "zh": "断言；声称",
+    "en": "to state",
+    "fr": "affirmer",
+    "es": "afirmar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-175",
+    "pt": "o debate",
+    "zh": "辩论",
+    "en": "debate",
+    "fr": "le débat",
+    "es": "el debate",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-176",
+    "pt": "o ponto de vista",
+    "zh": "观点",
+    "en": "point of view",
+    "fr": "le point de vue",
+    "es": "el punto de vista",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-177",
+    "pt": "a questão",
+    "zh": "问题；议题",
+    "en": "question",
+    "fr": "la question",
+    "es": "la cuestión",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-178",
+    "pt": "o assunto",
+    "zh": "事情；话题",
+    "en": "matter",
+    "fr": "le sujet",
+    "es": "el asunto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-179",
+    "pt": "a sociedade",
+    "zh": "社会",
+    "en": "society",
+    "fr": "la société",
+    "es": "la sociedad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-180",
+    "pt": "a comunidade",
+    "zh": "社区；群体",
+    "en": "community",
+    "fr": "la communauté",
+    "es": "la comunidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-181",
+    "pt": "o cidadão",
+    "zh": "公民",
+    "en": "citizen",
+    "fr": "le citoyen",
+    "es": "el ciudadano",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-182",
+    "pt": "o povo",
+    "zh": "人民",
+    "en": "people",
+    "fr": "le peuple",
+    "es": "el pueblo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-183",
+    "pt": "a população",
+    "zh": "人口",
+    "en": "population",
+    "fr": "la population",
+    "es": "la población",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-184",
+    "pt": "o país",
+    "zh": "国家",
+    "en": "country",
+    "fr": "le pays",
+    "es": "el país",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-185",
+    "pt": "o Estado",
+    "zh": "国家；政府",
+    "en": "state",
+    "fr": "l'État",
+    "es": "el Estado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-186",
+    "pt": "a lei",
+    "zh": "法律",
+    "en": "law",
+    "fr": "la loi",
+    "es": "la ley",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-187",
+    "pt": "o direito",
+    "zh": "权利；法律",
+    "en": "right",
+    "fr": "le droit",
+    "es": "el derecho",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-188",
+    "pt": "o dever",
+    "zh": "义务",
+    "en": "duty",
+    "fr": "le devoir",
+    "es": "el deber",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-189",
+    "pt": "a política",
+    "zh": "政治；政策",
+    "en": "politics",
+    "fr": "la politique",
+    "es": "la política",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-190",
+    "pt": "o político",
+    "zh": "政治家",
+    "en": "politician",
+    "fr": "l'homme politique",
+    "es": "el político",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-191",
+    "pt": "o partido",
+    "zh": "政党",
+    "en": "party",
+    "fr": "le parti",
+    "es": "el partido",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-192",
+    "pt": "o voto",
+    "zh": "选票；投票",
+    "en": "vote",
+    "fr": "le vote",
+    "es": "el voto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-193",
+    "pt": "votar",
+    "zh": "投票",
+    "en": "to vote",
+    "fr": "voter",
+    "es": "votar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-194",
+    "pt": "o eleitor",
+    "zh": "选民",
+    "en": "voter",
+    "fr": "l'électeur",
+    "es": "el votante",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-195",
+    "pt": "a campanha",
+    "zh": "竞选活动",
+    "en": "campaign",
+    "fr": "la campagne",
+    "es": "la campaña",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-196",
+    "pt": "o presidente",
+    "zh": "总统；主席",
+    "en": "president",
+    "fr": "le président",
+    "es": "el presidente",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-197",
+    "pt": "o parlamento",
+    "zh": "议会",
+    "en": "parliament",
+    "fr": "le parlement",
+    "es": "el parlamento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-198",
+    "pt": "a república",
+    "zh": "共和国",
+    "en": "republic",
+    "fr": "la république",
+    "es": "la república",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-199",
+    "pt": "a democracia",
+    "zh": "民主",
+    "en": "democracy",
+    "fr": "la démocratie",
+    "es": "la democracia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-200",
+    "pt": "a ditadura",
+    "zh": "独裁",
+    "en": "dictatorship",
+    "fr": "la dictature",
+    "es": "la dictadura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-201",
+    "pt": "a revolução",
+    "zh": "革命",
+    "en": "revolution",
+    "fr": "la révolution",
+    "es": "la revolución",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-202",
+    "pt": "a reforma",
+    "zh": "改革；退休",
+    "en": "reform",
+    "fr": "la réforme",
+    "es": "la reforma",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-203",
+    "pt": "o tribunal",
+    "zh": "法院",
+    "en": "court",
+    "fr": "le tribunal",
+    "es": "el tribunal",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-204",
+    "pt": "o juiz",
+    "zh": "法官",
+    "en": "judge",
+    "fr": "le juge",
+    "es": "el juez",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-205",
+    "pt": "o advogado",
+    "zh": "律师",
+    "en": "lawyer",
+    "fr": "l'avocat",
+    "es": "el abogado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-206",
+    "pt": "o crime",
+    "zh": "犯罪",
+    "en": "crime",
+    "fr": "le crime",
+    "es": "el crimen",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-207",
+    "pt": "a polícia",
+    "zh": "警察",
+    "en": "police",
+    "fr": "la police",
+    "es": "la policía",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-208",
+    "pt": "a paz",
+    "zh": "和平",
+    "en": "peace",
+    "fr": "la paix",
+    "es": "la paz",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-209",
+    "pt": "a relação",
+    "zh": "关系",
+    "en": "relationship",
+    "fr": "la relation",
+    "es": "la relación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-210",
+    "pt": "o namoro",
+    "zh": "恋爱关系",
+    "en": "dating",
+    "fr": "la relation amoureuse",
+    "es": "el noviazgo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-211",
+    "pt": "o noivo",
+    "zh": "未婚夫",
+    "en": "fiancé",
+    "fr": "le fiancé",
+    "es": "el novio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-212",
+    "pt": "a noiva",
+    "zh": "未婚妻",
+    "en": "fiancée",
+    "fr": "la fiancée",
+    "es": "la novia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-213",
+    "pt": "o marido",
+    "zh": "丈夫",
+    "en": "husband",
+    "fr": "le mari",
+    "es": "el marido",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-214",
+    "pt": "a esposa",
+    "zh": "妻子",
+    "en": "wife",
+    "fr": "l'épouse",
+    "es": "la esposa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-215",
+    "pt": "o companheiro",
+    "zh": "伴侣；同伴",
+    "en": "partner",
+    "fr": "le compagnon",
+    "es": "el compañero",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-216",
+    "pt": "a companheira",
+    "zh": "伴侣；同伴",
+    "en": "partner",
+    "fr": "la compagne",
+    "es": "la compañera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-217",
+    "pt": "o parente",
+    "zh": "亲戚",
+    "en": "relative",
+    "fr": "le parent",
+    "es": "el pariente",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-218",
+    "pt": "o avô",
+    "zh": "祖父；外祖父",
+    "en": "grandfather",
+    "fr": "le grand-père",
+    "es": "el abuelo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-219",
+    "pt": "a avó",
+    "zh": "祖母；外祖母",
+    "en": "grandmother",
+    "fr": "la grand-mère",
+    "es": "la abuela",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-220",
+    "pt": "o neto",
+    "zh": "孙子；外孙",
+    "en": "grandson",
+    "fr": "le petit-fils",
+    "es": "el nieto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-221",
+    "pt": "a neta",
+    "zh": "孙女；外孙女",
+    "en": "granddaughter",
+    "fr": "la petite-fille",
+    "es": "la nieta",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-222",
+    "pt": "o sobrinho",
+    "zh": "侄子；外甥",
+    "en": "nephew",
+    "fr": "le neveu",
+    "es": "el sobrino",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-223",
+    "pt": "a sobrinha",
+    "zh": "侄女；外甥女",
+    "en": "niece",
+    "fr": "la nièce",
+    "es": "la sobrina",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-224",
+    "pt": "o genro",
+    "zh": "女婿",
+    "en": "son-in-law",
+    "fr": "le gendre",
+    "es": "el yerno",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-225",
+    "pt": "a nora",
+    "zh": "儿媳",
+    "en": "daughter-in-law",
+    "fr": "la belle-fille",
+    "es": "la nuera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-226",
+    "pt": "o sogro",
+    "zh": "岳父；公公",
+    "en": "father-in-law",
+    "fr": "le beau-père",
+    "es": "el suegro",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-227",
+    "pt": "a adoção",
+    "zh": "收养",
+    "en": "adoption",
+    "fr": "l'adoption",
+    "es": "la adopción",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-228",
+    "pt": "adotar",
+    "zh": "收养；采用",
+    "en": "to adopt",
+    "fr": "adopter",
+    "es": "adoptar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-229",
+    "pt": "a separação",
+    "zh": "分居；分离",
+    "en": "separation",
+    "fr": "la séparation",
+    "es": "la separación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-230",
+    "pt": "separar-se",
+    "zh": "分开；分手",
+    "en": "to separate",
+    "fr": "se séparer",
+    "es": "separarse",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-231",
+    "pt": "o carinho",
+    "zh": "温情；爱意",
+    "en": "affection",
+    "fr": "la tendresse",
+    "es": "el cariño",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-232",
+    "pt": "o abraço",
+    "zh": "拥抱",
+    "en": "hug",
+    "fr": "l'étreinte",
+    "es": "el abrazo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-233",
+    "pt": "o beijo",
+    "zh": "吻",
+    "en": "kiss",
+    "fr": "le baiser",
+    "es": "el beso",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-234",
+    "pt": "o apoio",
+    "zh": "支持",
+    "en": "support",
+    "fr": "le soutien",
+    "es": "el apoyo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-235",
+    "pt": "a compreensão",
+    "zh": "理解",
+    "en": "understanding",
+    "fr": "la compréhension",
+    "es": "la comprensión",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-236",
+    "pt": "o transporte",
+    "zh": "运输；交通",
+    "en": "transport",
+    "fr": "le transport",
+    "es": "el transporte",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-237",
+    "pt": "o metro",
+    "zh": "地铁",
+    "en": "metro",
+    "fr": "le métro",
+    "es": "el metro",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-238",
+    "pt": "o barco",
+    "zh": "船",
+    "en": "boat",
+    "fr": "le bateau",
+    "es": "el barco",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-239",
+    "pt": "o aluguer",
+    "zh": "租赁",
+    "en": "rental",
+    "fr": "la location",
+    "es": "el alquiler",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-240",
+    "pt": "alugar",
+    "zh": "租用",
+    "en": "to rent",
+    "fr": "louer",
+    "es": "alquilar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-241",
+    "pt": "a gasolina",
+    "zh": "汽油",
+    "en": "petrol",
+    "fr": "l'essence",
+    "es": "la gasolina",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-242",
+    "pt": "o gasóleo",
+    "zh": "柴油",
+    "en": "diesel",
+    "fr": "le gazole",
+    "es": "el gasóleo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-243",
+    "pt": "o posto de gasolina",
+    "zh": "加油站",
+    "en": "petrol station",
+    "fr": "la station-service",
+    "es": "la gasolinera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-244",
+    "pt": "a autoestrada",
+    "zh": "高速公路",
+    "en": "motorway",
+    "fr": "l'autoroute",
+    "es": "la autopista",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-245",
+    "pt": "a estrada",
+    "zh": "公路",
+    "en": "road",
+    "fr": "la route",
+    "es": "la carretera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-246",
+    "pt": "a avenida",
+    "zh": "大道",
+    "en": "avenue",
+    "fr": "l'avenue",
+    "es": "la avenida",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-247",
+    "pt": "o cruzamento",
+    "zh": "十字路口",
+    "en": "crossroads",
+    "fr": "le carrefour",
+    "es": "el cruce",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-248",
+    "pt": "o semáforo",
+    "zh": "红绿灯",
+    "en": "traffic light",
+    "fr": "le feu de circulation",
+    "es": "el semáforo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-249",
+    "pt": "o passeio",
+    "zh": "人行道",
+    "en": "pavement",
+    "fr": "le trottoir",
+    "es": "la acera",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-250",
+    "pt": "o parque de estacionamento",
+    "zh": "停车场",
+    "en": "car park",
+    "fr": "le parking",
+    "es": "el aparcamiento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-251",
+    "pt": "estacionar",
+    "zh": "停车",
+    "en": "to park",
+    "fr": "se garer",
+    "es": "aparcar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-252",
+    "pt": "o trânsito",
+    "zh": "交通",
+    "en": "traffic",
+    "fr": "la circulation",
+    "es": "el tráfico",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-253",
+    "pt": "o engarrafamento",
+    "zh": "交通堵塞",
+    "en": "traffic jam",
+    "fr": "l'embouteillage",
+    "es": "el atasco",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-254",
+    "pt": "a multa",
+    "zh": "罚款",
+    "en": "fine",
+    "fr": "l'amende",
+    "es": "la multa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-255",
+    "pt": "a velocidade",
+    "zh": "速度",
+    "en": "speed",
+    "fr": "la vitesse",
+    "es": "la velocidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-256",
+    "pt": "o limite de velocidade",
+    "zh": "限速",
+    "en": "speed limit",
+    "fr": "la limitation de vitesse",
+    "es": "el límite de velocidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-257",
+    "pt": "a direção",
+    "zh": "方向；驾驶",
+    "en": "direction",
+    "fr": "la direction",
+    "es": "la dirección",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-258",
+    "pt": "o mapa",
+    "zh": "地图",
+    "en": "map",
+    "fr": "la carte",
+    "es": "el mapa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-259",
+    "pt": "o itinerário",
+    "zh": "行程",
+    "en": "itinerary",
+    "fr": "l'itinéraire",
+    "es": "el itinerario",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-260",
+    "pt": "a receção",
+    "zh": "接待处；前台",
+    "en": "reception",
+    "fr": "la réception",
+    "es": "la recepción",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-261",
+    "pt": "o hóspede",
+    "zh": "客人；住客",
+    "en": "guest",
+    "fr": "l'hôte",
+    "es": "el huésped",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-262",
+    "pt": "a partida",
+    "zh": "出发",
+    "en": "departure",
+    "fr": "le départ",
+    "es": "la salida",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-263",
+    "pt": "a chegada",
+    "zh": "到达",
+    "en": "arrival",
+    "fr": "l'arrivée",
+    "es": "la llegada",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-264",
+    "pt": "o atraso",
+    "zh": "延误；迟到",
+    "en": "delay",
+    "fr": "le retard",
+    "es": "el retraso",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-265",
+    "pt": "a ligação",
+    "zh": "连接；转机",
+    "en": "connection",
+    "fr": "la correspondance",
+    "es": "la conexión",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-266",
+    "pt": "a cultura",
+    "zh": "文化",
+    "en": "culture",
+    "fr": "la culture",
+    "es": "la cultura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-267",
+    "pt": "a arte",
+    "zh": "艺术",
+    "en": "art",
+    "fr": "l'art",
+    "es": "el arte",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-268",
+    "pt": "o artista",
+    "zh": "艺术家",
+    "en": "artist",
+    "fr": "l'artiste",
+    "es": "el artista",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-269",
+    "pt": "a pintura",
+    "zh": "绘画",
+    "en": "painting",
+    "fr": "la peinture",
+    "es": "la pintura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-270",
+    "pt": "pintar",
+    "zh": "画画；粉刷",
+    "en": "to paint",
+    "fr": "peindre",
+    "es": "pintar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-271",
+    "pt": "o quadro",
+    "zh": "画；框架",
+    "en": "painting",
+    "fr": "le tableau",
+    "es": "el cuadro",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-272",
+    "pt": "a escultura",
+    "zh": "雕塑",
+    "en": "sculpture",
+    "fr": "la sculpture",
+    "es": "la escultura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-273",
+    "pt": "a música",
+    "zh": "音乐",
+    "en": "music",
+    "fr": "la musique",
+    "es": "la música",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-274",
+    "pt": "o músico",
+    "zh": "音乐家",
+    "en": "musician",
+    "fr": "le musicien",
+    "es": "el músico",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-275",
+    "pt": "a canção",
+    "zh": "歌曲",
+    "en": "song",
+    "fr": "la chanson",
+    "es": "la canción",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-276",
+    "pt": "cantar",
+    "zh": "唱歌",
+    "en": "to sing",
+    "fr": "chanter",
+    "es": "cantar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-277",
+    "pt": "a banda",
+    "zh": "乐队",
+    "en": "band",
+    "fr": "le groupe",
+    "es": "la banda",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-278",
+    "pt": "o concerto",
+    "zh": "音乐会",
+    "en": "concert",
+    "fr": "le concert",
+    "es": "el concierto",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-279",
+    "pt": "o festival",
+    "zh": "节日；音乐节",
+    "en": "festival",
+    "fr": "le festival",
+    "es": "el festival",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-280",
+    "pt": "o teatro",
+    "zh": "剧院；戏剧",
+    "en": "theatre",
+    "fr": "le théâtre",
+    "es": "el teatro",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-281",
+    "pt": "o ator",
+    "zh": "演员",
+    "en": "actor",
+    "fr": "l'acteur",
+    "es": "el actor",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-282",
+    "pt": "a atriz",
+    "zh": "女演员",
+    "en": "actress",
+    "fr": "l'actrice",
+    "es": "la actriz",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-283",
+    "pt": "a peça",
+    "zh": "戏剧；零件",
+    "en": "play",
+    "fr": "la pièce",
+    "es": "la obra de teatro",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-284",
+    "pt": "o palco",
+    "zh": "舞台",
+    "en": "stage",
+    "fr": "la scène",
+    "es": "el escenario",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-285",
+    "pt": "a plateia",
+    "zh": "观众席；观众",
+    "en": "audience",
+    "fr": "le public",
+    "es": "el público",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-286",
+    "pt": "o ensaio",
+    "zh": "排练；随笔",
+    "en": "rehearsal",
+    "fr": "la répétition",
+    "es": "el ensayo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-287",
+    "pt": "a dança",
+    "zh": "舞蹈",
+    "en": "dance",
+    "fr": "la danse",
+    "es": "la danza",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-288",
+    "pt": "dançar",
+    "zh": "跳舞",
+    "en": "to dance",
+    "fr": "danser",
+    "es": "bailar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-289",
+    "pt": "o cinema",
+    "zh": "电影院；电影",
+    "en": "cinema",
+    "fr": "le cinéma",
+    "es": "el cine",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-290",
+    "pt": "o filme",
+    "zh": "电影",
+    "en": "film",
+    "fr": "le film",
+    "es": "la película",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-291",
+    "pt": "a personagem",
+    "zh": "角色；人物",
+    "en": "character",
+    "fr": "le personnage",
+    "es": "el personaje",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-292",
+    "pt": "a fotografia",
+    "zh": "摄影；照片",
+    "en": "photography",
+    "fr": "la photographie",
+    "es": "la fotografía",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-293",
+    "pt": "o museu",
+    "zh": "博物馆",
+    "en": "museum",
+    "fr": "le musée",
+    "es": "el museo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-294",
+    "pt": "o azulejo",
+    "zh": "瓷砖；葡式彩砖",
+    "en": "tile",
+    "fr": "l'azulejo",
+    "es": "el azulejo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-295",
+    "pt": "o fado",
+    "zh": "法多",
+    "en": "fado",
+    "fr": "le fado",
+    "es": "el fado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-296",
+    "pt": "o ensino",
+    "zh": "教学；教育",
+    "en": "teaching",
+    "fr": "l'enseignement",
+    "es": "la enseñanza",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-297",
+    "pt": "a escola",
+    "zh": "学校",
+    "en": "school",
+    "fr": "l'école",
+    "es": "la escuela",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-298",
+    "pt": "a universidade",
+    "zh": "大学",
+    "en": "university",
+    "fr": "l'université",
+    "es": "la universidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-299",
+    "pt": "o curso",
+    "zh": "课程；专业",
+    "en": "course",
+    "fr": "le cours",
+    "es": "el curso",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-300",
+    "pt": "a aula",
+    "zh": "课；课堂",
+    "en": "class",
+    "fr": "le cours",
+    "es": "la clase",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-301",
+    "pt": "o professor",
+    "zh": "老师",
+    "en": "teacher",
+    "fr": "le professeur",
+    "es": "el profesor",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-302",
+    "pt": "o aluno",
+    "zh": "学生",
+    "en": "pupil",
+    "fr": "l'élève",
+    "es": "el alumno",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-303",
+    "pt": "o estudante",
+    "zh": "学生",
+    "en": "student",
+    "fr": "l'étudiant",
+    "es": "el estudiante",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-304",
+    "pt": "estudar",
+    "zh": "学习",
+    "en": "to study",
+    "fr": "étudier",
+    "es": "estudiar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-305",
+    "pt": "aprender",
+    "zh": "学会",
+    "en": "to learn",
+    "fr": "apprendre",
+    "es": "aprender",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-306",
+    "pt": "ensinar",
+    "zh": "教",
+    "en": "to teach",
+    "fr": "enseigner",
+    "es": "enseñar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-307",
+    "pt": "o conhecimento",
+    "zh": "知识",
+    "en": "knowledge",
+    "fr": "la connaissance",
+    "es": "el conocimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-308",
+    "pt": "a matéria",
+    "zh": "科目；内容",
+    "en": "subject",
+    "fr": "la matière",
+    "es": "la materia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-309",
+    "pt": "a disciplina",
+    "zh": "学科；纪律",
+    "en": "subject",
+    "fr": "la discipline",
+    "es": "la asignatura",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-310",
+    "pt": "o intervalo",
+    "zh": "课间休息",
+    "en": "break",
+    "fr": "la pause",
+    "es": "el recreo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-311",
+    "pt": "a nota",
+    "zh": "分数；笔记",
+    "en": "grade",
+    "fr": "la note",
+    "es": "la nota",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-312",
+    "pt": "o resultado",
+    "zh": "结果",
+    "en": "result",
+    "fr": "le résultat",
+    "es": "el resultado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-313",
+    "pt": "o diploma",
+    "zh": "文凭",
+    "en": "diploma",
+    "fr": "le diplôme",
+    "es": "el diploma",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-314",
+    "pt": "o certificado",
+    "zh": "证书",
+    "en": "certificate",
+    "fr": "le certificat",
+    "es": "el certificado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-315",
+    "pt": "o trabalho de casa",
+    "zh": "家庭作业",
+    "en": "homework",
+    "fr": "les devoirs",
+    "es": "los deberes",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-316",
+    "pt": "a redação",
+    "zh": "作文；写作",
+    "en": "essay",
+    "fr": "la rédaction",
+    "es": "la redacción",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-317",
+    "pt": "a gramática",
+    "zh": "语法",
+    "en": "grammar",
+    "fr": "la grammaire",
+    "es": "la gramática",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-318",
+    "pt": "o vocabulário",
+    "zh": "词汇",
+    "en": "vocabulary",
+    "fr": "le vocabulaire",
+    "es": "el vocabulario",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-319",
+    "pt": "a pronúncia",
+    "zh": "发音",
+    "en": "pronunciation",
+    "fr": "la prononciation",
+    "es": "la pronunciación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-320",
+    "pt": "o dicionário",
+    "zh": "词典",
+    "en": "dictionary",
+    "fr": "le dictionnaire",
+    "es": "el diccionario",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-321",
+    "pt": "a pesquisa",
+    "zh": "研究；搜索",
+    "en": "research",
+    "fr": "la recherche",
+    "es": "la búsqueda",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-322",
+    "pt": "o resumo",
+    "zh": "摘要",
+    "en": "summary",
+    "fr": "le résumé",
+    "es": "el resumen",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-323",
+    "pt": "o erro",
+    "zh": "错误",
+    "en": "mistake",
+    "fr": "l'erreur",
+    "es": "el error",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-324",
+    "pt": "o teste",
+    "zh": "测验",
+    "en": "test",
+    "fr": "le test",
+    "es": "el examen",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-325",
+    "pt": "a avaliação",
+    "zh": "评估；考核",
+    "en": "assessment",
+    "fr": "l'évaluation",
+    "es": "la evaluación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-326",
+    "pt": "caminhar",
+    "zh": "走路；步行",
+    "en": "to walk",
+    "fr": "marcher",
+    "es": "caminar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-327",
+    "pt": "cozinhar",
+    "zh": "做饭",
+    "en": "to cook",
+    "fr": "cuisiner",
+    "es": "cocinar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-328",
+    "pt": "conhecer",
+    "zh": "认识；了解",
+    "en": "to know",
+    "fr": "connaître",
+    "es": "conocer",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-329",
+    "pt": "tocar",
+    "zh": "触摸；演奏",
+    "en": "to touch",
+    "fr": "toucher",
+    "es": "tocar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-330",
+    "pt": "olhar",
+    "zh": "看；注视",
+    "en": "to look",
+    "fr": "regarder",
+    "es": "mirar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-331",
+    "pt": "gritar",
+    "zh": "喊叫",
+    "en": "to shout",
+    "fr": "crier",
+    "es": "gritar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-332",
+    "pt": "rir",
+    "zh": "笑",
+    "en": "to laugh",
+    "fr": "rire",
+    "es": "reír",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-333",
+    "pt": "sorrir",
+    "zh": "微笑",
+    "en": "to smile",
+    "fr": "sourire",
+    "es": "sonreír",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-334",
+    "pt": "chorar",
+    "zh": "哭",
+    "en": "to cry",
+    "fr": "pleurer",
+    "es": "llorar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-335",
+    "pt": "cumprimentar",
+    "zh": "问候",
+    "en": "to greet",
+    "fr": "saluer",
+    "es": "saludar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-336",
+    "pt": "visitar",
+    "zh": "拜访；参观",
+    "en": "to visit",
+    "fr": "visiter",
+    "es": "visitar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-337",
+    "pt": "receber",
+    "zh": "收到；接待",
+    "en": "to receive",
+    "fr": "recevoir",
+    "es": "recibir",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-338",
+    "pt": "oferecer",
+    "zh": "提供；赠送",
+    "en": "to offer",
+    "fr": "offrir",
+    "es": "ofrecer",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-339",
+    "pt": "dar",
+    "zh": "给",
+    "en": "to give",
+    "fr": "donner",
+    "es": "dar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-340",
+    "pt": "emprestar",
+    "zh": "借出",
+    "en": "to lend",
+    "fr": "prêter",
+    "es": "prestar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-341",
+    "pt": "continuar",
+    "zh": "继续",
+    "en": "to continue",
+    "fr": "continuer",
+    "es": "continuar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-342",
+    "pt": "encontrar",
+    "zh": "找到；遇见",
+    "en": "to find",
+    "fr": "trouver",
+    "es": "encontrar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-343",
+    "pt": "procurar",
+    "zh": "寻找",
+    "en": "to look for",
+    "fr": "chercher",
+    "es": "buscar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-344",
+    "pt": "trazer",
+    "zh": "带来",
+    "en": "to bring",
+    "fr": "apporter",
+    "es": "traer",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-345",
+    "pt": "levar",
+    "zh": "带走；拿",
+    "en": "to take",
+    "fr": "emporter",
+    "es": "llevar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-346",
+    "pt": "enviar",
+    "zh": "发送",
+    "en": "to send",
+    "fr": "envoyer",
+    "es": "enviar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-347",
+    "pt": "ligar",
+    "zh": "打开；打电话",
+    "en": "to turn on",
+    "fr": "allumer",
+    "es": "encender",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-348",
+    "pt": "desligar",
+    "zh": "关闭；挂断",
+    "en": "to turn off",
+    "fr": "éteindre",
+    "es": "apagar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-349",
+    "pt": "funcionar",
+    "zh": "运转；有效",
+    "en": "to work",
+    "fr": "fonctionner",
+    "es": "funcionar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-350",
+    "pt": "estragar",
+    "zh": "损坏；弄坏",
+    "en": "to spoil",
+    "fr": "abîmer",
+    "es": "estropear",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-351",
+    "pt": "arranjar",
+    "zh": "修理；弄到",
+    "en": "to fix",
+    "fr": "réparer",
+    "es": "arreglar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-352",
+    "pt": "construir",
+    "zh": "建造",
+    "en": "to build",
+    "fr": "construire",
+    "es": "construir",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-353",
+    "pt": "criar",
+    "zh": "创造；养育",
+    "en": "to create",
+    "fr": "créer",
+    "es": "crear",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-354",
+    "pt": "acreditar",
+    "zh": "相信",
+    "en": "to believe",
+    "fr": "croire",
+    "es": "creer",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-355",
+    "pt": "confiar",
+    "zh": "信任",
+    "en": "to trust",
+    "fr": "faire confiance",
+    "es": "confiar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-356",
+    "pt": "acontecer",
+    "zh": "发生",
+    "en": "to happen",
+    "fr": "arriver",
+    "es": "suceder",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-357",
+    "pt": "parecer",
+    "zh": "似乎",
+    "en": "to seem",
+    "fr": "sembler",
+    "es": "parecer",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-358",
+    "pt": "precisar",
+    "zh": "需要",
+    "en": "to need",
+    "fr": "avoir besoin",
+    "es": "necesitar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-359",
+    "pt": "pensar",
+    "zh": "思考",
+    "en": "to think",
+    "fr": "penser",
+    "es": "pensar",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-360",
+    "pt": "perceber",
+    "zh": "理解；察觉",
+    "en": "to understand",
+    "fr": "comprendre",
+    "es": "entender",
+    "pos": "verb"
+  },
+  {
+    "id": "b1x-361",
+    "pt": "a vida",
+    "zh": "生活；生命",
+    "en": "life",
+    "fr": "la vie",
+    "es": "la vida",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-362",
+    "pt": "o momento",
+    "zh": "时刻",
+    "en": "moment",
+    "fr": "le moment",
+    "es": "el momento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-363",
+    "pt": "o período",
+    "zh": "时期；期间",
+    "en": "period",
+    "fr": "la période",
+    "es": "el período",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-364",
+    "pt": "a etapa",
+    "zh": "阶段",
+    "en": "stage",
+    "fr": "l'étape",
+    "es": "la etapa",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-365",
+    "pt": "o início",
+    "zh": "开始",
+    "en": "beginning",
+    "fr": "le début",
+    "es": "el inicio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-366",
+    "pt": "o fim",
+    "zh": "结束；尽头",
+    "en": "end",
+    "fr": "la fin",
+    "es": "el fin",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-367",
+    "pt": "a oportunidade",
+    "zh": "机会",
+    "en": "opportunity",
+    "fr": "l'opportunité",
+    "es": "la oportunidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-368",
+    "pt": "o sucesso",
+    "zh": "成功",
+    "en": "success",
+    "fr": "le succès",
+    "es": "el éxito",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-369",
+    "pt": "o fracasso",
+    "zh": "失败",
+    "en": "failure",
+    "fr": "l'échec",
+    "es": "el fracaso",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-370",
+    "pt": "a intenção",
+    "zh": "意图",
+    "en": "intention",
+    "fr": "l'intention",
+    "es": "la intención",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-371",
+    "pt": "a vontade",
+    "zh": "意愿；欲望",
+    "en": "will",
+    "fr": "la volonté",
+    "es": "la voluntad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-372",
+    "pt": "o desejo",
+    "zh": "愿望",
+    "en": "desire",
+    "fr": "le désir",
+    "es": "el deseo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-373",
+    "pt": "a necessidade",
+    "zh": "需要",
+    "en": "need",
+    "fr": "le besoin",
+    "es": "la necesidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-374",
+    "pt": "a violência",
+    "zh": "暴力",
+    "en": "violence",
+    "fr": "la violence",
+    "es": "la violencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-375",
+    "pt": "o perigo",
+    "zh": "危险",
+    "en": "danger",
+    "fr": "le danger",
+    "es": "el peligro",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-376",
+    "pt": "a influência",
+    "zh": "影响",
+    "en": "influence",
+    "fr": "l'influence",
+    "es": "la influencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-377",
+    "pt": "o controlo",
+    "zh": "控制",
+    "en": "control",
+    "fr": "le contrôle",
+    "es": "el control",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-378",
+    "pt": "a ordem",
+    "zh": "秩序；命令",
+    "en": "order",
+    "fr": "l'ordre",
+    "es": "el orden",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-379",
+    "pt": "o equilíbrio",
+    "zh": "平衡",
+    "en": "balance",
+    "fr": "l'équilibre",
+    "es": "el equilibrio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-380",
+    "pt": "a evolução",
+    "zh": "演变；进化",
+    "en": "evolution",
+    "fr": "l'évolution",
+    "es": "la evolución",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-381",
+    "pt": "o progresso",
+    "zh": "进步",
+    "en": "progress",
+    "fr": "le progrès",
+    "es": "el progreso",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-382",
+    "pt": "o desenvolvimento",
+    "zh": "发展",
+    "en": "development",
+    "fr": "le développement",
+    "es": "el desarrollo",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-383",
+    "pt": "o crescimento",
+    "zh": "增长",
+    "en": "growth",
+    "fr": "la croissance",
+    "es": "el crecimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-384",
+    "pt": "a fé",
+    "zh": "信仰",
+    "en": "faith",
+    "fr": "la foi",
+    "es": "la fe",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-385",
+    "pt": "a religião",
+    "zh": "宗教",
+    "en": "religion",
+    "fr": "la religion",
+    "es": "la religión",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-386",
+    "pt": "a injustiça",
+    "zh": "不公正",
+    "en": "injustice",
+    "fr": "l'injustice",
+    "es": "la injusticia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-387",
+    "pt": "a sabedoria",
+    "zh": "智慧",
+    "en": "wisdom",
+    "fr": "la sagesse",
+    "es": "la sabiduría",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-388",
+    "pt": "a ignorância",
+    "zh": "无知",
+    "en": "ignorance",
+    "fr": "l'ignorance",
+    "es": "la ignorancia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-389",
+    "pt": "o mistério",
+    "zh": "谜团",
+    "en": "mystery",
+    "fr": "le mystère",
+    "es": "el misterio",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-390",
+    "pt": "a coincidência",
+    "zh": "巧合",
+    "en": "coincidence",
+    "fr": "la coïncidence",
+    "es": "la coincidencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-391",
+    "pt": "o futuro",
+    "zh": "未来",
+    "en": "future",
+    "fr": "l'avenir",
+    "es": "el futuro",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-392",
+    "pt": "o passado",
+    "zh": "过去",
+    "en": "past",
+    "fr": "le passé",
+    "es": "el pasado",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-393",
+    "pt": "a história",
+    "zh": "历史；故事",
+    "en": "history",
+    "fr": "l'histoire",
+    "es": "la historia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-394",
+    "pt": "a ciência",
+    "zh": "科学",
+    "en": "science",
+    "fr": "la science",
+    "es": "la ciencia",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-395",
+    "pt": "a tecnologia",
+    "zh": "技术",
+    "en": "technology",
+    "fr": "la technologie",
+    "es": "la tecnología",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-396",
+    "pt": "a economia",
+    "zh": "经济",
+    "en": "economy",
+    "fr": "l'économie",
+    "es": "la economía",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-397",
+    "pt": "a felicidade",
+    "zh": "幸福",
+    "en": "happiness",
+    "fr": "le bonheur",
+    "es": "la felicidad",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-398",
+    "pt": "o prazer",
+    "zh": "乐趣；愉快",
+    "en": "pleasure",
+    "fr": "le plaisir",
+    "es": "el placer",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-399",
+    "pt": "o sofrimento",
+    "zh": "痛苦",
+    "en": "suffering",
+    "fr": "la souffrance",
+    "es": "el sufrimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-400",
+    "pt": "a educação",
+    "zh": "教育",
+    "en": "education",
+    "fr": "l'éducation",
+    "es": "la educación",
+    "pos": "noun"
+  },
+  {
+    "id": "b1x-401",
+    "pt": "antigo",
+    "zh": "古老的；以前的",
+    "en": "old",
+    "fr": "ancien",
+    "es": "antiguo",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-402",
+    "pt": "moderno",
+    "zh": "现代的",
+    "en": "modern",
+    "fr": "moderne",
+    "es": "moderno",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-403",
+    "pt": "jovem",
+    "zh": "年轻的",
+    "en": "young",
+    "fr": "jeune",
+    "es": "joven",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-404",
+    "pt": "forte",
+    "zh": "强壮的；强烈的",
+    "en": "strong",
+    "fr": "fort",
+    "es": "fuerte",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-405",
+    "pt": "fraco",
+    "zh": "虚弱的；弱的",
+    "en": "weak",
+    "fr": "faible",
+    "es": "débil",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-406",
+    "pt": "rápido",
+    "zh": "快速的",
+    "en": "fast",
+    "fr": "rapide",
+    "es": "rápido",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-407",
+    "pt": "lento",
+    "zh": "缓慢的",
+    "en": "slow",
+    "fr": "lent",
+    "es": "lento",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-408",
+    "pt": "fácil",
+    "zh": "容易的",
+    "en": "easy",
+    "fr": "facile",
+    "es": "fácil",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-409",
+    "pt": "difícil",
+    "zh": "困难的",
+    "en": "difficult",
+    "fr": "difficile",
+    "es": "difícil",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-410",
+    "pt": "simples",
+    "zh": "简单的",
+    "en": "simple",
+    "fr": "simple",
+    "es": "sencillo",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-411",
+    "pt": "complicado",
+    "zh": "复杂的",
+    "en": "complicated",
+    "fr": "compliqué",
+    "es": "complicado",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-412",
+    "pt": "limpo",
+    "zh": "干净的",
+    "en": "clean",
+    "fr": "propre",
+    "es": "limpio",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-413",
+    "pt": "sujo",
+    "zh": "脏的",
+    "en": "dirty",
+    "fr": "sale",
+    "es": "sucio",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-414",
+    "pt": "económico",
+    "zh": "经济的；实惠的",
+    "en": "economic",
+    "fr": "économique",
+    "es": "económico",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-415",
+    "pt": "escuro",
+    "zh": "黑暗的",
+    "en": "dark",
+    "fr": "sombre",
+    "es": "oscuro",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-416",
+    "pt": "claro",
+    "zh": "明亮的；清楚的",
+    "en": "clear",
+    "fr": "clair",
+    "es": "claro",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-417",
+    "pt": "educado",
+    "zh": "有礼貌的",
+    "en": "polite",
+    "fr": "poli",
+    "es": "educado",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-418",
+    "pt": "simpático",
+    "zh": "友好的",
+    "en": "friendly",
+    "fr": "sympathique",
+    "es": "simpático",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-419",
+    "pt": "interessante",
+    "zh": "有趣的",
+    "en": "interesting",
+    "fr": "intéressant",
+    "es": "interesante",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-420",
+    "pt": "sério",
+    "zh": "严肃的；认真的",
+    "en": "serious",
+    "fr": "sérieux",
+    "es": "serio",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-421",
+    "pt": "calmo",
+    "zh": "平静的",
+    "en": "calm",
+    "fr": "calme",
+    "es": "tranquilo",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-422",
+    "pt": "ansioso",
+    "zh": "焦虑的",
+    "en": "anxious",
+    "fr": "anxieux",
+    "es": "ansioso",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-423",
+    "pt": "orgulhoso",
+    "zh": "骄傲的",
+    "en": "proud",
+    "fr": "fier",
+    "es": "orgulloso",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-424",
+    "pt": "honesto",
+    "zh": "诚实的",
+    "en": "honest",
+    "fr": "honnête",
+    "es": "honesto",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-425",
+    "pt": "generoso",
+    "zh": "慷慨的",
+    "en": "generous",
+    "fr": "généreux",
+    "es": "generoso",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-426",
+    "pt": "responsável",
+    "zh": "负责的",
+    "en": "responsible",
+    "fr": "responsable",
+    "es": "responsable",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-427",
+    "pt": "importante",
+    "zh": "重要的",
+    "en": "important",
+    "fr": "important",
+    "es": "importante",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-428",
+    "pt": "possível",
+    "zh": "可能的",
+    "en": "possible",
+    "fr": "possible",
+    "es": "posible",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-429",
+    "pt": "necessário",
+    "zh": "必要的",
+    "en": "necessary",
+    "fr": "nécessaire",
+    "es": "necesario",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-430",
+    "pt": "útil",
+    "zh": "有用的",
+    "en": "useful",
+    "fr": "utile",
+    "es": "útil",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-431",
+    "pt": "diferente",
+    "zh": "不同的",
+    "en": "different",
+    "fr": "différent",
+    "es": "diferente",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-432",
+    "pt": "público",
+    "zh": "公共的",
+    "en": "public",
+    "fr": "public",
+    "es": "público",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-433",
+    "pt": "social",
+    "zh": "社会的",
+    "en": "social",
+    "fr": "social",
+    "es": "social",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-434",
+    "pt": "cultural",
+    "zh": "文化的",
+    "en": "cultural",
+    "fr": "culturel",
+    "es": "cultural",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-435",
+    "pt": "ambiental",
+    "zh": "环境的",
+    "en": "environmental",
+    "fr": "environnemental",
+    "es": "ambiental",
+    "pos": "adjective"
+  },
+  {
+    "id": "b1x-436",
+    "pt": "depois",
+    "zh": "之后；然后",
+    "en": "afterwards",
+    "fr": "ensuite",
+    "es": "después",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-437",
+    "pt": "antes",
+    "zh": "之前",
+    "en": "before",
+    "fr": "avant",
+    "es": "antes",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-438",
+    "pt": "logo",
+    "zh": "很快；因此",
+    "en": "soon",
+    "fr": "bientôt",
+    "es": "pronto",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-439",
+    "pt": "então",
+    "zh": "那么；当时",
+    "en": "then",
+    "fr": "alors",
+    "es": "entonces",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-440",
+    "pt": "apenas",
+    "zh": "仅仅",
+    "en": "only",
+    "fr": "seulement",
+    "es": "solamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-441",
+    "pt": "quase",
+    "zh": "几乎",
+    "en": "almost",
+    "fr": "presque",
+    "es": "casi",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-442",
+    "pt": "exatamente",
+    "zh": "确切地",
+    "en": "exactly",
+    "fr": "exactement",
+    "es": "exactamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-443",
+    "pt": "geralmente",
+    "zh": "通常",
+    "en": "generally",
+    "fr": "généralement",
+    "es": "generalmente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-444",
+    "pt": "raramente",
+    "zh": "很少",
+    "en": "rarely",
+    "fr": "rarement",
+    "es": "raramente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-445",
+    "pt": "frequentemente",
+    "zh": "经常",
+    "en": "frequently",
+    "fr": "fréquemment",
+    "es": "frecuentemente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-446",
+    "pt": "recentemente",
+    "zh": "最近",
+    "en": "recently",
+    "fr": "récemment",
+    "es": "recientemente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-447",
+    "pt": "finalmente",
+    "zh": "终于",
+    "en": "finally",
+    "fr": "finalement",
+    "es": "finalmente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-448",
+    "pt": "infelizmente",
+    "zh": "不幸地",
+    "en": "unfortunately",
+    "fr": "malheureusement",
+    "es": "desafortunadamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-449",
+    "pt": "provavelmente",
+    "zh": "可能",
+    "en": "probably",
+    "fr": "probablement",
+    "es": "probablemente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-450",
+    "pt": "completamente",
+    "zh": "完全地",
+    "en": "completely",
+    "fr": "complètement",
+    "es": "completamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "b1x-451",
+    "pt": "além disso",
+    "zh": "此外",
+    "en": "besides",
+    "fr": "en outre",
+    "es": "además",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-452",
+    "pt": "por exemplo",
+    "zh": "例如",
+    "en": "for example",
+    "fr": "par exemple",
+    "es": "por ejemplo",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-453",
+    "pt": "de facto",
+    "zh": "事实上",
+    "en": "indeed",
+    "fr": "en effet",
+    "es": "de hecho",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-454",
+    "pt": "por isso",
+    "zh": "因此",
+    "en": "therefore",
+    "fr": "c'est pourquoi",
+    "es": "por eso",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-455",
+    "pt": "devido a",
+    "zh": "由于",
+    "en": "due to",
+    "fr": "en raison de",
+    "es": "debido a",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-456",
+    "pt": "em vez de",
+    "zh": "而不是",
+    "en": "instead of",
+    "fr": "au lieu de",
+    "es": "en vez de",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-457",
+    "pt": "de acordo com",
+    "zh": "根据",
+    "en": "according to",
+    "fr": "selon",
+    "es": "según",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-458",
+    "pt": "por outro lado",
+    "zh": "另一方面",
+    "en": "on the other hand",
+    "fr": "d'autre part",
+    "es": "por otro lado",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-459",
+    "pt": "em primeiro lugar",
+    "zh": "首先",
+    "en": "first of all",
+    "fr": "tout d'abord",
+    "es": "en primer lugar",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-460",
+    "pt": "de vez em quando",
+    "zh": "偶尔",
+    "en": "from time to time",
+    "fr": "de temps en temps",
+    "es": "de vez en cuando",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-461",
+    "pt": "ter a ver com",
+    "zh": "与……有关",
+    "en": "to have to do with",
+    "fr": "avoir à voir avec",
+    "es": "tener que ver con",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-462",
+    "pt": "dar-se conta de",
+    "zh": "意识到",
+    "en": "to realize",
+    "fr": "se rendre compte de",
+    "es": "darse cuenta de",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-463",
+    "pt": "fazer sentido",
+    "zh": "有意义；合理",
+    "en": "to make sense",
+    "fr": "avoir du sens",
+    "es": "tener sentido",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-464",
+    "pt": "ter saudades de",
+    "zh": "想念",
+    "en": "to miss",
+    "fr": "avoir la nostalgie de",
+    "es": "echar de menos",
+    "pos": "phrase"
+  },
+  {
+    "id": "b1x-465",
+    "pt": "prestar atenção",
+    "zh": "注意",
+    "en": "to pay attention",
+    "fr": "faire attention",
+    "es": "prestar atención",
+    "pos": "phrase"
+  }
+]

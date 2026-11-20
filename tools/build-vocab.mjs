@@ -7,13 +7,19 @@ const bank = {};
 const ids = new Set();
 const problems = [];
 for (const level of levels) {
-  const file = path.join(root, 'content', `vocab-${level}.json`);
-  if (!fs.existsSync(file)) { problems.push(`missing ${level}`); continue; }
-  const words = JSON.parse(fs.readFileSync(file, 'utf8'));
-  if (!Array.isArray(words)) { problems.push(`${level}: not array`); continue; }
+  const files = [`vocab-${level}.json`, `vocab-extra-${level}.json`]
+    .map(name => path.join(root, 'content', name))
+    .filter(file => fs.existsSync(file));
+  if (!files.length) { problems.push(`missing ${level}`); continue; }
+  const words = [];
+  for (const file of files) {
+    const part = JSON.parse(fs.readFileSync(file, 'utf8'));
+    if (!Array.isArray(part)) { problems.push(`${level}: not array`); continue; }
+    words.push(...part);
+  }
   bank[level] = words;
   for (const word of words) {
-    for (const key of ['id', 'pt', 'zh', 'en', 'fr', 'es', 'pos', 'ex', 'exZh']) {
+    for (const key of ['id', 'pt', 'zh', 'en', 'fr', 'es', 'pos']) {
       if (!word[key]) problems.push(`${level} ${word.id || '?'}: missing ${key}`);
     }
     if (ids.has(word.id)) problems.push(`duplicate id ${word.id}`);

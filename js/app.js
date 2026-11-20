@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.5.0';
+  const APP_VERSION = '3.6.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -293,7 +293,7 @@
       if (!word || !word.id || vocabMap.has(word.id)) return;
       const enriched = {
         ...word,
-        pron: word.pron || '',
+        pron: word.pron || (window.AZ_PHONETIC ? window.AZ_PHONETIC(word.pt) : ''),
         note: word.note || '',
         lessonId: `bank-${word.id}`,
         lessonTitle: 'Vocabulário essencial',
@@ -600,6 +600,7 @@
     cloudRemote: null,
     wordQuery: '',
     wordLevel: 'all',
+    wordLimit: 200,
     favOnly: false,
     lesson: null,
     review: null,
@@ -2388,8 +2389,9 @@
       return `<div class="empty-phrases lex-empty"><span>${icon('search')}</span><h3>Nenhuma palavra encontrada.</h3><p>试试中文、English、français 或 español。</p><button class="btn btn-secondary" data-action="clear-word-filters">Limpar filtros</button></div>`;
     }
     let sequence = 0;
+    const visible = list.slice(0, ui.wordLimit);
     return WORD_POS_GROUPS.map(([pos, label, zh]) => {
-      const words = list
+      const words = visible
         .filter(word => wordPos(word) === pos)
         .sort((a, b) => String(a.level || '').localeCompare(String(b.level || '')) || String(a.pt || '').localeCompare(String(b.pt || ''), 'pt'));
       if (!words.length) return '';
@@ -2419,8 +2421,13 @@
   function renderWordGrid() {
     const grid = $('#lex-grid');
     if (grid) grid.innerHTML = lexiconGridHTML();
+    const list = allVocab.filter(wordMatches);
     const count = $('#word-count');
-    if (count) count.textContent = `${allVocab.filter(wordMatches).length} palavras`;
+    if (count) count.textContent = `${Math.min(ui.wordLimit, list.length)} / ${list.length} palavras`;
+    const more = $('#word-more');
+    if (more) more.innerHTML = list.length > ui.wordLimit
+      ? `<button class="btn btn-secondary" data-action="show-more-words">Mostrar mais 200 ${icon('arrow-right')}</button>`
+      : '';
     $$('#word-level-chips .filter-chip').forEach(chip => chip.classList.toggle('is-active', chip.dataset.level === ui.wordLevel));
   }
 
@@ -2446,9 +2453,10 @@
           </label>
         </div>
         <div class="filter-chips" id="word-level-chips">${levelChips}</div>
-        <div class="phrase-grid-head"><span id="word-count">${allVocab.filter(wordMatches).length} palavras</span><span>${icon('volume')} 点小喇叭听葡语发音</span></div>
+        <div class="phrase-grid-head"><span id="word-count">${Math.min(ui.wordLimit, allVocab.filter(wordMatches).length)} / ${allVocab.filter(wordMatches).length} palavras</span><span>${icon('volume')} 点小喇叭听葡语发音</span></div>
         <div class="lex-table-head" aria-hidden="true"><span>Nº</span><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span><span></span></div>
         <div class="lex-grid" id="lex-grid">${lexiconGridHTML()}</div>
+        <div class="word-more" id="word-more">${allVocab.filter(wordMatches).length > ui.wordLimit ? `<button class="btn btn-secondary" data-action="show-more-words">Mostrar mais 200 ${icon('arrow-right')}</button>` : ''}</div>
       </div>`;
     document.title = 'Palavras · Azulejo';
   }
@@ -4854,11 +4862,17 @@
         break;
       case 'filter-words':
         ui.wordLevel = el.dataset.level;
+        ui.wordLimit = 200;
+        renderWordGrid();
+        break;
+      case 'show-more-words':
+        ui.wordLimit += 200;
         renderWordGrid();
         break;
       case 'clear-word-filters':
         ui.wordLevel = 'all';
         ui.wordQuery = '';
+        ui.wordLimit = 200;
         renderPhrasesPage();
         break;
       case 'filter-phrases':
@@ -5005,6 +5019,7 @@
       }
       if (event.target.id === 'word-search') {
         ui.wordQuery = event.target.value;
+        ui.wordLimit = 200;
         renderWordGrid();
         return;
       }

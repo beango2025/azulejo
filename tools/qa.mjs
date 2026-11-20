@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.4.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.5.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -258,6 +258,7 @@ try {
   console.log('LEX_POS_GROUPS', await evaluate(`[...document.querySelectorAll('.lex-pos-head h3')].map(el => el.textContent.trim())`));
   console.log('LEX_ROWS', await evaluate(`document.querySelectorAll('.lex-row').length`));
   console.log('LEX_INDEX_FIRST_LAST', await evaluate(`[document.querySelector('.lex-index')?.textContent, [...document.querySelectorAll('.lex-index')].pop()?.textContent]`));
+  console.log('LEX_TOTAL', await evaluate(`document.querySelector('#word-count')?.textContent`));
   await evaluate(`(() => { const i=document.querySelector('#word-search'); i.value='heteronym'; i.dispatchEvent(new Event('input',{bubbles:true})); })()`);
   await sleep(350);
   console.log('SEARCH_HETERONYM_ROWS', await evaluate(`document.querySelectorAll('.lex-row').length`));

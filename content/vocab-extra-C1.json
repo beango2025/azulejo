@@ -1,0 +1,4187 @@
+[
+  {
+    "id": "c1x-001",
+    "pt": "o silogismo",
+    "zh": "三段论",
+    "en": "syllogism",
+    "fr": "le syllogisme",
+    "es": "el silogismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-002",
+    "pt": "o sofisma",
+    "zh": "诡辩",
+    "en": "sophism",
+    "fr": "le sophisme",
+    "es": "el sofisma",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-003",
+    "pt": "a antítese",
+    "zh": "反题；对立面",
+    "en": "antithesis",
+    "fr": "l'antithèse (f.)",
+    "es": "la antítesis",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-004",
+    "pt": "a síntese",
+    "zh": "综合；概括",
+    "en": "synthesis",
+    "fr": "la synthèse",
+    "es": "la síntesis",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-005",
+    "pt": "o corolário",
+    "zh": "推论；必然结果",
+    "en": "corollary",
+    "fr": "le corollaire",
+    "es": "el corolario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-006",
+    "pt": "a inferência",
+    "zh": "推断",
+    "en": "inference",
+    "fr": "l'inférence (f.)",
+    "es": "la inferencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-007",
+    "pt": "o raciocínio",
+    "zh": "推理",
+    "en": "reasoning",
+    "fr": "le raisonnement",
+    "es": "el razonamiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-008",
+    "pt": "a argumentação",
+    "zh": "论证",
+    "en": "argumentation",
+    "fr": "l'argumentation (f.)",
+    "es": "la argumentación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-009",
+    "pt": "o contra-argumento",
+    "zh": "反论",
+    "en": "counter-argument",
+    "fr": "le contre-argument",
+    "es": "el contraargumento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-010",
+    "pt": "a objeção",
+    "zh": "异议",
+    "en": "objection",
+    "fr": "l'objection (f.)",
+    "es": "la objeción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-011",
+    "pt": "a réplica",
+    "zh": "反驳；答复",
+    "en": "rejoinder; reply",
+    "fr": "la réplique",
+    "es": "la réplica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-012",
+    "pt": "o repto",
+    "zh": "挑战；诘问",
+    "en": "challenge",
+    "fr": "le défi",
+    "es": "el reto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-013",
+    "pt": "a máxima",
+    "zh": "格言",
+    "en": "maxim",
+    "fr": "la maxime",
+    "es": "la máxima",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-014",
+    "pt": "o dilema",
+    "zh": "两难",
+    "en": "dilemma",
+    "fr": "le dilemme",
+    "es": "el dilema",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-015",
+    "pt": "a dedução",
+    "zh": "演绎",
+    "en": "deduction",
+    "fr": "la déduction",
+    "es": "la deducción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-016",
+    "pt": "a indução",
+    "zh": "归纳",
+    "en": "induction",
+    "fr": "l'induction (f.)",
+    "es": "la inducción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-017",
+    "pt": "a analogia",
+    "zh": "类比",
+    "en": "analogy",
+    "fr": "l'analogie (f.)",
+    "es": "la analogía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-018",
+    "pt": "a generalização",
+    "zh": "概括；泛化",
+    "en": "generalisation",
+    "fr": "la généralisation",
+    "es": "la generalización",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-019",
+    "pt": "o contraexemplo",
+    "zh": "反例",
+    "en": "counterexample",
+    "fr": "le contre-exemple",
+    "es": "el contraejemplo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-020",
+    "pt": "o axioma",
+    "zh": "公理",
+    "en": "axiom",
+    "fr": "l'axiome (m.)",
+    "es": "el axioma",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-021",
+    "pt": "o postulado",
+    "zh": "公设",
+    "en": "postulate",
+    "fr": "le postulat",
+    "es": "el postulado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-022",
+    "pt": "a demonstração",
+    "zh": "论证；演示",
+    "en": "demonstration; proof",
+    "fr": "la démonstration",
+    "es": "la demostración",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-023",
+    "pt": "a validade",
+    "zh": "有效性",
+    "en": "validity",
+    "fr": "la validité",
+    "es": "la validez",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-024",
+    "pt": "a solidez",
+    "zh": "稳固性",
+    "en": "soundness; solidity",
+    "fr": "la solidité",
+    "es": "la solidez",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-025",
+    "pt": "a consistência",
+    "zh": "一致性",
+    "en": "consistency",
+    "fr": "la consistance",
+    "es": "la consistencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-026",
+    "pt": "a contradição",
+    "zh": "矛盾",
+    "en": "contradiction",
+    "fr": "la contradiction",
+    "es": "la contradicción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-027",
+    "pt": "o equívoco",
+    "zh": "误会；歧义",
+    "en": "misunderstanding",
+    "fr": "le malentendu",
+    "es": "el equívoco",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-028",
+    "pt": "a imprecisão",
+    "zh": "不精确",
+    "en": "imprecision",
+    "fr": "l'imprécision (f.)",
+    "es": "la imprecisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-029",
+    "pt": "a subtileza",
+    "zh": "微妙之处",
+    "en": "subtlety",
+    "fr": "la subtilité",
+    "es": "la sutileza",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-030",
+    "pt": "o matiz",
+    "zh": "色调；细微差别",
+    "en": "shade; nuance",
+    "fr": "la nuance",
+    "es": "el matiz",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-031",
+    "pt": "a ênfase",
+    "zh": "强调",
+    "en": "emphasis",
+    "fr": "l'accent (m.)",
+    "es": "el énfasis",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-032",
+    "pt": "a entoação",
+    "zh": "语调",
+    "en": "intonation",
+    "fr": "l'intonation (f.)",
+    "es": "la entonación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-033",
+    "pt": "a elocução",
+    "zh": "演讲技巧",
+    "en": "elocution",
+    "fr": "l'élocution (f.)",
+    "es": "la elocución",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-034",
+    "pt": "a dicção",
+    "zh": "咬字",
+    "en": "diction",
+    "fr": "la diction",
+    "es": "la dicción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-035",
+    "pt": "o tom",
+    "zh": "语气",
+    "en": "tone",
+    "fr": "le ton",
+    "es": "el tono",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-036",
+    "pt": "o registo",
+    "zh": "语域；登记",
+    "en": "register",
+    "fr": "le registre",
+    "es": "el registro",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-037",
+    "pt": "a eloquência",
+    "zh": "雄辩",
+    "en": "eloquence",
+    "fr": "l'éloquence (f.)",
+    "es": "la elocuencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-038",
+    "pt": "a loquacidade",
+    "zh": "健谈",
+    "en": "loquacity",
+    "fr": "la loquacité",
+    "es": "la locuacidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-039",
+    "pt": "a prolixidade",
+    "zh": "冗长",
+    "en": "prolixity",
+    "fr": "la prolixité",
+    "es": "la prolijidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-040",
+    "pt": "a concisão",
+    "zh": "简洁",
+    "en": "concision",
+    "fr": "la concision",
+    "es": "la concisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-041",
+    "pt": "a circunlocução",
+    "zh": "迂回说法",
+    "en": "circumlocution",
+    "fr": "la circonlocution",
+    "es": "la circunlocución",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-042",
+    "pt": "a paráfrase",
+    "zh": "改述",
+    "en": "paraphrase",
+    "fr": "la paraphrase",
+    "es": "la paráfrasis",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-043",
+    "pt": "a alusão",
+    "zh": "典故；暗指",
+    "en": "allusion",
+    "fr": "l'allusion (f.)",
+    "es": "la alusión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-044",
+    "pt": "a citação",
+    "zh": "引文",
+    "en": "quotation",
+    "fr": "la citation",
+    "es": "la cita",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-045",
+    "pt": "a nota de rodapé",
+    "zh": "脚注",
+    "en": "footnote",
+    "fr": "la note de bas de page",
+    "es": "la nota a pie de página",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-046",
+    "pt": "a bibliografia",
+    "zh": "参考文献",
+    "en": "bibliography",
+    "fr": "la bibliographie",
+    "es": "la bibliografía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-047",
+    "pt": "o ensaio",
+    "zh": "随笔；论文",
+    "en": "essay",
+    "fr": "l'essai (m.)",
+    "es": "el ensayo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-048",
+    "pt": "o protótipo",
+    "zh": "原型",
+    "en": "prototype",
+    "fr": "le prototype",
+    "es": "el prototipo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-049",
+    "pt": "a dissertação",
+    "zh": "学位论文",
+    "en": "dissertation",
+    "fr": "la dissertation",
+    "es": "la disertación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-050",
+    "pt": "a monografia",
+    "zh": "专著",
+    "en": "monograph",
+    "fr": "la monographie",
+    "es": "la monografía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-051",
+    "pt": "o parecer",
+    "zh": "意见；鉴定",
+    "en": "opinion; expert report",
+    "fr": "l'avis (m.)",
+    "es": "el dictamen",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-052",
+    "pt": "o preceito",
+    "zh": "准则",
+    "en": "precept",
+    "fr": "le précepte",
+    "es": "el precepto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-053",
+    "pt": "a norma",
+    "zh": "规范",
+    "en": "norm",
+    "fr": "la norme",
+    "es": "la norma",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-054",
+    "pt": "o critério",
+    "zh": "标准",
+    "en": "criterion",
+    "fr": "le critère",
+    "es": "el criterio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-055",
+    "pt": "o parâmetro",
+    "zh": "参数；标准",
+    "en": "parameter",
+    "fr": "le paramètre",
+    "es": "el parámetro",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-056",
+    "pt": "o âmbito",
+    "zh": "范围",
+    "en": "scope",
+    "fr": "le champ",
+    "es": "el ámbito",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-057",
+    "pt": "a abrangência",
+    "zh": "涵盖范围",
+    "en": "coverage; scope",
+    "fr": "la portée",
+    "es": "el alcance",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-058",
+    "pt": "a perspetiva",
+    "zh": "视角",
+    "en": "perspective",
+    "fr": "la perspective",
+    "es": "la perspectiva",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-059",
+    "pt": "o prisma",
+    "zh": "棱镜；视角",
+    "en": "prism",
+    "fr": "le prisme",
+    "es": "el prisma",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-060",
+    "pt": "o enfoque",
+    "zh": "着眼点",
+    "en": "focus",
+    "fr": "l'approche (f.)",
+    "es": "el enfoque",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-061",
+    "pt": "a abordagem",
+    "zh": "方法；进路",
+    "en": "approach",
+    "fr": "la démarche",
+    "es": "el abordaje",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-062",
+    "pt": "a gradação",
+    "zh": "渐变；层次",
+    "en": "gradation",
+    "fr": "la gradation",
+    "es": "la gradación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-063",
+    "pt": "ambíguo",
+    "zh": "模棱两可的",
+    "en": "ambiguous",
+    "fr": "ambigu",
+    "es": "ambiguo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-064",
+    "pt": "a presunção",
+    "zh": "推定；自负",
+    "en": "presumption",
+    "fr": "la présomption",
+    "es": "la presunción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-065",
+    "pt": "o indício",
+    "zh": "迹象",
+    "en": "clue; indication",
+    "fr": "l'indice (m.)",
+    "es": "el indicio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-066",
+    "pt": "implícito",
+    "zh": "隐含的",
+    "en": "implicit",
+    "fr": "implicite",
+    "es": "implícito",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-067",
+    "pt": "a soberania",
+    "zh": "主权",
+    "en": "sovereignty",
+    "fr": "la souveraineté",
+    "es": "la soberanía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-068",
+    "pt": "a hegemonia",
+    "zh": "霸权",
+    "en": "hegemony",
+    "fr": "l'hégémonie (f.)",
+    "es": "la hegemonía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-069",
+    "pt": "o Estado de direito",
+    "zh": "法治国家",
+    "en": "rule of law",
+    "fr": "l'État de droit (m.)",
+    "es": "el Estado de derecho",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-070",
+    "pt": "a constituição",
+    "zh": "宪法",
+    "en": "constitution",
+    "fr": "la constitution",
+    "es": "la constitución",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-071",
+    "pt": "o decreto",
+    "zh": "法令",
+    "en": "decree",
+    "fr": "le décret",
+    "es": "el decreto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-072",
+    "pt": "o diploma",
+    "zh": "法案；法令",
+    "en": "statute; diploma",
+    "fr": "le texte de loi",
+    "es": "el texto legal",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-073",
+    "pt": "a moção",
+    "zh": "动议",
+    "en": "motion",
+    "fr": "la motion",
+    "es": "la moción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-074",
+    "pt": "a moção de censura",
+    "zh": "不信任动议",
+    "en": "censure motion",
+    "fr": "la motion de censure",
+    "es": "la moción de censura",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-075",
+    "pt": "o escrutínio",
+    "zh": "投票；审查",
+    "en": "ballot; scrutiny",
+    "fr": "le scrutin",
+    "es": "el escrutinio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-076",
+    "pt": "as legislativas",
+    "zh": "立法选举",
+    "en": "general election",
+    "fr": "les législatives (f. pl.)",
+    "es": "las legislativas",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-077",
+    "pt": "o eleitorado",
+    "zh": "选民",
+    "en": "electorate",
+    "fr": "l'électorat (m.)",
+    "es": "el electorado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-078",
+    "pt": "o círculo eleitoral",
+    "zh": "选区",
+    "en": "constituency",
+    "fr": "la circonscription électorale",
+    "es": "la circunscripción electoral",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-079",
+    "pt": "a urna",
+    "zh": "投票箱",
+    "en": "ballot box",
+    "fr": "l'urne (f.)",
+    "es": "la urna",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-080",
+    "pt": "a militância",
+    "zh": "积极活动；战斗性",
+    "en": "activism",
+    "fr": "le militantisme",
+    "es": "la militancia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-081",
+    "pt": "o militante",
+    "zh": "活动分子",
+    "en": "activist",
+    "fr": "le militant",
+    "es": "el militante",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-082",
+    "pt": "a filiação",
+    "zh": "加入；党籍",
+    "en": "membership; affiliation",
+    "fr": "l'adhésion (f.)",
+    "es": "la afiliación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-083",
+    "pt": "a sede",
+    "zh": "总部；所在地",
+    "en": "headquarters",
+    "fr": "le siège",
+    "es": "la sede",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-084",
+    "pt": "a delegação",
+    "zh": "代表团；授权",
+    "en": "delegation",
+    "fr": "la délégation",
+    "es": "la delegación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-085",
+    "pt": "o delegado",
+    "zh": "代表",
+    "en": "delegate",
+    "fr": "le délégué",
+    "es": "el delegado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-086",
+    "pt": "a assembleia",
+    "zh": "大会；议会",
+    "en": "assembly",
+    "fr": "l'assemblée (f.)",
+    "es": "la asamblea",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-087",
+    "pt": "o plenário",
+    "zh": "全体会议",
+    "en": "plenary session",
+    "fr": "la séance plénière",
+    "es": "el pleno",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-088",
+    "pt": "a sessão",
+    "zh": "会议；场次",
+    "en": "session",
+    "fr": "la séance",
+    "es": "la sesión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-089",
+    "pt": "a ordem de trabalhos",
+    "zh": "议程",
+    "en": "agenda",
+    "fr": "l'ordre du jour (m.)",
+    "es": "el orden del día",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-090",
+    "pt": "a ata",
+    "zh": "会议记录",
+    "en": "minutes",
+    "fr": "le procès-verbal",
+    "es": "el acta",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-091",
+    "pt": "o quórum",
+    "zh": "法定人数",
+    "en": "quorum",
+    "fr": "le quorum",
+    "es": "el quórum",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-092",
+    "pt": "a maioria absoluta",
+    "zh": "绝对多数",
+    "en": "absolute majority",
+    "fr": "la majorité absolue",
+    "es": "la mayoría absoluta",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-093",
+    "pt": "o executivo",
+    "zh": "行政机关",
+    "en": "executive",
+    "fr": "l'exécutif (m.)",
+    "es": "el ejecutivo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-094",
+    "pt": "o legislativo",
+    "zh": "立法机关",
+    "en": "legislature",
+    "fr": "le législatif",
+    "es": "el legislativo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-095",
+    "pt": "o judicial",
+    "zh": "司法机关",
+    "en": "judiciary",
+    "fr": "le judiciaire",
+    "es": "el poder judicial",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-096",
+    "pt": "a tutela",
+    "zh": "监管；监护",
+    "en": "oversight; guardianship",
+    "fr": "la tutelle",
+    "es": "la tutela",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-097",
+    "pt": "a alçada",
+    "zh": "管辖范围",
+    "en": "jurisdiction; remit",
+    "fr": "la compétence",
+    "es": "la competencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-098",
+    "pt": "a competência",
+    "zh": "职权；能力",
+    "en": "competence; remit",
+    "fr": "l'attribution (f.)",
+    "es": "la atribución",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-099",
+    "pt": "o parecer vinculativo",
+    "zh": "有约束力的意见",
+    "en": "binding opinion",
+    "fr": "l'avis contraignant (m.)",
+    "es": "el dictamen vinculante",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-100",
+    "pt": "a ratificação",
+    "zh": "批准",
+    "en": "ratification",
+    "fr": "la ratification",
+    "es": "la ratificación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-101",
+    "pt": "o tratado",
+    "zh": "条约",
+    "en": "treaty",
+    "fr": "le traité",
+    "es": "el tratado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-102",
+    "pt": "a emenda",
+    "zh": "修正案",
+    "en": "amendment",
+    "fr": "l'amendement (m.)",
+    "es": "la enmienda",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-103",
+    "pt": "oneroso",
+    "zh": "繁重的",
+    "en": "onerous",
+    "fr": "onéreux",
+    "es": "oneroso",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-104",
+    "pt": "a cláusula",
+    "zh": "条款",
+    "en": "clause",
+    "fr": "la clause",
+    "es": "la cláusula",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-105",
+    "pt": "notório",
+    "zh": "众所周知的",
+    "en": "well-known; notorious",
+    "fr": "notoire",
+    "es": "notorio",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-106",
+    "pt": "o preâmbulo",
+    "zh": "序言",
+    "en": "preamble",
+    "fr": "le préambule",
+    "es": "el preámbulo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-107",
+    "pt": "a disposição",
+    "zh": "条款；处置",
+    "en": "provision",
+    "fr": "la disposition",
+    "es": "la disposición",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-108",
+    "pt": "o normativo",
+    "zh": "规范体系",
+    "en": "regulatory framework",
+    "fr": "le normatif",
+    "es": "el normativo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-109",
+    "pt": "a sanção",
+    "zh": "制裁；批准",
+    "en": "sanction",
+    "fr": "la sanction",
+    "es": "la sanción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-110",
+    "pt": "a coima",
+    "zh": "行政罚款",
+    "en": "administrative fine",
+    "fr": "l'amende (f.)",
+    "es": "la multa administrativa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-111",
+    "pt": "a contraordenação",
+    "zh": "行政违法",
+    "en": "administrative offence",
+    "fr": "la contravention",
+    "es": "la infracción administrativa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-112",
+    "pt": "o ilícito",
+    "zh": "违法行为",
+    "en": "unlawful act",
+    "fr": "l'illicite (m.)",
+    "es": "el ilícito",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-113",
+    "pt": "a ilegalidade",
+    "zh": "违法性",
+    "en": "illegality",
+    "fr": "l'illégalité (f.)",
+    "es": "la ilegalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-114",
+    "pt": "o recurso",
+    "zh": "上诉；资源",
+    "en": "appeal",
+    "fr": "le recours",
+    "es": "el recurso",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-115",
+    "pt": "veemente",
+    "zh": "激烈的",
+    "en": "vehement",
+    "fr": "véhément",
+    "es": "vehemente",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-116",
+    "pt": "o acórdão",
+    "zh": "判决",
+    "en": "court ruling",
+    "fr": "l'arrêt (m.)",
+    "es": "el fallo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-117",
+    "pt": "a sentença",
+    "zh": "判决",
+    "en": "sentence; judgment",
+    "fr": "le jugement",
+    "es": "la sentencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-118",
+    "pt": "o veredicto",
+    "zh": "裁决",
+    "en": "verdict",
+    "fr": "le verdict",
+    "es": "el veredicto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-119",
+    "pt": "o litígio",
+    "zh": "诉讼；争端",
+    "en": "litigation; dispute",
+    "fr": "le litige",
+    "es": "el litigio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-120",
+    "pt": "a testemunha",
+    "zh": "证人",
+    "en": "witness",
+    "fr": "le témoin",
+    "es": "el testigo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-121",
+    "pt": "o depoimento",
+    "zh": "证词",
+    "en": "testimony",
+    "fr": "le témoignage",
+    "es": "el testimonio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-122",
+    "pt": "a prova",
+    "zh": "证据；考验",
+    "en": "evidence; proof",
+    "fr": "la preuve",
+    "es": "la prueba",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-123",
+    "pt": "a acusação",
+    "zh": "控方；指控",
+    "en": "prosecution; accusation",
+    "fr": "l'accusation (f.)",
+    "es": "la acusación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-124",
+    "pt": "a defesa",
+    "zh": "辩护；防御",
+    "en": "defence",
+    "fr": "la défense",
+    "es": "la defensa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-125",
+    "pt": "o arguido",
+    "zh": "被告",
+    "en": "formal suspect; defendant",
+    "fr": "le prévenu",
+    "es": "el imputado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-126",
+    "pt": "unânime",
+    "zh": "一致的",
+    "en": "unanimous",
+    "fr": "unanime",
+    "es": "unánime",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-127",
+    "pt": "a culpa",
+    "zh": "罪责；过错",
+    "en": "guilt",
+    "fr": "la culpabilité",
+    "es": "la culpa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-128",
+    "pt": "a pena",
+    "zh": "刑罚",
+    "en": "penalty",
+    "fr": "la peine",
+    "es": "la pena",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-129",
+    "pt": "a reclusão",
+    "zh": "监禁",
+    "en": "imprisonment",
+    "fr": "la réclusion",
+    "es": "la reclusión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-130",
+    "pt": "a liberdade condicional",
+    "zh": "假释",
+    "en": "parole",
+    "fr": "la libération conditionnelle",
+    "es": "la libertad condicional",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-131",
+    "pt": "a amnistia",
+    "zh": "大赦",
+    "en": "amnesty",
+    "fr": "l'amnistie (f.)",
+    "es": "la amnistía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-132",
+    "pt": "o indulto",
+    "zh": "特赦",
+    "en": "pardon",
+    "fr": "la grâce",
+    "es": "el indulto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-133",
+    "pt": "a conjuntura",
+    "zh": "形势；经济形势",
+    "en": "economic situation",
+    "fr": "la conjoncture",
+    "es": "la coyuntura",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-134",
+    "pt": "a recessão",
+    "zh": "衰退",
+    "en": "recession",
+    "fr": "la récession",
+    "es": "la recesión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-135",
+    "pt": "a retoma",
+    "zh": "复苏",
+    "en": "recovery",
+    "fr": "la reprise",
+    "es": "la recuperación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-136",
+    "pt": "o crescimento",
+    "zh": "增长",
+    "en": "growth",
+    "fr": "la croissance",
+    "es": "el crecimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-137",
+    "pt": "a inflação",
+    "zh": "通货膨胀",
+    "en": "inflation",
+    "fr": "l'inflation (f.)",
+    "es": "la inflación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-138",
+    "pt": "a deflação",
+    "zh": "通货紧缩",
+    "en": "deflation",
+    "fr": "la déflation",
+    "es": "la deflación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-139",
+    "pt": "o poder de compra",
+    "zh": "购买力",
+    "en": "purchasing power",
+    "fr": "le pouvoir d'achat",
+    "es": "el poder adquisitivo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-140",
+    "pt": "o rendimento",
+    "zh": "收入",
+    "en": "income",
+    "fr": "le revenu",
+    "es": "el ingreso",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-141",
+    "pt": "a mais-valia",
+    "zh": "增值；剩余价值",
+    "en": "added value",
+    "fr": "la plus-value",
+    "es": "la plusvalía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-142",
+    "pt": "o encargo",
+    "zh": "负担；费用",
+    "en": "charge; burden",
+    "fr": "la charge",
+    "es": "la carga",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-143",
+    "pt": "a dívida",
+    "zh": "债务",
+    "en": "debt",
+    "fr": "la dette",
+    "es": "la deuda",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-144",
+    "pt": "o défice",
+    "zh": "赤字",
+    "en": "deficit",
+    "fr": "le déficit",
+    "es": "el déficit",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-145",
+    "pt": "o excedente",
+    "zh": "盈余",
+    "en": "surplus",
+    "fr": "l'excédent (m.)",
+    "es": "el excedente",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-146",
+    "pt": "a poupança",
+    "zh": "储蓄",
+    "en": "savings",
+    "fr": "l'épargne (f.)",
+    "es": "el ahorro",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-147",
+    "pt": "a rendibilidade",
+    "zh": "盈利能力",
+    "en": "profitability",
+    "fr": "la rentabilité",
+    "es": "la rentabilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-148",
+    "pt": "o financiamento",
+    "zh": "融资",
+    "en": "financing",
+    "fr": "le financement",
+    "es": "la financiación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-149",
+    "pt": "a subvenção",
+    "zh": "补贴；资助",
+    "en": "subsidy; grant",
+    "fr": "la subvention",
+    "es": "la subvención",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-150",
+    "pt": "o subsídio",
+    "zh": "补助金",
+    "en": "allowance; subsidy",
+    "fr": "l'allocation (f.)",
+    "es": "el subsidio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-151",
+    "pt": "a comparticipação",
+    "zh": "分摊；共同出资",
+    "en": "contribution",
+    "fr": "la participation",
+    "es": "la coparticipación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-152",
+    "pt": "o imposto",
+    "zh": "税",
+    "en": "tax",
+    "fr": "l'impôt (m.)",
+    "es": "el impuesto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-153",
+    "pt": "a taxa",
+    "zh": "费率；税",
+    "en": "rate; fee",
+    "fr": "la taxe",
+    "es": "la tasa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-154",
+    "pt": "o IVA",
+    "zh": "增值税",
+    "en": "VAT",
+    "fr": "la TVA",
+    "es": "el IVA",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-155",
+    "pt": "a tributação",
+    "zh": "征税",
+    "en": "taxation",
+    "fr": "la fiscalité",
+    "es": "la tributación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-156",
+    "pt": "a evasão fiscal",
+    "zh": "逃税",
+    "en": "tax evasion",
+    "fr": "l'évasion fiscale (f.)",
+    "es": "la evasión fiscal",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-157",
+    "pt": "a fraude",
+    "zh": "欺诈",
+    "en": "fraud",
+    "fr": "la fraude",
+    "es": "el fraude",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-158",
+    "pt": "a corrupção",
+    "zh": "腐败",
+    "en": "corruption",
+    "fr": "la corruption",
+    "es": "la corrupción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-159",
+    "pt": "o suborno",
+    "zh": "贿赂",
+    "en": "bribe",
+    "fr": "le pot-de-vin",
+    "es": "el soborno",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-160",
+    "pt": "o conflito de interesses",
+    "zh": "利益冲突",
+    "en": "conflict of interest",
+    "fr": "le conflit d'intérêts",
+    "es": "el conflicto de intereses",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-161",
+    "pt": "a insolvência",
+    "zh": "无力偿债",
+    "en": "insolvency",
+    "fr": "l'insolvabilité (f.)",
+    "es": "la insolvencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-162",
+    "pt": "a falência",
+    "zh": "破产",
+    "en": "bankruptcy",
+    "fr": "la faillite",
+    "es": "la quiebra",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-163",
+    "pt": "a fusão",
+    "zh": "合并",
+    "en": "merger",
+    "fr": "la fusion",
+    "es": "la fusión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-164",
+    "pt": "a aquisição",
+    "zh": "收购；获得",
+    "en": "acquisition",
+    "fr": "l'acquisition (f.)",
+    "es": "la adquisición",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-165",
+    "pt": "o monopólio",
+    "zh": "垄断",
+    "en": "monopoly",
+    "fr": "le monopole",
+    "es": "el monopolio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-166",
+    "pt": "o oligopólio",
+    "zh": "寡头垄断",
+    "en": "oligopoly",
+    "fr": "l'oligopole (m.)",
+    "es": "el oligopolio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-167",
+    "pt": "a concorrência",
+    "zh": "竞争",
+    "en": "competition",
+    "fr": "la concurrence",
+    "es": "la competencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-168",
+    "pt": "a volatilidade",
+    "zh": "波动性",
+    "en": "volatility",
+    "fr": "la volatilité",
+    "es": "la volatilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-169",
+    "pt": "a oferta e a procura",
+    "zh": "供求",
+    "en": "supply and demand",
+    "fr": "l'offre et la demande",
+    "es": "la oferta y la demanda",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-170",
+    "pt": "a obsolescência",
+    "zh": "过时；淘汰",
+    "en": "obsolescence",
+    "fr": "l'obsolescence (f.)",
+    "es": "la obsolescencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-171",
+    "pt": "a cadeia de valor",
+    "zh": "价值链",
+    "en": "value chain",
+    "fr": "la chaîne de valeur",
+    "es": "la cadena de valor",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-172",
+    "pt": "a logística",
+    "zh": "物流",
+    "en": "logistics",
+    "fr": "la logistique",
+    "es": "la logística",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-173",
+    "pt": "o armazém",
+    "zh": "仓库",
+    "en": "warehouse",
+    "fr": "l'entrepôt (m.)",
+    "es": "el almacén",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-174",
+    "pt": "a exportação",
+    "zh": "出口",
+    "en": "export",
+    "fr": "l'exportation (f.)",
+    "es": "la exportación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-175",
+    "pt": "a importação",
+    "zh": "进口",
+    "en": "import",
+    "fr": "l'importation (f.)",
+    "es": "la importación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-176",
+    "pt": "a balança comercial",
+    "zh": "贸易差额",
+    "en": "trade balance",
+    "fr": "la balance commerciale",
+    "es": "la balanza comercial",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-177",
+    "pt": "o empreendedorismo",
+    "zh": "创业精神",
+    "en": "entrepreneurship",
+    "fr": "l'entrepreneuriat (m.)",
+    "es": "el emprendimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-178",
+    "pt": "o conglomerado",
+    "zh": "企业集团",
+    "en": "conglomerate",
+    "fr": "le conglomérat",
+    "es": "el conglomerado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-179",
+    "pt": "o empresário",
+    "zh": "企业家",
+    "en": "entrepreneur",
+    "fr": "l'entrepreneur (m.)",
+    "es": "el empresario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-180",
+    "pt": "a gestão",
+    "zh": "管理",
+    "en": "management",
+    "fr": "la gestion",
+    "es": "la gestión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-181",
+    "pt": "o quadro",
+    "zh": "管理人员；框架",
+    "en": "executive; staff",
+    "fr": "le cadre",
+    "es": "el cuadro",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-182",
+    "pt": "o colaborador",
+    "zh": "员工；合作者",
+    "en": "employee; collaborator",
+    "fr": "le collaborateur",
+    "es": "el colaborador",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-183",
+    "pt": "a chefia",
+    "zh": "领导层",
+    "en": "leadership",
+    "fr": "la direction",
+    "es": "la jefatura",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-184",
+    "pt": "a hierarquia",
+    "zh": "等级制度",
+    "en": "hierarchy",
+    "fr": "la hiérarchie",
+    "es": "la jerarquía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-185",
+    "pt": "a autonomia",
+    "zh": "自主",
+    "en": "autonomy",
+    "fr": "l'autonomie (f.)",
+    "es": "la autonomía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-186",
+    "pt": "a iniciativa",
+    "zh": "主动性；倡议",
+    "en": "initiative",
+    "fr": "l'initiative (f.)",
+    "es": "la iniciativa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-187",
+    "pt": "o desempenho",
+    "zh": "绩效",
+    "en": "performance",
+    "fr": "la performance",
+    "es": "el desempeño",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-188",
+    "pt": "a produtividade",
+    "zh": "生产率",
+    "en": "productivity",
+    "fr": "la productivité",
+    "es": "la productividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-189",
+    "pt": "o absentismo",
+    "zh": "旷工",
+    "en": "absenteeism",
+    "fr": "l'absentéisme (m.)",
+    "es": "el absentismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-190",
+    "pt": "volátil",
+    "zh": "易变的",
+    "en": "volatile",
+    "fr": "volatil",
+    "es": "volátil",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-191",
+    "pt": "o despedimento",
+    "zh": "解雇",
+    "en": "dismissal",
+    "fr": "le licenciement",
+    "es": "el despido",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-192",
+    "pt": "a rescisão",
+    "zh": "解除合同",
+    "en": "termination",
+    "fr": "la résiliation",
+    "es": "la rescisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-193",
+    "pt": "o contrato sem termo",
+    "zh": "无固定期限合同",
+    "en": "permanent contract",
+    "fr": "le contrat à durée indéterminée",
+    "es": "el contrato indefinido",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-194",
+    "pt": "o piquete",
+    "zh": "罢工纠察队",
+    "en": "picket",
+    "fr": "le piquet de grève",
+    "es": "el piquete",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-195",
+    "pt": "o sindicato",
+    "zh": "工会",
+    "en": "trade union",
+    "fr": "le syndicat",
+    "es": "el sindicato",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-196",
+    "pt": "a negociação coletiva",
+    "zh": "集体谈判",
+    "en": "collective bargaining",
+    "fr": "la négociation collective",
+    "es": "la negociación colectiva",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-197",
+    "pt": "o desemprego",
+    "zh": "失业",
+    "en": "unemployment",
+    "fr": "le chômage",
+    "es": "el desempleo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-198",
+    "pt": "a precariedade",
+    "zh": "不稳定；朝不保夕",
+    "en": "precariousness",
+    "fr": "la précarité",
+    "es": "la precariedad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-199",
+    "pt": "a obra-prima",
+    "zh": "杰作",
+    "en": "masterpiece",
+    "fr": "le chef-d'œuvre",
+    "es": "la obra maestra",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-200",
+    "pt": "o mecenas",
+    "zh": "赞助人",
+    "en": "patron",
+    "fr": "le mécène",
+    "es": "el mecenas",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-201",
+    "pt": "o mecenato",
+    "zh": "赞助",
+    "en": "patronage",
+    "fr": "le mécénat",
+    "es": "el mecenazgo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-202",
+    "pt": "a curadoria",
+    "zh": "策展",
+    "en": "curation",
+    "fr": "le commissariat d'exposition",
+    "es": "la curaduría",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-203",
+    "pt": "o curador",
+    "zh": "策展人",
+    "en": "curator",
+    "fr": "le commissaire d'exposition",
+    "es": "el comisario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-204",
+    "pt": "a exposição",
+    "zh": "展览",
+    "en": "exhibition",
+    "fr": "l'exposition (f.)",
+    "es": "la exposición",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-205",
+    "pt": "a instalação",
+    "zh": "装置；安装",
+    "en": "installation",
+    "fr": "l'installation (f.)",
+    "es": "la instalación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-206",
+    "pt": "o ateliê",
+    "zh": "工作室",
+    "en": "studio",
+    "fr": "l'atelier (m.)",
+    "es": "el taller",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-207",
+    "pt": "a tela",
+    "zh": "画布",
+    "en": "canvas",
+    "fr": "la toile",
+    "es": "el lienzo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-208",
+    "pt": "o painel",
+    "zh": "画板；面板",
+    "en": "panel",
+    "fr": "le panneau",
+    "es": "el panel",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-209",
+    "pt": "o fresco",
+    "zh": "湿壁画",
+    "en": "fresco",
+    "fr": "la fresque",
+    "es": "el fresco",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-210",
+    "pt": "a gravura",
+    "zh": "版画",
+    "en": "engraving",
+    "fr": "la gravure",
+    "es": "el grabado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-211",
+    "pt": "a escultura",
+    "zh": "雕塑",
+    "en": "sculpture",
+    "fr": "la sculpture",
+    "es": "la escultura",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-212",
+    "pt": "o mármore",
+    "zh": "大理石",
+    "en": "marble",
+    "fr": "le marbre",
+    "es": "el mármol",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-213",
+    "pt": "o bronze",
+    "zh": "青铜",
+    "en": "bronze",
+    "fr": "le bronze",
+    "es": "el bronce",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-214",
+    "pt": "a patente",
+    "zh": "专利",
+    "en": "patent",
+    "fr": "le brevet",
+    "es": "la patente",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-215",
+    "pt": "o azulejo",
+    "zh": "瓷砖",
+    "en": "tile",
+    "fr": "l'azulejo (m.)",
+    "es": "el azulejo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-216",
+    "pt": "a cerâmica",
+    "zh": "陶瓷",
+    "en": "ceramics",
+    "fr": "la céramique",
+    "es": "la cerámica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-217",
+    "pt": "o artesanato",
+    "zh": "手工艺",
+    "en": "handicraft",
+    "fr": "l'artisanat (m.)",
+    "es": "la artesanía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-218",
+    "pt": "o ofício",
+    "zh": "手艺；职业",
+    "en": "craft; trade",
+    "fr": "le métier",
+    "es": "el oficio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-219",
+    "pt": "a linhagem",
+    "zh": "血统；世系",
+    "en": "lineage",
+    "fr": "la lignée",
+    "es": "el linaje",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-220",
+    "pt": "a genealogia",
+    "zh": "家谱学",
+    "en": "genealogy",
+    "fr": "la généalogie",
+    "es": "la genealogía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-221",
+    "pt": "o património",
+    "zh": "遗产",
+    "en": "heritage",
+    "fr": "le patrimoine",
+    "es": "el patrimonio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-222",
+    "pt": "a relíquia",
+    "zh": "遗物",
+    "en": "relic",
+    "fr": "la relique",
+    "es": "la reliquia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-223",
+    "pt": "o vestígio",
+    "zh": "痕迹",
+    "en": "trace; vestige",
+    "fr": "la trace",
+    "es": "el vestigio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-224",
+    "pt": "a ruína",
+    "zh": "废墟",
+    "en": "ruin",
+    "fr": "la ruine",
+    "es": "la ruina",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-225",
+    "pt": "a escavação",
+    "zh": "发掘",
+    "en": "excavation",
+    "fr": "la fouille",
+    "es": "la excavación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-226",
+    "pt": "o achado",
+    "zh": "发现物",
+    "en": "find",
+    "fr": "la trouvaille",
+    "es": "el hallazgo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-227",
+    "pt": "a arqueologia",
+    "zh": "考古学",
+    "en": "archaeology",
+    "fr": "l'archéologie (f.)",
+    "es": "la arqueología",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-228",
+    "pt": "o manuscrito",
+    "zh": "手稿",
+    "en": "manuscript",
+    "fr": "le manuscrit",
+    "es": "el manuscrito",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-229",
+    "pt": "o pergaminho",
+    "zh": "羊皮纸",
+    "en": "parchment",
+    "fr": "le parchemin",
+    "es": "el pergamino",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-230",
+    "pt": "a tipografia",
+    "zh": "排版；印刷术",
+    "en": "typography",
+    "fr": "la typographie",
+    "es": "la tipografía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-231",
+    "pt": "a encadernação",
+    "zh": "装帧",
+    "en": "binding",
+    "fr": "la reliure",
+    "es": "la encuadernación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-232",
+    "pt": "a epígrafe",
+    "zh": "题词",
+    "en": "epigraph",
+    "fr": "l'épigraphe (f.)",
+    "es": "la epígrafe",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-233",
+    "pt": "o prefácio",
+    "zh": "前言",
+    "en": "preface",
+    "fr": "la préface",
+    "es": "el prefacio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-234",
+    "pt": "o posfácio",
+    "zh": "后记",
+    "en": "afterword",
+    "fr": "la postface",
+    "es": "el posfacio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-235",
+    "pt": "ténue",
+    "zh": "微弱的",
+    "en": "tenuous; faint",
+    "fr": "ténu",
+    "es": "tenue",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-236",
+    "pt": "o epílogo",
+    "zh": "尾声",
+    "en": "epilogue",
+    "fr": "l'épilogue (m.)",
+    "es": "el epílogo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-237",
+    "pt": "o prólogo",
+    "zh": "序幕",
+    "en": "prologue",
+    "fr": "le prologue",
+    "es": "el prólogo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-238",
+    "pt": "a intriga",
+    "zh": "情节；阴谋",
+    "en": "plot; intrigue",
+    "fr": "l'intrigue (f.)",
+    "es": "la intriga",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-239",
+    "pt": "o protagonista",
+    "zh": "主人公",
+    "en": "protagonist",
+    "fr": "le protagoniste",
+    "es": "el protagonista",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-240",
+    "pt": "o antagonista",
+    "zh": "对手",
+    "en": "antagonist",
+    "fr": "l'antagoniste (m.)",
+    "es": "el antagonista",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-241",
+    "pt": "a personagem",
+    "zh": "人物",
+    "en": "character",
+    "fr": "le personnage",
+    "es": "el personaje",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-242",
+    "pt": "o diálogo",
+    "zh": "对话",
+    "en": "dialogue",
+    "fr": "le dialogue",
+    "es": "el diálogo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-243",
+    "pt": "o monólogo",
+    "zh": "独白",
+    "en": "monologue",
+    "fr": "le monologue",
+    "es": "el monólogo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-244",
+    "pt": "a rima",
+    "zh": "韵",
+    "en": "rhyme",
+    "fr": "la rime",
+    "es": "la rima",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-245",
+    "pt": "o ritmo",
+    "zh": "节奏",
+    "en": "rhythm",
+    "fr": "le rythme",
+    "es": "el ritmo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-246",
+    "pt": "a métrica",
+    "zh": "格律",
+    "en": "metre",
+    "fr": "la métrique",
+    "es": "la métrica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-247",
+    "pt": "a estrofe",
+    "zh": "诗节",
+    "en": "stanza",
+    "fr": "la strophe",
+    "es": "la estrofa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-248",
+    "pt": "o soneto",
+    "zh": "十四行诗",
+    "en": "sonnet",
+    "fr": "le sonnet",
+    "es": "el soneto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-249",
+    "pt": "a elegia",
+    "zh": "挽歌",
+    "en": "elegy",
+    "fr": "l'élégie (f.)",
+    "es": "la elegía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-250",
+    "pt": "a ode",
+    "zh": "颂歌",
+    "en": "ode",
+    "fr": "l'ode (f.)",
+    "es": "la oda",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-251",
+    "pt": "a sátira",
+    "zh": "讽刺",
+    "en": "satire",
+    "fr": "la satire",
+    "es": "la sátira",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-252",
+    "pt": "a paródia",
+    "zh": "戏仿",
+    "en": "parody",
+    "fr": "la parodie",
+    "es": "la parodia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-253",
+    "pt": "o grotesco",
+    "zh": "怪诞",
+    "en": "grotesque",
+    "fr": "le grotesque",
+    "es": "lo grotesco",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-254",
+    "pt": "o sublime",
+    "zh": "崇高",
+    "en": "the sublime",
+    "fr": "le sublime",
+    "es": "lo sublime",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-255",
+    "pt": "a estética",
+    "zh": "美学",
+    "en": "aesthetics",
+    "fr": "l'esthétique (f.)",
+    "es": "la estética",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-256",
+    "pt": "a vanguarda",
+    "zh": "先锋派",
+    "en": "avant-garde",
+    "fr": "l'avant-garde (f.)",
+    "es": "la vanguardia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-257",
+    "pt": "o manifesto",
+    "zh": "宣言",
+    "en": "manifesto",
+    "fr": "le manifeste",
+    "es": "el manifiesto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-258",
+    "pt": "a geração",
+    "zh": "一代",
+    "en": "generation",
+    "fr": "la génération",
+    "es": "la generación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-259",
+    "pt": "a crítica",
+    "zh": "批评；评论",
+    "en": "criticism; review",
+    "fr": "la critique",
+    "es": "la crítica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-260",
+    "pt": "o crítico",
+    "zh": "批评家",
+    "en": "critic",
+    "fr": "le critique",
+    "es": "el crítico",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-261",
+    "pt": "a recensão",
+    "zh": "书评",
+    "en": "review",
+    "fr": "le compte rendu",
+    "es": "la reseña",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-262",
+    "pt": "o tradutor",
+    "zh": "译者",
+    "en": "translator",
+    "fr": "le traducteur",
+    "es": "el traductor",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-263",
+    "pt": "a corrente",
+    "zh": "流派；水流",
+    "en": "current; movement",
+    "fr": "le courant",
+    "es": "la corriente",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-264",
+    "pt": "o movimento",
+    "zh": "运动；派别",
+    "en": "movement",
+    "fr": "le mouvement",
+    "es": "el movimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-265",
+    "pt": "a atmosfera",
+    "zh": "大气层",
+    "en": "atmosphere",
+    "fr": "l'atmosphère (f.)",
+    "es": "la atmósfera",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-266",
+    "pt": "a camada de ozono",
+    "zh": "臭氧层",
+    "en": "ozone layer",
+    "fr": "la couche d'ozone",
+    "es": "la capa de ozono",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-267",
+    "pt": "o efeito de estufa",
+    "zh": "温室效应",
+    "en": "greenhouse effect",
+    "fr": "l'effet de serre (m.)",
+    "es": "el efecto invernadero",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-268",
+    "pt": "o carbono",
+    "zh": "碳",
+    "en": "carbon",
+    "fr": "le carbone",
+    "es": "el carbono",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-269",
+    "pt": "a pegada de carbono",
+    "zh": "碳足迹",
+    "en": "carbon footprint",
+    "fr": "l'empreinte carbone (f.)",
+    "es": "la huella de carbono",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-270",
+    "pt": "a energia renovável",
+    "zh": "可再生能源",
+    "en": "renewable energy",
+    "fr": "l'énergie renouvelable (f.)",
+    "es": "la energía renovable",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-271",
+    "pt": "a energia eólica",
+    "zh": "风能",
+    "en": "wind power",
+    "fr": "l'énergie éolienne (f.)",
+    "es": "la energía eólica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-272",
+    "pt": "a biomassa",
+    "zh": "生物质",
+    "en": "biomass",
+    "fr": "la biomasse",
+    "es": "la biomasa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-273",
+    "pt": "o combustível fóssil",
+    "zh": "化石燃料",
+    "en": "fossil fuel",
+    "fr": "le combustible fossile",
+    "es": "el combustible fósil",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-274",
+    "pt": "a refinaria",
+    "zh": "炼油厂",
+    "en": "refinery",
+    "fr": "la raffinerie",
+    "es": "la refinería",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-275",
+    "pt": "o gasoduto",
+    "zh": "天然气管道",
+    "en": "gas pipeline",
+    "fr": "le gazoduc",
+    "es": "el gasoducto",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-276",
+    "pt": "a barragem",
+    "zh": "水坝",
+    "en": "dam",
+    "fr": "le barrage",
+    "es": "la presa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-277",
+    "pt": "o aquífero",
+    "zh": "含水层",
+    "en": "aquifer",
+    "fr": "l'aquifère (m.)",
+    "es": "el acuífero",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-278",
+    "pt": "a nascente",
+    "zh": "源头；泉",
+    "en": "spring; source",
+    "fr": "la source",
+    "es": "el manantial",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-279",
+    "pt": "a bacia hidrográfica",
+    "zh": "流域",
+    "en": "river basin",
+    "fr": "le bassin hydrographique",
+    "es": "la cuenca hidrográfica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-280",
+    "pt": "escasso",
+    "zh": "稀少的",
+    "en": "scarce",
+    "fr": "rare",
+    "es": "escaso",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-281",
+    "pt": "a cheia",
+    "zh": "洪水",
+    "en": "flood",
+    "fr": "la crue",
+    "es": "la crecida",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-282",
+    "pt": "a seca",
+    "zh": "干旱",
+    "en": "drought",
+    "fr": "la sécheresse",
+    "es": "la sequía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-283",
+    "pt": "o incêndio florestal",
+    "zh": "森林火灾",
+    "en": "wildfire",
+    "fr": "l'incendie de forêt (m.)",
+    "es": "el incendio forestal",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-284",
+    "pt": "a cibersegurança",
+    "zh": "网络安全",
+    "en": "cybersecurity",
+    "fr": "la cybersécurité",
+    "es": "la ciberseguridad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-285",
+    "pt": "a maré",
+    "zh": "潮汐",
+    "en": "tide",
+    "fr": "la marée",
+    "es": "la marea",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-286",
+    "pt": "o estuário",
+    "zh": "河口湾",
+    "en": "estuary",
+    "fr": "l'estuaire (m.)",
+    "es": "el estuario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-287",
+    "pt": "a duna",
+    "zh": "沙丘",
+    "en": "dune",
+    "fr": "la dune",
+    "es": "la duna",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-288",
+    "pt": "a arriba",
+    "zh": "悬崖",
+    "en": "cliff",
+    "fr": "la falaise",
+    "es": "el acantilado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-289",
+    "pt": "o sapal",
+    "zh": "盐沼",
+    "en": "salt marsh",
+    "fr": "le marais salé",
+    "es": "la marisma",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-290",
+    "pt": "a robótica",
+    "zh": "机器人技术",
+    "en": "robotics",
+    "fr": "la robotique",
+    "es": "la robótica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-291",
+    "pt": "a espécie autóctone",
+    "zh": "本土物种",
+    "en": "native species",
+    "fr": "l'espèce autochtone (f.)",
+    "es": "la especie autóctona",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-292",
+    "pt": "a espécie invasora",
+    "zh": "入侵物种",
+    "en": "invasive species",
+    "fr": "l'espèce invasive (f.)",
+    "es": "la especie invasora",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-293",
+    "pt": "o habitat",
+    "zh": "栖息地",
+    "en": "habitat",
+    "fr": "l'habitat (m.)",
+    "es": "el hábitat",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-294",
+    "pt": "a cadeia alimentar",
+    "zh": "食物链",
+    "en": "food chain",
+    "fr": "la chaîne alimentaire",
+    "es": "la cadena alimentaria",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-295",
+    "pt": "a polinização",
+    "zh": "授粉",
+    "en": "pollination",
+    "fr": "la pollinisation",
+    "es": "la polinización",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-296",
+    "pt": "a decomposição",
+    "zh": "分解",
+    "en": "decomposition",
+    "fr": "la décomposition",
+    "es": "la descomposición",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-297",
+    "pt": "a pegada ecológica",
+    "zh": "生态足迹",
+    "en": "ecological footprint",
+    "fr": "l'empreinte écologique (f.)",
+    "es": "la huella ecológica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-298",
+    "pt": "a reciclagem",
+    "zh": "回收利用",
+    "en": "recycling",
+    "fr": "le recyclage",
+    "es": "el reciclaje",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-299",
+    "pt": "a compostagem",
+    "zh": "堆肥",
+    "en": "composting",
+    "fr": "le compostage",
+    "es": "el compostaje",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-300",
+    "pt": "o aterro",
+    "zh": "垃圾填埋场",
+    "en": "landfill",
+    "fr": "la décharge",
+    "es": "el vertedero",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-301",
+    "pt": "o esgoto",
+    "zh": "污水",
+    "en": "sewage",
+    "fr": "l'égout (m.)",
+    "es": "el desagüe",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-302",
+    "pt": "a depuradora",
+    "zh": "污水处理厂",
+    "en": "treatment plant",
+    "fr": "la station d'épuration",
+    "es": "la depuradora",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-303",
+    "pt": "o pesticida",
+    "zh": "农药",
+    "en": "pesticide",
+    "fr": "le pesticide",
+    "es": "el pesticida",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-304",
+    "pt": "o herbicida",
+    "zh": "除草剂",
+    "en": "herbicide",
+    "fr": "l'herbicide (m.)",
+    "es": "el herbicida",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-305",
+    "pt": "a monocultura",
+    "zh": "单一种植",
+    "en": "monoculture",
+    "fr": "la monoculture",
+    "es": "el monocultivo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-306",
+    "pt": "a pecuária",
+    "zh": "畜牧业",
+    "en": "livestock farming",
+    "fr": "l'élevage (m.)",
+    "es": "la ganadería",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-307",
+    "pt": "o regadio",
+    "zh": "灌溉",
+    "en": "irrigation",
+    "fr": "l'irrigation (f.)",
+    "es": "el regadío",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-308",
+    "pt": "a vinha",
+    "zh": "葡萄园",
+    "en": "vineyard",
+    "fr": "la vigne",
+    "es": "el viñedo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-309",
+    "pt": "o montado",
+    "zh": "软木橡树林",
+    "en": "cork oak woodland",
+    "fr": "le montado",
+    "es": "el montado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-310",
+    "pt": "o sobreiro",
+    "zh": "栓皮栎",
+    "en": "cork oak",
+    "fr": "le chêne-liège",
+    "es": "el alcornoque",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-311",
+    "pt": "a cortiça",
+    "zh": "软木",
+    "en": "cork",
+    "fr": "le liège",
+    "es": "el corcho",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-312",
+    "pt": "a nanotecnologia",
+    "zh": "纳米技术",
+    "en": "nanotechnology",
+    "fr": "la nanotechnologie",
+    "es": "la nanotecnología",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-313",
+    "pt": "o ensaio clínico",
+    "zh": "临床试验",
+    "en": "clinical trial",
+    "fr": "l'essai clinique (m.)",
+    "es": "el ensayo clínico",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-314",
+    "pt": "o diagnóstico",
+    "zh": "诊断",
+    "en": "diagnosis",
+    "fr": "le diagnostic",
+    "es": "el diagnóstico",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-315",
+    "pt": "o prognóstico",
+    "zh": "预后",
+    "en": "prognosis",
+    "fr": "le pronostic",
+    "es": "el pronóstico",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-316",
+    "pt": "a terapêutica",
+    "zh": "治疗学",
+    "en": "therapy",
+    "fr": "la thérapeutique",
+    "es": "la terapéutica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-317",
+    "pt": "o fármaco",
+    "zh": "药物",
+    "en": "drug",
+    "fr": "le médicament",
+    "es": "el fármaco",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-318",
+    "pt": "a dosagem",
+    "zh": "剂量",
+    "en": "dosage",
+    "fr": "le dosage",
+    "es": "la dosis",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-319",
+    "pt": "o efeito secundário",
+    "zh": "副作用",
+    "en": "side effect",
+    "fr": "l'effet secondaire (m.)",
+    "es": "el efecto secundario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-320",
+    "pt": "a epidemia",
+    "zh": "流行病",
+    "en": "epidemic",
+    "fr": "l'épidémie (f.)",
+    "es": "la epidemia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-321",
+    "pt": "a pandemia",
+    "zh": "大流行",
+    "en": "pandemic",
+    "fr": "la pandémie",
+    "es": "la pandemia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-322",
+    "pt": "a imunização",
+    "zh": "免疫接种",
+    "en": "immunisation",
+    "fr": "l'immunisation (f.)",
+    "es": "la inmunización",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-323",
+    "pt": "a imunidade",
+    "zh": "免疫力",
+    "en": "immunity",
+    "fr": "l'immunité (f.)",
+    "es": "la inmunidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-324",
+    "pt": "a bactéria",
+    "zh": "细菌",
+    "en": "bacterium",
+    "fr": "la bactérie",
+    "es": "la bacteria",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-325",
+    "pt": "o antibiótico",
+    "zh": "抗生素",
+    "en": "antibiotic",
+    "fr": "l'antibiotique (m.)",
+    "es": "el antibiótico",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-326",
+    "pt": "o rastreio",
+    "zh": "筛查",
+    "en": "screening",
+    "fr": "le dépistage",
+    "es": "el cribado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-327",
+    "pt": "a prevalência",
+    "zh": "患病率",
+    "en": "prevalence",
+    "fr": "la prévalence",
+    "es": "la prevalencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-328",
+    "pt": "a mortalidade",
+    "zh": "死亡率",
+    "en": "mortality",
+    "fr": "la mortalité",
+    "es": "la mortalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-329",
+    "pt": "o transplante",
+    "zh": "移植",
+    "en": "transplant",
+    "fr": "la greffe",
+    "es": "el trasplante",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-330",
+    "pt": "a anestesia",
+    "zh": "麻醉",
+    "en": "anaesthesia",
+    "fr": "l'anesthésie (f.)",
+    "es": "la anestesia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-331",
+    "pt": "o genoma",
+    "zh": "基因组",
+    "en": "genome",
+    "fr": "le génome",
+    "es": "el genoma",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-332",
+    "pt": "a rubrica",
+    "zh": "栏目",
+    "en": "slot; column",
+    "fr": "la rubrique",
+    "es": "la sección",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-333",
+    "pt": "o pivô",
+    "zh": "主播",
+    "en": "news anchor",
+    "fr": "le présentateur",
+    "es": "el presentador",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-334",
+    "pt": "a difusão",
+    "zh": "传播；播散",
+    "en": "dissemination",
+    "fr": "la diffusion",
+    "es": "la difusión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-335",
+    "pt": "a transmissão",
+    "zh": "转播；传输",
+    "en": "transmission",
+    "fr": "la transmission",
+    "es": "la transmisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-336",
+    "pt": "a grelha",
+    "zh": "节目表",
+    "en": "schedule",
+    "fr": "la grille",
+    "es": "la parrilla",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-337",
+    "pt": "o direto",
+    "zh": "直播",
+    "en": "live broadcast",
+    "fr": "le direct",
+    "es": "el directo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-338",
+    "pt": "a crónica",
+    "zh": "专栏；纪事",
+    "en": "column; chronicle",
+    "fr": "la chronique",
+    "es": "la crónica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-339",
+    "pt": "o entrevistado",
+    "zh": "受访者",
+    "en": "interviewee",
+    "fr": "l'interviewé (m.)",
+    "es": "el entrevistado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-340",
+    "pt": "a sondagem",
+    "zh": "民意调查",
+    "en": "poll",
+    "fr": "le sondage",
+    "es": "la encuesta",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-341",
+    "pt": "o noticiário",
+    "zh": "新闻节目",
+    "en": "news bulletin",
+    "fr": "le journal télévisé",
+    "es": "el telediario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-342",
+    "pt": "o comunicado",
+    "zh": "公报",
+    "en": "press release",
+    "fr": "le communiqué",
+    "es": "el comunicado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-343",
+    "pt": "a conferência de imprensa",
+    "zh": "记者会",
+    "en": "press conference",
+    "fr": "la conférence de presse",
+    "es": "la rueda de prensa",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-344",
+    "pt": "o furo jornalístico",
+    "zh": "独家新闻",
+    "en": "scoop",
+    "fr": "le scoop",
+    "es": "la exclusiva",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-345",
+    "pt": "o sensacionalismo",
+    "zh": "煽情主义",
+    "en": "sensationalism",
+    "fr": "le sensationnalisme",
+    "es": "el sensacionalismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-346",
+    "pt": "o tabloide",
+    "zh": "小报",
+    "en": "tabloid",
+    "fr": "le tabloïd",
+    "es": "el tabloide",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-347",
+    "pt": "a linha editorial",
+    "zh": "编辑方针",
+    "en": "editorial line",
+    "fr": "la ligne éditoriale",
+    "es": "la línea editorial",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-348",
+    "pt": "a objetividade",
+    "zh": "客观性",
+    "en": "objectivity",
+    "fr": "l'objectivité (f.)",
+    "es": "la objetividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-349",
+    "pt": "a imparcialidade",
+    "zh": "公正",
+    "en": "impartiality",
+    "fr": "l'impartialité (f.)",
+    "es": "la imparcialidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-350",
+    "pt": "o enviesamento",
+    "zh": "偏见",
+    "en": "bias",
+    "fr": "le biais",
+    "es": "el sesgo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-351",
+    "pt": "a manipulação",
+    "zh": "操纵",
+    "en": "manipulation",
+    "fr": "la manipulation",
+    "es": "la manipulación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-352",
+    "pt": "a propaganda",
+    "zh": "宣传",
+    "en": "propaganda",
+    "fr": "la propagande",
+    "es": "la propaganda",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-353",
+    "pt": "o patrocínio",
+    "zh": "赞助",
+    "en": "sponsorship",
+    "fr": "le parrainage",
+    "es": "el patrocinio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-354",
+    "pt": "o slogan",
+    "zh": "口号",
+    "en": "slogan",
+    "fr": "le slogan",
+    "es": "el eslogan",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-355",
+    "pt": "a campanha",
+    "zh": "运动；战役",
+    "en": "campaign",
+    "fr": "la campagne",
+    "es": "la campaña",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-356",
+    "pt": "o alcance",
+    "zh": "触达范围",
+    "en": "reach",
+    "fr": "la portée",
+    "es": "el alcance",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-357",
+    "pt": "a viralização",
+    "zh": "病毒式传播",
+    "en": "virality",
+    "fr": "la viralité",
+    "es": "la viralización",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-358",
+    "pt": "o comentário",
+    "zh": "评论",
+    "en": "comment",
+    "fr": "le commentaire",
+    "es": "el comentario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-359",
+    "pt": "o anonimato",
+    "zh": "匿名",
+    "en": "anonymity",
+    "fr": "l'anonymat (m.)",
+    "es": "el anonimato",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-360",
+    "pt": "a moderação",
+    "zh": "审核；节制",
+    "en": "moderation",
+    "fr": "la modération",
+    "es": "la moderación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-361",
+    "pt": "a verificação",
+    "zh": "核实",
+    "en": "verification",
+    "fr": "la vérification",
+    "es": "la verificación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-362",
+    "pt": "a literacia",
+    "zh": "素养",
+    "en": "literacy",
+    "fr": "la littératie",
+    "es": "la alfabetización",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-363",
+    "pt": "o ecrã",
+    "zh": "屏幕",
+    "en": "screen",
+    "fr": "l'écran (m.)",
+    "es": "la pantalla",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-364",
+    "pt": "a dependência",
+    "zh": "依赖",
+    "en": "dependence",
+    "fr": "la dépendance",
+    "es": "la dependencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-365",
+    "pt": "o vício",
+    "zh": "瘾；恶习",
+    "en": "addiction",
+    "fr": "l'addiction (f.)",
+    "es": "el vicio",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-366",
+    "pt": "a notificação",
+    "zh": "通知",
+    "en": "notification",
+    "fr": "la notification",
+    "es": "la notificación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-367",
+    "pt": "a subscrição",
+    "zh": "订阅",
+    "en": "subscription",
+    "fr": "l'abonnement (m.)",
+    "es": "la suscripción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-368",
+    "pt": "o inconsciente",
+    "zh": "无意识",
+    "en": "the unconscious",
+    "fr": "l'inconscient (m.)",
+    "es": "el inconsciente",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-369",
+    "pt": "o subconsciente",
+    "zh": "潜意识",
+    "en": "subconscious",
+    "fr": "le subconscient",
+    "es": "el subconsciente",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-370",
+    "pt": "o impulso",
+    "zh": "冲动",
+    "en": "impulse",
+    "fr": "l'impulsion (f.)",
+    "es": "el impulso",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-371",
+    "pt": "a pulsão",
+    "zh": "驱力",
+    "en": "drive",
+    "fr": "la pulsion",
+    "es": "la pulsión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-372",
+    "pt": "a angústia",
+    "zh": "焦虑；痛苦",
+    "en": "anguish",
+    "fr": "l'angoisse (f.)",
+    "es": "la angustia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-373",
+    "pt": "o luto",
+    "zh": "哀悼",
+    "en": "mourning",
+    "fr": "le deuil",
+    "es": "el duelo",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-374",
+    "pt": "a mágoa",
+    "zh": "伤痛；怨恨",
+    "en": "hurt; sorrow",
+    "fr": "le chagrin",
+    "es": "la pena",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-375",
+    "pt": "o remorso",
+    "zh": "悔恨",
+    "en": "remorse",
+    "fr": "le remords",
+    "es": "el remordimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-376",
+    "pt": "o ressentimento",
+    "zh": "怨恨",
+    "en": "resentment",
+    "fr": "le ressentiment",
+    "es": "el resentimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-377",
+    "pt": "a inveja",
+    "zh": "嫉妒",
+    "en": "envy",
+    "fr": "l'envie (f.)",
+    "es": "la envidia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-378",
+    "pt": "latente",
+    "zh": "潜在的",
+    "en": "latent",
+    "fr": "latent",
+    "es": "latente",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-379",
+    "pt": "a altivez",
+    "zh": "高傲",
+    "en": "haughtiness",
+    "fr": "la hauteur",
+    "es": "la altivez",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-380",
+    "pt": "a humildade",
+    "zh": "谦逊",
+    "en": "humility",
+    "fr": "l'humilité (f.)",
+    "es": "la humildad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-381",
+    "pt": "a vaidade",
+    "zh": "虚荣",
+    "en": "vanity",
+    "fr": "la vanité",
+    "es": "la vanidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-382",
+    "pt": "a teimosia",
+    "zh": "固执",
+    "en": "stubbornness",
+    "fr": "l'entêtement (m.)",
+    "es": "la terquedad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-383",
+    "pt": "a audácia",
+    "zh": "大胆",
+    "en": "audacity",
+    "fr": "l'audace (f.)",
+    "es": "la audacia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-384",
+    "pt": "a prudência",
+    "zh": "谨慎",
+    "en": "prudence",
+    "fr": "la prudence",
+    "es": "la prudencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-385",
+    "pt": "a temperança",
+    "zh": "节制",
+    "en": "temperance",
+    "fr": "la tempérance",
+    "es": "la templanza",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-386",
+    "pt": "a indulgência",
+    "zh": "宽容",
+    "en": "indulgence",
+    "fr": "l'indulgence (f.)",
+    "es": "la indulgencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-387",
+    "pt": "a encriptação",
+    "zh": "加密",
+    "en": "encryption",
+    "fr": "le chiffrement",
+    "es": "el cifrado",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-388",
+    "pt": "o rancor",
+    "zh": "积怨",
+    "en": "rancour",
+    "fr": "la rancœur",
+    "es": "el rencor",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-389",
+    "pt": "a nostalgia",
+    "zh": "怀旧",
+    "en": "nostalgia",
+    "fr": "la nostalgie",
+    "es": "la nostalgia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-390",
+    "pt": "o desalento",
+    "zh": "沮丧",
+    "en": "discouragement",
+    "fr": "le découragement",
+    "es": "el desaliento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-391",
+    "pt": "o brio",
+    "zh": "自尊；骨气",
+    "en": "pride; dignity",
+    "fr": "le brio",
+    "es": "el brío",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-392",
+    "pt": "a dignidade",
+    "zh": "尊严",
+    "en": "dignity",
+    "fr": "la dignité",
+    "es": "la dignidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-393",
+    "pt": "a integridade",
+    "zh": "正直；完整",
+    "en": "integrity",
+    "fr": "l'intégrité (f.)",
+    "es": "la integridad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-394",
+    "pt": "a probidade",
+    "zh": "廉洁",
+    "en": "probity",
+    "fr": "la probité",
+    "es": "la probidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-395",
+    "pt": "o caráter",
+    "zh": "性格",
+    "en": "character",
+    "fr": "le caractère",
+    "es": "el carácter",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-396",
+    "pt": "o temperamento",
+    "zh": "气质",
+    "en": "temperament",
+    "fr": "le tempérament",
+    "es": "el temperamento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-397",
+    "pt": "a índole",
+    "zh": "性情",
+    "en": "nature; disposition",
+    "fr": "le tempérament",
+    "es": "la índole",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-398",
+    "pt": "a propensão",
+    "zh": "倾向",
+    "en": "propensity",
+    "fr": "la propension",
+    "es": "la propensión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1x-399",
+    "pt": "acalentar",
+    "zh": "怀有（希望）",
+    "en": "to cherish",
+    "fr": "nourrir",
+    "es": "acariciar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-400",
+    "pt": "aferrar-se",
+    "zh": "抓牢；执著",
+    "en": "to cling",
+    "fr": "s'accrocher",
+    "es": "aferrarse",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-401",
+    "pt": "aludir",
+    "zh": "暗指",
+    "en": "to allude",
+    "fr": "faire allusion",
+    "es": "aludir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-402",
+    "pt": "anuir",
+    "zh": "同意",
+    "en": "to consent",
+    "fr": "consentir",
+    "es": "asentir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-403",
+    "pt": "apaziguar",
+    "zh": "平息",
+    "en": "to appease",
+    "fr": "apaiser",
+    "es": "apaciguar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-404",
+    "pt": "arraigar",
+    "zh": "扎根",
+    "en": "to take root",
+    "fr": "s'enraciner",
+    "es": "arraigar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-405",
+    "pt": "atestar",
+    "zh": "证明",
+    "en": "to attest",
+    "fr": "attester",
+    "es": "atestiguar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-406",
+    "pt": "auferir",
+    "zh": "获得（收益）",
+    "en": "to earn; derive",
+    "fr": "percevoir",
+    "es": "percibir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-407",
+    "pt": "aventar",
+    "zh": "提出（假设）",
+    "en": "to suggest; venture",
+    "fr": "avancer",
+    "es": "barajar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-408",
+    "pt": "balizar",
+    "zh": "界定",
+    "en": "to delimit",
+    "fr": "baliser",
+    "es": "delimitar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-409",
+    "pt": "cercear",
+    "zh": "削减",
+    "en": "to curtail",
+    "fr": "restreindre",
+    "es": "cercenar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-410",
+    "pt": "cingir",
+    "zh": "限制；围绕",
+    "en": "to confine",
+    "fr": "se limiter",
+    "es": "ceñir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-411",
+    "pt": "coagir",
+    "zh": "强迫",
+    "en": "to coerce",
+    "fr": "contraindre",
+    "es": "coaccionar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-412",
+    "pt": "coligir",
+    "zh": "汇集",
+    "en": "to compile",
+    "fr": "rassembler",
+    "es": "recopilar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-413",
+    "pt": "compelir",
+    "zh": "迫使",
+    "en": "to compel",
+    "fr": "contraindre",
+    "es": "compelir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-414",
+    "pt": "conceder",
+    "zh": "授予；承认",
+    "en": "to grant",
+    "fr": "accorder",
+    "es": "conceder",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-415",
+    "pt": "conjeturar",
+    "zh": "推测",
+    "en": "to conjecture",
+    "fr": "conjecturer",
+    "es": "conjeturar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-416",
+    "pt": "consignar",
+    "zh": "载明",
+    "en": "to enshrine",
+    "fr": "consigner",
+    "es": "consignar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-417",
+    "pt": "contrapor",
+    "zh": "对比",
+    "en": "to counterpose",
+    "fr": "opposer",
+    "es": "contraponer",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-418",
+    "pt": "contornar",
+    "zh": "规避；绕过",
+    "en": "to circumvent",
+    "fr": "contourner",
+    "es": "sortear",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-419",
+    "pt": "convergir",
+    "zh": "趋同",
+    "en": "to converge",
+    "fr": "converger",
+    "es": "converger",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-420",
+    "pt": "deferir",
+    "zh": "批准",
+    "en": "to grant",
+    "fr": "accorder",
+    "es": "deferir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-421",
+    "pt": "delapidar",
+    "zh": "挥霍",
+    "en": "to squander",
+    "fr": "dilapider",
+    "es": "dilapidar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-422",
+    "pt": "demover",
+    "zh": "劝退",
+    "en": "to dissuade",
+    "fr": "dissuader",
+    "es": "disuadir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-423",
+    "pt": "desagravar",
+    "zh": "减轻",
+    "en": "to relieve",
+    "fr": "soulager",
+    "es": "desagravar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-424",
+    "pt": "desencadear",
+    "zh": "引发",
+    "en": "to trigger",
+    "fr": "déclencher",
+    "es": "desencadenar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-425",
+    "pt": "deslindar",
+    "zh": "厘清",
+    "en": "to unravel",
+    "fr": "démêler",
+    "es": "desentrañar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-426",
+    "pt": "diluir",
+    "zh": "稀释",
+    "en": "to dilute",
+    "fr": "diluer",
+    "es": "diluir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-427",
+    "pt": "dirimir",
+    "zh": "解决（争端）",
+    "en": "to resolve",
+    "fr": "trancher",
+    "es": "dirimir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-428",
+    "pt": "dissuadir",
+    "zh": "劝阻",
+    "en": "to dissuade",
+    "fr": "dissuader",
+    "es": "disuadir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-429",
+    "pt": "enaltecer",
+    "zh": "颂扬",
+    "en": "to extol",
+    "fr": "exalter",
+    "es": "ensalzar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-430",
+    "pt": "entrever",
+    "zh": "隐约看见",
+    "en": "to glimpse",
+    "fr": "entrevoir",
+    "es": "entrever",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-431",
+    "pt": "enveredar",
+    "zh": "走上（道路）",
+    "en": "to embark on",
+    "fr": "s'engager",
+    "es": "encaminarse",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-432",
+    "pt": "erigir",
+    "zh": "建立",
+    "en": "to erect",
+    "fr": "ériger",
+    "es": "erigir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-433",
+    "pt": "esgrimir",
+    "zh": "挥舞（论据）",
+    "en": "to wield",
+    "fr": "brandir",
+    "es": "esgrimir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-434",
+    "pt": "estipular",
+    "zh": "规定",
+    "en": "to stipulate",
+    "fr": "stipuler",
+    "es": "estipular",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-435",
+    "pt": "exortar",
+    "zh": "劝诫",
+    "en": "to exhort",
+    "fr": "exhorter",
+    "es": "exhortar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-436",
+    "pt": "extravasar",
+    "zh": "溢出",
+    "en": "to overflow",
+    "fr": "déborder",
+    "es": "desbordar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-437",
+    "pt": "granjear",
+    "zh": "赢得",
+    "en": "to earn; win",
+    "fr": "gagner",
+    "es": "granjear",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-438",
+    "pt": "imiscuir-se",
+    "zh": "插手",
+    "en": "to meddle",
+    "fr": "s'immiscer",
+    "es": "inmiscuirse",
+    "pos": "verb"
+  },
+  {
+    "id": "c1x-439",
+    "pt": "acérrimo",
+    "zh": "坚定的；激烈的",
+    "en": "staunch",
+    "fr": "acharné",
+    "es": "acérrimo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-440",
+    "pt": "anómalo",
+    "zh": "异常的",
+    "en": "anomalous",
+    "fr": "anomal",
+    "es": "anómalo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-441",
+    "pt": "congruente",
+    "zh": "一致的",
+    "en": "congruent",
+    "fr": "congruent",
+    "es": "congruente",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-442",
+    "pt": "díspar",
+    "zh": "迥异的",
+    "en": "disparate",
+    "fr": "disparate",
+    "es": "dispar",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-443",
+    "pt": "efusivo",
+    "zh": "热情的",
+    "en": "effusive",
+    "fr": "effusif",
+    "es": "efusivo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-444",
+    "pt": "exíguo",
+    "zh": "微薄的；狭小的",
+    "en": "meagre",
+    "fr": "exigu",
+    "es": "exiguo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-445",
+    "pt": "frugal",
+    "zh": "节俭的",
+    "en": "frugal",
+    "fr": "frugal",
+    "es": "frugal",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-446",
+    "pt": "hodierno",
+    "zh": "当今的",
+    "en": "present-day",
+    "fr": "actuel",
+    "es": "hodierno",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-447",
+    "pt": "ilibado",
+    "zh": "清白的",
+    "en": "blameless",
+    "fr": "irréprochable",
+    "es": "intachable",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-448",
+    "pt": "imperioso",
+    "zh": "迫切的",
+    "en": "imperative",
+    "fr": "impérieux",
+    "es": "imperioso",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-449",
+    "pt": "incólume",
+    "zh": "安然无恙的",
+    "en": "unharmed",
+    "fr": "indemne",
+    "es": "incólume",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-450",
+    "pt": "moroso",
+    "zh": "拖延的",
+    "en": "slow; overdue",
+    "fr": "lent",
+    "es": "moroso",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-451",
+    "pt": "nefasto",
+    "zh": "有害的",
+    "en": "harmful",
+    "fr": "néfaste",
+    "es": "nefasto",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-452",
+    "pt": "peremptório",
+    "zh": "断然的",
+    "en": "peremptory",
+    "fr": "péremptoire",
+    "es": "perentorio",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-453",
+    "pt": "pernicioso",
+    "zh": "有害的",
+    "en": "pernicious",
+    "fr": "pernicieux",
+    "es": "pernicioso",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1x-454",
+    "pt": "amiúde",
+    "zh": "常常",
+    "en": "often",
+    "fr": "souvent",
+    "es": "a menudo",
+    "pos": "adverb"
+  },
+  {
+    "id": "c1x-455",
+    "pt": "outrora",
+    "zh": "从前",
+    "en": "formerly",
+    "fr": "jadis",
+    "es": "antaño",
+    "pos": "adverb"
+  },
+  {
+    "id": "c1x-456",
+    "pt": "deveras",
+    "zh": "确实",
+    "en": "truly",
+    "fr": "vraiment",
+    "es": "de veras",
+    "pos": "adverb"
+  },
+  {
+    "id": "c1x-457",
+    "pt": "quiçá",
+    "zh": "也许",
+    "en": "perhaps",
+    "fr": "peut-être",
+    "es": "quizá",
+    "pos": "adverb"
+  },
+  {
+    "id": "c1x-458",
+    "pt": "acinte",
+    "zh": "故意地",
+    "en": "on purpose",
+    "fr": "à dessein",
+    "es": "adrede",
+    "pos": "adverb"
+  },
+  {
+    "id": "c1x-459",
+    "pt": "de supetão",
+    "zh": "突然",
+    "en": "suddenly",
+    "fr": "brusquement",
+    "es": "de repente",
+    "pos": "adverb"
+  },
+  {
+    "id": "c1x-460",
+    "pt": "sobremaneira",
+    "zh": "极其",
+    "en": "exceedingly",
+    "fr": "à l'excès",
+    "es": "en extremo",
+    "pos": "adverb"
+  },
+  {
+    "id": "c1x-461",
+    "pt": "cair em desuso",
+    "zh": "废弃",
+    "en": "to fall into disuse",
+    "fr": "tomber en désuétude",
+    "es": "caer en desuso",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1x-462",
+    "pt": "pôr em causa",
+    "zh": "质疑",
+    "en": "to call into question",
+    "fr": "remettre en cause",
+    "es": "poner en entredicho",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1x-463",
+    "pt": "levar a cabo",
+    "zh": "实施",
+    "en": "to carry out",
+    "fr": "mener à bien",
+    "es": "llevar a cabo",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1x-464",
+    "pt": "ir ao encontro de",
+    "zh": "契合",
+    "en": "to meet; cater to",
+    "fr": "aller à la rencontre de",
+    "es": "ir al encuentro de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1x-465",
+    "pt": "não obstante",
+    "zh": "尽管",
+    "en": "nevertheless",
+    "fr": "néanmoins",
+    "es": "no obstante",
+    "pos": "phrase"
+  }
+]

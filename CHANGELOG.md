@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.6.0 — 2026-11-20
+
+- Expanded the five-language vocabulary bank from 810 to **3,600 words**: 600 per level (A1–C2).
+- Expanded the verb bank from 24 to **120 verbs**, with seven-tense tables and fixed orthographic forms (`pagar`, `chegar`, `ficar`, `começar`, `dançar`, `subir`).
+- Added vocabulary pagination (200 at a time) to keep the 3,600-row lexicon responsive.
+- Bumped the service worker cache to `azulejo-v3.6.0`.
+
 ## 3.5.0 — 2026-11-20
 
 - Expanded the mock-exam bank from 2 to **60 exams: 10 per CEFR level (A1, A2, B1, B2, C1, C2)**.
