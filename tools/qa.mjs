@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.10.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.11.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -401,6 +401,13 @@ try {
   await shot('33b-grammar-chapter');
   console.log('GRAMMAR_CHAPTER', await evaluate(`document.querySelector('.grammar-chapter-head h1')?.textContent`));
   console.log('GRAMMAR_EXAMPLES', await evaluate(`document.querySelectorAll('.grammar-examples .example-row').length`));
+  await goto('#/grammar');
+  await sleep(300);
+  await click('[data-action="filter-grammar-kind"][data-kind="Morfologia"]');
+  await sleep(350);
+  await shot('33c-grammar-morphology');
+  console.log('MORPH_CARDS', await evaluate(`document.querySelectorAll('.grammar-card').length`));
+  console.log('MORPH_TAXONOMY', await evaluate(`[...document.querySelectorAll('.grammar-card-zh')].map(el => el.textContent.trim())`));
 
   await click('[data-action="open-settings"]');
   await sleep(350);

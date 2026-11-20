@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.12.0 — 2026-11-20
+
+- Added **14 morphology chapters** to the grammar library: nouns, articles, adjectives, adverbs, verb groups, tense/aspect, pronouns, prepositions, conjunctions, quantifiers, diminutives, word formation, discourse particles and compounds.
+- Added a **Sintaxe / Morfologia** filter and morphology links from vocabulary part-of-speech groups.
+- Grammar now has 56 chapters, level-linked to the current course level, with PT examples + Chinese and exercises for every chapter.
+- Bumped the service worker cache to `azulejo-v3.12.0`.
+
 ## 3.11.0 — 2026-11-20
 
 - Changed Azulejo Pro from one all-level price to **per-level licences**: A1/A2/B1/B2/C1/C2 each unlock only their 10 exams.

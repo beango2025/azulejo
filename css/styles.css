@@ -4238,3 +4238,10 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .immersion-grammar-example span { font-size: 13px; color: var(--muted); }
 .immersion-grammar-actions { margin-top: 8px; }
 .immersion-grammar-actions .text-link { font-size: 12px; }
+.grammar-kind-chips { margin-top: -8px; }
+.grammar-kind { padding: 2px 5px; border-radius: 4px; background: var(--surface-2); font-family: var(--font-mono); font-size: 7px; color: var(--muted); }
+.grammar-card-zh { font-size: 12px !important; color: var(--terra) !important; font-weight: 600; }
+.grammar-title-zh { margin-top: 4px; font-size: 16px; color: var(--terra); font-weight: 600; }
+.lex-pos-guide { display: inline-flex; align-items: center; gap: 3px; margin-left: 8px; font-size: 8.5px; font-weight: 650; color: var(--blue); text-decoration: none; }
+.lex-pos-guide:hover { color: var(--terra); }
+.lex-pos-guide .icon { width: 9px; height: 9px; }

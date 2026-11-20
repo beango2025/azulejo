@@ -13,12 +13,13 @@
   const LEXICON = window.AZ_LEXICON || {};
   const LISTENING_ZH = window.AZ_LISTENING_ZH || {};
   const GRAMMAR_EXTRA = window.AZ_GRAMMAR_EXTRA || {};
+  const MORPHOLOGY = window.AZ_MORPHOLOGY || [];
   const POS_EXISTING = window.AZ_POS_EXISTING || {};
   const SCENES = window.AZ_CORE_SCENES || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.11.0';
+  const APP_VERSION = '3.12.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -594,6 +595,7 @@
     phraseGroup: 'all',
     phraseQuery: '',
     grammarLevel: 'all',
+    grammarKind: 'all',
     grammarPage: 1,
     grammarQuery: '',
     cultureCategory: 'all',
@@ -2416,6 +2418,7 @@
     ['phrase', 'Expressões', '短语']
   ];
   const WORD_POS_KEYS = new Set(WORD_POS_GROUPS.map(([key]) => key));
+  const WORD_POS_MORPH = { noun: 'morph-nouns', verb: 'morph-verbs-groups', adjective: 'morph-adjectives', adverb: 'morph-adverbs' };
 
   function wordPos(word) {
     return WORD_POS_KEYS.has(word.pos) ? word.pos : 'phrase';
@@ -2437,7 +2440,7 @@
         .sort((a, b) => String(a.level || '').localeCompare(String(b.level || '')) || String(a.pt || '').localeCompare(String(b.pt || ''), 'pt'));
       if (!words.length) return '';
       return `<section class="lex-pos-group">
-        <div class="lex-pos-head"><h3>${label}<span>${zh}</span></h3><em>${words.length}</em></div>
+        <div class="lex-pos-head"><h3>${label}<span>${zh}</span></h3>${WORD_POS_MORPH[pos] ? `<a class="lex-pos-guide" href="#/grammar/${WORD_POS_MORPH[pos]}">Morfologia ${icon('arrow-right')}</a>` : ''}<em>${words.length}</em></div>
         <div class="lex-group-rows">${words.map(word => {
           sequence += 1;
           const learned = Boolean(state.words[word.id]);
@@ -2627,30 +2630,44 @@
   }
 
   function grammarChapters() {
-    return coreLessons
+    const syntax = coreLessons
       .filter(lesson => lesson.grammar)
       .map(lesson => ({
         id: lesson.id,
         lesson,
         level: lesson.unit.level,
+        category: 'Sintaxe',
+        titleZh: '',
         grammar: lesson.grammar,
         extra: GRAMMAR_EXTRA[lesson.id] || null
       }));
+    const morphology = MORPHOLOGY.map(item => ({
+      id: item.id,
+      lesson: null,
+      level: item.level,
+      category: 'Morfologia',
+      titleZh: item.titleZh || '',
+      grammar: { title: item.title, body: item.body, examples: item.examples || [], tip: item.tip || '' },
+      extra: { titleEn: item.titleEn || '', bodyEn: item.bodyEn || '', tipEn: item.tipEn || '', exercises: item.exercises || [] }
+    }));
+    return [...syntax, ...morphology];
   }
 
   function grammarMatches(chapter) {
     if (ui.grammarLevel !== 'all' && chapter.level !== ui.grammarLevel) return false;
+    if (ui.grammarKind !== 'all' && chapter.category !== ui.grammarKind) return false;
     const q = accentFold(ui.grammarQuery.trim());
     if (!q) return true;
-    return [chapter.grammar.title, chapter.grammar.body, chapter.grammar.tip,
+    return [chapter.grammar.title, chapter.titleZh, chapter.grammar.body, chapter.grammar.tip, chapter.category,
       ...(chapter.grammar.examples || []).flatMap(ex => [ex.pt, ex.zh])]
       .some(value => accentFold(value || '').includes(q));
   }
 
   function grammarCardHTML(chapter) {
     return `<a class="grammar-card" href="#/grammar/${chapter.id}">
-      <div class="grammar-card-top"><span class="level-pill level-${chapter.level}">${chapter.level}</span><span>${chapter.grammar.examples ? chapter.grammar.examples.length : 0} exemplos</span></div>
+      <div class="grammar-card-top"><span class="level-pill level-${chapter.level}">${chapter.level}</span><span class="grammar-kind">${chapter.category === 'Morfologia' ? 'MORFOLOGIA' : 'SINTAXE'}</span><span>${chapter.grammar.examples ? chapter.grammar.examples.length : 0} exemplos</span></div>
       <h3>${esc(chapter.grammar.title)}</h3>
+      ${chapter.titleZh ? `<p class="grammar-card-zh">${esc(chapter.titleZh)}</p>` : ''}
       <p>${esc(chapter.grammar.body)}</p>
       <span class="grammar-card-link">Ler o capítulo ${icon('arrow-right')}</span>
     </a>`;
@@ -2670,13 +2687,19 @@
         return `<button class="filter-chip ${ui.grammarLevel === level.id ? 'is-active' : ''}" data-action="filter-grammar" data-level="${level.id}">${level.id}<span>${count}</span></button>`;
       })
     ].join('');
+    const kindChips = [
+      ['all', '全部', chapters.length],
+      ['Sintaxe', '句法', chapters.filter(chapter => chapter.category === 'Sintaxe').length],
+      ['Morfologia', '词法', chapters.filter(chapter => chapter.category === 'Morfologia').length]
+    ].map(([key, label, count]) => `<button class="filter-chip ${ui.grammarKind === key ? 'is-active' : ''}" data-action="filter-grammar-kind" data-kind="${key}">${label}<span>${count}</span></button>`).join('');
     $('#view').innerHTML = `
       <div class="page grammar-page">
-        ${pageHead('GRAMÁTICA', 'Um capítulo, uma ideia.', '42 个语法章节，按 A1–C2 分级。每章都有中文讲解、英文解释、葡语例句和中文对照，并附练习。', `<div class="head-badge alt">${icon('book')}<span><strong>${chapters.length}</strong><small>capítulos</small></span></div>`)}
+        ${pageHead('GRAMÁTICA', 'Um capítulo, uma ideia.', '句法 + 词法：56 个语法章节，按 A1–C2 分级。名词、动词、形容词、副词、冠词、代词、介词、连词和构词法，每章都有中文讲解、英文解释、葡语例句和中文对照，并附练习。', `<div class="head-badge alt">${icon('book')}<span><strong>${chapters.length}</strong><small>capítulos</small></span></div>`)}
         <div class="filter-chips" id="grammar-level-chips">${levelChips}</div>
+        <div class="filter-chips grammar-kind-chips" id="grammar-kind-chips">${kindChips}</div>
         <label class="search-box grammar-search">
           ${icon('search')}
-          <input id="grammar-search" type="search" value="${esc(ui.grammarQuery)}" placeholder="搜索语法点、葡语或中文…" aria-label="搜索语法">
+          <input id="grammar-search" type="search" value="${esc(ui.grammarQuery)}" placeholder="搜索语法点、词性、葡语或中文…" aria-label="搜索语法">
         </label>
         <div class="grammar-list-head"><span>Página ${page} / ${totalPages} · ${filtered.length} capítulos</span><span>${icon('volume')} 点例句可听发音</span></div>
         <div class="grammar-grid">${visible.map(grammarCardHTML).join('')}</div>
@@ -2706,7 +2729,7 @@
       <div class="page grammar-chapter-page">
         <a class="back-link" href="#/grammar">${icon('arrow-left')} Todos os capítulos</a>
         <header class="grammar-chapter-head">
-          <div><span class="eyebrow">${esc(chapter.level)} · CAPÍTULO ${String(index + 1).padStart(2, '0')}</span><h1>${esc(grammar.title)}</h1>${extra.titleEn ? `<p class="grammar-title-en">${esc(extra.titleEn)}</p>` : ''}</div>
+          <div><span class="eyebrow">${esc(chapter.level)} · ${chapter.category === 'Morfologia' ? 'MORFOLOGIA' : 'SINTAXE'} · CAPÍTULO ${String(index + 1).padStart(2, '0')}</span><h1>${esc(grammar.title)}</h1>${chapter.titleZh ? `<p class="grammar-title-zh">${esc(chapter.titleZh)}</p>` : ''}${extra.titleEn ? `<p class="grammar-title-en">${esc(extra.titleEn)}</p>` : ''}</div>
           <span class="level-pill level-${chapter.level}">${chapter.level}</span>
         </header>
         <div class="grammar-chapter-grid">
@@ -2726,7 +2749,7 @@
             <span class="eyebrow">PRATICAR</span>
             <h2>Duas perguntas.</h2>
             ${exercises || '<p class="grammar-practice-empty">Pratica esta estrutura na lição correspondente.</p>'}
-            <a class="btn btn-primary" href="#/lesson/${chapter.id}">Praticar na lição ${icon('arrow-right')}</a>
+            ${chapter.lesson ? `<a class="btn btn-primary" href="#/lesson/${chapter.id}">Praticar na lição ${icon('arrow-right')}</a>` : `<a class="btn btn-secondary" href="#/grammar">Ver todos os capítulos ${icon('arrow-right')}</a>`}
           </aside>
         </div>
         <nav class="grammar-chapter-nav">
@@ -5131,6 +5154,11 @@
         break;
       case 'filter-grammar':
         ui.grammarLevel = el.dataset.level;
+        ui.grammarPage = 1;
+        renderGrammarPage();
+        break;
+      case 'filter-grammar-kind':
+        ui.grammarKind = el.dataset.kind;
         ui.grammarPage = 1;
         renderGrammarPage();
         break;
