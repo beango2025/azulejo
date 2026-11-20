@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.4.0';
+  const APP_VERSION = '3.5.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -579,7 +579,7 @@
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
     { id: 'culture', label: '文化', pt: 'Cultura', href: '#/culture', icon: 'sun' },
-    { id: 'pro', label: 'A2 模考', pt: 'Pro · CIPLE A2', href: '#/pro', icon: 'target' },
+    { id: 'pro', label: '模考 Pro', pt: 'Pro · A1–C2', href: '#/pro', icon: 'target' },
     { id: 'progress', label: '进度', pt: 'Progresso', href: '#/progress', icon: 'chart' }
   ];
 
@@ -596,6 +596,7 @@
     cultureCategory: 'all',
     cultureLimit: 13,
     exam: null,
+    proLevel: 'A1',
     cloudRemote: null,
     wordQuery: '',
     wordLevel: 'all',
@@ -2669,9 +2670,9 @@
     return record ? record.payload : null;
   }
 
-  function examCardsHTML(locked) {
-    return (window.AZ_EXAMS || []).map(set => `<article class="exam-card ${locked ? 'is-locked' : ''}">
-      <div class="exam-card-top"><span class="eyebrow">CIPLE A2 · MOCK</span><span class="exam-card-time">${set.minutes} min</span></div>
+  function examCardsHTML(locked, level) {
+    return (window.AZ_EXAMS || []).filter(set => set.level === level).map(set => `<article class="exam-card ${locked ? 'is-locked' : ''}">
+      <div class="exam-card-top"><span class="eyebrow">${esc(set.level)} · MOCK ${set.n}</span><span class="exam-card-time">${set.minutes} min</span></div>
       <h3>${esc(set.title)}</h3>
       <p>${esc(set.subtitle)}</p>
       <div class="exam-card-meta"><span>${set.readingIds.length} leituras</span><span>${set.listeningIds.length} audições</span><span>${set.writing.length} escrita</span><span>${set.speaking.length} oral</span></div>
@@ -2699,20 +2700,23 @@
     const checkout = config.checkoutUrl || '';
     const contact = config.contactUrl || '';
     const success = /#\/pro\/success/.test(location.hash);
-    trackEvent(paywall ? 'paywall_view' : success ? 'pro_success_view' : 'pro_view', { licensed, source: paywall ? 'exam' : 'pro' });
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    const selectedLevel = levels.includes(ui.proLevel) ? ui.proLevel : 'A1';
+    const selectedExam = (window.AZ_EXAMS || []).find(set => set.level === selectedLevel && set.n === 1);
+    trackEvent(paywall ? 'paywall_view' : success ? 'pro_success_view' : 'pro_view', { licensed, source: paywall ? 'exam' : 'pro', level: selectedLevel });
     $('#view').innerHTML = `
       <div class="page pro-page">
-        ${pageHead('AZULEJO PRO', 'A2 CIPLE, com método.', '两套完整 A2 模拟考试：阅读、听力、写作和口语。计时、交卷、分项成绩和错题回顾。适合准备 CIPLE A2 / 葡萄牙国籍语言证明的学习者。', `<div class="head-badge gold">${icon('target')}<span><strong>PRO</strong><small>A2 CIPLE</small></span></div>`)}
+        ${pageHead('AZULEJO PRO', 'A1–C2, com método.', '60 套完整模拟考试，每个级别 10 套：阅读、听力、写作和口语。计时、交卷、分项成绩和错题回顾。适合准备 CAPLE / 葡萄牙国籍语言证明的学习者。', `<div class="head-badge gold">${icon('target')}<span><strong>60</strong><small>mock exams</small></span></div>`)}
         ${success ? `<div class="paywall-banner is-success">${icon('check')}<div><b>Pagamento recebido.</b><span>Vais receber a licença por email. Se não chegar em alguns minutos, usa o contacto abaixo com o teu recibo.</span></div><a class="text-link" href="#/pro">Ativar licença ${icon('arrow-right')}</a></div>` : ''}
         ${paywall ? `<div class="paywall-banner">${icon('lock')}<div><b>Esta parte é Pro.</b><span>这套模拟考试需要有效许可证。可以先看下面的内容和样题。</span></div><a class="text-link" href="#/pro">Ver Pro ${icon('arrow-right')}</a></div>` : ''}
         <section class="pro-hero">
           <div class="pro-hero-copy">
-            <span class="eyebrow">A2 · CIPLE · MOCK EXAMS</span>
-            <h2>两套模拟卷，<br>一次完整演练。</h2>
-            <p>不是又一套练习题，而是按考试节奏做的完整模拟：75 分钟、阅读、听力、写作、口语，交卷后看到分项成绩和错题解释。</p>
+            <span class="eyebrow">A1–C2 · CAPLE · MOCK EXAMS</span>
+            <h2>60 套模拟卷，<br>每个级别 10 套。</h2>
+            <p>不是又一套练习题，而是按考试节奏做的完整模拟：阅读、听力、写作、口语，交卷后看到分项成绩和错题解释。按 CEFR 级别切换 A1、A2、B1、B2、C1、C2。</p>
             <div class="pro-actions">
               ${licensed
-                ? `<a class="btn btn-primary" href="#/exam/${(window.AZ_EXAMS && window.AZ_EXAMS[0] && window.AZ_EXAMS[0].id) || 'a2-mock-1'}">Começar Mock 1 ${icon('arrow-right')}</a>`
+                ? `<a class="btn btn-primary" href="#/exam/${selectedExam ? selectedExam.id : 'a2-mock-1'}">Começar ${selectedLevel} Mock 1 ${icon('arrow-right')}</a>`
                 : checkout
                   ? `<a class="btn btn-gold" href="${esc(checkout)}" target="_blank" rel="noopener noreferrer" data-action="checkout">Comprar acesso ${icon('arrow-right')}</a>`
                   : `<button class="btn btn-gold" data-action="contact-buy">获取购买方式 ${icon('arrow-right')}</button>`}
@@ -2721,23 +2725,26 @@
             <p class="pro-note">${icon('info')} 独立备考产品，不是 CAPLE 官方考试，也不提供官方证书。</p>
           </div>
           <div class="pro-price-card">
-            <span class="eyebrow">ACESSO A2</span>
+            <span class="eyebrow">ACESSO COMPLETO</span>
             <strong class="pro-price">€39</strong>
             <span class="pro-price-sub">ou ¥299 · pagamento único</span>
             <ul>
-              <li>${icon('check')} 2 套完整模拟考试</li>
+              <li>${icon('check')} 60 套完整模拟考试</li>
+              <li>${icon('check')} A1–C2，每个级别 10 套</li>
               <li>${icon('check')} 阅读 + 听力 + 写作 + 口语</li>
               <li>${icon('check')} 计时、交卷、成绩报告</li>
               <li>${icon('check')} 错题解释与口语示范</li>
-              <li>${icon('check')} 未来新增模拟卷免费更新</li>
             </ul>
             ${licensed ? `<span class="pro-active-pill">${icon('check')} Pro ativo</span>` : `<span class="pro-price-foot">购买后获得离线许可证，无需账号。</span>`}
           </div>
         </section>
 
         <section class="pro-exams">
-          <div class="section-head compact"><div><span class="eyebrow">MOCK EXAMS</span><h2>Escolhe o teu simulado.</h2></div><span class="panel-chip">${licensed ? 'ACESSO LIBERADO' : 'PREVIEW'}</span></div>
-          <div class="exam-card-grid">${examCardsHTML(!licensed)}</div>
+          <div class="section-head compact"><div><span class="eyebrow">MOCK EXAMS</span><h2>Escolhe o teu nível.</h2></div><span class="panel-chip">${licensed ? 'ACESSO LIBERADO' : 'PREVIEW'}</span></div>
+          <div class="pro-level-tabs" role="tablist" aria-label="Nível do simulado">
+            ${levels.map(level => `<button class="filter-chip ${level === selectedLevel ? 'is-active' : ''}" data-action="select-pro-level" data-level="${level}">${level}<span>10</span></button>`).join('')}
+          </div>
+          <div class="exam-card-grid">${examCardsHTML(!licensed, selectedLevel)}</div>
         </section>
 
         <section class="pro-license-section">
@@ -2750,7 +2757,7 @@
         <section class="pro-faq">
           <div class="section-head compact"><div><span class="eyebrow">FAQ</span><h2>Antes de comprar.</h2></div></div>
           <details><summary>这是官方 CAPLE 考试吗？</summary><p>不是。这是独立制作的模拟考试，用于练习考试节奏和题型；不会发放官方证书，也不代表 CAPLE 或葡萄牙政府的认可。</p></details>
-          <details><summary>许可证怎么用？</summary><p>购买后会收到一串签名许可证。打开本页，粘贴到「Ativar」即可解锁两套模拟考试。许可证在本地验证，不上传学习数据。</p></details>
+          <details><summary>许可证怎么用？</summary><p>购买后会收到一串签名许可证。打开本页，粘贴到「Ativar」即可解锁全部 60 套模拟考试。许可证在本地验证，不上传学习数据。</p></details>
           <details><summary>可以在几台设备上用？</summary><p>当前许可证是本地离线验证，可在你常用的浏览器使用。正式多设备方案会绑定账号和云同步。</p></details>
           <details><summary>包含口语评分吗？</summary><p>当前版本提供口语题、录音入口和示范答案，成绩报告中的口语部分为自评。人工口语评分可作为单独服务。</p></details>
         </section>
@@ -4909,6 +4916,10 @@
       case 'paywall-exam':
         const licenseInput = $('#license-input');
         if (licenseInput) { licenseInput.scrollIntoView({ behavior: 'smooth', block: 'center' }); licenseInput.focus(); }
+        break;
+      case 'select-pro-level':
+        ui.proLevel = el.dataset.level;
+        renderProPage(false);
         break;
       case 'activate-license':
         activateLicenseFromForm();

@@ -1,0 +1,345 @@
+{
+  "level": "C1",
+  "exams": [
+    {
+      "n": 1,
+      "writing": [
+        {
+          "prompt": "Escreva um artigo de opinião para um jornal regional sobre a proposta de tornar o voto obrigatório nas eleições autárquicas. Tome posição, antecipe os argumentos de quem discorda e mostre em que condições a obrigatoriedade lhe pareceria aceitável — ou porque a rejeita sem reservas.",
+          "promptZh": "请为一家地区报纸撰写一篇评论文章，讨论将地方选举投票设为强制性的提议。明确立场，预先回应反对意见，并说明在何种条件下您会接受强制投票，或者为何毫无保留地反对。",
+          "min": 120,
+          "hint": "Estrutura: tese clara na abertura; um parágrafo para o argumento mais forte de quem discorda, apresentado com honestidade; um exemplo concreto; conclusão que distinga dever cívico de coerção."
+        },
+        {
+          "prompt": "Uma biblioteca de bairro vai encerrar por «falta de rentabilidade». Escreva uma carta formal ao presidente da câmara municipal em que conteste a decisão, apresente a função social da biblioteca para além dos números de empréstimos e proponha uma alternativa concreta.",
+          "promptZh": "一家社区图书馆将以「缺乏效益」为由关闭。请给市长写一封正式信函，对该决定提出异议，说明图书馆在借阅数据之外的社会功能，并提出一个具体替代方案。",
+          "min": 120,
+          "hint": "Carta formal: assunto, exposição do problema, contra-argumento ao critério invocado, uma proposta com custos implícitos e fecho cortês. Tom de negociação, não de queixa."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Como é que o associativismo local pode compensar o afastamento dos partidos? Dê exemplos.",
+          "promptZh": "地方社团活动如何能弥补政党的疏远？请举例说明。",
+          "model": "Pode compensar em parte, sobretudo onde resolve problemas concretos — o autocarro que falta, o pavilhão que fecha —, mas não substitui a escala em que se decide o orçamento. O associativismo ensina a deliberar; os partidos é que disputam o poder. Confundir as duas coisas é cómodo para quem governa e depois lamenta que a sociedade civil não participe."
+        },
+        {
+          "prompt": "Descreva uma ocasião em que uma instituição portuguesa o surpreendeu, pela positiva ou pela negativa, e explique porquê.",
+          "promptZh": "请描述一次葡萄牙的机构让您感到意外（无论好坏）的经历，并解释原因。",
+          "model": "Fui atendido numa conservatória em vinte minutos, sem conhecer ninguém, e saí com a sensação incómoda de que aquilo devia ser a regra e não uma sorte. A eficácia era real; o que me surpreendeu foi a naturalidade com que funcionou. As instituições ganham-se nestes minutos, não nos relatórios anuais."
+        },
+        {
+          "prompt": "«A confiança nas instituições não se conquista com campanhas de transparência, mas com pequenas experiências de justiça quotidiana.» Comente.",
+          "promptZh": "「对机构的信任不是靠透明度宣传赢得的，而是靠日常正义的点滴体验。」请评论。",
+          "model": "Concordo em grande parte: a transparência é uma condição, não uma prova. Ninguém confia num tribunal por causa do portal onde publica as sentenças; confia porque a sentença chegou a tempo e lhe pareceu justa. O risco é o inverso: com tanta atenção ao que se mostra, esquece-se o que se decide."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "writing": [
+        {
+          "prompt": "Um museu nacional recusa devolver uma coleção de arte sacra a um país africano, invocando a sua preservação. Escreva um artigo de opinião para um suplemento cultural em que analise o argumento da preservação e defenda uma posição sobre a restituição, admitindo as objeções mais sérias.",
+          "promptZh": "一家国家博物馆以「保护」为由，拒绝将一批宗教艺术品归还一个非洲国家。请为文化副刊撰写一篇评论文章，分析这一保护论点，并就归还问题表明立场，同时认真对待最有力的反对意见。",
+          "min": 120,
+          "hint": "Distinga propriedade, acesso e conservação; «devolver» e «emprestar» não são a mesma solução; use um exemplo concreto; feche com o critério que deve prevalecer em caso de conflito."
+        },
+        {
+          "prompt": "Escreva um texto de opinião para uma revista cultural sobre a patrimonialização do fado: ganha-se público e perde-se espontaneidade? Argumente, distinguindo prática viva de produto turístico.",
+          "promptZh": "请为一家文化杂志撰写一篇评论文章，讨论法多的「遗产化」：赢得了观众，是否失去了自发性？请论证，并区分活的实践与旅游产品。",
+          "min": 120,
+          "hint": "Resista à nostalgia fácil: a patrimonialização também pagou a músicos que nenhum clube sustentava. Um parágrafo para a objeção, outro para a réplica."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "«Uma cidade que restaura fachadas e expulsa moradores preserva a sua identidade ou encena-a?» Discuta.",
+          "promptZh": "「一座修缮外墙却赶走居民的城市，是在保存自己的身份，还是在表演它？」请讨论。",
+          "model": "Preserva a imagem e perde a razão de ser dessa imagem, o que é uma forma sofisticada de a encenar. A fachada restaurada sem quem a habite transforma-se em cenário, e um cenário pode ser visitado mas não vivido. No entanto, exagerar isto também serve de desculpa para não recuperar nada."
+        },
+        {
+          "prompt": "Fale sobre uma prática cultural que conheceu antes e depois de se tornar «património» ou atração turística.",
+          "promptZh": "请谈谈您所了解的一项文化实践，在它成为「遗产」或旅游景点之前与之后有何不同。",
+          "model": "Conheci as festas de uma aldeia quando ainda eram organizadas por quem lá vivia e o cartaz se escrevia à mão. Hoje há palco, segurança e um apresentador; a música é melhor e o público é outro. Não sei se perdeu alma, mas perdeu espontaneidade — e isso não se devolve com uma placa."
+        },
+        {
+          "prompt": "«A cultura não se protege com leis, protege-se com públicos.» Concorda?",
+          "promptZh": "「文化不是靠法律保护的，而是靠观众保护的。」您同意吗？",
+          "model": "Só em parte: os públicos sustentam o que já existe, mas não criam o que ainda não tem mercado, e é aí que a lei e o dinheiro público fazem falta. Além disso, um público educado não é um dado natural — também se constrói com políticas. A frase é bonita e serve mal a quem tem de decidir um orçamento."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "writing": [
+        {
+          "prompt": "«A ciência não é uma opinião.» Escreva um artigo de opinião para um jornal diário em que explique por que razão a desconfiança em relação à ciência cresceu em sociedades mais escolarizadas e proponha uma forma de comunicar risco sem arrogância.",
+          "promptZh": "「科学不是一种意见。」请为一家日报撰写评论文章，解释为何在受教育程度更高的社会中，对科学的怀疑反而加深，并提出一种不傲慢的风险沟通方式。",
+          "min": 120,
+          "hint": "Não confunda desconfiança com ignorância. Nomeie um episódio concreto e o erro de comunicação que nele se cometeu; termine com uma regra prática para quem comunica."
+        },
+        {
+          "prompt": "O conselho pedagógico de uma escola secundária pediu-lhe uma proposta escrita sobre o uso de inteligência artificial generativa nos trabalhos dos alunos. Redija-a: defina regras, justifique-as e explique como serão verificadas.",
+          "promptZh": "一所中学的教学委员会请您就学生作业中使用生成式人工智能的问题撰写一份书面提案。请提出规则、说明理由，并解释如何核查执行。",
+          "min": 120,
+          "hint": "Proposta, não sermão: princípios, três regras operacionais, um mecanismo de verificação e o custo de nada fazer. Registo impessoal e frases curtas."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Em que domínio acha que o consenso científico deve prevalecer sobre a escolha individual? Dê um exemplo e justifique o limite.",
+          "promptZh": "在哪些领域，您认为科学共识应优先于个人选择？请举例并说明界限。",
+          "model": "Na saúde pública, quando a escolha de um põe em risco a vida de outros — a vacinação é o caso óbvio —, o consenso deve pesar mais do que a preferência. Fora daí, tenho dúvidas: o consenso é uma média, e as minorias científicas já estiveram certas. O limite, para mim, é o dano a terceiros, não a discordância."
+        },
+        {
+          "prompt": "Descreva uma área em que o progresso científico lhe pareça exigir um travão ético.",
+          "promptZh": "请描述一个您认为科学进步需要伦理刹车的领域。",
+          "model": "Penso no uso comercial de bases de dados de saúde, vendidas a seguradoras e laboratórios: o consentimento que assinamos numa consulta não cobre esse uso. Um travão pode ser simplesmente proibir a exploração comercial sem consentimento específico. O desconforto é que a investigação séria também depende desses dados."
+        },
+        {
+          "prompt": "«Os cientistas devem aconselhar os governos ou limitar-se a produzir conhecimento?» Comente.",
+          "promptZh": "「科学家应当为政府提供建议，还是只限于生产知识？」请评论。",
+          "model": "Devem aconselhar, mas dizendo em que grau de certeza o fazem, e essa parte é quase sempre a que se perde na tradução política. Um cientista que se cala deixa o terreno livre a quem tem certezas a mais. O que não deve é confundir o seu prestígio com legitimidade para decidir."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "writing": [
+        {
+          "prompt": "Escreva um editorial para um jornal digital sobre o facto de a informação de qualidade estar cada vez mais reservada a quem pode pagar. Discuta se o jornalismo é um bem público e que modelo de financiamento defenderia.",
+          "promptZh": "请为一家数字报纸撰写社论，讨论优质信息日益只为付得起钱的人所享有这一现象。论述新闻是否属于公共物品，并说明您支持何种资助模式。",
+          "min": 120,
+          "hint": "Um editorial tem voz, não ataques. Reconheça o custo real da reportagem e a hipocrisia de exigir informação gratuita; proponha algo além de «o Estado paga»."
+        },
+        {
+          "prompt": "Escreva um artigo de opinião sobre a regulação das redes sociais: como conciliar a redução do discurso de ódio com a liberdade de expressão? Diga quem deve decidir o que é removido e com que critérios.",
+          "promptZh": "请撰写一篇评论文章，讨论社交网络的监管：如何在减少仇恨言论与保障言论自由之间取得平衡？请说明应由谁、依据何种标准决定内容删除。",
+          "min": 120,
+          "hint": "Distinga ilegalidade de incivilidade; diga quem decide, com que critérios e com que possibilidade de recurso. Um exemplo concreto vale mais do que três princípios."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Como mudou a sua relação com as notícias na última década? Seja concreto.",
+          "promptZh": "过去十年，您与新闻的关系发生了怎样的变化？请具体说明。",
+          "model": "Passei do jornal de papel para o telemóvel e, com isso, ganhei velocidade e perdi sequência: sei o que aconteceu e raramente sei o que aconteceu antes. Assino um jornal para me obrigar a ler o que não escolheria. Sem esse hábito, consumo apenas o que confirma o que já penso."
+        },
+        {
+          "prompt": "«Um jornalista deve ser neutro ou rigoroso?» Discuta a distinção.",
+          "promptZh": "「记者应当保持中立，还是应当严谨？」请讨论这一区分。",
+          "model": "Rigoroso, sem dúvida; neutro é uma promessa que ninguém cumpre, porque escolher o que é notícia já é tomar posição. O que se pode exigir é honestidade sobre o lugar de onde se fala e verificação antes de publicar. A neutralidade, quando fingida, é apenas uma posição disfarçada."
+        },
+        {
+          "prompt": "«Hoje todos publicam e poucos verificam.» Comente, com exemplos.",
+          "promptZh": "「如今人人都发布，却很少有人核实。」请结合例子评论。",
+          "model": "É verdade e é perigoso, mas não é novo: o que mudou foi a escala e a velocidade, não a natureza humana. A verificação sempre foi um trabalho de poucos, mesmo dentro das redações. O que me preocupa hoje é que o erro circula durante horas antes de a correção existir."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "writing": [
+        {
+          "prompt": "Escreva um ensaio breve para uma revista de ciência e sociedade sobre os limites da edição genética em embriões humanos. Distinga tratamento de melhoramento e diga quem deveria decidir.",
+          "promptZh": "请为一家探讨科学与社会的杂志撰写一篇短文，讨论人类胚胎基因编辑的界限。请区分治疗与增强，并说明应由谁作出决定。",
+          "min": 120,
+          "hint": "Ensaio: tese, objeção séria, réplica, consequência prática. Evite o pânico e o entusiasmo; o texto deve poder ser lido por quem discorda."
+        },
+        {
+          "prompt": "Escreva um artigo de opinião sobre a adoção do consentimento presumido para a doação de órgãos em Portugal. Aborde a liberdade individual, a confiança no sistema e a eficácia real da medida.",
+          "promptZh": "请撰写一篇评论文章，讨论葡萄牙在器官捐献中采用「推定同意」制度的问题。请涉及个人自由、对体系的信任以及该措施的实际效果。",
+          "min": 120,
+          "hint": "A eficácia não basta como argumento: explique por que o consentimento presumido pode ser compatível com a liberdade e onde deixa de ser. Termine com uma salvaguarda concreta."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Que decisões éticas não deveriam ser delegadas a um algoritmo, mesmo que ele fosse mais preciso do que um humano?",
+          "promptZh": "哪些伦理决策不应交给算法，即使它比人更精确？",
+          "model": "As que distribuem culpa ou sofrimento de forma irreversível: negar um transplante, retirar uma criança, decidir quem entra primeiro na urgência. A precisão não resolve o problema da legitimidade, porque um doente pode aceitar o erro de um médico e não aceita o de um sistema anónimo. Contra uma média não há recurso."
+        },
+        {
+          "prompt": "«Se é legal, é ético.» Concorda? Dê um exemplo que complique a resposta.",
+          "promptZh": "「合法即合乎伦理。」您同意吗？请举一个让回答变复杂的例子。",
+          "model": "Não, e o exemplo mais simples é o que já foi legal e hoje nos parece indefensável: a escravatura foi regulada por lei. A legalidade fixa um mínimo, não um ideal. O inverso também é verdadeiro: nem tudo o que é eticamente exigível deve ser imposto por lei."
+        },
+        {
+          "prompt": "Fale sobre o uso de animais em investigação científica: onde traça a linha?",
+          "promptZh": "请谈谈科学研究中使用动物的问题：您把界限划在哪里？",
+          "model": "Aceito-o quando não há alternativa e o benefício é médico e concreto; recuso-o quando o objetivo é cosmético ou quando o modelo animal já se sabe inadequado. A linha, para mim, não é a espécie: é a necessidade e a proporcionalidade. O que me incomoda é que quase nunca se exige justificação pública para a exceção."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "writing": [
+        {
+          "prompt": "Escreva um ensaio para uma revista literária sobre o que se perde e o que se ganha ao traduzir «saudade» — ou outra palavra intraduzível. Reflita sobre o que a tradução revela da língua de partida.",
+          "promptZh": "请为一家文学杂志撰写一篇随笔，讨论翻译「saudade」（思念、乡愁）或其他不可译之词时的得与失。思考翻译揭示了源语言的什么。",
+          "min": 120,
+          "hint": "Não faça um hino à palavra: a tradução também revela o que ela esconde. Um exemplo de um texto traduzido que leu vale mais do que uma definição de dicionário."
+        },
+        {
+          "prompt": "Escreva um artigo de opinião sobre o Acordo Ortográfico, mais de uma década depois da sua aplicação. Faça um balanço e diga o que faria hoje.",
+          "promptZh": "请撰写一篇评论文章，讨论《正字法协定》实施十余年后的情况。请作出评估，并说明今天您会怎么做。",
+          "min": 120,
+          "hint": "Distinga ideologia de custos concretos (manuais, arquivos, software). Um balanço honesto reconhece que o pior cenário — a divisão definitiva da língua — não se concretizou."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fale sobre um prémio literário que, na sua opinião, premiou o livro errado.",
+          "promptZh": "请谈谈一个您认为颁错了书的文学奖。",
+          "model": "Houve um prémio que me pareceu galardoar a ambição do tema e não o livro: tinha tudo para ser grande e ficou a meio. Não me indigna que os júris errem, indigna-me que ninguém escreva sobre o erro. Um prémio é uma opinião com consequências comerciais."
+        },
+        {
+          "prompt": "Fale sobre um livro que mudou a sua forma de pensar — e sobre o que hoje lhe parece discutível nele.",
+          "promptZh": "请谈谈一本改变了您思维方式的书，以及今天您觉得其中可疑之处。",
+          "model": "Li «Os Maias» aos dezoito anos e ficou-me a ideia de que uma sociedade se retrata nos seus almoços. Hoje acho o romance implacável com as mulheres de um modo que então me passou ao lado. Um livro que nos formou também nos mostra o que mudámos."
+        },
+        {
+          "prompt": "«A língua culta é uma forma de exclusão.» Comente.",
+          "promptZh": "「雅言是一种排斥手段。」请评论。",
+          "model": "É, quando se confunde correção com inteligência; e não é, quando se ensina a todos o que só alguns recebem em casa. A solução nunca foi baixar a exigência, foi alargar o acesso a ela. O problema começa quando a norma serve para humilhar quem não a teve."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "writing": [
+        {
+          "prompt": "Escreva um artigo de opinião sobre a semana de quatro dias. Discuta a produtividade, os setores em que é inviável e o risco de a medida aumentar a desigualdade entre tipos de emprego.",
+          "promptZh": "请撰写一篇评论文章，讨论四天工作周。请论述生产率、无法实行的行业，以及该措施可能加剧不同职业之间不平等的风险。",
+          "min": 120,
+          "hint": "Evite o entusiasmo de conferência: um contra-argumento forte (comércio, saúde, turnos) reforça o texto. Termine com uma condição concreta para a medida funcionar."
+        },
+        {
+          "prompt": "Escreva uma carta formal ao Ministério da Educação sobre a escassez de médicos e o numerus clausus. Apresente ordens de grandeza, conteste o argumento da qualidade do ensino e proponha uma medida.",
+          "promptZh": "请就医生短缺与「numerus clausus」（招生名额限制）问题，给教育部写一封正式信函。请给出大致数据，反驳关于教学质量的论点，并提出一项措施。",
+          "min": 120,
+          "hint": "Carta a uma instituição: assunto, exposição, argumentação, pedido claro. Indique ordens de grandeza e a sua fonte, sem precisão inventada."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Acha que os jovens de hoje trabalham para viver ou vivem para trabalhar? Justifique com o que observa.",
+          "promptZh": "您认为今天的年轻人是为生活而工作，还是为工作而生活？请结合您的观察说明。",
+          "model": "A geração que conheço trabalha para viver, mas com uma ansiedade que os mais velhos não tinham: quer fronteiras e tem medo de as exigir. A tecnologia tornou o escritório portátil e a disponibilidade permanente. O resultado são menos horas visíveis e mais horas mentais."
+        },
+        {
+          "prompt": "«O diploma universitário perdeu valor.» Concorda? Dê exemplos do seu meio.",
+          "promptZh": "「大学文凭贬值了。」您同意吗？请举您身边的例子。",
+          "model": "Perdeu valor de mercado e ganhou valor de sinal: hoje distingue menos salários e mais capacidades de partida. Conheço licenciados a conduzir para aplicações e técnicos especializados que ganham mais do que eles. O que se perdeu foi a promessa, não o conhecimento."
+        },
+        {
+          "prompt": "«As cidades perdem vida quando os empregos saem do centro.» Comente.",
+          "promptZh": "「当工作机会离开市中心，城市便失去活力。」请评论。",
+          "model": "Depende de quem fica: o teletrabalho esvazia escritórios e pode encher cafés de bairro, mas retira ao centro a função de convívio que o justificava. Lisboa e o Porto mostram as duas coisas ao mesmo tempo. O que morre primeiro não são os empregos, é o comércio que vivia deles."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "writing": [
+        {
+          "prompt": "Escreva um artigo de opinião sobre o papel da energia nuclear no debate energético português. Evite os lugares-comuns dos dois lados e diga o que faria com os recursos disponíveis.",
+          "promptZh": "请撰写一篇评论文章，讨论核能在葡萄牙能源辩论中的角色。请避免双方的陈词滥调，并说明在可用资源下您会怎么做。",
+          "min": 120,
+          "hint": "Distinga decisão nacional de decisão ibérica. Um argumento sobre tempo — uma central leva mais de uma década — vale mais do que um argumento sobre medo."
+        },
+        {
+          "prompt": "Depois de um verão de incêndios, a câmara municipal abriu um concurso de propostas para a gestão da floresta e das faixas de gestão de combustível. Escreva a sua proposta: diagnóstico, medidas, custos aproximados e forma de avaliação.",
+          "promptZh": "在一个火灾频发的夏季之后，市政府就森林管理与可燃物管理带公开征集方案。请撰写您的提案：现状诊断、措施、大致成本与评估方式。",
+          "min": 120,
+          "hint": "Proposta: diagnóstico breve, três medidas, indicadores, risco principal. Quem discorda tem de reconhecer que o texto é exequível."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "«A responsabilidade ambiental é individual ou sistémica?» Tome posição.",
+          "promptZh": "「环境责任是个人的还是系统性的？」请表明立场。",
+          "model": "Sistémica, sem que isso isente ninguém: uma pessoa não escolhe o autocarro que não existe. Mas o argumento sistémico tornou-se uma forma elegante de não fazer nada. O que muda hábitos é infraestrutura, preço e, por vezes, vergonha pública."
+        },
+        {
+          "prompt": "Fale sobre o impacto visual das energias renováveis na paisagem portuguesa. Vale a pena o custo?",
+          "promptZh": "请谈谈可再生能源对葡萄牙景观的视觉影响。这一代价值得吗？",
+          "model": "Vale, mas não em qualquer sítio: uma serra com torres a mais deixa de atrair quem a visitava, e há zonas já no limite. A pergunta honesta não é «sim ou não», é «onde e a que preço». Sem essa resposta, o debate fica refém de quem grita mais alto."
+        },
+        {
+          "prompt": "«O turismo é a indústria que destrói o que vende.» Concorda?",
+          "promptZh": "「旅游业是摧毁自己所售卖之物的产业。」您同意吗？",
+          "model": "Destrói quando não tem limites e quando a receita não fica no lugar; há casos em que financiou a recuperação de património que ninguém pagava. O problema não é o turismo em si, é a ausência de capacidade de carga. Sem esse número, a frase é verdadeira e inútil."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "writing": [
+        {
+          "prompt": "Escreva um artigo de opinião sobre a relação entre o envelhecimento da população e a imigração em Portugal. Evite tratar a imigração como solução técnica e aborde a integração.",
+          "promptZh": "请撰写一篇评论文章，讨论葡萄牙人口老龄化与移民之间的关系。请避免把移民当作技术性解决方案，并涉及融入问题。",
+          "min": 120,
+          "hint": "Separe o que é demografia do que é política de acolhimento. Números aproximados são aceitáveis se forem apresentados como aproximados."
+        },
+        {
+          "prompt": "Escreva um editorial sobre o alojamento local e o direito à habitação nas cidades portuguesas. Discuta a tensão entre propriedade privada e função social da habitação e proponha uma medida.",
+          "promptZh": "请撰写一篇社论，讨论葡萄牙城市中的短租住宿与住房权。论述私有产权与住房社会功能之间的张力，并提出一项措施。",
+          "min": 120,
+          "hint": "Distinga arrendamento de longa duração de alojamento turístico e reconheça que muitos proprietários dependem dessa receita. Uma medida que penalize sem alternativa é retórica."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "A emigração portuguesa e o regresso dos que saíram: o que mudou na sua família ou na sua região?",
+          "promptZh": "葡萄牙人的对外移民与归国者：您的家庭或所在地区发生了什么变化？",
+          "model": "Na minha família houve duas partidas e um regresso, e o regresso nunca foi definitivo: voltou-se para a casa, não para o trabalho. A distanciação tornou-se uma forma de vida, com filhos em dois países. Isso não se mede em estatísticas de retorno."
+        },
+        {
+          "prompt": "«A integração mede-se em gerações, não em anos.» Concorda?",
+          "promptZh": "「融入以世代衡量，而非以年衡量。」您同意吗？",
+          "model": "Concordo, e é por isso que os prazos políticos são inadequados: nenhum governo colhe em quatro anos o que só se vê na segunda geração. Mas a frase também serve para adiar tudo. Há coisas mensuráveis em meses: a escola, a língua, a habitação."
+        },
+        {
+          "prompt": "«Trabalhar até aos setenta anos é uma oportunidade ou uma necessidade disfarçada?» Discuta.",
+          "promptZh": "「工作到七十岁是机会，还是被伪装成机会的必需？」请讨论。",
+          "model": "Para quem tem um trabalho que não destrói o corpo, pode ser uma oportunidade; para quem carrega pedra ou limpa escritórios, é uma necessidade disfarçada de escolha. A esperança de vida aumentou, mas aumentou de forma muito desigual. Sem essa distinção, a frase é um eufemismo."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "writing": [
+        {
+          "prompt": "Escreva um artigo de opinião sobre o uso de reconhecimento facial em espaços públicos em Portugal. Aborde a segurança, a privacidade e o risco de erro, e diga quem deveria autorizar esse uso.",
+          "promptZh": "请撰写一篇评论文章，讨论葡萄牙公共场所使用人脸识别的问题。请涉及安全、隐私与错误风险，并说明应由谁批准此类使用。",
+          "min": 120,
+          "hint": "Não aceite o argumento «quem não deve não teme»: mostre porque é fraco mesmo para quem nada deve. Distinga videovigilância de identificação biométrica."
+        },
+        {
+          "prompt": "Escreva uma carta ao provedor do cliente de uma empresa pública sobre a exclusão digital dos idosos nos serviços públicos. Descreva um caso concreto, conteste a ideia de que se trata apenas de adaptação e proponha soluções.",
+          "promptZh": "请就老年人在公共服务中遭遇的数字排斥问题，给一家公共企业的客户监察专员写一封信。请描述一个具体案例，反驳「这仅是适应问题」的说法，并提出解决方案。",
+          "min": 120,
+          "hint": "Um caso concreto — uma fila, um balcão fechado — vale mais do que uma estatística. Exija sem agressividade; a carta deve poder ser publicada."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Descreva uma tarefa que se tornou mais difícil depois de ter sido «simplificada» digitalmente.",
+          "promptZh": "请描述一项在「数字化简化」之后反而变得更困难的任务。",
+          "model": "Renovar o cartão de cidadão: antes era uma fila com hora marcada, hoje é uma aplicação que exige uma palavra-passe que caduca e uma câmara que não reconhece o meu rosto. Ganhei tempo em teoria e perdi uma manhã na prática. O pior é que já não há balcão para onde ir."
+        },
+        {
+          "prompt": "«Quem não tem nada a esconder não tem nada a temer.» Comente.",
+          "promptZh": "「没什么可隐藏的人，就没什么可害怕的。」请评论。",
+          "model": "A frase confunde privacidade com culpa: o que está em causa não é o que escondo, é quem decide o que merece ser visto. Todos temos coisas que não queremos expor, e nenhuma delas é um crime. Além disso, o critério muda com quem governa."
+        },
+        {
+          "prompt": "A tecnologia resolve mais problemas do que cria, ou o contrário? Dê exemplos.",
+          "promptZh": "技术解决的问题多，还是制造的问题多？请举例。",
+          "model": "Cria e resolve, quase sempre na mesma proporção, e o que envelhece mal não é a ferramenta: é a instituição que se adaptou a ela. O telemóvel resolveu a distância e criou a disponibilidade permanente. Não conheço nenhuma tecnologia que tenha sido neutra."
+        }
+      ]
+    }
+  ]
+}

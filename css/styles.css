@@ -3936,6 +3936,8 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .pro-price-foot { margin-top: auto; font-size: 8px; color: var(--muted); }
 .pro-active-pill { display: inline-flex; align-items: center; gap: 5px; margin-top: auto; padding: 7px 9px; border-radius: 7px; background: var(--success-soft); color: var(--success); font-size: 9px; font-weight: 700; }
 .pro-exams, .pro-license-section, .pro-faq { margin-top: 25px; }
+.pro-level-tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 12px; scrollbar-width: auto; }
+.pro-level-tabs .filter-chip { flex: none; }
 .exam-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 11px; }
 .exam-card { padding: 16px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); }
 .exam-card.is-locked { background: var(--surface-2); }

@@ -1,0 +1,345 @@
+{
+  "level": "B1",
+  "exams": [
+    {
+      "n": 1,
+      "writing": [
+        {
+          "prompt": "Escreve um email a um amigo a contar como foi a tua primeira semana num novo emprego. Refere o que fazes, o que gostas mais e uma dificuldade que sentiste.",
+          "promptZh": "给朋友写一封电子邮件，讲述你在一份新工作的第一周。提到你的工作内容、你最喜欢的地方，以及你遇到的一个困难。",
+          "min": 80,
+          "hint": "Email informal: saudação, um parágrafo sobre as tarefas, outro sobre o que gostas e a dificuldade, despedida. Usa o pretérito perfeito e o presente."
+        },
+        {
+          "prompt": "A revista da tua escola pediu opiniões sobre o uso do telemóvel no local de trabalho. Escreve um texto de opinião: concordas que os telemóveis devem ser desligados durante o horário de trabalho? Justifica com duas razões e dá um exemplo.",
+          "promptZh": "校刊征集关于工作场所使用手机的看法。写一篇观点文章：你同意上班时间应关闭手机吗？请给出两个理由并举一个例子。",
+          "min": 90,
+          "hint": "Texto de opinião: introdução com a tua posição, duas razões com um exemplo, conclusão. Usa «em primeiro lugar», «além disso», «no entanto»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fala sobre o teu trabalho ou os teus estudos. O que gostas mais e o que mudarias?",
+          "promptZh": "谈谈你的工作或学业。你最喜欢什么？你会改变什么？",
+          "model": "Trabalho numa loja de roupa no centro da cidade e gosto muito do contacto com os clientes. O que mudaria era o horário, porque às vezes saio muito tarde. No futuro, gostaria de ter um trabalho mais perto de casa."
+        },
+        {
+          "prompt": "O que vais fazer no próximo fim de semana? Conta os teus planos.",
+          "promptZh": "下个周末你打算做什么？说说你的计划。",
+          "model": "No sábado de manhã vou ao mercado e depois almoço com os meus pais. À tarde, se o tempo estiver bom, vamos dar uma volta de bicicleta à beira-rio. No domingo fico em casa a descansar e a ver uma série."
+        },
+        {
+          "prompt": "É importante ter amigos no trabalho? Porquê?",
+          "promptZh": "在工作中拥有朋友重要吗？为什么？",
+          "model": "Acho que é importante, porque passamos muitas horas com os colegas e o dia torna-se mais agradável. Quando tenho um problema, prefiro falar com alguém em quem confio. Mas também é preciso manter uma certa distância profissional."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "writing": [
+        {
+          "prompt": "Escreve um email a um amigo a convidá-lo para uma caminhada no campo no próximo domingo. Explica por que é uma boa ideia para a saúde e diz o que ele deve levar.",
+          "promptZh": "给朋友写一封电子邮件，邀请他下周日去乡下徒步。说明这对健康的好处，并告诉他需要带什么。",
+          "min": 80,
+          "hint": "Email informal: saudação, convite com dia e hora, duas razões ligadas à saúde, lista do que levar, despedida. Usa o imperativo informal (traz, leva)."
+        },
+        {
+          "prompt": "Inscreveste-te num ginásio, mas o equipamento está avariado e as aulas começam sempre com atraso. Escreve um email de reclamação ao gerente do ginásio, explica o problema e pede uma solução.",
+          "promptZh": "你报名了一家健身房，但器材坏了，课程也总是迟迟不开课。给健身房经理写一封投诉邮件，说明问题并要求解决方案。",
+          "min": 90,
+          "hint": "Email formal: assunto, tratamento por «o senhor», descrição objetiva do problema com datas, pedido claro de solução, fecho cortês."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O que fazes para te manteres saudável? Fala da alimentação, do exercício ou do descanso.",
+          "promptZh": "你怎样保持健康？谈谈饮食、运动或休息。",
+          "model": "Tento comer fruta e legumes todos os dias e evito fast food durante a semana. Também vou correr duas vezes por semana e caminho muito. O mais difícil para mim é dormir oito horas, mas estou a melhorar."
+        },
+        {
+          "prompt": "Preferes passar férias na praia ou na montanha? Porquê?",
+          "promptZh": "你更喜欢去海滩还是去山区度假？为什么？",
+          "model": "Prefiro a montanha, porque gosto de caminhar e do ar fresco. A praia é agradável, mas fico cansado com o calor e há sempre muita gente. Nas montanhas consigo descansar de verdade."
+        },
+        {
+          "prompt": "Onde te informas sobre as notícias: televisão, jornais ou redes sociais? Porquê?",
+          "promptZh": "你从哪里了解新闻：电视、报纸还是社交媒体？为什么？",
+          "model": "Vejo as notícias na televisão ao jantar e, durante o dia, leio alguns artigos no telemóvel. Prefiro os jornais sérios, porque nas redes sociais há muita informação falsa. Mesmo assim, é difícil evitar as redes sociais hoje em dia."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "writing": [
+        {
+          "prompt": "O teu bairro vai receber um novo projeto de reciclagem. Escreve um texto de opinião para o jornal local: achas que as pessoas vão participar? O que deve mudar?",
+          "promptZh": "你的街区将开展一个新的回收项目。为当地报纸写一篇观点文章：你认为居民会参与吗？应该改变什么？",
+          "min": 90,
+          "hint": "Texto de opinião: opinião clara, duas razões, uma sugestão prática, conclusão. Usa «acho que», «na minha opinião», «além disso»."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um colega a combinar uma visita a um museu no sábado. Sugere a hora, o ponto de encontro e pergunta o preço do bilhete.",
+          "promptZh": "给同事写一条消息，约定周六一起去参观博物馆。提出时间、见面地点，并询问票价。",
+          "min": 80,
+          "hint": "Mensagem curta e informal: saudação, sugestão com dia e hora, ponto de encontro, uma pergunta, despedida. Usa «podemos», «que tal»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O que podemos fazer, no dia a dia, para proteger o ambiente? Dá dois ou três exemplos.",
+          "promptZh": "在日常生活中，我们能做些什么来保护环境？举两三个例子。",
+          "model": "Podemos começar por separar o lixo e levar sacos de pano às compras. Também é importante poupar água e usar menos o carro, por exemplo, andando de autocarro. São gestos pequenos, mas fazem diferença se todos participarem."
+        },
+        {
+          "prompt": "Qual é a festa tradicional portuguesa de que gostas mais? Porquê?",
+          "promptZh": "你最喜欢哪个葡萄牙传统节庆？为什么？",
+          "model": "Gosto muito do São João, no Porto, porque há fogueiras, música e muita animação nas ruas. É uma noite em que toda a gente sai e os vizinhos falam uns com os outros. Também adoro o cheiro dos manjericos e as sardinhas assadas."
+        },
+        {
+          "prompt": "Já tiveste um problema num restaurante ou numa loja? Conta o que aconteceu e como resolveste.",
+          "promptZh": "你在餐厅或商店遇到过问题吗？说说发生了什么，以及你是怎么解决的。",
+          "model": "Uma vez, num restaurante, a comida chegou fria e o empregado foi muito mal-educado. Pedi para falar com o responsável e ele trouxe outro prato, sem cobrar. No fim, ainda pediram desculpa, por isso fiquei satisfeito."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "writing": [
+        {
+          "prompt": "Leste uma notícia sobre uma nova ciclovia na tua cidade. Escreve um email a um amigo a contar-lhe a notícia e a dizer o que pensas dela.",
+          "promptZh": "你读到一则关于你所在城市新建自行车道的新闻。给朋友写一封电子邮件，告诉他这则新闻，并谈谈你的看法。",
+          "min": 80,
+          "hint": "Email informal: assunto claro, resumo da notícia em duas frases (quem, o quê, quando), a tua opinião, convite para experimentar."
+        },
+        {
+          "prompt": "Escreve um texto de opinião para o blog da tua escola: as redes sociais aproximam ou afastam as pessoas?",
+          "promptZh": "为校刊博客写一篇观点文章：社交媒体让人更亲近还是更疏远？",
+          "min": 90,
+          "hint": "Texto de opinião: introdução com a tua posição, um argumento a favor e um contra, conclusão pessoal. Usa «por um lado», «por outro lado», «no entanto»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Como te informas sobre o que acontece no mundo? Confias nessa informação?",
+          "promptZh": "你如何了解世界上发生的事情？你信任这些信息吗？",
+          "model": "Sigo as notícias de dois ou três jornais no telemóvel e vejo o telejornal à noite. Tento comparar fontes diferentes, porque a mesma notícia pode ser contada de maneiras opostas. Não confio em tudo o que vejo, sobretudo no que aparece nas redes sociais."
+        },
+        {
+          "prompt": "Achas importante passar tempo com a família? Porquê?",
+          "promptZh": "你觉得花时间陪伴家人重要吗？为什么？",
+          "model": "Acho importantíssimo, porque a família é o nosso apoio quando temos problemas. Ao jantar, por exemplo, falamos do dia e isso aproxima-nos. Hoje em dia, com a correria, é preciso marcar tempo para estar juntos."
+        },
+        {
+          "prompt": "Que planos tens para o próximo ano? Pensa nos estudos, no trabalho ou nas viagens.",
+          "promptZh": "你对明年有什么计划？可以谈谈学业、工作或旅行。",
+          "model": "No próximo ano quero terminar o curso de português e talvez fazer um estágio numa empresa. Também gostava de viajar para Cabo Verde, para praticar a língua. Se puder, vou poupar dinheiro todos os meses para isso."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "writing": [
+        {
+          "prompt": "Ficaste num hotel durante as férias e o quarto tinha vista para uma obra e não havia água quente. Escreve um email de reclamação ao hotel, descreve os problemas e pede uma compensação.",
+          "promptZh": "度假期间你住在一家酒店，房间窗外是工地，而且没有热水。给酒店写一封投诉邮件，描述问题并要求赔偿。",
+          "min": 90,
+          "hint": "Email formal: assunto, dados da estadia (datas e número do quarto), dois problemas concretos, pedido de compensação, fecho cortês."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um amigo a contar-lhe a viagem que estás a planear para o verão. Refere o destino, o transporte e o que queres visitar.",
+          "promptZh": "给朋友写一条消息，讲述你正在筹划的夏日旅行。提到目的地、交通方式以及你想参观的地方。",
+          "min": 80,
+          "hint": "Mensagem informal: saudação, destino e datas, transporte, duas atividades, pergunta final ao amigo. Usa «vou», «penso», «talvez»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Qual foi a viagem mais interessante da tua vida? Conta o que fizeste.",
+          "promptZh": "你一生中最有意思的一次旅行是哪里？说说你做了什么。",
+          "model": "A viagem mais interessante foi a Lisboa, há dois anos, porque fui sozinho e conheci pessoas de vários países. Visitei o bairro de Alfama, andei no elétrico 28 e provei pastéis de nata. No fim, já não queria voltar para casa."
+        },
+        {
+          "prompt": "O que fazes quando um serviço não é bom? Dás gorjeta?",
+          "promptZh": "服务不好时你会怎么做？你会给小费吗？",
+          "model": "Se o serviço for mau, falo com o empregado ou com o responsável e explico o problema com calma. Normalmente deixo uma gorjeta pequena, mas se o atendimento for muito mau não deixo nada. Acho que reclamar é importante para melhorar o serviço."
+        },
+        {
+          "prompt": "Que filme, série ou música portuguesa recomendas a um estrangeiro? Porquê?",
+          "promptZh": "你会向外国人推荐哪部葡萄牙电影、剧集或音乐？为什么？",
+          "model": "Recomendo a série «Rabo de Peixe», porque mostra o dia a dia dos Açores e tem um humor muito português. Também sugeria ouvir Amália Rodrigues para conhecer o fado. São boas formas de aprender a língua e a cultura ao mesmo tempo."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "writing": [
+        {
+          "prompt": "Viste um anúncio de um emprego de verão numa livraria. Escreve um email à dona da livraria a mostrar interesse, falar da tua experiência e perguntar pelo horário.",
+          "promptZh": "你看到一家书店的暑期招聘广告。给书店老板写一封电子邮件，表达兴趣，介绍你的经验，并询问工作时间。",
+          "min": 90,
+          "hint": "Email formal: assunto, apresentação, experiência relevante em duas frases, disponibilidade, pergunta sobre o horário, despedida."
+        },
+        {
+          "prompt": "O teu amigo anda muito stressado com o trabalho e não dorme bem. Escreve-lhe uma mensagem com três conselhos práticos.",
+          "promptZh": "你的朋友因工作压力很大，睡眠也不好。给他写一条消息，给出三条实用建议。",
+          "min": 80,
+          "hint": "Mensagem informal: mostrar preocupação, três conselhos, um por frase, oferta de ajuda, despedida afetuosa. Usa o imperativo (tenta, tira, fala)."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Quantas horas dormes por noite? Achas que é suficiente?",
+          "promptZh": "你每晚睡几个小时？你觉得够吗？",
+          "model": "Durmo cerca de sete horas, mas nas semanas de mais trabalho às vezes só seis. Sinto que não é suficiente, porque fico com sono durante o dia. Ao fim de semana tento dormir mais para recuperar."
+        },
+        {
+          "prompt": "Preferias trabalhar num escritório ou em casa? Porquê?",
+          "promptZh": "你更愿意在办公室还是在家工作？为什么？",
+          "model": "Preferia trabalhar em casa dois ou três dias por semana, porque poupo tempo nas deslocações e consigo concentrar-me melhor. No entanto, gosto de estar no escritório para falar com os colegas. O ideal seria um sistema misto."
+        },
+        {
+          "prompt": "A tecnologia ajuda-nos ou complica a vida? Dá exemplos.",
+          "promptZh": "科技是在帮助我们，还是让生活更复杂？请举例说明。",
+          "model": "Acho que ajuda muito, por exemplo, para falar com a família que está longe ou para pagar contas sem sair de casa. Mas também nos distrai: passo demasiado tempo no telemóvel. Por isso, depende de como a usamos."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "writing": [
+        {
+          "prompt": "A câmara municipal quer aumentar o preço dos transportes públicos. Escreve um texto de opinião: concordas? Apresenta duas razões.",
+          "promptZh": "市政府想提高公共交通的价格。写一篇观点文章：你同意吗？请提出两个理由。",
+          "min": 90,
+          "hint": "Texto de opinião: posição clara, dois argumentos, uma alternativa, conclusão. Usa «discordo», «porque», «em vez de»."
+        },
+        {
+          "prompt": "Queres inscrever-te num curso de cultura portuguesa numa escola de línguas. Escreve um email a pedir informações sobre o programa, o preço e os horários.",
+          "promptZh": "你想报名参加语言学校的葡萄牙文化课程。写一封电子邮件，询问课程内容、价格和时间安排。",
+          "min": 80,
+          "hint": "Email formal: assunto, apresentação breve, três perguntas claras (programa, preço, horários), agradecimento. Usa «gostaria de saber», «poderia»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O que fazes em casa para poupar água e eletricidade? Dá exemplos.",
+          "promptZh": "你在家怎样节约用水和用电？请举例。",
+          "model": "Tomo duches curtos e fecho a torneira enquanto lavo os dentes. Em casa, desligo as luzes quando saio de um quarto e uso lâmpadas económicas. Também só ligo a máquina de lavar com a carga cheia."
+        },
+        {
+          "prompt": "Que tradição da tua terra gostarias de mostrar a um estrangeiro? Porquê?",
+          "promptZh": "你想向外国人展示你家乡的哪个传统？为什么？",
+          "model": "Mostraria a festa da aldeia dos meus avós, em agosto, com a procissão, a banda e o baile no largo. É uma tradição simples, mas mostra como as pessoas se ajudam e se divertem juntas. Também lhe ofereceria o doce típico da região."
+        },
+        {
+          "prompt": "Como resolves um desentendimento com um amigo? Dá um exemplo.",
+          "promptZh": "你怎样解决与朋友之间的分歧？请举例。",
+          "model": "Tento falar com calma e ouvir a outra pessoa antes de responder. Uma vez, um amigo e eu discutimos por causa de uma viagem e, no fim, percebemos que era um mal-entendido. Pedimos desculpa um ao outro e ficámos bem."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "writing": [
+        {
+          "prompt": "Leste que vai haver um festival de comida de rua no próximo mês. Escreve um email a um amigo a contar a novidade e a convidá-lo a ir contigo.",
+          "promptZh": "你得知下个月将举办街头美食节。给朋友写一封电子邮件，告诉他这个消息，并邀请他一起去。",
+          "min": 80,
+          "hint": "Email informal: saudação, a notícia (o quê, quando, onde), por que vais gostar, convite com dia e hora, despedida."
+        },
+        {
+          "prompt": "Escreve um texto de opinião para o jornal da tua cidade: as notícias que aparecem nas redes sociais são de confiança?",
+          "promptZh": "为你所在城市的报纸写一篇观点文章：社交媒体上出现的新闻可靠吗？",
+          "min": 90,
+          "hint": "Texto de opinião: introdução, um argumento a favor da desconfiança, um exemplo de notícia falsa, conselho final. Usa «é verdade que», «no entanto», «por isso»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Conta uma notícia que te marcou recentemente. Porque te marcou?",
+          "promptZh": "讲讲最近让你印象深刻的一则新闻。为什么它让你印象深刻？",
+          "model": "Li uma notícia sobre um incêndio numa zona de floresta perto da minha terra. Marcou-me porque conheço aquelas aldeias e as pessoas tiveram de sair de casa. Depois disso, comecei a prestar mais atenção aos avisos da proteção civil."
+        },
+        {
+          "prompt": "Onde gostarias de viver no futuro: na cidade, no campo ou no estrangeiro? Porquê?",
+          "promptZh": "未来你想住在哪里：城市、乡村还是国外？为什么？",
+          "model": "Gostaria de viver no campo, numa casa pequena perto de uma cidade, porque preciso de sossego e de ar puro. Mas não queria ficar isolado, por isso escolheria um sítio com transportes e serviços. Talvez daqui a dez anos isso seja possível."
+        },
+        {
+          "prompt": "Preferes viajar sozinho ou acompanhado? Porquê?",
+          "promptZh": "你更喜欢独自旅行还是结伴旅行？为什么？",
+          "model": "Prefiro viajar acompanhado, porque partilhar os momentos é metade da viagem. Também é mais seguro e mais barato dividir o quarto. No entanto, gosto de fazer uma viagem sozinho de vez em quando, para decidir tudo sem discussões."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "writing": [
+        {
+          "prompt": "Os teus vizinhos fazem barulho todas as noites depois das onze. Escreve uma mensagem educada ao senhorio a explicar a situação e a pedir ajuda.",
+          "promptZh": "你的邻居每晚十一点以后都很吵。给你的房东写一条礼貌的消息，说明情况并请求帮助。",
+          "min": 80,
+          "hint": "Mensagem formal e educada: saudação, descrição objetiva (quando e que barulho), o que já tentaste, pedido de ajuda, agradecimento."
+        },
+        {
+          "prompt": "Falhaste o aniversário de um amigo. Escreve-lhe um email a pedir desculpa e a propor um encontro para compensar.",
+          "promptZh": "你错过了朋友的生日。给他写一封电子邮件道歉，并提议见面弥补。",
+          "min": 80,
+          "hint": "Email informal: desculpa sincera, explicação breve, proposta de encontro (dia e lugar), oferta simbólica, despedida. Usa «desculpa», «prometo»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O que faz uma boa amizade? Fala de duas ou três qualidades.",
+          "promptZh": "什么造就了良好的友谊？谈谈两三个品质。",
+          "model": "Para mim, uma boa amizade precisa de confiança e de respeito. Também é importante poder dizer a verdade, mesmo quando é difícil. Os meus melhores amigos são aqueles que estão comigo nos bons e nos maus momentos."
+        },
+        {
+          "prompt": "Já fizeste uma reclamação? Conta o que aconteceu e se ficaste satisfeito.",
+          "promptZh": "你投诉过吗？说说发生了什么，以及你是否满意。",
+          "model": "Sim, reclamei numa loja por causa de uns auscultadores que deixaram de funcionar ao fim de uma semana. A atendente disse que a garantia não cobria, mas eu insisti e mostrei o recibo. No fim, trocaram-me o produto e fiquei satisfeito."
+        },
+        {
+          "prompt": "Achas que passamos tempo demais no telemóvel? Porquê?",
+          "promptZh": "你觉得我们花在手机上的时间太多了吗？为什么？",
+          "model": "Sim, acho que sim, porque vejo pessoas ao jantar a olhar para o ecrã em vez de falarem. Eu também perco muito tempo com vídeos curtos sem dar por isso. Por isso, agora tento deixar o telemóvel noutro quarto quando estou com a família."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "writing": [
+        {
+          "prompt": "Um colega de trabalho vai reformar-se no próximo mês. Escreve um email aos colegas da equipa a organizar um almoço de despedida e a recolher contribuições.",
+          "promptZh": "一位同事下个月要退休。给团队同事写一封电子邮件，组织一次欢送午餐并收取分摊费用。",
+          "min": 90,
+          "hint": "Email para a equipa: assunto, motivo, proposta de data e restaurante, valor da contribuição, pedido de resposta até uma data, despedida."
+        },
+        {
+          "prompt": "Escreve um texto de opinião para o blog de uma escola de línguas: trabalhar no estrangeiro é uma boa ideia para os jovens?",
+          "promptZh": "为语言学校的博客写一篇观点文章：对年轻人来说，去国外工作是个好主意吗？",
+          "min": 90,
+          "hint": "Texto de opinião: opinião clara, um benefício e um risco, conclusão com conselho. Usa «por um lado», «por outro lado», «além disso»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Que livro, filme ou série recomendas? Porquê?",
+          "promptZh": "你推荐哪本书、电影或剧集？为什么？",
+          "model": "Recomendo o livro «Ensaio sobre a Cegueira», do José Saramago, porque é uma história forte que nos faz pensar. A escrita é difícil no início, mas depois não conseguimos parar de ler. É um livro que recomendo a quem gosta de desafios."
+        },
+        {
+          "prompt": "Que conselhos darias a alguém que visita a tua cidade pela primeira vez?",
+          "promptZh": "如果有人第一次来你的城市，你会给什么建议？",
+          "model": "Diria para andar a pé pelo centro histórico e provar a comida local nos mercados. Também aconselharia a evitar os horários de ponta, porque o trânsito é horrível. E, claro, levava a pessoa a ver o pôr do sol no miradouro."
+        },
+        {
+          "prompt": "O que gostarias de aprender nos próximos anos? Porquê?",
+          "promptZh": "未来几年你想学什么？为什么？",
+          "model": "Gostaria de aprender a tocar guitarra, porque sempre admirei quem toca em festas com os amigos. Também quero melhorar o meu inglês, para poder trabalhar no estrangeiro. Vou começar com aulas uma vez por semana."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "level": "C2",
+  "exams": [
+    {
+      "n": 1,
+      "writing": [
+        {
+          "prompt": "Num ensaio recente, um crítico sustentou que a literatura portuguesa contemporânea confunde a memória com a herança e a herança com a obrigação de repetir. Escreva um texto argumentativo para uma revista cultural em que discuta esta afirmação, recorrendo a uma ou duas obras que conheça, e tome posição sobre o modo como a ficção atual trabalha o passado: reverência, reapropriação ou rutura. Não se limite a lamentar o presente; mostre o que está em jogo esteticamente.",
+          "promptZh": "在最近一篇随笔中，一位批评家断言，当代葡萄牙文学把记忆与遗产混为一谈，又把遗产等同于重复的义务。请为一本文化杂志写一篇论证性文章，讨论这一说法，结合一两部你熟悉的作品，并就当下小说如何处理过去——崇敬、挪用还是断裂——明确立场。不要只哀叹当下，要说明其中涉及的审美问题。",
+          "min": 140,
+          "hint": "Comece por distinguir memória, herança e tradição; cada conceito exige um argumento próprio. Ancore a reflexão em exemplos textuais, não em impressões gerais."
+        },
+        {
+          "prompt": "A crítica literária vive hoje entre a universidade, o jornal e as redes sociais. Num texto de opinião, discuta se ainda lhe cabe formar o gosto do público ou se é hoje uma conversa entre especialistas sobre livros que o público deixou de esperar. Defenda uma função possível — e os seus limites — para a crítica no século XXI.",
+          "promptZh": "文学批评如今游走于大学、报刊与社交媒体之间。请写一篇评论文章，讨论它是否仍应塑造公众趣味，还是已变成专家之间关于公众不再期待的作品的对话。请论证批评在21世纪可能承担的一种功能，并说明其限度。",
+          "min": 140,
+          "hint": "Evite a nostalgia e a denúncia fácil. Distinga juízo, interpretação e mediação, e mostre como cada uma delas pode hoje exercer-se."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "A obra de arte deve ser julgada pela intenção do autor?",
+          "promptZh": "艺术作品应当依据作者的意图来评判吗？",
+          "model": "Não, mas também não se julga no vazio: a intenção é uma pista, não um veredicto. Uma obra pode trair o seu autor e continuar a dizer a verdade; o que não pode é dispensar uma leitura que dê conta dos seus efeitos."
+        },
+        {
+          "prompt": "Pode um romance ser politicamente eficaz sem se tornar panfleto?",
+          "promptZh": "小说能否在政治上有效，却不沦为宣传册？",
+          "model": "Pode, se convencer pelo conflito em vez de pela tese: o panfleto diz o que devemos pensar, o romance mostra o preço de pensar assim. A eficácia política nasce, paradoxalmente, da recusa de servir uma causa com demasiada obediência."
+        },
+        {
+          "prompt": "O que distingue um clássico de um êxito de vendas?",
+          "promptZh": "经典与畅销书之间的区别是什么？",
+          "model": "O êxito mede-se no presente, o clássico na capacidade de continuar a incomodar depois de o presente passar. Há livros de grande sucesso que envelhecem bem, mas um clássico não é o que todos leem: é o que continua a ser relido por razões diferentes."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "writing": [
+        {
+          "prompt": "A memória não é um arquivo: é uma reconstrução que altera o passado a cada evocação. Se assim é, a identidade pessoal será uma ficção útil ou uma ilusão necessária? Escreva um ensaio filosófico em que confronte, pelo menos, duas posições sobre a continuidade do eu e explicite as consequências éticas da sua resposta.",
+          "promptZh": "记忆不是档案库，而是每次追忆都会改变过去的重构。若如此，人格同一性究竟是有用的虚构，还是必要的幻觉？请写一篇哲学随笔，至少对照两种关于自我连续性的立场，并明确你的回答所带来的伦理后果。",
+          "min": 140,
+          "hint": "Problematize a metáfora do arquivo e o critério da continuidade. Uma boa resposta distingue o que muda (o conteúdo) do que persiste (a responsabilidade)."
+        },
+        {
+          "prompt": "Os sistemas de recomendação prometem dar-nos o que desejamos antes de o sabermos. Escreva um ensaio sobre a possibilidade de a personalização algorítmica corroer a autonomia, distinguindo desejo, preferência e hábito, e pergunte se a liberdade exige alguma opacidade.",
+          "promptZh": "推荐系统承诺在我们意识到之前就给予我们想要的东西。请写一篇随笔，讨论算法个性化是否会侵蚀自主性，区分欲望、偏好与习惯，并追问自由是否需要某种不透明性。",
+          "min": 140,
+          "hint": "Não trate a técnica como destino. Pergunte quem define os fins, que alternativas ficam invisíveis e se a transparência total seria desejável."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "A nostalgia é uma forma de conhecimento ou de autoengano?",
+          "promptZh": "怀旧是一种认知，还是一种自我欺骗？",
+          "model": "É as duas coisas, e por isso é tão perigosa: dá-nos acesso à perda real, mas embeleza-a até a tornar habitável. O conhecimento começa quando perguntamos o que a saudade está a omitir."
+        },
+        {
+          "prompt": "Se pudéssemos registar toda a nossa vida, ganharíamos ou perderíamos o direito ao esquecimento?",
+          "promptZh": "如果我们能记录自己的一生，我们会获得还是失去被遗忘的权利？",
+          "model": "Ganharíamos memória e perderíamos o descanso: um arquivo total transforma cada erro numa prova permanente. O direito ao esquecimento não é um apagamento, é a possibilidade de não sermos governados pelo que já fomos."
+        },
+        {
+          "prompt": "O sofrimento tem algum valor moral?",
+          "promptZh": "苦难具有某种道德价值吗？",
+          "model": "Tem valor apenas quando é reconhecido e cuidado, nunca quando é justificado. Fazer do sofrimento uma escola é o modo mais rápido de absolver quem o impõe."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "writing": [
+        {
+          "prompt": "«A política deixou de argumentar: gere emoções.» Escreva uma coluna de opinião que examine esta acusação, distinguindo persuasão de manipulação e retórica de provocação. Mostre o que se ganha e o que se perde quando o debate público se organiza por indignação, e proponha uma exigência concreta para quem fala em nome de todos.",
+          "promptZh": "«政治不再论证，而是管理情绪。» 请写一篇评论专栏，审视这一指控，区分说服与操纵、修辞与挑衅。说明当公共辩论围绕愤怒组织时，我们得到什么、失去什么，并为以所有人名义发言的人提出一项具体要求。",
+          "min": 140,
+          "hint": "A tese não é que a emoção seja ilegítima, mas que o pathos sem argumento fecha a deliberação. Use um exemplo político recente sem transformar o texto em comentário partidário."
+        },
+        {
+          "prompt": "Uma democracia saudável precisa de cidadãos desobedientes? Escreva um ensaio que relacione desobediência civil, Estado de direito e legitimidade, esclarecendo em que condições a violação de uma lei pode ser moralmente defensável — e quando se confunde com o simples desprezo pelas regras.",
+          "promptZh": "健康的民主需要不服从的公民吗？请写一篇随笔，把公民不服从、法治与合法性联系起来，说明违反法律在何种条件下可以在道德上得到辩护，以及何时会与单纯蔑视规则混为一谈。",
+          "min": 140,
+          "hint": "Distinga desobediência civil de revolta e de crime comum. O critério decisivo não é a sinceridade da convicção, mas a publicidade e a aceitação das consequências."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O voto obrigatório melhoraria a democracia?",
+          "promptZh": "强制投票会改善民主吗？",
+          "model": "Melhoraria a participação e talvez a representatividade, mas não a qualidade do juízo: um voto forçado pode ser tão vazio como uma abstenção confortável. O problema não é só quem vota, é o que se oferece a quem vota."
+        },
+        {
+          "prompt": "A entrevista política ainda esclarece ou apenas produz citações?",
+          "promptZh": "政治采访仍在澄清问题，还是只在制造引语？",
+          "model": "Depende de quem controla o tempo: quando a pergunta se subordina ao fragmento, a entrevista torna-se um género publicitário. Ainda esclarece quando o entrevistador aceita ser incómodo e o entrevistado aceita não ter resposta para tudo."
+        },
+        {
+          "prompt": "O cinismo é uma forma de lucidez ou de demissão?",
+          "promptZh": "犬儒主义是一种清醒，还是一种放弃担当？",
+          "model": "Começa como lucidez — ver o mecanismo por dentro — e termina muitas vezes como demissão, porque desmontar tudo dispensa-nos de propor algo. A diferença está em conservar a exigência depois de perder a ilusão."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "writing": [
+        {
+          "prompt": "A edição genética da linha germinativa poderá eliminar doenças hereditárias, mas também abrir a porta a práticas que hoje chamaríamos eugénicas. Escreva um ensaio para um debate público em que pese benefícios, incerteza científica e justiça, e defenda um critério — não apenas uma precaução genérica — para distinguir tratamento de aperfeiçoamento.",
+          "promptZh": "生殖系基因编辑或许能消除遗传病，却也可能为今天会被我们称为优生学的做法打开大门。请为一场公共辩论写一篇随笔，权衡益处、科学不确定性与正义，并捍卫一项标准——而不只是笼统的谨慎——以区分治疗与增强。",
+          "min": 140,
+          "hint": "Defina o que conta como doença, dano e benefício. Um critério credível tem de ser aplicável antes de a técnica estar disponível, não apenas depois do escândalo."
+        },
+        {
+          "prompt": "«A ciência vive da dúvida, mas o público confunde dúvida com fraqueza.» Escreva um texto argumentativo sobre como comunicar incerteza científica sem alimentar o negacionismo. Discuta o papel dos media, dos cientistas e das instituições, e recuse tanto o triunfalismo como o relativismo.",
+          "promptZh": "«科学依靠怀疑而生存，但公众却把怀疑混同于软弱。» 请写一篇论证性文章，讨论如何传达科学不确定性而不助长否认主义。讨论媒体、科学家与机构的作用，同时拒绝科学必胜论与相对主义。",
+          "min": 140,
+          "hint": "Incerteza não é ignorância: é um grau de confiança. Mostre a diferença entre dizer «não sabemos ainda» e sugerir que «tudo é opinião»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "A ciência pode dizer-nos como viver?",
+          "promptZh": "科学能告诉我们如何生活吗？",
+          "model": "Pode dizer-nos o que nos faz viver mais e melhor, não o que torna uma vida digna de ser vivida. Confundir as duas coisas é pedir à evidência uma resposta que só a deliberação moral pode dar."
+        },
+        {
+          "prompt": "A consciência animal obriga-nos a repensar a experimentação?",
+          "promptZh": "动物的意识是否迫使我们重新思考动物实验？",
+          "model": "Obriga, mas não resolve a questão: se a consciência é gradual, também a proteção tem de o ser. O critério não pode ser «é como nós?», mas «o que lhe devemos por aquilo que é?»."
+        },
+        {
+          "prompt": "Um facto científico muda de estatuto quando se torna consenso?",
+          "promptZh": "科学事实在成为共识时，其地位会改变吗？",
+          "model": "Muda de estatuto social, não de estatuto epistémico: o consenso é uma conquista da comunidade, não uma prova suplementar. Aliás, há consensos que a investigação posterior desfaz."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "writing": [
+        {
+          "prompt": "«A tradução mais fiel é muitas vezes a que aceita ser infiel à letra.» Escreva um ensaio sobre tradução literária em que discuta esta afirmação, recorrendo a exemplos de perdas e compensações, e explique que fidelidade resta quando o ritmo, o duplo sentido ou a sonoridade não podem ser preservados.",
+          "promptZh": "«最忠实的翻译，往往是那敢于在字面上不忠的翻译。» 请写一篇关于文学翻译的随笔，讨论这一说法，举出损失与补偿的例子，并解释当节奏、双关或音韵无法保留时，还剩下何种忠实。",
+          "min": 140,
+          "hint": "Não oponha literal a livre como se fossem campos inimigos. A fidelidade joga-se num sistema: o que se perde na palavra pode recuperar-se na frase."
+        },
+        {
+          "prompt": "Fala-se de palavras intraduzíveis — saudade, desenrascanço, madrugada — como se cada língua guardasse um segredo irredutível. Escreva um texto crítico sobre o fascínio do intraduzível: ele revela experiências que outra língua não nomeia ou transforma a diferença cultural em argumento de venda?",
+          "promptZh": "人们谈论不可译的词——saudade、desenrascanço、madrugada——仿佛每种语言都藏着一个不可还原的秘密。请写一篇批评性文章，讨论对不可译之物的迷恋：它揭示的是另一种语言无法命名的经验，还是把文化差异变成了卖点？",
+          "min": 140,
+          "hint": "Pergunte o que significa «traduzir» quando não há equivalente léxico. Uma paráfrase pode ser mais fiel do que um empréstimo decorativo."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O que se perde quando uma série é dobada em vez de legendada?",
+          "promptZh": "当一部剧集被配音而非配字幕时，失去了什么？",
+          "model": "Perde-se a voz como parte da interpretação e ganha-se acesso para quem não consegue ler ao ritmo da imagem. A questão não é qual é superior, mas quem fica excluído em cada escolha."
+        },
+        {
+          "prompt": "Um tradutor deve ser invisível?",
+          "promptZh": "译者应当隐形吗？",
+          "model": "Invisível na leitura, não no trabalho: se o texto flui, o leitor esquece a mediação, mas alguém teve de decidir cada equivalência. A melhor invisibilidade é a que resulta de escolhas visíveis e assumidas."
+        },
+        {
+          "prompt": "As línguas pequenas sobrevivem sem tradução?",
+          "promptZh": "小语种没有翻译还能存续吗？",
+          "model": "Sobrevivem na fala quotidiana, mas perdem presença pública se não circularem para fora de si mesmas. A tradução não salva uma língua sozinha; dá-lhe, porém, a chance de ser lida e não apenas protegida."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "writing": [
+        {
+          "prompt": "«As expressões idiomáticas são o depósito da experiência de um povo, mas também a sua prisão.» Escreva um ensaio que discuta esta tensão, recorrendo a expressões portuguesas concretas, e pergunte se as expressões revelam uma visão do mundo ou apenas cristalizam preconceitos que já não partilhamos.",
+          "promptZh": "«习语是一个民族经验的沉淀，却也是它的牢笼。» 请写一篇随笔讨论这一张力，结合具体的葡萄牙语表达，并追问：习语揭示的是一种世界观，还是仅仅固化了我们已不再共享的偏见？",
+          "min": 140,
+          "hint": "Analise o funcionamento literal e figurado de cada expressão. Evite concluir que a língua determina o pensamento; mostre antes como o conserva e o reativa."
+        },
+        {
+          "prompt": "«A correção linguística é uma forma de respeito.» «A correção linguística é uma forma de exclusão.» Escreva um texto argumentativo que confronte as duas afirmações, distinguindo norma, registo e preconceito, e tome posição sobre o lugar da gramática no ensino e na vida pública.",
+          "promptZh": "«语言纠错是一种尊重。» «语言纠错是一种排斥。» 请写一篇论证性文章，对照这两种说法，区分规范、语域与偏见，并就语法在教学与公共生活中的位置表明立场。",
+          "min": 140,
+          "hint": "Nem toda a norma é arbitrária, nem toda a transgressão é criativa. Separe o que é erro do que é variedade e o que é preconceito social do que é exigência de clareza."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O eufemismo é uma forma de civilidade ou de cobardia?",
+          "promptZh": "委婉语是一种文明，还是一种怯懦？",
+          "model": "Pode ser as duas coisas, conforme proteja quem ouve ou apenas quem fala. A civilidade escolhe palavras para não ferir; a cobardia escolhe-as para não ter de dizer."
+        },
+        {
+          "prompt": "Pode aprender-se uma cultura sem aprender a sua linguagem corporal?",
+          "promptZh": "不了解一种文化的肢体语言，能学会这种文化吗？",
+          "model": "Aprende-se a informação, dificilmente a convivência: o gesto, a distância e o silêncio também têm gramática. Sem eles, fica-se frequentemente a traduzir palavras num país que fala com o corpo."
+        },
+        {
+          "prompt": "As palavras mudam de sentido: isso é empobrecimento ou vitalidade?",
+          "promptZh": "词义会变化：这是语言的贫化，还是活力？",
+          "model": "É vitalidade quando a mudança acrescenta precisão ou faz justiça a experiências novas; é empobrecimento quando duas palavras distintas passam a dizer a mesma coisa. A diferença raramente está na mudança, está no que ela apaga."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "writing": [
+        {
+          "prompt": "Muitos museus europeus começam a restituir obras obtidas em contextos coloniais. Escreva um ensaio sobre a restituição, distinguindo justiça histórica, direito vigente e função educativa dos museus, e responda à objeção de que retirar objetos empobrece o conhecimento público.",
+          "promptZh": "许多欧洲博物馆开始归还殖民背景下获得的文物。请写一篇关于文物归还的随笔，区分历史正义、现行法律与博物馆的教育功能，并回应「移走文物会削弱公共知识」这一反对意见。",
+          "min": 140,
+          "hint": "Não trate a restituição como caridade: é uma questão de título, memória e acesso. Considere também o que muda quando o objeto regressa a um museu com menos recursos."
+        },
+        {
+          "prompt": "«O kitsch é a morte da arte.» «O kitsch é a arte que finalmente pertence a todos.» Escreva um texto crítico que confronte estas posições, discutindo gosto, ironia e mercado, e pergunte se a distinção entre arte e entretenimento ainda tem utilidade.",
+          "promptZh": "«媚俗是艺术的死亡。» «媚俗是终于属于所有人的艺术。» 请写一篇批评性文章，对照这两种立场，讨论趣味、反讽与市场，并追问艺术与娱乐之间的区分是否仍然有用。",
+          "min": 140,
+          "hint": "O kitsch não é apenas mau gosto: é uma relação com o prazer e com a autenticidade. Evite defender a alta cultura por reflexo ou celebrar o mercado por comodidade."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Um museu deve ser um lugar de contemplação ou de debate?",
+          "promptZh": "博物馆应当是沉思之地，还是辩论之地？",
+          "model": "Idealmente, um lugar onde a contemplação se deixa perturbar pelo debate: sem silêncio, o objeto não fala; sem conflito, só confirma o que já sabemos. O museu falha quando escolhe um dos dois por medo do outro."
+        },
+        {
+          "prompt": "A arquitetura guarda a memória de uma cidade melhor do que os monumentos?",
+          "promptZh": "建筑比纪念碑更能保存一座城市的记忆吗？",
+          "model": "Guarda-a de modo mais involuntário: o monumento diz o que a cidade quer lembrar, a arquitetura mostra como ela viveu. Uma casa vulgar pode testemunhar mais do que uma estátua oficial."
+        },
+        {
+          "prompt": "A beleza ainda é uma categoria pertinente na arte contemporânea?",
+          "promptZh": "美在当代艺术中仍是一个恰当范畴吗？",
+          "model": "Continua pertinente, mas deixou de ser obrigatória: a arte pode ser bela sem ser decorativa e pode ser perturbadora sem ser feia. O problema não é a beleza, é a sua redução a efeito fácil."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "writing": [
+        {
+          "prompt": "«A produtividade tornou-se a medida moral do indivíduo.» Escreva um ensaio sobre esta afirmação, relacionando trabalho, valor pessoal e tempo livre, e discuta se o elogio do ócio é uma forma de privilégio ou uma necessidade política.",
+          "promptZh": "«生产力已成为衡量个人道德的尺度。» 请写一篇随笔讨论这一说法，把工作、个人价值与闲暇时间联系起来，并讨论赞美闲适是一种特权，还是一种政治上的必要。",
+          "min": 140,
+          "hint": "Distinga produtividade de eficácia e ócio de preguiça. A pergunta decisiva é quem pode dar-se ao luxo de parar — e quem paga por esse luxo."
+        },
+        {
+          "prompt": "O teletrabalho libertou o trabalho do lugar — ou apenas levou a fábrica para dentro de casa? Escreva um texto argumentativo sobre as fronteiras entre vida profissional e vida privada, e sobre o efeito da deslocalização no centro das cidades.",
+          "promptZh": "远程办公是把工作从地点中解放出来，还是仅仅把工厂搬进了家里？请写一篇论证性文章，讨论职业生活与私人生活之间的边界，以及工作地点外迁对城市中心的影响。",
+          "min": 140,
+          "hint": "Não confunda flexibilidade com ausência de horário. Analise quem ganha mobilidade e quem perde a cidade — e a casa — como espaço próprio."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "O ócio é produtivo?",
+          "promptZh": "闲适具有生产性吗？",
+          "model": "Produtivo talvez não, mas fecundo sim: o ócio repõe a atenção que o trabalho consome. O erro é justificá-lo pelo que rende depois, em vez de o defender como tempo que não precisa de justificação."
+        },
+        {
+          "prompt": "Devemos ter o direito a desligar?",
+          "promptZh": "我们应当拥有断联权吗？",
+          "model": "Sim, mas um direito individual é insuficiente se a cultura da empresa premiar quem responde às onze da noite. O direito a desligar só é real quando não custa a carreira."
+        },
+        {
+          "prompt": "A automatização destruirá mais empregos do que os que cria?",
+          "promptZh": "自动化摧毁的就业会多于它创造的就业吗？",
+          "model": "Provavelmente destruirá tarefas mais depressa do que cria profissões, e a transição será desigual. A questão decisiva não é o número de empregos, mas quem suporta o custo de mudar de vida."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "writing": [
+        {
+          "prompt": "A justiça climática exige que os países que mais poluíram no passado paguem, mesmo quando já não são os que mais poluem. Escreva um ensaio que discuta responsabilidade histórica, capacidade atual e equidade entre gerações, e responda à objeção de que ninguém pode ser responsabilizado pelo que não fez.",
+          "promptZh": "气候正义要求历史上污染最重的国家承担代价，即使它们已不再是当下排放最多的国家。请写一篇随笔，讨论历史责任、当前能力与代际公平，并回应「人不应为自己未做之事负责」这一反对意见。",
+          "min": 140,
+          "hint": "Distinga culpa individual de responsabilidade institucional. Uma teoria credível tem de explicar por que razão quem beneficia de uma injustiça passada pode ter deveres no presente."
+        },
+        {
+          "prompt": "«O turismo salvou o centro histórico.» «O turismo expulsou a cidade de si mesma.» Escreva um texto argumentativo sobre o turismo urbano em Portugal, discutindo habitação, emprego e autenticidade, e proponha uma medida que não se limite a expulsar visitantes.",
+          "promptZh": "«旅游业拯救了历史中心。» «旅游业把城市从自身中赶了出去。» 请写一篇论证性文章，讨论葡萄牙的城市旅游，涉及住房、就业与真实性，并提出一项不限于驱逐游客的措施。",
+          "min": 140,
+          "hint": "Evite o visitante como bode expiatório. Olhe para o mercado de arrendamento, para os salários e para o que a cidade deixou de poder fazer."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "As gerações futuras podem ter direitos?",
+          "promptZh": "未来世代能拥有权利吗？",
+          "model": "Podem, se aceitarmos que os direitos não exigem que o titular esteja presente para serem violados. O problema é representá-las numa deliberação dominada por quem vota hoje."
+        },
+        {
+          "prompt": "É legítimo limitar a entrada de turistas numa cidade?",
+          "promptZh": "限制游客进入一座城市是否正当？",
+          "model": "Pode ser legítimo como gestão de capacidade, não como purismo cultural: o critério deve ser a vida da cidade, não a origem de quem chega. Limitar sem reinvestir na habitação é apenas deslocar o problema."
+        },
+        {
+          "prompt": "A sustentabilidade é compatível com o crescimento económico?",
+          "promptZh": "可持续性与经济增长相容吗？",
+          "model": "Depende do que crescermos: podemos crescer em serviços e decrescer em materiais, mas não indefinidamente em tudo. A pergunta séria não é se há limite, é quem decide onde ele fica."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "writing": [
+        {
+          "prompt": "«Integrar não é apagar diferenças.» Escreva um ensaio sobre migração e pertença em que discuta língua, trabalho e cidadania, e responda à objeção de que a afirmação de identidades culturais impede a coesão social.",
+          "promptZh": "«融合不是抹去差异。» 请写一篇关于移民与归属的随笔，讨论语言、工作与公民身份，并回应「强调文化身份会阻碍社会凝聚」这一反对意见。",
+          "min": 140,
+          "hint": "Distinga integração de assimilação e tolerância de indiferença. A coesão não exige que todos sejam iguais, mas exige regras comuns e acesso real."
+        },
+        {
+          "prompt": "A universidade perdeu a sua função crítica quando passou a medir-se por indicadores de empregabilidade. Escreva um texto argumentativo sobre o lugar do saber desinteressado no ensino superior, discutindo a relação entre formação profissional, investigação e cidadania.",
+          "promptZh": "当大学开始以就业能力指标衡量自身时，它便失去了批判功能。请写一篇论证性文章，讨论无关功利的求知在高等教育中的位置，探讨职业培养、科研与公民身份之间的关系。",
+          "min": 140,
+          "hint": "Não oponha cultura a emprego como se fossem inimigos. Pergunte que tipo de profissional e de cidadão se forma quando só o resultado contável conta."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "A língua é condição de integração ou instrumento de exclusão?",
+          "promptZh": "语言是融合的条件，还是排斥的工具？",
+          "model": "É as duas coisas: abre a porta e vigia-a. Exigir a língua sem garantir o acesso ao seu ensino transforma uma condição de integração num teste de humilhação."
+        },
+        {
+          "prompt": "O multiculturalismo fracassou?",
+          "promptZh": "多元文化主义失败了吗？",
+          "model": "Fracassou onde foi reduzido a folclore e a abdicação do Estado; não fracassou como princípio de igualdade na diferença. Antes de o declarar morto, convém perguntar quem ganhou com o seu enterro."
+        },
+        {
+          "prompt": "Pode exigir-se a um imigrante que renuncie à sua cultura para pertencer?",
+          "promptZh": "可以要求移民为了归属而放弃自己的文化吗？",
+          "model": "Não, mas pode exigir-se que aceite as regras constitucionais que tornam a convivência possível. A fronteira não está entre culturas, está entre autonomia individual e práticas que a negam."
+        }
+      ]
+    }
+  ]
+}

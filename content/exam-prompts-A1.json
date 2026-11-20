@@ -1,0 +1,345 @@
+{
+  "level": "A1",
+  "exams": [
+    {
+      "n": 1,
+      "writing": [
+        {
+          "prompt": "Apresenta-te num fórum da tua escola de português. Diz o teu nome, a tua idade, a tua nacionalidade, a cidade onde vives e as línguas que falas.",
+          "promptZh": "在一家葡萄牙语学校的论坛上介绍自己。说出你的姓名、年龄、国籍、居住的城市和你说的语言。",
+          "min": 40,
+          "hint": "Usa «Chamo-me…», «Tenho… anos», «Sou…» e «Vivo em…»."
+        },
+        {
+          "prompt": "Escreve um email a um amigo a contar o que fazes num dia normal. Fala das horas a que te levantas, do pequeno-almoço e do caminho para o trabalho ou a escola.",
+          "promptZh": "给朋友写一封电子邮件，讲述你平常一天做什么。说说你几点起床、早餐吃什么，以及怎么去上班或上学。",
+          "min": 40,
+          "hint": "Liga as ideias com «primeiro», «depois» e «à noite»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fala da tua turma de português: quantos alunos há, de onde são e quem é o teu melhor amigo na turma.",
+          "promptZh": "谈谈你的葡萄牙语班：有多少学生、他们来自哪里，以及谁是你最好的朋友。",
+          "model": "Na minha turma há quinze alunos. Somos de países diferentes. O meu melhor amigo chama-se Li e é chinês."
+        },
+        {
+          "prompt": "Fala do teu trabalho ou dos teus estudos. Diz o que fazes e a que horas começas.",
+          "promptZh": "谈谈你的工作或学习。说说你做什么，以及几点开始。",
+          "model": "Sou estudante de medicina. Tenho aulas às nove da manhã e estudo à tarde na biblioteca."
+        },
+        {
+          "prompt": "Estás num café. Pede um galão e uma torrada e pergunta quanto custa.",
+          "promptZh": "你在一家咖啡馆。点一杯加奶咖啡和一份烤面包片，并问多少钱。",
+          "model": "Bom dia. Queria um galão e uma torrada, se faz favor. Quanto custa?"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "writing": [
+        {
+          "prompt": "Descreve a tua família. Diz quantas pessoas há na tua família, como se chamam, que idades têm e o que fazem.",
+          "promptZh": "描述你的家庭。说说家里有几口人、他们叫什么、多大年纪以及做什么工作。",
+          "min": 40,
+          "hint": "Usa «A minha família tem… pessoas», «O meu pai…» e «A minha mãe…»."
+        },
+        {
+          "prompt": "Descreve a tua casa. Diz quantos quartos tem, o que há na sala e qual é o teu lugar favorito.",
+          "promptZh": "描述你的家。说说有几个房间、客厅里有什么，以及你最喜欢的地方。",
+          "min": 40,
+          "hint": "Usa «há», «tem» e «o meu lugar favorito é…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fala da rotina da tua família num domingo. Diz o que fazem de manhã e ao almoço.",
+          "promptZh": "谈谈你家星期天的日常。说说你们上午和午饭时做什么。",
+          "model": "Ao domingo de manhã vamos à praia. Ao almoço comemos todos juntos em casa dos meus avós."
+        },
+        {
+          "prompt": "Estás na rua. Pergunta a um polícia onde fica a estação de comboios.",
+          "promptZh": "你在街上。向警察询问火车站在哪里。",
+          "model": "Desculpe, pode dizer-me onde fica a estação de comboios, se faz favor?"
+        },
+        {
+          "prompt": "Fala do teu animal de estimação. Se não tens um, diz qual é o teu animal favorito.",
+          "promptZh": "谈谈你的宠物。如果没有宠物，说说你最喜欢的动物。",
+          "model": "Tenho um gato pequeno e branco. Chama-se Neve e gosta de dormir no sofá."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "writing": [
+        {
+          "prompt": "Vais fazer um jantar para um amigo. Escreve uma lista de compras para o supermercado com cinco alimentos e as quantidades.",
+          "promptZh": "你要为一位朋友做晚餐。写一份去超市的购物清单，列出五种食物和数量。",
+          "min": 40,
+          "hint": "Usa «um quilo de…», «meio quilo de…» e «uma garrafa de…»."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um amigo sobre a tua comida favorita. Diz o que é, quando a comes e porque gostas dela.",
+          "promptZh": "给朋友写一条信息，谈谈你最喜欢的食物。说说它是什么、你什么时候吃以及你为什么喜欢。",
+          "min": 40,
+          "hint": "Usa «Gosto muito de…», «Como… ao almoço» e «porque é…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás no mercado. Compra um quilo de maçãs e meio quilo de tomates e pergunta o preço.",
+          "promptZh": "你在市场。买一公斤苹果和半公斤西红柿，并问价格。",
+          "model": "Bom dia. Queria um quilo de maçãs e meio quilo de tomates. Quanto custa, se faz favor?"
+        },
+        {
+          "prompt": "O que comes ao pequeno-almoço? Diz também o que bebes.",
+          "promptZh": "你早餐吃什么？也说说你喝什么。",
+          "model": "Ao pequeno-almoço como pão com queijo e uma banana. Bebo um copo de leite."
+        },
+        {
+          "prompt": "Como é o tempo no inverno na tua cidade? Diz o que fazes nessa estação.",
+          "promptZh": "你所在城市的冬天天气怎么样？说说你在这个季节做什么。",
+          "model": "No inverno está frio e chove muito. Fico em casa, leio e bebo chá."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "writing": [
+        {
+          "prompt": "Descreve o teu bairro. Diz o que há perto da tua casa e onde gostas de ir aos fins de semana.",
+          "promptZh": "描述你的街区。说说你家附近有什么，以及周末你喜欢去哪里。",
+          "min": 40,
+          "hint": "Usa «perto da minha casa há…» e «aos fins de semana vou…»."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um amigo a convidá-lo para sair no sábado. Diz onde vão, a que horas e como vão.",
+          "promptZh": "给朋友写一条信息，邀请他周六出去。告诉他去哪里、几点以及怎么去。",
+          "min": 40,
+          "hint": "Usa «Queres ir…?», «Encontramo-nos às…» e «Vamos de…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fala da cidade onde vives: o que há para visitar e o que gostas mais.",
+          "promptZh": "谈谈你居住的城市：有什么可以参观的，你最喜欢什么。",
+          "model": "Vivo em Coimbra. Há uma universidade antiga e um rio bonito. Gosto muito do centro da cidade."
+        },
+        {
+          "prompt": "Estás na bilheteira. Compra dois bilhetes para Sintra e pergunta a que horas parte o comboio.",
+          "promptZh": "你在售票处。买两张去辛特拉的票，并问火车几点出发。",
+          "model": "Bom dia. Queria dois bilhetes para Sintra, se faz favor. A que horas parte o comboio?"
+        },
+        {
+          "prompt": "Fala do que gostas e do que não gostas de fazer no teu tempo livre.",
+          "promptZh": "谈谈你在空闲时间喜欢做什么、不喜欢做什么。",
+          "model": "Gosto de ler e de ouvir música, mas não gosto de ver televisão. Também gosto de caminhar perto do rio."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "writing": [
+        {
+          "prompt": "Escreve uma mensagem ao teu senhorio. Diz que a lâmpada da cozinha não funciona e pede-lhe para trocar a lâmpada.",
+          "promptZh": "给你的房东写一条信息。告诉他厨房的灯坏了，并请他更换。",
+          "min": 40,
+          "hint": "Começa com «Bom dia» e usa «não funciona» e «pode…?»."
+        },
+        {
+          "prompt": "Descreve o teu sábado normal. Diz a que horas te levantas, o que fazes de manhã e à tarde.",
+          "promptZh": "描述你平常的星期六。说说你几点起床、上午做什么、下午做什么。",
+          "min": 40,
+          "hint": "Usa verbos no presente e liga as frases com «depois» e «à tarde»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Descreve o edifício onde vives: quantos andares tem e em que andar fica a tua casa.",
+          "promptZh": "描述你住的楼：有几层，你家在几楼。",
+          "model": "Vivo num prédio com cinco andares. A minha casa fica no terceiro andar e tem uma varanda."
+        },
+        {
+          "prompt": "Estás numa loja de roupa. Pergunta quanto custa a camisa azul e se há um desconto.",
+          "promptZh": "你在服装店。询问那件蓝色衬衫多少钱，以及是否有折扣。",
+          "model": "Bom dia. Quanto custa esta camisa azul? Há algum desconto?"
+        },
+        {
+          "prompt": "Telefonas a um amigo. Convida-o para almoçar em tua casa e diz a hora.",
+          "promptZh": "你打电话给朋友，邀请他来你家吃午饭，并告诉他时间。",
+          "model": "Olá, João! Queres almoçar em minha casa no domingo? À uma hora. Eu faço sopa e frango."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "writing": [
+        {
+          "prompt": "Escreve um postal a um amigo. Fala da tua família e de uma refeição que gostas de comer com eles.",
+          "promptZh": "给朋友写一张明信片。谈谈你的家人以及你喜欢和他们一起吃的一顿饭。",
+          "min": 40,
+          "hint": "Usa «Estou bem», «A minha família…» e «Ao domingo comemos…»."
+        },
+        {
+          "prompt": "Escreve um email a um amigo a explicar como chegar a tua casa. Diz que autocarro deve apanhar e onde deve sair.",
+          "promptZh": "给朋友写一封电子邮件，说明怎么到你家。告诉他坐哪路公交车、在哪里下车。",
+          "min": 40,
+          "hint": "Usa «Apanha o autocarro…», «Sai na paragem…» e «A minha casa fica…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fala de uma pessoa da tua família: o nome, a idade e o que ela gosta de fazer.",
+          "promptZh": "谈谈你家里的一位成员：姓名、年龄以及他/她喜欢做什么。",
+          "model": "A minha mãe chama-se Ana, tem quarenta e cinco anos e gosta de cozinhar e de ler."
+        },
+        {
+          "prompt": "Estás na rua. Pergunta onde fica o supermercado mais próximo e se é longe.",
+          "promptZh": "你在街上。询问最近的超市在哪里，以及是否很远。",
+          "model": "Desculpe, onde fica o supermercado mais próximo? É longe daqui?"
+        },
+        {
+          "prompt": "Estás num restaurante. Pede uma sopa, um prato de peixe e uma água.",
+          "promptZh": "你在餐馆。点一份汤、一份鱼和一瓶水。",
+          "model": "Queria uma sopa, um prato de peixe e uma água, se faz favor."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "writing": [
+        {
+          "prompt": "Escreve uma mensagem a um amigo sobre o tempo na tua cidade. Diz como está hoje e o que fazes quando chove.",
+          "promptZh": "给朋友写一条信息，谈谈你所在城市的天气。说说今天天气怎么样，以及下雨时你做什么。",
+          "min": 40,
+          "hint": "Usa «Hoje está…», «Quando chove…» e «fico em casa»."
+        },
+        {
+          "prompt": "Descreve o teu sábado perfeito na cidade. Diz onde vais, com quem e o que comes.",
+          "promptZh": "描述你在城市里完美的星期六。说说你去哪里、和谁一起以及吃什么。",
+          "min": 40,
+          "hint": "Usa «De manhã vou…», «Depois…» e «Ao almoço como…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Como está o tempo hoje? Diz também que roupa usas.",
+          "promptZh": "今天天气怎么样？也说说你穿什么衣服。",
+          "model": "Hoje está frio e há vento. Uso um casaco, um cachecol e botas."
+        },
+        {
+          "prompt": "O que fazes num dia de sol? Fala de duas atividades.",
+          "promptZh": "晴天你做什么？说两项活动。",
+          "model": "Num dia de sol vou à praia ou passeio no jardim. Depois vou a um café e bebo uma limonada."
+        },
+        {
+          "prompt": "Estás na paragem. Pergunta que autocarro vai para o centro e quando passa o próximo.",
+          "promptZh": "你在公交车站。询问哪路公交车去市中心，以及下一班什么时候来。",
+          "model": "Desculpe, que autocarro vai para o centro? Quando passa o próximo?"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "writing": [
+        {
+          "prompt": "Escreve um email a uma loja. Diz que compraste uma camisola no tamanho errado e pergunta se podes trocá-la.",
+          "promptZh": "给一家商店写一封电子邮件。说你买了一件尺码不对的毛衣，并询问是否可以更换。",
+          "min": 40,
+          "hint": "Usa «Comprei…», «O tamanho está errado» e «Posso trocar…?»."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um amigo a dizer o que há no teu frigorífico e o que vais cozinhar hoje.",
+          "promptZh": "给朋友写一条信息，说说你冰箱里有什么，以及你今天要做什么吃的。",
+          "min": 40,
+          "hint": "Usa «No frigorífico há…» e «Hoje vou cozinhar…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás numa loja. Pede para experimentar um casaco e pergunta se há um tamanho maior.",
+          "promptZh": "你在商店里。请求试穿一件外套，并问有没有大一号的。",
+          "model": "Boa tarde. Posso experimentar este casaco? Tem um tamanho maior?"
+        },
+        {
+          "prompt": "Descreve a sala da tua casa. Diz onde estão o sofá e a televisão.",
+          "promptZh": "描述你的客厅。说说沙发和电视在哪里。",
+          "model": "A minha sala tem um sofá grande e uma televisão. O sofá está à frente da televisão e há uma janela ao lado."
+        },
+        {
+          "prompt": "Explica como preparar uma sandes simples. Diz o que usas e os passos.",
+          "promptZh": "说明如何做一个简单的三明治。说说你用什么和步骤。",
+          "model": "Corto o pão e ponho manteiga. Depois ponho queijo e tomate e fecho a sandes."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "writing": [
+        {
+          "prompt": "Escreve um email a um amigo que vai visitar a tua cidade. Diz como chegar ao centro e qual é um bom lugar para visitar. Fala também do tempo.",
+          "promptZh": "给一位将要游览你所在城市的朋友写一封电子邮件。告诉他怎么到市中心、哪个地方值得参观，也谈谈天气。",
+          "min": 40,
+          "hint": "Usa «Apanha o metro…», «Visita…» e «Está…»."
+        },
+        {
+          "prompt": "Descreve o teu lugar favorito na tua cidade e diz o que fazes lá.",
+          "promptZh": "描述你在这座城市里最喜欢的地方，并说说你在那里做什么。",
+          "min": 40,
+          "hint": "Diz onde é, como vais lá e o que vês."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás perto de casa. Dá indicações a um turista para chegar à farmácia.",
+          "promptZh": "你在家附近。给一位游客指路去药店。",
+          "model": "Siga em frente e vire à direita na segunda rua. A farmácia fica ao lado do café."
+        },
+        {
+          "prompt": "Um turista pergunta onde pode comer comida portuguesa. Diz um restaurante e o que deve pedir.",
+          "promptZh": "一位游客问哪里可以吃到葡萄牙菜。说一家餐馆以及他应该点什么。",
+          "model": "Pode comer bacalhau no restaurante «O Manel». É perto da praça e a comida é muito boa."
+        },
+        {
+          "prompt": "Na tua cidade, fala de três coisas boas e de uma coisa má.",
+          "promptZh": "谈谈你城市里三个好的方面和一个不好的方面。",
+          "model": "Gosto dos parques, dos cafés e do rio, mas não gosto do barulho."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "writing": [
+        {
+          "prompt": "Escreve uma mensagem ao teu novo vizinho. Dá-lhe as boas-vindas, diz onde fica o supermercado e convida-o para um café.",
+          "promptZh": "给新邻居写一条信息。欢迎他，告诉他超市在哪里，并邀请他喝咖啡。",
+          "min": 40,
+          "hint": "Usa «Bem-vindo ao prédio!», «O supermercado fica…» e «Queres tomar um café?»."
+        },
+        {
+          "prompt": "Preenche uma ficha para a biblioteca. Escreve o teu nome, idade, morada e telefone. Diz também porque queres usar a biblioteca.",
+          "promptZh": "填写一张图书馆的表格。写出你的姓名、年龄、住址和电话号码，并说说你为什么想使用图书馆。",
+          "min": 40,
+          "hint": "Usa «Chamo-me…», «Tenho… anos», «Vivo na rua…» e «Quero…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Apresenta-te e diz onde vives, o que fazes e o que gostas de fazer depois do trabalho ou da escola.",
+          "promptZh": "介绍你自己，说说你住在哪里、你做什么，以及下班或放学后喜欢做什么。",
+          "model": "Chamo-me Pedro, vivo no Porto e sou estudante. Depois das aulas gosto de jogar futebol com os amigos."
+        },
+        {
+          "prompt": "Convida um amigo para tomar um café. Diz o dia, a hora e o sítio.",
+          "promptZh": "邀请朋友喝咖啡。说出日期、时间和地点。",
+          "model": "Queres tomar um café comigo na sexta-feira, às cinco, no café perto da praça?"
+        },
+        {
+          "prompt": "Fala do que fazes depois do jantar e a que horas te deitas.",
+          "promptZh": "谈谈你晚饭后做什么，以及几点睡觉。",
+          "model": "Depois do jantar vejo um pouco de televisão ou leio. Deito-me às onze horas."
+        }
+      ]
+    }
+  ]
+}

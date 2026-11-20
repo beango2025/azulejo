@@ -84,9 +84,9 @@ function a2Page() {
 <div class="wrap">
   <section class="hero">
     <span class="eyebrow">A2 · CIPLE · MOCK EXAMS</span>
-    <h1>A2 CIPLE 葡萄牙语模拟考试：两套完整演练</h1>
-    <p class="lede">面向在葡萄牙生活、申请国籍或准备 A2 语言证明的中文学习者。75 分钟完整模拟：阅读、听力、写作、口语；计时、交卷、分项成绩和逐题解释。</p>
-    <div class="meta"><span class="pill">2 套完整模拟</span><span class="pill">75 分钟 / 套</span><span class="pill">阅读 + 听力 + 写作 + 口语</span><span class="pill">中文解释</span></div>
+    <h1>A2 CIPLE 葡萄牙语模拟考试：10 套完整演练</h1>
+    <p class="lede">面向在葡萄牙生活、申请国籍或准备 A2 语言证明的中文学习者。10 套 A2 完整模拟，每套 75 分钟：阅读、听力、写作、口语；计时、交卷、分项成绩和逐题解释。Azulejo Pro 还包含 A1–C2 每级 10 套，共 60 套。</p>
+    <div class="meta"><span class="pill">10 套 A2</span><span class="pill">全级别 60 套</span><span class="pill">75 分钟 / 套</span><span class="pill">阅读 + 听力 + 写作 + 口语</span><span class="pill">中文解释</span></div>
     <div class="actions"><a class="btn btn-gold" href="${BASE}/#/pro">查看 Azulejo Pro</a><a class="btn btn-secondary" href="${BASE}/#/learn">先试学 A1–A2</a></div>
     <div class="notice">独立备考产品，不是 CAPLE 官方考试，也不发放官方证书。具体考试要求以官方最新信息为准。</div>
   </section>
@@ -113,15 +113,15 @@ function a2Page() {
   <section class="section faq">
     <div class="section-head"><div><span class="eyebrow">FAQ</span><h2>常见问题</h2></div></div>
     <details><summary>这是官方 CAPLE 考试吗？</summary><p>不是。这是独立制作的模拟考试，用于练习节奏和题型；不发放官方证书，也不代表 CAPLE 认可。</p></details>
-    <details><summary>价格包含什么？</summary><p>两套完整模拟、计时与成绩报告、错题解释、口语示范答案；未来新增模拟卷更新。</p></details>
+    <details><summary>价格包含什么？</summary><p>Azulejo Pro 含 A1–C2 每级 10 套，共 60 套完整模拟、计时与成绩报告、错题解释、口语示范答案。</p></details>
     <details><summary>买了怎么用？</summary><p>付款后会收到离线许可证。打开 A2 模考页，把许可证粘贴到 Licença 即可解锁。</p></details>
     <details><summary>有口语评分吗？</summary><p>当前版本提供口语题、录音入口和示范答案；成绩报告中的口语部分为自评。人工批改可作为单独服务。</p></details>
   </section>
   <div class="cta-band"><div><span class="eyebrow">AZULEJO PRO</span><h2>先做一套，再决定。</h2><p>两套 A2 模拟 · 一次购买 · 离线许可证</p></div><a class="btn btn-gold" href="${BASE}/#/pro">Começar agora</a></div>
 </div>`;
   return layout({
-    title: 'A2 CIPLE 葡萄牙语模拟考试 | Azulejo',
-    description: '两套 75 分钟 A2 CIPLE 模拟考试：阅读、听力、写作、口语，计时、成绩报告和中文解释。适合准备葡萄牙 A2 语言证明的中文学习者。',
+    title: 'A2 CIPLE 葡萄牙语模拟考试：10 套完整模拟 | Azulejo',
+    description: '10 套 75 分钟 A2 CIPLE 模拟考试：阅读、听力、写作、口语，计时、成绩报告和中文解释。Azulejo Pro 含 A1–C2 每级 10 套，共 60 套。适合准备葡萄牙 A2 语言证明的中文学习者。',
     pathName: '/seo/a2-ciple/',
     body,
     image: 'screenshots/exam.png',
@@ -129,7 +129,7 @@ function a2Page() {
       '@context': 'https://schema.org',
       '@type': 'Course',
       name: 'Azulejo A2 CIPLE Mock Exams',
-      description: 'Two full A2 CIPLE mock exams with reading, listening, writing and speaking sections, timer and score report.',
+      description: 'Ten full A2 CIPLE mock exams, plus A1–C2 mock exams, with reading, listening, writing and speaking sections, timer and score report.',
       provider: { '@type': 'Organization', name: 'Azulejo' },
       inLanguage: 'pt-PT',
       offers: { '@type': 'Offer', price: '39', priceCurrency: 'EUR', availability: 'https://schema.org/InStock', url: `${BASE}/#/pro` }

@@ -1,0 +1,345 @@
+{
+  "level": "B2",
+  "exams": [
+    {
+      "n": 1,
+      "writing": [
+        {
+          "prompt": "Hoje em dia, muitos trabalhadores sentem-se obrigados a responder a mensagens de trabalho fora do horário. Escreva um texto argumentativo sobre o direito a desligar, apresentando uma posição clara e exemplos concretos.",
+          "promptZh": "如今，许多员工觉得不得不在下班后回复工作消息。请写一篇议论文，论述「断网权」，提出明确立场并给出具体例子。",
+          "min": 100,
+          "hint": "Introduza o tema e a sua tese; apresente dois argumentos com exemplos; conclua com uma proposta prática."
+        },
+        {
+          "prompt": "A sua empresa vai testar a semana de quatro dias. Escreva um e-mail formal à direção a propor um plano de avaliação do projeto, indicando os indicadores que devem ser medidos e o período de teste.",
+          "promptZh": "你的公司将试行四天工作周。请给管理层写一封正式邮件，提出评估该项目的方案，说明应衡量的指标以及试行期限。",
+          "min": 100,
+          "hint": "Use «Exmos. Senhores» e um tom profissional; descreva o plano em parágrafos curtos; termine com um pedido de resposta."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Acha que o teletrabalho deve ser um direito dos trabalhadores ou uma escolha da empresa? Justifique a sua opinião.",
+          "promptZh": "你认为远程办公应是员工的权利，还是公司的选择？请说明理由。",
+          "model": "Na minha opinião, o teletrabalho deve ser um direito sempre que a função o permita, porque poupa horas de deslocação e ajuda a conciliar a vida familiar. Dito isto, aceito que haja tarefas, como o atendimento ao público, que exigem presença física."
+        },
+        {
+          "prompt": "Descreva uma situação em que o excesso de trabalho prejudicou alguém que conhece. O que poderia ter sido feito de outra forma?",
+          "promptZh": "请描述一个你认识的人因过度工作而受损的情况。本可以怎样做才不同？",
+          "model": "Conheço uma pessoa que passou meses a responder a e-mails até à meia-noite e acabou de baixa por exaustão. Se a empresa tivesse definido horários claros e distribuído melhor o trabalho, provavelmente teria evitado esse desfecho."
+        },
+        {
+          "prompt": "Um colega seu trabalha até tarde todos os dias e recusa ajuda. O que lhe diria e porquê?",
+          "promptZh": "一位同事每天工作到很晚且拒绝帮助。你会对他说什么？为什么？",
+          "model": "Começaria por lhe dizer, em privado, que me preocupo com o seu cansaço e que ninguém o vai julgar por pedir ajuda. Depois sugeriria que falássemos juntos com o responsável, para dividir as tarefas de forma mais justa."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "writing": [
+        {
+          "prompt": "Muitos supermercados continuam a vender fruta e legumes embalados em plástico. Escreva um texto argumentativo a defender que os comerciantes devem ser obrigados a reduzir essas embalagens.",
+          "promptZh": "许多超市仍在用塑料包装水果和蔬菜。请写一篇议论文，主张商家应被强制减少这类包装。",
+          "min": 100,
+          "hint": "Comece pela sua posição; refute o argumento dos custos; proponha uma medida concreta para os supermercados."
+        },
+        {
+          "prompt": "Escreva uma carta formal à Câmara Municipal da sua cidade a propor a criação de um centro de reparação de objetos, onde os residentes possam arranjar aparelhos em vez de os deitar fora. Explique os benefícios ambientais e os custos esperados.",
+          "promptZh": "请给你所在城市的市政厅写一封正式信函，提议设立一个物品维修中心，让居民修理电器而不是直接丢弃，并说明环境效益和预计成本。",
+          "min": 100,
+          "hint": "Identifique-se e explique o objetivo da carta; apresente benefícios e custos estimados; peça uma reunião."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "É a favor de proibir os copos e as embalagens de plástico de uso único nos cafés? Porquê?",
+          "promptZh": "你赞成在咖啡馆禁用一次性塑料杯和包装吗？为什么？",
+          "model": "Sou a favor de proibir os plásticos de uso único nos cafés, porque a maioria vai parar ao mar depois de poucos minutos de uso. Claro que seria preciso apoiar os pequenos negócios na compra de alternativas reutilizáveis."
+        },
+        {
+          "prompt": "Descreva um problema ambiental no seu bairro e explique as suas causas.",
+          "promptZh": "请描述你所在街区的一个环境问题，并解释其原因。",
+          "model": "No meu bairro há um terreno abandonado que se transformou num depósito de entulho e atrai ratos. A causa é simples: o município nunca colocou contentores suficientes, por isso as pessoas deixam tudo no chão."
+        },
+        {
+          "prompt": "Um amigo quer apanhar um voo barato para um fim de semana, apesar do custo ambiental. O que lhe diz?",
+          "promptZh": "一位朋友不顾环境代价，想坐廉价航班去度周末。你会对他说什么？",
+          "model": "Dir-lhe-ia que compreendo a vontade de viajar barato, mas que um voo de fim de semana tem um custo ambiental enorme. Propunha-lhe uma alternativa de comboio, que também é uma experiência diferente e mais relaxada."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "writing": [
+        {
+          "prompt": "Para muitos jovens, as redes sociais são a única fonte de notícias. Escreva um texto argumentativo sobre os riscos de se informar apenas por estas plataformas.",
+          "promptZh": "对许多年轻人来说，社交媒体是唯一的新闻来源。请写一篇议论文，论述仅通过这些平台获取信息的风险。",
+          "min": 100,
+          "hint": "Apresente a sua tese; dê dois exemplos de riscos; sugira uma forma de verificar a informação."
+        },
+        {
+          "prompt": "A direção da sua escola ou empresa quer melhorar a forma como as pessoas avaliam a informação que recebem. Escreva um e-mail formal a propor uma formação sobre literacia mediática, explicando porque é necessária e como poderia ser organizada.",
+          "promptZh": "你所在学校或公司的管理层希望改善人们评估所获信息的方式。请写一封正式邮件，提议开展媒体素养培训，说明其必要性以及组织方式。",
+          "min": 100,
+          "hint": "Explique o problema com um exemplo; descreva a formação proposta; indique o público e a duração."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Como se distingue uma notícia falsa de uma notícia verdadeira? Dê exemplos concretos.",
+          "promptZh": "如何区分假新闻和真实新闻？请举具体例子。",
+          "model": "Antes de partilhar uma notícia, procuro a fonte original e comparo com pelo menos dois órgãos de comunicação diferentes. Se o título promete emoções fortes e o texto não apresenta dados, desconfio logo."
+        },
+        {
+          "prompt": "Como se informa no dia a dia? Compare os seus hábitos atuais com os de há dez anos.",
+          "promptZh": "你日常如何获取信息？请将现在的习惯与十年前作比较。",
+          "model": "Informo-me sobretudo pela rádio de manhã e por dois jornais online que assino, porque prefiro pagar por jornalismo a depender de vídeos curtos. Há dez anos, comprava o jornal em papel e só sabia das notícias à noite."
+        },
+        {
+          "prompt": "Um familiar partilhou no grupo da família uma notícia que parece falsa. O que faz?",
+          "promptZh": "一位亲属在家庭群里分享了一条看起来是假的新闻。你会怎么做？",
+          "model": "Em vez de o corrigir em público, responderia no grupo com um link da agência de notícias que desmente a história. Assim evito uma discussão e dou-lhe a oportunidade de apagar a mensagem sem perder a cara."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "writing": [
+        {
+          "prompt": "A inteligência artificial já ajuda a diagnosticar doenças a partir de imagens médicas. Escreva um texto argumentativo sobre se devemos confiar nestes sistemas tanto como nos médicos.",
+          "promptZh": "人工智能已能通过医学影像协助诊断疾病。请写一篇议论文，论述我们是否应像信任医生一样信任这些系统。",
+          "min": 100,
+          "hint": "Tome posição; compare vantagens e limites da tecnologia; termine com uma condição para o seu uso."
+        },
+        {
+          "prompt": "Escreva um e-mail formal a uma universidade a propor um debate público sobre os limites éticos da inteligência artificial na saúde. Explique porque considera o tema urgente e sugira um formato.",
+          "promptZh": "请给一所大学写一封正式邮件，提议就人工智能在医疗中的伦理界限举办一场公开辩论，说明为何认为该议题紧迫，并提出形式建议。",
+          "min": 100,
+          "hint": "Apresente o tema e a urgência; proponha data e formato; peça apoio institucional."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estaria disposto a fazer um teste genético que revelasse o risco de uma doença grave? Porquê?",
+          "promptZh": "你愿意做一项能揭示重病风险的基因检测吗？为什么？",
+          "model": "Não sei se faria o teste, porque descobrir um risco alto de uma doença incurável pode causar mais ansiedade do que benefício. Só o faria se houvesse uma forma concreta de prevenção ou tratamento."
+        },
+        {
+          "prompt": "Descreva uma tecnologia que mudou a vida de pessoas que conhece.",
+          "promptZh": "请描述一项改变了你认识的人生活的技术。",
+          "model": "A minha avó vive sozinha e aprendeu a fazer videochamadas, o que mudou completamente a forma como falamos. Antes passávamos semanas sem nos ver; agora falamos quase todos os dias."
+        },
+        {
+          "prompt": "Um amigo quer instalar uma aplicação que recolhe dados de saúde. O que lhe aconselha?",
+          "promptZh": "一位朋友想安装一款收集健康数据的应用。你会给他什么建议？",
+          "model": "Aconselhá-lo-ia a ler a política de privacidade e a verificar quem tem acesso aos dados. Se a aplicação não explica para que servem as informações, o risco não compensa a comodidade."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "writing": [
+        {
+          "prompt": "Em vários países discute-se a possibilidade de baixar a idade de voto para os dezasseis anos. Escreva um texto argumentativo sobre esta proposta, defendendo uma posição clara.",
+          "promptZh": "多个国家正在讨论将投票年龄降至十六岁的可能性。请就此提案写一篇议论文，明确表达你的立场。",
+          "min": 100,
+          "hint": "Defenda uma posição clara; use argumentos sobre maturidade e participação; antecipe uma objeção."
+        },
+        {
+          "prompt": "Escreva uma carta formal à Junta de Freguesia a propor a criação de um conselho juvenil, que dê voz aos jovens nas decisões locais. Explique como funcionaria e que problemas resolveria.",
+          "promptZh": "请给教区委员会写一封正式信函，提议设立青年委员会，让年轻人在地方决策中有发言权，并说明其运作方式和能解决的问题。",
+          "min": 100,
+          "hint": "Explique a proposta e o seu funcionamento; refira dois problemas que resolveria; peça uma resposta."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Porque é que muitos jovens se abstêm de votar e o que poderia mudar essa situação?",
+          "promptZh": "为什么许多年轻人放弃投票？什么能改变这一状况？",
+          "model": "Acho que muitos jovens não votam porque sentem que os partidos não falam dos seus problemas, como a habitação e o primeiro emprego. Se houvesse mais educação cívica e debates nas escolas, talvez a participação aumentasse."
+        },
+        {
+          "prompt": "Descreva um debate ou uma assembleia a que assistiu. Mudou a sua opinião?",
+          "promptZh": "请描述你旁听过的一场辩论或会议。它改变了你的看法吗？",
+          "model": "Assisti a uma assembleia de freguesia sobre o fecho de uma rua e saí com uma opinião diferente da que tinha. Percebi que os comerciantes tinham medos legítimos que eu não tinha considerado."
+        },
+        {
+          "prompt": "Um amigo diz que votar não muda nada. Como lhe responde?",
+          "promptZh": "一位朋友说投票毫无作用。你会如何回应？",
+          "model": "Responder-lhe-ia que compreendo a frustração, mas que a abstenção dá ainda mais poder a quem já está no poder. Mesmo um só voto pode decidir uma câmara ou uma lei."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "writing": [
+        {
+          "prompt": "Algumas cidades gastam milhões a restaurar monumentos enquanto os teatros de bairro fecham por falta de apoio. Escreva um texto argumentativo sobre o que deve ser prioritário no investimento cultural.",
+          "promptZh": "一些城市花费数百万修复古迹，而社区剧院却因缺乏支持而关闭。请写一篇议论文，论述文化投资应优先考虑什么。",
+          "min": 100,
+          "hint": "Compare as duas prioridades; use um exemplo concreto; conclua com um critério de decisão."
+        },
+        {
+          "prompt": "Escreva uma carta formal ao pelouro da cultura da sua câmara municipal a pedir apoio para um festival de bairro. Descreva o programa, o público esperado e o orçamento previsto.",
+          "promptZh": "请给你所在市政厅的文化部门写一封正式信函，为一个社区节庆申请支持，说明活动安排、预期观众和预算。",
+          "min": 100,
+          "hint": "Descreva o evento e o público; apresente o orçamento em linhas gerais; solicite apoio e uma reunião."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Que tradição portuguesa devia ser mais valorizada? Porquê?",
+          "promptZh": "哪一项葡萄牙传统应得到更多重视？为什么？",
+          "model": "Gostaria que o fado e o cante alentejano fossem ensinados nas escolas, porque muitos jovens conhecem-nos apenas como cartão-postal para turistas. Se fossem vividos nas aulas, talvez ganhassem novos intérpretes."
+        },
+        {
+          "prompt": "Descreva uma visita a um museu ou monumento que o marcou.",
+          "promptZh": "请描述一次令你印象深刻的博物馆或古迹参观。",
+          "model": "Visitei o Mosteiro dos Jerónimos numa manhã de inverno, quase vazio, e foi uma experiência completamente diferente. Sem multidões, consegui reparar nos detalhes da pedra e imaginar quem ali tinha trabalhado."
+        },
+        {
+          "prompt": "Um amigo afirma que a arte de rua é apenas vandalismo. Concorda? Responda-lhe.",
+          "promptZh": "一位朋友声称街头艺术只是破坏公物。你同意吗？请回应他。",
+          "model": "Discordo em parte: distingo uma parede autorizada, com uma obra pensada, de um rabisco numa casa particular. A arte urbana pode valorizar um bairro, mas precisa de regras e de respeito por quem lá vive."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "writing": [
+        {
+          "prompt": "Algumas escolas proibiram os telemóveis durante todo o dia, outras incentivam o seu uso pedagógico. Escreva um texto argumentativo sobre o papel do telemóvel na escola.",
+          "promptZh": "一些学校全天禁止手机，另一些则鼓励将其用于教学。请写一篇议论文，论述手机在学校的角色。",
+          "min": 100,
+          "hint": "Apresente as duas posições; defenda a sua com um exemplo escolar; proponha regras claras."
+        },
+        {
+          "prompt": "Os alunos da sua escola começaram a usar ferramentas de inteligência artificial nos trabalhos de casa. Escreva um e-mail formal à direção a propor regras claras para esse uso, justificando as suas sugestões.",
+          "promptZh": "你学校的学生开始在家作业中使用人工智能工具。请给校方写一封正式邮件，提议为这类使用制定明确规则，并说明理由。",
+          "min": 100,
+          "hint": "Explique a necessidade das regras; proponha três orientações práticas; peça uma resposta da direção."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Os alunos devem poder usar inteligência artificial para preparar trabalhos? Justifique.",
+          "promptZh": "学生应被允许使用人工智能准备作业吗？请说明理由。",
+          "model": "Acho que os alunos podem usar a inteligência artificial para planear e corrigir um texto, desde que declarem o que usaram. O problema não é a ferramenta, é entregar um trabalho que não é nosso."
+        },
+        {
+          "prompt": "Descreva a melhor aula ou o melhor professor que teve. Porque funcionou?",
+          "promptZh": "请描述你上过的最好的一堂课或遇到的最好的一位老师。为什么它有效？",
+          "model": "A melhor aula que tive foi de História, porque o professor nos fazia discutir documentos em vez de decorar datas. Saí de lá a perceber que a história é feita de escolhas e não de nomes."
+        },
+        {
+          "prompt": "Um colega entrega um trabalho gerado por uma máquina e diz que é dele. O que lhe diz?",
+          "promptZh": "一位同学提交了机器生成的作业并声称是自己的。你会对他说什么？",
+          "model": "Dir-lhe-ia que compreendo a pressão, mas que entregar um trabalho gerado por uma máquina é arriscado e injusto para os colegas. Oferecia-me para o ajudar a organizar as ideias dele, sem fazer o trabalho por ele."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "writing": [
+        {
+          "prompt": "Nas grandes cidades, o preço das casas tornou quase impossível viver perto do trabalho. Escreva um texto argumentativo sobre as medidas que o Estado deveria tomar para responder a este problema.",
+          "promptZh": "在大城市，房价使人们几乎无法住在工作地点附近。请写一篇议论文，论述国家应采取哪些措施来应对这一问题。",
+          "min": 100,
+          "hint": "Diagnostique o problema; proponha duas medidas concretas; responda a quem teme o custo."
+        },
+        {
+          "prompt": "Escreva um e-mail formal à Câmara Municipal a propor o encerramento de uma rua ao trânsito automóvel, para criar uma zona pedonal. Apresente as vantagens e responda às preocupações dos comerciantes.",
+          "promptZh": "请给市政厅写一封正式邮件，提议将一条街道对汽车封闭，以打造步行区，说明其优势并回应商家的顾虑。",
+          "min": 100,
+          "hint": "Localize a rua e o objetivo; apresente vantagens e preocupações dos comerciantes; peça uma reunião."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Acha que as cidades deviam ter mais ruas sem carros? Porquê?",
+          "promptZh": "你认为城市应有更多无车街道吗？为什么？",
+          "model": "Sou a favor de mais ruas sem carros, sobretudo nos centros históricos, porque o ar melhora e o comércio local ganha espaço para esplanadas. O importante é garantir transportes públicos fiáveis antes de retirar os carros."
+        },
+        {
+          "prompt": "Descreva a sua deslocação diária e sugira uma melhoria concreta.",
+          "promptZh": "请描述你每天的通勤，并提出一项具体改进建议。",
+          "model": "Demoro quarenta minutos de autocarro até ao trabalho e, na hora de ponta, os veículos vão cheios e atrasam-se. Se houvesse corredores dedicados, o trajeto seria muito mais previsível."
+        },
+        {
+          "prompt": "Um amigo quer comprar um carro. Apresente-lhe os argumentos a favor do transporte público.",
+          "promptZh": "一位朋友想买车。请向他说明支持公共交通的理由。",
+          "model": "Sugerir-lhe-ia fazer as contas ao custo real do carro: seguro, combustível, estacionamento e revisões. Muitas vezes, um passe mensal e um serviço de aluguer ocasional saem mais baratos."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "writing": [
+        {
+          "prompt": "A moda rápida permite comprar roupa muito barata, mas tem custos humanos e ambientais. Escreva um texto argumentativo sobre a responsabilidade dos consumidores e das marcas.",
+          "promptZh": "快时尚让人们能买到非常便宜的衣服，却带来人权和环境成本。请写一篇议论文，论述消费者和品牌各自的责任。",
+          "min": 100,
+          "hint": "Distribua responsabilidades; use dados ou exemplos; termine com uma proposta para o consumidor."
+        },
+        {
+          "prompt": "Escreva uma carta formal a uma empresa de brinquedos a contestar uma campanha publicitária dirigida a crianças. Explique as suas razões e o que espera da empresa.",
+          "promptZh": "请给一家玩具公司写一封正式信函，抗议其针对儿童的广告宣传活动，说明你的理由以及你对公司的期望。",
+          "min": 100,
+          "hint": "Descreva a campanha e o público visado; explique a sua objeção; indique o que espera da empresa."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "A publicidade dirigida a crianças devia ser proibida? Justifique.",
+          "promptZh": "针对儿童的广告应被禁止吗？请说明理由。",
+          "model": "Sou a favor de proibir a publicidade dirigida a crianças, porque elas ainda não distinguem um anúncio de uma opinião. Um brinquedo apresentado como essencial cria desejos que os pais não conseguem recusar sem conflito."
+        },
+        {
+          "prompt": "Descreva uma compra de que se arrependeu. O que aprendeu com ela?",
+          "promptZh": "请描述一次你后悔的购物。你从中学到了什么？",
+          "model": "Comprei um casaco barato numa promoção e, ao fim de duas lavagens, estava deformado. Aprendi que, muitas vezes, o preço baixo esconde condições de trabalho e materiais que não duram."
+        },
+        {
+          "prompt": "Uma amiga compra roupa nova e barata todos os meses. O que lhe diz?",
+          "promptZh": "一位女性朋友每月都买新的便宜衣服。你会对她说什么？",
+          "model": "Não a julgaria, mas perguntaria quanto tempo cada peça lhe dura. Se ela compra cinco peças por mês, talvez gastasse menos a comprar duas de melhor qualidade e a trocar roupa com amigas."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "writing": [
+        {
+          "prompt": "As alterações climáticas já obrigam milhões de pessoas a abandonar as suas casas. Escreva um texto argumentativo sobre a responsabilidade dos países ricos nesta situação.",
+          "promptZh": "气候变化已迫使数百万人离开家园。请写一篇议论文，论述富裕国家在这一局势中的责任。",
+          "min": 100,
+          "hint": "Defenda a sua tese; refira responsabilidades históricas; proponha uma medida de apoio."
+        },
+        {
+          "prompt": "Escreva uma carta formal ao diretor de um jornal sobre o aumento do custo de vida e o seu impacto nos jovens. Apresente o problema, dê um exemplo concreto e proponha uma medida.",
+          "promptZh": "请给一家报纸的主编写一封正式信函，论述生活成本上涨及其对年轻人的影响，说明问题、举出具体例子并提出一项措施。",
+          "min": 100,
+          "hint": "Apresente o problema com um exemplo pessoal; explique o impacto nos jovens; proponha uma medida concreta."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Os países europeus deviam acolher mais pessoas deslocadas pelas alterações climáticas? Justifique.",
+          "promptZh": "欧洲国家应接收更多因气候变化而流离失所的人吗？请说明理由。",
+          "model": "Acho que os países europeus deviam criar um estatuto de proteção para quem foge de secas e inundações, porque já não se trata de uma escolha. Portugal, com a sua experiência de emigração, tem legitimidade para defender essa ideia."
+        },
+        {
+          "prompt": "Descreva uma notícia recente que o preocupou e explique porquê.",
+          "promptZh": "请描述一则最近令你担忧的新闻，并解释原因。",
+          "model": "Fiquei preocupado com as notícias sobre a subida do preço da energia, porque sei que muitas famílias têm de escolher entre aquecer a casa e pagar a renda. É um problema que se vê pouco nos debates e muito nas contas do mês."
+        },
+        {
+          "prompt": "Um amigo diz que as ações individuais não servem de nada contra as alterações climáticas. Como lhe responde?",
+          "promptZh": "一位朋友说个人行动对气候变化毫无用处。你会如何回应？",
+          "model": "Dir-lhe-ia que as ações individuais não resolvem tudo, mas que também não são inúteis: mudam hábitos, criam pressão social e influenciam o mercado. Sem cidadãos exigentes, as políticas climáticas perdem apoio."
+        }
+      ]
+    }
+  ]
+}

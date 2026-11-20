@@ -1,0 +1,345 @@
+{
+  "level": "A2",
+  "exams": [
+    {
+      "n": 1,
+      "writing": [
+        {
+          "prompt": "Escreve um email ao teu chefe a dizer que estás doente e que hoje não podes ir trabalhar. Explica o que tens e quando pensas voltar.",
+          "promptZh": "给你的老板写一封电子邮件，说你生病了，今天不能去上班。说明你的症状以及你打算什么时候回去上班。",
+          "min": 60,
+          "hint": "Começa com «Bom dia» e usa «estou com…» para os sintomas."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um colega a pedir que te substitua numa reunião amanhã de manhã. Diz porque não podes ir e agradece.",
+          "promptZh": "给一位同事写一条消息，请对方代替你参加明天上午的会议。说明你不能去的原因并表示感谢。",
+          "min": 60,
+          "hint": "Usa «Podes substituir-me…?» e «Obrigado/a»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Apresenta-te e fala do teu trabalho: o que fazes, onde trabalhas e a que horas começas.",
+          "promptZh": "介绍你自己并谈谈你的工作：你做什么、在哪里工作、几点开始上班。",
+          "model": "Chamo-me Ana e sou rececionista numa clínica em Lisboa. Trabalho de segunda a sexta e começo às nove."
+        },
+        {
+          "prompt": "Estás atrasado para o trabalho. Telefona ao teu chefe e explica porquê.",
+          "promptZh": "你上班要迟到了。打电话给你的老板并解释原因。",
+          "model": "Bom dia, Sr. Silva. Desculpe, o autocarro atrasou-se e vou chegar uns minutos mais tarde."
+        },
+        {
+          "prompt": "Fala do teu horário diário: a que horas te levantas, quando almoças e a que horas sais do trabalho.",
+          "promptZh": "谈谈你的日常作息：几点起床、什么时候吃午饭、几点下班。",
+          "model": "Levanto-me às sete, almoço à uma e saio do trabalho às seis. Depois janto em casa."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "writing": [
+        {
+          "prompt": "Escreve um email à empresa de autocarros a dizer que o autocarro das oito não passou hoje e a perguntar se há alterações ao horário.",
+          "promptZh": "给公交公司写一封电子邮件，说今天八点的公交车没有来，并询问时刻表是否有变动。",
+          "min": 60,
+          "hint": "Indica a linha, a hora e o que aconteceu."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um amigo a explicar como chegar a tua casa de metro. Diz qual é a estação e quanto tempo se anda a pé.",
+          "promptZh": "给一位朋友写一条消息，说明怎样坐地铁到你家。告诉对方在哪一站下车以及要步行多久。",
+          "min": 60,
+          "hint": "Usa «apanha», «sai» e «segue»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás na estação. Pergunta num balcão onde fica a plataforma para o Porto e a que horas parte o comboio.",
+          "promptZh": "你在火车站。到服务台询问去波尔图的站台在哪里，以及火车几点出发。",
+          "model": "Boa tarde. Pode dizer-me onde fica a plataforma para o Porto? A que horas parte o próximo comboio?"
+        },
+        {
+          "prompt": "Fala dos transportes que usas todos os dias: quais usas, quanto tempo demoras e porque gostas ou não.",
+          "promptZh": "谈谈你每天使用的交通工具：你坐什么、路上要多久，以及你为什么喜欢或不喜欢。",
+          "model": "Todos os dias apanho o metro e depois ando cinco minutos a pé. Demoro meia hora e gosto, porque é rápido."
+        },
+        {
+          "prompt": "Estás perdido. Pede ajuda a um polícia para chegar ao museu.",
+          "promptZh": "你迷路了。向警察求助，问怎样去博物馆。",
+          "model": "Desculpe, acho que estou perdido. Pode dizer-me como chego ao museu?"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "writing": [
+        {
+          "prompt": "Escreve uma mensagem a um amigo a desmarcar o treino de hoje porque estás constipado. Pede desculpa e sugere outro dia.",
+          "promptZh": "给一位朋友写一条消息，因为你感冒了，取消今天的训练。表示歉意并提出改到另一天。",
+          "min": 60,
+          "hint": "Usa «não vou poder», «desculpa» e «podemos treinar…»."
+        },
+        {
+          "prompt": "Escreve um email ao centro de saúde a pedir uma consulta. Diz o que te dói e pergunta quando te podem atender.",
+          "promptZh": "给健康中心写一封电子邮件，预约就诊。说明你哪里疼，并询问什么时候能看上病。",
+          "min": 60,
+          "hint": "Começa com «Bom dia» e usa «dói-me…»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás na farmácia. Diz o que te dói e pede algo para a dor de cabeça.",
+          "promptZh": "你在药房。说明你哪里疼，并要一些治头痛的药。",
+          "model": "Boa tarde. Dói-me muito a cabeça. Tem alguma coisa para a dor de cabeça?"
+        },
+        {
+          "prompt": "Fala do que fazes para te manteres saudável: alimentação, exercício e sono.",
+          "promptZh": "谈谈你为了保持健康所做的：饮食、运动和睡眠。",
+          "model": "Tento comer fruta todos os dias e andar a pé. Durmo sete horas e bebo muita água."
+        },
+        {
+          "prompt": "Marcas uma consulta por telefone. Diz o teu nome, o motivo e as horas a que podes ir.",
+          "promptZh": "你打电话预约看病。说出你的姓名、原因以及你可以去的时间。",
+          "model": "Bom dia, chamo-me Pedro Silva. Queria marcar uma consulta, porque tenho dores nas costas. Posso ir à tarde."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "writing": [
+        {
+          "prompt": "Escreve um email a uma loja online: encomendaste uma camisola, mas chegou rasgada. Pede a troca ou o reembolso.",
+          "promptZh": "给一家网店写一封电子邮件：你订了一件毛衣，但收到时是破的。要求更换或退款。",
+          "min": 60,
+          "hint": "Diz o número da encomenda e o que queres."
+        },
+        {
+          "prompt": "Escreve um email aos correios a perguntar por que razão não recebeste uma encomenda que devia ter chegado na segunda-feira.",
+          "promptZh": "给邮局写一封电子邮件，询问为什么你还没收到一件本应周一到达的包裹。",
+          "min": 60,
+          "hint": "Indica o número da encomenda e a data."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás numa loja de roupa. Pede uma camisa num tamanho diferente e pergunta o preço.",
+          "promptZh": "你在服装店。要一件其他尺码的衬衫，并询问价格。",
+          "model": "Boa tarde. Queria esta camisa em tamanho M. Quanto custa?"
+        },
+        {
+          "prompt": "Levas uma máquina de café avariada à loja. Explica o problema e pergunta se está na garantia.",
+          "promptZh": "你把一台坏了的咖啡机拿到商店。说明问题并询问是否在保修期内。",
+          "model": "Bom dia. Esta máquina deixou de funcionar ontem. Ainda está na garantia?"
+        },
+        {
+          "prompt": "Queres cortar o cabelo. Telefona ao cabeleireiro e marca hora para sábado.",
+          "promptZh": "你想剪头发。打电话给理发店，预约周六的时间。",
+          "model": "Bom dia. Queria marcar corte de cabelo para sábado à tarde. Tem hora livre?"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "writing": [
+        {
+          "prompt": "Escreve uma mensagem a um amigo a contar os teus planos para o fim de semana e a convidá-lo para um passeio no sábado à tarde.",
+          "promptZh": "给一位朋友写一条消息，讲述你周末的计划，并邀请对方周六下午一起散步。",
+          "min": 60,
+          "hint": "Usa «vou…», «queres vir…?» e «às… horas»."
+        },
+        {
+          "prompt": "Escreve um email à tua escola de português a dizer que queres mudar de turma e a explicar porquê.",
+          "promptZh": "给你的葡萄牙语学校写一封电子邮件，说你想换班并解释原因。",
+          "min": 60,
+          "hint": "Diz o teu nome, a turma atual e o motivo."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fala dos teus planos para o próximo verão: onde queres ir, com quem e o que vais fazer.",
+          "promptZh": "谈谈你明年夏天的计划：你想去哪里、和谁一起去、打算做什么。",
+          "model": "No próximo verão quero ir ao Algarve com a minha irmã. Vamos ficar numa casa perto da praia e nadar todos os dias."
+        },
+        {
+          "prompt": "Um amigo convida-te para o cinema esta noite, mas não podes. Explica porquê e sugere outro dia.",
+          "promptZh": "一位朋友邀请你今晚去看电影，但你去不了。解释原因并建议改到另一天。",
+          "model": "Desculpa, hoje não posso, porque tenho de trabalhar até tarde. Podemos ir na quinta-feira?"
+        },
+        {
+          "prompt": "Queres aprender a nadar. Pergunta na piscina municipal que cursos há e quanto custam.",
+          "promptZh": "你想学游泳。在市立游泳池询问有哪些课程以及费用多少。",
+          "model": "Boa tarde. Queria saber que cursos de natação têm para adultos e quanto custam."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "writing": [
+        {
+          "prompt": "Escreve um email ao senhorio: o aquecimento não funciona e a casa está fria. Pede uma reparação.",
+          "promptZh": "给房东写一封电子邮件：暖气坏了，家里很冷。请对方安排维修。",
+          "min": 60,
+          "hint": "Explica o problema, há quanto tempo e o que precisas."
+        },
+        {
+          "prompt": "Escreve uma mensagem ao teu colega de casa a combinar a limpeza e a compra de comida para a semana.",
+          "promptZh": "给你的室友写一条消息，商量这一周的打扫和买菜。",
+          "min": 60,
+          "hint": "Usa «podes limpar…?», «eu compro…» e «fica combinado»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Descreve a tua casa: quantos quartos tem, onde fica e o que mudavas nela.",
+          "promptZh": "描述你的家：有几间卧室、位于哪里，以及你想改变什么。",
+          "model": "Vivo num apartamento pequeno com dois quartos, perto do centro. Mudava a cozinha, porque é muito escura."
+        },
+        {
+          "prompt": "Estás a ver um apartamento para alugar. Faz perguntas ao senhorio sobre o preço, as despesas e a mobília.",
+          "promptZh": "你正在看一套要租的公寓。向房东询问租金、杂费和家具的情况。",
+          "model": "Boa tarde. Qual é o preço por mês? As despesas estão incluídas? E o apartamento tem mobília?"
+        },
+        {
+          "prompt": "Fala do teu bairro: o que há perto de casa e porque gostas de viver lá.",
+          "promptZh": "谈谈你的街区：家附近有什么，以及你为什么喜欢住在那里。",
+          "model": "No meu bairro há um mercado, uma farmácia e um jardim. Gosto de viver aqui porque é calmo e tudo fica perto."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "writing": [
+        {
+          "prompt": "Escreve um email a um colega a convidá-lo para o teu aniversário no sábado. Diz onde é, a que horas e o que devem trazer.",
+          "promptZh": "给一位同事写一封电子邮件，邀请对方参加你周六的生日聚会。说明地点、时间以及大家需要带什么。",
+          "min": 60,
+          "hint": "Usa «convido-te», «vai ser em…» e «traz…»."
+        },
+        {
+          "prompt": "Escreve uma mensagem ao teu grupo de amigos a organizar um jantar de despedida para um amigo que vai viver para o Porto.",
+          "promptZh": "给你的朋友圈写一条消息，为一位即将搬去波尔图的朋友组织一场告别晚餐。",
+          "min": 60,
+          "hint": "Sugere um restaurante, um dia e uma hora."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Apresenta um amigo teu: nome, idade, o que faz e porque gostas dele.",
+          "promptZh": "介绍你的一位朋友：姓名、年龄、职业，以及你为什么喜欢他。",
+          "model": "Este é o Miguel, tem vinte e cinco anos e é professor. Gosto dele porque é simpático e está sempre disponível."
+        },
+        {
+          "prompt": "Alguém te convida para uma festa. Aceita e faz duas perguntas sobre a festa.",
+          "promptZh": "有人邀请你参加聚会。接受邀请，并就聚会问两个问题。",
+          "model": "Muito obrigado, contem comigo! A que horas começa? É preciso levar alguma coisa?"
+        },
+        {
+          "prompt": "Conta uma festa de aniversário recente: onde foi, quem estava e o que comeram.",
+          "promptZh": "讲述最近的一次生日聚会：在哪里举行、有哪些人、吃了什么。",
+          "model": "No mês passado fui à festa da Rita, numa casa perto do rio. Estavam muitos amigos e comemos bolo e sandes."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "writing": [
+        {
+          "prompt": "Escreve um email a um restaurante a reservar uma mesa para quatro pessoas no sábado à noite. Diz que é um aniversário e que uma pessoa não come carne.",
+          "promptZh": "给一家餐馆写一封电子邮件，预订周六晚上四个人的桌子。说明这是生日聚餐，且有一人不吃肉。",
+          "min": 60,
+          "hint": "Indica o dia, a hora e o número de pessoas."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um amigo a explicar como fazer a tua sopa favorita. Diz os ingredientes e os passos.",
+          "promptZh": "给一位朋友写一条消息，说明怎样做你最喜欢的汤。说出食材和步骤。",
+          "min": 60,
+          "hint": "Usa «primeiro», «depois» e o imperativo («corta», «coze»)."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás num restaurante. Pede o menu, uma água e pergunta qual é o prato do dia.",
+          "promptZh": "你在餐馆里。要菜单和一瓶水，并询问今日特餐是什么。",
+          "model": "Boa noite. Pode trazer o menu e uma água, por favor? Qual é o prato do dia?"
+        },
+        {
+          "prompt": "Fala do que gostas de comer ao pequeno-almoço e ao almoço, e do que não gostas.",
+          "promptZh": "谈谈你早餐和午餐喜欢吃什么，以及你不喜欢吃什么。",
+          "model": "Ao pequeno-almoço como pão com queijo e bebo café. Ao almoço gosto de peixe, mas não gosto de sopa."
+        },
+        {
+          "prompt": "Fala de um restaurante de que gostas: onde fica, o que serves e porque gostas dele.",
+          "promptZh": "谈谈一家你喜欢的餐馆：它在哪里、你点什么、为什么喜欢它。",
+          "model": "Gosto muito de uma tasca perto de casa. Sirvem bacalhau muito bom e não é caro. Vou lá com os meus pais."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "writing": [
+        {
+          "prompt": "Escreve um email a um hotel a perguntar se tem quartos livres para três noites em agosto e quanto custa o pequeno-almoço.",
+          "promptZh": "给一家酒店写一封电子邮件，询问八月份是否有空房住三晚，以及早餐多少钱。",
+          "min": 60,
+          "hint": "Indica as datas, o número de pessoas e pergunta o preço."
+        },
+        {
+          "prompt": "Escreve uma mensagem a um amigo a contar o que correu mal na tua viagem: o comboio atrasou-se e perdeste a ligação.",
+          "promptZh": "给一位朋友写一条消息，讲述你旅途中出的问题：火车晚点了，你错过了换乘。",
+          "min": 60,
+          "hint": "Usa o pretérito perfeito: «atrasou-se», «perdi», «cheguei»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Estás no aeroporto. Pergunta onde fica o balcão de check-in do voo para o Porto.",
+          "promptZh": "你在机场。询问飞往波尔图的航班值机柜台在哪里。",
+          "model": "Desculpe, onde fica o balcão de check-in do voo para o Porto?"
+        },
+        {
+          "prompt": "Fala de uma viagem inesquecível: onde foste, com quem e o que visitaste.",
+          "promptZh": "谈谈一次难忘的旅行：你去了哪里、和谁一起、参观了什么。",
+          "model": "Há dois anos fui a Sintra com a minha família. Visitámos o palácio e comemos num restaurante pequeno. Foi um dia lindo."
+        },
+        {
+          "prompt": "Queres alugar um carro por dois dias. Fala com o empregado: pergunta o preço e se o seguro está incluído.",
+          "promptZh": "你想租两天车。和店员交谈：询问价格以及是否包含保险。",
+          "model": "Bom dia. Queria alugar um carro por dois dias. Quanto custa por dia? O seguro está incluído?"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "writing": [
+        {
+          "prompt": "Escreve uma mensagem a um amigo a agradecer a ajuda na semana passada, quando estavas triste. Diz como te sentes agora.",
+          "promptZh": "给一位朋友写一条消息，感谢对方上周在你难过时给予的帮助。说说你现在的感受。",
+          "min": 60,
+          "hint": "Usa «obrigado/a por…», «senti-me…» e «agora estou…»."
+        },
+        {
+          "prompt": "Escreve um email a um amigo que foi viver para o estrangeiro. Diz que tens saudades e pergunta como está a correr.",
+          "promptZh": "给一位移居国外的朋友写一封电子邮件。说你很想念对方，并询问对方近况如何。",
+          "min": 60,
+          "hint": "Usa «tenho saudades tuas» e «como está a correr…?»."
+        }
+      ],
+      "speaking": [
+        {
+          "prompt": "Fala de um dia em que te sentiste muito feliz. Onde estavas, com quem e porquê.",
+          "promptZh": "谈谈你感到非常开心的一天。你在哪里、和谁在一起、为什么开心。",
+          "model": "Senti-me muito feliz no dia do casamento da minha irmã. Estava toda a família e foi uma festa simples."
+        },
+        {
+          "prompt": "Um amigo está nervoso por causa de um exame. Dá-lhe conselhos e tranquiliza-o.",
+          "promptZh": "一位朋友因为考试很紧张。给他一些建议并安慰他。",
+          "model": "Não te preocupes, vai correr bem. Estuda um pouco todos os dias e dorme bem antes do exame."
+        },
+        {
+          "prompt": "Fala de como te sentes quando chove há muitos dias e do que fazes para melhorar o humor.",
+          "promptZh": "谈谈连续下雨多日时你的感受，以及你会做什么来改善心情。",
+          "model": "Quando chove muitos dias, fico um pouco triste e sem energia. Costumo ler ou telefonar a um amigo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.5.0 — 2026-11-20
+
+- Expanded the mock-exam bank from 2 to **60 exams: 10 per CEFR level (A1, A2, B1, B2, C1, C2)**.
+- Added level tabs to Azulejo Pro; each level shows its 10 exams.
+- Added 300 level-specific writing/speaking prompts with Chinese translations.
+- Updated the A2 SEO landing page to 10 A2 mocks / 60 total.
+- Bumped the service worker cache to `azulejo-v3.5.0`.
+
 ## 3.4.0 — 2026-11-20
 
 - Added a static, crawlable SEO layer: 1 A2 CIPLE landing page, a culture hub with 10 categories and 100 article pages, and a phrase hub with 20 scene pages.
