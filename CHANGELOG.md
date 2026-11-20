@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.2 — 2026-11-20
+
+- Replaced the Porto/Coimbra photos with Lisbon-only subjects: Bertrand Chiado, Parque das Nações, Assembleia da República, Torre de Belém and Praça do Comércio.
+- Replaced the generic custard-tart photo with Pastéis de Belém.
+- All 11 reading photos are now Lisbon or Lisbon-area and thematically distinct.
+- Bumped the service worker cache to `azulejo-v2.1.2`.
+
 ## 2.1.1 — 2026-11-19
 
 - Listening speed is now a slider; changing it while playing restarts at the new speed instead of pausing silently.

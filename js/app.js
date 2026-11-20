@@ -11,7 +11,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '2.1.1';
+  const APP_VERSION = '2.1.2';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -1269,17 +1269,17 @@
   }
 
   const READING_PHOTOS = {
-    cafe: { src: 'assets/photos/cafe.jpg', alt: 'Pastéis de nata numa pastelaria portuguesa', credit: 'Claude Truong-Ngoc · CC BY-SA 3.0' },
+    cafe: { src: 'assets/photos/cafe.jpg', alt: 'Pastéis de Belém em Lisboa', credit: 'Yusuke Kawasaki · CC BY 2.0' },
     market: { src: 'assets/photos/market.jpg', alt: 'Mercado da Ribeira em Lisboa', credit: 'Simon Burchell · CC BY-SA 4.0' },
     clinic: { src: 'assets/photos/pharmacy.jpg', alt: 'Museu da Farmácia em Lisboa', credit: 'Jorge Franganillo · CC BY 2.0' },
-    office: { src: 'assets/photos/coimbra.jpg', alt: 'Universidade de Coimbra', credit: 'Alvesgaspar · CC BY-SA 3.0' },
-    meeting: { src: 'assets/photos/coimbra.jpg', alt: 'Universidade de Coimbra', credit: 'Alvesgaspar · CC BY-SA 3.0' },
-    bookshop: { src: 'assets/photos/bookshop.jpg', alt: 'Livraria Lello no Porto', credit: 'Birte Fritsch · CC BY 2.0' },
+    office: { src: 'assets/photos/office.jpg', alt: 'Parque das Nações, zona de escritórios em Lisboa', credit: 'Jules Verne Times Two · CC BY-SA 4.0' },
+    meeting: { src: 'assets/photos/meeting.jpg', alt: 'Assembleia da República em Lisboa', credit: 'MarcoMileu · CC BY-SA 3.0' },
+    bookshop: { src: 'assets/photos/bookshop.jpg', alt: 'Livraria Bertrand no Chiado, Lisboa', credit: 'Hugo Ferreira · CC BY-SA 4.0' },
     station: { src: 'assets/photos/tram.jpg', alt: 'Elétrico 28 em Lisboa', credit: 'Jules Verne Times Two · CC BY-SA 4.0' },
-    coast: { src: 'assets/photos/ribeira.jpg', alt: 'Ribeira do Porto e o rio Douro', credit: 'Jakub Hałun · CC BY 4.0' },
+    coast: { src: 'assets/photos/coast.jpg', alt: 'Torre de Belém e o Tejo, Lisboa', credit: 'Alvesgaspar · CC BY-SA 3.0' },
     culture: { src: 'assets/photos/fado.jpg', alt: 'Fado numa casa de fados em Lisboa', credit: 'Vernaccia · CC BY 2.0' },
     home: { src: 'assets/photos/azulejo.jpg', alt: 'Fachada com azulejos em Lisboa', credit: 'NorbertNagel · CC BY-SA 4.0' },
-    studio: { src: 'assets/photos/ribeira.jpg', alt: 'Ribeira do Porto e o rio Douro', credit: 'Jakub Hałun · CC BY 4.0' }
+    studio: { src: 'assets/photos/studio.jpg', alt: 'Praça do Comércio em Lisboa', credit: 'Berthold Werner · CC BY-SA 4.0' }
   };
 
   function readingPhoto(scene) {

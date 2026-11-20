@@ -1,5 +1,5 @@
 /* Azulejo service worker — offline-first after the first visit. */
-const CACHE = 'azulejo-v2.1.1';
+const CACHE = 'azulejo-v2.1.2';
 const CORE = [
   './',
   './index.html',
@@ -19,11 +19,13 @@ const CORE = [
   './assets/photos/azulejo.jpg',
   './assets/photos/bookshop.jpg',
   './assets/photos/cafe.jpg',
-  './assets/photos/coimbra.jpg',
+  './assets/photos/coast.jpg',
   './assets/photos/fado.jpg',
   './assets/photos/market.jpg',
+  './assets/photos/meeting.jpg',
+  './assets/photos/office.jpg',
   './assets/photos/pharmacy.jpg',
-  './assets/photos/ribeira.jpg',
+  './assets/photos/studio.jpg',
   './assets/photos/tram.jpg'
 ];
 
