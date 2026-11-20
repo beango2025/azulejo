@@ -15,12 +15,17 @@
   const GRAMMAR_EXTRA = window.AZ_GRAMMAR_EXTRA || {};
   const MORPHOLOGY = window.AZ_MORPHOLOGY || [];
   const INTENSIVE = window.AZ_INTENSIVE || [];
+  const WRITING_BANK = window.AZ_WRITING_BANK || {};
+  const EXAM_GUIDE = window.AZ_EXAM_GUIDE || { exams: [], levels: {}, components: [] };
+  const THEMES = window.AZ_THEMES || [];
+  const ADJECTIVE_GROUPS = window.AZ_ADJECTIVE_GROUPS || [];
+  const MEMORY_TIPS = window.AZ_MEMORY_TIPS || [];
   const POS_EXISTING = window.AZ_POS_EXISTING || {};
   const SCENES = window.AZ_CORE_SCENES || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.14.0';
+  const APP_VERSION = '3.17.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -326,6 +331,14 @@
     });
   });
 
+  const vocabByPt = new Map();
+  allVocab.forEach(word => {
+    const key = accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+    const bare = key.replace(/^(o|a|os|as)\s+/, '');
+    if (key && !vocabByPt.has(key)) vocabByPt.set(key, word);
+    if (bare && !vocabByPt.has(bare)) vocabByPt.set(bare, word);
+  });
+
   function completedCount() {
     return allLessons.filter(l => state.lessons[l.id]).length;
   }
@@ -597,6 +610,9 @@
     { id: 'learn', label: '学习', pt: 'Aprender', href: '#/learn', icon: 'book' },
     { id: 'reading', label: '阅读', pt: 'Leitura & escuta', href: '#/reading', icon: 'layers' },
     { id: 'grammar', label: '语法', pt: 'Gramática', href: '#/grammar', icon: 'book' },
+    { id: 'writing', label: '写作', pt: 'Escrita', href: '#/writing', icon: 'edit' },
+    { id: 'exams-guide', label: '考试', pt: 'Exames', href: '#/exams-guide', icon: 'target' },
+    { id: 'themes', label: '主题词', pt: 'Vocabulário visual', href: '#/themes', icon: 'flower' },
     { id: 'media', label: '影音', pt: 'Vídeo & áudio', href: '#/media', icon: 'video' },
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
@@ -618,6 +634,13 @@
     grammarKind: 'all',
     grammarPage: 1,
     grammarQuery: '',
+    writingLevel: 'A2',
+    writingIndex: 0,
+    writingText: '',
+    writingResult: null,
+    writingBusy: false,
+    themeId: 'cafe',
+    adjGroup: 'qualidade',
     cultureCategory: 'all',
     culturePage: 1,
     exam: null,
@@ -759,7 +782,7 @@
     }
     document.body.classList.toggle('focus-mode', focus);
     closeModal(true);
-    ui.route = name === 'lesson' ? 'learn' : (directReading || name === 'intensive') ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : (name === 'pro' || name === 'exam') ? 'pro' : name;
+    ui.route = name === 'lesson' ? 'learn' : (directReading || name === 'intensive' || name === 'intensive-unit') ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : (name === 'pro' || name === 'exam') ? 'pro' : name;
     if (focus) {
       if (name === 'lesson' || directReading) {
         const lesson = lessonMap.get(info.parts[1]);
@@ -785,7 +808,7 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'reading', 'intensive', 'grammar', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
+    if (!['learn', 'reading', 'intensive', 'intensive-unit', 'grammar', 'writing', 'exams-guide', 'themes', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -796,7 +819,11 @@
     if (name === 'learn') renderHome();
     if (name === 'reading') renderReadingPage();
     if (name === 'intensive') renderIntensiveArticle(info.parts[1]);
+    if (name === 'intensive-unit') renderUnitIntensive(info.parts[1]);
     if (name === 'grammar') info.parts[1] ? renderGrammarChapter(info.parts[1]) : renderGrammarPage();
+    if (name === 'writing') renderWritingPage();
+    if (name === 'exams-guide') renderExamGuidePage();
+    if (name === 'themes') renderThemesPage();
     if (name === 'media') renderMediaPage();
     if (name === 'review') renderReviewPage();
     if (name === 'phrases') renderPhrasesPage();
@@ -1551,7 +1578,7 @@
       ${extra.titleEn ? `<p class="grammar-title-en">${esc(extra.titleEn)}</p>` : ''}
       <p>${esc(grammar.body)}</p>
       ${example ? `<div class="immersion-grammar-example"><button class="audio-btn small" data-audio="${esc(example.pt)}" aria-label="Ouvir exemplo">${icon('volume')}</button><div><strong>${esc(example.pt)}</strong><span>${esc(example.zh)}</span></div></div>` : ''}
-      <div class="immersion-grammar-actions"><a class="text-link" href="#/grammar/${core.id}">Ver capítulo e exercícios ${icon('arrow-right')}</a></div>
+      <div class="immersion-grammar-actions"><a class="text-link" href="#/grammar/${core.id}">Ver capítulo e exercícios ${icon('arrow-right')}</a>${['B1', 'B2', 'C1', 'C2'].includes(core.unit.level) ? `<a class="text-link" href="#/intensive-unit/${core.id}">Dossiê intensivo da unidade ${icon('arrow-right')}</a>` : ''}</div>
     </section>`;
   }
 
@@ -2788,6 +2815,15 @@
     </a>`;
   }
 
+  function memoryTipsHTML(level) {
+    const tips = MEMORY_TIPS.filter(tip => !level || level === 'all' || tip.level === level);
+    if (!tips.length) return '';
+    return `<section class="memory-tips">
+      <div class="section-head compact"><div><span class="eyebrow">TRUQUES DE MEMÓRIA</span><h2>记忆钩子</h2><p>短句、对比和画面，比规则表更容易留下来。</p></div></div>
+      <div class="memory-grid">${tips.map(tip => `<article class="memory-card"><span>${esc(tip.level)}</span><h3>${esc(tip.title)}</h3><p>${esc(tip.tip)}</p></article>`).join('')}</div>
+    </section>`;
+  }
+
   function renderGrammarPage() {
     const chapters = grammarChapters();
     const filtered = chapters.filter(grammarMatches);
@@ -2819,6 +2855,7 @@
         <div class="grammar-list-head"><span>Página ${page} / ${totalPages} · ${filtered.length} capítulos</span><span>${icon('volume')} 点例句可听发音</span></div>
         <div class="grammar-grid">${visible.map(grammarCardHTML).join('')}</div>
         <div id="grammar-pagination">${paginationHTML('grammar', page, totalPages)}</div>
+        ${memoryTipsHTML(ui.grammarLevel)}
       </div>`;
     document.title = 'Gramática · Azulejo';
   }
@@ -2830,6 +2867,7 @@
     const chapter = chapters[index];
     const grammar = chapter.grammar;
     const extra = chapter.extra || {};
+    const memory = MEMORY_TIPS.find(tip => tip.id === id);
     const prev = chapters[index - 1];
     const next = chapters[index + 1];
     const exercises = (extra.exercises || []).map((exercise, exerciseIndex) => `<details class="grammar-practice-item">
@@ -2859,6 +2897,7 @@
               </div>`).join('')}
             </div>
             <div class="tip-box"><span class="tip-icon">${icon('sparkle')}</span><p>${esc(grammar.tip)}${extra.tipEn ? `<small class="tip-en">${esc(extra.tipEn)}</small>` : ''}</p></div>
+            ${memory ? `<div class="chapter-memory"><span class="eyebrow">TRUQUE DE MEMÓRIA</span><p><b>${esc(memory.title)}</b> ${esc(memory.tip)}</p></div>` : ''}
           </article>
           <aside class="grammar-practice-panel">
             <span class="eyebrow">PRATICAR</span>
@@ -2905,6 +2944,10 @@
   function renderIntensiveArticle(id) {
     const article = INTENSIVE.find(item => item.id === id);
     if (!article) { location.hash = '#/reading'; return; }
+    renderIntensiveView(article);
+  }
+
+  function renderIntensiveView(article) {
     const photo = READING_PHOTOS[article.scene] || READING_PHOTOS.bookshop;
     const words = intensiveWords(article);
     const vocabulary = (article.vocab || []).map(word => ({
@@ -2970,6 +3013,47 @@
       </div>`;
     document.title = `${article.title} · Leitura intensiva · Azulejo`;
     window.scrollTo({ top: 0, behavior: 'auto' });
+  }
+
+  function renderUnitIntensive(coreId) {
+    const core = coreLessons.find(lesson => lesson.id === coreId);
+    if (!core || !['B1', 'B2', 'C1', 'C2'].includes(core.unit.level)) { location.hash = '#/reading'; return; }
+    const level = core.unit.level;
+    const levelCore = coreLessons.filter(lesson => lesson.unit.level === level);
+    const number = levelCore.findIndex(lesson => lesson.id === core.id) + 1;
+    const labs = allLessons.filter(lesson => lesson.isLab && coreLessonFor(lesson)?.id === core.id);
+    const sources = [core, ...labs];
+    const translations = (LISTENING_ZH[`${level}.${number}`] || {}).paragraphsZh || [];
+    const paragraphs = [];
+    sources.forEach(source => {
+      const reading = window.AZ_READINGS && window.AZ_READINGS[source.id];
+      if (!reading || !reading.text) return;
+      reading.text.split(/\n+/).filter(Boolean).forEach(part => paragraphs.push({ pt: part.trim(), zh: '' }));
+    });
+    paragraphs.forEach((paragraph, index) => { paragraph.zh = translations[index] || ''; });
+    const allowed = new Set(GLOSSARY_LEVELS[level] || [level]);
+    const vocabulary = allVocab.filter(word => allowed.has(word.level || '')).slice(0, 25);
+    const grammar = grammarChapters().filter(chapter => chapter.level === level).slice(0, 6).map(chapter => ({
+      title: chapter.grammar.title,
+      titleZh: chapter.titleZh || '',
+      body: chapter.grammar.body,
+      examples: (chapter.grammar.examples || []).slice(0, 2)
+    }));
+    const questions = sources.flatMap(source => ((window.AZ_READINGS || {})[source.id] || {}).questions || []).slice(0, 4);
+    const article = {
+      id: `unit-${core.id}`,
+      level,
+      title: `Dossiê intensivo · ${level}`,
+      titleZh: `${level} 精读资料夹`,
+      scene: 'bookshop',
+      sceneZh: '阅读与语言',
+      summary: `这一单元 ${sources.length} 篇阅读合并成一篇长读：先通读，再看 25 个本级词和 6 个语法点。`,
+      paragraphs,
+      vocab: vocabulary,
+      grammar,
+      questions
+    };
+    renderIntensiveView(article);
   }
 
   function renderReadingPage() {
@@ -3110,6 +3194,211 @@
         <div class="legal-actions"><a class="btn btn-primary" href="#/learn">Voltar à aprendizagem</a><a class="btn btn-secondary" href="#/pro">Azulejo Pro</a></div>
       </div>`;
     document.title = 'Créditos, licenças e privacidade · Azulejo';
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Visual thematic nouns and adjective groups                          */
+  /* ------------------------------------------------------------------ */
+
+  function thematicWord(word) {
+    const key = accentFold(word || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+    return vocabByPt.get(key) || vocabByPt.get(key.replace(/^(o|a|os|as)\s+/, '')) || null;
+  }
+
+  function wordRowHTML(word) {
+    if (!word) return '';
+    return `<div class="theme-word-row">
+      <button class="audio-btn small" data-audio="${esc(word.pt)}" aria-label="Ouvir ${esc(word.pt)}">${icon('volume')}</button>
+      <div><b>${esc(word.pt)}</b><small>${esc(word.pron || (window.AZ_PHONETIC ? window.AZ_PHONETIC(word.pt) : ''))}</small></div>
+      <span>${esc(word.zh || '—')}</span>
+      <span>${esc(word.en || '—')}</span>
+      <span>${esc(word.fr || '—')}</span>
+      <span>${esc(word.es || '—')}</span>
+    </div>`;
+  }
+
+  function renderThemesPage() {
+    const theme = THEMES.find(item => item.id === ui.themeId) || THEMES[0];
+    const adj = ADJECTIVE_GROUPS.find(item => item.id === ui.adjGroup) || ADJECTIVE_GROUPS[0];
+    const words = (theme ? theme.words : []).map(thematicWord).filter(Boolean);
+    const adjectives = (adj ? adj.words : []).map(thematicWord).filter(Boolean);
+    $('#view').innerHTML = `
+      <div class="page themes-page">
+        ${pageHead('VOCABULÁRIO VISUAL', 'Palavras por cenário.', '按使用场景看名词配图，再按类别汇总形容词。每行保留葡语、中文、English、français 和 español。', `<div class="head-badge alt">${icon('flower')}<span><strong>${THEMES.length}</strong><small>cenários</small></span></div>`)}
+        <div class="theme-grid">
+          ${THEMES.map(item => `<button class="theme-card ${item.id === ui.themeId ? 'is-active' : ''}" data-action="select-theme" data-theme="${item.id}">
+            <img src="${READING_PHOTOS[item.image]?.src || 'assets/photos/cafe.jpg'}" alt="${esc(item.zh)}" loading="lazy">
+            <span><b>${esc(item.pt)}</b><small>${esc(item.zh)} · ${item.words.length} palavras</small></span>
+          </button>`).join('')}
+        </div>
+        <section class="theme-panel">
+          <div class="section-head compact"><div><span class="eyebrow">${esc(theme.pt)}</span><h2>${esc(theme.zh)}</h2></div><a class="text-link" href="#/phrases">Ver banco completo ${icon('arrow-right')}</a></div>
+          <div class="theme-word-head"><span></span><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span></div>
+          <div class="theme-words">${words.map(wordRowHTML).join('') || '<p class="theme-empty">这些词暂未全部入库。</p>'}</div>
+        </section>
+        <section class="theme-panel adjective-panel">
+          <div class="section-head compact"><div><span class="eyebrow">ADJETIVOS</span><h2>形容词分类汇总</h2><p>按性质、大小、颜色、情绪、状态和国籍分组。</p></div><a class="text-link" href="#/grammar/morph-adjectives">章节：形容词 ${icon('arrow-right')}</a></div>
+          <div class="filter-chips">${ADJECTIVE_GROUPS.map(group => `<button class="filter-chip ${group.id === ui.adjGroup ? 'is-active' : ''}" data-action="select-adj-group" data-group="${group.id}">${esc(group.pt)}<span>${esc(group.zh)}</span></button>`).join('')}</div>
+          <div class="theme-word-head"><span></span><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span></div>
+          <div class="theme-words">${adjectives.map(wordRowHTML).join('') || '<p class="theme-empty">这些形容词暂未全部入库。</p>'}</div>
+        </section>
+        <p class="theme-source">名词表为应用内按场景整理的对照表；如需权威拼写和义项，可查 <a href="https://www.priberam.pt/" target="_blank" rel="noopener noreferrer">Priberam</a> 或 <a href="https://pt.wiktionary.org/" target="_blank" rel="noopener noreferrer">Wikcionário</a>。</p>
+      </div>`;
+    document.title = 'Vocabulário visual · Azulejo';
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* CAPLE exam guide + level / syllabus map                             */
+  /* ------------------------------------------------------------------ */
+
+  function renderExamGuidePage() {
+    const chapters = grammarChapters();
+    $('#view').innerHTML = `
+      <div class="page exam-guide-page">
+        ${pageHead('EXAMES & PROGRAMA', 'Que exame, que nível, que conteúdo.', 'CAPLE 六个级别、考试构成，以及本课程每个级别的语法/功能大纲。官方信息以 CAPLE 最新公告为准；这里不复制官方试卷。', `<div class="head-badge alt">${icon('target')}<span><strong>6</strong><small>níveis</small></span></div>`)}
+        <div class="exam-note">${icon('info')} <p><b>不是官方合作。</b> Azulejo 是独立备考工具，不提供 CAPLE 证书，也不代表官方认可。考试日期、费用和结构请查 <a href="${EXAM_GUIDE.officialUrl}" target="_blank" rel="noopener noreferrer">CAPLE 官网</a>。</p></div>
+        <div class="exam-cards">
+          ${EXAM_GUIDE.exams.map(exam => `<article class="exam-card">
+            <div class="exam-card-top"><span class="level-pill level-${exam.level}">${exam.level}</span><span>${esc(exam.exam)}</span></div>
+            <h3>${esc(exam.name)}</h3>
+            <p>${esc(exam.focus)}</p>
+            <small>${esc(exam.paper)}</small>
+          </article>`).join('')}
+        </div>
+        <section class="exam-section">
+          <div class="section-head"><div><span class="eyebrow">ESTRUTURA</span><h2>Quatro componentes.</h2><p>各级别题型和时长不同；下面是大致构成，具体以官方为准。</p></div></div>
+          <div class="exam-components">${EXAM_GUIDE.components.map(([code, name, desc]) => `<div class="exam-component"><b>${esc(code)}</b><strong>${esc(name)}</strong><p>${esc(desc)}</p></div>`).join('')}</div>
+        </section>
+        <section class="exam-section">
+          <div class="section-head"><div><span class="eyebrow">PROGRAMA POR NÍVEL</span><h2>Do A1 ao C2.</h2><p>本课程的功能、语法章节与级别对应；点级别直接打开该级语法。</p></div></div>
+          <div class="syllabus-list">
+            ${Object.entries(EXAM_GUIDE.levels).map(([level, info]) => {
+              const list = chapters.filter(chapter => chapter.level === level);
+              return `<article class="syllabus-row">
+                <div class="syllabus-level"><span class="level-pill level-${level}">${level}</span><h3>${esc(info.descriptor)}</h3><button class="text-link" data-action="open-grammar-level" data-level="${level}">Ver gramática ${icon('arrow-right')}</button></div>
+                <div class="syllabus-columns">
+                  <div><span class="eyebrow">FUNÇÕES</span><ul>${info.functions.map(item => `<li>${esc(item)}</li>`).join('')}</ul></div>
+                  <div><span class="eyebrow">GRAMÁTICA</span><ul>${info.grammar.map(item => `<li>${esc(item)}</li>`).join('')}</ul></div>
+                  <div><span class="eyebrow">NESTE CURSO</span><p>${list.length} capítulos de gramática · ${lessonsForLevel(level).length} aulas · 10 mock exams</p><div class="syllabus-tags">${list.slice(0, 8).map(chapter => `<a href="#/grammar/${chapter.id}">${esc(chapter.grammar.title)}</a>`).join('')}</div></div>
+                </div>
+              </article>`;
+            }).join('')}
+          </div>
+        </section>
+        <p class="exam-footnote">Sources: CAPLE exam descriptions and public CEFR/QuaREPE descriptors. Updated ${esc(EXAM_GUIDE.updated)}. 官方考试信息可能调整，报名前请核对官网。</p>
+      </div>`;
+    document.title = 'Exames CAPLE e programa · Azulejo';
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Writing practice: 50 prompts per level, local rubric / AI endpoint  */
+  /* ------------------------------------------------------------------ */
+
+  function writingPrompt() {
+    const bank = WRITING_BANK[ui.writingLevel] || [];
+    if (!bank.length) return null;
+    ui.writingIndex = Math.min(Math.max(0, ui.writingIndex), bank.length - 1);
+    return bank[ui.writingIndex];
+  }
+
+  function writingWordCount(text) {
+    return String(text || '').trim().split(/\s+/).filter(Boolean).length;
+  }
+
+  function localWritingScore(text, prompt) {
+    const words = writingWordCount(text);
+    const paragraphs = String(text || '').split(/\n\s*\n/).filter(part => part.trim()).length;
+    const sentences = String(text || '').split(/[.!?]+/).filter(part => part.trim()).length;
+    const normalized = accentFold(text).toLowerCase();
+    const connectors = ['porque', 'mas', 'no entanto', 'por isso', 'portanto', 'embora', 'além disso', 'por um lado', 'por outro lado', 'assim', 'também', 'quando', 'se', 'para que'];
+    const usedConnectors = connectors.filter(connector => normalized.includes(connector));
+    const tokens = normalized.replace(/[^\p{L}\p{N} ]/gu, ' ').split(/\s+/).filter(Boolean);
+    const unique = new Set(tokens).size;
+    const lexicalRatio = tokens.length ? unique / tokens.length : 0;
+    const ratio = words / Math.max(1, prompt.min);
+    const lengthScore = ratio < 0.6 ? 35 : ratio < 0.85 ? 62 : ratio <= 1.5 ? 92 : 78;
+    const coherence = Math.min(100, 45 + Math.min(4, paragraphs) * 9 + usedConnectors.length * 4);
+    const vocabulary = Math.min(100, 40 + Math.round(lexicalRatio * 55) + (words > prompt.max * 0.7 ? 8 : 0));
+    const grammar = Math.min(100, 48 + Math.min(5, sentences) * 5 + (/\b(é|são|foi|foram|tem|têm|há)\b/.test(normalized) ? 10 : 0) + (text.includes('ç') || text.includes('ã') || text.includes('õ') ? 6 : 0));
+    const overall = Math.round(lengthScore * 0.3 + coherence * 0.25 + vocabulary * 0.2 + grammar * 0.25);
+    const feedback = [];
+    if (words < prompt.min) feedback.push(`Faltam palavras: escreve pelo menos ${prompt.min}.`);
+    if (words > prompt.max) feedback.push(`Estás acima do limite: tenta ficar até ${prompt.max} palavras.`);
+    if (paragraphs < 2) feedback.push('Divide o texto em pelo menos dois parágrafos.');
+    if (usedConnectors.length < 2) feedback.push('Usa conectores variados (porque, no entanto, por isso, embora).');
+    if (lexicalRatio < 0.45) feedback.push('Repetes muitas palavras; tenta sinónimos e reformulações.');
+    if (!feedback.length) feedback.push('Bom equilíbrio entre extensão, organização e variedade lexical.');
+    return { overall, task: lengthScore, coherence, vocabulary, grammar, engine: 'local', words, feedback };
+  }
+
+  async function scoreWriting(text, prompt) {
+    const config = window.AZ_CONFIG || {};
+    if (config.writingApiUrl) {
+      try {
+        const response = await fetch(config.writingApiUrl, {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ level: prompt.level, prompt: prompt.prompt, text, target: { min: prompt.min, max: prompt.max } })
+        });
+        if (!response.ok) throw new Error(`writing api ${response.status}`);
+        const data = await response.json();
+        if (typeof data.overall === 'number') {
+          return { ...localWritingScore(text, prompt), ...data, engine: 'ai', words: writingWordCount(text) };
+        }
+      } catch (error) {
+        console.warn('Writing API unavailable; local rubric used.', error.message);
+      }
+    }
+    return localWritingScore(text, prompt);
+  }
+
+  function writingResultHTML(result) {
+    if (!result) return '';
+    const band = result.overall >= 85 ? 'Muito bom' : result.overall >= 70 ? 'Bom' : result.overall >= 55 ? 'Suficiente' : 'A melhorar';
+    const parts = [['Tarefa', result.task], ['Coerência', result.coherence], ['Vocabulário', result.vocabulary], ['Gramática', result.grammar]];
+    return `<section class="writing-result">
+      <div class="writing-score-head"><div><span class="eyebrow">${result.engine === 'ai' ? 'AI FEEDBACK' : 'AVALIAÇÃO LOCAL'}</span><h2>${result.overall}/100 · ${band}</h2></div><span class="writing-words">${result.words} palavras</span></div>
+      <div class="writing-bands">${parts.map(([label, value]) => `<div><span>${label}</span><b>${Math.round(value)}</b><i style="--pct:${Math.round(value)}%"></i></div>`).join('')}</div>
+      <ul class="writing-feedback">${result.feedback.map(item => `<li>${esc(item)}</li>`).join('')}</ul>
+      <p class="writing-disclaimer">${result.engine === 'ai' ? 'AI 评分仅供参考，不是 CAPLE 官方成绩。' : '本地规则评分，仅供参考；配置 writingApiUrl 后可切换 AI 评分。'}</p>
+    </section>`;
+  }
+
+  function renderWritingPage() {
+    const bank = WRITING_BANK[ui.writingLevel] || [];
+    const prompt = writingPrompt();
+    if (!prompt) {
+      $('#view').innerHTML = `<div class="page"><p>Banco de escrita indisponível.</p></div>`;
+      return;
+    }
+    const text = ui.writingText;
+    const count = writingWordCount(text);
+    $('#view').innerHTML = `
+      <div class="page writing-page">
+        ${pageHead('ESCRITA', 'Escreve. Revê. Melhora.', 'A1–C2 每个级别 50 道原创写作题，随机抽取；可粘贴或上传文本，提交后得到分项反馈。题目是仿真练习，不是官方真题。', `<div class="head-badge alt">${icon('edit')}<span><strong>50</strong><small>por nível</small></span></div>`)}
+        <div class="filter-chips writing-levels">${LEVELS.map(level => `<button class="filter-chip ${ui.writingLevel === level.id ? 'is-active' : ''}" data-action="select-writing-level" data-level="${level.id}">${level.id}<span>50</span></button>`).join('')}</div>
+        <article class="writing-prompt">
+          <div class="writing-prompt-top"><span class="eyebrow">${esc(prompt.level)} · ${esc(prompt.kind.toUpperCase())}</span><span class="writing-prompt-meta">${prompt.min}–${prompt.max} palavras · ${prompt.minutes} min</span></div>
+          <h2>${esc(prompt.title)}</h2>
+          <p class="writing-prompt-zh">${esc(prompt.titleZh)}</p>
+          <p class="writing-prompt-text">${esc(prompt.prompt)}</p>
+          <p class="writing-prompt-text writing-prompt-zh-text">${esc(prompt.promptZh)}</p>
+          <div class="writing-checklist">${prompt.checklist.map(item => `<span>${icon('check')} ${esc(item)}</span>`).join('')}</div>
+          <button class="btn btn-secondary" data-action="random-writing">${icon('refresh')} Outra proposta ${ui.writingIndex + 1}/${bank.length}</button>
+        </article>
+        <section class="writing-editor">
+          <div class="writing-editor-head"><span class="eyebrow">A TUA RESPOSTA</span><span class="writing-word-count ${count >= prompt.min && count <= prompt.max ? 'is-ok' : ''}">${count} / ${prompt.min}–${prompt.max} palavras</span></div>
+          <textarea id="writing-textarea" rows="12" placeholder="Escreve aqui em português…">${esc(text)}</textarea>
+          <div class="writing-actions">
+            <label class="btn btn-secondary writing-upload">${icon('upload')} Carregar .txt<input id="writing-file" type="file" accept=".txt,.md,text/plain,image/*" hidden></label>
+            <button class="btn btn-secondary" data-action="writing-clear">Limpar</button>
+            <button class="btn btn-primary" data-action="writing-submit" ${ui.writingBusy ? 'disabled' : ''}>${ui.writingBusy ? 'A avaliar…' : `Avaliar ${icon('arrow-right')}`}</button>
+          </div>
+          <p class="writing-upload-note">文本文件会直接读入；图片需要配置 OCR/AI 接口，当前不会上传到服务器。</p>
+        </section>
+        ${writingResultHTML(ui.writingResult)}
+      </div>`;
+    document.title = 'Escrita · Azulejo';
   }
 
   /* ------------------------------------------------------------------ */
@@ -5047,7 +5336,7 @@
   /* Events                                                              */
   /* ------------------------------------------------------------------ */
 
-  function handleAction(action, el) {
+  async function handleAction(action, el) {
     switch (action) {
       case 'select-level':
         ui.courseLevel = el.dataset.level;
@@ -5375,6 +5664,58 @@
         ui.grammarPage = 1;
         renderGrammarPage();
         break;
+      case 'select-theme':
+        ui.themeId = el.dataset.theme;
+        renderThemesPage();
+        break;
+      case 'select-adj-group':
+        ui.adjGroup = el.dataset.group;
+        renderThemesPage();
+        break;
+      case 'open-grammar-level':
+        ui.grammarLevel = el.dataset.level;
+        ui.grammarKind = 'all';
+        ui.grammarPage = 1;
+        go('#/grammar');
+        break;
+      case 'select-writing-level':
+        ui.writingLevel = el.dataset.level;
+        ui.writingIndex = Math.floor(Math.random() * (WRITING_BANK[ui.writingLevel] || []).length);
+        ui.writingText = '';
+        ui.writingResult = null;
+        renderWritingPage();
+        break;
+      case 'random-writing': {
+        const bank = WRITING_BANK[ui.writingLevel] || [];
+        if (bank.length > 1) {
+          let next = ui.writingIndex;
+          while (next === ui.writingIndex) next = Math.floor(Math.random() * bank.length);
+          ui.writingIndex = next;
+        }
+        ui.writingText = '';
+        ui.writingResult = null;
+        renderWritingPage();
+        break;
+      }
+      case 'writing-clear':
+        ui.writingText = '';
+        ui.writingResult = null;
+        renderWritingPage();
+        break;
+      case 'writing-submit': {
+        const prompt = writingPrompt();
+        const area = $('#writing-textarea');
+        const text = area ? area.value.trim() : ui.writingText.trim();
+        if (!prompt || !text) { showToast('Escreve primeiro a tua resposta.', 'error'); break; }
+        ui.writingText = text;
+        ui.writingBusy = true;
+        renderWritingPage();
+        ui.writingResult = await scoreWriting(text, prompt);
+        ui.writingBusy = false;
+        trackEvent('writing_submit', { level: prompt.level, engine: ui.writingResult.engine, score: ui.writingResult.overall });
+        renderWritingPage();
+        break;
+      }
       case 'grammar-page':
         ui.grammarPage = Number(el.dataset.page) || 1;
         renderGrammarPage();
@@ -5552,6 +5893,17 @@
         renderGrammarPage();
         return;
       }
+      if (event.target.id === 'writing-textarea') {
+        ui.writingText = event.target.value;
+        const count = writingWordCount(ui.writingText);
+        const prompt = writingPrompt();
+        const label = document.querySelector('.writing-word-count');
+        if (label && prompt) {
+          label.textContent = `${count} / ${prompt.min}–${prompt.max} palavras`;
+          label.classList.toggle('is-ok', count >= prompt.min && count <= prompt.max);
+        }
+        return;
+      }
       if (event.target.id === 'type-answer' && ui.lesson && ui.lesson.stepState) {
         ui.lesson.stepState.input = event.target.value;
         refreshLessonFooter();
@@ -5561,6 +5913,25 @@
         const picker = event.target.closest('.goal-picker');
         $$('.goal-option', picker).forEach(opt => opt.classList.toggle('is-active', $('input', opt)?.checked));
       }
+    });
+
+    document.addEventListener('change', event => {
+      if (event.target.id !== 'writing-file') return;
+      const file = event.target.files && event.target.files[0];
+      if (!file) return;
+      if (!/\.(txt|md)$/i.test(file.name) && !file.type.startsWith('text/')) {
+        showToast('图片需要配置 OCR/AI 接口；目前请上传 .txt 或 .md。', 'error');
+        event.target.value = '';
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = () => {
+        ui.writingText = String(reader.result || '');
+        renderWritingPage();
+        showToast('Texto carregado.', 'success');
+      };
+      reader.onerror = () => showToast('Não foi possível ler o ficheiro.', 'error');
+      reader.readAsText(file);
     });
 
     document.addEventListener('submit', event => {

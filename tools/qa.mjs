@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.13.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.16.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -402,6 +402,40 @@ try {
   await sleep(500);
   await shot('20j-direct-reading');
   console.log('DIRECT_READING_STEP', await evaluate(`Boolean(document.querySelector('.step-immersion'))`));
+
+  await goto('#/writing');
+  await sleep(300);
+  await shot('35-writing');
+  console.log('WRITING_PROMPTS', await evaluate(`document.querySelectorAll('.writing-levels .filter-chip').length`));
+  await evaluate(`const t=document.querySelector('#writing-textarea'); if(t){t.value='Eu estudo português porque quero trabalhar em Lisboa. No entanto, ainda tenho dificuldade em falar. Por isso, leio todos os dias e ouço rádio.'; t.dispatchEvent(new Event('input',{bubbles:true}));}`);
+  await click('[data-action="writing-submit"]');
+  await sleep(500);
+  console.log('WRITING_SCORE', await evaluate(`document.querySelector('.writing-score-head h2')?.textContent`));
+
+  await goto('#/exams-guide');
+  await sleep(300);
+  await shot('36-exam-guide');
+  console.log('EXAM_CARDS', await evaluate(`document.querySelectorAll('.exam-card').length`));
+  console.log('SYLLABUS_ROWS', await evaluate(`document.querySelectorAll('.syllabus-row').length`));
+
+  await goto('#/themes');
+  await sleep(350);
+  await shot('37-themes');
+  await goto('#/intensive-unit/b1l1');
+  await sleep(400);
+  console.log('UNIT_INTENSIVE_PARAGRAPHS', await evaluate(`document.querySelectorAll('.intensive-paragraph').length`));
+  console.log('UNIT_INTENSIVE_VOCAB', await evaluate(`document.querySelectorAll('.intensive-vocab .glossary-row').length`));
+  console.log('UNIT_INTENSIVE_GRAMMAR', await evaluate(`document.querySelectorAll('.intensive-grammar-card').length`));
+
+  await goto('#/themes');
+  await sleep(350);
+  console.log('THEME_CARDS', await evaluate(`document.querySelectorAll('.theme-card').length`));
+  console.log('THEME_WORDS', await evaluate(`document.querySelectorAll('.theme-word-row').length`));
+  console.log('ADJ_GROUPS', await evaluate(`document.querySelectorAll('.adjective-panel .filter-chip').length`));
+
+  await goto('#/grammar');
+  await sleep(300);
+  console.log('MEMORY_TIPS', await evaluate(`document.querySelectorAll('.memory-card').length`));
 
   await goto('#/reading');
   await sleep(300);

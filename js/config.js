@@ -7,6 +7,7 @@ window.AZ_CONFIG = {
   supabaseUrl: '',
   supabaseAnonKey: '',
   examApiUrl: '',
+  writingApiUrl: '',
   levelPrices: {
     A1: { eur: '€9,99', cny: '¥69' },
     A2: { eur: '€14,99', cny: '¥99' },

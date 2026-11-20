@@ -1,5 +1,19 @@
 # Changelog
 
+## 3.17.0 — 2026-11-20
+
+- Added a **10-minute-per-lesson intensive dossier** for every B1–C2 lesson: the unit’s core and lab readings are combined into one long reading, with 25 level words, 6 grammar points and comprehension questions.
+- Added the dossier link to every B1–C2 reading’s grammar note; route `#/intensive-unit/{core-lesson}`.
+- Bumped the service worker cache to `azulejo-v3.17.0`.
+
+## 3.16.0 — 2026-11-20
+
+- Added **Escrita**: 50 original writing prompts per level, random selection, textarea and `.txt` upload, local rubric scoring and optional AI endpoint.
+- Added **Exames & Programa**: CAPLE A1–C2 exam guide, four components, and a level-by-level syllabus map linked to the grammar library.
+- Added **Vocabulário visual**: 10 illustrated noun scenarios (PT/ZH/EN/FR/ES) and six adjective groups.
+- Added **Truques de memória**: 12 memory hooks inside the grammar library and chapter pages.
+- Bumped the service worker cache to `azulejo-v3.16.0`.
+
 ## 3.14.0 — 2026-11-20
 
 - Added a **Leitura intensiva** library for B1, B2, C1 and C2: four long readings (450–600 words) with full Chinese paragraph translation.
