@@ -1,0 +1,802 @@
+[
+  {
+    "group": "transport",
+    "pt": "Onde posso comprar um bilhete?",
+    "en": "Where can I buy a ticket?",
+    "fr": "Où puis-je acheter un billet ?",
+    "zh": "我在哪里可以买票？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Queria um bilhete para Lisboa, se faz favor.",
+    "en": "I'd like a ticket to Lisbon, please.",
+    "fr": "Je voudrais un billet pour Lisbonne, s'il vous plaît.",
+    "zh": "请给我一张去里斯本的票。",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Um bilhete de ida e volta, por favor.",
+    "en": "A return ticket, please.",
+    "fr": "Un aller-retour, s'il vous plaît.",
+    "zh": "请给我一张往返票。",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Só de ida, se faz favor.",
+    "en": "A single, please.",
+    "fr": "Aller simple, s'il vous plaît.",
+    "zh": "单程票，谢谢。",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Quanto custa o bilhete?",
+    "en": "How much is the ticket?",
+    "fr": "Combien coûte le billet ?",
+    "zh": "票价多少？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Tem bilhetes para amanhã?",
+    "en": "Do you have tickets for tomorrow?",
+    "fr": "Avez-vous des billets pour demain ?",
+    "zh": "有明天的票吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Pode dar-me dois bilhetes, se faz favor?",
+    "en": "Could you give me two tickets, please?",
+    "fr": "Pourriez-vous me donner deux billets, s'il vous plaît ?",
+    "zh": "请给我两张票。",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Posso pagar com cartão na bilheteira?",
+    "en": "Can I pay by card at the ticket office?",
+    "fr": "Puis-je payer par carte au guichet ?",
+    "zh": "售票处可以刷卡吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "A máquina de bilhetes não está a funcionar.",
+    "en": "The ticket machine isn't working.",
+    "fr": "La machine à billets ne fonctionne pas.",
+    "zh": "售票机坏了。",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Onde fica a bilheteira?",
+    "en": "Where is the ticket office?",
+    "fr": "Où se trouve le guichet ?",
+    "zh": "售票处在哪里？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Preciso de validar o bilhete?",
+    "en": "Do I need to validate the ticket?",
+    "fr": "Dois-je valider le billet ?",
+    "zh": "需要刷票吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Perdi o bilhete. O que posso fazer?",
+    "en": "I've lost my ticket. What can I do?",
+    "fr": "J'ai perdu mon billet. Que puis-je faire ?",
+    "zh": "我把票丢了，怎么办？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "A que horas parte o próximo comboio?",
+    "en": "What time does the next train leave?",
+    "fr": "À quelle heure part le prochain train ?",
+    "zh": "下一班火车几点发车？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "A que horas chega a Lisboa?",
+    "en": "What time does it arrive in Lisbon?",
+    "fr": "À quelle heure arrive-t-il à Lisbonne ?",
+    "zh": "几点到里斯本？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Qual é o horário dos comboios?",
+    "en": "What is the train timetable?",
+    "fr": "Quels sont les horaires des trains ?",
+    "zh": "火车时刻表是什么？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Há um comboio mais cedo?",
+    "en": "Is there an earlier train?",
+    "fr": "Y a-t-il un train plus tôt ?",
+    "zh": "有更早的火车吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Qual é a última partida para o Porto?",
+    "en": "When is the last departure to Porto?",
+    "fr": "Quel est le dernier départ pour Porto ?",
+    "zh": "去波尔图的末班车是几点？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "O comboio das oito ainda está na plataforma?",
+    "en": "Is the eight o'clock train still on the platform?",
+    "fr": "Le train de huit heures est-il encore sur le quai ?",
+    "zh": "八点的火车还在站台吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Quanto tempo demora a viagem?",
+    "en": "How long does the journey take?",
+    "fr": "Combien de temps dure le trajet ?",
+    "zh": "路程要多久？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Este comboio para no Oriente?",
+    "en": "Does this train stop at Oriente?",
+    "fr": "Ce train s'arrête-t-il à Oriente ?",
+    "zh": "这趟火车在东方站停吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Ao fim de semana, o horário é diferente?",
+    "en": "Is the timetable different at weekends?",
+    "fr": "Les horaires sont-ils différents le week-end ?",
+    "zh": "周末时刻表不一样吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Onde fica a paragem do autocarro?",
+    "en": "Where is the bus stop?",
+    "fr": "Où se trouve l'arrêt de bus ?",
+    "zh": "公交车站在哪里？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Que autocarro vai para Belém?",
+    "en": "Which bus goes to Belém?",
+    "fr": "Quel bus va à Belém ?",
+    "zh": "哪路公交去贝伦？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Este autocarro vai até ao centro?",
+    "en": "Does this bus go to the centre?",
+    "fr": "Ce bus va-t-il jusqu'au centre-ville ?",
+    "zh": "这辆公交到市中心吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Onde posso apanhar o elétrico 28?",
+    "en": "Where can I catch tram 28?",
+    "fr": "Où puis-je prendre le tram 28 ?",
+    "zh": "我在哪里可以坐28路电车？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "O elétrico 28 passa aqui?",
+    "en": "Does tram 28 come past here?",
+    "fr": "Le tram 28 passe-t-il par ici ?",
+    "zh": "28路电车经过这里吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Quantas paragens faltam?",
+    "en": "How many stops are left?",
+    "fr": "Combien d'arrêts reste-t-il ?",
+    "zh": "还有几站？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Tenho de mudar de linha?",
+    "en": "Do I need to change lines?",
+    "fr": "Dois-je changer de ligne ?",
+    "zh": "我需要换乘吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Qual é a linha para o aeroporto?",
+    "en": "Which line goes to the airport?",
+    "fr": "Quelle ligne va à l'aéroport ?",
+    "zh": "哪条线去机场？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "O metro ainda funciona a esta hora?",
+    "en": "Is the metro still running at this time?",
+    "fr": "Le métro fonctionne-t-il encore à cette heure-ci ?",
+    "zh": "这个时间地铁还运行吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "A entrada do metro é ali?",
+    "en": "Is the metro entrance over there?",
+    "fr": "L'entrée du métro est là-bas ?",
+    "zh": "地铁入口在那边吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Preciso de um cartão para andar de metro?",
+    "en": "Do I need a card to use the metro?",
+    "fr": "Faut-il une carte pour prendre le métro ?",
+    "zh": "坐地铁需要卡吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Este autocarro para no Rossio?",
+    "en": "Does this bus stop at Rossio?",
+    "fr": "Ce bus s'arrête-t-il à Rossio ?",
+    "zh": "这辆公交在罗西奥停吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "O elétrico costuma ir muito cheio a esta hora.",
+    "en": "The tram is usually very crowded at this time.",
+    "fr": "Le tram est généralement très bondé à cette heure-ci.",
+    "zh": "这个时间电车通常很挤。",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Posso comprar o bilhete ao motorista?",
+    "en": "Can I buy a ticket from the driver?",
+    "fr": "Puis-je acheter un billet au chauffeur ?",
+    "zh": "可以向司机买票吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "O comboio está muito atrasado.",
+    "en": "The train is very late.",
+    "fr": "Le train est très en retard.",
+    "zh": "火车晚点很久。",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "Quantos minutos de atraso há?",
+    "en": "How many minutes late is it?",
+    "fr": "Combien de minutes de retard y a-t-il ?",
+    "zh": "晚点几分钟？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "O atraso é por causa da greve?",
+    "en": "Is the delay because of the strike?",
+    "fr": "Le retard est-il dû à la grève ?",
+    "zh": "晚点是因为罢工吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Já se sabe quando é que o comboio chega?",
+    "en": "Do we know yet when the train will arrive?",
+    "fr": "Sait-on déjà quand le train arrivera ?",
+    "zh": "知道火车什么时候到吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "A que horas é que o autocarro vai passar?",
+    "en": "What time is the bus coming?",
+    "fr": "À quelle heure le bus va-t-il passer ?",
+    "zh": "公交几点来？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Houve um problema na linha.",
+    "en": "There was a problem on the line.",
+    "fr": "Il y a eu un problème sur la ligne.",
+    "zh": "线路出了问题。",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "O próximo autocarro só vem daqui a vinte minutos.",
+    "en": "The next bus won't come for twenty minutes.",
+    "fr": "Le prochain bus ne passera que dans vingt minutes.",
+    "zh": "下一班公交二十分钟后才来。",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Onde é que faço transbordo para Sintra?",
+    "en": "Where do I have to change for Sintra?",
+    "fr": "Où dois-je changer pour Sintra ?",
+    "zh": "去辛特拉在哪里换乘？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Tenho de mudar no Oriente?",
+    "en": "Do I have to change at Oriente?",
+    "fr": "Dois-je changer à Oriente ?",
+    "zh": "我要在东方站换乘吗？",
+    "level": "A1"
+  },
+  {
+    "group": "transport",
+    "pt": "A ligação para o Porto é na mesma plataforma?",
+    "en": "Is the connection to Porto on the same platform?",
+    "fr": "La correspondance pour Porto est-elle sur le même quai ?",
+    "zh": "去波尔图的换乘在同一个站台吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Perdi a ligação. Há outro comboio?",
+    "en": "I missed my connection. Is there another train?",
+    "fr": "J'ai raté ma correspondance. Y a-t-il un autre train ?",
+    "zh": "我错过了换乘，还有别的火车吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Quanto tempo tenho para a mudança?",
+    "en": "How much time do I have to change?",
+    "fr": "Combien de temps ai-je pour changer ?",
+    "zh": "换乘有多少时间？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "O autocarro deixa-me perto do metro?",
+    "en": "Will the bus drop me near the metro?",
+    "fr": "Le bus me déposera-t-il près du métro ?",
+    "zh": "公交会停在地铁附近吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Esta ligação está incluída no bilhete?",
+    "en": "Is this connection included in the ticket?",
+    "fr": "Cette correspondance est-elle incluse dans le billet ?",
+    "zh": "换乘包含在票里吗？",
+    "level": "A2"
+  },
+  {
+    "group": "transport",
+    "pt": "Onde é que posso apanhar o barco para Cacilhas?",
+    "en": "Where can I catch the boat to Cacilhas?",
+    "fr": "Où puis-je prendre le bateau pour Cacilhas ?",
+    "zh": "我在哪里可以坐去卡西利亚斯的船？",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Desculpe, pode ajudar-me?",
+    "en": "Excuse me, can you help me?",
+    "fr": "Excusez-moi, pouvez-vous m'aider ?",
+    "zh": "劳驾，您能帮我吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Onde fica a rua Augusta?",
+    "en": "Where is Rua Augusta?",
+    "fr": "Où se trouve la rue Augusta ?",
+    "zh": "奥古斯塔街在哪里？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Como é que vou para o castelo?",
+    "en": "How do I get to the castle?",
+    "fr": "Comment aller au château ?",
+    "zh": "去城堡怎么走？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Pode dizer-me onde fica a praça?",
+    "en": "Can you tell me where the square is?",
+    "fr": "Pouvez-vous me dire où se trouve la place ?",
+    "zh": "您能告诉我广场在哪里吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Estou à procura do museu.",
+    "en": "I'm looking for the museum.",
+    "fr": "Je cherche le musée.",
+    "zh": "我在找博物馆。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Sabe onde fica o hospital?",
+    "en": "Do you know where the hospital is?",
+    "fr": "Savez-vous où se trouve l'hôpital ?",
+    "zh": "您知道医院在哪里吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Queria ir ao miradouro. Como é que faço?",
+    "en": "I'd like to go to the viewpoint. How do I get there?",
+    "fr": "Je voudrais aller au belvédère. Comment faire ?",
+    "zh": "我想去观景台，怎么走？",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Pode mostrar-me no mapa?",
+    "en": "Can you show me on the map?",
+    "fr": "Pouvez-vous me montrer sur le plan ?",
+    "zh": "您能在地图上指给我看吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Ando à procura da estação há dez minutos.",
+    "en": "I've been looking for the station for ten minutes.",
+    "fr": "Je cherche la gare depuis dix minutes.",
+    "zh": "我找车站找了十分钟。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Sabe se há uma farmácia perto daqui?",
+    "en": "Do you know if there's a pharmacy near here?",
+    "fr": "Savez-vous s'il y a une pharmacie près d'ici ?",
+    "zh": "您知道附近有药店吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "O elevador de Santa Justa é por aqui?",
+    "en": "Is the Santa Justa lift this way?",
+    "fr": "L'ascenseur de Santa Justa est par ici ?",
+    "zh": "圣胡斯塔升降机在这边吗？",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "A igreja fica ao lado do museu.",
+    "en": "The church is next to the museum.",
+    "fr": "L'église est à côté du musée.",
+    "zh": "教堂在博物馆旁边。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "O mercado fica em frente à estação.",
+    "en": "The market is opposite the station.",
+    "fr": "Le marché est en face de la gare.",
+    "zh": "市场在车站对面。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "O castelo fica no alto da colina.",
+    "en": "The castle is at the top of the hill.",
+    "fr": "Le château est au sommet de la colline.",
+    "zh": "城堡在山顶上。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Há um jardim atrás do edifício.",
+    "en": "There's a garden behind the building.",
+    "fr": "Il y a un jardin derrière le bâtiment.",
+    "zh": "楼后面有个花园。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "A entrada é do lado direito do edifício.",
+    "en": "The entrance is on the right side of the building.",
+    "fr": "L'entrée est du côté droit du bâtiment.",
+    "zh": "入口在楼的右侧。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "O rio fica a poucos metros daqui.",
+    "en": "The river is a few metres from here.",
+    "fr": "Le fleuve est à quelques mètres d'ici.",
+    "zh": "河离这里几米远。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "A torre é o edifício mais alto da zona.",
+    "en": "The tower is the tallest building in the area.",
+    "fr": "La tour est le bâtiment le plus haut du quartier.",
+    "zh": "塔是这一带最高的建筑。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "O ponto de encontro é junto à fonte.",
+    "en": "The meeting point is by the fountain.",
+    "fr": "Le point de rendez-vous est près de la fontaine.",
+    "zh": "集合地点在喷泉旁边。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "A paragem é depois do semáforo.",
+    "en": "The stop is after the traffic lights.",
+    "fr": "L'arrêt est après le feu.",
+    "zh": "过了红绿灯就是车站。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Vire à esquerda na primeira rua.",
+    "en": "Turn left at the first street.",
+    "fr": "Tournez à gauche dans la première rue.",
+    "zh": "在第一条街左转。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Vire à direita depois do banco.",
+    "en": "Turn right after the bank.",
+    "fr": "Tournez à droite après la banque.",
+    "zh": "过了银行右转。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Siga sempre em frente.",
+    "en": "Keep going straight ahead.",
+    "fr": "Continuez tout droit.",
+    "zh": "一直往前走。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "É a segunda rua à direita.",
+    "en": "It's the second street on the right.",
+    "fr": "C'est la deuxième rue à droite.",
+    "zh": "是右边第二条街。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Fica logo ali à esquerda.",
+    "en": "It's just there on the left.",
+    "fr": "C'est juste là à gauche.",
+    "zh": "就在左边。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Na rotunda, saia na segunda saída.",
+    "en": "At the roundabout, take the second exit.",
+    "fr": "Au rond-point, prenez la deuxième sortie.",
+    "zh": "在环岛走第二个出口。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Não vire agora, é na próxima esquina.",
+    "en": "Don't turn now, it's at the next corner.",
+    "fr": "Ne tournez pas maintenant, c'est au prochain coin.",
+    "zh": "现在别转，在下个路口。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "A loja fica à esquerda, depois da igreja.",
+    "en": "The shop is on the left, after the church.",
+    "fr": "La boutique est à gauche, après l'église.",
+    "zh": "商店在左边，教堂之后。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Vá por esta rua até ao fim.",
+    "en": "Go along this street to the end.",
+    "fr": "Prenez cette rue jusqu'au bout.",
+    "zh": "沿这条街走到头。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Ao fundo da rua, vire à esquerda.",
+    "en": "At the end of the street, turn left.",
+    "fr": "Au bout de la rue, tournez à gauche.",
+    "zh": "在街尽头左转。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Fica longe daqui?",
+    "en": "Is it far from here?",
+    "fr": "C'est loin d'ici ?",
+    "zh": "离这里远吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Fica a cerca de dez minutos a pé.",
+    "en": "It's about a ten-minute walk.",
+    "fr": "C'est à environ dix minutes à pied.",
+    "zh": "步行大约十分钟。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "São só cinco minutos a pé.",
+    "en": "It's only a five-minute walk.",
+    "fr": "C'est à seulement cinq minutes à pied.",
+    "zh": "步行只要五分钟。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "A que distância fica a praia?",
+    "en": "How far is the beach?",
+    "fr": "À quelle distance se trouve la plage ?",
+    "zh": "海滩有多远？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Fica a dois quarteirões daqui.",
+    "en": "It's two blocks from here.",
+    "fr": "C'est à deux pâtés de maisons d'ici.",
+    "zh": "离这里两个街区。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Não é muito longe.",
+    "en": "It's not very far.",
+    "fr": "Ce n'est pas très loin.",
+    "zh": "不太远。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "É mais perto do que parece.",
+    "en": "It's closer than it looks.",
+    "fr": "C'est plus près qu'il n'y paraît.",
+    "zh": "比看起来近。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "A estação fica a cerca de um quilómetro.",
+    "en": "The station is about a kilometre away.",
+    "fr": "La gare est à environ un kilomètre.",
+    "zh": "车站大约一公里远。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Dá para ir a pé?",
+    "en": "Can I walk there?",
+    "fr": "On peut y aller à pied ?",
+    "zh": "可以走路去吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Vá a pé até à praça.",
+    "en": "Walk to the square.",
+    "fr": "Allez à pied jusqu'à la place.",
+    "zh": "步行到广场。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "É seguro caminhar por aqui à noite?",
+    "en": "Is it safe to walk here at night?",
+    "fr": "Est-ce prudent de marcher ici la nuit ?",
+    "zh": "晚上在这里走路安全吗？",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Prefiro ir a pé.",
+    "en": "I'd rather walk.",
+    "fr": "Je préfère y aller à pied.",
+    "zh": "我宁愿走路去。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Há uma passadeira mais à frente?",
+    "en": "Is there a pedestrian crossing further ahead?",
+    "fr": "Y a-t-il un passage piéton plus loin ?",
+    "zh": "前面有斑马线吗？",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Cuidado com os carros ao atravessar a rua.",
+    "en": "Be careful with cars when crossing the road.",
+    "fr": "Attention aux voitures en traversant la rue.",
+    "zh": "过马路小心车。",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Pode repetir mais devagar, se faz favor?",
+    "en": "Could you repeat that more slowly, please?",
+    "fr": "Pouvez-vous répéter plus lentement, s'il vous plaît ?",
+    "zh": "请您慢一点再说一遍。",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Não percebi. Pode explicar outra vez?",
+    "en": "I didn't understand. Can you explain again?",
+    "fr": "Je n'ai pas compris. Pouvez-vous expliquer encore une fois ?",
+    "zh": "我没听懂，您能再解释一遍吗？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "É à direita ou à esquerda?",
+    "en": "Is it on the right or on the left?",
+    "fr": "C'est à droite ou à gauche ?",
+    "zh": "是在右边还是左边？",
+    "level": "A1"
+  },
+  {
+    "group": "directions",
+    "pt": "Está a falar da rua da Prata?",
+    "en": "Are you talking about Rua da Prata?",
+    "fr": "Vous parlez de la rue da Prata ?",
+    "zh": "您说的是银街吗？",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Pode apontar no mapa onde estou?",
+    "en": "Can you point to where I am on the map?",
+    "fr": "Pouvez-vous m'indiquer sur le plan où je suis ?",
+    "zh": "您能在地图上指出我在哪里吗？",
+    "level": "A2"
+  },
+  {
+    "group": "directions",
+    "pt": "Então é a primeira à esquerda, certo?",
+    "en": "So it's the first on the left, right?",
+    "fr": "Donc c'est la première à gauche, c'est ça ?",
+    "zh": "那就是左边第一条，对吗？",
+    "level": "A2"
+  }
+]

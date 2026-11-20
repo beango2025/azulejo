@@ -1,0 +1,802 @@
+[
+  {
+    "group": "smalltalk",
+    "pt": "Então, como foi o fim de semana?",
+    "en": "So, how was your weekend?",
+    "fr": "Alors, comment s'est passé ton week-end ?",
+    "zh": "对了，周末过得怎么样？",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Não fiz nada de especial, fiquei em casa.",
+    "en": "I didn't do anything special, I stayed at home.",
+    "fr": "Je n'ai rien fait de spécial, je suis resté à la maison.",
+    "zh": "没什么特别的，我待在家里。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "No sábado fui ao mercado e no domingo almocei com os meus pais.",
+    "en": "On Saturday I went to the market and on Sunday I had lunch with my parents.",
+    "fr": "Samedi, je suis allé au marché et dimanche, j'ai déjeuné chez mes parents.",
+    "zh": "周六我去了市场，周日和父母吃了午饭。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Vamos beber um café um dia destes?",
+    "en": "Shall we grab a coffee one of these days?",
+    "fr": "On va prendre un café un de ces jours ?",
+    "zh": "哪天一起喝杯咖啡吧？",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Combinado, fica para a semana.",
+    "en": "Deal, let's do it next week.",
+    "fr": "D'accord, ce sera pour la semaine prochaine.",
+    "zh": "好，下周再说。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Conheces algum sítio bom para jantar aqui perto?",
+    "en": "Do you know a good place to have dinner near here?",
+    "fr": "Tu connais un bon endroit pour dîner près d'ici ?",
+    "zh": "你知道附近有什么吃晚饭的好地方吗？",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "A minha família é pequena: só os meus pais e o meu irmão.",
+    "en": "My family is small: just my parents and my brother.",
+    "fr": "Ma famille est petite : juste mes parents et mon frère.",
+    "zh": "我家人口少：只有父母和我兄弟。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Tenho uma irmã mais velha e um sobrinho pequeno.",
+    "en": "I have an older sister and a young nephew.",
+    "fr": "J'ai une sœur plus âgée et un petit neveu.",
+    "zh": "我有一个姐姐和一个小侄子。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Os meus avós vivem no norte, perto do Porto.",
+    "en": "My grandparents live in the north, near Porto.",
+    "fr": "Mes grands-parents vivent dans le nord, près de Porto.",
+    "zh": "我祖父母住在北部，靠近波尔图。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Ao domingo costumamos almoçar todos juntos.",
+    "en": "On Sundays we usually have lunch all together.",
+    "fr": "Le dimanche, on déjeune généralement tous ensemble.",
+    "zh": "周日我们通常一起吃午饭。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "O meu filho começou a escola este ano.",
+    "en": "My son started school this year.",
+    "fr": "Mon fils a commencé l'école cette année.",
+    "zh": "我儿子今年开始上学了。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "A minha mãe faz um arroz de pato delicioso.",
+    "en": "My mother's duck rice is delicious.",
+    "fr": "Le riz au canard de ma mère est délicieux.",
+    "zh": "我妈妈做的鸭肉饭很好吃。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Provei o bolo que a tua mãe fez e estava ótimo.",
+    "en": "I tried the cake your mother made and it was delicious.",
+    "fr": "J'ai goûté le gâteau que ta mère a fait et il était excellent.",
+    "zh": "我尝了你妈妈做的蛋糕，很好吃。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Não como muita carne, prefiro peixe.",
+    "en": "I don't eat much meat; I prefer fish.",
+    "fr": "Je ne mange pas beaucoup de viande, je préfère le poisson.",
+    "zh": "我不太吃肉，更喜欢吃鱼。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Vou pedir uma sopa e um prato de peixe.",
+    "en": "I'll have a soup and a fish dish.",
+    "fr": "Je vais prendre une soupe et un plat de poisson.",
+    "zh": "我要一份汤和一道鱼。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Queres provar? Está muito bom.",
+    "en": "Do you want to try it? It's very good.",
+    "fr": "Tu veux goûter ? C'est très bon.",
+    "zh": "你要尝尝吗？很好吃。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "A comida aqui é caseira e barata.",
+    "en": "The food here is homemade and cheap.",
+    "fr": "La nourriture ici est faite maison et pas chère.",
+    "zh": "这里的饭菜是家常做的，而且便宜。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Já jantaste? Podemos ir comer qualquer coisa.",
+    "en": "Have you had dinner yet? We can go and get something to eat.",
+    "fr": "Tu as déjà dîné ? On peut aller manger quelque chose.",
+    "zh": "你吃晚饭了吗？我们可以去吃点东西。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Tenho de ir ao supermercado, falta-me o pão.",
+    "en": "I have to go to the supermarket; I'm out of bread.",
+    "fr": "Je dois aller au supermarché, je n'ai plus de pain.",
+    "zh": "我得去超市，家里没面包了。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "No bairro há uma praça com esplanadas.",
+    "en": "In the neighbourhood there's a square with café terraces.",
+    "fr": "Dans le quartier, il y a une place avec des terrasses de café.",
+    "zh": "街区里有一个带露天咖啡座的广场。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "A farmácia fica ali na esquina.",
+    "en": "The pharmacy is right on the corner.",
+    "fr": "La pharmacie est juste au coin de la rue.",
+    "zh": "药店就在街角。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Mudaste-te para cá há quanto tempo?",
+    "en": "How long have you been living here?",
+    "fr": "Tu habites ici depuis combien de temps ?",
+    "zh": "你搬来这里多久了？",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "O bairro é sossegado e tem bons transportes.",
+    "en": "The neighbourhood is quiet and has good public transport.",
+    "fr": "Le quartier est calme et bien desservi par les transports.",
+    "zh": "这个街区很安静，交通也方便。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Os vizinhos são simpáticos e ajudam-se uns aos outros.",
+    "en": "The neighbours are friendly and help each other.",
+    "fr": "Les voisins sont sympathiques et s'entraident.",
+    "zh": "邻居们很友好，互相帮忙。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Há um jardim novo atrás da igreja.",
+    "en": "There's a new garden behind the church.",
+    "fr": "Il y a un nouveau jardin derrière l'église.",
+    "zh": "教堂后面有一个新花园。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Ao sábado há feira na rua de baixo.",
+    "en": "On Saturdays there's a market on the street below.",
+    "fr": "Le samedi, il y a un marché dans la rue en bas.",
+    "zh": "每周六下面那条街有集市。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Desculpe, tem um minuto?",
+    "en": "Sorry, do you have a minute?",
+    "fr": "Excusez-moi, vous avez une minute ?",
+    "zh": "打扰一下，您有空吗？",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Posso perguntar-lhe uma coisa?",
+    "en": "May I ask you something?",
+    "fr": "Puis-je vous demander quelque chose ?",
+    "zh": "我可以问您一件事吗？",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Já agora, sabe onde fica a paragem do autocarro?",
+    "en": "By the way, do you know where the bus stop is?",
+    "fr": "Au fait, savez-vous où se trouve l'arrêt de bus ?",
+    "zh": "顺便问一下，您知道公交车站在哪儿吗？",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Não sei como agradecer a sua ajuda.",
+    "en": "I don't know how to thank you for your help.",
+    "fr": "Je ne sais comment vous remercier pour votre aide.",
+    "zh": "真不知道该怎么感谢您的帮助。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Não faz mal, acontece a todos.",
+    "en": "It's all right, it happens to everyone.",
+    "fr": "Ce n'est pas grave, ça arrive à tout le monde.",
+    "zh": "没关系，谁都会遇到。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "De nada, foi um prazer.",
+    "en": "You're welcome, it was a pleasure.",
+    "fr": "De rien, c'était un plaisir.",
+    "zh": "不客气，很高兴能帮忙。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Fica bem e bom fim de semana.",
+    "en": "Take care and have a good weekend.",
+    "fr": "Porte-toi bien et bon week-end.",
+    "zh": "保重，周末愉快。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Diz-me só uma coisa: gostaste do filme?",
+    "en": "Just tell me one thing: did you like the film?",
+    "fr": "Dis-moi juste une chose : tu as aimé le film ?",
+    "zh": "就问你一件事：你喜欢那部电影吗？",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "E tu, o que achaste?",
+    "en": "And you, what did you think?",
+    "fr": "Et toi, qu'est-ce que tu en as pensé ?",
+    "zh": "你呢，觉得怎么样？",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "A sério? Conta-me mais.",
+    "en": "Really? Tell me more.",
+    "fr": "Vraiment ? Dis-m'en plus.",
+    "zh": "真的吗？再多说点。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Entendo, deve ter sido difícil.",
+    "en": "I understand, it must have been difficult.",
+    "fr": "Je comprends, ça a dû être difficile.",
+    "zh": "我明白，那一定很难。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Que bom! Fico contente por ti.",
+    "en": "That's great! I'm happy for you.",
+    "fr": "Tant mieux ! Je suis content pour toi.",
+    "zh": "太好了！为你高兴。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Espero que corra tudo bem.",
+    "en": "I hope everything goes well.",
+    "fr": "J'espère que tout se passera bien.",
+    "zh": "希望一切顺利。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Depois diz-me como correu.",
+    "en": "Tell me later how it went.",
+    "fr": "Dis-moi plus tard comment ça s'est passé.",
+    "zh": "回头告诉我怎么样。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Temos de combinar isso melhor.",
+    "en": "We need to arrange that better.",
+    "fr": "Il faut qu'on organise ça mieux.",
+    "zh": "我们得好好安排一下。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Ainda não marcaste as férias?",
+    "en": "Haven't you booked your holidays yet?",
+    "fr": "Tu n'as pas encore réservé tes vacances ?",
+    "zh": "你还没订假期吗？",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Vou tentar ir ao ginásio esta semana.",
+    "en": "I'll try to go to the gym this week.",
+    "fr": "Je vais essayer d'aller à la salle de sport cette semaine.",
+    "zh": "这周我尽量去健身房。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Ao domingo à tarde, gosto de descansar em casa.",
+    "en": "On Sunday afternoons I like to relax at home.",
+    "fr": "Le dimanche après-midi, j'aime me reposer à la maison.",
+    "zh": "周日午后我喜欢在家休息。",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "A tua irmã ainda vive em Lisboa?",
+    "en": "Does your sister still live in Lisbon?",
+    "fr": "Ta sœur habite encore à Lisbonne ?",
+    "zh": "你姐姐还住在里斯本吗？",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Ela mudou-se para o Algarve no ano passado.",
+    "en": "She moved to the Algarve last year.",
+    "fr": "Elle a déménagé en Algarve l'année dernière.",
+    "zh": "她去年搬到了阿尔加维。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Onde é que compras o peixe?",
+    "en": "Where do you buy fish?",
+    "fr": "Où est-ce que tu achètes le poisson ?",
+    "zh": "你在哪儿买鱼？",
+    "level": "A1"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Há uma peixaria muito boa perto da praça.",
+    "en": "There's a very good fish shop near the square.",
+    "fr": "Il y a une très bonne poissonnerie près de la place.",
+    "zh": "广场附近有一家很好的鱼店。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Este bairro mudou muito nos últimos anos.",
+    "en": "This neighbourhood has changed a lot in recent years.",
+    "fr": "Ce quartier a beaucoup changé ces dernières années.",
+    "zh": "这个街区近几年变化很大。",
+    "level": "A2"
+  },
+  {
+    "group": "smalltalk",
+    "pt": "Gostei muito de conversar contigo.",
+    "en": "I really enjoyed talking with you.",
+    "fr": "J'ai beaucoup aimé discuter avec toi.",
+    "zh": "我很喜欢和你聊天。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Como está o tempo hoje?",
+    "en": "What's the weather like today?",
+    "fr": "Quel temps fait-il aujourd'hui ?",
+    "zh": "今天天气怎么样？",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Está um dia lindo.",
+    "en": "It's a beautiful day.",
+    "fr": "C'est une très belle journée.",
+    "zh": "今天天气真好。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "O céu está limpo, sem uma nuvem.",
+    "en": "The sky is clear, without a cloud.",
+    "fr": "Le ciel est dégagé, sans un nuage.",
+    "zh": "天空晴朗，万里无云。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Está sol, mas não faz muito calor.",
+    "en": "It's sunny, but it isn't very hot.",
+    "fr": "Il y a du soleil, mais il ne fait pas très chaud.",
+    "zh": "有太阳，但不太热。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Vou apanhar um pouco de sol.",
+    "en": "I'm going to get a bit of sun.",
+    "fr": "Je vais prendre un peu le soleil.",
+    "zh": "我去晒会儿太阳。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Está a chover.",
+    "en": "It's raining.",
+    "fr": "Il pleut.",
+    "zh": "正在下雨。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "A chuva não para.",
+    "en": "The rain won't stop.",
+    "fr": "La pluie ne s'arrête pas.",
+    "zh": "雨下个不停。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Leva o guarda-chuva, pode chover.",
+    "en": "Take your umbrella; it might rain.",
+    "fr": "Prends ton parapluie, il pourrait pleuvoir.",
+    "zh": "带上伞，可能会下雨。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Está a chover a potes.",
+    "en": "It's raining buckets.",
+    "fr": "Il pleut des cordes.",
+    "zh": "雨下得很大。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Acho que vem aí uma trovoada.",
+    "en": "I think a thunderstorm is coming.",
+    "fr": "Je crois qu'un orage arrive.",
+    "zh": "我觉得要打雷了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Houve um trovão enorme.",
+    "en": "There was a huge clap of thunder.",
+    "fr": "Il y a eu un énorme coup de tonnerre.",
+    "zh": "刚才打了一个响雷。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Está a chuviscar, não é preciso guarda-chuva.",
+    "en": "It's drizzling; you don't need an umbrella.",
+    "fr": "Il bruine, pas besoin de parapluie.",
+    "zh": "毛毛雨而已，不用带伞。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "O chão está molhado, deve ter chovido.",
+    "en": "The ground is wet; it must have rained.",
+    "fr": "Le sol est mouillé, il a dû pleuvoir.",
+    "zh": "地上湿了，应该下过雨。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Está muito vento hoje.",
+    "en": "It's very windy today.",
+    "fr": "Il y a beaucoup de vent aujourd'hui.",
+    "zh": "今天风很大。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "O vento está a levantar-se.",
+    "en": "The wind is picking up.",
+    "fr": "Le vent se lève.",
+    "zh": "风大起来了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Está um vento gelado.",
+    "en": "There's an icy wind.",
+    "fr": "Il y a un vent glacial.",
+    "zh": "风冷飕飕的。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "O vento arrancou as folhas das árvores.",
+    "en": "The wind tore the leaves off the trees.",
+    "fr": "Le vent a arraché les feuilles des arbres.",
+    "zh": "风把树叶刮掉了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Não consigo segurar o chapéu com este vento.",
+    "en": "I can't keep hold of my hat in this wind.",
+    "fr": "Je n'arrive pas à tenir mon chapeau avec ce vent.",
+    "zh": "风太大，我帽子都戴不住。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "A primavera é a minha estação preferida.",
+    "en": "Spring is my favourite season.",
+    "fr": "Le printemps est ma saison préférée.",
+    "zh": "春天是我最喜欢的季节。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "No verão faz muito calor aqui.",
+    "en": "It gets very hot here in summer.",
+    "fr": "Il fait très chaud ici en été.",
+    "zh": "这里夏天很热。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "No inverno, as noites são longas e frias.",
+    "en": "In winter the nights are long and cold.",
+    "fr": "En hiver, les nuits sont longues et froides.",
+    "zh": "冬天夜晚又长又冷。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "O outono chegou mais cedo este ano.",
+    "en": "Autumn came earlier this year.",
+    "fr": "L'automne est arrivé plus tôt cette année.",
+    "zh": "今年秋天来得早。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "As folhas começam a cair no outono.",
+    "en": "The leaves start falling in autumn.",
+    "fr": "Les feuilles commencent à tomber en automne.",
+    "zh": "秋天树叶开始飘落。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Está um dia de primavera, com sol e uma brisa leve.",
+    "en": "It's a spring day, with sunshine and a light breeze.",
+    "fr": "C'est un jour de printemps, avec du soleil et une légère brise.",
+    "zh": "春日融融，阳光明媚，微风轻拂。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "No verão costumamos ir à praia.",
+    "en": "In summer we usually go to the beach.",
+    "fr": "En été, nous allons souvent à la plage.",
+    "zh": "夏天我们常去海滩。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "No inverno preciso de um casaco quente.",
+    "en": "In winter I need a warm coat.",
+    "fr": "En hiver, j'ai besoin d'un manteau chaud.",
+    "zh": "冬天我需要一件暖和的大衣。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "A previsão do tempo diz que vai chover amanhã.",
+    "en": "The weather forecast says it's going to rain tomorrow.",
+    "fr": "La météo annonce qu'il va pleuvoir demain.",
+    "zh": "天气预报说明天有雨。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Vai estar sol no fim de semana.",
+    "en": "It's going to be sunny at the weekend.",
+    "fr": "Il y aura du soleil ce week-end.",
+    "zh": "周末会是晴天。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Segundo a previsão, as temperaturas vão descer.",
+    "en": "According to the forecast, temperatures will drop.",
+    "fr": "Selon la météo, les températures vont baisser.",
+    "zh": "预报说气温会下降。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Disseram na televisão que vem aí frio.",
+    "en": "They said on television that cold weather is on the way.",
+    "fr": "Ils ont dit à la télévision qu'il va faire froid.",
+    "zh": "电视上说寒潮要来了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "A previsão mudou outra vez.",
+    "en": "The forecast has changed again.",
+    "fr": "La météo a encore changé.",
+    "zh": "天气预报又变了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Vai haver trovoada à tarde.",
+    "en": "There's going to be a thunderstorm in the afternoon.",
+    "fr": "Il va y avoir un orage cet après-midi.",
+    "zh": "下午会有雷暴。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Amanhã vai estar nublado, mas sem chuva.",
+    "en": "Tomorrow it will be cloudy, but dry.",
+    "fr": "Demain, le temps sera nuageux, mais sans pluie.",
+    "zh": "明天多云，但不会下雨。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Parece que o bom tempo volta na segunda-feira.",
+    "en": "It looks like the good weather will return on Monday.",
+    "fr": "On dirait que le beau temps revient lundi.",
+    "zh": "看来周一会转晴。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Está um calor que não se aguenta.",
+    "en": "It's unbearably hot.",
+    "fr": "Il fait une chaleur insupportable.",
+    "zh": "热得让人受不了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Hoje está abafado, parece que vai chover.",
+    "en": "It's muggy today; it looks like it's going to rain.",
+    "fr": "Il fait lourd aujourd'hui, on dirait qu'il va pleuvoir.",
+    "zh": "今天很闷，好像要下雨。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Estou com calor, vou abrir a janela.",
+    "en": "I'm hot; I'm going to open the window.",
+    "fr": "J'ai chaud, je vais ouvrir la fenêtre.",
+    "zh": "我觉得热，去开窗。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Faz calor dentro de casa.",
+    "en": "It's hot inside the house.",
+    "fr": "Il fait chaud dans la maison.",
+    "zh": "屋里很热。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Com este calor, apetece-me uma bebida fresca.",
+    "en": "In this heat, I fancy a cold drink.",
+    "fr": "Avec cette chaleur, j'ai envie d'une boisson fraîche.",
+    "zh": "这么热，我想喝点冷饮。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Vamos para a sombra, está muito calor.",
+    "en": "Let's go into the shade; it's very hot.",
+    "fr": "Allons à l'ombre, il fait très chaud.",
+    "zh": "我们去阴凉处吧，太热了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Está frio, veste um casaco.",
+    "en": "It's cold; put on a coat.",
+    "fr": "Il fait froid, mets un manteau.",
+    "zh": "天冷了，穿上外套。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Estou com frio, fecha a porta, por favor.",
+    "en": "I'm cold; please close the door.",
+    "fr": "J'ai froid, ferme la porte, s'il te plaît.",
+    "zh": "我冷，请把门关上。",
+    "level": "A1"
+  },
+  {
+    "group": "weather",
+    "pt": "Faz um frio de rachar.",
+    "en": "It's freezing cold.",
+    "fr": "Il fait un froid de canard.",
+    "zh": "冷得刺骨。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "As mãos estão geladas.",
+    "en": "My hands are freezing.",
+    "fr": "Mes mains sont gelées.",
+    "zh": "手都冻僵了。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "O termómetro marca três graus.",
+    "en": "The thermometer says three degrees.",
+    "fr": "Le thermomètre indique trois degrés.",
+    "zh": "温度计显示三度。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Com este frio, apetece-me uma sopa.",
+    "en": "In this cold, I fancy some soup.",
+    "fr": "Avec ce froid, j'ai envie d'une soupe.",
+    "zh": "这么冷，我想喝碗汤。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "A noite vai ser fria, leva um casaco.",
+    "en": "The night will be cold; take a coat.",
+    "fr": "La nuit va être froide, prends un manteau.",
+    "zh": "夜里会冷，带件外套。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "O tempo está a mudar.",
+    "en": "The weather is changing.",
+    "fr": "Le temps est en train de changer.",
+    "zh": "天气在变。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Vamos ver como fica o tempo amanhã.",
+    "en": "Let's see what the weather will be like tomorrow.",
+    "fr": "Voyons quel temps il fera demain.",
+    "zh": "看看明天天气怎么样。",
+    "level": "A2"
+  },
+  {
+    "group": "weather",
+    "pt": "Espero que faça sol no fim de semana.",
+    "en": "I hope it will be sunny at the weekend.",
+    "fr": "J'espère qu'il fera beau ce week-end.",
+    "zh": "希望周末是个晴天。",
+    "level": "A2"
+  }
+]

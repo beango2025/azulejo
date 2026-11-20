@@ -2281,6 +2281,15 @@ img, svg { display: block; }
 .phrase-grid-head .icon { width: 12px; height: 12px; }
 
 .phrase-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+.phrase-scene-chips { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; scrollbar-width: auto; }
+.phrase-scene-chips .filter-chip { flex: none; }
+.phrase-level { margin-left: auto; padding: 2px 5px; border: 1px solid var(--line); border-radius: 4px; font-family: var(--font-mono); font-size: 7px; color: var(--muted); }
+.phrase-translations { display: grid; gap: 5px; margin-top: 9px; }
+.phrase-translations p { display: grid; grid-template-columns: 24px 1fr; gap: 6px; align-items: start; font-size: 10.5px; line-height: 1.5; color: var(--ink-2); }
+.phrase-translations b { padding-top: 1px; font-family: var(--font-mono); font-size: 7px; font-weight: 800; color: var(--muted); letter-spacing: .04em; }
+.phrase-translations p:first-child b { color: var(--terra); }
+.phrase-more { display: flex; justify-content: center; margin-top: 16px; }
+.phrase-more .btn { min-height: 38px; }
 
 .phrase-card {
   position: relative;
@@ -2392,6 +2401,13 @@ img, svg { display: block; }
 .featured-excerpt { margin-top: 13px; max-width: 480px; font-size: 12px; line-height: 1.7; color: var(--ink-2); }
 .featured-copy .text-link { margin-top: 19px; }
 
+.culture-category-chips { overflow-x: auto; flex-wrap: nowrap; margin-bottom: 14px; padding-bottom: 4px; scrollbar-width: auto; }
+.culture-category-chips .filter-chip { flex: none; }
+.culture-list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 18px 0 10px; font-size: 9.5px; color: var(--muted); }
+.article-title-translations { margin-top: 4px; font-size: 10px; line-height: 1.5; color: var(--muted); }
+.article-title-translations b { font-family: var(--font-mono); font-size: 7px; color: var(--terra); }
+.article-title-translations span { opacity: .5; }
+.article-section p + p { margin-top: 9px; }
 .article-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin-top: 14px; }
 
 .article-card {
@@ -3565,6 +3581,7 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
   .review-hero p { max-width: 580px; }
   .stats-grid-3 { grid-template-columns: 1fr 1fr 1fr; }
   .phrase-grid { grid-template-columns: 1fr; }
+  .phrase-translations p { font-size: 11px; }
   .featured-article { grid-template-columns: 1fr; }
   .featured-article .tile-art { min-height: 210px; }
   .featured-copy { padding: 26px 28px 28px; }

@@ -1,0 +1,802 @@
+[
+  {
+    "group": "phone",
+    "pt": "Está?",
+    "en": "Hello?",
+    "fr": "Allô ?",
+    "zh": "喂？",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Estou, diga.",
+    "en": "Speaking, go ahead.",
+    "fr": "Lui-même, je vous écoute.",
+    "zh": "我就是，请讲。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Posso falar com a Ana, por favor?",
+    "en": "May I speak to Ana, please?",
+    "fr": "Puis-je parler à Ana, s'il vous plaît ?",
+    "zh": "请问安娜在吗？",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "A Ana está, um momento.",
+    "en": "Ana is here, one moment.",
+    "fr": "Ana est là, un instant.",
+    "zh": "安娜在，请稍等。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Quem devo dizer que liga?",
+    "en": "Who shall I say is calling?",
+    "fr": "Qui dois-je annoncer ?",
+    "zh": "请问您是哪位？",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Sou eu, o Pedro.",
+    "en": "It's me, Pedro.",
+    "fr": "C'est moi, Pedro.",
+    "zh": "是我，佩德罗。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Não está neste momento.",
+    "en": "He's not in at the moment.",
+    "fr": "Il n'est pas là pour le moment.",
+    "zh": "他现在不在。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Quer deixar recado?",
+    "en": "Would you like to leave a message?",
+    "fr": "Voulez-vous laisser un message ?",
+    "zh": "您要留言吗？",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Pode tomar nota de um recado?",
+    "en": "Could you take a message?",
+    "fr": "Pouvez-vous prendre un message ?",
+    "zh": "您能帮我记个留言吗？",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Diga-lhe que liguei, por favor.",
+    "en": "Tell him I called, please.",
+    "fr": "Dites-lui que j'ai appelé, s'il vous plaît.",
+    "zh": "请告诉他我打过电话。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Ele que me ligue quando puder.",
+    "en": "He should call me when he can.",
+    "fr": "Qu'il me rappelle quand il pourra.",
+    "zh": "让他方便时给我回电话。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Já lhe passo.",
+    "en": "I'll put you through.",
+    "fr": "Je vous le passe.",
+    "zh": "我这就给您转过去。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Um momento, vou ver se está.",
+    "en": "One moment, I'll see if he's in.",
+    "fr": "Un instant, je vais voir s'il est là.",
+    "zh": "请稍等，我看看他在不在。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "A chamada está a cair.",
+    "en": "The call keeps dropping.",
+    "fr": "L'appel coupe sans arrêt.",
+    "zh": "电话老是断。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Não se ouve nada, a linha está má.",
+    "en": "I can't hear anything, the line is bad.",
+    "fr": "On n'entend rien, la ligne est mauvaise.",
+    "zh": "听不清，线路很差。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Está a ouvir-me agora?",
+    "en": "Can you hear me now?",
+    "fr": "Vous m'entendez maintenant ?",
+    "zh": "现在能听到我吗？",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Fale mais alto, por favor.",
+    "en": "Speak louder, please.",
+    "fr": "Parlez plus fort, s'il vous plaît.",
+    "zh": "请大声一点。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "A ligação caiu.",
+    "en": "The call dropped.",
+    "fr": "L'appel a été coupé.",
+    "zh": "电话断了。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Deu sinal de ocupado.",
+    "en": "It was engaged.",
+    "fr": "Ça sonnait occupé.",
+    "zh": "占线了。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Enganei-me no número.",
+    "en": "I dialled the wrong number.",
+    "fr": "Je me suis trompé de numéro.",
+    "zh": "我打错号码了。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Desculpe, foi engano.",
+    "en": "Sorry, wrong number.",
+    "fr": "Désolé, erreur de numéro.",
+    "zh": "抱歉，打错了。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Pode repetir, por favor?",
+    "en": "Could you repeat that, please?",
+    "fr": "Pouvez-vous répéter, s'il vous plaît ?",
+    "zh": "请再说一遍。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Não ouvi bem o seu nome.",
+    "en": "I didn't catch your name.",
+    "fr": "Je n'ai pas bien saisi votre nom.",
+    "zh": "我没听清您的名字。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Pode soletrar, por favor?",
+    "en": "Could you spell it, please?",
+    "fr": "Pouvez-vous l'épeler, s'il vous plaît ?",
+    "zh": "您能拼一下吗？",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Tenho de desligar, estou a conduzir.",
+    "en": "I have to hang up, I'm driving.",
+    "fr": "Je dois raccrocher, je conduis.",
+    "zh": "我得挂了，我在开车。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Ligo-lhe daqui a pouco.",
+    "en": "I'll call you shortly.",
+    "fr": "Je vous rappelle dans un instant.",
+    "zh": "我过一会儿给您回电话。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Ligo-lhe mais logo.",
+    "en": "I'll call you later.",
+    "fr": "Je vous rappelle plus tard.",
+    "zh": "我晚点再打给您。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Pode ligar-me de volta?",
+    "en": "Could you call me back?",
+    "fr": "Pouvez-vous me rappeler ?",
+    "zh": "您能给我回个电话吗？",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Eu ligo-lhe amanhã.",
+    "en": "I'll call you tomorrow.",
+    "fr": "Je vous appelle demain.",
+    "zh": "我明天打给您。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Vou deixar mensagem no voicemail.",
+    "en": "I'll leave a voicemail.",
+    "fr": "Je vais laisser un message sur le répondeur.",
+    "zh": "我会在语音信箱留言。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "A caixa de voicemail está cheia.",
+    "en": "The voicemail box is full.",
+    "fr": "La boîte vocale est pleine.",
+    "zh": "语音信箱满了。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Mandei-lhe uma mensagem.",
+    "en": "I sent you a message.",
+    "fr": "Je vous ai envoyé un message.",
+    "zh": "我给您发了条消息。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Responda à mensagem, por favor.",
+    "en": "Please reply to the message.",
+    "fr": "Répondez au message, s'il vous plaît.",
+    "zh": "请回一下消息。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Estou sem saldo, não consigo ligar.",
+    "en": "I've run out of credit, I can't call.",
+    "fr": "Je n'ai plus de crédit, je ne peux pas appeler.",
+    "zh": "我没话费了，打不了电话。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "O telemóvel ficou sem bateria.",
+    "en": "My mobile ran out of battery.",
+    "fr": "Mon portable n'a plus de batterie.",
+    "zh": "手机没电了。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Qual é o seu número?",
+    "en": "What's your number?",
+    "fr": "Quel est votre numéro ?",
+    "zh": "您的号码是多少？",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Anote o meu número, por favor.",
+    "en": "Please write down my number.",
+    "fr": "Notez mon numéro, s'il vous plaît.",
+    "zh": "请记一下我的号码。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Estou a ligar por causa da marcação.",
+    "en": "I'm calling about the appointment.",
+    "fr": "J'appelle au sujet du rendez-vous.",
+    "zh": "我打电话是为了预约的事。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "É da parte de quem?",
+    "en": "Who's calling, please?",
+    "fr": "De la part de qui ?",
+    "zh": "请问是谁打来的？",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Da parte do Sr. Silva.",
+    "en": "On behalf of Mr. Silva.",
+    "fr": "De la part de M. Silva.",
+    "zh": "是席尔瓦先生那边。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Ele não está, quer deixar o seu contacto?",
+    "en": "He's not in, would you like to leave your contact?",
+    "fr": "Il n'est pas là, voulez-vous laisser vos coordonnées ?",
+    "zh": "他不在，您要留个联系方式吗？",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Deixe o seu número e ele retribui.",
+    "en": "Leave your number and he'll call you back.",
+    "fr": "Laissez votre numéro et il vous rappellera.",
+    "zh": "留下号码，他会回电话。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "A chamada vai ser gravada.",
+    "en": "This call will be recorded.",
+    "fr": "Cet appel va être enregistré.",
+    "zh": "本次通话将被录音。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Obrigado pela chamada.",
+    "en": "Thank you for calling.",
+    "fr": "Merci de votre appel.",
+    "zh": "谢谢来电。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Atende, é para ti.",
+    "en": "Answer it, it's for you.",
+    "fr": "Réponds, c'est pour toi.",
+    "zh": "接吧，找你的。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Não atendas, é publicidade.",
+    "en": "Don't answer, it's an ad.",
+    "fr": "Ne réponds pas, c'est de la pub.",
+    "zh": "别接，是广告。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "O telefone está a tocar.",
+    "en": "The phone is ringing.",
+    "fr": "Le téléphone sonne.",
+    "zh": "电话在响。",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "Consegue ouvir-me bem?",
+    "en": "Can you hear me well?",
+    "fr": "Vous m'entendez bien ?",
+    "zh": "您听得清吗？",
+    "level": "A1"
+  },
+  {
+    "group": "phone",
+    "pt": "A linha está mesmo má, vou tentar outra vez.",
+    "en": "The line is really bad, I'll try again.",
+    "fr": "La ligne est vraiment mauvaise, je vais réessayer.",
+    "zh": "线路太差了，我再试一次。",
+    "level": "A2"
+  },
+  {
+    "group": "phone",
+    "pt": "Falamos já, está bem?",
+    "en": "We'll talk in a bit, okay?",
+    "fr": "On se parle tout à l'heure, d'accord ?",
+    "zh": "我们等会儿再聊，好吗？",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Vamos sair hoje à noite?",
+    "en": "Shall we go out tonight?",
+    "fr": "On sort ce soir ?",
+    "zh": "今晚我们出去吗？",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Queres ir beber um copo?",
+    "en": "Do you want to go for a drink?",
+    "fr": "Tu veux aller boire un verre ?",
+    "zh": "想去喝一杯吗？",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Apetece-te jantar fora?",
+    "en": "Do you fancy dinner out?",
+    "fr": "Ça te dit de dîner dehors ?",
+    "zh": "想出去吃晚饭吗？",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Conta comigo.",
+    "en": "Count me in.",
+    "fr": "Compte sur moi.",
+    "zh": "算我一个。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Estou dentro.",
+    "en": "I'm in.",
+    "fr": "Je suis partant.",
+    "zh": "我加入。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Com todo o gosto.",
+    "en": "With pleasure.",
+    "fr": "Avec plaisir.",
+    "zh": "非常乐意。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Adorava, mas não posso.",
+    "en": "I'd love to, but I can't.",
+    "fr": "J'adorerais, mais je ne peux pas.",
+    "zh": "我很想去，但不行。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Hoje não me dá jeito.",
+    "en": "Today doesn't work for me.",
+    "fr": "Aujourd'hui, ça ne m'arrange pas.",
+    "zh": "今天我不方便。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Fica para a próxima.",
+    "en": "Maybe next time.",
+    "fr": "Ce sera pour la prochaine fois.",
+    "zh": "下次吧。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Tenho de recusar, desculpa.",
+    "en": "I have to say no, sorry.",
+    "fr": "Je dois refuser, désolé.",
+    "zh": "我只能拒绝，抱歉。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Já tenho planos, infelizmente.",
+    "en": "I already have plans, unfortunately.",
+    "fr": "J'ai déjà des plans, malheureusement.",
+    "zh": "可惜我已经有安排了。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Vamos combinar noutro dia.",
+    "en": "Let's arrange another day.",
+    "fr": "On se fixe un autre jour.",
+    "zh": "我们改天再约。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Que tal sábado à tarde?",
+    "en": "How about Saturday afternoon?",
+    "fr": "Ça te dit samedi après-midi ?",
+    "zh": "周六下午怎么样？",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "A que horas te dá jeito?",
+    "en": "What time suits you?",
+    "fr": "À quelle heure ça t'arrange ?",
+    "zh": "你几点方便？",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Por mim, está bem.",
+    "en": "I'm fine with that.",
+    "fr": "Pour moi, c'est bon.",
+    "zh": "我没问题。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Combinado.",
+    "en": "Deal.",
+    "fr": "Marché conclu.",
+    "zh": "说定了。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Fica combinado.",
+    "en": "It's settled then.",
+    "fr": "C'est entendu.",
+    "zh": "就这么定了。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Encontro-nos às oito.",
+    "en": "Let's meet at eight.",
+    "fr": "On se retrouve à huit heures.",
+    "zh": "我们八点见。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Encontramo-nos à porta.",
+    "en": "Let's meet at the door.",
+    "fr": "On se retrouve à la porte.",
+    "zh": "我们在门口见。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Aparece lá em casa.",
+    "en": "Drop by my place.",
+    "fr": "Passe chez moi.",
+    "zh": "来我家坐坐。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Aparece quando quiseres.",
+    "en": "Come by whenever you want.",
+    "fr": "Passe quand tu veux.",
+    "zh": "你想来就来。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Estás convidado.",
+    "en": "You're invited.",
+    "fr": "Tu es invité.",
+    "zh": "邀请你。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Contamos contigo no jantar.",
+    "en": "We're counting on you for dinner.",
+    "fr": "On compte sur toi pour le dîner.",
+    "zh": "晚饭我们等你。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Vou levar uma garrafa de vinho.",
+    "en": "I'll bring a bottle of wine.",
+    "fr": "J'apporterai une bouteille de vin.",
+    "zh": "我带一瓶葡萄酒。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Queres que leve alguma coisa?",
+    "en": "Do you want me to bring anything?",
+    "fr": "Tu veux que j'apporte quelque chose ?",
+    "zh": "要我带点什么吗？",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Levo uma sobremesa.",
+    "en": "I'll bring a dessert.",
+    "fr": "J'apporte un dessert.",
+    "zh": "我带个甜点。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Já comeste?",
+    "en": "Have you eaten yet?",
+    "fr": "Tu as déjà mangé ?",
+    "zh": "你吃了吗？",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Está tudo bem contigo?",
+    "en": "Are you okay?",
+    "fr": "Tout va bien ?",
+    "zh": "你还好吗？",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Como é que vais?",
+    "en": "How are you doing?",
+    "fr": "Comment ça va ?",
+    "zh": "你怎么样？",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Há quanto tempo!",
+    "en": "Long time no see!",
+    "fr": "Ça fait longtemps !",
+    "zh": "好久不见！",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Que bom ver-te!",
+    "en": "So good to see you!",
+    "fr": "Quel plaisir de te voir !",
+    "zh": "见到你真好！",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Tens de me contar tudo.",
+    "en": "You have to tell me everything.",
+    "fr": "Tu dois tout me raconter.",
+    "zh": "你得全告诉我。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Gostei muito da tua camisa.",
+    "en": "I really liked your shirt.",
+    "fr": "J'aime beaucoup ta chemise.",
+    "zh": "我很喜欢你的衬衫。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Fica-te mesmo bem.",
+    "en": "It really suits you.",
+    "fr": "Ça te va vraiment bien.",
+    "zh": "很适合你。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Estás com ótimo aspeto.",
+    "en": "You look great.",
+    "fr": "Tu as l'air en pleine forme.",
+    "zh": "你气色很好。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Parabéns pelo trabalho!",
+    "en": "Congratulations on your work!",
+    "fr": "Félicitations pour le travail !",
+    "zh": "工作干得漂亮！",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Fizeste um excelente trabalho.",
+    "en": "You did an excellent job.",
+    "fr": "Tu as fait un excellent travail.",
+    "zh": "你做得非常出色。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "A comida estava deliciosa.",
+    "en": "The food was delicious.",
+    "fr": "La nourriture était délicieuse.",
+    "zh": "饭菜很好吃。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Obrigado pelo convite.",
+    "en": "Thanks for the invitation.",
+    "fr": "Merci pour l'invitation.",
+    "zh": "谢谢邀请。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Foi uma noite muito agradável.",
+    "en": "It was a lovely evening.",
+    "fr": "C'était une très belle soirée.",
+    "zh": "今晚很愉快。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Divertimo-nos imenso.",
+    "en": "We had a great time.",
+    "fr": "On s'est bien amusés.",
+    "zh": "我们玩得很开心。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Vamos repetir.",
+    "en": "Let's do it again.",
+    "fr": "On remet ça.",
+    "zh": "我们再聚。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Mantém-te em contacto.",
+    "en": "Keep in touch.",
+    "fr": "Garde le contact.",
+    "zh": "保持联系。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Manda-me notícias.",
+    "en": "Let me know how you're doing.",
+    "fr": "Donne-moi de tes nouvelles.",
+    "zh": "给我说说你的近况。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Dá-me um toque quando chegares.",
+    "en": "Give me a call when you arrive.",
+    "fr": "Passe-moi un coup de fil quand tu arrives.",
+    "zh": "到了给我打个电话。",
+    "level": "A2"
+  },
+  {
+    "group": "social",
+    "pt": "Falamos depois.",
+    "en": "We'll talk later.",
+    "fr": "On se parle plus tard.",
+    "zh": "回头聊。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Vemo-nos na sexta.",
+    "en": "See you on Friday.",
+    "fr": "On se voit vendredi.",
+    "zh": "周五见。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Até breve.",
+    "en": "See you soon.",
+    "fr": "À bientôt.",
+    "zh": "回头见。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Um beijinho, até amanhã.",
+    "en": "Love, see you tomorrow.",
+    "fr": "Gros bisous, à demain.",
+    "zh": "亲一下，明天见。",
+    "level": "A1"
+  },
+  {
+    "group": "social",
+    "pt": "Aparece mais vezes.",
+    "en": "Come round more often.",
+    "fr": "Passe plus souvent.",
+    "zh": "多来玩。",
+    "level": "A2"
+  }
+]

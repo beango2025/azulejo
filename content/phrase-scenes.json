@@ -1,0 +1,122 @@
+[
+  {
+    "key": "greetings",
+    "pt": "Cumprimentos",
+    "zh": "问候",
+    "level": "A1"
+  },
+  {
+    "key": "cafe",
+    "pt": "No café",
+    "zh": "咖啡馆",
+    "level": "A1"
+  },
+  {
+    "key": "restaurant",
+    "pt": "No restaurante",
+    "zh": "餐厅",
+    "level": "A1"
+  },
+  {
+    "key": "market",
+    "pt": "No mercado",
+    "zh": "市场",
+    "level": "A1"
+  },
+  {
+    "key": "transport",
+    "pt": "Transportes",
+    "zh": "交通",
+    "level": "A1"
+  },
+  {
+    "key": "directions",
+    "pt": "Direções",
+    "zh": "问路",
+    "level": "A1"
+  },
+  {
+    "key": "shopping",
+    "pt": "Compras",
+    "zh": "购物",
+    "level": "A1"
+  },
+  {
+    "key": "services",
+    "pt": "Serviços",
+    "zh": "日常服务",
+    "level": "A2"
+  },
+  {
+    "key": "health",
+    "pt": "Saúde",
+    "zh": "医疗",
+    "level": "A2"
+  },
+  {
+    "key": "pharmacy",
+    "pt": "Farmácia",
+    "zh": "药店",
+    "level": "A2"
+  },
+  {
+    "key": "housing",
+    "pt": "Casa",
+    "zh": "租房居住",
+    "level": "A2"
+  },
+  {
+    "key": "work",
+    "pt": "Trabalho",
+    "zh": "工作",
+    "level": "A2"
+  },
+  {
+    "key": "phone",
+    "pt": "Ao telefone",
+    "zh": "电话",
+    "level": "A2"
+  },
+  {
+    "key": "social",
+    "pt": "Vida social",
+    "zh": "社交",
+    "level": "A1"
+  },
+  {
+    "key": "smalltalk",
+    "pt": "Conversa",
+    "zh": "闲聊",
+    "level": "A2"
+  },
+  {
+    "key": "weather",
+    "pt": "Tempo",
+    "zh": "天气",
+    "level": "A1"
+  },
+  {
+    "key": "travel",
+    "pt": "Viagens",
+    "zh": "旅行",
+    "level": "A2"
+  },
+  {
+    "key": "hotel",
+    "pt": "Hotel",
+    "zh": "酒店",
+    "level": "A2"
+  },
+  {
+    "key": "emergencies",
+    "pt": "Emergências",
+    "zh": "紧急情况",
+    "level": "A2"
+  },
+  {
+    "key": "opinions",
+    "pt": "Opiniões",
+    "zh": "观点讨论",
+    "level": "B1"
+  }
+]

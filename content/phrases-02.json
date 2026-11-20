@@ -1,0 +1,802 @@
+[
+  {
+    "group": "restaurant",
+    "pt": "Boa noite, queria reservar uma mesa para duas pessoas.",
+    "en": "Good evening, I'd like to book a table for two.",
+    "fr": "Bonsoir, je voudrais réserver une table pour deux personnes.",
+    "zh": "晚上好，我想订一张两人桌。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Têm mesa para quatro às oito?",
+    "en": "Do you have a table for four at eight?",
+    "fr": "Avez-vous une table pour quatre à huit heures ?",
+    "zh": "八点有四人桌吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Pode ser para amanhã à noite?",
+    "en": "Could it be for tomorrow evening?",
+    "fr": "Est-ce que ce serait pour demain soir ?",
+    "zh": "可以订明天晚上吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Temos reserva em nome da Silva.",
+    "en": "We have a reservation under the name Silva.",
+    "fr": "Nous avons une réservation au nom de Silva.",
+    "zh": "我们用席尔瓦的名字订了位。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Queria uma mesa perto da janela, se possível.",
+    "en": "I'd like a table by the window, if possible.",
+    "fr": "Je voudrais une table près de la fenêtre, si possible.",
+    "zh": "如果可以，我想要靠窗的桌子。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Há mesas livres lá fora?",
+    "en": "Are there any free tables outside?",
+    "fr": "Y a-t-il des tables libres dehors ?",
+    "zh": "外面有空桌吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Preferimos uma mesa no interior.",
+    "en": "We prefer a table inside.",
+    "fr": "Nous préférons une table à l'intérieur.",
+    "zh": "我们更喜欢里面的桌子。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Podemos mudar a reserva para as nove?",
+    "en": "Can we move the reservation to nine?",
+    "fr": "Pouvons-nous déplacer la réservation à neuf heures ?",
+    "zh": "能把预订改到九点吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Pode trazer-nos a carta, por favor?",
+    "en": "Could you bring us the menu, please?",
+    "fr": "Pourriez-vous nous apporter la carte, s'il vous plaît ?",
+    "zh": "请把菜单拿给我们好吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "O que é que recomenda?",
+    "en": "What do you recommend?",
+    "fr": "Qu'est-ce que vous recommandez ?",
+    "zh": "您推荐什么？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Qual é o prato do dia?",
+    "en": "What is the dish of the day?",
+    "fr": "Quel est le plat du jour ?",
+    "zh": "今日特色菜是什么？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "A sopa do dia é o quê?",
+    "en": "What is the soup of the day?",
+    "fr": "La soupe du jour, c'est quoi ?",
+    "zh": "今日例汤是什么？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Há menu vegetariano?",
+    "en": "Do you have a vegetarian menu?",
+    "fr": "Avez-vous un menu végétarien ?",
+    "zh": "有素食菜单吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "O que é a francesinha?",
+    "en": "What is a francesinha?",
+    "fr": "Qu'est-ce que la francesinha ?",
+    "zh": "Francesinha 是什么菜？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Isto leva carne de porco?",
+    "en": "Does this contain pork?",
+    "fr": "Est-ce qu'il y a du porc dedans ?",
+    "zh": "这个含猪肉吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Tem pratos para crianças?",
+    "en": "Do you have dishes for children?",
+    "fr": "Avez-vous des plats pour enfants ?",
+    "zh": "有儿童餐吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Queria ver a carta de vinhos.",
+    "en": "I'd like to see the wine list.",
+    "fr": "Je voudrais voir la carte des vins.",
+    "zh": "我想看酒单。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Sou alérgico a marisco.",
+    "en": "I'm allergic to seafood.",
+    "fr": "Je suis allergique aux fruits de mer.",
+    "zh": "我对海鲜过敏。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Tenho alergia a frutos secos.",
+    "en": "I have a nut allergy.",
+    "fr": "Je suis allergique aux fruits à coque.",
+    "zh": "我对坚果过敏。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Este prato tem glúten?",
+    "en": "Does this dish contain gluten?",
+    "fr": "Ce plat contient-il du gluten ?",
+    "zh": "这道菜含麸质吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Não posso comer nada com lactose.",
+    "en": "I can't eat anything with lactose.",
+    "fr": "Je ne peux rien manger qui contienne du lactose.",
+    "zh": "我不能吃含乳糖的东西。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "É possível fazer o prato sem cebola?",
+    "en": "Is it possible to make the dish without onion?",
+    "fr": "Est-il possible de faire le plat sans oignon ?",
+    "zh": "这道菜可以不放洋葱吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "O molho leva amendoim?",
+    "en": "Does the sauce contain peanuts?",
+    "fr": "La sauce contient-elle des cacahuètes ?",
+    "zh": "酱汁里有花生吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Tenho intolerância ao glúten.",
+    "en": "I'm gluten intolerant.",
+    "fr": "Je suis intolérant au gluten.",
+    "zh": "我对麸质不耐受。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Pode confirmar com o cozinheiro?",
+    "en": "Can you confirm with the chef?",
+    "fr": "Pouvez-vous confirmer avec le chef ?",
+    "zh": "您能跟厨师确认一下吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "A sobremesa tem ovos?",
+    "en": "Does the dessert contain eggs?",
+    "fr": "Le dessert contient-il des œufs ?",
+    "zh": "甜点里有鸡蛋吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Queria uma sopa e um bife, por favor.",
+    "en": "I'd like a soup and a steak, please.",
+    "fr": "Je voudrais une soupe et un steak, s'il vous plaît.",
+    "zh": "我要一份汤和一份牛排。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Para mim, o peixe grelhado.",
+    "en": "For me, the grilled fish.",
+    "fr": "Pour moi, le poisson grillé.",
+    "zh": "我要烤鱼。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Vou querer o arroz de pato.",
+    "en": "I'll have the duck rice.",
+    "fr": "Je vais prendre le riz au canard.",
+    "zh": "我要鸭肉饭。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Um copo de vinho branco, por favor.",
+    "en": "A glass of white wine, please.",
+    "fr": "Un verre de vin blanc, s'il vous plaît.",
+    "zh": "请来一杯白葡萄酒。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Pode trazer pão e azeitonas?",
+    "en": "Could you bring bread and olives?",
+    "fr": "Pourriez-vous apporter du pain et des olives ?",
+    "zh": "可以上面包和橄榄吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Queremos uma garrafa de água para a mesa.",
+    "en": "We'd like a bottle of water for the table.",
+    "fr": "Nous voudrions une bouteille d'eau pour la table.",
+    "zh": "我们要一瓶水放在桌上。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "A carne, mal passada, por favor.",
+    "en": "The meat, rare, please.",
+    "fr": "La viande, saignante, s'il vous plaît.",
+    "zh": "肉要三分熟。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Também queria uma salada.",
+    "en": "I'd also like a salad.",
+    "fr": "Je voudrais aussi une salade.",
+    "zh": "我还要一份沙拉。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Não queremos mais nada, obrigado.",
+    "en": "We don't want anything else, thank you.",
+    "fr": "Nous ne voulons rien d'autre, merci.",
+    "zh": "我们不要别的了，谢谢。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Isto não é o que eu pedi.",
+    "en": "This isn't what I ordered.",
+    "fr": "Ce n'est pas ce que j'ai commandé.",
+    "zh": "这不是我点的。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "A sopa está fria.",
+    "en": "The soup is cold.",
+    "fr": "La soupe est froide.",
+    "zh": "汤是凉的。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Este bife está demasiado passado.",
+    "en": "This steak is too well done.",
+    "fr": "Ce steak est trop cuit.",
+    "zh": "这份牛排太熟了。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Falta um prato na nossa mesa.",
+    "en": "There's a dish missing at our table.",
+    "fr": "Il manque un plat à notre table.",
+    "zh": "我们桌上少了一道菜。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Desculpe, mas a conta não está certa.",
+    "en": "Excuse me, but the bill isn't right.",
+    "fr": "Excusez-moi, mais l'addition n'est pas correcte.",
+    "zh": "不好意思，账单不对。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Já esperamos há meia hora.",
+    "en": "We've been waiting for half an hour.",
+    "fr": "Nous attendons depuis une demi-heure.",
+    "zh": "我们已经等了半小时。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Pode trocar este prato, por favor?",
+    "en": "Could you change this dish, please?",
+    "fr": "Pourriez-vous changer ce plat, s'il vous plaît ?",
+    "zh": "可以换一下这道菜吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Chame o gerente, por favor.",
+    "en": "Call the manager, please.",
+    "fr": "Appelez le gérant, s'il vous plaît.",
+    "zh": "请叫经理来。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Pode trazer-nos a conta, por favor?",
+    "en": "Could you bring us the bill, please?",
+    "fr": "Pourriez-vous nous apporter l'addition, s'il vous plaît ?",
+    "zh": "请把账单拿给我们好吗？",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Queria pagar a conta, por favor.",
+    "en": "I'd like to pay the bill, please.",
+    "fr": "Je voudrais payer l'addition, s'il vous plaît.",
+    "zh": "我想结账。",
+    "level": "A1"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Podemos pagar em separado?",
+    "en": "Can we pay separately?",
+    "fr": "Pouvons-nous payer séparément ?",
+    "zh": "我们可以分开付吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Aceitam cartão Multibanco?",
+    "en": "Do you accept Multibanco cards?",
+    "fr": "Acceptez-vous la carte Multibanco ?",
+    "zh": "可以刷 Multibanco 卡吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Está incluído o serviço?",
+    "en": "Is service included?",
+    "fr": "Le service est-il compris ?",
+    "zh": "服务费包含在内吗？",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Pode ficar com o troco.",
+    "en": "You can keep the change.",
+    "fr": "Vous pouvez garder la monnaie.",
+    "zh": "零钱不用找了。",
+    "level": "A2"
+  },
+  {
+    "group": "restaurant",
+    "pt": "Queria uma fatura, por favor.",
+    "en": "I'd like an invoice, please.",
+    "fr": "Je voudrais une facture, s'il vous plaît.",
+    "zh": "我要一张发票。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Bom dia, tem tomates frescos?",
+    "en": "Good morning, do you have fresh tomatoes?",
+    "fr": "Bonjour, avez-vous des tomates fraîches ?",
+    "zh": "早上好，有新鲜西红柿吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Quanto custam estas maçãs?",
+    "en": "How much do these apples cost?",
+    "fr": "Combien coûtent ces pommes ?",
+    "zh": "这些苹果多少钱？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "O que é que tem hoje de fresco?",
+    "en": "What do you have fresh today?",
+    "fr": "Qu'est-ce que vous avez de frais aujourd'hui ?",
+    "zh": "今天有什么新鲜的？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Essas laranjas são de onde?",
+    "en": "Where are those oranges from?",
+    "fr": "D'où viennent ces oranges ?",
+    "zh": "那些橙子是哪儿产的？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Queria um quilo de batatas.",
+    "en": "I'd like a kilo of potatoes.",
+    "fr": "Je voudrais un kilo de pommes de terre.",
+    "zh": "我要一公斤土豆。",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Dê-me meio quilo de cenouras, por favor.",
+    "en": "Give me half a kilo of carrots, please.",
+    "fr": "Donnez-moi un demi-kilo de carottes, s'il vous plaît.",
+    "zh": "请给我半公斤胡萝卜。",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Quanto é que devo?",
+    "en": "How much do I owe?",
+    "fr": "Combien je vous dois ?",
+    "zh": "我该付多少钱？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Está muito caro.",
+    "en": "That's very expensive.",
+    "fr": "C'est très cher.",
+    "zh": "太贵了。",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Pode fazer mais barato?",
+    "en": "Can you make it cheaper?",
+    "fr": "Vous pouvez faire moins cher ?",
+    "zh": "能便宜点吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Faz-me um desconto?",
+    "en": "Will you give me a discount?",
+    "fr": "Vous me faites un prix ?",
+    "zh": "能给我打个折吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Levo dois quilos, então.",
+    "en": "I'll take two kilos, then.",
+    "fr": "Alors je prends deux kilos.",
+    "zh": "那我要两公斤。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Queria três dessas peras.",
+    "en": "I'd like three of those pears.",
+    "fr": "Je voudrais trois de ces poires.",
+    "zh": "我要三个那种梨。",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Tem alface e couve?",
+    "en": "Do you have lettuce and cabbage?",
+    "fr": "Avez-vous de la laitue et du chou ?",
+    "zh": "有生菜和卷心菜吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "O peixe é fresco?",
+    "en": "Is the fish fresh?",
+    "fr": "Le poisson est frais ?",
+    "zh": "鱼新鲜吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Posso provar uma azeitona?",
+    "en": "Can I taste an olive?",
+    "fr": "Je peux goûter une olive ?",
+    "zh": "我可以尝一颗橄榄吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Estas uvas são doces?",
+    "en": "Are these grapes sweet?",
+    "fr": "Ces raisins sont sucrés ?",
+    "zh": "这葡萄甜吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Queria duzentos gramas de queijo.",
+    "en": "I'd like two hundred grams of cheese.",
+    "fr": "Je voudrais deux cents grammes de fromage.",
+    "zh": "我要两百克奶酪。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Um molho de salsa, por favor.",
+    "en": "A bunch of parsley, please.",
+    "fr": "Un bouquet de persil, s'il vous plaît.",
+    "zh": "请来一把欧芹。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Quanto custa o quilo das cerejas?",
+    "en": "How much is a kilo of cherries?",
+    "fr": "Combien coûte le kilo de cerises ?",
+    "zh": "樱桃一公斤多少钱？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Tem feijão verde?",
+    "en": "Do you have green beans?",
+    "fr": "Avez-vous des haricots verts ?",
+    "zh": "有四季豆吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "É só isto, obrigado.",
+    "en": "That's all, thank you.",
+    "fr": "C'est tout, merci.",
+    "zh": "就这些，谢谢。",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Queria um saco, por favor.",
+    "en": "I'd like a bag, please.",
+    "fr": "Je voudrais un sac, s'il vous plaît.",
+    "zh": "请给我一个袋子。",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Pode cortar-me este queijo?",
+    "en": "Can you cut this cheese for me?",
+    "fr": "Pouvez-vous me couper ce fromage ?",
+    "zh": "能帮我把这块奶酪切一下吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Esse mel é da região?",
+    "en": "Is that honey from the region?",
+    "fr": "Ce miel est de la région ?",
+    "zh": "这蜂蜜是本地的吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Queria provar esse queijo.",
+    "en": "I'd like to taste that cheese.",
+    "fr": "Je voudrais goûter ce fromage.",
+    "zh": "我想尝尝那种奶酪。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "A carne é de porco preto?",
+    "en": "Is the meat from black pork?",
+    "fr": "La viande est du porc noir ?",
+    "zh": "这肉是黑猪肉吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Tem ovos do dia?",
+    "en": "Do you have eggs from today?",
+    "fr": "Avez-vous des œufs du jour ?",
+    "zh": "有当天的鸡蛋吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Quanto custa uma dúzia de ovos?",
+    "en": "How much is a dozen eggs?",
+    "fr": "Combien coûte une douzaine d'œufs ?",
+    "zh": "一打鸡蛋多少钱？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Prefiro os mais maduros.",
+    "en": "I prefer the riper ones.",
+    "fr": "Je préfère les plus mûrs.",
+    "zh": "我要熟一点的。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Estes estão um pouco verdes.",
+    "en": "These are a bit green.",
+    "fr": "Ceux-ci sont un peu verts.",
+    "zh": "这些有点生。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Pode escolher os melhores para mim?",
+    "en": "Can you pick the best ones for me?",
+    "fr": "Pouvez-vous choisir les meilleurs pour moi ?",
+    "zh": "能帮我挑最好的吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Levo um quilo de maçãs e meio de peras.",
+    "en": "I'll take a kilo of apples and half a kilo of pears.",
+    "fr": "Je prends un kilo de pommes et un demi-kilo de poires.",
+    "zh": "我要一公斤苹果和半公斤梨。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Aceita cartão?",
+    "en": "Do you take cards?",
+    "fr": "Vous acceptez la carte ?",
+    "zh": "可以刷卡吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Só tenho uma nota de vinte.",
+    "en": "I only have a twenty-euro note.",
+    "fr": "Je n'ai qu'un billet de vingt euros.",
+    "zh": "我只有一张二十欧的纸币。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Tem troco para cinquenta euros?",
+    "en": "Do you have change for fifty euros?",
+    "fr": "Vous avez de la monnaie sur cinquante euros ?",
+    "zh": "您有五十欧元的零钱吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Pode dar-me o troco em moedas?",
+    "en": "Can you give me the change in coins?",
+    "fr": "Pouvez-vous me rendre la monnaie en pièces ?",
+    "zh": "能找我硬币吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Queria o recibo, por favor.",
+    "en": "I'd like the receipt, please.",
+    "fr": "Je voudrais le reçu, s'il vous plaît.",
+    "zh": "我要收据。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Quanto fica tudo junto?",
+    "en": "How much is it altogether?",
+    "fr": "Ça fait combien en tout ?",
+    "zh": "一共多少钱？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Vou levar mais um pouco.",
+    "en": "I'll take a little more.",
+    "fr": "Je vais en prendre un peu plus.",
+    "zh": "我再多要一点。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "É tudo por hoje, obrigado.",
+    "en": "That's all for today, thank you.",
+    "fr": "C'est tout pour aujourd'hui, merci.",
+    "zh": "今天就这些，谢谢。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "O senhor vende mel?",
+    "en": "Do you sell honey?",
+    "fr": "Vous vendez du miel ?",
+    "zh": "您卖蜂蜜吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "A que horas fecha o mercado?",
+    "en": "What time does the market close?",
+    "fr": "À quelle heure ferme le marché ?",
+    "zh": "市场几点关门？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Há mais bancas ali?",
+    "en": "Are there more stalls over there?",
+    "fr": "Il y a d'autres étals là-bas ?",
+    "zh": "那边还有摊位吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Essa melancia é doce?",
+    "en": "Is that watermelon sweet?",
+    "fr": "Cette pastèque est sucrée ?",
+    "zh": "那西瓜甜吗？",
+    "level": "A1"
+  },
+  {
+    "group": "market",
+    "pt": "Queria uma dúzia de ovos e um pão.",
+    "en": "I'd like a dozen eggs and a loaf of bread.",
+    "fr": "Je voudrais une douzaine d'œufs et un pain.",
+    "zh": "我要一打鸡蛋和一个面包。",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Este queijo é de ovelha ou de vaca?",
+    "en": "Is this cheese from sheep or cow?",
+    "fr": "Ce fromage est de brebis ou de vache ?",
+    "zh": "这奶酪是羊奶还是牛奶的？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Quanto pesa este abacate?",
+    "en": "How much does this avocado weigh?",
+    "fr": "Combien pèse cet avocat ?",
+    "zh": "这个牛油果多重？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Pode pôr tudo num saco?",
+    "en": "Can you put everything in a bag?",
+    "fr": "Pouvez-vous tout mettre dans un sac ?",
+    "zh": "能把东西都装在一个袋子里吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Os morangos estão em promoção?",
+    "en": "Are the strawberries on offer?",
+    "fr": "Les fraises sont en promotion ?",
+    "zh": "草莓在促销吗？",
+    "level": "A2"
+  },
+  {
+    "group": "market",
+    "pt": "Fico com estes, obrigado.",
+    "en": "I'll take these, thank you.",
+    "fr": "Je prends ceux-ci, merci.",
+    "zh": "我要这些，谢谢。",
+    "level": "A1"
+  }
+]

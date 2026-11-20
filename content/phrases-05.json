@@ -1,0 +1,802 @@
+[
+  {
+    "group": "health",
+    "pt": "Dói-me a cabeça desde ontem à noite.",
+    "en": "I've had a headache since last night.",
+    "fr": "J'ai mal à la tête depuis hier soir.",
+    "zh": "我从昨晚开始头痛。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho dores de garganta e um pouco de febre.",
+    "en": "I have a sore throat and a slight fever.",
+    "fr": "J'ai mal à la gorge et un peu de fièvre.",
+    "zh": "我喉咙痛，还有点发烧。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Ando com tosse e o nariz entupido há três dias.",
+    "en": "I've had a cough and a blocked nose for three days.",
+    "fr": "J'ai une toux et le nez bouché depuis trois jours.",
+    "zh": "我咳嗽、鼻塞已经三天了。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Sinto-me enjoado sempre que como alguma coisa.",
+    "en": "I feel nauseous whenever I eat anything.",
+    "fr": "J'ai des nausées dès que je mange quelque chose.",
+    "zh": "我一吃东西就恶心。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho dores nas costas, principalmente de manhã.",
+    "en": "My back hurts, especially in the morning.",
+    "fr": "J'ai mal au dos, surtout le matin.",
+    "zh": "我背痛，尤其是早上。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Ontem torci o tornozelo e agora está inchado.",
+    "en": "I twisted my ankle yesterday and now it's swollen.",
+    "fr": "Je me suis tordu la cheville hier et maintenant elle est enflée.",
+    "zh": "我昨天扭伤了脚踝，现在肿了。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Não consigo dormir há uma semana.",
+    "en": "I haven't been able to sleep for a week.",
+    "fr": "Je n'arrive pas à dormir depuis une semaine.",
+    "zh": "我已经一周睡不着了。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho tido palpitações e fico sem ar.",
+    "en": "I've been having palpitations and I get short of breath.",
+    "fr": "J'ai des palpitations et je suis essoufflé.",
+    "zh": "我最近心悸，还会喘不上气。",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "Acho que estou com uma infeção urinária.",
+    "en": "I think I have a urinary infection.",
+    "fr": "Je crois que j'ai une infection urinaire.",
+    "zh": "我觉得我得了尿路感染。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Estou com uma alergia na pele que não passa.",
+    "en": "I have a skin allergy that won't go away.",
+    "fr": "J'ai une allergie cutanée qui ne passe pas.",
+    "zh": "我皮肤过敏，一直不好。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Queria marcar uma consulta para amanhã, se possível.",
+    "en": "I'd like to book an appointment for tomorrow, if possible.",
+    "fr": "Je voudrais prendre rendez-vous pour demain, si possible.",
+    "zh": "如果可能的话，我想预约明天看病。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tem alguma vaga esta semana para o médico de família?",
+    "en": "Do you have any openings this week with the GP?",
+    "fr": "Avez-vous un créneau cette semaine avec le médecin traitant ?",
+    "zh": "这周家庭医生还有号吗？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Preciso de renovar a receita dos meus medicamentos.",
+    "en": "I need to renew the prescription for my medicines.",
+    "fr": "J'ai besoin de renouveler l'ordonnance de mes médicaments.",
+    "zh": "我需要续开我的药方。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "A consulta é no centro de saúde ou no hospital?",
+    "en": "Is the appointment at the health centre or at the hospital?",
+    "fr": "La consultation a-t-elle lieu au centre de santé ou à l'hôpital ?",
+    "zh": "这次看诊是在健康中心还是医院？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Posso remarcar a consulta para a semana que vem?",
+    "en": "Can I reschedule the appointment for next week?",
+    "fr": "Puis-je reporter le rendez-vous à la semaine prochaine ?",
+    "zh": "我可以把预约改到下周吗？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Cheguei para a consulta das dez e meia.",
+    "en": "I'm here for the ten-thirty appointment.",
+    "fr": "Je suis arrivé pour le rendez-vous de dix heures et demie.",
+    "zh": "我来赴十点半的预约。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho de estar em jejum para as análises?",
+    "en": "Do I have to fast for the blood tests?",
+    "fr": "Dois-je être à jeun pour les analyses ?",
+    "zh": "做化验需要空腹吗？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Onde é que faço as análises ao sangue?",
+    "en": "Where do I go for the blood tests?",
+    "fr": "Où dois-je aller pour les analyses de sang ?",
+    "zh": "我在哪里抽血化验？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Já recebi os resultados das análises por email.",
+    "en": "I've already received the test results by email.",
+    "fr": "J'ai déjà reçu les résultats des analyses par e-mail.",
+    "zh": "我已经通过电子邮件收到化验结果了。",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "O médico passou-me um antibiótico por sete dias.",
+    "en": "The doctor prescribed me an antibiotic for seven days.",
+    "fr": "Le médecin m'a prescrit un antibiotique pour sept jours.",
+    "zh": "医生给我开了七天的抗生素。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho de tomar este comprimido de oito em oito horas.",
+    "en": "I have to take this tablet every eight hours.",
+    "fr": "Je dois prendre ce comprimé toutes les huit heures.",
+    "zh": "这种药片我得每八小时吃一次。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "A dor está a piorar em vez de melhorar.",
+    "en": "The pain is getting worse instead of better.",
+    "fr": "La douleur empire au lieu de s'améliorer.",
+    "zh": "疼痛没有好转，反而加重了。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Isto começou depois de eu comer marisco.",
+    "en": "This started after I ate seafood.",
+    "fr": "Ça a commencé après que j'ai mangé des fruits de mer.",
+    "zh": "这是在我吃了海鲜之后开始的。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Já tomei um comprimido, mas não fez efeito.",
+    "en": "I've already taken a tablet, but it didn't work.",
+    "fr": "J'ai déjà pris un comprimé, mais ça n'a pas fait effet.",
+    "zh": "我已经吃了一片药，但没效果。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Sou alérgico à penicilina.",
+    "en": "I'm allergic to penicillin.",
+    "fr": "Je suis allergique à la pénicilline.",
+    "zh": "我对青霉素过敏。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho asma e uso um inalador.",
+    "en": "I have asthma and I use an inhaler.",
+    "fr": "J'ai de l'asthme et j'utilise un inhalateur.",
+    "zh": "我有哮喘，使用吸入器。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "A minha tensão tem estado alta.",
+    "en": "My blood pressure has been high.",
+    "fr": "Ma tension a été élevée.",
+    "zh": "我的血压一直偏高。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho diabetes e meço o açúcar todos os dias.",
+    "en": "I have diabetes and I check my blood sugar every day.",
+    "fr": "J'ai du diabète et je mesure ma glycémie tous les jours.",
+    "zh": "我有糖尿病，每天控制血糖。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Estou grávida de três meses.",
+    "en": "I'm three months pregnant.",
+    "fr": "Je suis enceinte de trois mois.",
+    "zh": "我怀孕三个月了。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Preciso de uma baixa médica para o trabalho.",
+    "en": "I need a sick note for work.",
+    "fr": "J'ai besoin d'un arrêt de travail.",
+    "zh": "我需要一份病假证明给单位。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Pode passar-me um atestado médico?",
+    "en": "Could you give me a medical certificate?",
+    "fr": "Pourriez-vous me faire un certificat médical ?",
+    "zh": "您能给我开一份医疗证明吗？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "É urgente, ela desmaiou e não responde.",
+    "en": "It's urgent, she fainted and isn't responding.",
+    "fr": "C'est urgent, elle s'est évanouie et ne répond pas.",
+    "zh": "很紧急，她晕倒了，没有反应。",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "Chame uma ambulância, por favor!",
+    "en": "Call an ambulance, please!",
+    "fr": "Appelez une ambulance, s'il vous plaît !",
+    "zh": "请叫救护车！",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Ele está com uma dor forte no peito.",
+    "en": "He has severe chest pain.",
+    "fr": "Il a une forte douleur à la poitrine.",
+    "zh": "他胸口剧痛。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Acho que parti o braço.",
+    "en": "I think I've broken my arm.",
+    "fr": "Je crois que je me suis cassé le bras.",
+    "zh": "我觉得我胳膊骨折了。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "O meu filho tem quarenta graus de febre.",
+    "en": "My son has a fever of forty degrees.",
+    "fr": "Mon fils a quarante de fièvre.",
+    "zh": "我儿子烧到四十度。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Onde fica a urgência mais próxima?",
+    "en": "Where is the nearest emergency department?",
+    "fr": "Où se trouve le service d'urgences le plus proche ?",
+    "zh": "最近的急诊在哪里？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Quanto tempo é que vou ter de esperar?",
+    "en": "How long will I have to wait?",
+    "fr": "Combien de temps vais-je devoir attendre ?",
+    "zh": "我要等多久？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho o cartão de utente comigo.",
+    "en": "I have my health card with me.",
+    "fr": "J'ai ma carte d'assuré social avec moi.",
+    "zh": "我带着医保卡。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "O meu seguro cobre esta consulta?",
+    "en": "Does my insurance cover this appointment?",
+    "fr": "Mon assurance couvre-t-elle cette consultation ?",
+    "zh": "我的保险包括这次看诊吗？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Preciso de um recibo para pedir o reembolso ao seguro.",
+    "en": "I need a receipt to claim the money back from my insurance.",
+    "fr": "J'ai besoin d'un reçu pour demander un remboursement à mon assurance.",
+    "zh": "我需要一张收据向保险公司报销。",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "Trabalho por conta própria e não tenho seguro.",
+    "en": "I'm self-employed and I don't have insurance.",
+    "fr": "Je travaille à mon compte et je n'ai pas d'assurance.",
+    "zh": "我是个体户，没有保险。",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "Qual é a taxa moderadora para esta consulta?",
+    "en": "What's the patient fee for this appointment?",
+    "fr": "Quel est le ticket modérateur pour cette consultation ?",
+    "zh": "这次看诊的自付费用是多少？",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "Pode enviar a fatura para o meu email?",
+    "en": "Can you send the invoice to my email?",
+    "fr": "Pouvez-vous envoyer la facture à mon e-mail ?",
+    "zh": "您能把发票发到我的邮箱吗？",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Sinto tonturas quando me levanto depressa.",
+    "en": "I feel dizzy when I stand up quickly.",
+    "fr": "J'ai des vertiges quand je me lève vite.",
+    "zh": "我起身太快时会头晕。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Tenho uma dor de dentes muito forte.",
+    "en": "I have a very bad toothache.",
+    "fr": "J'ai très mal aux dents.",
+    "zh": "我牙痛得很厉害。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "Cortei o dedo e não para de sangrar.",
+    "en": "I cut my finger and it won't stop bleeding.",
+    "fr": "Je me suis coupé le doigt et ça n'arrête pas de saigner.",
+    "zh": "我割破了手指，血流不止。",
+    "level": "A2"
+  },
+  {
+    "group": "health",
+    "pt": "A minha mãe caiu em casa e queixou-se da anca.",
+    "en": "My mother fell at home and complained about her hip.",
+    "fr": "Ma mère est tombée à la maison et s'est plainte de sa hanche.",
+    "zh": "我妈妈在家摔倒了，说髋部疼。",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "Preciso de uma consulta de seguimento.",
+    "en": "I need a follow-up appointment.",
+    "fr": "J'ai besoin d'une consultation de suivi.",
+    "zh": "我需要复诊。",
+    "level": "B1"
+  },
+  {
+    "group": "health",
+    "pt": "Obrigado, doutor, sinto-me muito melhor.",
+    "en": "Thank you, doctor, I feel much better.",
+    "fr": "Merci, docteur, je me sens beaucoup mieux.",
+    "zh": "谢谢医生，我感觉好多了。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Boa tarde, tem algo para a tosse?",
+    "en": "Good afternoon, do you have anything for a cough?",
+    "fr": "Bonjour, avez-vous quelque chose contre la toux ?",
+    "zh": "下午好，有治咳嗽的药吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Queria um medicamento para a dor de cabeça.",
+    "en": "I'd like something for a headache.",
+    "fr": "Je voudrais un médicament pour le mal de tête.",
+    "zh": "我想买点治头痛的药。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tem pastilhas para a garganta?",
+    "en": "Do you have throat lozenges?",
+    "fr": "Avez-vous des pastilles pour la gorge ?",
+    "zh": "有润喉含片吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Preciso de algo para a diarreia.",
+    "en": "I need something for diarrhoea.",
+    "fr": "J'ai besoin de quelque chose contre la diarrhée.",
+    "zh": "我需要治腹泻的药。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "O que é que recomenda para uma queimadura solar?",
+    "en": "What do you recommend for sunburn?",
+    "fr": "Que recommandez-vous pour un coup de soleil ?",
+    "zh": "晒伤您推荐用什么？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tem protetor solar para pele sensível?",
+    "en": "Do you have sunscreen for sensitive skin?",
+    "fr": "Avez-vous une crème solaire pour peau sensible ?",
+    "zh": "有适合敏感皮肤的防晒霜吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Queria uma caixa de paracetamol.",
+    "en": "I'd like a box of paracetamol.",
+    "fr": "Je voudrais une boîte de paracétamol.",
+    "zh": "我要一盒扑热息痛。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tem ibuprofeno em comprimidos?",
+    "en": "Do you have ibuprofen tablets?",
+    "fr": "Avez-vous de l'ibuprofène en comprimés ?",
+    "zh": "有布洛芬片吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Prefiro um medicamento sem açúcar.",
+    "en": "I'd prefer a sugar-free medicine.",
+    "fr": "Je préfère un médicament sans sucre.",
+    "zh": "我想要无糖的药。",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Este xarope pode ser tomado por crianças?",
+    "en": "Can children take this cough syrup?",
+    "fr": "Ce sirop peut-il être pris par des enfants ?",
+    "zh": "这种糖浆儿童可以喝吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tenho aqui a receita do médico.",
+    "en": "I have the doctor's prescription here.",
+    "fr": "J'ai l'ordonnance du médecin ici.",
+    "zh": "我这里有医生的处方。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Pode aviar esta receita, por favor?",
+    "en": "Could you fill this prescription, please?",
+    "fr": "Pouvez-vous préparer cette ordonnance, s'il vous plaît ?",
+    "zh": "请按这张处方配药，好吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "A receita ainda é válida?",
+    "en": "Is the prescription still valid?",
+    "fr": "L'ordonnance est-elle encore valable ?",
+    "zh": "这张处方还有效吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Preciso de renovar a receita para o meu inalador.",
+    "en": "I need to renew the prescription for my inhaler.",
+    "fr": "J'ai besoin de renouveler l'ordonnance de mon inhalateur.",
+    "zh": "我需要续开吸入器的处方。",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "A receita é eletrónica, só tenho o código.",
+    "en": "The prescription is electronic; I only have the code.",
+    "fr": "L'ordonnance est électronique, je n'ai que le code.",
+    "zh": "处方是电子的，我只有验证码。",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Quantos comprimidos é que devo tomar por dia?",
+    "en": "How many tablets should I take a day?",
+    "fr": "Combien de comprimés dois-je prendre par jour ?",
+    "zh": "我每天应该吃几片？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "É de manhã ou à noite?",
+    "en": "Is it in the morning or at night?",
+    "fr": "C'est le matin ou le soir ?",
+    "zh": "是早上吃还是晚上吃？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Devo tomar antes ou depois das refeições?",
+    "en": "Should I take it before or after meals?",
+    "fr": "Dois-je le prendre avant ou après les repas ?",
+    "zh": "应该饭前吃还是饭后吃？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Posso tomar este medicamento com leite?",
+    "en": "Can I take this medicine with milk?",
+    "fr": "Puis-je prendre ce médicament avec du lait ?",
+    "zh": "这药可以配牛奶吃吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Qual é a dose para um adulto?",
+    "en": "What's the adult dose?",
+    "fr": "Quelle est la dose pour un adulte ?",
+    "zh": "成人剂量是多少？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "É só uma vez por dia, certo?",
+    "en": "It's only once a day, right?",
+    "fr": "C'est juste une fois par jour, n'est-ce pas ?",
+    "zh": "每天只吃一次，对吧？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Quanto tempo é que tenho de tomar isto?",
+    "en": "How long do I have to take this for?",
+    "fr": "Pendant combien de temps dois-je prendre ceci ?",
+    "zh": "这药要吃多久？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "O que faço se me esquecer de uma dose?",
+    "en": "What should I do if I forget a dose?",
+    "fr": "Que faire si j'oublie une dose ?",
+    "zh": "如果我忘记吃一次药怎么办？",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Sou alérgico a antibióticos.",
+    "en": "I'm allergic to antibiotics.",
+    "fr": "Je suis allergique aux antibiotiques.",
+    "zh": "我对抗生素过敏。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tenho alergia ao pólen e ao pó.",
+    "en": "I'm allergic to pollen and dust.",
+    "fr": "Je suis allergique au pollen et à la poussière.",
+    "zh": "我对花粉和灰尘过敏。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Este medicamento tem penicilina?",
+    "en": "Does this medicine contain penicillin?",
+    "fr": "Ce médicament contient-il de la pénicilline ?",
+    "zh": "这种药含青霉素吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Faz mal ao estômago?",
+    "en": "Is it hard on the stomach?",
+    "fr": "Est-ce mauvais pour l'estomac ?",
+    "zh": "这药伤胃吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Pode dar-me algo mais suave?",
+    "en": "Can you give me something gentler?",
+    "fr": "Pouvez-vous me donner quelque chose de plus doux ?",
+    "zh": "能给我温和一点的药吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Há alguma versão genérica?",
+    "en": "Is there a generic version?",
+    "fr": "Existe une version générique ?",
+    "zh": "有仿制药吗？",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "O genérico é mais barato?",
+    "en": "Is the generic cheaper?",
+    "fr": "Le générique est-il moins cher ?",
+    "zh": "仿制药更便宜吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Quanto custa este medicamento?",
+    "en": "How much does this medicine cost?",
+    "fr": "Combien coûte ce médicament ?",
+    "zh": "这种药多少钱？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "O meu seguro cobre estes medicamentos?",
+    "en": "Does my insurance cover these medicines?",
+    "fr": "Mon assurance couvre-t-elle ces médicaments ?",
+    "zh": "我的保险报销这些药吗？",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Pode emitir a fatura com o meu número de utente?",
+    "en": "Can you issue the invoice with my health number?",
+    "fr": "Pouvez-vous émettre la facture avec mon numéro d'assuré ?",
+    "zh": "能在发票上写我的医保号吗？",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Queria também umas vitaminas.",
+    "en": "I'd also like some vitamins.",
+    "fr": "Je voudrais aussi des vitamines.",
+    "zh": "我还想买些维生素。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tem algo para dormir melhor?",
+    "en": "Do you have something to help me sleep better?",
+    "fr": "Avez-vous quelque chose pour mieux dormir ?",
+    "zh": "有能帮助睡眠的药吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Isto pode dar sonolência?",
+    "en": "Can this make me drowsy?",
+    "fr": "Cela peut-il provoquer de la somnolence ?",
+    "zh": "这药会让人犯困吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Posso conduzir depois de tomar isto?",
+    "en": "Can I drive after taking this?",
+    "fr": "Puis-je conduire après avoir pris ceci ?",
+    "zh": "吃了这个还能开车吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Posso beber álcool com este antibiótico?",
+    "en": "Can I drink alcohol with this antibiotic?",
+    "fr": "Puis-je boire de l'alcool avec cet antibiotique ?",
+    "zh": "吃这种抗生素能喝酒吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Este medicamento é compatível com a amamentação?",
+    "en": "Is this medicine compatible with breastfeeding?",
+    "fr": "Ce médicament est-il compatible avec l'allaitement ?",
+    "zh": "这种药哺乳期可以吃吗？",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Estou a tomar outros comprimidos. Há algum problema?",
+    "en": "I'm taking other tablets. Is there any problem?",
+    "fr": "Je prends d'autres comprimés. Y a-t-il un problème ?",
+    "zh": "我还在吃其他药，会有问题吗？",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tem de ser guardado no frigorífico?",
+    "en": "Does it have to be kept in the fridge?",
+    "fr": "Doit-il être conservé au réfrigérateur ?",
+    "zh": "这药需要放冰箱吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Qual é o prazo de validade?",
+    "en": "What's the expiry date?",
+    "fr": "Quelle est la date de péremption ?",
+    "zh": "有效期到什么时候？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Onde é que ponho as seringas usadas?",
+    "en": "Where should I put the used syringes?",
+    "fr": "Où dois-je mettre les seringues usagées ?",
+    "zh": "用过的针管放在哪里？",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Preciso de um espaçador para o meu inalador.",
+    "en": "I need a spacer for my inhaler.",
+    "fr": "J'ai besoin d'une chambre d'inhalation pour mon inhalateur.",
+    "zh": "我的吸入器需要一个储雾罐。",
+    "level": "B1"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Queria uma embalagem maior, se houver.",
+    "en": "I'd like a larger pack, if there is one.",
+    "fr": "Je voudrais une plus grande boîte, s'il y en a.",
+    "zh": "如果有的话，我想要大包装。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Pode explicar-me outra vez como se usa?",
+    "en": "Could you explain again how to use it?",
+    "fr": "Pouvez-vous m'expliquer encore une fois comment l'utiliser ?",
+    "zh": "您能再讲一遍怎么用吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Tenho de voltar para buscar o resto?",
+    "en": "Do I have to come back for the rest?",
+    "fr": "Dois-je revenir chercher le reste ?",
+    "zh": "我还得回来取剩下的吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Pode apontar-me isso num papel?",
+    "en": "Could you write that down for me?",
+    "fr": "Pouvez-vous me l'écrire sur un papier ?",
+    "zh": "您能帮我写在纸上吗？",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Obrigado pela ajuda, foi muito amável.",
+    "en": "Thank you for your help, you've been very kind.",
+    "fr": "Merci pour votre aide, vous avez été très aimable.",
+    "zh": "谢谢您的帮助，您真热心。",
+    "level": "A2"
+  },
+  {
+    "group": "pharmacy",
+    "pt": "Até à próxima, bom dia.",
+    "en": "See you next time, good morning.",
+    "fr": "À la prochaine, bonne journée.",
+    "zh": "下次见，早上好。",
+    "level": "A2"
+  }
+]

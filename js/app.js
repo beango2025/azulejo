@@ -3,6 +3,10 @@
   'use strict';
 
   const DATA = window.AZ_DATA;
+  if (Array.isArray(window.AZ_PHRASES_1000) && window.AZ_PHRASES_1000.length) DATA.phrases = window.AZ_PHRASES_1000;
+  if (Array.isArray(window.AZ_CULTURE_100) && window.AZ_CULTURE_100.length) DATA.articles = window.AZ_CULTURE_100;
+  const PHRASE_SCENES = Array.isArray(window.AZ_PHRASE_SCENES) ? window.AZ_PHRASE_SCENES : [];
+  const CULTURE_CATEGORIES = Array.isArray(window.AZ_CULTURE_CATEGORIES) ? window.AZ_CULTURE_CATEGORIES : [];
   const ADVANCED = window.AZ_ADVANCED || { units: [], media: [] };
   const MORE = window.AZ_MORE || { units: [], lexicon: {} };
   const LEVELS = window.AZ_LEVELS || [];
@@ -14,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '2.3.0';
+  const APP_VERSION = '3.0.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -585,7 +589,10 @@
     languageTab: 'phrases',
     openVerb: '',
     phraseGroup: 'all',
+    phraseLimit: 100,
     phraseQuery: '',
+    cultureCategory: 'all',
+    cultureLimit: 13,
     wordQuery: '',
     wordLevel: 'all',
     favOnly: false,
@@ -872,7 +879,7 @@
   }
 
   function tileArt(article, index, large) {
-    const words = { a1: 'pt-PT', a2: 'sh', a3: 'bica', a4: 'tu', a5: 'a', a6: 'saudade', a7: 'mesa' };
+    const fallback = { a1: 'pt-PT', a2: 'sh', a3: 'bica', a4: 'tu', a5: 'a', a6: 'saudade', a7: 'mesa' };
     return `<div class="tile-art art-${(index % 7) + 1} ${large ? 'is-large' : ''}">
       <svg viewBox="0 0 300 200" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
         <g fill="none" stroke="rgba(255,250,240,.22)" stroke-width="1.2">
@@ -883,8 +890,8 @@
         </g>
       </svg>
       <span class="art-kicker">${esc(article.kicker)}</span>
-      <span class="art-word">${esc(words[article.id] || 'olá')}</span>
-      <span class="art-index">0${index + 1}</span>
+      <span class="art-word">${esc(article.artWord || fallback[article.id] || 'olá')}</span>
+      <span class="art-index">${String(index + 1).padStart(2, '0')}</span>
     </div>`;
   }
 
@@ -2272,12 +2279,7 @@
 
   const PHRASE_GROUPS = {
     all: '全部',
-    greetings: '问候',
-    cafe: '咖啡与美食',
-    transport: '出行',
-    shopping: '购物',
-    social: '社交',
-    emergency: '紧急'
+    ...Object.fromEntries(PHRASE_SCENES.map(scene => [scene.key, scene.zh || scene.pt || scene.key]))
   };
 
   function phraseMatches(phrase) {
@@ -2285,35 +2287,50 @@
     if (ui.phraseGroup !== 'all' && phrase.group !== ui.phraseGroup) return false;
     const q = accentFold(ui.phraseQuery.trim());
     if (!q) return true;
-    return [phrase.pt, phrase.zh, phrase.pron, phrase.note, PHRASE_GROUPS[phrase.group]]
-      .some(value => accentFold(value).includes(q));
+    return [phrase.pt, phrase.zh, phrase.en, phrase.fr, phrase.level, PHRASE_GROUPS[phrase.group]]
+      .some(value => accentFold(value || '').includes(q));
+  }
+
+  function filteredPhrases() {
+    return DATA.phrases.filter(phraseMatches);
   }
 
   function phrasesGridHTML() {
-    const list = DATA.phrases.filter(phraseMatches);
+    const list = filteredPhrases();
+    const shown = list.slice(0, ui.phraseLimit);
     if (!list.length) {
       return `<div class="empty-phrases"><span>${icon('search')}</span><h3>Nenhuma frase encontrada.</h3><p>试试别的关键词，或切回「全部」。</p><button class="btn btn-secondary" data-action="clear-phrase-filters">Limpar filtros</button></div>`;
     }
-    return list.map(phrase => `<article class="phrase-card ${state.favorites.includes(phrase.id) ? 'is-fav' : ''}">
+    return shown.map(phrase => `<article class="phrase-card ${state.favorites.includes(phrase.id) ? 'is-fav' : ''}">
       <div class="phrase-top">
-        <span class="phrase-group">${esc(PHRASE_GROUPS[phrase.group])}</span>
+        <span class="phrase-group">${esc(PHRASE_GROUPS[phrase.group] || phrase.group)}</span>
+        <span class="phrase-level">${esc(phrase.level || '')}</span>
         <button class="fav-btn ${state.favorites.includes(phrase.id) ? 'is-fav' : ''}" data-action="fav-phrase" data-id="${phrase.id}" aria-label="${state.favorites.includes(phrase.id) ? '取消收藏' : '收藏'}" aria-pressed="${state.favorites.includes(phrase.id)}">${icon('bookmark')}</button>
       </div>
       <div class="phrase-pt-row">
         <h3>${esc(phrase.pt)}</h3>
         <button class="audio-btn small" data-audio="${esc(phrase.pt)}" aria-label="播放发音">${icon('volume')}</button>
       </div>
-      <p class="phrase-zh">${esc(phrase.zh)}</p>
-      <p class="phrase-pron">${esc(phrase.pron)}</p>
-      <p class="phrase-note">${icon('info')} ${esc(phrase.note)}</p>
+      <div class="phrase-translations">
+        <p><b>中</b><span>${esc(phrase.zh)}</span></p>
+        <p><b>EN</b><span>${esc(phrase.en)}</span></p>
+        <p><b>FR</b><span>${esc(phrase.fr)}</span></p>
+      </div>
     </article>`).join('');
   }
 
   function renderPhraseGrid() {
     const grid = $('#phrase-grid');
     if (grid) grid.innerHTML = phrasesGridHTML();
+    const list = filteredPhrases();
     const count = $('#phrase-count');
-    if (count) count.textContent = `${DATA.phrases.filter(phraseMatches).length} frases`;
+    if (count) count.textContent = `${Math.min(ui.phraseLimit, list.length)} / ${list.length} frases`;
+    const more = $('#phrase-more');
+    if (more) {
+      more.innerHTML = list.length > ui.phraseLimit
+        ? `<button class="btn btn-secondary" data-action="show-more-phrases">Mostrar mais 100 ${icon('arrow-right')}</button>`
+        : '';
+    }
   }
 
   function languageTabsHTML() {
@@ -2441,19 +2458,20 @@
     }).join('');
     $('#view').innerHTML = `
       <div class="page phrases-page">
-        ${pageHead('FRASES & PALAVRAS', 'Frases para levar.', '把真正用得上的句子装进口袋。点小喇叭听发音，点书签收藏。', `<div class="head-badge alt">${icon('chat')}<span><strong>${DATA.phrases.length}</strong><small>frases</small></span></div>`)}
+        ${pageHead('FRASES & PALAVRAS', 'Mil frases para a vida real.', '1000 句按场景编排的葡语口语句型，配中文、English 和 français。点小喇叭听发音，点书签收藏。', `<div class="head-badge alt">${icon('chat')}<span><strong>${DATA.phrases.length}</strong><small>frases</small></span></div>`)}
         ${languageTabsHTML()}
         <div class="phrase-toolbar">
           <label class="search-box">
             ${icon('search')}
-            <input id="phrase-search" type="search" value="${esc(ui.phraseQuery)}" placeholder="搜索葡语、中文或场景…" aria-label="搜索短语">
+            <input id="phrase-search" type="search" value="${esc(ui.phraseQuery)}" placeholder="搜索葡语 / 中文 / English / français…" aria-label="搜索短语">
             <span class="search-kbd">${shortcut}</span>
           </label>
           <button class="fav-filter ${ui.favOnly ? 'is-active' : ''}" data-action="toggle-fav-filter" aria-pressed="${ui.favOnly}">${icon('bookmark')} 收藏 <span>${state.favorites.length}</span></button>
         </div>
-        <div class="filter-chips" id="phrase-filters">${groupChips}</div>
-        <div class="phrase-grid-head"><span id="phrase-count">${DATA.phrases.filter(phraseMatches).length} frases</span><span>${icon('volume')} 点击可听发音</span></div>
+        <div class="filter-chips phrase-scene-chips" id="phrase-filters">${groupChips}</div>
+        <div class="phrase-grid-head"><span id="phrase-count">${Math.min(ui.phraseLimit, filteredPhrases().length)} / ${filteredPhrases().length} frases</span><span>${icon('volume')} 点击可听发音</span></div>
         <div class="phrase-grid" id="phrase-grid">${phrasesGridHTML()}</div>
+        <div class="phrase-more" id="phrase-more">${filteredPhrases().length > ui.phraseLimit ? `<button class="btn btn-secondary" data-action="show-more-phrases">Mostrar mais 100 ${icon('arrow-right')}</button>` : ''}</div>
       </div>`;
     document.title = 'Frases · Azulejo';
   }
@@ -2536,13 +2554,23 @@
     document.title = 'Leitura & escuta · Azulejo';
   }
 
+  function filteredArticles() {
+    if (ui.cultureCategory === 'all') return DATA.articles;
+    return DATA.articles.filter(article => article.category === ui.cultureCategory);
+  }
+
   function renderCulturePage() {
-    const featured = DATA.articles[0];
-    const rest = DATA.articles.slice(1);
+    const all = filteredArticles();
+    const featured = all[0];
+    const rest = all.slice(1, ui.cultureLimit);
+    const categories = [{ key: 'all', pt: 'Tudo', zh: '全部' }, ...CULTURE_CATEGORIES];
     $('#view').innerHTML = `
       <div class="page culture-page">
-        ${pageHead('CULTURA & SOTAQUE', 'Muito mais do que palavras.', '语言不是一套词汇表。理解葡萄牙人怎么生活、怎么称呼彼此，你才会真正听懂。', `<div class="head-badge plum">${icon('sun')}<span><strong>${DATA.articles.length}</strong><small>leituras</small></span></div>`)}
-        <section class="featured-article" data-action="open-article" data-id="${featured.id}" role="button" tabindex="0" aria-label="阅读：${esc(featured.title)}">
+        ${pageHead('CULTURA & SOTAQUE', '100 histórias de Portugal.', '100 个葡萄牙本土文化讲解：从里斯本街区、饮食、法朵、瓷砖到足球和日常语言。每篇配中文、English 和 français。', `<div class="head-badge plum">${icon('sun')}<span><strong>${DATA.articles.length}</strong><small>histórias</small></span></div>`)}
+        <div class="filter-chips culture-category-chips" role="tablist" aria-label="Categorias de cultura">
+          ${categories.map(cat => `<button class="filter-chip ${ui.cultureCategory === cat.key ? 'is-active' : ''}" data-action="filter-culture" data-category="${cat.key}">${esc(cat.zh)}<span>${cat.key === 'all' ? DATA.articles.length : DATA.articles.filter(a => a.category === cat.key).length}</span></button>`).join('')}
+        </div>
+        ${featured ? `<section class="featured-article" data-action="open-article" data-id="${featured.id}" role="button" tabindex="0" aria-label="阅读：${esc(featured.title)}">
           ${tileArt(featured, 0, true)}
           <div class="featured-copy">
             <div class="article-meta"><span>${esc(featured.kicker)}</span><span class="dot-sep"></span><span>${featured.read} min</span>${state.readArticles.includes(featured.id) ? `<span class="read-badge">${icon('check')} lido</span>` : ''}</div>
@@ -2551,7 +2579,8 @@
             <p class="featured-excerpt">${esc(featured.excerpt)}</p>
             <span class="text-link">Ler o artigo ${icon('arrow-right')}</span>
           </div>
-        </section>
+        </section>` : ''}
+        <div class="culture-list-head"><span>${all.length} histórias · 中文 / English / Français</span><span>${icon('volume')} 读文化，也读语言</span></div>
         <div class="article-grid">
           ${rest.map((article, i) => `<article class="article-card ${state.readArticles.includes(article.id) ? 'is-read' : ''}" data-action="open-article" data-id="${article.id}" role="button" tabindex="0" aria-label="阅读：${esc(article.title)}">
             ${tileArt(article, i + 1, false)}
@@ -2563,6 +2592,7 @@
             </div>
           </article>`).join('')}
         </div>
+        <div class="phrase-more" id="culture-more">${all.length > ui.cultureLimit ? `<button class="btn btn-secondary" data-action="show-more-culture">Mostrar mais 12 ${icon('arrow-right')}</button>` : ''}</div>
         <div class="culture-note">
           <span>${icon('sparkle')}</span>
           <p><b>Uma língua, muitas vozes.</b> 葡萄牙本土、马德拉、亚速尔群岛的口音也各不相同。先把标准葡葡听熟，再让耳朵去旅行。</p>
@@ -2596,12 +2626,13 @@
           <div class="article-meta"><span>${esc(article.kicker)}</span><span class="dot-sep"></span><span>${article.read} min de leitura</span></div>
           <h1>${esc(article.title)}</h1>
           <p class="article-zh">${esc(article.zh)}</p>
-          <p class="article-lede">${esc(article.excerpt)}</p>
-          ${article.sections.map(section => `<section class="article-section"><h2>${esc(section.h)}</h2><p>${esc(section.p)}</p></section>`).join('')}
-          <div class="article-tips">
+          ${article.titleEn ? `<p class="article-title-translations"><b>EN</b> ${esc(article.titleEn)} <span>·</span> <b>FR</b> ${esc(article.titleFr)}</p>` : ''}
+          ${article.titleEn ? '' : `<p class="article-lede">${esc(article.excerpt)}</p>`}
+          ${article.sections.map(section => `<section class="article-section"><h2>${esc(section.h)}</h2>${String(section.p).split(/\n{2,}/).map(paragraph => `<p>${esc(paragraph)}</p>`).join('')}</section>`).join('')}
+          ${article.tips && article.tips.length ? `<div class="article-tips">
             <span class="eyebrow">PARA GUARDAR</span>
             <ul>${article.tips.map(tip => `<li>${esc(tip)}</li>`).join('')}</ul>
-          </div>
+          </div>` : ''}
           <div class="article-modal-footer">
             <button class="btn ${read ? 'btn-secondary' : 'btn-primary'}" id="article-read-btn" data-action="mark-article" data-id="${id}" ${read ? 'disabled' : ''}>${read ? `${icon('check')} Já lido` : `Marcar como lido · +5 XP`}</button>
             <span class="article-footer-note">Ler também é treinar o ouvido.</span>
@@ -4274,11 +4305,17 @@
         break;
       case 'filter-phrases':
         ui.phraseGroup = el.dataset.group;
+        ui.phraseLimit = 100;
         updatePhraseChips();
+        renderPhraseGrid();
+        break;
+      case 'show-more-phrases':
+        ui.phraseLimit += 100;
         renderPhraseGrid();
         break;
       case 'toggle-fav-filter':
         ui.favOnly = !ui.favOnly;
+        ui.phraseLimit = 100;
         updatePhraseChips();
         renderPhraseGrid();
         break;
@@ -4289,7 +4326,17 @@
         ui.phraseGroup = 'all';
         ui.phraseQuery = '';
         ui.favOnly = false;
+        ui.phraseLimit = 100;
         renderPhrasesPage();
+        break;
+      case 'filter-culture':
+        ui.cultureCategory = el.dataset.category;
+        ui.cultureLimit = 13;
+        renderCulturePage();
+        break;
+      case 'show-more-culture':
+        ui.cultureLimit += 12;
+        renderCulturePage();
         break;
       case 'open-article':
         openArticle(el.dataset.id);
@@ -4352,6 +4399,7 @@
     document.addEventListener('input', event => {
       if (event.target.id === 'phrase-search') {
         ui.phraseQuery = event.target.value;
+        ui.phraseLimit = 100;
         renderPhraseGrid();
         return;
       }

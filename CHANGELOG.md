@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.0 — 2026-11-20
+
+- Replaced the old 48-phrase list with **1,000 European Portuguese spoken sentence patterns**, organised into 20 real-life scenes (50 each), with Chinese, English and French translations.
+- Added scene filters, full-text search across four languages, favourites and progressive loading (100 at a time).
+- Added **100 Portuguese culture explainers** in 10 categories, each written in Chinese, English and French, with category filters, article reading progress and a 100-article library.
+- Bumped the service worker cache to `azulejo-v3.0.0`.
+
 ## 2.3.0 — 2026-11-20
 
 - Added a per-reading vocabulary section directly after each text.

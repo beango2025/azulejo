@@ -1,0 +1,802 @@
+[
+  {
+    "group": "travel",
+    "pt": "Estou a pensar fazer uma viagem ao norte em maio.",
+    "en": "I'm thinking of taking a trip to the north in May.",
+    "fr": "Je pense faire un voyage dans le nord en mai.",
+    "zh": "我在考虑五月去北部旅行。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Já reservei o voo e o hotel para as férias.",
+    "en": "I've already booked the flight and the hotel for the holiday.",
+    "fr": "J'ai déjà réservé le vol et l'hôtel pour les vacances.",
+    "zh": "我已经订好了假期的机票和酒店。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Queria alugar um carro para três dias.",
+    "en": "I'd like to rent a car for three days.",
+    "fr": "Je voudrais louer une voiture pour trois jours.",
+    "zh": "我想租三天车。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Vamos de carro ou preferes apanhar o comboio?",
+    "en": "Are we going by car, or would you rather take the train?",
+    "fr": "On y va en voiture ou tu préfères prendre le train ?",
+    "zh": "我们开车去还是坐火车？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Preciso de comprar um bilhete de avião para Lisboa.",
+    "en": "I need to buy a plane ticket to Lisbon.",
+    "fr": "J'ai besoin d'acheter un billet d'avion pour Lisbonne.",
+    "zh": "我需要买一张去里斯本的机票。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Vou pedir uns dias de férias ao meu chefe.",
+    "en": "I'm going to ask my boss for a few days off.",
+    "fr": "Je vais demander quelques jours de congé à mon patron.",
+    "zh": "我要向老板请几天假。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Já fiz a lista das coisas que tenho de levar.",
+    "en": "I've already made a list of the things I need to take.",
+    "fr": "J'ai déjà fait la liste des choses à emporter.",
+    "zh": "我已经列好了要带的东西。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Ainda não decidimos onde vamos ficar.",
+    "en": "We haven't decided where we're going to stay yet.",
+    "fr": "Nous n'avons pas encore décidé où nous allons loger.",
+    "zh": "我们还没决定住哪里。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Tenho de fazer as malas esta noite.",
+    "en": "I have to pack my bags tonight.",
+    "fr": "Je dois faire mes valises ce soir.",
+    "zh": "我今晚得收拾行李。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "A minha mala é grande demais para levar comigo no avião.",
+    "en": "My suitcase is too big to take on board with me.",
+    "fr": "Ma valise est trop grande pour que je puisse l'emporter dans l'avion.",
+    "zh": "我的手提箱太大，不能带上飞机。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Só vou levar bagagem de mão.",
+    "en": "I'm only taking hand luggage.",
+    "fr": "Je ne prends que des bagages à main.",
+    "zh": "我只带手提行李。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "A tua mala pesa quantos quilos?",
+    "en": "How many kilos does your suitcase weigh?",
+    "fr": "Combien de kilos pèse ta valise ?",
+    "zh": "你的行李箱有多少公斤？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "O limite é de vinte e três quilos por pessoa.",
+    "en": "The limit is twenty-three kilos per person.",
+    "fr": "La limite est de vingt-trois kilos par personne.",
+    "zh": "每人限重二十三公斤。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Vou pôr os líquidos num saco transparente.",
+    "en": "I'm going to put the liquids in a clear bag.",
+    "fr": "Je vais mettre les liquides dans un sac transparent.",
+    "zh": "我要把液体放进透明袋里。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Não te esqueças do passaporte e do cartão de embarque.",
+    "en": "Don't forget your passport and boarding pass.",
+    "fr": "N'oublie pas ton passeport et ta carte d'embarquement.",
+    "zh": "别忘了护照和登机牌。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Pus uma etiqueta com o meu nome na mala.",
+    "en": "I put a name tag on my suitcase.",
+    "fr": "J'ai mis une étiquette avec mon nom sur la valise.",
+    "zh": "我在行李箱上挂了一个写有名字的标签。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Levo um cadeado pequeno para a mala.",
+    "en": "I'm taking a small padlock for the suitcase.",
+    "fr": "Je prends un petit cadenas pour la valise.",
+    "zh": "我带了个小锁锁行李箱。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "A que horas é o check-in?",
+    "en": "What time is check-in?",
+    "fr": "À quelle heure est l'enregistrement ?",
+    "zh": "几点办理登机手续？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Onde fica o balcão da companhia aérea?",
+    "en": "Where's the airline desk?",
+    "fr": "Où se trouve le comptoir de la compagnie aérienne ?",
+    "zh": "航空公司的柜台在哪里？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Queria um lugar à janela, por favor.",
+    "en": "I'd like a window seat, please.",
+    "fr": "Je voudrais une place côté hublot, s'il vous plaît.",
+    "zh": "请给我一个靠窗的座位。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "O voo está com uma hora de atraso.",
+    "en": "The flight is an hour late.",
+    "fr": "Le vol a une heure de retard.",
+    "zh": "航班晚点一小时。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Qual é a porta de embarque?",
+    "en": "Which is the boarding gate?",
+    "fr": "Quelle est la porte d'embarquement ?",
+    "zh": "登机口是哪个？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Tenho de passar pelo controlo de segurança.",
+    "en": "I have to go through security.",
+    "fr": "Je dois passer le contrôle de sécurité.",
+    "zh": "我得过安检。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Posso levar esta mochila como bagagem de mão?",
+    "en": "Can I take this backpack as hand luggage?",
+    "fr": "Puis-je prendre ce sac à dos comme bagage à main ?",
+    "zh": "这个背包可以当手提行李吗？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "O avião vai aterrar dentro de vinte minutos.",
+    "en": "The plane is going to land in twenty minutes.",
+    "fr": "L'avion va atterrir dans vingt minutes.",
+    "zh": "飞机二十分钟后降落。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Perdi o meu voo por causa do trânsito.",
+    "en": "I missed my flight because of the traffic.",
+    "fr": "J'ai raté mon vol à cause des embouteillages.",
+    "zh": "我因堵车错过了航班。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Onde posso levantar a minha bagagem?",
+    "en": "Where can I collect my luggage?",
+    "fr": "Où puis-je récupérer mes bagages ?",
+    "zh": "我在哪里取行李？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "A minha mala não apareceu no tapete.",
+    "en": "My suitcase didn't come out on the carousel.",
+    "fr": "Ma valise n'est pas arrivée sur le tapis.",
+    "zh": "我的行李箱没出现在传送带上。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Um bilhete de ida e volta para o Porto, por favor.",
+    "en": "A return ticket to Porto, please.",
+    "fr": "Un billet aller-retour pour Porto, s'il vous plaît.",
+    "zh": "请给我一张去波尔图的往返票。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "O comboio parte do cais quatro.",
+    "en": "The train leaves from platform four.",
+    "fr": "Le train part du quai quatre.",
+    "zh": "火车从四号站台出发。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Este autocarro vai para o aeroporto?",
+    "en": "Does this bus go to the airport?",
+    "fr": "Ce bus va-t-il à l'aéroport ?",
+    "zh": "这辆巴士去机场吗？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Quanto tempo demora a viagem até Coimbra?",
+    "en": "How long does the journey to Coimbra take?",
+    "fr": "Combien de temps dure le trajet jusqu'à Coimbra ?",
+    "zh": "到科英布拉要多久？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Tenho de mudar de comboio em Aveiro.",
+    "en": "I have to change trains in Aveiro.",
+    "fr": "Je dois changer de train à Aveiro.",
+    "zh": "我必须在阿威罗换车。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "O comboio está a chegar com dez minutos de atraso.",
+    "en": "The train is arriving ten minutes late.",
+    "fr": "Le train arrive avec dix minutes de retard.",
+    "zh": "火车晚点十分钟到。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Perdi o comboio das oito.",
+    "en": "I missed the eight o'clock train.",
+    "fr": "J'ai raté le train de huit heures.",
+    "zh": "我错过了八点的火车。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Queria fazer uma visita guiada à cidade.",
+    "en": "I'd like to take a guided tour of the city.",
+    "fr": "Je voudrais faire une visite guidée de la ville.",
+    "zh": "我想参加城市导览游。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "A que horas começa o passeio?",
+    "en": "What time does the tour start?",
+    "fr": "À quelle heure commence la visite ?",
+    "zh": "游览几点开始？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "O guia fala inglês?",
+    "en": "Does the guide speak English?",
+    "fr": "Le guide parle anglais ?",
+    "zh": "导游会说英语吗？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Quanto custa a entrada no museu?",
+    "en": "How much is museum admission?",
+    "fr": "Combien coûte l'entrée au musée ?",
+    "zh": "博物馆门票多少钱？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Vale a pena visitar o castelo?",
+    "en": "Is the castle worth visiting?",
+    "fr": "Ça vaut le coup de visiter le château ?",
+    "zh": "城堡值得参观吗？",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Vamos fazer um cruzeiro no rio ao fim da tarde.",
+    "en": "We're going on a river cruise late in the afternoon.",
+    "fr": "Nous allons faire une croisière sur le fleuve en fin d'après-midi.",
+    "zh": "我们傍晚去坐河上游船。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Podemos parar aqui para tirar fotografias?",
+    "en": "Can we stop here to take photos?",
+    "fr": "On peut s'arrêter ici pour prendre des photos ?",
+    "zh": "我们可以在这里停下来拍照吗？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Perdi a carteira com os documentos.",
+    "en": "I've lost my wallet with my documents.",
+    "fr": "J'ai perdu mon portefeuille avec mes documents.",
+    "zh": "我丢了装有证件的钱包。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Preciso de apresentar queixa na polícia.",
+    "en": "I need to report it to the police.",
+    "fr": "Je dois porter plainte à la police.",
+    "zh": "我需要向警方报案。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Roubaram-me o telemóvel no metro.",
+    "en": "My phone was stolen on the metro.",
+    "fr": "On m'a volé mon téléphone dans le métro.",
+    "zh": "我的手机在地铁上被偷了。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Não me sinto bem, podem chamar um médico?",
+    "en": "I don't feel well; could you call a doctor?",
+    "fr": "Je ne me sens pas bien, pouvez-vous appeler un médecin ?",
+    "zh": "我不舒服，能叫医生吗？",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "Onde fica a embaixada portuguesa?",
+    "en": "Where is the Portuguese embassy?",
+    "fr": "Où se trouve l'ambassade du Portugal ?",
+    "zh": "葡萄牙大使馆在哪里？",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Perdi o meu passaporte e preciso de ajuda.",
+    "en": "I've lost my passport and I need help.",
+    "fr": "J'ai perdu mon passeport et j'ai besoin d'aide.",
+    "zh": "我丢了护照，需要帮助。",
+    "level": "B1"
+  },
+  {
+    "group": "travel",
+    "pt": "O meu cartão não funciona nesta máquina.",
+    "en": "My card doesn't work in this machine.",
+    "fr": "Ma carte ne fonctionne pas sur cette machine.",
+    "zh": "我的卡在这台机器上用不了。",
+    "level": "A2"
+  },
+  {
+    "group": "travel",
+    "pt": "Podem ajudar-me a ligar para a minha seguradora?",
+    "en": "Could you help me call my insurance company?",
+    "fr": "Pouvez-vous m'aider à appeler mon assurance ?",
+    "zh": "能帮我打电话给保险公司吗？",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Queria reservar um quarto para duas noites.",
+    "en": "I'd like to book a room for two nights.",
+    "fr": "Je voudrais réserver une chambre pour deux nuits.",
+    "zh": "我想订两晚的房间。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Tem um quarto duplo livre para o fim de semana?",
+    "en": "Do you have a double room available for the weekend?",
+    "fr": "Avez-vous une chambre double libre pour le week-end ?",
+    "zh": "周末还有双人房吗？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Prefiro um quarto com vista para o mar.",
+    "en": "I'd prefer a room with a sea view.",
+    "fr": "Je préfère une chambre avec vue sur la mer.",
+    "zh": "我更喜欢海景房。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A reserva inclui o pequeno-almoço?",
+    "en": "Does the booking include breakfast?",
+    "fr": "La réservation comprend-elle le petit-déjeuner ?",
+    "zh": "预订包含早餐吗？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Quanto custa a noite?",
+    "en": "How much is it per night?",
+    "fr": "Combien coûte la nuit ?",
+    "zh": "一晚多少钱？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Há alguma taxa turística?",
+    "en": "Is there a tourist tax?",
+    "fr": "Y a-t-il une taxe de séjour ?",
+    "zh": "有旅游税吗？",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Gostaria de fazer a reserva em nome de Ana Silva.",
+    "en": "I'd like to make the booking under the name Ana Silva.",
+    "fr": "Je voudrais faire la réservation au nom d'Ana Silva.",
+    "zh": "我想用安娜·席尔瓦的名字预订。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Pode enviar-me a confirmação por e-mail?",
+    "en": "Could you send me the confirmation by email?",
+    "fr": "Pouvez-vous m'envoyer la confirmation par e-mail ?",
+    "zh": "能把确认信发到我邮箱吗？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Preciso de cancelar a reserva.",
+    "en": "I need to cancel the booking.",
+    "fr": "Je dois annuler la réservation.",
+    "zh": "我需要取消预订。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Qual é a política de cancelamento?",
+    "en": "What's the cancellation policy?",
+    "fr": "Quelle est la politique d'annulation ?",
+    "zh": "取消政策是什么？",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Tenho uma reserva para hoje à noite.",
+    "en": "I have a booking for tonight.",
+    "fr": "J'ai une réservation pour ce soir.",
+    "zh": "我订了今晚的房间。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Queria fazer o check-in, por favor.",
+    "en": "I'd like to check in, please.",
+    "fr": "Je voudrais faire le check-in, s'il vous plaît.",
+    "zh": "我想办理入住。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Aqui está o meu passaporte.",
+    "en": "Here's my passport.",
+    "fr": "Voici mon passeport.",
+    "zh": "这是我的护照。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A reserva está em nome do meu marido.",
+    "en": "The booking is in my husband's name.",
+    "fr": "La réservation est au nom de mon mari.",
+    "zh": "预订用的是我丈夫的名字。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A que horas é o pequeno-almoço?",
+    "en": "What time is breakfast?",
+    "fr": "À quelle heure est le petit-déjeuner ?",
+    "zh": "早餐几点？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Qual é a palavra-passe do wi-fi?",
+    "en": "What's the wi-fi password?",
+    "fr": "Quel est le mot de passe du wi-fi ?",
+    "zh": "Wi-Fi密码是什么？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Podemos deixar as malas aqui até à tarde?",
+    "en": "Can we leave our bags here until the afternoon?",
+    "fr": "Pouvons-nous laisser nos bagages ici jusqu'à cet après-midi ?",
+    "zh": "我们可以把行李放到下午吗？",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "O quarto fica no terceiro andar.",
+    "en": "The room is on the third floor.",
+    "fr": "La chambre est au troisième étage.",
+    "zh": "房间在三楼。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O elevador está ao fundo do corredor.",
+    "en": "The lift is at the end of the corridor.",
+    "fr": "L'ascenseur est au bout du couloir.",
+    "zh": "电梯在走廊尽头。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Precisamos de um berço para o bebé.",
+    "en": "We need a cot for the baby.",
+    "fr": "Nous avons besoin d'un lit bébé.",
+    "zh": "我们需要一张婴儿床。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O quarto está muito quente.",
+    "en": "The room is very hot.",
+    "fr": "La chambre est très chaude.",
+    "zh": "房间很热。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O ar condicionado não está a funcionar.",
+    "en": "The air conditioning isn't working.",
+    "fr": "La climatisation ne fonctionne pas.",
+    "zh": "空调坏了。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A torneira da casa de banho está a pingar.",
+    "en": "The bathroom tap is dripping.",
+    "fr": "Le robinet de la salle de bain goutte.",
+    "zh": "浴室水龙头在滴水。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Não há água quente.",
+    "en": "There's no hot water.",
+    "fr": "Il n'y a pas d'eau chaude.",
+    "zh": "没有热水。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Podem trazer mais toalhas, por favor?",
+    "en": "Could you bring more towels, please?",
+    "fr": "Pouvez-vous apporter plus de serviettes, s'il vous plaît ?",
+    "zh": "请再拿几条毛巾来。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A cama é bastante confortável.",
+    "en": "The bed is quite comfortable.",
+    "fr": "Le lit est assez confortable.",
+    "zh": "床很舒服。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O quarto tem uma varanda pequena.",
+    "en": "The room has a small balcony.",
+    "fr": "La chambre a un petit balcon.",
+    "zh": "房间有个小阳台。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Falta uma almofada na cama.",
+    "en": "There's a pillow missing on the bed.",
+    "fr": "Il manque un oreiller sur le lit.",
+    "zh": "床上少一个枕头。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O cartão do quarto não abre a porta.",
+    "en": "The key card doesn't open the door.",
+    "fr": "La carte-clé n'ouvre pas la porte.",
+    "zh": "房卡开不了门。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "O quarto ao lado faz muito barulho à noite.",
+    "en": "The room next door is very noisy at night.",
+    "fr": "La chambre d'à côté fait beaucoup de bruit la nuit.",
+    "zh": "隔壁房间晚上很吵。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Onde fica a piscina?",
+    "en": "Where's the pool?",
+    "fr": "Où se trouve la piscine ?",
+    "zh": "游泳池在哪里？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A piscina está aberta até às oito.",
+    "en": "The pool is open until eight.",
+    "fr": "La piscine est ouverte jusqu'à huit heures.",
+    "zh": "泳池开放到八点。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Há um ginásio no hotel?",
+    "en": "Is there a gym in the hotel?",
+    "fr": "Y a-t-il une salle de sport dans l'hôtel ?",
+    "zh": "酒店有健身房吗？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O pequeno-almoço é servido das sete às dez.",
+    "en": "Breakfast is served from seven to ten.",
+    "fr": "Le petit-déjeuner est servi de sept à dix heures.",
+    "zh": "早餐七点到十点供应。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Queria reservar uma mesa no restaurante do hotel.",
+    "en": "I'd like to book a table in the hotel restaurant.",
+    "fr": "Je voudrais réserver une table au restaurant de l'hôtel.",
+    "zh": "我想在酒店餐厅订个位。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Podem chamar-me um táxi para as nove?",
+    "en": "Could you call me a taxi for nine?",
+    "fr": "Pouvez-vous m'appeler un taxi pour neuf heures ?",
+    "zh": "能帮我叫一辆九点的出租车吗？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Há serviço de quarto a esta hora?",
+    "en": "Is there room service at this time?",
+    "fr": "Y a-t-il un service en chambre à cette heure ?",
+    "zh": "这个时间有客房送餐吗？",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "O hotel tem estacionamento?",
+    "en": "Does the hotel have parking?",
+    "fr": "L'hôtel a-t-il un parking ?",
+    "zh": "酒店有停车场吗？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O quarto não está bem limpo.",
+    "en": "The room isn't properly clean.",
+    "fr": "La chambre n'est pas bien propre.",
+    "zh": "房间没打扫干净。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Há demasiado barulho no corredor.",
+    "en": "There's too much noise in the corridor.",
+    "fr": "Il y a trop de bruit dans le couloir.",
+    "zh": "走廊太吵。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A televisão do quarto não funciona.",
+    "en": "The TV in the room doesn't work.",
+    "fr": "La télévision de la chambre ne fonctionne pas.",
+    "zh": "房间电视坏了。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "O wi-fi está muito lento.",
+    "en": "The wi-fi is very slow.",
+    "fr": "Le wi-fi est très lent.",
+    "zh": "Wi-Fi很慢。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Gostaria de falar com o responsável.",
+    "en": "I'd like to speak to the manager.",
+    "fr": "Je voudrais parler au responsable.",
+    "zh": "我想和负责人谈谈。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Quero mudar de quarto, se for possível.",
+    "en": "I'd like to change rooms, if possible.",
+    "fr": "Je voudrais changer de chambre, si possible.",
+    "zh": "如果可以，我想换房。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Cobraram-me duas vezes a mesma noite.",
+    "en": "They charged me twice for the same night.",
+    "fr": "Ils m'ont facturé deux fois la même nuit.",
+    "zh": "同一晚收了我两次钱。",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "Queria fazer o check-out, por favor.",
+    "en": "I'd like to check out, please.",
+    "fr": "Je voudrais libérer la chambre, s'il vous plaît.",
+    "zh": "我想退房。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "A que horas temos de deixar o quarto?",
+    "en": "What time do we have to leave the room?",
+    "fr": "À quelle heure devons-nous libérer la chambre ?",
+    "zh": "我们几点要退房？",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Podemos deixar as malas na receção depois do check-out?",
+    "en": "Can we leave our bags at reception after check-out?",
+    "fr": "Pouvons-nous laisser nos bagages à la réception après avoir libéré la chambre ?",
+    "zh": "退房后可以把行李寄存在前台吗？",
+    "level": "B1"
+  },
+  {
+    "group": "hotel",
+    "pt": "A conta está certa, obrigado.",
+    "en": "The bill is correct, thank you.",
+    "fr": "La note est correcte, merci.",
+    "zh": "账单没错，谢谢。",
+    "level": "A2"
+  },
+  {
+    "group": "hotel",
+    "pt": "Preciso de uma fatura com o número de contribuinte da empresa.",
+    "en": "I need an invoice with the company's tax number.",
+    "fr": "J'ai besoin d'une facture avec le numéro fiscal de l'entreprise.",
+    "zh": "我需要一张写有公司税号的发票。",
+    "level": "B1"
+  }
+]

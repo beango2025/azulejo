@@ -37,8 +37,8 @@ PT-PT 外部资源入口：
 - **210 个五语词汇**：葡萄牙语、中文、English、français、español 对照，可按 A1–C2 筛选、五语搜索、逐词听音。
 - **5 种互动练习**：选择、听力、拼写、词序、配对。
 - **间隔复习（SRS）**：按 `Outra vez / Difícil / Bem / Fácil` 安排下次复习。
-- **48 句场景短语**：问候、咖啡、出行、购物、社交、紧急求助。
-- **7 篇文化阅读**：葡葡 vs 巴葡、`sh` 发音、`bica`、`tu` 与 `senhor`、saudade 等。
+- **1000 句场景口语句型**：20 个真实场景 × 50 句；配中文、English、français，支持场景筛选、四语搜索和收藏。
+- **100 篇葡萄牙文化讲解**：10 个主题 × 10 篇；每篇配中文、English、français 三种完整讲解。
 - **5 个 PT-PT 外部资源入口**：Falar、Fala Bem、PTptIndex、EP Spoken Frequency、Conversas com Amália；在「文化 → Recursos externos」里直接跳转，全部经过 pt-PT 筛选，不含巴葡项目。
 - **每节课自己的阅读、听力和口语**：`Leitura & escuta` 步骤为每课提供考试长度短文、4 道阅读理解题、整篇听力（1.5–6 分钟）和一句角色跟读；另保留同级别视频/音频对话入口。
 - **CAPLE 难度与篇幅**：阅读和听力按葡萄牙国家考试 CAPLE 的级别与文本长度设计；不是三五句的短句堆叠。
@@ -70,6 +70,12 @@ PT-PT 外部资源入口：
 | ![语法](screenshots/grammar.png) | ![动词变位](screenshots/verbs.png) |
 |---|---|
 | ![听力原文与中文](screenshots/listening-text.png) | ![语法练习](screenshots/grammar-practice.png) |
+
+1000 句场景口语句型与 100 篇文化讲解：
+
+| ![1000 句场景句型](screenshots/phrases1000.png) | ![100 篇文化讲解](screenshots/culture100.png) |
+|---|---|
+| ![文化文章三语](screenshots/culture-article.png) | |
 
 十篇独立编号听力与短剧配音：
 
@@ -133,7 +139,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v2.3.0**。
+当前版本：**v3.0.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -167,6 +173,8 @@ azulejo/
 ├─ js/verbs.js             # 24 个动词的七时态变位表
 ├─ js/phonetics.js         # 词表发音标注
 ├─ js/pos-existing.js      # 原 210 个核心词的词性
+├─ js/phrases1000.js       # 1000 句场景口语句型（中/英/法）
+├─ js/culture100.js        # 100 篇葡萄牙文化讲解（中/英/法）
 ├─ js/immersion.js         # 每课阅读、听力、跟读、题目与课后词表
 ├─ js/resources.js         # 5 个仅 PT-PT 的外部学习资源
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
@@ -181,6 +189,9 @@ azulejo/
 ├─ tools/build-listening-zh.mjs # 合并 60 篇听力中文翻译
 ├─ tools/build-grammar.mjs # 合并 42 个语法点英文解释/练习
 ├─ tools/build-vocab.mjs   # 合并 600 个新增五语词汇
+├─ tools/build-pos.mjs     # 合并原 210 个词的词性
+├─ tools/build-phrases.mjs # 合并 1000 句场景句型
+├─ tools/build-culture.mjs # 合并 100 篇文化讲解
 ├─ tools/qa.mjs            # Chrome CDP 自动化走查（开发用）
 └─ screenshots/            # 预览截图
 ```

@@ -1,0 +1,802 @@
+[
+  {
+    "group": "housing",
+    "pt": "Estou à procura de um apartamento para arrendar.",
+    "en": "I'm looking for a flat to rent.",
+    "fr": "Je cherche un appartement à louer.",
+    "zh": "我在找公寓租。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Quanto é a renda por mês?",
+    "en": "How much is the rent per month?",
+    "fr": "Quel est le loyer mensuel ?",
+    "zh": "每月房租多少？",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A renda inclui as despesas de condomínio?",
+    "en": "Does the rent include the building maintenance fees?",
+    "fr": "Le loyer inclut-il les charges de copropriété ?",
+    "zh": "房租包含物业费吗？",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "A água e a luz estão incluídas?",
+    "en": "Are water and electricity included?",
+    "fr": "L'eau et l'électricité sont-elles comprises ?",
+    "zh": "水电费包含在内吗？",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Preciso de um fiador para assinar o contrato.",
+    "en": "I need a guarantor to sign the contract.",
+    "fr": "J'ai besoin d'un garant pour signer le contrat.",
+    "zh": "我需要担保人签合同。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Quanto é a caução?",
+    "en": "How much is the deposit?",
+    "fr": "Quel est le montant de la caution ?",
+    "zh": "押金多少？",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O contrato é de um ano, renovável.",
+    "en": "The contract is for one year, renewable.",
+    "fr": "Le contrat est d'un an, renouvelable.",
+    "zh": "合同一年，可续签。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "Podemos marcar uma visita para amanhã?",
+    "en": "Can we arrange a viewing for tomorrow?",
+    "fr": "Pouvons-nous fixer une visite pour demain ?",
+    "zh": "能约明天看房吗？",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O apartamento tem dois quartos e uma casa de banho.",
+    "en": "The flat has two bedrooms and one bathroom.",
+    "fr": "L'appartement a deux chambres et une salle de bain.",
+    "zh": "公寓有两间卧室和一个卫生间。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A cozinha está equipada com frigorífico e máquina de lavar.",
+    "en": "The kitchen is equipped with a fridge and a washing machine.",
+    "fr": "La cuisine est équipée d'un frigo et d'une machine à laver.",
+    "zh": "厨房配有冰箱和洗衣机。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A luz da sala não funciona desde ontem.",
+    "en": "The living-room light hasn't worked since yesterday.",
+    "fr": "La lumière du salon ne marche pas depuis hier.",
+    "zh": "客厅的灯从昨天起就不亮。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A torneira da cozinha está a pingar.",
+    "en": "The kitchen tap is dripping.",
+    "fr": "Le robinet de la cuisine goutte.",
+    "zh": "厨房水龙头在滴水。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O autoclismo está avariado e não para de correr.",
+    "en": "The toilet cistern is broken and won't stop running.",
+    "fr": "La chasse d'eau est cassée et n'arrête pas de couler.",
+    "zh": "马桶水箱坏了，一直流水。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "Pode chamar um canalizador, por favor?",
+    "en": "Could you call a plumber, please?",
+    "fr": "Pouvez-vous appeler un plombier, s'il vous plaît ?",
+    "zh": "您能叫个水管工吗？",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O esquentador deixou de funcionar e não temos água quente.",
+    "en": "The water heater stopped working and we have no hot water.",
+    "fr": "Le chauffe-eau est tombé en panne et nous n'avons plus d'eau chaude.",
+    "zh": "热水器坏了，我们没有热水。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "A janela do quarto não fecha bem e entra frio.",
+    "en": "The bedroom window doesn't close properly and cold air comes in.",
+    "fr": "La fenêtre de la chambre ferme mal et le froid entre.",
+    "zh": "卧室窗户关不严，漏风。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Já falei com o senhorio sobre a infiltração no teto.",
+    "en": "I've already spoken to the landlord about the leak in the ceiling.",
+    "fr": "J'ai déjà parlé au propriétaire de l'infiltration au plafond.",
+    "zh": "我已经跟房东说了天花板渗水。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "O senhorio disse que ia mandar arranjar a caldeira.",
+    "en": "The landlord said he would have the boiler fixed.",
+    "fr": "Le propriétaire a dit qu'il ferait réparer la chaudière.",
+    "zh": "房东说会让人修锅炉。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "A fechadura da porta da rua está emperrada.",
+    "en": "The lock on the street door is jammed.",
+    "fr": "La serrure de la porte d'entrée est coincée.",
+    "zh": "大门的锁卡住了。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "Os vizinhos de cima fazem muito barulho à noite.",
+    "en": "The upstairs neighbours make a lot of noise at night.",
+    "fr": "Les voisins du dessus font beaucoup de bruit la nuit.",
+    "zh": "楼上的邻居晚上很吵。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O bairro é calmo e tem bons transportes.",
+    "en": "The neighbourhood is quiet and has good transport links.",
+    "fr": "Le quartier est calme et bien desservi.",
+    "zh": "这个街区很安静，交通方便。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Há um supermercado e uma farmácia a dois minutos a pé.",
+    "en": "There's a supermarket and a pharmacy two minutes' walk away.",
+    "fr": "Il y a un supermarché et une pharmacie à deux minutes à pied.",
+    "zh": "步行两分钟有超市和药店。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Onde se pode estacionar o carro por aqui?",
+    "en": "Where can you park the car around here?",
+    "fr": "Où peut-on garer la voiture par ici ?",
+    "zh": "这附近哪里能停车？",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O prédio tem elevador e garagem.",
+    "en": "The building has a lift and a garage.",
+    "fr": "L'immeuble a un ascenseur et un garage.",
+    "zh": "楼里有电梯和车库。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Moro no terceiro andar, sem elevador.",
+    "en": "I live on the third floor, with no lift.",
+    "fr": "J'habite au troisième étage, sans ascenseur.",
+    "zh": "我住三楼，没有电梯。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A renda vai aumentar no próximo mês.",
+    "en": "The rent is going up next month.",
+    "fr": "Le loyer va augmenter le mois prochain.",
+    "zh": "下个月房租要涨。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Recebi a carta do senhorio a avisar do aumento.",
+    "en": "I got the landlord's letter announcing the increase.",
+    "fr": "J'ai reçu la lettre du propriétaire annonçant l'augmentation.",
+    "zh": "我收到房东通知涨租的信。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "A conta da luz deste mês veio muito alta.",
+    "en": "This month's electricity bill came out very high.",
+    "fr": "La facture d'électricité de ce mois-ci est très élevée.",
+    "zh": "这个月电费很高。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Temos de pagar o gás até sexta-feira.",
+    "en": "We have to pay the gas bill by Friday.",
+    "fr": "Nous devons payer le gaz avant vendredi.",
+    "zh": "我们得在周五前付燃气费。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A internet está sempre a falhar desde a semana passada.",
+    "en": "The internet keeps dropping since last week.",
+    "fr": "Internet ne cesse de couper depuis la semaine dernière.",
+    "zh": "从上周起网络总断。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Já enviei a leitura do contador à empresa.",
+    "en": "I've already sent the meter reading to the company.",
+    "fr": "J'ai déjà envoyé le relevé du compteur à l'entreprise.",
+    "zh": "我已把表读数发给公司。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "O senhorio quer fazer uma vistoria na quinta-feira.",
+    "en": "The landlord wants to do an inspection on Thursday.",
+    "fr": "Le propriétaire veut faire une inspection jeudi.",
+    "zh": "房东想周四来检查。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "A mudança está marcada para o dia quinze.",
+    "en": "The move is scheduled for the fifteenth.",
+    "fr": "Le déménagement est prévu le quinze.",
+    "zh": "搬家定在十五号。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Já temos todas as caixas feitas.",
+    "en": "We've already got all the boxes packed.",
+    "fr": "On a déjà fait tous les cartons.",
+    "zh": "我们已经把所有箱子打包好了。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Preciso de ajuda para levar o sofá para o camião.",
+    "en": "I need help carrying the sofa to the lorry.",
+    "fr": "J'ai besoin d'aide pour porter le canapé jusqu'au camion.",
+    "zh": "我需要帮忙把沙发搬上卡车。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A transportadora chega às nove da manhã.",
+    "en": "The removal company arrives at nine in the morning.",
+    "fr": "Le déménageur arrive à neuf heures du matin.",
+    "zh": "搬家公司早上九点到。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Temos de entregar as chaves ao senhorio na sexta.",
+    "en": "We have to hand the keys back to the landlord on Friday.",
+    "fr": "Nous devons rendre les clés au propriétaire vendredi.",
+    "zh": "我们得周五把钥匙交还房东。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "Vou pedir a devolução da caução por escrito.",
+    "en": "I'm going to ask for the deposit back in writing.",
+    "fr": "Je vais demander le remboursement de la caution par écrit.",
+    "zh": "我会书面要求退还押金。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "O contrato diz que temos de avisar com dois meses de antecedência.",
+    "en": "The contract says we have to give two months' notice.",
+    "fr": "Le contrat dit qu'il faut prévenir deux mois à l'avance.",
+    "zh": "合同说须提前两个月通知。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "Estou a pensar mudar-me para uma casa maior.",
+    "en": "I'm thinking of moving to a bigger house.",
+    "fr": "Je pense déménager dans une maison plus grande.",
+    "zh": "我想搬去大一点的房子。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O senhorio é simpático e resolve os problemas depressa.",
+    "en": "The landlord is friendly and sorts out problems quickly.",
+    "fr": "Le propriétaire est sympa et règle vite les problèmes.",
+    "zh": "房东人很好，处理问题很快。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A vizinha do rés-do-chão toma conta do gato quando viajo.",
+    "en": "The downstairs neighbour looks after my cat when I travel.",
+    "fr": "La voisine du rez-de-chaussée s'occupe de mon chat quand je voyage.",
+    "zh": "我旅行时楼下的邻居帮我照顾猫。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "Não posso ter animais no apartamento.",
+    "en": "I'm not allowed to have pets in the flat.",
+    "fr": "Je ne peux pas avoir d'animaux dans l'appartement.",
+    "zh": "公寓里不能养宠物。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O condomínio reuniu-se para falar das obras.",
+    "en": "The residents' committee met to discuss the works.",
+    "fr": "La copropriété s'est réunie pour parler des travaux.",
+    "zh": "业主委员会开会讨论施工。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "Vão pintar a fachada do prédio no verão.",
+    "en": "They're going to paint the building's facade in the summer.",
+    "fr": "Ils vont peindre la façade de l'immeuble en été.",
+    "zh": "夏天要给楼外墙刷漆。",
+    "level": "B1"
+  },
+  {
+    "group": "housing",
+    "pt": "O lugar de garagem é partilhado com o vizinho.",
+    "en": "The parking space is shared with the neighbour.",
+    "fr": "La place de parking est partagée avec le voisin.",
+    "zh": "车位和邻居共用。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Quando nos mudámos, a casa estava suja.",
+    "en": "When we moved in, the house was dirty.",
+    "fr": "Quand nous avons emménagé, la maison était sale.",
+    "zh": "我们搬进来时房子很脏。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "Tivemos de comprar um colchão novo.",
+    "en": "We had to buy a new mattress.",
+    "fr": "Nous avons dû acheter un nouveau matelas.",
+    "zh": "我们不得不买新床垫。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "O senhorio devolveu-nos a caução toda.",
+    "en": "The landlord gave us back the whole deposit.",
+    "fr": "Le propriétaire nous a rendu toute la caution.",
+    "zh": "房东把押金全额退给我们了。",
+    "level": "A2"
+  },
+  {
+    "group": "housing",
+    "pt": "A partir de agora, o aluguer é pago por transferência.",
+    "en": "From now on, the rent is paid by bank transfer.",
+    "fr": "Désormais, le loyer est payé par virement.",
+    "zh": "从今以后房租通过转账支付。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Candidatei-me a uma vaga na área do marketing.",
+    "en": "I applied for a position in marketing.",
+    "fr": "J'ai postulé à un poste dans le marketing.",
+    "zh": "我申请了一个市场营销的职位。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Enviei o currículo e a carta de apresentação.",
+    "en": "I sent my CV and cover letter.",
+    "fr": "J'ai envoyé mon CV et ma lettre de motivation.",
+    "zh": "我发了简历和求职信。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "A entrevista é na segunda-feira às dez.",
+    "en": "The interview is on Monday at ten.",
+    "fr": "L'entretien est lundi à dix heures.",
+    "zh": "面试在周一十点。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Pode falar-me um pouco sobre a sua experiência?",
+    "en": "Could you tell me a bit about your experience?",
+    "fr": "Pouvez-vous me parler un peu de votre expérience ?",
+    "zh": "能谈谈您的经验吗？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Trabalhei três anos numa empresa de construção.",
+    "en": "I worked for three years at a construction company.",
+    "fr": "J'ai travaillé trois ans dans une entreprise de construction.",
+    "zh": "我在一家建筑公司工作了三年。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Qual é o horário de trabalho?",
+    "en": "What are the working hours?",
+    "fr": "Quels sont les horaires de travail ?",
+    "zh": "工作时间是怎样的？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "O horário é das nove às seis, com uma hora de almoço.",
+    "en": "The hours are nine to six, with a one-hour lunch break.",
+    "fr": "Les horaires sont de neuf heures à six heures, avec une heure de pause déjeuner.",
+    "zh": "工作时间是九点到六点，午休一小时。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Há possibilidade de fazer horas extraordinárias?",
+    "en": "Is there any possibility of doing overtime?",
+    "fr": "Est-il possible de faire des heures supplémentaires ?",
+    "zh": "可以加班吗？",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "O trabalho é presencial ou em teletrabalho?",
+    "en": "Is the job on-site or remote?",
+    "fr": "Le poste est en présentiel ou en télétravail ?",
+    "zh": "工作是坐班还是远程？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Vou começar no dia dois de maio.",
+    "en": "I'm starting on the second of May.",
+    "fr": "Je commence le deux mai.",
+    "zh": "我五月二号开始上班。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "O período experimental é de três meses.",
+    "en": "The probation period is three months.",
+    "fr": "La période d'essai est de trois mois.",
+    "zh": "试用期三个月。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Assinei um contrato sem termo.",
+    "en": "I signed a permanent contract.",
+    "fr": "J'ai signé un contrat à durée indéterminée.",
+    "zh": "我签了无固定期限合同。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Quanto é o salário líquido?",
+    "en": "What's the net salary?",
+    "fr": "Quel est le salaire net ?",
+    "zh": "净工资是多少？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "O ordenado é pago no dia vinte e cinco.",
+    "en": "The salary is paid on the twenty-fifth.",
+    "fr": "Le salaire est versé le vingt-cinq.",
+    "zh": "工资每月二十五号发。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Os colegas receberam-me muito bem.",
+    "en": "My colleagues gave me a very warm welcome.",
+    "fr": "Mes collègues m'ont très bien accueilli.",
+    "zh": "同事们很欢迎我。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "O meu colega do lado ajuda-me sempre que preciso.",
+    "en": "The colleague next to me helps whenever I need it.",
+    "fr": "Mon collègue d'à côté m'aide chaque fois que j'en ai besoin.",
+    "zh": "旁边的同事总在我需要时帮忙。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "A minha chefe é exigente, mas justa.",
+    "en": "My boss is demanding but fair.",
+    "fr": "Ma cheffe est exigeante mais juste.",
+    "zh": "我上司要求高但公平。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Temos uma reunião de equipa todas as segundas.",
+    "en": "We have a team meeting every Monday.",
+    "fr": "Nous avons une réunion d'équipe tous les lundis.",
+    "zh": "我们每周一开团队会。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "A reunião foi adiada para quinta-feira.",
+    "en": "The meeting was postponed to Thursday.",
+    "fr": "La réunion a été reportée à jeudi.",
+    "zh": "会议推迟到周四。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Podes enviar-me a ata da reunião?",
+    "en": "Can you send me the minutes of the meeting?",
+    "fr": "Peux-tu m'envoyer le compte rendu de la réunion ?",
+    "zh": "你能把会议纪要发给我吗？",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Tenho de preparar uma apresentação para amanhã.",
+    "en": "I have to prepare a presentation for tomorrow.",
+    "fr": "Je dois préparer une présentation pour demain.",
+    "zh": "我得准备明天的演示。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "O prazo para entregar o relatório é sexta.",
+    "en": "The deadline for handing in the report is Friday.",
+    "fr": "La date limite pour rendre le rapport est vendredi.",
+    "zh": "报告截止日期是周五。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Consegues acabar isso até ao fim do dia?",
+    "en": "Can you finish that by the end of the day?",
+    "fr": "Tu peux finir ça avant la fin de la journée ?",
+    "zh": "你能在今天下班前完成吗？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Vou pedir uma semana de férias em agosto.",
+    "en": "I'm going to ask for a week's holiday in August.",
+    "fr": "Je vais demander une semaine de congés en août.",
+    "zh": "我打算八月请一周假。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Já marquei as férias com o chefe.",
+    "en": "I've already arranged my holiday with the boss.",
+    "fr": "J'ai déjà posé mes congés avec le chef.",
+    "zh": "我已经和上司定好假期。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Preciso de tirar um dia para ir ao médico.",
+    "en": "I need to take a day off to go to the doctor.",
+    "fr": "J'ai besoin de prendre un jour pour aller chez le médecin.",
+    "zh": "我需要请一天假去看医生。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Estou de baixa médica até quarta-feira.",
+    "en": "I'm on sick leave until Wednesday.",
+    "fr": "Je suis en arrêt maladie jusqu'à mercredi.",
+    "zh": "我病假到周三。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "A minha mulher está de licença de parentalidade.",
+    "en": "My wife is on parental leave.",
+    "fr": "Ma femme est en congé parental.",
+    "zh": "我妻子在休育儿假。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "O meu contrato termina no fim do ano.",
+    "en": "My contract ends at the end of the year.",
+    "fr": "Mon contrat se termine à la fin de l'année.",
+    "zh": "我的合同年底到期。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Não me renovaram o contrato.",
+    "en": "They didn't renew my contract.",
+    "fr": "Ils n'ont pas renouvelé mon contrat.",
+    "zh": "他们没有续签我的合同。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Estou à procura de um novo emprego.",
+    "en": "I'm looking for a new job.",
+    "fr": "Je cherche un nouveau travail.",
+    "zh": "我在找新工作。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Há um problema com o meu computador.",
+    "en": "There's a problem with my computer.",
+    "fr": "Il y a un problème avec mon ordinateur.",
+    "zh": "我的电脑有问题。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "A impressora não está a funcionar.",
+    "en": "The printer isn't working.",
+    "fr": "L'imprimante ne fonctionne pas.",
+    "zh": "打印机坏了。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Podes ajudar-me a resolver isto?",
+    "en": "Can you help me sort this out?",
+    "fr": "Peux-tu m'aider à résoudre ça ?",
+    "zh": "你能帮我解决这个吗？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Não percebi o que disseste na reunião.",
+    "en": "I didn't understand what you said in the meeting.",
+    "fr": "Je n'ai pas compris ce que tu as dit en réunion.",
+    "zh": "我没听懂你在会上说的。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Podes repetir mais devagar, por favor?",
+    "en": "Could you repeat that more slowly, please?",
+    "fr": "Tu peux répéter plus lentement, s'il te plaît ?",
+    "zh": "你能慢点再说一遍吗？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Cheguei atrasado por causa do trânsito.",
+    "en": "I arrived late because of the traffic.",
+    "fr": "Je suis arrivé en retard à cause des embouteillages.",
+    "zh": "我因为堵车迟到了。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Desculpe o atraso, o metro estava parado.",
+    "en": "Sorry I'm late, the metro was at a standstill.",
+    "fr": "Désolé du retard, le métro était bloqué.",
+    "zh": "抱歉迟到，地铁停运了。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Tenho trabalhado muito esta semana.",
+    "en": "I've been working a lot this week.",
+    "fr": "J'ai beaucoup travaillé cette semaine.",
+    "zh": "我这周工作很多。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Vou sair um pouco mais cedo hoje.",
+    "en": "I'm going to leave a bit earlier today.",
+    "fr": "Je vais partir un peu plus tôt aujourd'hui.",
+    "zh": "我今天要早点走。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Passo pelo teu lugar daqui a pouco.",
+    "en": "I'll come by your desk in a bit.",
+    "fr": "Je passe à ton bureau dans un moment.",
+    "zh": "我一会儿去你工位。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Podemos falar um minuto em privado?",
+    "en": "Can we talk for a minute in private?",
+    "fr": "On peut parler une minute en privé ?",
+    "zh": "能私下聊一分钟吗？",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "O aumento foi recusado pela direção.",
+    "en": "The raise was refused by management.",
+    "fr": "L'augmentation a été refusée par la direction.",
+    "zh": "管理层拒绝了加薪。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Vamos ter uma formação sobre segurança na quinta.",
+    "en": "We're having a safety training session on Thursday.",
+    "fr": "Nous avons une formation sur la sécurité jeudi.",
+    "zh": "周四有安全培训。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "O sindicato convocou uma greve para a semana que vem.",
+    "en": "The union called a strike for next week.",
+    "fr": "Le syndicat a appelé à une grève la semaine prochaine.",
+    "zh": "工会号召下周罢工。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "Piquei o ponto antes de sair.",
+    "en": "I clocked out before leaving.",
+    "fr": "J'ai pointé avant de partir.",
+    "zh": "我下班前打了卡。",
+    "level": "B1"
+  },
+  {
+    "group": "work",
+    "pt": "A empresa vai mudar de escritório em setembro.",
+    "en": "The company is moving office in September.",
+    "fr": "L'entreprise déménage ses bureaux en septembre.",
+    "zh": "公司九月要换办公室。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Trabalho melhor de manhã do que à tarde.",
+    "en": "I work better in the morning than in the afternoon.",
+    "fr": "Je travaille mieux le matin que l'après-midi.",
+    "zh": "我上午比下午效率高。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Estou a aprender a usar o novo programa.",
+    "en": "I'm learning to use the new software.",
+    "fr": "J'apprends à utiliser le nouveau logiciel.",
+    "zh": "我在学用新软件。",
+    "level": "A2"
+  },
+  {
+    "group": "work",
+    "pt": "Gosto da equipa e dou-me bem com todos.",
+    "en": "I like the team and get on well with everyone.",
+    "fr": "J'aime l'équipe et je m'entends bien avec tout le monde.",
+    "zh": "我喜欢这个团队，和大家相处很好。",
+    "level": "A2"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "group": "emergencies",
+    "pt": "Preciso de ajuda, é uma emergência!",
+    "en": "I need help, it's an emergency!",
+    "fr": "J'ai besoin d'aide, c'est une urgence !",
+    "zh": "我需要帮助，这是紧急情况！",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Liguei para o 112, mas ninguém atende.",
+    "en": "I called 112, but nobody answers.",
+    "fr": "J'ai appelé le 112, mais personne ne répond.",
+    "zh": "我打了112，但没人接。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ligue para o 112 imediatamente.",
+    "en": "Call 112 immediately.",
+    "fr": "Appelez immédiatement le 112.",
+    "zh": "立即拨打112。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Há uma pessoa ferida aqui.",
+    "en": "There's an injured person here.",
+    "fr": "Il y a une personne blessée ici.",
+    "zh": "这里有人受伤。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ele caiu da escada e não consegue levantar-se.",
+    "en": "He fell from the stairs and can't get up.",
+    "fr": "Il est tombé de l'escalier et il n'arrive pas à se relever.",
+    "zh": "他从楼梯上摔下来，站不起来了。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "A minha mulher está com dificuldade em respirar.",
+    "en": "My wife is having trouble breathing.",
+    "fr": "Ma femme a du mal à respirer.",
+    "zh": "我妻子呼吸困难。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ele está inconsciente, mas ainda respira.",
+    "en": "He's unconscious, but he's still breathing.",
+    "fr": "Il est inconscient, mais il respire encore.",
+    "zh": "他昏迷了，但还有呼吸。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Cortei-me na mão e não para de sangrar.",
+    "en": "I cut my hand and it won't stop bleeding.",
+    "fr": "Je me suis coupé la main et ça n'arrête pas de saigner.",
+    "zh": "我割伤了手，血流不止。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Preciso de ajuda médica urgente.",
+    "en": "I need urgent medical help.",
+    "fr": "J'ai besoin d'une aide médicale urgente.",
+    "zh": "我需要紧急医疗帮助。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Preciso de ir às urgências mais próximas.",
+    "en": "I need to get to the nearest emergency department.",
+    "fr": "Je dois aller aux urgences les plus proches.",
+    "zh": "我得去最近的急诊。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Onde fica o hospital mais próximo?",
+    "en": "Where is the nearest hospital?",
+    "fr": "Où se trouve l'hôpital le plus proche ?",
+    "zh": "最近的医院在哪里？",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Houve um acidente de carro na estrada nacional.",
+    "en": "There's been a car accident on the national road.",
+    "fr": "Il y a eu un accident de voiture sur la route nationale.",
+    "zh": "国道上发生了车祸。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ele foi atropelado por um carro.",
+    "en": "He was hit by a car.",
+    "fr": "Il a été renversé par une voiture.",
+    "zh": "他被车撞了。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Chame a polícia, há um homem a ameaçar as pessoas.",
+    "en": "Call the police, there's a man threatening people.",
+    "fr": "Appelez la police, il y a un homme qui menace les gens.",
+    "zh": "快叫警察，有个男人在威胁别人。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Fui assaltado no metro e levaram-me a carteira.",
+    "en": "I was mugged on the metro and my wallet was taken.",
+    "fr": "J'ai été agressé dans le métro et on m'a pris mon portefeuille.",
+    "zh": "我在地铁上被抢了，钱包被拿走了。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Roubaram-me o telemóvel enquanto esperava o autocarro.",
+    "en": "They stole my phone while I was waiting for the bus.",
+    "fr": "On m'a volé mon téléphone portable pendant que j'attendais le bus.",
+    "zh": "我等公交车时手机被偷了。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Quero fazer uma queixa na esquadra.",
+    "en": "I want to file a report at the police station.",
+    "fr": "Je veux porter plainte au commissariat.",
+    "zh": "我要去警察局报案。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Perdi o meu passaporte e preciso de o participar.",
+    "en": "I've lost my passport and I need to report it.",
+    "fr": "J'ai perdu mon passeport et je dois le signaler.",
+    "zh": "我护照丢了，需要报失。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "O meu filho desapareceu no centro comercial.",
+    "en": "My son went missing in the shopping centre.",
+    "fr": "Mon fils a disparu dans le centre commercial.",
+    "zh": "我儿子在购物中心走丢了。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Não encontro a minha filha, ela tem cinco anos.",
+    "en": "I can't find my daughter, she's five years old.",
+    "fr": "Je ne trouve pas ma fille, elle a cinq ans.",
+    "zh": "我找不到女儿了，她五岁。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Deixei a mala no comboio e ele já saiu da estação.",
+    "en": "I left my bag on the train and it has already left the station.",
+    "fr": "J'ai laissé mon sac dans le train et il est déjà parti de la gare.",
+    "zh": "我把包落在火车上了，车已经出站。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Perdi as chaves de casa e não consigo entrar.",
+    "en": "I've lost my house keys and I can't get in.",
+    "fr": "J'ai perdu mes clés et je n'arrive pas à entrer.",
+    "zh": "我钥匙丢了，进不了门。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Alguém encontrou um telemóvel perto do café?",
+    "en": "Has anyone found a phone near the café?",
+    "fr": "Quelqu'un a trouvé un téléphone près du café ?",
+    "zh": "有人在咖啡馆附近捡到手机吗？",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Chamem os bombeiros, o fogo está a alastrar!",
+    "en": "Call the fire brigade, the fire is spreading!",
+    "fr": "Appelez les pompiers, le feu se propage !",
+    "zh": "快叫消防队，火势在蔓延！",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Há fumo a sair da janela do terceiro andar.",
+    "en": "There's smoke coming out of the third-floor window.",
+    "fr": "Il y a de la fumée qui sort de la fenêtre du troisième étage.",
+    "zh": "三楼窗户在冒烟。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "O prédio está a arder, temos de sair já!",
+    "en": "The building is on fire, we have to get out now!",
+    "fr": "L'immeuble est en feu, il faut sortir tout de suite !",
+    "zh": "楼里着火了，我们得马上出去！",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Onde está o extintor mais próximo?",
+    "en": "Where is the nearest fire extinguisher?",
+    "fr": "Où est l'extincteur le plus proche ?",
+    "zh": "最近的灭火器在哪里？",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Não usem o elevador, desçam pelas escadas.",
+    "en": "Don't use the lift, go down the stairs.",
+    "fr": "N'utilisez pas l'ascenseur, descendez par les escaliers.",
+    "zh": "不要坐电梯，走楼梯下去。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Cheira a gás na cozinha.",
+    "en": "There's a smell of gas in the kitchen.",
+    "fr": "Ça sent le gaz dans la cuisine.",
+    "zh": "厨房里有煤气味。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ninguém ficou ferido, mas o carro está destruído.",
+    "en": "No one was hurt, but the car is destroyed.",
+    "fr": "Personne n'a été blessé, mais la voiture est détruite.",
+    "zh": "没人受伤，但车毁了。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Quero falar com um advogado.",
+    "en": "I want to speak to a lawyer.",
+    "fr": "Je veux parler à un avocat.",
+    "zh": "我想见律师。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Sou estrangeiro e perdi os meus documentos.",
+    "en": "I'm a foreigner and I've lost my documents.",
+    "fr": "Je suis étranger et j'ai perdu mes documents.",
+    "zh": "我是外国人，证件丢了。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Pode chamar um táxi para o hospital?",
+    "en": "Can you call a taxi to the hospital?",
+    "fr": "Pouvez-vous appeler un taxi pour l'hôpital ?",
+    "zh": "能帮我叫辆出租车去医院吗？",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "A minha filha tem febre alta desde ontem.",
+    "en": "My daughter has had a high fever since yesterday.",
+    "fr": "Ma fille a une forte fièvre depuis hier.",
+    "zh": "我女儿从昨天起就一直高烧。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ele tem alergia à penicilina.",
+    "en": "He's allergic to penicillin.",
+    "fr": "Il est allergique à la pénicilline.",
+    "zh": "他对青霉素过敏。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ela está grávida e tem dores fortes.",
+    "en": "She's pregnant and in a lot of pain.",
+    "fr": "Elle est enceinte et elle a de fortes douleurs.",
+    "zh": "她怀孕了，而且疼得很厉害。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Acho que ele está a ter um ataque cardíaco.",
+    "en": "I think he's having a heart attack.",
+    "fr": "Je crois qu'il fait une crise cardiaque.",
+    "zh": "我觉得他心脏病发作了。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ele engasgou-se e não consegue falar.",
+    "en": "He's choking and can't speak.",
+    "fr": "Il s'étouffe et il n'arrive pas à parler.",
+    "zh": "他噎住了，说不出话。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Preciso de um intérprete, é urgente.",
+    "en": "I need an interpreter, it's urgent.",
+    "fr": "J'ai besoin d'un interprète, c'est urgent.",
+    "zh": "我需要翻译，很急。",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Podem enviar uma ambulância à Rua das Flores, número dez?",
+    "en": "Can you send an ambulance to Rua das Flores, number ten?",
+    "fr": "Pouvez-vous envoyer une ambulance au 10, Rua das Flores ?",
+    "zh": "能派一辆救护车到花街10号吗？",
+    "level": "A2"
+  },
+  {
+    "group": "emergencies",
+    "pt": "A minha casa ficou inundada e não sei o que fazer.",
+    "en": "My house has flooded and I don't know what to do.",
+    "fr": "Ma maison a été inondée et je ne sais pas quoi faire.",
+    "zh": "我家被水淹了，我不知道该怎么办。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Há uma fuga de água na cave e a água está a subir.",
+    "en": "There's a leak in the basement and the water is rising.",
+    "fr": "Il y a une fuite d'eau à la cave et l'eau monte.",
+    "zh": "地下室漏水，水还在往上涨。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "O elevador está preso e há uma pessoa lá dentro.",
+    "en": "The lift is stuck and there's someone inside.",
+    "fr": "L'ascenseur est bloqué et il y a quelqu'un à l'intérieur.",
+    "zh": "电梯卡住了，里面有人。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Vi um homem a arrombar a porta do vizinho.",
+    "en": "I saw a man forcing my neighbour's door.",
+    "fr": "J'ai vu un homme forcer la porte de mon voisin.",
+    "zh": "我看见一个男人在撬邻居家的门。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Alguém me está a seguir desde a estação.",
+    "en": "Someone has been following me since the station.",
+    "fr": "Quelqu'un me suit depuis la gare.",
+    "zh": "从车站起就一直有人跟着我。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Preciso que me ajudem a levar o meu pai ao carro.",
+    "en": "I need help getting my father to the car.",
+    "fr": "J'ai besoin qu'on m'aide à emmener mon père jusqu'à la voiture.",
+    "zh": "我需要有人帮我把父亲扶到车上。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "O meu amigo desmaiou e bateu com a cabeça.",
+    "en": "My friend fainted and hit his head.",
+    "fr": "Mon ami s'est évanoui et s'est cogné la tête.",
+    "zh": "我朋友晕倒了，撞到了头。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "O carro avariou na autoestrada e estamos aqui há duas horas.",
+    "en": "The car broke down on the motorway and we've been here for two hours.",
+    "fr": "La voiture est tombée en panne sur l'autoroute et nous sommes là depuis deux heures.",
+    "zh": "车在高速上抛锚了，我们在这里已经两个小时了。",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Ainda não chegou ninguém; quanto tempo falta?",
+    "en": "Nobody has arrived yet; how much longer will it be?",
+    "fr": "Personne n'est encore arrivé ; combien de temps faut-il encore ?",
+    "zh": "还没人来，还要等多久？",
+    "level": "B1"
+  },
+  {
+    "group": "emergencies",
+    "pt": "Fique calmo, a ajuda está a caminho.",
+    "en": "Stay calm, help is on the way.",
+    "fr": "Restez calme, les secours arrivent.",
+    "zh": "请保持冷静，救援马上就到。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Concordo plenamente contigo.",
+    "en": "I completely agree with you.",
+    "fr": "Je suis tout à fait d'accord avec toi.",
+    "zh": "我完全同意你。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Tens toda a razão.",
+    "en": "You're absolutely right.",
+    "fr": "Tu as tout à fait raison.",
+    "zh": "你完全说得对。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Exatamente, era isso que eu ia dizer.",
+    "en": "Exactly, that's what I was going to say.",
+    "fr": "Exactement, c'est ce que j'allais dire.",
+    "zh": "没错，这正是我要说的。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Também acho que é a melhor solução.",
+    "en": "I also think it's the best solution.",
+    "fr": "Je pense aussi que c'est la meilleure solution.",
+    "zh": "我也觉得这是最好的办法。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Sem dúvida, não há outra maneira.",
+    "en": "No doubt, there's no other way.",
+    "fr": "Sans aucun doute, il n'y a pas d'autre solution.",
+    "zh": "毫无疑问，没有别的办法。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Estou de acordo, mas com uma condição.",
+    "en": "I agree, but with one condition.",
+    "fr": "Je suis d'accord, mais à une condition.",
+    "zh": "我同意，但有一个条件。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Nunca tinha pensado nisso, mas faz sentido.",
+    "en": "I'd never thought about that, but it makes sense.",
+    "fr": "Je n'y avais jamais pensé, mais c'est logique.",
+    "zh": "我从没想过这一点，但很有道理。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "É verdade, não posso negar.",
+    "en": "It's true, I can't deny it.",
+    "fr": "C'est vrai, je ne peux pas le nier.",
+    "zh": "确实如此，我无法否认。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Compreendo o teu ponto de vista, mas não concordo.",
+    "en": "I understand your point of view, but I don't agree.",
+    "fr": "Je comprends ton point de vue, mais je ne suis pas d'accord.",
+    "zh": "我理解你的观点，但我不同意。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Vejo as coisas de outra maneira.",
+    "en": "I see things differently.",
+    "fr": "Je vois les choses autrement.",
+    "zh": "我的看法不一样。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Respeito a tua opinião, mas penso que estás enganado.",
+    "en": "I respect your opinion, but I think you're wrong.",
+    "fr": "Je respecte ton opinion, mais je pense que tu te trompes.",
+    "zh": "我尊重你的意见，但我认为你错了。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Não sei se concordo com isso.",
+    "en": "I'm not sure I agree with that.",
+    "fr": "Je ne sais pas si je suis d'accord avec ça.",
+    "zh": "我不确定我是否同意。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Discordo em parte, por várias razões.",
+    "en": "I partly disagree, for several reasons.",
+    "fr": "Je ne suis pas entièrement d'accord, pour plusieurs raisons.",
+    "zh": "我部分不同意，原因有好几个。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Talvez tenhas razão, mas não estou convencido.",
+    "en": "Maybe you're right, but I'm not convinced.",
+    "fr": "Tu as peut-être raison, mais je ne suis pas convaincu.",
+    "zh": "也许你说得对，但我还没被说服。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Isso depende muito do ponto de vista.",
+    "en": "That depends a lot on your point of view.",
+    "fr": "Ça dépend beaucoup du point de vue.",
+    "zh": "这很大程度上取决于看问题的角度。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Não é bem assim, deixa-me explicar.",
+    "en": "It's not quite like that, let me explain.",
+    "fr": "Ce n'est pas tout à fait comme ça, laisse-moi t'expliquer.",
+    "zh": "不是这样的，让我解释一下。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Percebo o que dizes, só que a realidade é mais complicada.",
+    "en": "I get what you're saying, only reality is more complicated.",
+    "fr": "Je vois ce que tu veux dire, seulement la réalité est plus compliquée.",
+    "zh": "我明白你的意思，只是现实更复杂。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Na minha opinião, o transporte público devia ser mais barato.",
+    "en": "In my opinion, public transport should be cheaper.",
+    "fr": "À mon avis, les transports publics devraient être moins chers.",
+    "zh": "我认为公共交通应该更便宜。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "A razão é simples: não há dinheiro suficiente.",
+    "en": "The reason is simple: there isn't enough money.",
+    "fr": "La raison est simple : il n'y a pas assez d'argent.",
+    "zh": "原因很简单：钱不够。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Primeiro, é mais saudável; segundo, é mais barato.",
+    "en": "First, it's healthier; second, it's cheaper.",
+    "fr": "Premièrement, c'est plus sain ; deuxièmement, c'est moins cher.",
+    "zh": "第一，更健康；第二，更便宜。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Por um lado, é prático; por outro, é caro.",
+    "en": "On one hand it's practical; on the other, it's expensive.",
+    "fr": "D'un côté, c'est pratique ; de l'autre, c'est cher.",
+    "zh": "一方面很实用，另一方面很贵。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "O que me preocupa é o efeito nas famílias.",
+    "en": "What worries me is the effect on families.",
+    "fr": "Ce qui m'inquiète, c'est l'effet sur les familles.",
+    "zh": "我担心的是对家庭的影响。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Se fizermos isso, vamos ter problemas mais tarde.",
+    "en": "If we do that, we'll have problems later.",
+    "fr": "Si on fait ça, on aura des problèmes plus tard.",
+    "zh": "如果我们这样做，以后会有麻烦。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Não faz sentido gastar tanto dinheiro num estádio.",
+    "en": "It doesn't make sense to spend so much money on a stadium.",
+    "fr": "Ça n'a pas de sens de dépenser autant d'argent dans un stade.",
+    "zh": "花这么多钱建体育场没有意义。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "A meu ver, o problema começa na educação.",
+    "en": "In my view, the problem starts in education.",
+    "fr": "À mon sens, le problème commence dans l'éducation.",
+    "zh": "在我看来，问题出在教育上。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Comparado com o ano passado, está muito melhor.",
+    "en": "Compared with last year, it's much better.",
+    "fr": "Par rapport à l'année dernière, c'est beaucoup mieux.",
+    "zh": "与去年相比，好多了。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Enquanto o comboio é rápido, o autocarro é lento.",
+    "en": "While the train is fast, the bus is slow.",
+    "fr": "Alors que le train est rapide, le bus est lent.",
+    "zh": "火车快，公交车慢。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Lisboa é mais cara do que o Porto.",
+    "en": "Lisbon is more expensive than Porto.",
+    "fr": "Lisbonne est plus chère que Porto.",
+    "zh": "里斯本比波尔图贵。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Não é tão grave como parece.",
+    "en": "It's not as serious as it seems.",
+    "fr": "Ce n'est pas aussi grave que ça en a l'air.",
+    "zh": "事情没有看起来那么严重。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Prefiro viver no campo, é mais calmo.",
+    "en": "I'd rather live in the countryside, it's calmer.",
+    "fr": "Je préfère vivre à la campagne, c'est plus calme.",
+    "zh": "我更喜欢住在乡下，那里更安静。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "O comboio é mais rápido, mas o carro é mais cómodo.",
+    "en": "The train is faster, but the car is more comfortable.",
+    "fr": "Le train est plus rapide, mais la voiture est plus confortable.",
+    "zh": "火车更快，但汽车更舒服。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Hoje em dia há menos tempo para a família do que antigamente.",
+    "en": "Nowadays there's less time for family than in the past.",
+    "fr": "De nos jours, on a moins de temps pour la famille qu'avant.",
+    "zh": "如今人们陪家人的时间比过去少了。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Parece-me que ninguém está a prestar atenção.",
+    "en": "It seems to me that nobody is paying attention.",
+    "fr": "Il me semble que personne ne fait attention.",
+    "zh": "我觉得没人在认真听。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Se calhar tens razão.",
+    "en": "Maybe you're right.",
+    "fr": "Tu as peut-être raison.",
+    "zh": "也许你说得对。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Não tenho a certeza, mas acho que sim.",
+    "en": "I'm not sure, but I think so.",
+    "fr": "Je ne suis pas sûr, mais je crois que oui.",
+    "zh": "我不确定，但我觉得是的。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "Pode ser que melhore nos próximos meses.",
+    "en": "It may improve in the coming months.",
+    "fr": "Il se peut que ça s'améliore dans les prochains mois.",
+    "zh": "未来几个月可能会好转。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "De certa forma, todos temos culpa.",
+    "en": "In a way, we're all to blame.",
+    "fr": "D'une certaine façon, on est tous responsables.",
+    "zh": "从某种意义上说，我们都有责任。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Suponho que depende do que cada um valoriza.",
+    "en": "I suppose it depends on what each person values.",
+    "fr": "Je suppose que ça dépend de ce que chacun valorise.",
+    "zh": "我想这取决于每个人看重什么。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Não quero ser pessimista, mas não vejo grande futuro nisso.",
+    "en": "I don't want to be pessimistic, but I don't see much future in it.",
+    "fr": "Je ne veux pas être pessimiste, mais je ne vois pas beaucoup d'avenir là-dedans.",
+    "zh": "我不想悲观，但我看不到什么前途。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Talvez seja melhor esperar antes de decidir.",
+    "en": "Maybe it's better to wait before deciding.",
+    "fr": "Il vaut peut-être mieux attendre avant de décider.",
+    "zh": "也许最好先等等再决定。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Ouvi dizer que vai haver eleições antecipadas.",
+    "en": "I heard there are going to be early elections.",
+    "fr": "J'ai entendu dire qu'il allait y avoir des élections anticipées.",
+    "zh": "我听说要提前举行选举。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Li no jornal que a crise está a piorar.",
+    "en": "I read in the paper that the crisis is getting worse.",
+    "fr": "J'ai lu dans le journal que la crise s'aggrave.",
+    "zh": "我在报纸上看到危机在恶化。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Viste as notícias sobre o incêndio?",
+    "en": "Did you see the news about the fire?",
+    "fr": "Tu as vu les infos sur l'incendie ?",
+    "zh": "你看到关于那场火灾的新闻了吗？",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "É verdade que o governo vai aumentar os impostos?",
+    "en": "Is it true that the government is going to raise taxes?",
+    "fr": "C'est vrai que le gouvernement va augmenter les impôts ?",
+    "zh": "政府真的要加税吗？",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Nas redes sociais dizem coisas que não são verdade.",
+    "en": "On social media they say things that aren't true.",
+    "fr": "Sur les réseaux sociaux, on dit des choses qui ne sont pas vraies.",
+    "zh": "社交媒体上有些东西不是真的。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Não acredito em tudo o que aparece na internet.",
+    "en": "I don't believe everything that appears on the internet.",
+    "fr": "Je ne crois pas tout ce qui apparaît sur internet.",
+    "zh": "我不会相信网上的一切。",
+    "level": "A2"
+  },
+  {
+    "group": "opinions",
+    "pt": "As notícias de hoje são sobre a greve dos transportes.",
+    "en": "Today's news is about the transport strike.",
+    "fr": "Les infos d'aujourd'hui portent sur la grève des transports.",
+    "zh": "今天的新闻是关于交通罢工的。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Será que a situação vai melhorar até ao verão?",
+    "en": "Will the situation improve by summer?",
+    "fr": "La situation va-t-elle s'améliorer d'ici l'été ?",
+    "zh": "情况到夏天会好转吗？",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "O jornal falou de um aumento do desemprego.",
+    "en": "The paper mentioned a rise in unemployment.",
+    "fr": "Le journal a parlé d'une hausse du chômage.",
+    "zh": "报纸提到了失业率上升。",
+    "level": "B1"
+  },
+  {
+    "group": "opinions",
+    "pt": "Todos falam do mesmo assunto, mas ninguém dá soluções.",
+    "en": "Everyone talks about the same subject, but nobody offers solutions.",
+    "fr": "Tout le monde parle du même sujet, mais personne ne propose de solutions.",
+    "zh": "大家都在谈同一件事，却没人给出解决办法。",
+    "level": "B1"
+  }
+]

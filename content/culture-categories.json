@@ -1,0 +1,52 @@
+[
+  {
+    "key": "lisboa",
+    "pt": "Lisboa e bairros",
+    "zh": "里斯本与街区"
+  },
+  {
+    "key": "gastronomia",
+    "pt": "Gastronomia",
+    "zh": "饮食"
+  },
+  {
+    "key": "fado",
+    "pt": "Fado e música",
+    "zh": "法朵与音乐"
+  },
+  {
+    "key": "azulejo",
+    "pt": "Azulejo e artes",
+    "zh": "瓷砖与艺术"
+  },
+  {
+    "key": "festas",
+    "pt": "Festas e tradições",
+    "zh": "节庆与传统"
+  },
+  {
+    "key": "historia",
+    "pt": "História",
+    "zh": "历史"
+  },
+  {
+    "key": "quotidiano",
+    "pt": "Vida quotidiana",
+    "zh": "日常生活"
+  },
+  {
+    "key": "religiao",
+    "pt": "Religião e romarias",
+    "zh": "宗教与朝圣"
+  },
+  {
+    "key": "futebol",
+    "pt": "Futebol",
+    "zh": "足球"
+  },
+  {
+    "key": "lingua",
+    "pt": "Língua e expressões",
+    "zh": "语言与表达"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "group": "shopping",
+    "pt": "Só estou a ver, obrigado.",
+    "en": "I'm just looking, thanks.",
+    "fr": "Je regarde seulement, merci.",
+    "zh": "我只是看看，谢谢。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Procuro uma camisa branca.",
+    "en": "I'm looking for a white shirt.",
+    "fr": "Je cherche une chemise blanche.",
+    "zh": "我在找一件白衬衫。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Tem este modelo noutro tamanho?",
+    "en": "Do you have this model in another size?",
+    "fr": "Vous avez ce modèle dans une autre taille ?",
+    "zh": "这个款式有其他尺码吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Qual é o meu tamanho?",
+    "en": "What size am I?",
+    "fr": "Quelle est ma taille ?",
+    "zh": "我穿什么尺码？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Este tamanho fica-me pequeno.",
+    "en": "This size is too small for me.",
+    "fr": "Cette taille me va trop petit.",
+    "zh": "这个尺码我穿小了。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Pode trazer-me um número acima?",
+    "en": "Could you bring me one size up?",
+    "fr": "Vous pouvez m'apporter une taille au-dessus ?",
+    "zh": "能给我拿大一号的吗？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Fica-me largo nas costas.",
+    "en": "It's loose on my back.",
+    "fr": "C'est large dans le dos.",
+    "zh": "后背太宽了。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Posso experimentar?",
+    "en": "Can I try it on?",
+    "fr": "Je peux l'essayer ?",
+    "zh": "我可以试穿吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Onde é o provador?",
+    "en": "Where is the fitting room?",
+    "fr": "Où est la cabine d'essayage ?",
+    "zh": "试衣间在哪里？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Vou experimentar estas calças.",
+    "en": "I'll try these trousers on.",
+    "fr": "Je vais essayer ce pantalon.",
+    "zh": "我试一下这条裤子。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Aperta-me na cintura.",
+    "en": "It's tight at the waist.",
+    "fr": "Ça me serre à la taille.",
+    "zh": "腰部有点紧。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Serve-me perfeitamente.",
+    "en": "It fits me perfectly.",
+    "fr": "Ça me va parfaitement.",
+    "zh": "非常合身。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Fica-me bem?",
+    "en": "Does it suit me?",
+    "fr": "Ça me va bien ?",
+    "zh": "我穿好看吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Não gosto desta cor.",
+    "en": "I don't like this colour.",
+    "fr": "Je n'aime pas cette couleur.",
+    "zh": "我不喜欢这个颜色。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Tem em azul-escuro?",
+    "en": "Do you have it in dark blue?",
+    "fr": "Vous l'avez en bleu foncé ?",
+    "zh": "有深蓝色的吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Este bege é muito claro.",
+    "en": "This beige is too light.",
+    "fr": "Ce beige est trop clair.",
+    "zh": "这个米色太浅了。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Prefiro o cinzento ao preto.",
+    "en": "I prefer the grey to the black.",
+    "fr": "Je préfère le gris au noir.",
+    "zh": "比起黑色我更喜欢灰色。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "A cor sai na lavagem?",
+    "en": "Does the colour run in the wash?",
+    "fr": "La couleur part au lavage ?",
+    "zh": "洗的时候会掉色吗？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Quanto custa?",
+    "en": "How much does it cost?",
+    "fr": "Combien ça coûte ?",
+    "zh": "多少钱？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Está em promoção?",
+    "en": "Is it on offer?",
+    "fr": "C'est en promotion ?",
+    "zh": "在打折吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Qual é o preço com desconto?",
+    "en": "What's the price with the discount?",
+    "fr": "Quel est le prix avec la remise ?",
+    "zh": "折后多少钱？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "É caro para a qualidade.",
+    "en": "It's expensive for the quality.",
+    "fr": "C'est cher pour la qualité.",
+    "zh": "就这个质量来说太贵了。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Levo este, por favor.",
+    "en": "I'll take this one, please.",
+    "fr": "Je prends celui-ci, s'il vous plaît.",
+    "zh": "我要这个。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Queria pagar com cartão.",
+    "en": "I'd like to pay by card.",
+    "fr": "Je voudrais payer par carte.",
+    "zh": "我想刷卡付款。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Posso pagar com MB Way?",
+    "en": "Can I pay with MB Way?",
+    "fr": "Je peux payer avec MB Way ?",
+    "zh": "可以用MB Way付款吗？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Pago em dinheiro.",
+    "en": "I'll pay in cash.",
+    "fr": "Je paie en espèces.",
+    "zh": "我付现金。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Tem trocos para vinte euros?",
+    "en": "Do you have change for twenty euros?",
+    "fr": "Vous avez la monnaie pour vingt euros ?",
+    "zh": "能找开二十欧吗？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Queria um talão, se faz favor.",
+    "en": "I'd like a receipt, please.",
+    "fr": "Je voudrais un ticket, s'il vous plaît.",
+    "zh": "请给我一张小票。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Pode embrulhar para presente?",
+    "en": "Could you gift-wrap it?",
+    "fr": "Vous pouvez l'emballer comme cadeau ?",
+    "zh": "能包成礼物吗？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Queria trocar isto por outro tamanho.",
+    "en": "I'd like to exchange this for another size.",
+    "fr": "Je voudrais échanger ceci contre une autre taille.",
+    "zh": "我想换个尺码。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Posso devolver se não servir?",
+    "en": "Can I return it if it doesn't fit?",
+    "fr": "Je peux le rendre si ça ne va pas ?",
+    "zh": "不合身可以退吗？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Qual é o prazo de troca?",
+    "en": "How long do I have to exchange it?",
+    "fr": "Quel est le délai d'échange ?",
+    "zh": "换货期限是多久？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Queria o reembolso, por favor.",
+    "en": "I'd like a refund, please.",
+    "fr": "Je voudrais un remboursement, s'il vous plaît.",
+    "zh": "我想退款。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Aqui está o talão de compra.",
+    "en": "Here's the receipt for the purchase.",
+    "fr": "Voici le ticket d'achat.",
+    "zh": "这是购物小票。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "O artigo está com defeito.",
+    "en": "The item is faulty.",
+    "fr": "L'article est défectueux.",
+    "zh": "这件商品有瑕疵。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Falta um botão a esta camisa.",
+    "en": "There's a button missing on this shirt.",
+    "fr": "Il manque un bouton à cette chemise.",
+    "zh": "这件衬衫少了一颗扣子。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Queria falar com o responsável.",
+    "en": "I'd like to speak to the manager.",
+    "fr": "Je voudrais parler au responsable.",
+    "zh": "我想找负责人。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Tem este sapato no 42?",
+    "en": "Do you have this shoe in size 42?",
+    "fr": "Vous avez cette chaussure en 42 ?",
+    "zh": "这双鞋有42码吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Estes sapatos apertam-me.",
+    "en": "These shoes are tight on me.",
+    "fr": "Ces chaussures me serrent.",
+    "zh": "这双鞋夹脚。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Estes saltos são demasiado altos.",
+    "en": "These heels are too high.",
+    "fr": "Ces talons sont trop hauts.",
+    "zh": "这双高跟鞋太高了。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Preciso de uma carteira pequena.",
+    "en": "I need a small wallet.",
+    "fr": "J'ai besoin d'un petit portefeuille.",
+    "zh": "我需要一个小钱包。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Onde ficam os acessórios?",
+    "en": "Where are the accessories?",
+    "fr": "Où sont les accessoires ?",
+    "zh": "配饰在哪里？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "A montra tinha um casaco bonito.",
+    "en": "The window display had a lovely coat.",
+    "fr": "La vitrine avait un joli manteau.",
+    "zh": "橱窗里有一件漂亮的大衣。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Há mais cores ali?",
+    "en": "Are there more colours over there?",
+    "fr": "Il y a d'autres couleurs là-bas ?",
+    "zh": "那边还有别的颜色吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Este tecido é muito fino.",
+    "en": "This fabric is very thin.",
+    "fr": "Ce tissu est très fin.",
+    "zh": "这布料很薄。",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "É feito em Portugal?",
+    "en": "Is it made in Portugal?",
+    "fr": "C'est fabriqué au Portugal ?",
+    "zh": "是葡萄牙生产的吗？",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Queria dois: um para mim e outro para a minha irmã.",
+    "en": "I'd like two: one for me and one for my sister.",
+    "fr": "J'en voudrais deux : un pour moi et un pour ma sœur.",
+    "zh": "我要两个，一个给我，一个给我妹妹。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Vou pensar melhor.",
+    "en": "I'll think it over.",
+    "fr": "Je vais y réfléchir.",
+    "zh": "我再考虑一下。",
+    "level": "A1"
+  },
+  {
+    "group": "shopping",
+    "pt": "Pode guardar-me isto até amanhã?",
+    "en": "Could you keep this for me until tomorrow?",
+    "fr": "Vous pouvez me le garder jusqu'à demain ?",
+    "zh": "能帮我留到明天吗？",
+    "level": "A2"
+  },
+  {
+    "group": "shopping",
+    "pt": "Muito obrigado, foi muito simpática.",
+    "en": "Thank you very much, you've been very kind.",
+    "fr": "Merci beaucoup, vous avez été très aimable.",
+    "zh": "非常感谢，你人真好。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Onde ficam os correios?",
+    "en": "Where is the post office?",
+    "fr": "Où est le bureau de poste ?",
+    "zh": "邮局在哪里？",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Queria enviar esta carta para a China.",
+    "en": "I'd like to send this letter to China.",
+    "fr": "Je voudrais envoyer cette lettre en Chine.",
+    "zh": "我想把这封信寄到中国。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Quanto custa um selo para a França?",
+    "en": "How much is a stamp to France?",
+    "fr": "Combien coûte un timbre pour la France ?",
+    "zh": "寄到法国的邮票多少钱？",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Preciso de dois selos, por favor.",
+    "en": "I need two stamps, please.",
+    "fr": "Il me faut deux timbres, s'il vous plaît.",
+    "zh": "我要两张邮票。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Queria mandar isto por correio registado.",
+    "en": "I'd like to send this by registered post.",
+    "fr": "Je voudrais l'envoyer en recommandé.",
+    "zh": "我想寄挂号信。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Pode pesar o pacote, por favor?",
+    "en": "Could you weigh the parcel, please?",
+    "fr": "Vous pouvez peser le colis, s'il vous plaît ?",
+    "zh": "请称一下这个包裹。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Chegou uma encomenda para mim?",
+    "en": "Has a parcel arrived for me?",
+    "fr": "Un colis est arrivé pour moi ?",
+    "zh": "有我的包裹吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Venho levantar uma encomenda.",
+    "en": "I've come to collect a parcel.",
+    "fr": "Je viens retirer un colis.",
+    "zh": "我来取包裹。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Aqui está o aviso dos correios.",
+    "en": "Here's the notice from the post office.",
+    "fr": "Voici l'avis de la poste.",
+    "zh": "这是邮局的通知单。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Quanto tempo demora a chegar?",
+    "en": "How long does it take to arrive?",
+    "fr": "Ça met combien de temps à arriver ?",
+    "zh": "要多久能到？",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Onde há um multibanco aqui perto?",
+    "en": "Is there a cash machine near here?",
+    "fr": "Il y a un distributeur près d'ici ?",
+    "zh": "附近有取款机吗？",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "O multibanco não aceita o meu cartão.",
+    "en": "The cash machine won't take my card.",
+    "fr": "Le distributeur n'accepte pas ma carte.",
+    "zh": "取款机不认我的卡。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Queria levantar dinheiro.",
+    "en": "I'd like to withdraw some money.",
+    "fr": "Je voudrais retirer de l'argent.",
+    "zh": "我想取钱。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Queria depositar este cheque.",
+    "en": "I'd like to deposit this cheque.",
+    "fr": "Je voudrais déposer ce chèque.",
+    "zh": "我想存这张支票。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Queria abrir uma conta, se faz favor.",
+    "en": "I'd like to open an account, please.",
+    "fr": "Je voudrais ouvrir un compte, s'il vous plaît.",
+    "zh": "我想开一个账户。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Preciso de fazer uma transferência.",
+    "en": "I need to make a transfer.",
+    "fr": "Je dois faire un virement.",
+    "zh": "我需要转账。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Qual é a comissão?",
+    "en": "What's the fee?",
+    "fr": "Quelle est la commission ?",
+    "zh": "手续费是多少？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Pode verificar o meu saldo?",
+    "en": "Could you check my balance?",
+    "fr": "Vous pouvez vérifier mon solde ?",
+    "zh": "能查一下我的余额吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Esqueci-me do código do cartão.",
+    "en": "I've forgotten my card PIN.",
+    "fr": "J'ai oublié le code de ma carte.",
+    "zh": "我忘了银行卡密码。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "O cartão ficou preso na máquina.",
+    "en": "My card got stuck in the machine.",
+    "fr": "Ma carte est restée coincée dans la machine.",
+    "zh": "卡被机器吞了。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Queria marcar um corte de cabelo.",
+    "en": "I'd like to book a haircut.",
+    "fr": "Je voudrais prendre rendez-vous pour une coupe.",
+    "zh": "我想预约剪头发。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Tem hora para amanhã à tarde?",
+    "en": "Do you have a slot tomorrow afternoon?",
+    "fr": "Vous avez un créneau demain après-midi ?",
+    "zh": "明天下午有空位吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Só um corte, sem lavar.",
+    "en": "Just a cut, no wash.",
+    "fr": "Juste une coupe, sans shampooing.",
+    "zh": "只剪，不洗。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Corte as pontas, por favor.",
+    "en": "Just trim the ends, please.",
+    "fr": "Coupez juste les pointes, s'il vous plaît.",
+    "zh": "请修一下发梢。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Não quero muito curto.",
+    "en": "I don't want it too short.",
+    "fr": "Je ne veux pas trop court.",
+    "zh": "别剪太短。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Pode aparar a barba também?",
+    "en": "Could you trim my beard as well?",
+    "fr": "Vous pouvez tailler la barbe aussi ?",
+    "zh": "胡子也能修一下吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Quanto é que fica?",
+    "en": "How much will it be?",
+    "fr": "Ça fait combien ?",
+    "zh": "一共多少钱？",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Gostei muito do resultado.",
+    "en": "I really like the result.",
+    "fr": "Le résultat me plaît beaucoup.",
+    "zh": "我很喜欢这个效果。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Onde há uma lavandaria?",
+    "en": "Where is there a launderette?",
+    "fr": "Où est une laverie ?",
+    "zh": "哪里有洗衣店？",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Queria lavar estas camisas.",
+    "en": "I'd like these shirts washed.",
+    "fr": "Je voudrais faire laver ces chemises.",
+    "zh": "我想洗这些衬衫。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Preciso de lavar a seco este casaco.",
+    "en": "This coat needs dry-cleaning.",
+    "fr": "Ce manteau doit être nettoyé à sec.",
+    "zh": "这件大衣要干洗。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Quando é que está pronto?",
+    "en": "When will it be ready?",
+    "fr": "Quand est-ce que c'est prêt ?",
+    "zh": "什么时候能好？",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Preciso dele até sexta-feira.",
+    "en": "I need it by Friday.",
+    "fr": "J'en ai besoin avant vendredi.",
+    "zh": "我周五之前要。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Pode passar a ferro estas calças?",
+    "en": "Could you iron these trousers?",
+    "fr": "Vous pouvez repasser ce pantalon ?",
+    "zh": "能熨一下这条裤子吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Falta-me uma camisa.",
+    "en": "One of my shirts is missing.",
+    "fr": "Il me manque une chemise.",
+    "zh": "我少了一件衬衫。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Esta mancha não sai.",
+    "en": "This stain won't come out.",
+    "fr": "Cette tache ne part pas.",
+    "zh": "这个污渍洗不掉。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "A máquina de lavar está avariada.",
+    "en": "The washing machine is broken.",
+    "fr": "La machine à laver est en panne.",
+    "zh": "洗衣机坏了。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Pode arranjar este relógio?",
+    "en": "Can you repair this watch?",
+    "fr": "Vous pouvez réparer cette montre ?",
+    "zh": "这块表能修吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "O meu telemóvel não carrega.",
+    "en": "My phone won't charge.",
+    "fr": "Mon téléphone ne charge pas.",
+    "zh": "我的手机充不进电。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "O ecrã está rachado.",
+    "en": "The screen is cracked.",
+    "fr": "L'écran est fissuré.",
+    "zh": "屏幕裂了。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Queria um orçamento primeiro.",
+    "en": "I'd like a quote first.",
+    "fr": "Je voudrais d'abord un devis.",
+    "zh": "我想先要个报价。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Vale a pena arranjar?",
+    "en": "Is it worth repairing?",
+    "fr": "Ça vaut la peine de le réparer ?",
+    "zh": "值得修吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "A garantia ainda está válida.",
+    "en": "The warranty is still valid.",
+    "fr": "La garantie est encore valable.",
+    "zh": "保修还有效。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Deixei uns sapatos no sapateiro.",
+    "en": "I left some shoes at the cobbler's.",
+    "fr": "J'ai laissé des chaussures chez le cordonnier.",
+    "zh": "我把鞋放在修鞋店了。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Quando é que posso vir buscar?",
+    "en": "When can I come and collect it?",
+    "fr": "Quand est-ce que je peux venir le chercher ?",
+    "zh": "我什么时候能来取？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Queria marcar uma consulta.",
+    "en": "I'd like to book an appointment.",
+    "fr": "Je voudrais prendre rendez-vous.",
+    "zh": "我想预约。",
+    "level": "A1"
+  },
+  {
+    "group": "services",
+    "pt": "Não posso ir, tenho de desmarcar.",
+    "en": "I can't come, I have to cancel.",
+    "fr": "Je ne peux pas venir, je dois annuler.",
+    "zh": "我来不了，得取消。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Pode transferir para segunda-feira?",
+    "en": "Could you move it to Monday?",
+    "fr": "Vous pouvez décaler à lundi ?",
+    "zh": "能改到周一吗？",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Vou chegar com uns minutos de atraso.",
+    "en": "I'll be a few minutes late.",
+    "fr": "Je vais avoir quelques minutes de retard.",
+    "zh": "我会晚到几分钟。",
+    "level": "A2"
+  },
+  {
+    "group": "services",
+    "pt": "Muito obrigado pela ajuda.",
+    "en": "Thank you very much for your help.",
+    "fr": "Merci beaucoup pour votre aide.",
+    "zh": "非常感谢你的帮助。",
+    "level": "A1"
+  }
+]

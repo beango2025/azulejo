@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','2.2.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','2.3.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -246,6 +246,9 @@ try {
 
   await goto('#/phrases');
   await shot('16-phrases');
+  console.log('PHRASE_CARDS', await evaluate(`document.querySelectorAll('.phrase-card').length`));
+  console.log('PHRASE_TOTAL', await evaluate(`document.querySelector('#phrase-count')?.textContent`));
+  console.log('PHRASE_SCENES', await evaluate(`document.querySelectorAll('#phrase-filters .filter-chip').length`));
   await click('[data-action="select-language-tab"][data-tab="words"]');
   await sleep(600);
   await shot('17-lexicon');
@@ -332,6 +335,14 @@ try {
 
   await goto('#/culture');
   await shot('20g-culture');
+  console.log('CULTURE_CARDS', await evaluate(`document.querySelectorAll('.article-card').length`));
+  console.log('CULTURE_CATEGORIES', await evaluate(`document.querySelectorAll('.culture-category-chips .filter-chip').length`));
+  await click('.article-card');
+  await sleep(350);
+  await shot('20g1-culture-article');
+  console.log('ARTICLE_SECTIONS', await evaluate(`document.querySelectorAll('.article-section').length`));
+  await click('[data-action="close-modal"]');
+  await sleep(300);
   console.log('RESOURCE_CARDS', await evaluate(`document.querySelectorAll('.resource-card').length`));
   await shot('20h-resources', '.resource-section');
 
