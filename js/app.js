@@ -19,7 +19,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.12.0';
+  const APP_VERSION = '3.13.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -1180,8 +1180,69 @@
     return GRAMMAR_EXTRA[core.id] || GRAMMAR_EXTRA[lesson.id] || null;
   }
 
+  function vocabularyWordsFor(lesson) {
+    const level = lesson.unit ? lesson.unit.level : 'A1';
+    const allowed = new Set(GLOSSARY_LEVELS[level] || [level]);
+    const selected = [];
+    const seen = new Set();
+    const add = word => {
+      if (!word || seen.has(word.id)) return;
+      const wordLevel = word.level || vocabMap.get(word.id)?.level || level;
+      const key = accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+      if (!allowed.has(wordLevel)) return;
+      if ((level === 'C1' || level === 'C2') && BASIC_WORDS.has(key)) return;
+      seen.add(word.id);
+      selected.push(word);
+    };
+    (lesson.vocab || []).forEach(word => add(vocabMap.get(word.id) || word));
+    allVocab
+      .filter(word => allowed.has(word.level || '') && !BASIC_WORDS.has(accentFold(word.pt || '')))
+      .forEach(add);
+    return selected.slice(0, 10);
+  }
+
+  function vocabularyPracticeFor(lesson) {
+    const words = vocabularyWordsFor(lesson).filter(word => word.pt && word.zh);
+    if (words.length < 2) return [];
+    const level = lesson.unit ? lesson.unit.level : 'A1';
+    const pool = allVocab.filter(word => word.level === level && word.pt && word.zh);
+    const decoys = (correct, field) => {
+      const values = [];
+      for (const word of pool) {
+        const value = word[field];
+        if (!value || value === correct || values.includes(value)) continue;
+        values.push(value);
+        if (values.length === 2) break;
+      }
+      return values;
+    };
+    return words.slice(0, 2).map((word, index) => {
+      if (index === 0) {
+        const options = [word.zh, ...decoys(word.zh, 'zh')];
+        return { type: 'choice', prompt: 'VOCABULÁRIO', q: `O que significa «${word.pt}»?`, options, answer: word.zh, explain: `${word.pt} = ${word.zh}。` };
+      }
+      const options = [word.pt, ...decoys(word.pt, 'pt')];
+      return { type: 'choice', prompt: 'VOCABULÁRIO', q: `Qual é a palavra portuguesa para «${word.zh}»?`, options, answer: word.pt, explain: `${word.zh} = ${word.pt}。` };
+    });
+  }
+
+  function morphologyPracticeFor(lesson) {
+    const words = vocabularyWordsFor(lesson)
+      .filter(word => word.pt && word.pos && word.pos !== 'phrase');
+    const word = words[0];
+    if (!word) return null;
+    const labels = { noun: 'substantivo', verb: 'verbo', adjective: 'adjetivo', adverb: 'advérbio' };
+    const answer = labels[word.pos];
+    if (!answer) return null;
+    const options = [answer, 'substantivo', 'verbo', 'adjetivo', 'advérbio']
+      .filter((value, index, list) => list.indexOf(value) === index)
+      .slice(0, 4);
+    if (!options.includes(answer)) options[0] = answer;
+    return { type: 'choice', prompt: 'MORFOLOGIA', q: `Que classe de palavra é «${word.pt}»?`, options, answer, explain: `${word.pt} é ${answer === 'substantivo' ? 'um substantivo' : answer === 'verbo' ? 'um verbo' : answer === 'adjetivo' ? 'um adjetivo' : 'um advérbio'}。` };
+  }
+
   function lessonSteps(lesson) {
-    const steps = [{ kind: 'vocab', words: lesson.vocab }];
+    const steps = [{ kind: 'vocab', words: vocabularyWordsFor(lesson) }];
     const grammar = grammarForLesson(lesson);
     if (grammar) steps.push({ kind: 'grammar', grammar });
     const extra = grammarExtraFor(lesson);
@@ -1194,6 +1255,9 @@
         pack: window.AZ_BUILD_IMMERSION({ lesson, units: DATA.units, media: DATA.media })
       });
     }
+    vocabularyPracticeFor(lesson).forEach(ex => steps.push({ kind: 'exercise', ex }));
+    const morphology = morphologyPracticeFor(lesson);
+    if (morphology) steps.push({ kind: 'exercise', ex: morphology });
     lesson.exercises.forEach(ex => steps.push({ kind: 'exercise', ex }));
     return steps;
   }
@@ -1375,15 +1439,35 @@
   ];
   const GLOSSARY_SKIP = new Set('a o as os de do da dos das em no na nos nas um uma uns umas que e é foi ser com por para se mas mais como ao aos à às ou já muito muita'.split(' '));
 
+  const GLOSSARY_LEVELS = {
+    A1: ['A1'], A2: ['A1', 'A2'], B1: ['A2', 'B1'],
+    B2: ['B1', 'B2'], C1: ['B2', 'C1'], C2: ['C1', 'C2']
+  };
+  const BASIC_WORDS = new Set(
+    allVocab
+      .filter(word => word.level === 'A1' || word.level === 'A2')
+      .map(word => accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim())
+  );
+  // Words that are useful but too basic for a C1/C2 reading glossary.
+  ['o plano', 'colonial', 'perder', 'gozar', 'o silêncio', 'a repetição', 'a tradução', 'a adaptação',
+    'o verso', 'a memória', 'o monumento', 'a homenagem', 'o esquecimento', 'a bilheteira']
+    .forEach(word => BASIC_WORDS.add(accentFold(word)));
+
   function glossaryForLesson(lesson, text) {
+    const lessonLevel = lesson.unit ? lesson.unit.level : (coreLessonFor(lesson)?.unit.level || 'A1');
+    const allowed = new Set(GLOSSARY_LEVELS[lessonLevel] || [lessonLevel]);
     const sourceText = text || (lesson.vocab || []).map(word => word.ex).join(' ');
     const haystack = ` ${accentFold(sourceText).replace(/[^\p{L}\p{N} ]/gu, ' ')} `;
     const picked = [];
     const seen = new Set();
+    const wordKey = word => accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
     const add = word => {
       if (!word || seen.has(word.id)) return;
-      const key = accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+      const key = wordKey(word);
       if (!key || key.length < 3) return;
+      const wordLevel = word.level || vocabMap.get(word.id)?.level || lessonLevel;
+      if (!allowed.has(wordLevel)) return;
+      if ((lessonLevel === 'C1' || lessonLevel === 'C2') && BASIC_WORDS.has(key)) return;
       seen.add(word.id);
       picked.push({
         id: word.id,
@@ -1396,13 +1480,23 @@
     };
     (lesson.vocab || []).forEach(add);
     const candidates = allVocab.filter(word => {
-      const key = accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+      const key = wordKey(word);
       if (!key || key.length < 3 || GLOSSARY_SKIP.has(key)) return false;
+      const wordLevel = word.level || '';
+      if (!allowed.has(wordLevel)) return false;
+      if ((lessonLevel === 'C1' || lessonLevel === 'C2') && BASIC_WORDS.has(key)) return false;
       if (key.includes(' ')) return haystack.includes(` ${key} `);
       return new RegExp(`(^|\\s)${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=\\s)`, 'u').test(haystack);
     });
     candidates.forEach(add);
-    return picked.slice(0, 12);
+    // Keep a useful 15-word glossary even when the text is short.
+    if (picked.length < 15) {
+      allVocab
+        .filter(word => allowed.has(word.level || '') && !BASIC_WORDS.has(wordKey(word)))
+        .sort((a, b) => String(a.level).localeCompare(String(b.level)) || String(a.pt).localeCompare(String(b.pt), 'pt'))
+        .forEach(add);
+    }
+    return picked.slice(0, 15);
   }
 
   function glossaryHTML(lesson, text) {

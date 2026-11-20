@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.11.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.12.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -315,6 +315,18 @@ try {
   await click('.immersion-option');
   await sleep(250);
   await shot('20a2-immersion-answer');
+  await click('[data-action="next-step"]');
+  await sleep(300);
+  console.log('VOCAB_PRACTICE_STEP', await evaluate(`document.querySelector('.exercise-title')?.textContent`));
+
+  await goto('#/read/c1l1');
+  await sleep(450);
+  console.log('C1_GLOSSARY_COUNT', await evaluate(`document.querySelectorAll('.glossary-row').length`));
+  console.log('C1_GLOSSARY_WORDS', JSON.stringify(await evaluate(`[...document.querySelectorAll('.glossary-row b')].map(el => el.textContent).slice(0, 15)`)));
+  await goto('#/lesson/c1l1');
+  await sleep(400);
+  console.log('C1_VOCAB_COUNT', await evaluate(`document.querySelectorAll('.word-tile').length`));
+  console.log('C1_VOCAB_WORDS', JSON.stringify(await evaluate(`[...document.querySelectorAll('.word-tile h2')].map(el => el.textContent).slice(0, 10)`)));
 
   await goto('#/lesson/c2l3');
   await sleep(600);

@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.13.0 — 2026-11-20
+
+- Fixed reading glossaries to respect the lesson level: C1/C2 no longer show A1/A2 basic words.
+- Expanded every reading glossary from 12 to **15 level-appropriate words**, with a same-level fallback when the text is short.
+- Added **2 vocabulary exercises + 1 morphology exercise to every lesson**, generated from that lesson’s target words.
+- Bumped the service worker cache to `azulejo-v3.13.0`.
+
 ## 3.12.0 — 2026-11-20
 
 - Added **14 morphology chapters** to the grammar library: nouns, articles, adjectives, adverbs, verb groups, tense/aspect, pronouns, prepositions, conjunctions, quantifiers, diminutives, word formation, discourse particles and compounds.
