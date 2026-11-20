@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.2.0 — 2026-11-20
+
+- Added optional **Supabase account + progress sync** with email/password auth, automatic push after study changes, manual cloud pull/push, and a local-mode fallback.
+- Added RLS table schema in `server/supabase.sql`.
+- Added account UI to settings with sign-in, sign-up, pull/push and sign-out.
+- Added `supabaseUrl` / `supabaseAnonKey` to `js/config.js`.
+- Bumped the service worker cache to `azulejo-v3.2.0`.
+
 ## 3.1.1 — 2026-11-20
 
 - Added a deployable Cloudflare Worker (`server/worker.js`) that verifies Stripe webhooks, signs a Pro licence and emails it with Resend.

@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.1.1';
+  const APP_VERSION = '3.2.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -249,6 +249,7 @@
   function saveState() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      if (window.AZ_CLOUD && window.AZ_CLOUD.session()) window.AZ_CLOUD.schedulePush(state);
     } catch (err) {
       console.warn('Could not save progress.', err);
     }
@@ -595,6 +596,7 @@
     cultureCategory: 'all',
     cultureLimit: 13,
     exam: null,
+    cloudRemote: null,
     wordQuery: '',
     wordLevel: 'all',
     favOnly: false,
@@ -4192,6 +4194,90 @@
     </div>`, { className: 'confirm-panel', label: title });
   }
 
+  function setCloudMessage(text, bad) {
+    const message = $('#cloud-msg');
+    if (message) {
+      message.textContent = text;
+      message.className = `cloud-msg ${bad ? 'is-bad' : ''}`;
+    }
+  }
+
+  function cloudPanelHTML() {
+    const cloud = window.AZ_CLOUD;
+    if (!cloud || !cloud.configured()) {
+      return `<div class="cloud-unconfigured">${icon('info')}<div><b>Conta na nuvem não configurada.</b><p>在 <code>js/config.js</code> 填入 <code>supabaseUrl</code> 和 <code>supabaseAnonKey</code>，再执行 <code>server/supabase.sql</code>。本地进度仍然正常保存。</p></div></div>`;
+    }
+    const session = cloud.session();
+    if (session) {
+      return `<div class="cloud-account">
+        <div class="cloud-account-head"><span class="cloud-avatar">${esc((session.user.email || '?')[0].toUpperCase())}</span><div><b>${esc(session.user.email)}</b><span>Sessão iniciada · sincronização automática</span></div><button class="text-link" data-action="cloud-signout">Sair</button></div>
+        <p class="cloud-help">每次学习后自动上传；换设备时先「Carregar」再继续。</p>
+        <div class="cloud-actions"><button class="btn btn-secondary" data-action="cloud-push">${icon('arrow-up')} Enviar agora</button><button class="btn btn-secondary" data-action="cloud-pull">${icon('arrow-down')} Carregar da nuvem</button></div>
+        <p id="cloud-msg" class="cloud-msg"></p>
+      </div>`;
+    }
+    return `<div class="cloud-auth">
+      <p class="cloud-help">登录后自动同步学习进度；不登录也可以继续用本地模式。</p>
+      <div class="cloud-fields">
+        <label><span>Email</span><input id="cloud-email" type="email" autocomplete="email" placeholder="tu@exemplo.com"></label>
+        <label><span>Palavra-passe</span><input id="cloud-password" type="password" autocomplete="current-password" minlength="6" placeholder="mínimo 6 caracteres"></label>
+      </div>
+      <div class="cloud-actions"><button class="btn btn-primary" data-action="cloud-signin">Entrar</button><button class="btn btn-secondary" data-action="cloud-signup">Criar conta</button></div>
+      <p id="cloud-msg" class="cloud-msg">A conta é opcional. Os dados ficam no teu projeto Supabase.</p>
+    </div>`;
+  }
+
+  async function cloudSignIn() {
+    const email = $('#cloud-email')?.value.trim();
+    const password = $('#cloud-password')?.value || '';
+    if (!email || password.length < 6) { setCloudMessage('Preenche um email e uma palavra-passe com pelo menos 6 caracteres.', true); return; }
+    try {
+      await window.AZ_CLOUD.signIn(email, password);
+      showToast('Sessão iniciada.', 'success');
+      openSettings();
+    } catch (error) {
+      setCloudMessage(error.message, true);
+    }
+  }
+
+  async function cloudSignUp() {
+    const email = $('#cloud-email')?.value.trim();
+    const password = $('#cloud-password')?.value || '';
+    if (!email || password.length < 6) { setCloudMessage('Preenche um email e uma palavra-passe com pelo menos 6 caracteres.', true); return; }
+    try {
+      const result = await window.AZ_CLOUD.signUp(email, password);
+      if (result.needsConfirmation) {
+        setCloudMessage('Conta criada. Confirma o email antes de iniciar sessão.', false);
+      } else {
+        showToast('Conta criada e sessão iniciada.', 'success');
+        openSettings();
+      }
+    } catch (error) {
+      setCloudMessage(error.message, true);
+    }
+  }
+
+  async function cloudPush() {
+    try {
+      await window.AZ_CLOUD.push(state);
+      showToast('Progresso enviado para a nuvem.', 'success');
+      setCloudMessage('Progresso enviado.', false);
+    } catch (error) {
+      setCloudMessage(error.message, true);
+    }
+  }
+
+  async function cloudPull() {
+    try {
+      const remote = await window.AZ_CLOUD.pull();
+      if (!remote || !remote.state) { setCloudMessage('Ainda não há progresso na nuvem.', false); return; }
+      ui.cloudRemote = remote.state;
+      openConfirm('Carregar o progresso da nuvem?', `O progresso na nuvem é de ${new Date(remote.updatedAt).toLocaleString('pt-PT')}. O progresso local desta máquina será substituído.`, 'cloud-apply-remote', 'Carregar da nuvem', 'Manter local');
+    } catch (error) {
+      setCloudMessage(error.message, true);
+    }
+  }
+
   function openSettings() {
     const lvl = levelInfo();
     const ptVoices = Speech.ptVoices();
@@ -4246,6 +4332,10 @@
           </div>
         </div>
       </form>
+      <div class="settings-cloud">
+        <div class="settings-cloud-head"><span class="eyebrow">CONTA NA NUVEM</span><span class="cloud-beta">BETA</span></div>
+        ${cloudPanelHTML()}
+      </div>
       <p class="settings-version">Azulejo · português europeu · versão ${APP_VERSION}<br>${lvl.n > 1 ? `Nível ${lvl.n} · ${lvl.title} · ` : ''}${state.xp} XP</p>
     </div>`, { className: 'settings-panel', label: 'Definições' });
     const rate = $('#settings-rate');
@@ -4579,6 +4669,28 @@
       }
       case 'open-settings':
         openSettings();
+        break;
+      case 'cloud-signin':
+        cloudSignIn();
+        break;
+      case 'cloud-signup':
+        cloudSignUp();
+        break;
+      case 'cloud-push':
+        cloudPush();
+        break;
+      case 'cloud-pull':
+        cloudPull();
+        break;
+      case 'cloud-signout':
+        window.AZ_CLOUD.signOut();
+        openSettings();
+        break;
+      case 'cloud-apply-remote':
+        if (ui.cloudRemote) {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(ui.cloudRemote));
+          location.reload();
+        }
         break;
       case 'toggle-sound':
         state.settings.sound = !state.settings.sound;

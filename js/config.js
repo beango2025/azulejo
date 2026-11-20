@@ -3,5 +3,7 @@ window.AZ_CONFIG = {
   checkoutUrl: '',
   contactUrl: '',
   supportEmail: '',
-  analyticsEndpoint: ''
+  analyticsEndpoint: '',
+  supabaseUrl: '',
+  supabaseAnonKey: ''
 };

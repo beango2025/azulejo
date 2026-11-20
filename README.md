@@ -63,6 +63,7 @@ PT-PT 外部资源入口：
 - **每篇课文后的单词表**：从该课文提取最多 12 个词，按名词 / 动词 / 形容词 / 副词 / 短语分类，配中文、English 和发音；核心 210 词有专门词性表，新增 600 词有发音标注。
 - **Azulejo Pro / A2 CIPLE 模考**：两套 75 分钟模拟考试，覆盖阅读、听力、写作、口语；计时、交卷、分项成绩和错题解释。离线签名许可证解锁，不要求账号。
 - **销售与运营配置**：`js/config.js` 填支付链接/联系方式；`tools/make-license.mjs` 生成签名许可证；内置本地事件埋点，可接分析端点。
+- **可选账号 + 云同步**：Supabase 邮箱登录；学习后自动上传，换设备手动拉取；不登录仍使用本地模式。
 - **课文真实照片**：阅读页按场景显示 1 幅**里斯本**真实照片（28 路电车、Pastéis de Belém、Mercado da Ribeira、Bertrand Chiado、Parque das Nações、Assembleia da República、Torre de Belém、法朵、azulejo 外墙、药物博物馆、Praça do Comércio）。全部来自 Wikimedia Commons，授权与作者见 [assets/photos/CREDITS.md](assets/photos/CREDITS.md)。
 
 ![独立阅读入口](screenshots/reading.png)
@@ -146,7 +147,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.1.1**。
+当前版本：**v3.2.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -198,6 +199,8 @@ azulejo/
 ├─ server.js               # 零依赖静态服务器
 ├─ server/worker.js        # Stripe webhook + 许可证邮件 Worker
 ├─ server/README.md        # Worker 部署与密钥说明
+├─ server/supabase.sql     # 账号云同步表 + RLS
+├─ js/cloud.js             # Supabase 邮箱登录 + 进度同步
 ├─ tools/build-readings.mjs # 校验字数/题目并生成 js/readings.js
 ├─ tools/build-listening-zh.mjs # 合并 60 篇听力中文翻译
 ├─ tools/build-grammar.mjs # 合并 42 个语法点英文解释/练习
@@ -259,7 +262,32 @@ npx wrangler secret put RESEND_API_KEY
 npx wrangler secret put FROM_EMAIL
 ```
 
-当前应用本身仍可离线验证许可证；Worker 只负责自动交付。账号、云同步和退款自动化还没有接。
+当前应用本身仍可离线验证许可证；Worker 只负责自动交付。账号与云同步见下一节；退款自动化还没有接。
+
+## 账号与云同步（Supabase）
+
+1. 创建 Supabase 项目。
+2. 在 SQL Editor 执行 [server/supabase.sql](server/supabase.sql)。
+3. 在 `js/config.js` 填入：
+
+```js
+supabaseUrl: 'https://xxxx.supabase.co',
+supabaseAnonKey: 'eyJ...'
+```
+
+4. 在 **设置 → Conta na nuvem** 注册/登录。
+
+行为：
+
+- 登录后每次学习自动推送（1.8 秒防抖）。
+- 换设备时打开设置，先「Carregar da nuvem」再继续。
+- 「Enviar agora」可手动覆盖云端。
+- 云端覆盖本地前会二次确认。
+- 不登录时完全本地，不影响现有用户。
+
+第一次注册可能需要在 Supabase 里确认邮箱；确认后再登录。
+
+![账号与云同步设置](screenshots/cloud.png)
 
 ## 内容范围
 
