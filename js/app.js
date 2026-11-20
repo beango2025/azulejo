@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.0.0';
+  const APP_VERSION = '3.0.1';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -2355,25 +2355,50 @@
       .some(value => accentFold(value).includes(q));
   }
 
+  const WORD_POS_GROUPS = [
+    ['noun', 'Substantivos', '名词'],
+    ['verb', 'Verbos', '动词'],
+    ['adjective', 'Adjetivos', '形容词'],
+    ['adverb', 'Advérbios', '副词'],
+    ['phrase', 'Expressões', '短语']
+  ];
+  const WORD_POS_KEYS = new Set(WORD_POS_GROUPS.map(([key]) => key));
+
+  function wordPos(word) {
+    return WORD_POS_KEYS.has(word.pos) ? word.pos : 'phrase';
+  }
+
   function lexiconGridHTML() {
     const list = allVocab.filter(wordMatches);
     if (!list.length) {
       return `<div class="empty-phrases lex-empty"><span>${icon('search')}</span><h3>Nenhuma palavra encontrada.</h3><p>试试中文、English、français 或 español。</p><button class="btn btn-secondary" data-action="clear-word-filters">Limpar filtros</button></div>`;
     }
-    return list.map(word => {
-      const learned = Boolean(state.words[word.id]);
-      return `<article class="lex-row ${learned ? 'is-learned' : ''}">
-        <div class="lex-main">
-          <button class="audio-btn small" data-audio="${esc(word.pt)}" aria-label="播放 ${esc(word.pt)} 的发音">${icon('volume')}</button>
-          <div><strong>${esc(word.pt)}</strong><span class="lex-pron">${esc(word.pron)}</span></div>
-          <em class="level-pill level-${word.level}">${word.level}</em>
-        </div>
-        <div class="lex-zh"><b>中</b><span>${esc(word.zh)}</span></div>
-        <div class="lex-lang"><b>EN</b><span>${esc(word.en)}</span></div>
-        <div class="lex-lang"><b>FR</b><span>${esc(word.fr)}</span></div>
-        <div class="lex-lang"><b>ES</b><span>${esc(word.es)}</span></div>
-        <div class="lex-learned">${learned ? `<span title="已加入复习">${icon('check')}</span>` : ''}</div>
-      </article>`;
+    let sequence = 0;
+    return WORD_POS_GROUPS.map(([pos, label, zh]) => {
+      const words = list
+        .filter(word => wordPos(word) === pos)
+        .sort((a, b) => String(a.level || '').localeCompare(String(b.level || '')) || String(a.pt || '').localeCompare(String(b.pt || ''), 'pt'));
+      if (!words.length) return '';
+      return `<section class="lex-pos-group">
+        <div class="lex-pos-head"><h3>${label}<span>${zh}</span></h3><em>${words.length}</em></div>
+        <div class="lex-group-rows">${words.map(word => {
+          sequence += 1;
+          const learned = Boolean(state.words[word.id]);
+          return `<article class="lex-row ${learned ? 'is-learned' : ''}">
+            <span class="lex-index">${String(sequence).padStart(3, '0')}</span>
+            <div class="lex-main">
+              <button class="audio-btn small" data-audio="${esc(word.pt)}" aria-label="播放 ${esc(word.pt)} 的发音">${icon('volume')}</button>
+              <div><strong>${esc(word.pt)}</strong><span class="lex-pron">${esc(word.pron)}</span></div>
+              <em class="level-pill level-${word.level}">${word.level}</em>
+            </div>
+            <div class="lex-zh"><b>中</b><span>${esc(word.zh)}</span></div>
+            <div class="lex-lang"><b>EN</b><span>${esc(word.en)}</span></div>
+            <div class="lex-lang"><b>FR</b><span>${esc(word.fr)}</span></div>
+            <div class="lex-lang"><b>ES</b><span>${esc(word.es)}</span></div>
+            <div class="lex-learned">${learned ? `<span title="已加入复习">${icon('check')}</span>` : ''}</div>
+          </article>`;
+        }).join('')}</div>
+      </section>`;
     }).join('');
   }
 
@@ -2398,7 +2423,7 @@
       <div class="page phrases-page lexicon-page">
         ${pageHead('PALAVRAS', 'Cinco línguas, uma palavra.', '课程里的每一个词，都能在中文、English、français 和 español 之间对照。先听葡语，再用你最熟的语言确认意思。', `<div class="head-badge">${icon('layers')}<span><strong>${allVocab.length}</strong><small>palavras</small></span></div>`)}
         ${languageTabsHTML()}
-        <div class="lex-legend">${langLegend}<span class="legend-note">EN · FR · ES 为学习释义，并非一对一翻译</span></div>
+        <div class="lex-legend">${langLegend}<span class="legend-note">按词性分组：名词 · 动词 · 形容词 · 副词 · 短语；序号连续编号</span></div>
         <div class="phrase-toolbar word-toolbar">
           <label class="search-box">
             ${icon('search')}
@@ -2408,7 +2433,7 @@
         </div>
         <div class="filter-chips" id="word-level-chips">${levelChips}</div>
         <div class="phrase-grid-head"><span id="word-count">${allVocab.filter(wordMatches).length} palavras</span><span>${icon('volume')} 点小喇叭听葡语发音</span></div>
-        <div class="lex-table-head" aria-hidden="true"><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span><span></span></div>
+        <div class="lex-table-head" aria-hidden="true"><span>Nº</span><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span><span></span></div>
         <div class="lex-grid" id="lex-grid">${lexiconGridHTML()}</div>
       </div>`;
     document.title = 'Palavras · Azulejo';

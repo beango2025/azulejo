@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.1 — 2026-11-20
+
+- Grouped the 810-word lexicon by part of speech: nouns, verbs, adjectives, adverbs and phrases.
+- Added continuous three-digit sequence numbers before every word, plus per-group counts.
+- Added `Nº` to the table header and kept the numbering visible on mobile.
+- Bumped the service worker cache to `azulejo-v3.0.1`.
+
 ## 3.0.0 — 2026-11-20
 
 - Replaced the old 48-phrase list with **1,000 European Portuguese spoken sentence patterns**, organised into 20 real-life scenes (50 each), with Chinese, English and French translations.
