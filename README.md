@@ -146,7 +146,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.1.0**。
+当前版本：**v3.1.1**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -196,6 +196,8 @@ azulejo/
 ├─ CHANGELOG.md            # 版本记录
 ├─ sw.js                   # 离线缓存
 ├─ server.js               # 零依赖静态服务器
+├─ server/worker.js        # Stripe webhook + 许可证邮件 Worker
+├─ server/README.md        # Worker 部署与密钥说明
 ├─ tools/build-readings.mjs # 校验字数/题目并生成 js/readings.js
 ├─ tools/build-listening-zh.mjs # 合并 60 篇听力中文翻译
 ├─ tools/build-grammar.mjs # 合并 42 个语法点英文解释/练习
@@ -233,8 +235,31 @@ node tools/make-license.mjs --email aluno@example.com --days 365 --plan pro
 
 4. 把输出的许可证发给用户；用户在 **A2 模考 → Licença** 粘贴激活。
 
-`.secrets/license-private.pem` 用于签发，已在 `.gitignore` 中排除，不要上传或发给用户。  
-当前是**离线许可证**模式；账号、云同步和支付 webhook 需要后端（Supabase/Stripe）后再接。
+`.secrets/license-private.pem` 用于签发，已在 `.gitignore` 中排除，不要上传或发给用户。
+
+### 自动支付 + 自动发证
+
+仓库包含一个 Cloudflare Worker 模板：[server/README.md](server/README.md)。
+
+流程：
+
+1. Stripe Payment Link 收款，成功页设为 `https://beango2025.github.io/azulejo/#/pro/success`
+2. Stripe webhook 指向 Worker 的 `/stripe-webhook`
+3. Worker 验证签名，用私钥签发许可证
+4. Resend 把许可证邮件发给用户
+
+部署：
+
+```bash
+cd server
+npx wrangler deploy
+npx wrangler secret put STRIPE_WEBHOOK_SECRET
+npx wrangler secret put LICENSE_PRIVATE_KEY < ../.secrets/license-private.pem
+npx wrangler secret put RESEND_API_KEY
+npx wrangler secret put FROM_EMAIL
+```
+
+当前应用本身仍可离线验证许可证；Worker 只负责自动交付。账号、云同步和退款自动化还没有接。
 
 ## 内容范围
 

@@ -3913,6 +3913,8 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .pro-page { max-width: 1120px; }
 .paywall-banner { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; padding: 11px 13px; border: 1px solid rgba(30,92,115,.2); border-radius: 10px; background: var(--blue-soft); }
 .paywall-banner > .icon { width: 15px; height: 15px; color: var(--blue); flex: none; }
+.paywall-banner.is-success { border-color: rgba(60,122,86,.25); background: var(--success-soft); }
+.paywall-banner.is-success > .icon { color: var(--success); }
 .paywall-banner div { display: grid; gap: 2px; flex: 1; }
 .paywall-banner b { font-size: 11px; }
 .paywall-banner span { font-size: 9px; color: var(--muted); }

@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.1.0';
+  const APP_VERSION = '3.1.1';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -2696,10 +2696,12 @@
     const config = window.AZ_CONFIG || {};
     const checkout = config.checkoutUrl || '';
     const contact = config.contactUrl || '';
-    trackEvent(paywall ? 'paywall_view' : 'pro_view', { licensed, source: paywall ? 'exam' : 'pro' });
+    const success = /#\/pro\/success/.test(location.hash);
+    trackEvent(paywall ? 'paywall_view' : success ? 'pro_success_view' : 'pro_view', { licensed, source: paywall ? 'exam' : 'pro' });
     $('#view').innerHTML = `
       <div class="page pro-page">
         ${pageHead('AZULEJO PRO', 'A2 CIPLE, com método.', '两套完整 A2 模拟考试：阅读、听力、写作和口语。计时、交卷、分项成绩和错题回顾。适合准备 CIPLE A2 / 葡萄牙国籍语言证明的学习者。', `<div class="head-badge gold">${icon('target')}<span><strong>PRO</strong><small>A2 CIPLE</small></span></div>`)}
+        ${success ? `<div class="paywall-banner is-success">${icon('check')}<div><b>Pagamento recebido.</b><span>Vais receber a licença por email. Se não chegar em alguns minutos, usa o contacto abaixo com o teu recibo.</span></div><a class="text-link" href="#/pro">Ativar licença ${icon('arrow-right')}</a></div>` : ''}
         ${paywall ? `<div class="paywall-banner">${icon('lock')}<div><b>Esta parte é Pro.</b><span>这套模拟考试需要有效许可证。可以先看下面的内容和样题。</span></div><a class="text-link" href="#/pro">Ver Pro ${icon('arrow-right')}</a></div>` : ''}
         <section class="pro-hero">
           <div class="pro-hero-copy">

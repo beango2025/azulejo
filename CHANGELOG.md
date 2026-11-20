@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.1.1 — 2026-11-20
+
+- Added a deployable Cloudflare Worker (`server/worker.js`) that verifies Stripe webhooks, signs a Pro licence and emails it with Resend.
+- Added the `#/pro/success` payment-success screen.
+- Added Worker deployment docs and secret configuration.
+- Bumped the service worker cache to `azulejo-v3.1.1`.
+
 ## 3.1.0 — 2026-11-20
 
 - Added the paid **Azulejo Pro** layer: sales page, configurable checkout link, offline signed licences and activation form.

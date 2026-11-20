@@ -18,3 +18,5 @@ node_modules/
 # Screenshots are intentionally tracked.
 !screenshots/
 .secrets/
+server/.dev.vars
+.wrangler/

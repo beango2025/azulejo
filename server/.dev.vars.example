@@ -1,0 +1,5 @@
+STRIPE_WEBHOOK_SECRET=whsec_replace_me
+LICENSE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----"
+RESEND_API_KEY=re_replace_me
+FROM_EMAIL="Azulejo <licencas@your-domain.com>"
+REPLY_TO="you@your-domain.com"
