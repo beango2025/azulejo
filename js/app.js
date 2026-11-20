@@ -9,11 +9,12 @@
   const LEXICON = window.AZ_LEXICON || {};
   const LISTENING_ZH = window.AZ_LISTENING_ZH || {};
   const GRAMMAR_EXTRA = window.AZ_GRAMMAR_EXTRA || {};
+  const POS_EXISTING = window.AZ_POS_EXISTING || {};
   const SCENES = window.AZ_CORE_SCENES || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '2.2.0';
+  const APP_VERSION = '2.3.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -271,7 +272,14 @@
   const vocabMap = new Map();
   const allVocab = [];
   coreLessons.forEach(lesson => lesson.vocab.forEach(word => {
-    const enriched = { ...word, lessonId: lesson.id, lessonTitle: lesson.title, unitId: lesson.unit.id, level: lesson.unit.level };
+    const enriched = {
+      ...word,
+      pos: word.pos || POS_EXISTING[word.pt] || '',
+      lessonId: lesson.id,
+      lessonTitle: lesson.title,
+      unitId: lesson.unit.id,
+      level: lesson.unit.level
+    };
     vocabMap.set(word.id, enriched);
     allVocab.push(enriched);
   }));
@@ -1327,6 +1335,64 @@
     return READING_PHOTOS[readingSceneCategory(scene)] || READING_PHOTOS.studio;
   }
 
+  const GLOSSARY_GROUPS = [
+    ['noun', 'Substantivos', '名词'],
+    ['verb', 'Verbos', '动词'],
+    ['adjective', 'Adjetivos', '形容词'],
+    ['adverb', 'Advérbios', '副词'],
+    ['phrase', 'Expressões', '短语']
+  ];
+  const GLOSSARY_SKIP = new Set('a o as os de do da dos das em no na nos nas um uma uns umas que e é foi ser com por para se mas mais como ao aos à às ou já muito muita'.split(' '));
+
+  function glossaryForLesson(lesson, text) {
+    const sourceText = text || (lesson.vocab || []).map(word => word.ex).join(' ');
+    const haystack = ` ${accentFold(sourceText).replace(/[^\p{L}\p{N} ]/gu, ' ')} `;
+    const picked = [];
+    const seen = new Set();
+    const add = word => {
+      if (!word || seen.has(word.id)) return;
+      const key = accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+      if (!key || key.length < 3) return;
+      seen.add(word.id);
+      picked.push({
+        id: word.id,
+        pt: word.pt,
+        zh: word.zh,
+        en: word.en || '',
+        pos: word.pos || 'phrase',
+        pron: word.pron || (window.AZ_PHONETIC ? window.AZ_PHONETIC(word.pt) : '')
+      });
+    };
+    (lesson.vocab || []).forEach(add);
+    const candidates = allVocab.filter(word => {
+      const key = accentFold(word.pt || '').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+      if (!key || key.length < 3 || GLOSSARY_SKIP.has(key)) return false;
+      if (key.includes(' ')) return haystack.includes(` ${key} `);
+      return new RegExp(`(^|\\s)${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=\\s)`, 'u').test(haystack);
+    });
+    candidates.forEach(add);
+    return picked.slice(0, 12);
+  }
+
+  function glossaryHTML(lesson, text) {
+    const words = glossaryForLesson(lesson, text);
+    if (!words.length) return '';
+    const groups = GLOSSARY_GROUPS.map(([pos, pt, zh]) => {
+      const list = words.filter(word => word.pos === pos);
+      if (!list.length) return '';
+      return `<div class="glossary-group"><h3>${pt} <span>${zh}</span></h3>
+        ${list.map(word => `<div class="glossary-row">
+          <div class="glossary-word"><b>${esc(word.pt)}</b><small>[${esc(word.pron)}]</small><button class="audio-mini" data-audio="${esc(word.pt)}" aria-label="Ouvir ${esc(word.pt)}">${icon('volume')}</button></div>
+          <span class="glossary-zh">${esc(word.zh)}</span>
+          <span class="glossary-en">${esc(word.en)}</span>
+        </div>`).join('')}</div>`;
+    }).join('');
+    return `<section class="reading-glossary">
+      <div class="reading-glossary-head"><div><span class="eyebrow">VOCABULÁRIO DO TEXTO</span><h2>Palavras novas</h2><p>按词性分类：葡语 · 中文 · English · 发音。</p></div><span class="glossary-count">${words.length} palavras</span></div>
+      <div class="glossary-groups">${groups}</div>
+    </section>`;
+  }
+
   function immersionStepHTML(pack) {
     const state = ui.lesson.immState || { answers: {}, speaking: null };
     const speaking = state.speaking;
@@ -1376,6 +1442,7 @@
                    <button class="audio-mini" data-audio="${esc(line.pt)}" aria-label="Ouvir esta fala">${icon('volume')}</button>
                  </div>`).join('')}
                </div>`}
+          ${glossaryHTML(ui.lesson.lesson, pack.text || pack.lines.map(line => line.pt).join(' '))}
           <div class="immersion-questions">
             ${pack.readingQuestions.map(q => immersionQuestionHTML(q, state)).join('')}
           </div>

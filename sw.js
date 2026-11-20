@@ -1,5 +1,5 @@
 /* Azulejo service worker — offline-first after the first visit. */
-const CACHE = 'azulejo-v2.2.0';
+const CACHE = 'azulejo-v2.3.0';
 const CORE = [
   './',
   './index.html',
@@ -15,6 +15,8 @@ const CORE = [
   './js/grammar-extra.js',
   './js/vocab-bank.js',
   './js/verbs.js',
+  './js/phonetics.js',
+  './js/pos-existing.js',
   './js/immersion.js',
   './js/resources.js',
   './js/app.js',

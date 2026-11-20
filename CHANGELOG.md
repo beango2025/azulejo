@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.3.0 — 2026-11-20
+
+- Added a per-reading vocabulary section directly after each text.
+- Each glossary has up to 12 words from that specific text, with PT / Chinese / English and a pronunciation guide.
+- Words are grouped and labelled by part of speech: nouns, verbs, adjectives, adverbs and phrases.
+- Added part-of-speech classification for the original 210 words and a pronunciation respelling fallback for the 600 bank words.
+- Bumped the service worker cache to `azulejo-v2.3.0`.
+
 ## 2.2.0 — 2026-11-20
 
 - Added the original Portuguese text plus a full Chinese translation to all 60 listening tracks.

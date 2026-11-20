@@ -60,6 +60,7 @@ PT-PT 外部资源入口：
 - **810 个五语词汇**：A1–C2 每级 100+ 个核心词，PT / 中 / EN / FR / ES 五语对照；新增 600 个分频词。
 - **动词变位表**：24 个核心动词 × 7 个时态 × 6 个人称；`语料 → 动词` 中展开查看。
 - **语法双语解释 + 每课练习**：42 个语法点配中文、英文解释；180 节课（含练习课）每课额外 2 道语法题。
+- **每篇课文后的单词表**：从该课文提取最多 12 个词，按名词 / 动词 / 形容词 / 副词 / 短语分类，配中文、English 和发音；核心 210 词有专门词性表，新增 600 词有发音标注。
 - **课文真实照片**：阅读页按场景显示 1 幅**里斯本**真实照片（28 路电车、Pastéis de Belém、Mercado da Ribeira、Bertrand Chiado、Parque das Nações、Assembleia da República、Torre de Belém、法朵、azulejo 外墙、药物博物馆、Praça do Comércio）。全部来自 Wikimedia Commons，授权与作者见 [assets/photos/CREDITS.md](assets/photos/CREDITS.md)。
 
 ![独立阅读入口](screenshots/reading.png)
@@ -132,7 +133,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v2.2.0**。
+当前版本：**v2.3.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -164,7 +165,9 @@ azulejo/
 ├─ js/grammar-extra.js     # 42 个语法点的英文解释 + 84 道练习
 ├─ js/vocab-bank.js        # 600 个新增五语词（总计 810）
 ├─ js/verbs.js             # 24 个动词的七时态变位表
-├─ js/immersion.js         # 每课阅读、听力、跟读、题目与媒体链接
+├─ js/phonetics.js         # 词表发音标注
+├─ js/pos-existing.js      # 原 210 个核心词的词性
+├─ js/immersion.js         # 每课阅读、听力、跟读、题目与课后词表
 ├─ js/resources.js         # 5 个仅 PT-PT 的外部学习资源
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
 ├─ content/                # lesson briefs + 18 个分级阅读源文件

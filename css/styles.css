@@ -1502,6 +1502,30 @@ img, svg { display: block; }
 .immersion-feedback.is-ok { color: var(--success); }
 .immersion-feedback.is-bad { color: var(--danger); }
 
+.reading-glossary { margin-top: 18px; padding-top: 16px; border-top: 2px solid var(--line); }
+.reading-glossary-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.reading-glossary-head h2 { margin-top: 4px; font-family: var(--font-display); font-size: 27px; font-weight: 500; letter-spacing: -.02em; }
+.reading-glossary-head p { margin-top: 4px; font-size: 9.5px; color: var(--muted); }
+.glossary-count { flex: none; padding: 5px 8px; border-radius: 99px; background: var(--surface-2); border: 1px solid var(--line); font-size: 8px; color: var(--muted); }
+.glossary-groups { display: grid; gap: 11px; margin-top: 12px; }
+.glossary-group h3 { display: flex; align-items: baseline; gap: 6px; padding-bottom: 5px; border-bottom: 1px solid var(--line-soft); font-size: 9px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--terra); }
+.glossary-group h3 span { font-size: 8px; font-weight: 600; letter-spacing: 0; color: var(--muted); text-transform: none; }
+.glossary-row { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,.9fr) minmax(0,.9fr); gap: 8px; align-items: center; padding: 7px 0; border-bottom: 1px solid var(--line-soft); }
+.glossary-row:last-child { border-bottom: 0; }
+.glossary-word { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 6px; min-width: 0; }
+.glossary-word b { font-family: var(--font-display); font-size: 16px; font-weight: 600; color: var(--ink); }
+.glossary-word small { font-family: var(--font-mono); font-size: 7.5px; color: var(--blue); }
+.glossary-word .audio-mini { width: 18px; height: 18px; }
+.glossary-word .icon { width: 9px; height: 9px; }
+.glossary-zh { font-size: 10px; line-height: 1.4; color: var(--ink-2); }
+.glossary-en { font-size: 9px; line-height: 1.4; color: var(--muted); }
+
+@media (max-width: 620px) {
+  .reading-glossary-head h2 { font-size: 23px; }
+  .glossary-row { grid-template-columns: minmax(0,1fr) minmax(0,.8fr); }
+  .glossary-en { grid-column: 1 / -1; padding-left: 0; }
+}
+
 .immersion-side { display: grid; gap: 10px; }
 .immersion-listen, .immersion-speak { padding: 15px; }
 .immersion-hint { margin-top: 6px; font-size: 8.5px; line-height: 1.5; color: var(--muted); }
