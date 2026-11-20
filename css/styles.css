@@ -4117,3 +4117,114 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .legal-actions { display: flex; gap: 8px; margin-top: 18px; }
 .legal-block code { padding: 1px 3px; border-radius: 3px; background: var(--surface-2); font-size: 8.5px; }
 @media (max-width: 700px) { .legal-grid { grid-template-columns: 1fr; } }
+
+/* Readability and pagination (2026-11) */
+:root { --muted: #596762; --muted-2: #6b7771; }
+body { font-size: 17px; line-height: 1.68; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+.page-head p { font-size: 15.5px; }
+.eyebrow { font-size: 10px; }
+.nav-copy strong { font-size: 14px; }
+.nav-copy small { font-size: 9.5px; }
+.reading-card p { font-size: 13.5px; }
+.reading-card-words { font-size: 9.5px; }
+.reading-card-foot { font-size: 9px; }
+.article-zh { font-size: 13px; }
+.article-excerpt { font-size: 12px; }
+.phrase-translations p { font-size: 13px; }
+.phrase-translations b { font-size: 8.5px; }
+.lex-row strong { font-size: 18px; }
+.lex-pron { font-size: 9.5px; }
+.lex-zh span { font-size: 13px; }
+.lex-lang span { font-size: 12.5px; }
+.lex-index { font-size: 10px; }
+.lex-pos-head h3 { font-size: 12px; }
+.lex-pos-head h3 span { font-size: 10.5px; }
+.listening-text p { font-size: 17px; }
+.listening-text small { font-size: 14px; }
+.listening-meta { font-size: 9.5px; }
+.grammar-lead { font-size: 15.5px; }
+.grammar-lead-en { font-size: 13.5px; }
+.grammar-title-en { font-size: 13px; }
+.tip-box p { font-size: 13px; }
+.settings-modal p, .settings-modal label, .settings-modal .field-hint { font-size: 11.5px; }
+.legal-block p { font-size: 12.5px; }
+.legal-list li { font-size: 10px; }
+.legal-small { font-size: 10px !important; }
+.legal-block h2 { font-size: 28px; }
+button, input, select, textarea { font-size: 14px; }
+.page-controls { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
+.page-btn { min-height: 34px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); color: var(--ink-2); font-size: 11px; font-weight: 650; }
+.page-btn:hover:not(:disabled) { border-color: var(--teal); color: var(--teal); }
+.page-btn:disabled { opacity: .35; cursor: default; }
+.page-status { padding: 5px 8px; font-size: 11px; color: var(--muted); }
+.page-status b { color: var(--ink); }
+
+/* Grammar library */
+.grammar-page { max-width: 1120px; }
+.grammar-search { max-width: 520px; margin: 10px 0 14px; }
+.grammar-list-head { display: flex; justify-content: space-between; gap: 12px; margin: 10px 0; font-size: 10.5px; color: var(--muted); }
+.grammar-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; }
+.grammar-card { display: flex; flex-direction: column; gap: 7px; padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.grammar-card:hover { border-color: var(--teal); transform: translateY(-1px); }
+.grammar-card-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 9px; color: var(--muted); }
+.grammar-card h3 { font-family: var(--font-display); font-size: 22px; font-weight: 500; line-height: 1.15; }
+.grammar-card p { font-size: 12px; line-height: 1.55; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.grammar-card-link { margin-top: auto; font-size: 10px; font-weight: 700; color: var(--teal); }
+.grammar-chapter-page { max-width: 1050px; }
+.back-link { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); text-decoration: none; margin-bottom: 14px; }
+.grammar-chapter-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.grammar-chapter-head h1 { margin-top: 6px; font-family: var(--font-display); font-size: clamp(32px, 4vw, 48px); font-weight: 500; }
+.grammar-chapter-grid { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(280px,.65fr); gap: 20px; margin-top: 18px; }
+.grammar-explanation { padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.grammar-explanation > .grammar-lead { margin-top: 8px; }
+.grammar-examples { margin-top: 18px; }
+.grammar-examples .example-row { margin-top: 7px; }
+.grammar-practice-panel { padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-2); align-self: start; }
+.grammar-practice-panel h2 { margin-top: 4px; font-family: var(--font-display); font-size: 27px; font-weight: 500; }
+.grammar-practice-item { margin-top: 8px; border: 1px solid var(--line-soft); border-radius: 8px; background: var(--surface); }
+.grammar-practice-item summary { display: flex; gap: 7px; padding: 9px; font-size: 11px; line-height: 1.45; cursor: pointer; }
+.grammar-practice-item summary span { font-family: var(--font-mono); font-size: 8px; color: var(--muted); }
+.grammar-practice-body { padding: 0 10px 10px; font-size: 10.5px; color: var(--muted); }
+.grammar-practice-body div { padding: 3px 0; }
+.grammar-practice-body .is-answer { color: var(--success); font-weight: 700; }
+.grammar-practice-body p { margin-top: 6px; font-size: 10.5px; line-height: 1.5; }
+.grammar-practice-panel .btn { width: 100%; margin-top: 12px; }
+.grammar-practice-empty { margin-top: 10px; font-size: 11px; color: var(--muted); }
+.grammar-chapter-nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); }
+.grammar-chapter-nav a { font-size: 11px; color: var(--teal); text-decoration: none; max-width: 45%; }
+.grammar-chapter-nav a:last-child { text-align: right; margin-left: auto; }
+@media (max-width: 900px) {
+  .grammar-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .grammar-chapter-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .grammar-grid { grid-template-columns: 1fr; }
+  .grammar-chapter-head { display: block; }
+}
+@media (max-width: 760px) {
+  .bottom-nav { display: flex; overflow-x: auto; justify-content: flex-start; gap: 4px; padding-inline: 8px; scrollbar-width: none; }
+  .bottom-nav::-webkit-scrollbar { display: none; }
+  .bottom-item { flex: 0 0 64px; }
+}
+/* Larger reading sizes, second pass */
+body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif; }
+.page-head p { font-size: 16.5px; }
+.nav-copy strong { font-size: 15px; }
+.nav-copy small { font-size: 10px; }
+.reading-card p { font-size: 14.5px; }
+.article-zh { font-size: 14px; }
+.article-excerpt { font-size: 13px; }
+.phrase-translations p { font-size: 14px; }
+.lex-row strong { font-size: 19px; }
+.lex-zh span { font-size: 14px; }
+.lex-lang span { font-size: 13.5px; }
+.lex-pron { font-size: 10px; }
+.lex-index { font-size: 10.5px; }
+.listening-text p { font-size: 18px; }
+.listening-text small { font-size: 15px; }
+.grammar-lead { font-size: 16.5px; }
+.grammar-lead-en { font-size: 14.5px; }
+.grammar-card p { font-size: 13.5px; }
+.grammar-practice-item summary { font-size: 12px; }
+.legal-block p { font-size: 13.5px; }
+.blog-note, .field-hint, .settings-version { font-size: 11px; }

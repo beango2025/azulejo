@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.8.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.9.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -259,6 +259,11 @@ try {
   console.log('LEX_ROWS', await evaluate(`document.querySelectorAll('.lex-row').length`));
   console.log('LEX_INDEX_FIRST_LAST', await evaluate(`[document.querySelector('.lex-index')?.textContent, [...document.querySelectorAll('.lex-index')].pop()?.textContent]`));
   console.log('LEX_TOTAL', await evaluate(`document.querySelector('#word-count')?.textContent`));
+  await click('.page-btn[data-page="2"]');
+  await sleep(350);
+  console.log('LEX_PAGE2', await evaluate(`document.querySelector('#word-count')?.textContent`));
+  await click('.page-btn[data-page="1"]');
+  await sleep(250);
   await evaluate(`(() => { const i=document.querySelector('#word-search'); i.value='heteronym'; i.dispatchEvent(new Event('input',{bubbles:true})); })()`);
   await sleep(350);
   console.log('SEARCH_HETERONYM_ROWS', await evaluate(`document.querySelectorAll('.lex-row').length`));
@@ -384,6 +389,17 @@ try {
   await sleep(500);
   await shot('20j-direct-reading');
   console.log('DIRECT_READING_STEP', await evaluate(`Boolean(document.querySelector('.step-immersion'))`));
+
+  await goto('#/grammar');
+  await sleep(450);
+  await shot('33-grammar');
+  console.log('GRAMMAR_CARDS', await evaluate(`document.querySelectorAll('.grammar-card').length`));
+  console.log('GRAMMAR_TOTAL', await evaluate(`document.querySelector('.grammar-list-head')?.textContent.trim()`));
+  await click('.grammar-card');
+  await sleep(400);
+  await shot('33b-grammar-chapter');
+  console.log('GRAMMAR_CHAPTER', await evaluate(`document.querySelector('.grammar-chapter-head h1')?.textContent`));
+  console.log('GRAMMAR_EXAMPLES', await evaluate(`document.querySelectorAll('.grammar-examples .example-row').length`));
 
   await click('[data-action="open-settings"]');
   await sleep(350);

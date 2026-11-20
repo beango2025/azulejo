@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.9.0';
+  const APP_VERSION = '3.10.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -575,6 +575,7 @@
   const NAV = [
     { id: 'learn', label: '学习', pt: 'Aprender', href: '#/learn', icon: 'book' },
     { id: 'reading', label: '阅读', pt: 'Leitura & escuta', href: '#/reading', icon: 'layers' },
+    { id: 'grammar', label: '语法', pt: 'Gramática', href: '#/grammar', icon: 'book' },
     { id: 'media', label: '影音', pt: 'Vídeo & áudio', href: '#/media', icon: 'video' },
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
@@ -591,16 +592,20 @@
     languageTab: 'phrases',
     openVerb: '',
     phraseGroup: 'all',
-    phraseLimit: 100,
     phraseQuery: '',
+    grammarLevel: 'all',
+    grammarPage: 1,
+    grammarQuery: '',
     cultureCategory: 'all',
-    cultureLimit: 13,
+    culturePage: 1,
     exam: null,
     proLevel: 'A1',
     cloudRemote: null,
     wordQuery: '',
     wordLevel: 'all',
-    wordLimit: 200,
+    wordPage: 1,
+    phrasePage: 1,
+    readingPage: 1,
     favOnly: false,
     lesson: null,
     review: null,
@@ -758,7 +763,7 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'reading', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
+    if (!['learn', 'reading', 'grammar', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -768,6 +773,7 @@
     renderChrome(ui.route);
     if (name === 'learn') renderHome();
     if (name === 'reading') renderReadingPage();
+    if (name === 'grammar') info.parts[1] ? renderGrammarChapter(info.parts[1]) : renderGrammarPage();
     if (name === 'media') renderMediaPage();
     if (name === 'review') renderReviewPage();
     if (name === 'phrases') renderPhrasesPage();
@@ -2311,9 +2317,25 @@
     return DATA.phrases.filter(phraseMatches);
   }
 
+  function paginationHTML(kind, page, totalPages) {
+    if (totalPages <= 1) return '';
+    const current = Math.min(Math.max(1, page), totalPages);
+    const button = (target, label, disabled) => `<button class="page-btn" data-action="${kind}-page" data-page="${target}" ${disabled ? 'disabled' : ''} aria-label="${label}">${label}</button>`;
+    return `<div class="page-controls" aria-label="Paginação">
+      ${button(1, '«', current === 1)}
+      ${button(current - 1, 'Anterior', current === 1)}
+      <span class="page-status">Página <b>${current}</b> / ${totalPages}</span>
+      ${button(current + 1, 'Seguinte', current === totalPages)}
+      ${button(totalPages, '»', current === totalPages)}
+    </div>`;
+  }
+
   function phrasesGridHTML() {
     const list = filteredPhrases();
-    const shown = list.slice(0, ui.phraseLimit);
+    const totalPages = Math.max(1, Math.ceil(list.length / 50));
+    const page = Math.min(Math.max(1, ui.phrasePage), totalPages);
+    const start = (page - 1) * 50;
+    const shown = list.slice(start, start + 50);
     if (!list.length) {
       return `<div class="empty-phrases"><span>${icon('search')}</span><h3>Nenhuma frase encontrada.</h3><p>试试别的关键词，或切回「全部」。</p><button class="btn btn-secondary" data-action="clear-phrase-filters">Limpar filtros</button></div>`;
     }
@@ -2339,14 +2361,12 @@
     const grid = $('#phrase-grid');
     if (grid) grid.innerHTML = phrasesGridHTML();
     const list = filteredPhrases();
+    const totalPages = Math.max(1, Math.ceil(list.length / 50));
+    const page = Math.min(Math.max(1, ui.phrasePage), totalPages);
     const count = $('#phrase-count');
-    if (count) count.textContent = `${Math.min(ui.phraseLimit, list.length)} / ${list.length} frases`;
+    if (count) count.textContent = `Página ${page} / ${totalPages} · ${list.length} frases`;
     const more = $('#phrase-more');
-    if (more) {
-      more.innerHTML = list.length > ui.phraseLimit
-        ? `<button class="btn btn-secondary" data-action="show-more-phrases">Mostrar mais 100 ${icon('arrow-right')}</button>`
-        : '';
-    }
+    if (more) more.innerHTML = paginationHTML('phrase', page, totalPages);
   }
 
   function languageTabsHTML() {
@@ -2389,8 +2409,11 @@
     if (!list.length) {
       return `<div class="empty-phrases lex-empty"><span>${icon('search')}</span><h3>Nenhuma palavra encontrada.</h3><p>试试中文、English、français 或 español。</p><button class="btn btn-secondary" data-action="clear-word-filters">Limpar filtros</button></div>`;
     }
-    let sequence = 0;
-    const visible = list.slice(0, ui.wordLimit);
+    const totalPages = Math.max(1, Math.ceil(list.length / 100));
+    const page = Math.min(Math.max(1, ui.wordPage), totalPages);
+    const start = (page - 1) * 100;
+    const visible = list.slice(start, start + 100);
+    let sequence = start;
     return WORD_POS_GROUPS.map(([pos, label, zh]) => {
       const words = visible
         .filter(word => wordPos(word) === pos)
@@ -2423,12 +2446,12 @@
     const grid = $('#lex-grid');
     if (grid) grid.innerHTML = lexiconGridHTML();
     const list = allVocab.filter(wordMatches);
+    const totalPages = Math.max(1, Math.ceil(list.length / 100));
+    const page = Math.min(Math.max(1, ui.wordPage), totalPages);
     const count = $('#word-count');
-    if (count) count.textContent = `${Math.min(ui.wordLimit, list.length)} / ${list.length} palavras`;
+    if (count) count.textContent = `Página ${page} / ${totalPages} · ${list.length} palavras`;
     const more = $('#word-more');
-    if (more) more.innerHTML = list.length > ui.wordLimit
-      ? `<button class="btn btn-secondary" data-action="show-more-words">Mostrar mais 200 ${icon('arrow-right')}</button>`
-      : '';
+    if (more) more.innerHTML = paginationHTML('word', page, totalPages);
     $$('#word-level-chips .filter-chip').forEach(chip => chip.classList.toggle('is-active', chip.dataset.level === ui.wordLevel));
   }
 
@@ -2454,10 +2477,10 @@
           </label>
         </div>
         <div class="filter-chips" id="word-level-chips">${levelChips}</div>
-        <div class="phrase-grid-head"><span id="word-count">${Math.min(ui.wordLimit, allVocab.filter(wordMatches).length)} / ${allVocab.filter(wordMatches).length} palavras</span><span>${icon('volume')} 点小喇叭听葡语发音</span></div>
+        <div class="phrase-grid-head"><span id="word-count">Página ${Math.min(Math.max(1, ui.wordPage), Math.max(1, Math.ceil(allVocab.filter(wordMatches).length / 100)))} / ${Math.max(1, Math.ceil(allVocab.filter(wordMatches).length / 100))} · ${allVocab.filter(wordMatches).length} palavras</span><span>${icon('volume')} 点小喇叭听葡语发音</span></div>
         <div class="lex-table-head" aria-hidden="true"><span>Nº</span><span>Português</span><span>中文</span><span>English</span><span>Français</span><span>Español</span><span></span></div>
         <div class="lex-grid" id="lex-grid">${lexiconGridHTML()}</div>
-        <div class="word-more" id="word-more">${allVocab.filter(wordMatches).length > ui.wordLimit ? `<button class="btn btn-secondary" data-action="show-more-words">Mostrar mais 200 ${icon('arrow-right')}</button>` : ''}</div>
+        <div class="word-more" id="word-more">${paginationHTML('word', ui.wordPage, Math.max(1, Math.ceil(allVocab.filter(wordMatches).length / 100)))}</div>
       </div>`;
     document.title = 'Palavras · Azulejo';
   }
@@ -2517,9 +2540,9 @@
           <button class="fav-filter ${ui.favOnly ? 'is-active' : ''}" data-action="toggle-fav-filter" aria-pressed="${ui.favOnly}">${icon('bookmark')} 收藏 <span>${state.favorites.length}</span></button>
         </div>
         <div class="filter-chips phrase-scene-chips" id="phrase-filters">${groupChips}</div>
-        <div class="phrase-grid-head"><span id="phrase-count">${Math.min(ui.phraseLimit, filteredPhrases().length)} / ${filteredPhrases().length} frases</span><span>${icon('volume')} 点击可听发音</span></div>
+        <div class="phrase-grid-head"><span id="phrase-count">Página ${Math.min(Math.max(1, ui.phrasePage), Math.max(1, Math.ceil(filteredPhrases().length / 50)))} / ${Math.max(1, Math.ceil(filteredPhrases().length / 50))} · ${filteredPhrases().length} frases</span><span>${icon('volume')} 点击可听发音</span></div>
         <div class="phrase-grid" id="phrase-grid">${phrasesGridHTML()}</div>
-        <div class="phrase-more" id="phrase-more">${filteredPhrases().length > ui.phraseLimit ? `<button class="btn btn-secondary" data-action="show-more-phrases">Mostrar mais 100 ${icon('arrow-right')}</button>` : ''}</div>
+        <div class="phrase-more" id="phrase-more">${paginationHTML('phrase', ui.phrasePage, Math.max(1, Math.ceil(filteredPhrases().length / 50)))}</div>
       </div>`;
     document.title = 'Frases · Azulejo';
   }
@@ -2586,9 +2609,124 @@
     </a>`;
   }
 
+  function grammarChapters() {
+    return coreLessons
+      .filter(lesson => lesson.grammar)
+      .map(lesson => ({
+        id: lesson.id,
+        lesson,
+        level: lesson.unit.level,
+        grammar: lesson.grammar,
+        extra: GRAMMAR_EXTRA[lesson.id] || null
+      }));
+  }
+
+  function grammarMatches(chapter) {
+    if (ui.grammarLevel !== 'all' && chapter.level !== ui.grammarLevel) return false;
+    const q = accentFold(ui.grammarQuery.trim());
+    if (!q) return true;
+    return [chapter.grammar.title, chapter.grammar.body, chapter.grammar.tip,
+      ...(chapter.grammar.examples || []).flatMap(ex => [ex.pt, ex.zh])]
+      .some(value => accentFold(value || '').includes(q));
+  }
+
+  function grammarCardHTML(chapter) {
+    return `<a class="grammar-card" href="#/grammar/${chapter.id}">
+      <div class="grammar-card-top"><span class="level-pill level-${chapter.level}">${chapter.level}</span><span>${chapter.grammar.examples ? chapter.grammar.examples.length : 0} exemplos</span></div>
+      <h3>${esc(chapter.grammar.title)}</h3>
+      <p>${esc(chapter.grammar.body)}</p>
+      <span class="grammar-card-link">Ler o capítulo ${icon('arrow-right')}</span>
+    </a>`;
+  }
+
+  function renderGrammarPage() {
+    const chapters = grammarChapters();
+    const filtered = chapters.filter(grammarMatches);
+    const pageSize = 9;
+    const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+    const page = Math.min(Math.max(1, ui.grammarPage), totalPages);
+    const visible = filtered.slice((page - 1) * pageSize, page * pageSize);
+    const levelChips = [
+      `<button class="filter-chip ${ui.grammarLevel === 'all' ? 'is-active' : ''}" data-action="filter-grammar" data-level="all">全部<span>${chapters.length}</span></button>`,
+      ...LEVELS.map(level => {
+        const count = chapters.filter(chapter => chapter.level === level.id).length;
+        return `<button class="filter-chip ${ui.grammarLevel === level.id ? 'is-active' : ''}" data-action="filter-grammar" data-level="${level.id}">${level.id}<span>${count}</span></button>`;
+      })
+    ].join('');
+    $('#view').innerHTML = `
+      <div class="page grammar-page">
+        ${pageHead('GRAMÁTICA', 'Um capítulo, uma ideia.', '42 个语法章节，按 A1–C2 分级。每章都有中文讲解、英文解释、葡语例句和中文对照，并附练习。', `<div class="head-badge alt">${icon('book')}<span><strong>${chapters.length}</strong><small>capítulos</small></span></div>`)}
+        <div class="filter-chips" id="grammar-level-chips">${levelChips}</div>
+        <label class="search-box grammar-search">
+          ${icon('search')}
+          <input id="grammar-search" type="search" value="${esc(ui.grammarQuery)}" placeholder="搜索语法点、葡语或中文…" aria-label="搜索语法">
+        </label>
+        <div class="grammar-list-head"><span>Página ${page} / ${totalPages} · ${filtered.length} capítulos</span><span>${icon('volume')} 点例句可听发音</span></div>
+        <div class="grammar-grid">${visible.map(grammarCardHTML).join('')}</div>
+        <div id="grammar-pagination">${paginationHTML('grammar', page, totalPages)}</div>
+      </div>`;
+    document.title = 'Gramática · Azulejo';
+  }
+
+  function renderGrammarChapter(id) {
+    const chapters = grammarChapters();
+    const index = chapters.findIndex(chapter => chapter.id === id);
+    if (index < 0) { location.hash = '#/grammar'; return; }
+    const chapter = chapters[index];
+    const grammar = chapter.grammar;
+    const extra = chapter.extra || {};
+    const prev = chapters[index - 1];
+    const next = chapters[index + 1];
+    const exercises = (extra.exercises || []).map((exercise, exerciseIndex) => `<details class="grammar-practice-item">
+      <summary><span>${String(exerciseIndex + 1).padStart(2, '0')}</span>${esc(exercise.q)}</summary>
+      <div class="grammar-practice-body">
+        ${(exercise.options || []).map(option => `<div class="${option === exercise.answer ? 'is-answer' : ''}">${esc(option)}</div>`).join('')}
+        <p><b>Resposta:</b> ${esc(exercise.answer)}</p>
+        ${exercise.explain ? `<p>${esc(exercise.explain)}</p>` : ''}
+      </div>
+    </details>`).join('');
+    $('#view').innerHTML = `
+      <div class="page grammar-chapter-page">
+        <a class="back-link" href="#/grammar">${icon('arrow-left')} Todos os capítulos</a>
+        <header class="grammar-chapter-head">
+          <div><span class="eyebrow">${esc(chapter.level)} · CAPÍTULO ${String(index + 1).padStart(2, '0')}</span><h1>${esc(grammar.title)}</h1>${extra.titleEn ? `<p class="grammar-title-en">${esc(extra.titleEn)}</p>` : ''}</div>
+          <span class="level-pill level-${chapter.level}">${chapter.level}</span>
+        </header>
+        <div class="grammar-chapter-grid">
+          <article class="grammar-explanation">
+            <span class="eyebrow">EXPLICAÇÃO · 中文</span>
+            <p class="grammar-lead">${esc(grammar.body)}</p>
+            ${extra.bodyEn ? `<div class="grammar-lead-en"><span>EN</span>${esc(extra.bodyEn)}</div>` : ''}
+            <div class="grammar-examples"><span class="eyebrow">EXEMPLOS · 葡语 → 中文</span>
+              ${(grammar.examples || []).map(example => `<div class="example-row">
+                <button class="audio-btn small" data-audio="${esc(example.pt)}" aria-label="Ouvir exemplo">${icon('volume')}</button>
+                <div><strong>${esc(example.pt)}</strong><span>${esc(example.zh)}</span></div>
+              </div>`).join('')}
+            </div>
+            <div class="tip-box"><span class="tip-icon">${icon('sparkle')}</span><p>${esc(grammar.tip)}${extra.tipEn ? `<small class="tip-en">${esc(extra.tipEn)}</small>` : ''}</p></div>
+          </article>
+          <aside class="grammar-practice-panel">
+            <span class="eyebrow">PRATICAR</span>
+            <h2>Duas perguntas.</h2>
+            ${exercises || '<p class="grammar-practice-empty">Pratica esta estrutura na lição correspondente.</p>'}
+            <a class="btn btn-primary" href="#/lesson/${chapter.id}">Praticar na lição ${icon('arrow-right')}</a>
+          </aside>
+        </div>
+        <nav class="grammar-chapter-nav">
+          ${prev ? `<a href="#/grammar/${prev.id}">← ${esc(prev.grammar.title)}</a>` : '<span></span>'}
+          ${next ? `<a href="#/grammar/${next.id}">${esc(next.grammar.title)} →</a>` : '<span></span>'}
+        </nav>
+      </div>`;
+    document.title = `${grammar.title} · Gramática · Azulejo`;
+  }
+
   function renderReadingPage() {
     const level = LEVELS.find(item => item.id === ui.readingLevel) || LEVELS[0];
-    const lessons = lessonsForLevel(level.id);
+    const allLessons = lessonsForLevel(level.id);
+    const pageSize = 12;
+    const totalPages = Math.max(1, Math.ceil(allLessons.length / pageSize));
+    const page = Math.min(Math.max(1, ui.readingPage), totalPages);
+    const lessons = allLessons.slice((page - 1) * pageSize, page * pageSize);
     const total = coreLessons.length + labLessons.length;
     $('#view').innerHTML = `
       <div class="page reading-page">
@@ -2596,8 +2734,9 @@
         <div class="reading-level-tabs" role="tablist" aria-label="Escolhe o nível de leitura">
           ${LEVELS.map(item => `<button class="filter-chip ${item.id === level.id ? 'is-active' : ''}" data-action="select-reading-level" data-level="${item.id}">${item.id}<span>${lessonsForLevel(item.id).length}</span></button>`).join('')}
         </div>
-        <div class="reading-list-head"><span>${level.id} · ${lessons.length} leituras · texto de ${READING_RANGES[level.id]} palavras</span><span>${icon('volume')} ${READING_EXAMS[level.id]} · texto + áudio + fala</span></div>
+        <div class="reading-list-head"><span>Página ${page} / ${totalPages} · ${level.id} · ${allLessons.length} leituras · texto de ${READING_RANGES[level.id]} palavras</span><span>${icon('volume')} ${READING_EXAMS[level.id]} · texto + áudio + fala</span></div>
         <div class="reading-grid">${lessons.map(readingCardHTML).join('')}</div>
+        <div id="reading-pagination">${paginationHTML('reading', page, totalPages)}</div>
       </div>`;
     document.title = 'Leitura & escuta · Azulejo';
   }
@@ -2609,8 +2748,12 @@
 
   function renderCulturePage() {
     const all = filteredArticles();
-    const featured = all[0];
-    const rest = all.slice(1, ui.cultureLimit);
+    const pageSize = 12;
+    const totalPages = Math.max(1, Math.ceil(all.length / pageSize));
+    const page = Math.min(Math.max(1, ui.culturePage), totalPages);
+    const pageItems = all.slice((page - 1) * pageSize, page * pageSize);
+    const featured = page === 1 ? pageItems[0] : null;
+    const rest = featured ? pageItems.slice(1) : pageItems;
     const categories = [{ key: 'all', pt: 'Tudo', zh: '全部' }, ...CULTURE_CATEGORIES];
     $('#view').innerHTML = `
       <div class="page culture-page">
@@ -2628,7 +2771,7 @@
             <span class="text-link">Ler o artigo ${icon('arrow-right')}</span>
           </div>
         </section>` : ''}
-        <div class="culture-list-head"><span>${all.length} histórias · 中文 / English / Français</span><span>${icon('volume')} 读文化，也读语言</span></div>
+        <div class="culture-list-head"><span>Página ${page} / ${totalPages} · ${all.length} histórias · 中文 / English / Français</span><span>${icon('volume')} 读文化，也读语言</span></div>
         <div class="article-grid">
           ${rest.map((article, i) => `<article class="article-card ${state.readArticles.includes(article.id) ? 'is-read' : ''}" data-action="open-article" data-id="${article.id}" role="button" tabindex="0" aria-label="阅读：${esc(article.title)}">
             ${tileArt(article, i + 1, false)}
@@ -2640,7 +2783,7 @@
             </div>
           </article>`).join('')}
         </div>
-        <div class="phrase-more" id="culture-more">${all.length > ui.cultureLimit ? `<button class="btn btn-secondary" data-action="show-more-culture">Mostrar mais 12 ${icon('arrow-right')}</button>` : ''}</div>
+        <div class="phrase-more" id="culture-more">${paginationHTML('culture', page, totalPages)}</div>
         <div class="culture-note">
           <span>${icon('sparkle')}</span>
           <p><b>Uma língua, muitas vozes.</b> 葡萄牙本土、马德拉、亚速尔群岛的口音也各不相同。先把标准葡葡听熟，再让耳朵去旅行。</p>
@@ -4637,7 +4780,13 @@
         break;
       case 'select-reading-level':
         ui.readingLevel = el.dataset.level;
+        ui.readingPage = 1;
         renderReadingPage();
+        break;
+      case 'reading-page':
+        ui.readingPage = Number(el.dataset.page) || 1;
+        renderReadingPage();
+        document.querySelector('.reading-list-head')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         break;
       case 'select-media-level':
         ui.mediaLevel = el.dataset.level;
@@ -4933,34 +5082,46 @@
         ui.openVerb = ui.openVerb === el.dataset.verb ? '' : el.dataset.verb;
         renderVerbsPage();
         break;
+      case 'filter-grammar':
+        ui.grammarLevel = el.dataset.level;
+        ui.grammarPage = 1;
+        renderGrammarPage();
+        break;
+      case 'grammar-page':
+        ui.grammarPage = Number(el.dataset.page) || 1;
+        renderGrammarPage();
+        document.querySelector('.grammar-list-head')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        break;
       case 'filter-words':
         ui.wordLevel = el.dataset.level;
-        ui.wordLimit = 200;
+        ui.wordPage = 1;
         renderWordGrid();
         break;
-      case 'show-more-words':
-        ui.wordLimit += 200;
+      case 'word-page':
+        ui.wordPage = Number(el.dataset.page) || 1;
         renderWordGrid();
+        document.querySelector('#word-count')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         break;
       case 'clear-word-filters':
         ui.wordLevel = 'all';
         ui.wordQuery = '';
-        ui.wordLimit = 200;
+        ui.wordPage = 1;
         renderPhrasesPage();
         break;
       case 'filter-phrases':
         ui.phraseGroup = el.dataset.group;
-        ui.phraseLimit = 100;
+        ui.phrasePage = 1;
         updatePhraseChips();
         renderPhraseGrid();
         break;
-      case 'show-more-phrases':
-        ui.phraseLimit += 100;
+      case 'phrase-page':
+        ui.phrasePage = Number(el.dataset.page) || 1;
         renderPhraseGrid();
+        document.querySelector('#phrase-count')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         break;
       case 'toggle-fav-filter':
         ui.favOnly = !ui.favOnly;
-        ui.phraseLimit = 100;
+        ui.phrasePage = 1;
         updatePhraseChips();
         renderPhraseGrid();
         break;
@@ -4971,17 +5132,18 @@
         ui.phraseGroup = 'all';
         ui.phraseQuery = '';
         ui.favOnly = false;
-        ui.phraseLimit = 100;
+        ui.phrasePage = 1;
         renderPhrasesPage();
         break;
       case 'filter-culture':
         ui.cultureCategory = el.dataset.category;
-        ui.cultureLimit = 13;
+        ui.culturePage = 1;
         renderCulturePage();
         break;
-      case 'show-more-culture':
-        ui.cultureLimit += 12;
+      case 'culture-page':
+        ui.culturePage = Number(el.dataset.page) || 1;
         renderCulturePage();
+        document.querySelector('.culture-list-head')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         break;
       case 'checkout':
         trackEvent('checkout_click', { source: 'pro' });
@@ -5086,14 +5248,20 @@
     document.addEventListener('input', event => {
       if (event.target.id === 'phrase-search') {
         ui.phraseQuery = event.target.value;
-        ui.phraseLimit = 100;
+        ui.phrasePage = 1;
         renderPhraseGrid();
         return;
       }
       if (event.target.id === 'word-search') {
         ui.wordQuery = event.target.value;
-        ui.wordLimit = 200;
+        ui.wordPage = 1;
         renderWordGrid();
+        return;
+      }
+      if (event.target.id === 'grammar-search') {
+        ui.grammarQuery = event.target.value;
+        ui.grammarPage = 1;
+        renderGrammarPage();
         return;
       }
       if (event.target.id === 'type-answer' && ui.lesson && ui.lesson.stepState) {

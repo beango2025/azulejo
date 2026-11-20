@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.10.0 — 2026-11-20
+
+- Added a standalone **Gramática** library: 42 chapters, A1–C2 filters, search, PT examples with Chinese, English explanation, practice questions and chapter navigation.
+- Added true pagination for vocabulary (100/page), phrases (50/page), culture (12/page), reading (12/page) and grammar (9/page).
+- Increased base and reading typography again and made the mobile bottom navigation scrollable.
+- Bumped the service worker cache to `azulejo-v3.10.0`.
+
 ## 3.9.0 — 2026-11-20
 
 - Added an optional **private exam-bank API** (`GET /exam-bank` on the Cloudflare Worker), protected by the signed licence and served from KV.
