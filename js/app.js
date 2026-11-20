@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.2.0';
+  const APP_VERSION = '3.3.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -2819,7 +2819,7 @@
         <section class="exam-section">
           <div class="exam-section-head"><span class="exam-section-num">02</span><div><span class="eyebrow">COMPREENSÃO ORAL</span><h2>Ouve e responde.</h2></div><span class="exam-section-count">${data.listenings.reduce((n, l) => n + l.questions.length, 0)} perguntas</span></div>
           ${data.listenings.map((track, li) => `<div class="exam-listening">
-            <div class="exam-listening-top"><div><h3>${esc(track.title)}</h3><span>${esc(track.id)} · ${track.words} palavras</span></div><button class="btn btn-secondary" data-audio="${esc(track.text)}">${icon('volume')} Ouvir</button></div>
+            <div class="exam-listening-top"><div><h3>${esc(track.title)}</h3><span>${esc(track.id)} · ${track.words} palavras${track.audioSrc ? ' · áudio PT-PT' : ''}</span></div>${track.audioSrc ? `<audio class="exam-audio" controls preload="metadata" src="${esc(track.audioSrc)}"></audio>` : `<button class="btn btn-secondary" data-audio="${esc(track.text)}">${icon('volume')} Ouvir</button>`}</div>
             <p class="exam-listen-hint">O texto fica escondido durante o exame; aparece no resultado.</p>
             <div class="exam-questions">${track.questions.map(q => examQuestionHTML(q, `l${li}q${track.questions.indexOf(q)}`, qIndex++, 'listening')).join('')}</div>
           </div>`).join('')}
@@ -2902,7 +2902,10 @@
       const lesson = lessonMap.get(readingId);
       return { id: readingId, title: lesson ? lesson.title : readingId, text: reading ? reading.text : '', questions: reading ? reading.questions : [] };
     }).filter(item => item.text);
-    const listenings = set.listeningIds.map(trackId => listeningById(trackId)).filter(Boolean);
+    const listenings = set.listeningIds.map(trackId => {
+      const track = listeningById(trackId);
+      return track ? { ...track, audioSrc: (window.AZ_AUDIO || {})[trackId] || '' } : null;
+    }).filter(Boolean);
     ui.exam = {
       set,
       data: { readings, listenings },
@@ -3069,6 +3072,7 @@
         titleZh: translation ? translation.titleZh : (lesson ? lesson.zh : ''),
         zh: lesson ? lesson.zh : '',
         text,
+        audioSrc: (window.AZ_AUDIO || {})[`${levelId}.${index + 1}`] || '',
         paragraphsZh: translation ? translation.paragraphsZh : [],
         questions: exam ? exam.questions : [],
         audio: (text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || []).map(part => part.trim()).filter(Boolean),
@@ -3304,6 +3308,8 @@
       return;
     }
     Speech.stop();
+    const previousAudio = $('#listening-native');
+    if (previousAudio) previousAudio.pause();
     listeningPlay = {
       item,
       playing: false,
@@ -3364,8 +3370,9 @@
                 <input id="listening-speed" type="range" min="0.6" max="1.4" step="0.05" value="${listeningPlay.rate}" aria-label=" velocidade de reprodução">
               </div>
               <button class="media-chip ${listeningPlay.transcript ? 'is-on' : ''}" data-action="listening-transcript">${icon('captions')} ${listeningPlay.transcript ? 'Ocultar texto' : 'Mostrar texto'}</button>
-              <span class="listening-meta">${item.words} palavras · ${item.minutes} min</span>
+              <span class="listening-meta">${item.words} palavras · ${item.minutes} min${item.audioSrc ? ' · áudio PT-PT' : ''}</span>
             </div>
+            ${item.audioSrc ? `<audio id="listening-native" src="${esc(item.audioSrc)}" preload="metadata"></audio>` : ''}
             ${listeningPlay.transcript
               ? `<div class="listening-text">${item.text.split(/\n+/).filter(Boolean).map((part, index) => `<div class="listening-bi"><p>${esc(part)}</p>${item.paragraphsZh[index] ? `<small>${esc(item.paragraphsZh[index])}</small>` : ''}</div>`).join('')}</div>`
               : `<div class="listening-locked"><span>${icon('volume')}</span><p>Ouve primeiro. Abre o texto e a tradução só quando precisares.</p></div>`}
@@ -3381,6 +3388,29 @@
         </div>
       </div>`;
     document.title = `${item.id} · ${item.title} · Azulejo`;
+    const nativeAudio = $('#listening-native');
+    if (nativeAudio) {
+      nativeAudio.playbackRate = listeningPlay.rate;
+      nativeAudio.addEventListener('play', () => {
+        if (!listeningPlay) return;
+        listeningPlay.playing = true;
+        updateListeningPlayButton();
+      });
+      nativeAudio.addEventListener('pause', () => {
+        if (!listeningPlay) return;
+        listeningPlay.playing = false;
+        updateListeningPlayButton();
+      });
+      nativeAudio.addEventListener('ended', () => {
+        if (!listeningPlay) return;
+        listeningPlay.playing = false;
+        updateListeningPlayButton();
+      });
+      if (listeningPlay.playing) {
+        nativeAudio.playbackRate = listeningPlay.rate;
+        nativeAudio.play().catch(() => { listeningPlay.playing = false; updateListeningPlayButton(); });
+      }
+    }
     const speed = $('#listening-speed');
     if (speed) {
       speed.addEventListener('input', event => {
@@ -3391,15 +3421,28 @@
     }
   }
 
+  function updateListeningPlayButton() {
+    if (!listeningPlay) return;
+    const button = $('.media-play-btn');
+    if (!button) return;
+    button.innerHTML = icon(listeningPlay.playing ? 'pause' : 'play');
+    button.setAttribute('aria-label', listeningPlay.playing ? 'Pausar' : 'Reproduzir');
+  }
+
   function applyListeningRate(rate) {
     if (!listeningPlay) return;
+    listeningPlay.rate = Number(rate) || 0.9;
+    state.settings.listeningRate = listeningPlay.rate;
+    saveState();
+    const nativeAudio = $('#listening-native');
+    if (nativeAudio) {
+      nativeAudio.playbackRate = listeningPlay.rate;
+      return;
+    }
     const wasPlaying = listeningPlay.playing;
     Speech.stop();
     listeningPlay.playToken += 1;
     listeningPlay.playing = false;
-    listeningPlay.rate = Number(rate) || 0.9;
-    state.settings.listeningRate = listeningPlay.rate;
-    saveState();
     renderListeningPlayer();
     if (wasPlaying) {
       showToast(`Velocidade ${String(listeningPlay.rate).replace('.', ',')}× · a repetir do início`, 'success');
@@ -3409,6 +3452,14 @@
 
   function startListeningPlayback() {
     if (!listeningPlay || listeningPlay.playing) return;
+    if (listeningPlay.item.audioSrc) {
+      const nativeAudio = $('#listening-native');
+      if (!nativeAudio) return;
+      if (nativeAudio.ended) nativeAudio.currentTime = 0;
+      nativeAudio.playbackRate = listeningPlay.rate;
+      nativeAudio.play().catch(() => showToast('Não foi possível reproduzir o áudio.', 'error'));
+      return;
+    }
     const token = ++listeningPlay.playToken;
     listeningPlay.playing = true;
     renderListeningPlayer();
@@ -3422,6 +3473,18 @@
 
   function toggleListening() {
     if (!listeningPlay) return;
+    if (listeningPlay.item.audioSrc) {
+      const nativeAudio = $('#listening-native');
+      if (!nativeAudio) return;
+      if (nativeAudio.paused) {
+        if (nativeAudio.ended) nativeAudio.currentTime = 0;
+        nativeAudio.playbackRate = listeningPlay.rate;
+        nativeAudio.play().catch(() => showToast('Não foi possível reproduzir o áudio.', 'error'));
+      } else {
+        nativeAudio.pause();
+      }
+      return;
+    }
     if (listeningPlay.playing) {
       Speech.stop();
       listeningPlay.playing = false;
@@ -3446,6 +3509,8 @@
 
   function closeListening() {
     Speech.stop();
+    const nativeAudio = $('#listening-native');
+    if (nativeAudio) nativeAudio.pause();
     listeningPlay = null;
     go('#/media');
   }

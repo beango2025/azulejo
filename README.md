@@ -64,6 +64,7 @@ PT-PT 外部资源入口：
 - **Azulejo Pro / A2 CIPLE 模考**：两套 75 分钟模拟考试，覆盖阅读、听力、写作、口语；计时、交卷、分项成绩和错题解释。离线签名许可证解锁，不要求账号。
 - **销售与运营配置**：`js/config.js` 填支付链接/联系方式；`tools/make-license.mjs` 生成签名许可证；内置本地事件埋点，可接分析端点。
 - **可选账号 + 云同步**：Supabase 邮箱登录；学习后自动上传，换设备手动拉取；不登录仍使用本地模式。
+- **A2 原生 PT-PT 音频**：10 篇 A2 听力改为 Microsoft `pt-PT-RaquelNeural` 神经语音 MP3；听力页支持原生音频变速，A2 模考听力使用原生播放器。注意：这是神经语音，不是真人录音棚录音。
 - **课文真实照片**：阅读页按场景显示 1 幅**里斯本**真实照片（28 路电车、Pastéis de Belém、Mercado da Ribeira、Bertrand Chiado、Parque das Nações、Assembleia da República、Torre de Belém、法朵、azulejo 外墙、药物博物馆、Praça do Comércio）。全部来自 Wikimedia Commons，授权与作者见 [assets/photos/CREDITS.md](assets/photos/CREDITS.md)。
 
 ![独立阅读入口](screenshots/reading.png)
@@ -147,7 +148,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.2.0**。
+当前版本：**v3.3.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -201,6 +202,7 @@ azulejo/
 ├─ server/README.md        # Worker 部署与密钥说明
 ├─ server/supabase.sql     # 账号云同步表 + RLS
 ├─ js/cloud.js             # Supabase 邮箱登录 + 进度同步
+├─ js/audio-map.js         # A2.1–A2.10 原生音频映射
 ├─ tools/build-readings.mjs # 校验字数/题目并生成 js/readings.js
 ├─ tools/build-listening-zh.mjs # 合并 60 篇听力中文翻译
 ├─ tools/build-grammar.mjs # 合并 42 个语法点英文解释/练习
@@ -208,6 +210,7 @@ azulejo/
 ├─ tools/build-pos.mjs     # 合并原 210 个词的词性
 ├─ tools/build-phrases.mjs # 合并 1000 句场景句型
 ├─ tools/build-culture.mjs # 合并 100 篇文化讲解
+├─ tools/generate-a2-audio.py # 生成 A2 PT-PT 神经语音 MP3
 ├─ tools/make-license.mjs  # 生成离线 Pro 许可证（需 .secrets 私钥）
 ├─ tools/qa.mjs            # Chrome CDP 自动化走查（开发用）
 └─ screenshots/            # 预览截图

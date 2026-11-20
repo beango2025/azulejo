@@ -3997,6 +3997,7 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .exam-option.is-selected { border-color: var(--blue); background: var(--blue-soft); }
 .exam-option input { margin-top: 2px; accent-color: var(--blue); }
 .exam-listening-top .btn { flex: none; }
+.exam-audio { width: 220px; height: 34px; flex: none; }
 .exam-listen-hint { margin-top: 7px; font-size: 8px; color: var(--muted); font-style: italic; }
 .exam-writing, .exam-speaking { margin-top: 11px; padding: 14px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface); }
 .exam-writing h3, .exam-speaking h3 { font-size: 11px; line-height: 1.55; font-weight: 600; }
@@ -4067,6 +4068,7 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
   .exam-header-title h1 { font-size: 19px; }
   .exam-reading, .exam-listening { padding: 11px; }
   .exam-options { padding-left: 0; }
+  .exam-audio { width: 100%; }
 }
 
 /* Cloud account */

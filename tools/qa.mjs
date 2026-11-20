@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.1.1'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.2.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -197,6 +197,9 @@ try {
   await sleep(300);
   await shot('08b2-listening-text');
   console.log('LISTENING_ZH_PARAGRAPHS', await evaluate(`document.querySelectorAll('.listening-bi small').length`));
+  await goto('#/listening/A2.1');
+  await sleep(500);
+  console.log('LISTENING_AUDIO_SRC', await evaluate(`document.querySelector('#listening-native')?.getAttribute('src')`));
   await goto('#/media');
   await goto('#/dubbing/m-a1-video');
   await shot('08c-dubbing');
@@ -362,6 +365,7 @@ try {
     await shot('30a-exam');
     console.log('EXAM_SECTIONS', await evaluate(`document.querySelectorAll('.exam-section').length`));
     console.log('EXAM_QUESTIONS', await evaluate(`document.querySelectorAll('.exam-question').length`));
+    console.log('EXAM_AUDIO', await evaluate(`document.querySelectorAll('.exam-audio').length`));
     await click('[data-action="submit-exam"]');
     await sleep(500);
     await shot('30b-exam-result');

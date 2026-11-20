@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.3.0 — 2026-11-20
+
+- Added 10 recorded **PT-PT neural audio** files for the A2 listening tracks.
+- A2 listening player now uses native audio with playback-rate control; other levels keep browser TTS fallback.
+- A2 mock-exam listening questions now use native `<audio>` playback instead of browser speech.
+- Added `js/audio-map.js`, `assets/audio/` and `tools/generate-a2-audio.py`.
+- Bumped the service worker cache to `azulejo-v3.3.0`.
+
 ## 3.2.0 — 2026-11-20
 
 - Added optional **Supabase account + progress sync** with email/password auth, automatic push after study changes, manual cloud pull/push, and a local-mode fallback.

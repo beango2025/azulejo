@@ -1,5 +1,5 @@
 /* Azulejo service worker — offline-first after the first visit. */
-const CACHE = 'azulejo-v3.2.0';
+const CACHE = 'azulejo-v3.3.0';
 const CORE = [
   './',
   './index.html',
@@ -23,6 +23,7 @@ const CORE = [
   './js/license.js',
   './js/analytics.js',
   './js/cloud.js',
+  './js/audio-map.js',
   './js/exams.js',
   './js/immersion.js',
   './js/resources.js',
@@ -39,7 +40,17 @@ const CORE = [
   './assets/photos/office.jpg',
   './assets/photos/pharmacy.jpg',
   './assets/photos/studio.jpg',
-  './assets/photos/tram.jpg'
+  './assets/photos/tram.jpg',
+  './assets/audio/a2-1.mp3',
+  './assets/audio/a2-2.mp3',
+  './assets/audio/a2-3.mp3',
+  './assets/audio/a2-4.mp3',
+  './assets/audio/a2-5.mp3',
+  './assets/audio/a2-6.mp3',
+  './assets/audio/a2-7.mp3',
+  './assets/audio/a2-8.mp3',
+  './assets/audio/a2-9.mp3',
+  './assets/audio/a2-10.mp3'
 ];
 
 self.addEventListener('install', event => {
