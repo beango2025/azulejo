@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.20.0';
+  const APP_VERSION = '3.21.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -674,6 +674,109 @@
     lastFocus: null
   };
 
+  const BUTTON_I18N = {
+    en: {
+      'Continuar': 'Continue', 'Verificar': 'Check', 'Começar a aprender': 'Start learning', 'Ver o percurso': 'View the path',
+      'Falar': 'Speak', 'Já repeti': 'I repeated it', 'Guardar': 'Save', 'Cancelar': 'Cancel', 'Apagar progresso': 'Delete progress',
+      'Testar a voz': 'Test voice', 'Mostrar texto': 'Show transcript', 'Ocultar texto': 'Hide transcript', 'Concluída': 'Completed',
+      'Marcar como ouvida': 'Mark as listened', 'Desbloquear com Pro': 'Unlock with Pro', 'Ativar': 'Activate', 'Desativar': 'Deactivate',
+      'Outra proposta': 'Another prompt', 'Limpar': 'Clear', 'Avaliar': 'Evaluate', 'Carregar .txt': 'Upload .txt',
+      'Voltar ao Pro': 'Back to Pro', 'Voltar ao início': 'Back to home', 'Voltar à revisão': 'Back to review', 'Ir para o início': 'Go home',
+      'Aprender uma lição': 'Learn a lesson', 'Revisar as palavras': 'Review words', 'Ver respostas': 'View answers',
+      'Mostrar resposta': 'Show answer', 'Tentar outra vez': 'Try again', 'Anterior': 'Previous', 'Seguinte': 'Next',
+      '«': '«', '»': '»', '全部': 'All', '短语': 'Phrases', '词汇': 'Vocabulary', '动词': 'Verbs', '主题词': 'Themes',
+      '句法': 'Syntax', '词法': 'Morphology', '名词': 'Nouns', '形容词': 'Adjectives', '副词': 'Adverbs', '短语/表达': 'Expressions',
+      '继续': 'Continue', '检查': 'Check', '开始练习': 'Start practice', '下一题': 'Next', '上一题': 'Previous', '保存': 'Save',
+      '取消': 'Cancel', '关闭': 'Close', '清除': 'Clear', '重做': 'Retry', '完成': 'Finish', '提交': 'Submit', '开始': 'Start',
+      '查看': 'View', '返回': 'Back', '继续学习': 'Continue learning', '开始学习': 'Start learning', '查看全部': 'View all',
+      '显示更多': 'Show more', '开始考试': 'Start exam', '提交答案': 'Submit answers', '查看解析': 'View explanation',
+      '再练一次': 'Practise again', '返回首页': 'Back home', '返回课程': 'Back to lesson', '下一课': 'Next lesson',
+      '上一课': 'Previous lesson', '开始复习': 'Start review', '显示翻译': 'Show translation', '隐藏翻译': 'Hide translation',
+      '播放': 'Play', '暂停': 'Pause', '录音': 'Record', '停止': 'Stop', '发送': 'Send', '确认': 'Confirm', '删除': 'Delete',
+      '下一步': 'Next', '上一步': 'Previous', '查看结果': 'View results', '重新开始': 'Restart', '换一题': 'Another prompt',
+      '上传': 'Upload', '评分': 'Score', '听全文': 'Listen to all'
+    },
+    fr: {
+      'Continuar': 'Continuer', 'Verificar': 'Vérifier', 'Começar a aprender': 'Commencer à apprendre', 'Ver o percurso': 'Voir le parcours',
+      'Falar': 'Parler', 'Já repeti': 'Je l’ai répété', 'Guardar': 'Enregistrer', 'Cancelar': 'Annuler', 'Apagar progresso': 'Effacer les progrès',
+      'Testar a voz': 'Tester la voix', 'Mostrar texto': 'Afficher le texte', 'Ocultar texto': 'Masquer le texte', 'Concluída': 'Terminé',
+      'Marcar como ouvida': 'Marquer comme écouté', 'Desbloquear com Pro': 'Débloquer avec Pro', 'Ativar': 'Activer', 'Desativar': 'Désactiver',
+      'Outra proposta': 'Autre proposition', 'Limpar': 'Effacer', 'Avaliar': 'Évaluer', 'Carregar .txt': 'Charger .txt',
+      'Voltar ao Pro': 'Retour au Pro', 'Voltar ao início': 'Retour à l’accueil', 'Voltar à revisão': 'Retour à la révision', 'Ir para o início': 'Aller à l’accueil',
+      'Aprender uma lição': 'Apprendre une leçon', 'Revisar as palavras': 'Réviser les mots', 'Ver respostas': 'Voir les réponses',
+      'Mostrar resposta': 'Afficher la réponse', 'Tentar outra vez': 'Réessayer', 'Anterior': 'Précédent', 'Seguinte': 'Suivant',
+      '«': '«', '»': '»', '全部': 'Tout', '短语': 'Phrases', '词汇': 'Vocabulaire', '动词': 'Verbes', '主题词': 'Thèmes',
+      '句法': 'Syntaxe', '词法': 'Morphologie', '名词': 'Noms', '形容词': 'Adjectifs', '副词': 'Adverbes',
+      '继续': 'Continuer', '检查': 'Vérifier', '开始练习': 'Commencer', '下一题': 'Suivant', '上一题': 'Précédent', '保存': 'Enregistrer',
+      '取消': 'Annuler', '关闭': 'Fermer', '清除': 'Effacer', '重做': 'Réessayer', '完成': 'Terminer', '提交': 'Envoyer', '开始': 'Commencer',
+      '查看': 'Voir', '返回': 'Retour', '继续学习': 'Continuer à apprendre', '开始学习': 'Commencer à apprendre', '查看全部': 'Voir tout',
+      '显示更多': 'Afficher plus', '开始考试': 'Commencer l’examen', '提交答案': 'Envoyer les réponses', '查看解析': 'Voir l’explication',
+      '再练一次': 'Pratiquer encore', '返回首页': 'Retour à l’accueil', '返回课程': 'Retour à la leçon', '下一课': 'Leçon suivante',
+      '上一课': 'Leçon précédente', '开始复习': 'Commencer la révision', '显示翻译': 'Afficher la traduction', '隐藏翻译': 'Masquer la traduction',
+      '播放': 'Lire', '暂停': 'Pause', '录音': 'Enregistrer', '停止': 'Arrêter', '发送': 'Envoyer', '确认': 'Confirmer', '删除': 'Supprimer',
+      '下一步': 'Suivant', '上一步': 'Précédent', '查看结果': 'Voir les résultats', '重新开始': 'Recommencer', '换一题': 'Autre proposition',
+      '上传': 'Téléverser', '评分': 'Évaluer', '听全文': 'Écouter tout'
+    },
+    es: {
+      'Continuar': 'Continuar', 'Verificar': 'Comprobar', 'Começar a aprender': 'Empezar a aprender', 'Ver o percurso': 'Ver el recorrido',
+      'Falar': 'Hablar', 'Já repeti': 'Ya lo repetí', 'Guardar': 'Guardar', 'Cancelar': 'Cancelar', 'Apagar progresso': 'Borrar progreso',
+      'Testar a voz': 'Probar la voz', 'Mostrar texto': 'Mostrar texto', 'Ocultar texto': 'Ocultar texto', 'Concluída': 'Completada',
+      'Marcar como ouvida': 'Marcar como escuchada', 'Desbloquear com Pro': 'Desbloquear con Pro', 'Ativar': 'Activar', 'Desativar': 'Desactivar',
+      'Outra proposta': 'Otra propuesta', 'Limpar': 'Limpiar', 'Avaliar': 'Evaluar', 'Carregar .txt': 'Cargar .txt',
+      'Voltar ao Pro': 'Volver al Pro', 'Voltar ao início': 'Volver al inicio', 'Voltar à revisão': 'Volver al repaso', 'Ir para o início': 'Ir al inicio',
+      'Aprender uma lição': 'Aprender una lección', 'Revisar as palavras': 'Repasar palabras', 'Ver respostas': 'Ver respuestas',
+      'Mostrar resposta': 'Mostrar respuesta', 'Tentar outra vez': 'Intentar de nuevo', 'Anterior': 'Anterior', 'Seguinte': 'Siguiente',
+      '«': '«', '»': '»', '全部': 'Todo', '短语': 'Frases', '词汇': 'Vocabulario', '动词': 'Verbos', '主题词': 'Temas',
+      '句法': 'Sintaxis', '词法': 'Morfología', '名词': 'Sustantivos', '形容词': 'Adjetivos', '副词': 'Adverbios',
+      '继续': 'Continuar', '检查': 'Comprobar', '开始练习': 'Empezar', '下一题': 'Siguiente', '上一题': 'Anterior', '保存': 'Guardar',
+      '取消': 'Cancelar', '关闭': 'Cerrar', '清除': 'Limpiar', '重做': 'Reintentar', '完成': 'Terminar', '提交': 'Enviar', '开始': 'Empezar',
+      '查看': 'Ver', '返回': 'Volver', '继续学习': 'Seguir aprendiendo', '开始学习': 'Empezar a aprender', '查看全部': 'Ver todo',
+      '显示更多': 'Mostrar más', '开始考试': 'Empezar el examen', '提交答案': 'Enviar respuestas', '查看解析': 'Ver explicación',
+      '再练一次': 'Practicar otra vez', '返回首页': 'Volver al inicio', '返回课程': 'Volver a la lección', '下一课': 'Lección siguiente',
+      '上一课': 'Lección anterior', '开始复习': 'Empezar el repaso', '显示翻译': 'Mostrar traducción', '隐藏翻译': 'Ocultar traducción',
+      '播放': 'Reproducir', '暂停': 'Pausa', '录音': 'Grabar', '停止': 'Detener', '发送': 'Enviar', '确认': 'Confirmar', '删除': 'Eliminar',
+      '下一步': 'Siguiente', '上一步': 'Anterior', '查看结果': 'Ver resultados', '重新开始': 'Reiniciar', '换一题': 'Otra propuesta',
+      '上传': 'Subir', '评分': 'Puntuar', '听全文': 'Escuchar todo'
+    },
+    pt: {
+      '继续': 'Continuar', '检查': 'Verificar', '开始练习': 'Começar a praticar', '下一题': 'Seguinte', '上一题': 'Anterior',
+      '保存': 'Guardar', '取消': 'Cancelar', '关闭': 'Fechar', '清除': 'Limpar', '重做': 'Tentar outra vez', '完成': 'Concluir',
+      '提交': 'Submeter', '开始': 'Começar', '查看': 'Ver', '返回': 'Voltar', '继续学习': 'Continuar a aprender',
+      '开始学习': 'Começar a aprender', '查看全部': 'Ver tudo', '显示更多': 'Mostrar mais', '开始考试': 'Começar o exame',
+      '提交答案': 'Submeter respostas', '查看解析': 'Ver explicação', '再练一次': 'Praticar outra vez', '返回首页': 'Voltar ao início',
+      '下一课': 'Próxima lição', '上一课': 'Lição anterior', '开始复习': 'Começar a revisão', '显示翻译': 'Mostrar tradução',
+      '隐藏翻译': 'Ocultar tradução', '播放': 'Reproduzir', '暂停': 'Pausa', '录音': 'Gravar', '停止': 'Parar',
+      '发送': 'Enviar', '确认': 'Confirmar', '删除': 'Apagar', '下一步': 'Seguinte', '上一步': 'Anterior',
+      '查看结果': 'Ver resultados', '重新开始': 'Recomeçar', '换一题': 'Outra proposta', '上传': 'Carregar', '评分': 'Avaliar'
+    }
+  };
+  let localizing = false;
+
+  function localizeUI() {
+    const lang = ui.learningLanguage;
+    if (!lang || lang === 'zh' || localizing) return;
+    const dict = BUTTON_I18N[lang];
+    if (!dict) return;
+    localizing = true;
+    const selector = 'button, a.btn, .btn, .filter-chip, .language-tab, .text-link, .back-link, .media-chip, .immersion-mark, .fav-filter, .page-btn';
+    document.querySelectorAll(selector).forEach(element => {
+      const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        const text = node.nodeValue.trim();
+        if (!text || text.length > 70) return;
+        let translated = dict[text];
+        if (!translated) {
+          const listen = text.match(/^Ouvir as (.+) palavras$/);
+          if (listen) translated = lang === 'en' ? `Listen to ${listen[1]} words` : lang === 'fr' ? `Écouter les ${listen[1]} mots` : lang === 'es' ? `Escuchar las ${listen[1]} palabras` : null;
+        }
+        if (translated && translated !== text) node.nodeValue = node.nodeValue.replace(text, translated);
+      });
+    });
+    localizing = false;
+  }
+
   function navText(item) {
     const key = item.id === 'exams-guide' ? 'exams' : item.id;
     const dict = NAV_I18N[ui.learningLanguage] || NAV_I18N.zh;
@@ -823,6 +926,7 @@
       } else {
         startReviewSession(info.parts[2] === 'all');
       }
+      setTimeout(localizeUI, 0);
       return;
     }
     if (name === 'listening' || name === 'dubbing') {
@@ -852,6 +956,7 @@
     if (name === 'pro' || name === 'exam') renderProPage(false);
     if (name === 'legal') renderLegalPage();
     if (name === 'progress') renderProgressPage();
+    localizeUI();
     window.scrollTo({ top: 0, behavior: 'auto' });
   }
 
@@ -6137,6 +6242,8 @@
       try { history.replaceState(null, '', '#/learn'); } catch (err) { location.hash = '#/learn'; }
     }
     bindEvents();
+    const view = $('#view');
+    if (view) new MutationObserver(() => localizeUI()).observe(view, { childList: true, subtree: true });
     router();
     if (!state.onboarded) {
       setTimeout(openOnboarding, 300);

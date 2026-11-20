@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.19.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.20.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -477,6 +477,9 @@ try {
   await sleep(450);
   console.log('LANG_NAV', await evaluate(`document.querySelector('.nav-copy strong')?.textContent`));
   console.log('LANG_HTML', await evaluate(`document.documentElement.lang`));
+  await goto('#/learn');
+  await sleep(300);
+  console.log('LANG_BUTTON', await evaluate(`document.querySelector('.hero-actions .btn')?.textContent.trim()`));
   await goto('#/grammar');
   await sleep(350);
   await shot('38-language-en');

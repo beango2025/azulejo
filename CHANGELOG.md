@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.21.0 — 2026-11-20
+
+- Localised **buttons and action labels** for English / Français / Español / Português, not just the navigation.
+- Added a DOM localisation observer so buttons rendered after filters, lessons and modals also switch language.
+- Bumped the service worker cache to `azulejo-v3.21.0`.
+
 ## 3.20.0 — 2026-11-20
 
 - Added a **learning language** setting: 中文 / English / Français / Español / Português.
