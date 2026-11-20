@@ -61,6 +61,8 @@ PT-PT 外部资源入口：
 - **动词变位表**：24 个核心动词 × 7 个时态 × 6 个人称；`语料 → 动词` 中展开查看。
 - **语法双语解释 + 每课练习**：42 个语法点配中文、英文解释；180 节课（含练习课）每课额外 2 道语法题。
 - **每篇课文后的单词表**：从该课文提取最多 12 个词，按名词 / 动词 / 形容词 / 副词 / 短语分类，配中文、English 和发音；核心 210 词有专门词性表，新增 600 词有发音标注。
+- **Azulejo Pro / A2 CIPLE 模考**：两套 75 分钟模拟考试，覆盖阅读、听力、写作、口语；计时、交卷、分项成绩和错题解释。离线签名许可证解锁，不要求账号。
+- **销售与运营配置**：`js/config.js` 填支付链接/联系方式；`tools/make-license.mjs` 生成签名许可证；内置本地事件埋点，可接分析端点。
 - **课文真实照片**：阅读页按场景显示 1 幅**里斯本**真实照片（28 路电车、Pastéis de Belém、Mercado da Ribeira、Bertrand Chiado、Parque das Nações、Assembleia da República、Torre de Belém、法朵、azulejo 外墙、药物博物馆、Praça do Comércio）。全部来自 Wikimedia Commons，授权与作者见 [assets/photos/CREDITS.md](assets/photos/CREDITS.md)。
 
 ![独立阅读入口](screenshots/reading.png)
@@ -75,7 +77,12 @@ PT-PT 外部资源入口：
 
 | ![1000 句场景句型](screenshots/phrases1000.png) | ![100 篇文化讲解](screenshots/culture100.png) |
 |---|---|
-| ![文化文章三语](screenshots/culture-article.png) | |
+| ![文化文章三语](screenshots/culture-article.png) | ![A2 CIPLE Pro](screenshots/pro.png) |
+
+A2 CIPLE 模拟考试与成绩报告：
+
+| ![A2 模考](screenshots/exam.png) | ![A2 成绩报告](screenshots/exam-result.png) |
+|---|---|
 
 十篇独立编号听力与短剧配音：
 
@@ -139,7 +146,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.0.1**。
+当前版本：**v3.1.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -175,6 +182,10 @@ azulejo/
 ├─ js/pos-existing.js      # 原 210 个核心词的词性
 ├─ js/phrases1000.js       # 1000 句场景口语句型（中/英/法）
 ├─ js/culture100.js        # 100 篇葡萄牙文化讲解（中/英/法）
+├─ js/config.js            # 支付/联系/分析配置
+├─ js/license.js           # 离线签名许可证验证
+├─ js/analytics.js         # 本地 + 可选 endpoint 事件
+├─ js/exams.js             # A2 CIPLE 两套模拟卷蓝图
 ├─ js/immersion.js         # 每课阅读、听力、跟读、题目与课后词表
 ├─ js/resources.js         # 5 个仅 PT-PT 的外部学习资源
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
@@ -192,9 +203,38 @@ azulejo/
 ├─ tools/build-pos.mjs     # 合并原 210 个词的词性
 ├─ tools/build-phrases.mjs # 合并 1000 句场景句型
 ├─ tools/build-culture.mjs # 合并 100 篇文化讲解
+├─ tools/make-license.mjs  # 生成离线 Pro 许可证（需 .secrets 私钥）
 ├─ tools/qa.mjs            # Chrome CDP 自动化走查（开发用）
 └─ screenshots/            # 预览截图
 ```
+
+## Azulejo Pro 配置
+
+网站不绑定支付服务商，先把商业参数填到 `js/config.js`：
+
+```js
+window.AZ_CONFIG = {
+  checkoutUrl: 'https://buy.stripe.com/...', // 或 Lemon Squeezy / Gumroad
+  contactUrl: 'https://your-wechat-or-booking-link',
+  supportEmail: 'you@example.com',
+  analyticsEndpoint: '' // 可选：接收 sendBeacon 事件
+};
+```
+
+推荐流程：
+
+1. 在 Stripe / Lemon Squeezy / Gumroad 创建 **A2 CIPLE Mock Pack** 商品。
+2. 把支付链接填入 `checkoutUrl`，把客服/微信/预约链接填入 `contactUrl`。
+3. 用户付款后，用离线工具生成许可证：
+
+```bash
+node tools/make-license.mjs --email aluno@example.com --days 365 --plan pro
+```
+
+4. 把输出的许可证发给用户；用户在 **A2 模考 → Licença** 粘贴激活。
+
+`.secrets/license-private.pem` 用于签发，已在 `.gitignore` 中排除，不要上传或发给用户。  
+当前是**离线许可证**模式；账号、云同步和支付 webhook 需要后端（Supabase/Stripe）后再接。
 
 ## 内容范围
 

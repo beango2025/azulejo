@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.0.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.0.1'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -348,6 +348,25 @@ try {
   await sleep(300);
   console.log('RESOURCE_CARDS', await evaluate(`document.querySelectorAll('.resource-card').length`));
   await shot('20h-resources', '.resource-section');
+
+  await goto('#/pro');
+  await shot('30-pro');
+  console.log('PRO_HEADING', await evaluate(`document.querySelector('.pro-hero h2')?.textContent.trim()`));
+  if (process.env.AZ_TEST_LICENSE) {
+    await evaluate(`(() => { const i=document.querySelector('#license-input'); if(i) i.value=${JSON.stringify(process.env.AZ_TEST_LICENSE)}; })()`);
+    await click('[data-action="activate-license"]');
+    await sleep(3400);
+    console.log('PRO_ACTIVE', await evaluate(`Boolean(document.querySelector('.pro-license.is-active'))`));
+    await goto('#/exam/a2-mock-1');
+    await sleep(500);
+    await shot('30a-exam');
+    console.log('EXAM_SECTIONS', await evaluate(`document.querySelectorAll('.exam-section').length`));
+    console.log('EXAM_QUESTIONS', await evaluate(`document.querySelectorAll('.exam-question').length`));
+    await click('[data-action="submit-exam"]');
+    await sleep(500);
+    await shot('30b-exam-result');
+    console.log('EXAM_RESULT', await evaluate(`document.querySelector('.exam-result-status')?.textContent.trim()`));
+  }
 
   await goto('#/reading');
   await shot('20i-reading-library');

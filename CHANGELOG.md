@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.1.0 — 2026-11-20
+
+- Added the paid **Azulejo Pro** layer: sales page, configurable checkout link, offline signed licences and activation form.
+- Added two 75-minute A2 CIPLE mock exams with reading, listening, writing and speaking sections, timer, scoring and answer review.
+- Added `js/config.js` for checkout/contact/analytics configuration and `tools/make-license.mjs` for issuing signed licences.
+- Added lightweight analytics events for Pro views, checkout clicks, licence activation and exam attempts.
+- Added Pro navigation entry and paywall redirect for unlicensed exam access.
+- Bumped the service worker cache to `azulejo-v3.1.0`.
+
 ## 3.0.1 — 2026-11-20
 
 - Grouped the 810-word lexicon by part of speech: nouns, verbs, adjectives, adverbs and phrases.

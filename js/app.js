@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.0.1';
+  const APP_VERSION = '3.1.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -578,6 +578,7 @@
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
     { id: 'culture', label: '文化', pt: 'Cultura', href: '#/culture', icon: 'sun' },
+    { id: 'pro', label: 'A2 模考', pt: 'Pro · CIPLE A2', href: '#/pro', icon: 'target' },
     { id: 'progress', label: '进度', pt: 'Progresso', href: '#/progress', icon: 'chart' }
   ];
 
@@ -593,6 +594,7 @@
     phraseQuery: '',
     cultureCategory: 'all',
     cultureLimit: 13,
+    exam: null,
     wordQuery: '',
     wordLevel: 'all',
     favOnly: false,
@@ -607,6 +609,7 @@
     return `<a class="nav-item ${active ? 'is-active' : ''}" href="${item.href}" data-nav="${item.id}" ${active ? 'aria-current="page"' : ''}>
       <span class="nav-icon">${icon(item.icon)}</span>
       <span class="nav-copy"><strong>${item.label}</strong><small>${item.pt}</small></span>
+      ${item.id === 'pro' ? `<span class="nav-pro">${window.AZ_LICENSE && window.AZ_LICENSE.isPro() ? 'PRO' : 'A2'}</span>` : ''}
       ${active ? '<span class="nav-dot" aria-hidden="true"></span>' : ''}
     </a>`;
   }
@@ -703,7 +706,8 @@
     const directReading = name === 'read' && Boolean(info.parts[1]);
     const listeningPlayer = name === 'listening' && Boolean(info.parts[1]);
     const dubbingPlayer = name === 'dubbing' && Boolean(info.parts[1]);
-    const focus = name === 'lesson' || directReading || mediaPlayer || listeningPlayer || dubbingPlayer || (name === 'review' && info.parts[1] === 'session');
+    const examPlayer = name === 'exam' && Boolean(info.parts[1]);
+    const focus = name === 'lesson' || directReading || mediaPlayer || listeningPlayer || dubbingPlayer || examPlayer || (name === 'review' && info.parts[1] === 'session');
     if (mediaPlay && !mediaPlayer) {
       Speech.stop();
       clearTimeout(mediaTimer);
@@ -718,9 +722,13 @@
       stopDubbingStream();
       dubbingPlay = null;
     }
+    if (ui.exam && ui.exam.timerId && !examPlayer) {
+      clearInterval(ui.exam.timerId);
+      ui.exam = null;
+    }
     document.body.classList.toggle('focus-mode', focus);
     closeModal(true);
-    ui.route = name === 'lesson' ? 'learn' : directReading ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : name;
+    ui.route = name === 'lesson' ? 'learn' : directReading ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : (name === 'pro' || name === 'exam') ? 'pro' : name;
     if (focus) {
       if (name === 'lesson' || directReading) {
         const lesson = lessonMap.get(info.parts[1]);
@@ -735,6 +743,8 @@
         startListening(info.parts[1]);
       } else if (dubbingPlayer) {
         startDubbing(info.parts[1]);
+      } else if (examPlayer) {
+        startExam(info.parts[1]);
       } else {
         startReviewSession(info.parts[2] === 'all');
       }
@@ -744,20 +754,21 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'reading', 'media', 'review', 'phrases', 'culture', 'progress'].includes(name)) {
+    if (!['learn', 'reading', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
     ui.lesson = null;
     ui.review = null;
     ui.media = null;
-    renderChrome(name);
+    renderChrome(ui.route);
     if (name === 'learn') renderHome();
     if (name === 'reading') renderReadingPage();
     if (name === 'media') renderMediaPage();
     if (name === 'review') renderReviewPage();
     if (name === 'phrases') renderPhrasesPage();
     if (name === 'culture') renderCulturePage();
+    if (name === 'pro' || name === 'exam') renderProPage(false);
     if (name === 'progress') renderProgressPage();
     window.scrollTo({ top: 0, behavior: 'auto' });
   }
@@ -2639,6 +2650,342 @@
     document.title = 'Cultura · Azulejo';
   }
 
+  /* ------------------------------------------------------------------ */
+  /* Azulejo Pro: A2 mock exams, licence and paywall                     */
+  /* ------------------------------------------------------------------ */
+
+  function trackEvent(name, props) {
+    if (window.AZ_TRACK) window.AZ_TRACK(name, props || {});
+  }
+
+  function isProUser() {
+    return Boolean(window.AZ_LICENSE && window.AZ_LICENSE.isPro());
+  }
+
+  function licensePayload() {
+    const record = window.AZ_LICENSE && window.AZ_LICENSE.current();
+    return record ? record.payload : null;
+  }
+
+  function examCardsHTML(locked) {
+    return (window.AZ_EXAMS || []).map(set => `<article class="exam-card ${locked ? 'is-locked' : ''}">
+      <div class="exam-card-top"><span class="eyebrow">CIPLE A2 · MOCK</span><span class="exam-card-time">${set.minutes} min</span></div>
+      <h3>${esc(set.title)}</h3>
+      <p>${esc(set.subtitle)}</p>
+      <div class="exam-card-meta"><span>${set.readingIds.length} leituras</span><span>${set.listeningIds.length} audições</span><span>${set.writing.length} escrita</span><span>${set.speaking.length} oral</span></div>
+      ${locked
+        ? `<button class="btn btn-secondary" data-action="paywall-exam">${icon('lock')} Desbloquear com Pro</button>`
+        : `<a class="btn btn-primary" href="#/exam/${set.id}">Começar exame ${icon('arrow-right')}</a>`}
+    </article>`).join('');
+  }
+
+  function licenseFormHTML() {
+    const payload = licensePayload();
+    if (payload) {
+      return `<div class="pro-license is-active"><span class="pro-license-icon">${icon('check')}</span><div><b>Azulejo Pro ativo</b><p>${esc(payload.sub || '')} · válido até ${new Date(Number(payload.exp)).toLocaleDateString('pt-PT')}</p></div><button class="text-link" data-action="deactivate-license">Desativar</button></div>`;
+    }
+    return `<div class="pro-license-form">
+      <label for="license-input">Já compraste? Cola aqui a tua licença.</label>
+      <div class="pro-license-row"><input id="license-input" type="text" autocomplete="off" spellcheck="false" placeholder="Cola o código de licença…"><button class="btn btn-primary" data-action="activate-license">Ativar</button></div>
+      <p id="license-msg" class="pro-license-msg">A licença é verificada no teu dispositivo; não precisa de conta.</p>
+    </div>`;
+  }
+
+  function renderProPage(paywall) {
+    const licensed = isProUser();
+    const config = window.AZ_CONFIG || {};
+    const checkout = config.checkoutUrl || '';
+    const contact = config.contactUrl || '';
+    trackEvent(paywall ? 'paywall_view' : 'pro_view', { licensed, source: paywall ? 'exam' : 'pro' });
+    $('#view').innerHTML = `
+      <div class="page pro-page">
+        ${pageHead('AZULEJO PRO', 'A2 CIPLE, com método.', '两套完整 A2 模拟考试：阅读、听力、写作和口语。计时、交卷、分项成绩和错题回顾。适合准备 CIPLE A2 / 葡萄牙国籍语言证明的学习者。', `<div class="head-badge gold">${icon('target')}<span><strong>PRO</strong><small>A2 CIPLE</small></span></div>`)}
+        ${paywall ? `<div class="paywall-banner">${icon('lock')}<div><b>Esta parte é Pro.</b><span>这套模拟考试需要有效许可证。可以先看下面的内容和样题。</span></div><a class="text-link" href="#/pro">Ver Pro ${icon('arrow-right')}</a></div>` : ''}
+        <section class="pro-hero">
+          <div class="pro-hero-copy">
+            <span class="eyebrow">A2 · CIPLE · MOCK EXAMS</span>
+            <h2>两套模拟卷，<br>一次完整演练。</h2>
+            <p>不是又一套练习题，而是按考试节奏做的完整模拟：75 分钟、阅读、听力、写作、口语，交卷后看到分项成绩和错题解释。</p>
+            <div class="pro-actions">
+              ${licensed
+                ? `<a class="btn btn-primary" href="#/exam/${(window.AZ_EXAMS && window.AZ_EXAMS[0] && window.AZ_EXAMS[0].id) || 'a2-mock-1'}">Começar Mock 1 ${icon('arrow-right')}</a>`
+                : checkout
+                  ? `<a class="btn btn-gold" href="${esc(checkout)}" target="_blank" rel="noopener noreferrer" data-action="checkout">Comprar acesso ${icon('arrow-right')}</a>`
+                  : `<button class="btn btn-gold" data-action="contact-buy">获取购买方式 ${icon('arrow-right')}</button>`}
+              <a class="text-link" href="#/exam">Ver exames ${icon('arrow-right')}</a>
+            </div>
+            <p class="pro-note">${icon('info')} 独立备考产品，不是 CAPLE 官方考试，也不提供官方证书。</p>
+          </div>
+          <div class="pro-price-card">
+            <span class="eyebrow">ACESSO A2</span>
+            <strong class="pro-price">€39</strong>
+            <span class="pro-price-sub">ou ¥299 · pagamento único</span>
+            <ul>
+              <li>${icon('check')} 2 套完整模拟考试</li>
+              <li>${icon('check')} 阅读 + 听力 + 写作 + 口语</li>
+              <li>${icon('check')} 计时、交卷、成绩报告</li>
+              <li>${icon('check')} 错题解释与口语示范</li>
+              <li>${icon('check')} 未来新增模拟卷免费更新</li>
+            </ul>
+            ${licensed ? `<span class="pro-active-pill">${icon('check')} Pro ativo</span>` : `<span class="pro-price-foot">购买后获得离线许可证，无需账号。</span>`}
+          </div>
+        </section>
+
+        <section class="pro-exams">
+          <div class="section-head compact"><div><span class="eyebrow">MOCK EXAMS</span><h2>Escolhe o teu simulado.</h2></div><span class="panel-chip">${licensed ? 'ACESSO LIBERADO' : 'PREVIEW'}</span></div>
+          <div class="exam-card-grid">${examCardsHTML(!licensed)}</div>
+        </section>
+
+        <section class="pro-license-section">
+          <div class="section-head compact"><div><span class="eyebrow">LICENÇA</span><h2>Acesso offline, sem conta.</h2></div><span class="panel-chip">${icon('lock')} LOCAL</span></div>
+          ${licenseFormHTML()}
+          ${!licensed && contact ? `<p class="pro-contact">购买、发票或团体席位：<a href="${esc(contact)}" target="_blank" rel="noopener noreferrer">${esc(contact)}</a></p>` : ''}
+          ${!licensed && !checkout ? `<p class="pro-contact">支付链接尚未配置。请在 <code>js/config.js</code> 填入 <code>checkoutUrl</code>，或先通过微信/邮件收款后发放许可证。</p>` : ''}
+        </section>
+
+        <section class="pro-faq">
+          <div class="section-head compact"><div><span class="eyebrow">FAQ</span><h2>Antes de comprar.</h2></div></div>
+          <details><summary>这是官方 CAPLE 考试吗？</summary><p>不是。这是独立制作的模拟考试，用于练习考试节奏和题型；不会发放官方证书，也不代表 CAPLE 或葡萄牙政府的认可。</p></details>
+          <details><summary>许可证怎么用？</summary><p>购买后会收到一串签名许可证。打开本页，粘贴到「Ativar」即可解锁两套模拟考试。许可证在本地验证，不上传学习数据。</p></details>
+          <details><summary>可以在几台设备上用？</summary><p>当前许可证是本地离线验证，可在你常用的浏览器使用。正式多设备方案会绑定账号和云同步。</p></details>
+          <details><summary>包含口语评分吗？</summary><p>当前版本提供口语题、录音入口和示范答案，成绩报告中的口语部分为自评。人工口语评分可作为单独服务。</p></details>
+        </section>
+      </div>`;
+    document.title = 'Azulejo Pro · A2 CIPLE';
+  }
+
+  async function activateLicenseFromForm() {
+    const input = $('#license-input');
+    const message = $('#license-msg');
+    if (!input) return;
+    const token = input.value.trim();
+    if (!token) {
+      if (message) { message.textContent = 'Cola primeiro o código de licença.'; message.className = 'pro-license-msg is-bad'; }
+      return;
+    }
+    const result = await window.AZ_LICENSE.activate(token);
+    if (result.ok) {
+      trackEvent('license_activate', { plan: result.payload.plan });
+      showToast('Azulejo Pro ativado.', 'success');
+      renderChrome('pro');
+      renderProPage(false);
+    } else {
+      if (message) { message.textContent = result.reason; message.className = 'pro-license-msg is-bad'; }
+      trackEvent('license_activate_fail', { reason: result.reason });
+    }
+  }
+
+  function examQuestionHTML(question, qid, index, section) {
+    const selected = ui.exam.answers[qid];
+    return `<article class="exam-question" data-qid="${qid}">
+      <div class="exam-question-head"><span class="exam-qnum">${String(index + 1).padStart(2, '0')}</span><p>${esc(question.q)}</p></div>
+      <div class="exam-options">
+        ${question.options.map(option => `<label class="exam-option ${selected === option ? 'is-selected' : ''}">
+          <input type="radio" name="${qid}" value="${esc(option)}" data-exam-qid="${qid}" data-section="${section}" ${selected === option ? 'checked' : ''}>
+          <span>${esc(option)}</span>
+        </label>`).join('')}
+      </div>
+    </article>`;
+  }
+
+  function renderExamPage() {
+    const exam = ui.exam;
+    if (!exam) return;
+    const set = exam.set;
+    const data = exam.data;
+    let qIndex = 0;
+    $('#view').innerHTML = `
+      <div class="page exam-page">
+        <header class="exam-header">
+          <button class="icon-btn" data-action="close-exam" aria-label="Fechar exame">${icon('x')}</button>
+          <div class="exam-header-title"><span class="eyebrow">${esc(set.title)}</span><h1>${esc(set.subtitle)}</h1></div>
+          <div class="exam-clock" id="exam-clock">${formatExamTime(exam.remaining)}</div>
+        </header>
+        <div class="exam-disclaimer">${icon('info')} Simulado independente. Não é uma prova oficial CAPLE. O áudio usa a voz do teu navegador.</div>
+
+        <section class="exam-section">
+          <div class="exam-section-head"><span class="exam-section-num">01</span><div><span class="eyebrow">LEITURA</span><h2>Lê e responde.</h2></div><span class="exam-section-count">${data.readings.reduce((n, r) => n + r.questions.length, 0)} perguntas</span></div>
+          ${data.readings.map((reading, ri) => `<div class="exam-reading">
+            <div class="exam-reading-top"><h3>${esc(reading.title || `Texto ${ri + 1}`)}</h3><span>${reading.text.trim().split(/\s+/).length} palavras</span></div>
+            <div class="exam-reading-text">${reading.text.split(/\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join('')}</div>
+            <div class="exam-questions">${reading.questions.map(q => examQuestionHTML(q, `r${ri}q${reading.questions.indexOf(q)}`, qIndex++, 'reading')).join('')}</div>
+          </div>`).join('')}
+        </section>
+
+        <section class="exam-section">
+          <div class="exam-section-head"><span class="exam-section-num">02</span><div><span class="eyebrow">COMPREENSÃO ORAL</span><h2>Ouve e responde.</h2></div><span class="exam-section-count">${data.listenings.reduce((n, l) => n + l.questions.length, 0)} perguntas</span></div>
+          ${data.listenings.map((track, li) => `<div class="exam-listening">
+            <div class="exam-listening-top"><div><h3>${esc(track.title)}</h3><span>${esc(track.id)} · ${track.words} palavras</span></div><button class="btn btn-secondary" data-audio="${esc(track.text)}">${icon('volume')} Ouvir</button></div>
+            <p class="exam-listen-hint">O texto fica escondido durante o exame; aparece no resultado.</p>
+            <div class="exam-questions">${track.questions.map(q => examQuestionHTML(q, `l${li}q${track.questions.indexOf(q)}`, qIndex++, 'listening')).join('')}</div>
+          </div>`).join('')}
+        </section>
+
+        <section class="exam-section">
+          <div class="exam-section-head"><span class="exam-section-num">03</span><div><span class="eyebrow">ESCRITA</span><h2>Escreve.</h2></div><span class="exam-section-count">${set.writing.length} tarefas</span></div>
+          ${set.writing.map((task, wi) => `<div class="exam-writing">
+            <h3>${esc(task.prompt)}</h3>
+            <p class="exam-writing-hint">${esc(task.hint)} · mínimo ${task.min} palavras</p>
+            <textarea data-exam-writing="${wi}" rows="6" placeholder="Escreve aqui…">${esc(exam.writing[wi] || '')}</textarea>
+            <span class="exam-word-count" id="exam-writing-count-${wi}">${examWordCount(exam.writing[wi] || '')} palavras</span>
+          </div>`).join('')}
+        </section>
+
+        <section class="exam-section">
+          <div class="exam-section-head"><span class="exam-section-num">04</span><div><span class="eyebrow">EXPRESSÃO ORAL</span><h2>Fala.</h2></div><span class="exam-section-count">${set.speaking.length} tarefas</span></div>
+          ${set.speaking.map((task, si) => `<div class="exam-speaking">
+            <h3>${esc(task.prompt)}</h3>
+            <p class="exam-speaking-model">${icon('sparkle')} Modelo: ${esc(task.model)}</p>
+            <label class="exam-check"><input type="checkbox" data-exam-speaking="${si}" ${exam.speaking[si] ? 'checked' : ''}> Gravei / pratiquei esta resposta em voz alta.</label>
+          </div>`).join('')}
+          <p class="exam-free-note">Podes gravar a tua resposta com o telemóvel ou usar o microfone do sistema; a app não avalia o áudio nesta versão.</p>
+        </section>
+
+        <div class="exam-submit-bar"><div><strong>${formatExamTime(exam.remaining)}</strong><span>restantes</span></div><button class="btn btn-primary" data-action="submit-exam">Entregar exame ${icon('arrow-right')}</button></div>
+      </div>`;
+
+    $$('input[data-exam-qid]').forEach(input => input.addEventListener('change', () => {
+      ui.exam.answers[input.dataset.examQid] = input.value;
+      input.closest('.exam-option')?.parentElement?.querySelectorAll('.exam-option').forEach(label => label.classList.toggle('is-selected', label.querySelector('input')?.checked));
+    }));
+    $$('textarea[data-exam-writing]').forEach(area => area.addEventListener('input', () => {
+      const index = Number(area.dataset.examWriting);
+      ui.exam.writing[index] = area.value;
+      const count = $(`#exam-writing-count-${index}`);
+      if (count) count.textContent = `${examWordCount(area.value)} palavras`;
+    }));
+    $$('input[data-exam-speaking]').forEach(input => input.addEventListener('change', () => {
+      ui.exam.speaking[input.dataset.examSpeaking] = input.checked;
+    }));
+    exam.data.readings.forEach((reading, ri) => reading.questions.forEach((q, qi) => { q.__qid = `r${ri}q${qi}`; }));
+    exam.data.listenings.forEach((track, li) => track.questions.forEach((q, qi) => { q.__qid = `l${li}q${qi}`; }));
+    updateExamClock();
+  }
+
+  function examWordCount(value) {
+    return String(value || '').trim().split(/\s+/).filter(Boolean).length;
+  }
+
+  function formatExamTime(seconds) {
+    const safe = Math.max(0, Number(seconds) || 0);
+    return `${String(Math.floor(safe / 60)).padStart(2, '0')}:${String(safe % 60).padStart(2, '0')}`;
+  }
+
+  function updateExamClock() {
+    if (!ui.exam) return;
+    const el = $('#exam-clock');
+    if (el) el.textContent = formatExamTime(ui.exam.remaining);
+  }
+
+  function examAllQuestions() {
+    if (!ui.exam) return [];
+    const out = [];
+    ui.exam.data.readings.forEach((reading, ri) => reading.questions.forEach((q, qi) => out.push({ ...q, qid: `r${ri}q${qi}`, section: 'reading', source: reading.title })));
+    ui.exam.data.listenings.forEach((track, li) => track.questions.forEach((q, qi) => out.push({ ...q, qid: `l${li}q${qi}`, section: 'listening', source: track.title })));
+    return out;
+  }
+
+  function startExam(id) {
+    const set = (window.AZ_EXAMS || []).find(item => item.id === id);
+    if (!set) { location.hash = '#/pro'; return; }
+    if (!isProUser()) {
+      trackEvent('paywall_view', { source: 'exam_route', exam: id });
+      location.hash = '#/pro';
+      return;
+    }
+    const readings = set.readingIds.map(readingId => {
+      const reading = window.AZ_READINGS && window.AZ_READINGS[readingId];
+      const lesson = lessonMap.get(readingId);
+      return { id: readingId, title: lesson ? lesson.title : readingId, text: reading ? reading.text : '', questions: reading ? reading.questions : [] };
+    }).filter(item => item.text);
+    const listenings = set.listeningIds.map(trackId => listeningById(trackId)).filter(Boolean);
+    ui.exam = {
+      set,
+      data: { readings, listenings },
+      answers: {},
+      writing: {},
+      speaking: {},
+      remaining: set.minutes * 60,
+      submitted: false,
+      timerId: null
+    };
+    trackEvent('exam_start', { exam: set.id });
+    renderExamPage();
+    ui.exam.timerId = setInterval(() => {
+      if (!ui.exam || ui.exam.submitted) return;
+      ui.exam.remaining -= 1;
+      updateExamClock();
+      if (ui.exam.remaining <= 0) submitExam(true);
+    }, 1000);
+  }
+
+  function submitExam(auto) {
+    if (!ui.exam || ui.exam.submitted) return;
+    clearInterval(ui.exam.timerId);
+    ui.exam.timerId = null;
+    ui.exam.submitted = true;
+    const questions = examAllQuestions();
+    const correct = questions.filter(q => ui.exam.answers[q.qid] === q.answer);
+    const writing = ui.exam.set.writing.map((task, index) => ({
+      words: examWordCount(ui.exam.writing[index] || ''),
+      min: task.min,
+      done: examWordCount(ui.exam.writing[index] || '') >= task.min
+    }));
+    const speaking = ui.exam.set.speaking.map((_, index) => Boolean(ui.exam.speaking[index]));
+    const percent = questions.length ? Math.round(correct.length / questions.length * 100) : 0;
+    ui.exam.result = { questions, correct, writing, speaking, percent, pass: percent >= 60, auto: Boolean(auto) };
+    trackEvent('exam_submit', { exam: ui.exam.set.id, percent, auto: Boolean(auto) });
+    window.scrollTo({ top: 0, behavior: 'auto' });
+    renderExamResult();
+  }
+
+  function renderExamResult() {
+    const exam = ui.exam;
+    if (!exam || !exam.result) return;
+    const result = exam.result;
+    const readingTotal = result.questions.filter(q => q.section === 'reading').length;
+    const readingCorrect = result.correct.filter(q => q.section === 'reading').length;
+    const listeningTotal = result.questions.filter(q => q.section === 'listening').length;
+    const listeningCorrect = result.correct.filter(q => q.section === 'listening').length;
+    $('#view').innerHTML = `
+      <div class="page exam-result-page">
+        <header class="exam-header">
+          <button class="icon-btn" data-action="close-exam" aria-label="Fechar resultado">${icon('x')}</button>
+          <div class="exam-header-title"><span class="eyebrow">${esc(exam.set.title)}</span><h1>Resultado do simulado</h1></div>
+          <span class="exam-result-status ${result.pass ? 'is-pass' : 'is-fail'}">${result.pass ? 'APTO' : 'A REVER'}</span>
+        </header>
+        ${result.auto ? `<div class="exam-auto-note">${icon('info')} O tempo terminou; o exame foi entregue automaticamente.</div>` : ''}
+        <section class="exam-result-hero">
+          <div class="exam-score-ring" style="--score:${result.percent}"><strong>${result.percent}%</strong><span>${result.correct.length} / ${result.questions.length}</span></div>
+          <div><span class="eyebrow">CIPLE A2 · MOCK</span><h2>${result.pass ? 'Bom trabalho.' : 'Ainda há caminho.'}</h2><p>${result.pass ? 'Passaste o critério de 60% neste simulado. Continua com o segundo mock e revê as explicações.' : 'O critério deste simulado é 60%. Revê as perguntas abaixo e repete o exame.'}</p><span class="exam-result-note">Não é uma classificação oficial CAPLE.</span></div>
+        </section>
+        <section class="exam-result-grid">
+          <div><span>Leitura</span><strong>${readingCorrect} / ${readingTotal}</strong></div>
+          <div><span>Compreensão oral</span><strong>${listeningCorrect} / ${listeningTotal}</strong></div>
+          <div><span>Escrita</span><strong>${result.writing.filter(w => w.done).length} / ${result.writing.length}</strong></div>
+          <div><span>Oral</span><strong>${result.speaking.filter(Boolean).length} / ${result.speaking.length}</strong></div>
+        </section>
+        <section class="exam-writing-review">
+          <span class="eyebrow">ESCRITA</span><h2>As tuas tarefas.</h2>
+          ${exam.set.writing.map((task, index) => `<div class="exam-writing-result"><div><b>Tarefa ${index + 1}</b><span>${result.writing[index].words} palavras · mínimo ${task.min}</span></div><em class="${result.writing[index].done ? 'is-good' : 'is-bad'}">${result.writing[index].done ? 'Cumprida' : 'Abaixo do mínimo'}</em><p>${esc(task.prompt)}</p></div>`).join('')}
+        </section>
+        <section class="exam-review-section">
+          <span class="eyebrow">REVISÃO</span><h2>Perguntas e explicações.</h2>
+          ${result.questions.map((q, index) => {
+            const chosen = exam.answers[q.qid];
+            const ok = chosen === q.answer;
+            return `<article class="exam-review-item ${ok ? 'is-correct' : 'is-wrong'}">
+              <div class="exam-review-head"><span>${String(index + 1).padStart(2, '0')}</span><b>${ok ? 'Correta' : 'A rever'}</b><em>${esc(q.source)}</em></div>
+              <p>${esc(q.q)}</p>
+              <div class="exam-review-answers"><span>${ok ? 'A tua resposta' : 'A tua resposta'}: <strong>${esc(chosen || '—')}</strong></span>${ok ? '' : `<span>Correta: <strong>${esc(q.answer)}</strong></span>`}</div>
+              <p class="exam-review-explain">${esc(q.explain)}</p>
+            </article>`;
+          }).join('')}
+        </section>
+        <div class="exam-result-actions"><a class="btn btn-primary" href="#/exam/${exam.set.id}" data-action="restart-exam">Repetir exame ${icon('arrow-right')}</a><a class="btn btn-secondary" href="#/pro">Voltar a Pro</a></div>
+      </div>`;
+  }
+
   function openArticle(id) {
     const article = DATA.articles.find(a => a.id === id);
     if (!article) return;
@@ -4362,6 +4709,44 @@
       case 'show-more-culture':
         ui.cultureLimit += 12;
         renderCulturePage();
+        break;
+      case 'checkout':
+        trackEvent('checkout_click', { source: 'pro' });
+        if (window.AZ_CONFIG && window.AZ_CONFIG.checkoutUrl) {
+          window.open(window.AZ_CONFIG.checkoutUrl, '_blank', 'noopener,noreferrer');
+        } else {
+          showToast('支付链接还未配置。请先通过联系方式购买。');
+        }
+        break;
+      case 'contact-buy':
+        if (window.AZ_CONFIG && window.AZ_CONFIG.contactUrl) {
+          window.open(window.AZ_CONFIG.contactUrl, '_blank', 'noopener,noreferrer');
+        } else {
+          const license = $('#license-input');
+          if (license) { license.scrollIntoView({ behavior: 'smooth', block: 'center' }); license.focus(); }
+          showToast('购买后把许可证粘贴到下方即可解锁。');
+        }
+        break;
+      case 'paywall-exam':
+        const licenseInput = $('#license-input');
+        if (licenseInput) { licenseInput.scrollIntoView({ behavior: 'smooth', block: 'center' }); licenseInput.focus(); }
+        break;
+      case 'activate-license':
+        activateLicenseFromForm();
+        break;
+      case 'deactivate-license':
+        if (window.AZ_LICENSE) window.AZ_LICENSE.clear();
+        renderChrome('pro');
+        renderProPage(false);
+        break;
+      case 'close-exam':
+        location.hash = '#/pro';
+        break;
+      case 'submit-exam':
+        submitExam(false);
+        break;
+      case 'restart-exam':
+        if (el.getAttribute('href')) location.hash = el.getAttribute('href');
         break;
       case 'open-article':
         openArticle(el.dataset.id);
