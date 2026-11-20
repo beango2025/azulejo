@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.18.0 — 2026-11-20
+
+- Moved **主题词 / Vocabulário visual** into the **语料 → 词汇** tabs instead of a separate sidebar entry.
+- Added a fourth language tab: 短语 / 词汇 / 动词 / 主题词.
+- Kept `#/themes` as a compatibility route that opens the 主题词 tab.
+- Bumped the service worker cache to `azulejo-v3.18.0`.
+
 ## 3.17.0 — 2026-11-20
 
 - Added a **10-minute-per-lesson intensive dossier** for every B1–C2 lesson: the unit’s core and lab readings are combined into one long reading, with 25 level words, 6 grammar points and comprehension questions.

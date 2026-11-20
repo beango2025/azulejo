@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.17.0';
+  const APP_VERSION = '3.18.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -612,7 +612,6 @@
     { id: 'grammar', label: '语法', pt: 'Gramática', href: '#/grammar', icon: 'book' },
     { id: 'writing', label: '写作', pt: 'Escrita', href: '#/writing', icon: 'edit' },
     { id: 'exams-guide', label: '考试', pt: 'Exames', href: '#/exams-guide', icon: 'target' },
-    { id: 'themes', label: '主题词', pt: 'Vocabulário visual', href: '#/themes', icon: 'flower' },
     { id: 'media', label: '影音', pt: 'Vídeo & áudio', href: '#/media', icon: 'video' },
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
@@ -823,7 +822,7 @@
     if (name === 'grammar') info.parts[1] ? renderGrammarChapter(info.parts[1]) : renderGrammarPage();
     if (name === 'writing') renderWritingPage();
     if (name === 'exams-guide') renderExamGuidePage();
-    if (name === 'themes') renderThemesPage();
+    if (name === 'themes') { ui.languageTab = 'themes'; renderPhrasesPage(); }
     if (name === 'media') renderMediaPage();
     if (name === 'review') renderReviewPage();
     if (name === 'phrases') renderPhrasesPage();
@@ -2541,6 +2540,9 @@
       <button class="language-tab ${ui.languageTab === 'verbs' ? 'is-active' : ''}" data-action="select-language-tab" data-tab="verbs" role="tab" aria-selected="${ui.languageTab === 'verbs'}">
         <span class="language-tab-icon">${icon('review')}</span><span><strong>动词</strong><small>Conjugações · ${(window.AZ_VERBS ? window.AZ_VERBS.verbs.length : 0)}</small></span>
       </button>
+      <button class="language-tab ${ui.languageTab === 'themes' ? 'is-active' : ''}" data-action="select-language-tab" data-tab="themes" role="tab" aria-selected="${ui.languageTab === 'themes'}">
+        <span class="language-tab-icon">${icon('flower')}</span><span><strong>主题词</strong><small>Temas · ${THEMES.length}</small></span>
+      </button>
     </div>`;
   }
 
@@ -2682,6 +2684,10 @@
     }
     if (ui.languageTab === 'verbs') {
       renderVerbsPage();
+      return;
+    }
+    if (ui.languageTab === 'themes') {
+      renderThemesPage();
       return;
     }
     const shortcut = /Mac|iPhone|iPad/.test(navigator.platform || '') ? '⌘ K' : 'Ctrl K';
@@ -3223,8 +3229,9 @@
     const words = (theme ? theme.words : []).map(thematicWord).filter(Boolean);
     const adjectives = (adj ? adj.words : []).map(thematicWord).filter(Boolean);
     $('#view').innerHTML = `
-      <div class="page themes-page">
-        ${pageHead('VOCABULÁRIO VISUAL', 'Palavras por cenário.', '按使用场景看名词配图，再按类别汇总形容词。每行保留葡语、中文、English、français 和 español。', `<div class="head-badge alt">${icon('flower')}<span><strong>${THEMES.length}</strong><small>cenários</small></span></div>`)}
+      <div class="page phrases-page themes-page">
+        ${pageHead('FRASES & PALAVRAS', 'Palavras por cenário.', '语料库里的主题词：按使用场景看名词配图，再按类别汇总形容词。每行保留葡语、中文、English、français 和 español。', `<div class="head-badge alt">${icon('flower')}<span><strong>${THEMES.length}</strong><small>cenários</small></span></div>`)}
+        ${languageTabsHTML()}
         <div class="theme-grid">
           ${THEMES.map(item => `<button class="theme-card ${item.id === ui.themeId ? 'is-active' : ''}" data-action="select-theme" data-theme="${item.id}">
             <img src="${READING_PHOTOS[item.image]?.src || 'assets/photos/cafe.jpg'}" alt="${esc(item.zh)}" loading="lazy">
