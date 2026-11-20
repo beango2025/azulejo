@@ -1,0 +1,4502 @@
+[
+ {
+  "id": "c1y-001",
+  "pt": "a ablação",
+  "zh": "消融；切除术",
+  "en": "ablation",
+  "fr": "l'ablation",
+  "es": "la ablación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-002",
+  "pt": "a ab-rogação",
+  "zh": "废除（法律）",
+  "en": "repeal",
+  "fr": "l'abrogation",
+  "es": "la abrogación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-003",
+  "pt": "a acareação",
+  "zh": "对质",
+  "en": "confrontation (legal)",
+  "fr": "la confrontation",
+  "es": "la confrontación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-004",
+  "pt": "a aclamação",
+  "zh": "欢呼；喝彩",
+  "en": "acclamation",
+  "fr": "l'acclamation",
+  "es": "la aclamación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-005",
+  "pt": "a acrimónia",
+  "zh": "尖刻；敌意",
+  "en": "acrimony",
+  "fr": "l'acrimonie",
+  "es": "la acrimonia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-006",
+  "pt": "a admoestação",
+  "zh": "告诫；训斥",
+  "en": "reprimand",
+  "fr": "l'admonestation",
+  "es": "la amonestación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-007",
+  "pt": "a adversidade",
+  "zh": "逆境",
+  "en": "adversity",
+  "fr": "l'adversité",
+  "es": "la adversidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-008",
+  "pt": "a afinidade",
+  "zh": "亲和力；共鸣",
+  "en": "affinity",
+  "fr": "l'affinité",
+  "es": "la afinidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-009",
+  "pt": "a alocução",
+  "zh": "讲话；致辞",
+  "en": "allocution",
+  "fr": "l'allocution",
+  "es": "la alocución",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-010",
+  "pt": "a ancoragem",
+  "zh": "锚定；扎根",
+  "en": "anchoring",
+  "fr": "l'ancrage",
+  "es": "el anclaje",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-011",
+  "pt": "a aniquilação",
+  "zh": "毁灭",
+  "en": "annihilation",
+  "fr": "l'anéantissement",
+  "es": "la aniquilación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-012",
+  "pt": "a anomalia",
+  "zh": "异常",
+  "en": "anomaly",
+  "fr": "l'anomalie",
+  "es": "la anomalía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-013",
+  "pt": "a antecâmara",
+  "zh": "前厅；前奏",
+  "en": "anteroom",
+  "fr": "l'antichambre",
+  "es": "la antesala",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-014",
+  "pt": "a antevisão",
+  "zh": "预见；预览",
+  "en": "foresight; preview",
+  "fr": "la prévision",
+  "es": "la previsión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-015",
+  "pt": "a apologia",
+  "zh": "辩护；颂扬",
+  "en": "apology (defence)",
+  "fr": "l'apologie",
+  "es": "la apología",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-016",
+  "pt": "a apreensão",
+  "zh": "忧虑；扣押",
+  "en": "apprehension; seizure",
+  "fr": "l'appréhension",
+  "es": "la aprehensión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-017",
+  "pt": "a aptidão",
+  "zh": "才能；资质",
+  "en": "aptitude",
+  "fr": "l'aptitude",
+  "es": "la aptitud",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-018",
+  "pt": "a argúcia",
+  "zh": "机敏；敏锐",
+  "en": "astuteness",
+  "fr": "la sagacité",
+  "es": "la argucia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-019",
+  "pt": "a aridez",
+  "zh": "干旱；枯燥",
+  "en": "aridity",
+  "fr": "l'aridité",
+  "es": "la aridez",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-020",
+  "pt": "a asserção",
+  "zh": "断言",
+  "en": "assertion",
+  "fr": "l'assertion",
+  "es": "la aserción",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-021",
+  "pt": "a assimilação",
+  "zh": "同化；吸收",
+  "en": "assimilation",
+  "fr": "l'assimilation",
+  "es": "la asimilación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-022",
+  "pt": "a assunção",
+  "zh": "承担；假定",
+  "en": "assumption",
+  "fr": "l'assomption",
+  "es": "la asunción",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-023",
+  "pt": "a atribulação",
+  "zh": "磨难；波折",
+  "en": "tribulation",
+  "fr": "la tribulation",
+  "es": "la tribulación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-024",
+  "pt": "a autenticidade",
+  "zh": "真实性",
+  "en": "authenticity",
+  "fr": "l'authenticité",
+  "es": "la autenticidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-025",
+  "pt": "a avidez",
+  "zh": "贪婪；渴求",
+  "en": "avidity",
+  "fr": "l'avidité",
+  "es": "la avidez",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-026",
+  "pt": "a beligerância",
+  "zh": "好战；敌对",
+  "en": "belligerence",
+  "fr": "la belligérance",
+  "es": "la beligerancia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-027",
+  "pt": "a benevolência",
+  "zh": "仁慈；善意",
+  "en": "benevolence",
+  "fr": "la bienveillance",
+  "es": "la benevolencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-028",
+  "pt": "a calmaria",
+  "zh": "风平浪静",
+  "en": "lull",
+  "fr": "le calme plat",
+  "es": "la calma chicha",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-029",
+  "pt": "a candura",
+  "zh": "纯真；坦率",
+  "en": "candour",
+  "fr": "la candeur",
+  "es": "la candidez",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-030",
+  "pt": "a cautela",
+  "zh": "谨慎",
+  "en": "caution",
+  "fr": "la prudence",
+  "es": "la cautela",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-031",
+  "pt": "a cedência",
+  "zh": "让步；屈服",
+  "en": "yielding",
+  "fr": "la cession",
+  "es": "la cesión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-032",
+  "pt": "a centelha",
+  "zh": "火花；闪光",
+  "en": "spark",
+  "fr": "l'étincelle",
+  "es": "la chispa",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-033",
+  "pt": "a chancela",
+  "zh": "印章；认可",
+  "en": "seal; endorsement",
+  "fr": "le sceau",
+  "es": "el sello",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-034",
+  "pt": "a cizânia",
+  "zh": "纷争",
+  "en": "discord",
+  "fr": "la discorde",
+  "es": "la cizaña",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-035",
+  "pt": "a clarividência",
+  "zh": "洞察力",
+  "en": "clairvoyance",
+  "fr": "la clairvoyance",
+  "es": "la clarividencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-036",
+  "pt": "a clemência",
+  "zh": "宽恕",
+  "en": "clemency",
+  "fr": "la clémence",
+  "es": "la clemencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-037",
+  "pt": "a compaixão",
+  "zh": "同情；怜悯",
+  "en": "compassion",
+  "fr": "la compassion",
+  "es": "la compasión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-038",
+  "pt": "a comunhão",
+  "zh": "共融；圣餐",
+  "en": "communion",
+  "fr": "la communion",
+  "es": "la comunión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-039",
+  "pt": "a concórdia",
+  "zh": "和睦",
+  "en": "concord",
+  "fr": "la concorde",
+  "es": "la concordia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-040",
+  "pt": "a condescendência",
+  "zh": "迁就；居高临下",
+  "en": "condescension",
+  "fr": "la condescendance",
+  "es": "la condescendencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-041",
+  "pt": "a conduta",
+  "zh": "行为；品行",
+  "en": "conduct",
+  "fr": "la conduite",
+  "es": "la conducta",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-042",
+  "pt": "a confluência",
+  "zh": "汇合；交汇",
+  "en": "confluence",
+  "fr": "la confluence",
+  "es": "la confluencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-043",
+  "pt": "a consolação",
+  "zh": "安慰",
+  "en": "consolation",
+  "fr": "la consolation",
+  "es": "la consolación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-044",
+  "pt": "a constância",
+  "zh": "恒心；恒定",
+  "en": "constancy",
+  "fr": "la constance",
+  "es": "la constancia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-045",
+  "pt": "a contrição",
+  "zh": "悔悟",
+  "en": "contrition",
+  "fr": "la contrition",
+  "es": "la contrición",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-046",
+  "pt": "a convulsão",
+  "zh": "抽搐；动荡",
+  "en": "convulsion",
+  "fr": "la convulsion",
+  "es": "la convulsión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-047",
+  "pt": "a cordialidade",
+  "zh": "热诚",
+  "en": "cordiality",
+  "fr": "la cordialité",
+  "es": "la cordialidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-048",
+  "pt": "a credulidade",
+  "zh": "轻信",
+  "en": "credulity",
+  "fr": "la crédulité",
+  "es": "la credulidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-049",
+  "pt": "a debilidade",
+  "zh": "虚弱；弱点",
+  "en": "debility",
+  "fr": "la débilité",
+  "es": "la debilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-050",
+  "pt": "a decadência",
+  "zh": "衰落",
+  "en": "decadence",
+  "fr": "la décadence",
+  "es": "la decadencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-051",
+  "pt": "a decência",
+  "zh": "体面；正派",
+  "en": "decency",
+  "fr": "la décence",
+  "es": "la decencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-052",
+  "pt": "a deferência",
+  "zh": "尊重；敬意",
+  "en": "deference",
+  "fr": "la déférence",
+  "es": "la deferencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-053",
+  "pt": "a degradação",
+  "zh": "恶化；退化",
+  "en": "degradation",
+  "fr": "la dégradation",
+  "es": "la degradación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-054",
+  "pt": "a delonga",
+  "zh": "拖延；耽搁",
+  "en": "delay",
+  "fr": "le retard",
+  "es": "la dilación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-055",
+  "pt": "a demanda",
+  "zh": "需求；诉求",
+  "en": "demand",
+  "fr": "la demande",
+  "es": "la demanda",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-056",
+  "pt": "a demência",
+  "zh": "痴呆",
+  "en": "dementia",
+  "fr": "la démence",
+  "es": "la demencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-057",
+  "pt": "a destreza",
+  "zh": "灵巧",
+  "en": "dexterity",
+  "fr": "la dextérité",
+  "es": "la destreza",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-058",
+  "pt": "a discórdia",
+  "zh": "不和",
+  "en": "discord",
+  "fr": "la discorde",
+  "es": "la discordia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-059",
+  "pt": "a discrição",
+  "zh": "谨慎；低调",
+  "en": "discretion",
+  "fr": "la discrétion",
+  "es": "la discreción",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-060",
+  "pt": "a dissensão",
+  "zh": "异议；不和",
+  "en": "dissension",
+  "fr": "la dissension",
+  "es": "la disensión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-061",
+  "pt": "a dissolução",
+  "zh": "解散；溶解",
+  "en": "dissolution",
+  "fr": "la dissolution",
+  "es": "la disolución",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-062",
+  "pt": "a docilidade",
+  "zh": "温顺",
+  "en": "docility",
+  "fr": "la docilité",
+  "es": "la docilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-063",
+  "pt": "a ebulição",
+  "zh": "沸腾",
+  "en": "boiling",
+  "fr": "l'ébullition",
+  "es": "la ebullición",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-064",
+  "pt": "a efemeridade",
+  "zh": "短暂",
+  "en": "ephemerality",
+  "fr": "l'éphémérité",
+  "es": "la fugacidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-065",
+  "pt": "a elucidação",
+  "zh": "阐明",
+  "en": "elucidation",
+  "fr": "l'élucidation",
+  "es": "la elucidación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-066",
+  "pt": "a eminência",
+  "zh": "显赫；高地",
+  "en": "eminence",
+  "fr": "l'éminence",
+  "es": "la eminencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-067",
+  "pt": "a encarnação",
+  "zh": "化身；转世",
+  "en": "incarnation",
+  "fr": "l'incarnation",
+  "es": "la encarnación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-068",
+  "pt": "a erudição",
+  "zh": "博学",
+  "en": "erudition",
+  "fr": "l'érudition",
+  "es": "la erudición",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-069",
+  "pt": "a espiritualidade",
+  "zh": "灵性",
+  "en": "spirituality",
+  "fr": "la spiritualité",
+  "es": "la espiritualidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-070",
+  "pt": "a espontaneidade",
+  "zh": "自发性",
+  "en": "spontaneity",
+  "fr": "la spontanéité",
+  "es": "la espontaneidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-071",
+  "pt": "a estranheza",
+  "zh": "奇怪；陌生感",
+  "en": "strangeness",
+  "fr": "l'étrangeté",
+  "es": "la extrañeza",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-072",
+  "pt": "a exatidão",
+  "zh": "精确",
+  "en": "exactness",
+  "fr": "l'exactitude",
+  "es": "la exactitud",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-073",
+  "pt": "a exaustão",
+  "zh": "疲惫；耗尽",
+  "en": "exhaustion",
+  "fr": "l'épuisement",
+  "es": "el agotamiento",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-074",
+  "pt": "a exuberância",
+  "zh": "繁茂；旺盛",
+  "en": "exuberance",
+  "fr": "l'exubérance",
+  "es": "la exuberancia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-075",
+  "pt": "a falsidade",
+  "zh": "虚假",
+  "en": "falsity",
+  "fr": "la fausseté",
+  "es": "la falsedad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-076",
+  "pt": "a fatalidade",
+  "zh": "命定；不幸",
+  "en": "fatality",
+  "fr": "la fatalité",
+  "es": "la fatalidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-077",
+  "pt": "a fecundidade",
+  "zh": "多产；丰饶",
+  "en": "fecundity",
+  "fr": "la fécondité",
+  "es": "la fecundidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-078",
+  "pt": "a ferocidade",
+  "zh": "凶残",
+  "en": "ferocity",
+  "fr": "la férocité",
+  "es": "la ferocidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-079",
+  "pt": "a fertilidade",
+  "zh": "肥沃；生育力",
+  "en": "fertility",
+  "fr": "la fertilité",
+  "es": "la fertilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-080",
+  "pt": "a flutuação",
+  "zh": "波动",
+  "en": "fluctuation",
+  "fr": "la fluctuation",
+  "es": "la fluctuación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-081",
+  "pt": "a fortaleza",
+  "zh": "堡垒；力量",
+  "en": "fortress; strength",
+  "fr": "la forteresse",
+  "es": "la fortaleza",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-082",
+  "pt": "a franqueza",
+  "zh": "坦率",
+  "en": "frankness",
+  "fr": "la franchise",
+  "es": "la franqueza",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-083",
+  "pt": "a fruição",
+  "zh": "享用；愉悦",
+  "en": "enjoyment",
+  "fr": "la jouissance",
+  "es": "el disfrute",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-084",
+  "pt": "a fugacidade",
+  "zh": "转瞬即逝",
+  "en": "fleetingness",
+  "fr": "la fugacité",
+  "es": "la fugacidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-085",
+  "pt": "a globalização",
+  "zh": "全球化",
+  "en": "globalization",
+  "fr": "la mondialisation",
+  "es": "la globalización",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-086",
+  "pt": "a hospitalidade",
+  "zh": "好客",
+  "en": "hospitality",
+  "fr": "l'hospitalité",
+  "es": "la hospitalidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-087",
+  "pt": "a iliteracia",
+  "zh": "文盲；识字水平低",
+  "en": "illiteracy",
+  "fr": "l'illettrisme",
+  "es": "el analfabetismo",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-088",
+  "pt": "a imensidão",
+  "zh": "辽阔",
+  "en": "immensity",
+  "fr": "l'immensité",
+  "es": "la inmensidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-089",
+  "pt": "a iminência",
+  "zh": "迫近",
+  "en": "imminence",
+  "fr": "l'imminence",
+  "es": "la inminencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-090",
+  "pt": "a imprevisibilidade",
+  "zh": "不可预测性",
+  "en": "unpredictability",
+  "fr": "l'imprévisibilité",
+  "es": "la imprevisibilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-091",
+  "pt": "a incoerência",
+  "zh": "不一致",
+  "en": "incoherence",
+  "fr": "l'incohérence",
+  "es": "la incoherencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-092",
+  "pt": "a incompreensão",
+  "zh": "不理解；误解",
+  "en": "incomprehension",
+  "fr": "l'incompréhension",
+  "es": "la incomprensión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-093",
+  "pt": "a indefinição",
+  "zh": "不明确",
+  "en": "vagueness",
+  "fr": "l'indéfinition",
+  "es": "la indefinición",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-094",
+  "pt": "a indisciplina",
+  "zh": "无纪律",
+  "en": "indiscipline",
+  "fr": "l'indiscipline",
+  "es": "la indisciplina",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-095",
+  "pt": "a inépcia",
+  "zh": "无能",
+  "en": "ineptitude",
+  "fr": "l'ineptie",
+  "es": "la ineptitud",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-096",
+  "pt": "a ingratidão",
+  "zh": "忘恩负义",
+  "en": "ingratitude",
+  "fr": "l'ingratitude",
+  "es": "la ingratitud",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-097",
+  "pt": "a inimizade",
+  "zh": "敌意",
+  "en": "enmity",
+  "fr": "l'inimitié",
+  "es": "la enemistad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-098",
+  "pt": "a insensatez",
+  "zh": "愚蠢；不明智",
+  "en": "foolishness",
+  "fr": "la déraison",
+  "es": "la insensatez",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-099",
+  "pt": "a instabilidade",
+  "zh": "不稳定",
+  "en": "instability",
+  "fr": "l'instabilité",
+  "es": "la inestabilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-100",
+  "pt": "a insuficiência",
+  "zh": "不足；功能不全",
+  "en": "insufficiency",
+  "fr": "l'insuffisance",
+  "es": "la insuficiencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-101",
+  "pt": "a interdição",
+  "zh": "禁止；禁令",
+  "en": "prohibition",
+  "fr": "l'interdiction",
+  "es": "la prohibición",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-102",
+  "pt": "a interferência",
+  "zh": "干扰；干涉",
+  "en": "interference",
+  "fr": "l'interférence",
+  "es": "la interferencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-103",
+  "pt": "a intermitência",
+  "zh": "间歇",
+  "en": "intermittence",
+  "fr": "l'intermittence",
+  "es": "la intermitencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-104",
+  "pt": "a intransigência",
+  "zh": "不妥协",
+  "en": "intransigence",
+  "fr": "l'intransigeance",
+  "es": "la intransigencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-105",
+  "pt": "a irregularidade",
+  "zh": "违规；不规则",
+  "en": "irregularity",
+  "fr": "l'irrégularité",
+  "es": "la irregularidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-106",
+  "pt": "a irreverência",
+  "zh": "不敬；叛逆",
+  "en": "irreverence",
+  "fr": "l'irrévérence",
+  "es": "la irreverencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-107",
+  "pt": "a leviandade",
+  "zh": "轻率",
+  "en": "levity",
+  "fr": "la légèreté",
+  "es": "la ligereza",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-108",
+  "pt": "a longevidade",
+  "zh": "长寿",
+  "en": "longevity",
+  "fr": "la longévité",
+  "es": "la longevidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-109",
+  "pt": "a maleabilidade",
+  "zh": "可塑性；灵活",
+  "en": "malleability",
+  "fr": "la malléabilité",
+  "es": "la maleabilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-110",
+  "pt": "a mediocridade",
+  "zh": "平庸",
+  "en": "mediocrity",
+  "fr": "la médiocrité",
+  "es": "la mediocridad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-111",
+  "pt": "a morosidade",
+  "zh": "迟缓；拖沓",
+  "en": "slowness",
+  "fr": "la lenteur",
+  "es": "la morosidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-112",
+  "pt": "a multiplicidade",
+  "zh": "多样性",
+  "en": "multiplicity",
+  "fr": "la multiplicité",
+  "es": "la multiplicidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-113",
+  "pt": "a nitidez",
+  "zh": "清晰",
+  "en": "sharpness",
+  "fr": "la netteté",
+  "es": "la nitidez",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-114",
+  "pt": "a observância",
+  "zh": "遵守",
+  "en": "observance",
+  "fr": "l'observation",
+  "es": "la observancia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-115",
+  "pt": "a obstinação",
+  "zh": "固执",
+  "en": "obstinacy",
+  "fr": "l'obstination",
+  "es": "la obstinación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-116",
+  "pt": "a opulência",
+  "zh": "富裕",
+  "en": "opulence",
+  "fr": "l'opulence",
+  "es": "la opulencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-117",
+  "pt": "a originalidade",
+  "zh": "独创性",
+  "en": "originality",
+  "fr": "l'originalité",
+  "es": "la originalidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-118",
+  "pt": "a penúria",
+  "zh": "贫困；匮乏",
+  "en": "penury",
+  "fr": "la pénurie",
+  "es": "la penuria",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-119",
+  "pt": "a perfeição",
+  "zh": "完美",
+  "en": "perfection",
+  "fr": "la perfection",
+  "es": "la perfección",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-120",
+  "pt": "a pertinácia",
+  "zh": "坚韧；执拗",
+  "en": "pertinacity",
+  "fr": "la ténacité",
+  "es": "la pertinacia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-121",
+  "pt": "a pletora",
+  "zh": "过多；过剩",
+  "en": "plethora",
+  "fr": "la pléthore",
+  "es": "la plétora",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-122",
+  "pt": "a plenitude",
+  "zh": "充实；圆满",
+  "en": "plenitude",
+  "fr": "la plénitude",
+  "es": "la plenitud",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-123",
+  "pt": "a premeditação",
+  "zh": "预谋",
+  "en": "premeditation",
+  "fr": "la préméditation",
+  "es": "la premeditación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-124",
+  "pt": "a preponderância",
+  "zh": "优势；主导",
+  "en": "preponderance",
+  "fr": "la prépondérance",
+  "es": "la preponderancia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-125",
+  "pt": "a pretensão",
+  "zh": "要求；自命",
+  "en": "pretension",
+  "fr": "la prétention",
+  "es": "la pretensión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-126",
+  "pt": "a proeza",
+  "zh": "壮举",
+  "en": "feat",
+  "fr": "l'exploit",
+  "es": "la proeza",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-127",
+  "pt": "a profusão",
+  "zh": "大量；丰富",
+  "en": "profusion",
+  "fr": "la profusion",
+  "es": "la profusión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-128",
+  "pt": "a quota",
+  "zh": "配额；份额",
+  "en": "quota",
+  "fr": "le quota",
+  "es": "la cuota",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-129",
+  "pt": "a remissão",
+  "zh": "宽恕；缓解",
+  "en": "remission",
+  "fr": "la rémission",
+  "es": "la remisión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-130",
+  "pt": "a repulsa",
+  "zh": "排斥；反感",
+  "en": "repulsion",
+  "fr": "la répulsion",
+  "es": "la repulsa",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-131",
+  "pt": "a requisição",
+  "zh": "申请；征用",
+  "en": "requisition",
+  "fr": "la réquisition",
+  "es": "la requisición",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-132",
+  "pt": "a retenção",
+  "zh": "保留；扣留",
+  "en": "retention",
+  "fr": "la rétention",
+  "es": "la retención",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-133",
+  "pt": "a reticência",
+  "zh": "迟疑；言外之意",
+  "en": "reticence",
+  "fr": "la réticence",
+  "es": "la reticencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-134",
+  "pt": "a retidão",
+  "zh": "正直",
+  "en": "rectitude",
+  "fr": "la droiture",
+  "es": "la rectitud",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-135",
+  "pt": "a retrospetiva",
+  "zh": "回顾展",
+  "en": "retrospective",
+  "fr": "la rétrospective",
+  "es": "la retrospectiva",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-136",
+  "pt": "a reverência",
+  "zh": "敬意",
+  "en": "reverence",
+  "fr": "la révérence",
+  "es": "la reverencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-137",
+  "pt": "a reviravolta",
+  "zh": "转折；剧变",
+  "en": "turnaround",
+  "fr": "le revirement",
+  "es": "el giro",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-138",
+  "pt": "a salubridade",
+  "zh": "卫生；有益健康",
+  "en": "healthiness",
+  "fr": "la salubrité",
+  "es": "la salubridad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-139",
+  "pt": "a similitude",
+  "zh": "相似",
+  "en": "similitude",
+  "fr": "la similitude",
+  "es": "la similitud",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-140",
+  "pt": "a singularidade",
+  "zh": "独特性",
+  "en": "singularity",
+  "fr": "la singularité",
+  "es": "la singularidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-141",
+  "pt": "a sintonia",
+  "zh": "和谐；同步",
+  "en": "harmony; tune",
+  "fr": "l'harmonie",
+  "es": "la sintonía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-142",
+  "pt": "a solenidade",
+  "zh": "庄严",
+  "en": "solemnity",
+  "fr": "la solennité",
+  "es": "la solemnidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-143",
+  "pt": "a sonoridade",
+  "zh": "音响；悦耳",
+  "en": "sonority",
+  "fr": "la sonorité",
+  "es": "la sonoridad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-144",
+  "pt": "a subserviência",
+  "zh": "奴性；卑屈",
+  "en": "subservience",
+  "fr": "la servilité",
+  "es": "la servidumbre",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-145",
+  "pt": "a tenacidade",
+  "zh": "坚韧",
+  "en": "tenacity",
+  "fr": "la ténacité",
+  "es": "la tenacidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-146",
+  "pt": "a toxicidade",
+  "zh": "毒性",
+  "en": "toxicity",
+  "fr": "la toxicité",
+  "es": "la toxicidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-147",
+  "pt": "a veemência",
+  "zh": "激烈；强烈",
+  "en": "vehemence",
+  "fr": "la véhémence",
+  "es": "la vehemencia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-148",
+  "pt": "a veracidade",
+  "zh": "真实性",
+  "en": "veracity",
+  "fr": "la véracité",
+  "es": "la veracidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-149",
+  "pt": "a vertigem",
+  "zh": "眩晕",
+  "en": "vertigo",
+  "fr": "le vertige",
+  "es": "el vértigo",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-150",
+  "pt": "a voracidade",
+  "zh": "贪食；贪婪",
+  "en": "voracity",
+  "fr": "la voracité",
+  "es": "la voracidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-151",
+  "pt": "a economia circular",
+  "zh": "循环经济",
+  "en": "circular economy",
+  "fr": "l'économie circulaire",
+  "es": "la economía circular",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-152",
+  "pt": "a energia geotérmica",
+  "zh": "地热能",
+  "en": "geothermal energy",
+  "fr": "l'énergie géothermique",
+  "es": "la energía geotérmica",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-153",
+  "pt": "a hidroeletricidade",
+  "zh": "水电",
+  "en": "hydroelectricity",
+  "fr": "l'hydroélectricité",
+  "es": "la hidroelectricidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-154",
+  "pt": "a rede elétrica",
+  "zh": "电网",
+  "en": "power grid",
+  "fr": "le réseau électrique",
+  "es": "la red eléctrica",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-155",
+  "pt": "a obsolescência programada",
+  "zh": "计划性淘汰",
+  "en": "planned obsolescence",
+  "fr": "l'obsolescence programmée",
+  "es": "la obsolescencia programada",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-156",
+  "pt": "a poluição luminosa",
+  "zh": "光污染",
+  "en": "light pollution",
+  "fr": "la pollution lumineuse",
+  "es": "la contaminación lumínica",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-157",
+  "pt": "a qualidade do ar",
+  "zh": "空气质量",
+  "en": "air quality",
+  "fr": "la qualité de l'air",
+  "es": "la calidad del aire",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-158",
+  "pt": "a pegada hídrica",
+  "zh": "水足迹",
+  "en": "water footprint",
+  "fr": "l'empreinte eau",
+  "es": "la huella hídrica",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-159",
+  "pt": "a salinização",
+  "zh": "盐碱化",
+  "en": "salinization",
+  "fr": "la salinisation",
+  "es": "la salinización",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-160",
+  "pt": "a sobrepesca",
+  "zh": "过度捕捞",
+  "en": "overfishing",
+  "fr": "la surpêche",
+  "es": "la sobrepesca",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-161",
+  "pt": "a aquicultura",
+  "zh": "水产养殖",
+  "en": "aquaculture",
+  "fr": "l'aquaculture",
+  "es": "la acuicultura",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-162",
+  "pt": "a agricultura intensiva",
+  "zh": "集约农业",
+  "en": "intensive farming",
+  "fr": "l'agriculture intensive",
+  "es": "la agricultura intensiva",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-163",
+  "pt": "a silvicultura",
+  "zh": "林业",
+  "en": "forestry",
+  "fr": "la sylviculture",
+  "es": "la silvicultura",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-164",
+  "pt": "a degradação do solo",
+  "zh": "土壤退化",
+  "en": "soil degradation",
+  "fr": "la dégradation des sols",
+  "es": "la degradación del suelo",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-165",
+  "pt": "a substância química",
+  "zh": "化学物质",
+  "en": "chemical substance",
+  "fr": "la substance chimique",
+  "es": "la sustancia química",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-166",
+  "pt": "a nanopartícula",
+  "zh": "纳米颗粒",
+  "en": "nanoparticle",
+  "fr": "la nanoparticule",
+  "es": "la nanopartícula",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-167",
+  "pt": "a radiação",
+  "zh": "辐射",
+  "en": "radiation",
+  "fr": "le rayonnement",
+  "es": "la radiación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-168",
+  "pt": "a radioatividade",
+  "zh": "放射性",
+  "en": "radioactivity",
+  "fr": "la radioactivité",
+  "es": "la radiactividad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-169",
+  "pt": "a toxina",
+  "zh": "毒素",
+  "en": "toxin",
+  "fr": "la toxine",
+  "es": "la toxina",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-170",
+  "pt": "a morbidade",
+  "zh": "发病率",
+  "en": "morbidity",
+  "fr": "la morbidité",
+  "es": "la morbilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-171",
+  "pt": "a mutação",
+  "zh": "突变；转变",
+  "en": "mutation",
+  "fr": "la mutation",
+  "es": "la mutación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-172",
+  "pt": "a estirpe",
+  "zh": "菌株；血统",
+  "en": "strain",
+  "fr": "la souche",
+  "es": "la cepa",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-173",
+  "pt": "a célula estaminal",
+  "zh": "干细胞",
+  "en": "stem cell",
+  "fr": "la cellule souche",
+  "es": "la célula madre",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-174",
+  "pt": "a enzima",
+  "zh": "酶",
+  "en": "enzyme",
+  "fr": "l'enzyme",
+  "es": "la enzima",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-175",
+  "pt": "a proteína",
+  "zh": "蛋白质",
+  "en": "protein",
+  "fr": "la protéine",
+  "es": "la proteína",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-176",
+  "pt": "a aprendizagem automática",
+  "zh": "机器学习",
+  "en": "machine learning",
+  "fr": "l'apprentissage automatique",
+  "es": "el aprendizaje automático",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-177",
+  "pt": "a realidade aumentada",
+  "zh": "增强现实",
+  "en": "augmented reality",
+  "fr": "la réalité augmentée",
+  "es": "la realidad aumentada",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-178",
+  "pt": "a realidade virtual",
+  "zh": "虚拟现实",
+  "en": "virtual reality",
+  "fr": "la réalité virtuelle",
+  "es": "la realidad virtual",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-179",
+  "pt": "a criptografia",
+  "zh": "密码学",
+  "en": "cryptography",
+  "fr": "la cryptographie",
+  "es": "la criptografía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-180",
+  "pt": "a ciberdefesa",
+  "zh": "网络防御",
+  "en": "cyberdefence",
+  "fr": "la cyberdéfense",
+  "es": "la ciberdefensa",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-181",
+  "pt": "a literacia mediática",
+  "zh": "媒介素养",
+  "en": "media literacy",
+  "fr": "la littératie médiatique",
+  "es": "la alfabetización mediática",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-182",
+  "pt": "a plataforma digital",
+  "zh": "数字平台",
+  "en": "digital platform",
+  "fr": "la plateforme numérique",
+  "es": "la plataforma digital",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-183",
+  "pt": "a computação em nuvem",
+  "zh": "云计算",
+  "en": "cloud computing",
+  "fr": "l'informatique en nuage",
+  "es": "la computación en la nube",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-184",
+  "pt": "a pegada digital",
+  "zh": "数字足迹",
+  "en": "digital footprint",
+  "fr": "l'empreinte numérique",
+  "es": "la huella digital",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-185",
+  "pt": "a proteção de dados",
+  "zh": "数据保护",
+  "en": "data protection",
+  "fr": "la protection des données",
+  "es": "la protección de datos",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-186",
+  "pt": "a vigilância em massa",
+  "zh": "大规模监控",
+  "en": "mass surveillance",
+  "fr": "la surveillance de masse",
+  "es": "la vigilancia masiva",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-187",
+  "pt": "a biometria",
+  "zh": "生物识别",
+  "en": "biometrics",
+  "fr": "la biométrie",
+  "es": "la biometría",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-188",
+  "pt": "a geolocalização",
+  "zh": "地理定位",
+  "en": "geolocation",
+  "fr": "la géolocalisation",
+  "es": "la geolocalización",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-189",
+  "pt": "a moderação de conteúdos",
+  "zh": "内容审核",
+  "en": "content moderation",
+  "fr": "la modération de contenu",
+  "es": "la moderación de contenidos",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-190",
+  "pt": "a imprensa escrita",
+  "zh": "纸媒",
+  "en": "print press",
+  "fr": "la presse écrite",
+  "es": "la prensa escrita",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-191",
+  "pt": "a errata",
+  "zh": "勘误表",
+  "en": "errata",
+  "fr": "l'errata",
+  "es": "la fe de erratas",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-192",
+  "pt": "a coluna de opinião",
+  "zh": "评论专栏",
+  "en": "opinion column",
+  "fr": "la tribune",
+  "es": "la columna de opinión",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-193",
+  "pt": "a providência cautelar",
+  "zh": "临时保全措施",
+  "en": "injunction",
+  "fr": "la mesure conservatoire",
+  "es": "la medida cautelar",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-194",
+  "pt": "a amortização",
+  "zh": "摊销；还本",
+  "en": "amortization",
+  "fr": "l'amortissement",
+  "es": "la amortización",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-195",
+  "pt": "a dedução fiscal",
+  "zh": "税收扣除",
+  "en": "tax deduction",
+  "fr": "la déduction fiscale",
+  "es": "la deducción fiscal",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-196",
+  "pt": "a fraude fiscal",
+  "zh": "税务欺诈",
+  "en": "tax fraud",
+  "fr": "la fraude fiscale",
+  "es": "el fraude fiscal",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-197",
+  "pt": "a economia paralela",
+  "zh": "地下经济",
+  "en": "shadow economy",
+  "fr": "l'économie informelle",
+  "es": "la economía sumergida",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-198",
+  "pt": "a dívida pública",
+  "zh": "公共债务",
+  "en": "public debt",
+  "fr": "la dette publique",
+  "es": "la deuda pública",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-199",
+  "pt": "a estagflação",
+  "zh": "滞胀",
+  "en": "stagflation",
+  "fr": "la stagflation",
+  "es": "la estanflación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-200",
+  "pt": "a corretagem",
+  "zh": "经纪业务",
+  "en": "brokerage",
+  "fr": "le courtage",
+  "es": "la correduría",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-201",
+  "pt": "a bolsa de valores",
+  "zh": "证券交易所",
+  "en": "stock exchange",
+  "fr": "la bourse des valeurs",
+  "es": "la bolsa de valores",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-202",
+  "pt": "a contabilidade",
+  "zh": "会计；会计学",
+  "en": "accounting",
+  "fr": "la comptabilité",
+  "es": "la contabilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-203",
+  "pt": "a tesouraria",
+  "zh": "财务部；国库",
+  "en": "treasury",
+  "fr": "la trésorerie",
+  "es": "la tesorería",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-204",
+  "pt": "a faturação",
+  "zh": "开票；营业额",
+  "en": "invoicing",
+  "fr": "la facturation",
+  "es": "la facturación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-205",
+  "pt": "a margem de lucro",
+  "zh": "利润率",
+  "en": "profit margin",
+  "fr": "la marge bénéficiaire",
+  "es": "el margen de beneficio",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-206",
+  "pt": "a subsidiária",
+  "zh": "子公司",
+  "en": "subsidiary",
+  "fr": "la filiale",
+  "es": "la filial",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-207",
+  "pt": "a multinacional",
+  "zh": "跨国公司",
+  "en": "multinational",
+  "fr": "la multinationale",
+  "es": "la multinacional",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-208",
+  "pt": "a cooperativa",
+  "zh": "合作社",
+  "en": "cooperative",
+  "fr": "la coopérative",
+  "es": "la cooperativa",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-209",
+  "pt": "a repartição",
+  "zh": "分配；分局",
+  "en": "distribution; office",
+  "fr": "la répartition",
+  "es": "el reparto",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-210",
+  "pt": "a assembleia municipal",
+  "zh": "市议会",
+  "en": "municipal assembly",
+  "fr": "l'assemblée municipale",
+  "es": "la asamblea municipal",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-211",
+  "pt": "a junta de freguesia",
+  "zh": "教区委员会",
+  "en": "parish council",
+  "fr": "la junte de paroisse",
+  "es": "la junta de freguesía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-212",
+  "pt": "a comissão parlamentar",
+  "zh": "议会委员会",
+  "en": "parliamentary committee",
+  "fr": "la commission parlementaire",
+  "es": "la comisión parlamentaria",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-213",
+  "pt": "a moção de confiança",
+  "zh": "信任动议",
+  "en": "confidence motion",
+  "fr": "la motion de confiance",
+  "es": "la moción de confianza",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-214",
+  "pt": "a estilística",
+  "zh": "文体学",
+  "en": "stylistics",
+  "fr": "la stylistique",
+  "es": "la estilística",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-215",
+  "pt": "a narratologia",
+  "zh": "叙事学",
+  "en": "narratology",
+  "fr": "la narratologie",
+  "es": "la narratología",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-216",
+  "pt": "a sinestesia",
+  "zh": "通感",
+  "en": "synesthesia",
+  "fr": "la synesthésie",
+  "es": "la sinestesia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-217",
+  "pt": "a onomatopeia",
+  "zh": "拟声词",
+  "en": "onomatopoeia",
+  "fr": "l'onomatopée",
+  "es": "la onomatopeya",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-218",
+  "pt": "a perífrase",
+  "zh": "迂回说法",
+  "en": "periphrasis",
+  "fr": "la périphrase",
+  "es": "la perífrasis",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-219",
+  "pt": "a sinonímia",
+  "zh": "同义关系",
+  "en": "synonymy",
+  "fr": "la synonymie",
+  "es": "la sinonimia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-220",
+  "pt": "a antonímia",
+  "zh": "反义关系",
+  "en": "antonymy",
+  "fr": "l'antonymie",
+  "es": "la antonimia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-221",
+  "pt": "a fonética",
+  "zh": "语音学",
+  "en": "phonetics",
+  "fr": "la phonétique",
+  "es": "la fonética",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-222",
+  "pt": "a sociolinguística",
+  "zh": "社会语言学",
+  "en": "sociolinguistics",
+  "fr": "la sociolinguistique",
+  "es": "la sociolingüística",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-223",
+  "pt": "a linguística",
+  "zh": "语言学",
+  "en": "linguistics",
+  "fr": "la linguistique",
+  "es": "la lingüística",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-224",
+  "pt": "a declamação",
+  "zh": "朗诵",
+  "en": "declamation",
+  "fr": "la déclamation",
+  "es": "la declamación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-225",
+  "pt": "a recitação",
+  "zh": "背诵；朗诵",
+  "en": "recitation",
+  "fr": "la récitation",
+  "es": "la recitación",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-226",
+  "pt": "a encenação",
+  "zh": "舞台呈现；上演",
+  "en": "staging",
+  "fr": "la mise en scène",
+  "es": "la puesta en escena",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-227",
+  "pt": "a cenografia",
+  "zh": "舞台设计",
+  "en": "scenography",
+  "fr": "la scénographie",
+  "es": "la escenografía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-228",
+  "pt": "a coreografia",
+  "zh": "编舞",
+  "en": "choreography",
+  "fr": "la chorégraphie",
+  "es": "la coreografía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-229",
+  "pt": "a dramaturgia",
+  "zh": "戏剧创作",
+  "en": "dramaturgy",
+  "fr": "la dramaturgie",
+  "es": "la dramaturgia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-230",
+  "pt": "a pantomima",
+  "zh": "哑剧",
+  "en": "pantomime",
+  "fr": "la pantomime",
+  "es": "la pantomima",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-231",
+  "pt": "a opereta",
+  "zh": "轻歌剧",
+  "en": "operetta",
+  "fr": "l'opérette",
+  "es": "la opereta",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-232",
+  "pt": "a sinfonia",
+  "zh": "交响曲",
+  "en": "symphony",
+  "fr": "la symphonie",
+  "es": "la sinfonía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-233",
+  "pt": "a sonata",
+  "zh": "奏鸣曲",
+  "en": "sonata",
+  "fr": "la sonate",
+  "es": "la sonata",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-234",
+  "pt": "a ária",
+  "zh": "咏叹调",
+  "en": "aria",
+  "fr": "l'air",
+  "es": "el aria",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-235",
+  "pt": "a partitura",
+  "zh": "乐谱",
+  "en": "score",
+  "fr": "la partition",
+  "es": "la partitura",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-236",
+  "pt": "a dissonância",
+  "zh": "不协和；分歧",
+  "en": "dissonance",
+  "fr": "la dissonance",
+  "es": "la disonancia",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-237",
+  "pt": "a tonalidade",
+  "zh": "调性",
+  "en": "tonality",
+  "fr": "la tonalité",
+  "es": "la tonalidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-238",
+  "pt": "a atonalidade",
+  "zh": "无调性",
+  "en": "atonality",
+  "fr": "l'atonalité",
+  "es": "la atonalidad",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-239",
+  "pt": "a litografia",
+  "zh": "石版画",
+  "en": "lithography",
+  "fr": "la lithographie",
+  "es": "la litografía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-240",
+  "pt": "a serigrafia",
+  "zh": "丝网印刷",
+  "en": "screen printing",
+  "fr": "la sérigraphie",
+  "es": "la serigrafía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-241",
+  "pt": "a tapeçaria",
+  "zh": "挂毯",
+  "en": "tapestry",
+  "fr": "la tapisserie",
+  "es": "la tapicería",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-242",
+  "pt": "a azulejaria",
+  "zh": "瓷砖艺术",
+  "en": "tilework",
+  "fr": "l'art de l'azulejo",
+  "es": "la azulejería",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-243",
+  "pt": "a ourivesaria",
+  "zh": "金银饰品业",
+  "en": "goldsmithery",
+  "fr": "l'orfèvrerie",
+  "es": "la orfebrería",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-244",
+  "pt": "a marcenaria",
+  "zh": "木工",
+  "en": "carpentry",
+  "fr": "la menuiserie",
+  "es": "la carpintería",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-245",
+  "pt": "a cantaria",
+  "zh": "石雕",
+  "en": "stonecutting",
+  "fr": "la taille de pierre",
+  "es": "la cantería",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-246",
+  "pt": "a talha",
+  "zh": "雕刻",
+  "en": "carving",
+  "fr": "la sculpture",
+  "es": "la talla",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-247",
+  "pt": "a banda desenhada",
+  "zh": "漫画",
+  "en": "comics",
+  "fr": "la bande dessinée",
+  "es": "el cómic",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-248",
+  "pt": "a caligrafia",
+  "zh": "书法",
+  "en": "calligraphy",
+  "fr": "la calligraphie",
+  "es": "la caligrafía",
+  "pos": "noun"
+ },
+ {
+  "id": "c1y-249",
+  "pt": "abalar",
+  "zh": "动摇；震动",
+  "en": "to shake",
+  "fr": "ébranler",
+  "es": "sacudir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-250",
+  "pt": "abarcar",
+  "zh": "涵盖",
+  "en": "to encompass",
+  "fr": "englober",
+  "es": "abarcar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-251",
+  "pt": "abjurar",
+  "zh": "公开放弃",
+  "en": "to abjure",
+  "fr": "abjurer",
+  "es": "abjurar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-252",
+  "pt": "abster",
+  "zh": "弃权；克制",
+  "en": "to abstain",
+  "fr": "s'abstenir",
+  "es": "abstenerse",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-253",
+  "pt": "abstrair",
+  "zh": "抽象；忽略",
+  "en": "to abstract",
+  "fr": "abstraire",
+  "es": "abstraer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-254",
+  "pt": "acorrentar",
+  "zh": "用锁链束缚；禁锢",
+  "en": "to chain",
+  "fr": "enchaîner",
+  "es": "encadenar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-255",
+  "pt": "aditar",
+  "zh": "增补；附加",
+  "en": "to add",
+  "fr": "ajouter",
+  "es": "añadir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-256",
+  "pt": "aceder",
+  "zh": "进入；同意",
+  "en": "to access; accede",
+  "fr": "accéder",
+  "es": "acceder",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-257",
+  "pt": "acentuar",
+  "zh": "强调；加重",
+  "en": "to accentuate",
+  "fr": "accentuer",
+  "es": "acentuar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-258",
+  "pt": "aclarar",
+  "zh": "阐明",
+  "en": "to clarify",
+  "fr": "clarifier",
+  "es": "aclarar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-259",
+  "pt": "acometer",
+  "zh": "袭击；着手",
+  "en": "to assail",
+  "fr": "attaquer",
+  "es": "acometer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-260",
+  "pt": "acondicionar",
+  "zh": "包装；调节",
+  "en": "to package",
+  "fr": "conditionner",
+  "es": "acondicionar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-261",
+  "pt": "acossar",
+  "zh": "追逼；困扰",
+  "en": "to harry",
+  "fr": "harceler",
+  "es": "acosar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-262",
+  "pt": "acrisolar",
+  "zh": "锤炼；磨炼",
+  "en": "to refine",
+  "fr": "affiner",
+  "es": "acrisolar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-263",
+  "pt": "acudir",
+  "zh": "赶去帮忙",
+  "en": "to rush to help",
+  "fr": "accourir",
+  "es": "acudir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-264",
+  "pt": "acurar",
+  "zh": "精心打磨",
+  "en": "to refine",
+  "fr": "peaufiner",
+  "es": "esmerar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-265",
+  "pt": "adensar",
+  "zh": "使浓密；加剧",
+  "en": "to thicken",
+  "fr": "densifier",
+  "es": "densificar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-266",
+  "pt": "adestrar",
+  "zh": "训练",
+  "en": "to train",
+  "fr": "dresser",
+  "es": "adiestrar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-267",
+  "pt": "adjudicar",
+  "zh": "判给；授予",
+  "en": "to award",
+  "fr": "adjuger",
+  "es": "adjudicar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-268",
+  "pt": "admoestar",
+  "zh": "告诫",
+  "en": "to admonish",
+  "fr": "admonester",
+  "es": "amonestar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-269",
+  "pt": "adulterar",
+  "zh": "掺假；篡改",
+  "en": "to adulterate",
+  "fr": "fausser",
+  "es": "adulterar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-270",
+  "pt": "afiançar",
+  "zh": "保证；担保",
+  "en": "to guarantee",
+  "fr": "garantir",
+  "es": "afianzar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-271",
+  "pt": "afigurar",
+  "zh": "显现；想象",
+  "en": "to appear; imagine",
+  "fr": "se figurer",
+  "es": "figurarse",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-272",
+  "pt": "afligir",
+  "zh": "使痛苦",
+  "en": "to afflict",
+  "fr": "affliger",
+  "es": "afligir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-273",
+  "pt": "afluir",
+  "zh": "涌向；汇聚",
+  "en": "to flow",
+  "fr": "affluer",
+  "es": "afluir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-274",
+  "pt": "afrontar",
+  "zh": "面对；冒犯",
+  "en": "to confront",
+  "fr": "affronter",
+  "es": "afrontar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-275",
+  "pt": "agastar",
+  "zh": "使恼怒",
+  "en": "to irritate",
+  "fr": "fâcher",
+  "es": "enojar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-276",
+  "pt": "aglomerar",
+  "zh": "聚集；团聚",
+  "en": "to agglomerate",
+  "fr": "agglomérer",
+  "es": "aglomerar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-277",
+  "pt": "aglutinar",
+  "zh": "粘合；凝聚",
+  "en": "to agglutinate",
+  "fr": "agglutiner",
+  "es": "aglutinar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-278",
+  "pt": "agrilhoar",
+  "zh": "束缚；禁锢",
+  "en": "to shackle",
+  "fr": "enchaîner",
+  "es": "encadenar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-279",
+  "pt": "alardear",
+  "zh": "炫耀；标榜",
+  "en": "to flaunt",
+  "fr": "fanfaronner",
+  "es": "alardear",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-280",
+  "pt": "albergar",
+  "zh": "容纳；收容",
+  "en": "to house",
+  "fr": "héberger",
+  "es": "albergar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-281",
+  "pt": "alçar",
+  "zh": "举起；升起",
+  "en": "to raise",
+  "fr": "lever",
+  "es": "alzar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-282",
+  "pt": "alegar",
+  "zh": "声称；援引",
+  "en": "to allege",
+  "fr": "alléguer",
+  "es": "alegar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-283",
+  "pt": "aligeirar",
+  "zh": "减轻；简化",
+  "en": "to lighten",
+  "fr": "alléger",
+  "es": "aligerar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-284",
+  "pt": "almejar",
+  "zh": "渴望；追求",
+  "en": "to aspire to",
+  "fr": "ambitionner",
+  "es": "anhelar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-285",
+  "pt": "alocar",
+  "zh": "分配；拨给",
+  "en": "to allocate",
+  "fr": "allouer",
+  "es": "asignar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-286",
+  "pt": "aluir",
+  "zh": "使倒塌；瓦解",
+  "en": "to demolish",
+  "fr": "démolir",
+  "es": "derrumbar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-287",
+  "pt": "alvorecer",
+  "zh": "破晓；萌芽",
+  "en": "to dawn",
+  "fr": "se lever",
+  "es": "amanecer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-288",
+  "pt": "amainar",
+  "zh": "减弱；平息",
+  "en": "to abate",
+  "fr": "se calmer",
+  "es": "amainar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-289",
+  "pt": "amalgamar",
+  "zh": "混合；融合",
+  "en": "to amalgamate",
+  "fr": "amalgamer",
+  "es": "amalgamar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-290",
+  "pt": "amealhar",
+  "zh": "积攒",
+  "en": "to save up",
+  "fr": "économiser",
+  "es": "ahorrar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-291",
+  "pt": "amenizar",
+  "zh": "缓和；减轻",
+  "en": "to soften",
+  "fr": "adoucir",
+  "es": "amenizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-292",
+  "pt": "amortecer",
+  "zh": "缓冲；减弱",
+  "en": "to cushion",
+  "fr": "amortir",
+  "es": "amortiguar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-293",
+  "pt": "amortizar",
+  "zh": "摊销；偿还",
+  "en": "to amortize",
+  "fr": "amortir",
+  "es": "amortizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-294",
+  "pt": "ancorar",
+  "zh": "锚定；扎根",
+  "en": "to anchor",
+  "fr": "ancrer",
+  "es": "anclar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-295",
+  "pt": "angariar",
+  "zh": "争取；募集",
+  "en": "to raise; recruit",
+  "fr": "recruter",
+  "es": "recaudar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-296",
+  "pt": "aniquilar",
+  "zh": "消灭；摧毁",
+  "en": "to annihilate",
+  "fr": "anéantir",
+  "es": "aniquilar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-297",
+  "pt": "ansiar",
+  "zh": "渴望；焦虑",
+  "en": "to yearn",
+  "fr": "aspirer",
+  "es": "ansiar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-298",
+  "pt": "antepor",
+  "zh": "置于之前；优先",
+  "en": "to put before",
+  "fr": "préférer",
+  "es": "anteponer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-299",
+  "pt": "apadrinhar",
+  "zh": "赞助；庇护",
+  "en": "to sponsor",
+  "fr": "parrainer",
+  "es": "apadrinar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-300",
+  "pt": "aparentar",
+  "zh": "显得；假装",
+  "en": "to appear",
+  "fr": "paraître",
+  "es": "aparentar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-301",
+  "pt": "apartar",
+  "zh": "分开；拨开",
+  "en": "to separate",
+  "fr": "écarter",
+  "es": "apartar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-302",
+  "pt": "apelidar",
+  "zh": "称为；起绰号",
+  "en": "to nickname",
+  "fr": "surnommer",
+  "es": "apodar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-303",
+  "pt": "aperfeiçoar",
+  "zh": "完善",
+  "en": "to perfect",
+  "fr": "perfectionner",
+  "es": "perfeccionar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-304",
+  "pt": "apetrechar",
+  "zh": "装备",
+  "en": "to equip",
+  "fr": "équiper",
+  "es": "equipar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-305",
+  "pt": "apiedar",
+  "zh": "使同情",
+  "en": "to move to pity",
+  "fr": "apitoyer",
+  "es": "apiadar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-306",
+  "pt": "apoderar",
+  "zh": "占有；夺取",
+  "en": "to seize",
+  "fr": "s'emparer",
+  "es": "apoderarse",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-307",
+  "pt": "apreender",
+  "zh": "领会；查获",
+  "en": "to grasp; seize",
+  "fr": "appréhender",
+  "es": "aprehender",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-308",
+  "pt": "apregoar",
+  "zh": "宣扬；叫卖",
+  "en": "to proclaim",
+  "fr": "proclamer",
+  "es": "pregonar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-309",
+  "pt": "aprimorar",
+  "zh": "改进；精炼",
+  "en": "to improve",
+  "fr": "améliorer",
+  "es": "perfeccionar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-310",
+  "pt": "aprofundar",
+  "zh": "深化",
+  "en": "to deepen",
+  "fr": "approfondir",
+  "es": "profundizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-311",
+  "pt": "apropriar",
+  "zh": "占用；据为己有",
+  "en": "to appropriate",
+  "fr": "s'approprier",
+  "es": "apropiar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-312",
+  "pt": "aquilatar",
+  "zh": "评估；衡量",
+  "en": "to assess",
+  "fr": "évaluer",
+  "es": "aquilatar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-313",
+  "pt": "arquitetar",
+  "zh": "策划；构思",
+  "en": "to devise",
+  "fr": "ourdir",
+  "es": "urdir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-314",
+  "pt": "arrebatar",
+  "zh": "夺走；使着迷",
+  "en": "to snatch",
+  "fr": "ravir",
+  "es": "arrebatar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-315",
+  "pt": "arrecadar",
+  "zh": "征收；募集",
+  "en": "to collect",
+  "fr": "percevoir",
+  "es": "recaudar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-316",
+  "pt": "arregimentar",
+  "zh": "招募；集结",
+  "en": "to enlist",
+  "fr": "enrégimenter",
+  "es": "reclutar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-317",
+  "pt": "arrogar",
+  "zh": "妄称；僭取",
+  "en": "to arrogate",
+  "fr": "s'arroger",
+  "es": "arrogarse",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-318",
+  "pt": "asfixiar",
+  "zh": "使窒息",
+  "en": "to suffocate",
+  "fr": "asphyxier",
+  "es": "asfixiar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-319",
+  "pt": "assemelhar",
+  "zh": "使相似",
+  "en": "to resemble",
+  "fr": "ressembler",
+  "es": "asemejar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-320",
+  "pt": "assolar",
+  "zh": "毁灭；肆虐",
+  "en": "to devastate",
+  "fr": "dévaster",
+  "es": "asolar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-321",
+  "pt": "assombrar",
+  "zh": "使惊恐；笼罩",
+  "en": "to haunt",
+  "fr": "hanter",
+  "es": "ensombrecer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-322",
+  "pt": "atemorizar",
+  "zh": "使恐惧",
+  "en": "to frighten",
+  "fr": "intimider",
+  "es": "atemorizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-323",
+  "pt": "atentar",
+  "zh": "图谋；注意",
+  "en": "to attempt; heed",
+  "fr": "attenter",
+  "es": "atentar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-324",
+  "pt": "amansar",
+  "zh": "驯服；缓和",
+  "en": "to tame",
+  "fr": "dompter",
+  "es": "amansar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-325",
+  "pt": "atiçar",
+  "zh": "煽动；拨旺",
+  "en": "to stir up",
+  "fr": "attiser",
+  "es": "atizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-326",
+  "pt": "atinar",
+  "zh": "领悟；想通",
+  "en": "to figure out",
+  "fr": "comprendre",
+  "es": "atinar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-327",
+  "pt": "atormentar",
+  "zh": "折磨",
+  "en": "to torment",
+  "fr": "tourmenter",
+  "es": "atormentar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-328",
+  "pt": "atrever",
+  "zh": "敢；冒险",
+  "en": "to dare",
+  "fr": "oser",
+  "es": "atreverse",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-329",
+  "pt": "augurar",
+  "zh": "预示",
+  "en": "to augur",
+  "fr": "augurer",
+  "es": "augurar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-330",
+  "pt": "avassalar",
+  "zh": "征服；压倒",
+  "en": "to overwhelm",
+  "fr": "asservir",
+  "es": "avasallar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-331",
+  "pt": "bafejar",
+  "zh": "轻拂；吹拂",
+  "en": "to waft",
+  "fr": "effleurer",
+  "es": "rozar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-332",
+  "pt": "aviltar",
+  "zh": "贬低；侮辱",
+  "en": "to debase",
+  "fr": "avilir",
+  "es": "envilecer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-333",
+  "pt": "avolumar",
+  "zh": "使增大；膨胀",
+  "en": "to swell",
+  "fr": "grossir",
+  "es": "abultar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-334",
+  "pt": "bifurcar",
+  "zh": "分叉",
+  "en": "to fork",
+  "fr": "bifurquer",
+  "es": "bifurcarse",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-335",
+  "pt": "banalizar",
+  "zh": "使平庸化",
+  "en": "to trivialize",
+  "fr": "banaliser",
+  "es": "banalizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-336",
+  "pt": "baralhar",
+  "zh": "混淆；洗牌",
+  "en": "to shuffle",
+  "fr": "brouiller",
+  "es": "barajar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-337",
+  "pt": "batalhar",
+  "zh": "奋斗；斗争",
+  "en": "to struggle",
+  "fr": "lutter",
+  "es": "batallar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-338",
+  "pt": "bramir",
+  "zh": "咆哮；呼啸",
+  "en": "to roar",
+  "fr": "rugir",
+  "es": "bramar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-339",
+  "pt": "bendizer",
+  "zh": "祝福；称赞",
+  "en": "to bless",
+  "fr": "bénir",
+  "es": "bendecir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-340",
+  "pt": "blasfemar",
+  "zh": "亵渎",
+  "en": "to blaspheme",
+  "fr": "blasphémer",
+  "es": "blasfemar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-341",
+  "pt": "blindar",
+  "zh": "装甲；保护",
+  "en": "to shield",
+  "fr": "blinder",
+  "es": "blindar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-342",
+  "pt": "boicotar",
+  "zh": "抵制",
+  "en": "to boycott",
+  "fr": "boycotter",
+  "es": "boicotear",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-343",
+  "pt": "borbulhar",
+  "zh": "冒泡；涌现",
+  "en": "to bubble",
+  "fr": "bouillonner",
+  "es": "burbujear",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-344",
+  "pt": "brandir",
+  "zh": "挥舞",
+  "en": "to brandish",
+  "fr": "brandir",
+  "es": "blandir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-345",
+  "pt": "burilar",
+  "zh": "精雕细刻",
+  "en": "to chisel",
+  "fr": "ciseler",
+  "es": "burilar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-346",
+  "pt": "calcorrear",
+  "zh": "徒步走遍",
+  "en": "to trudge",
+  "fr": "arpenter",
+  "es": "recorrer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-347",
+  "pt": "caluniar",
+  "zh": "诽谤",
+  "en": "to slander",
+  "fr": "calomnier",
+  "es": "calumniar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-348",
+  "pt": "camuflar",
+  "zh": "伪装；掩饰",
+  "en": "to camouflage",
+  "fr": "camoufler",
+  "es": "camuflar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-349",
+  "pt": "canalizar",
+  "zh": "引导；输送",
+  "en": "to channel",
+  "fr": "canaliser",
+  "es": "canalizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-350",
+  "pt": "capacitar",
+  "zh": "使有能力；培训",
+  "en": "to empower",
+  "fr": "habiliter",
+  "es": "capacitar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-351",
+  "pt": "capitalizar",
+  "zh": "资本化；利用",
+  "en": "to capitalize",
+  "fr": "capitaliser",
+  "es": "capitalizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-352",
+  "pt": "captar",
+  "zh": "吸引；捕捉",
+  "en": "to capture",
+  "fr": "capter",
+  "es": "captar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-353",
+  "pt": "cativar",
+  "zh": "赢得；迷住",
+  "en": "to captivate",
+  "fr": "captiver",
+  "es": "cautivar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-354",
+  "pt": "ceifar",
+  "zh": "收割；夺去",
+  "en": "to reap",
+  "fr": "faucher",
+  "es": "segar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-355",
+  "pt": "certificar",
+  "zh": "证明；确保",
+  "en": "to certify",
+  "fr": "certifier",
+  "es": "certificar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-356",
+  "pt": "cindir",
+  "zh": "分裂",
+  "en": "to split",
+  "fr": "scinder",
+  "es": "escindir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-357",
+  "pt": "civilizar",
+  "zh": "使文明化",
+  "en": "to civilize",
+  "fr": "civiliser",
+  "es": "civilizar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-358",
+  "pt": "clarificar",
+  "zh": "澄清",
+  "en": "to clarify",
+  "fr": "clarifier",
+  "es": "clarificar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-359",
+  "pt": "claudicar",
+  "zh": "蹒跚；失足",
+  "en": "to falter",
+  "fr": "boiter",
+  "es": "claudicar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-360",
+  "pt": "coartar",
+  "zh": "限制；束缚",
+  "en": "to restrict",
+  "fr": "restreindre",
+  "es": "coartar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-361",
+  "pt": "compactuar",
+  "zh": "勾结；妥协",
+  "en": "to collude",
+  "fr": "pactiser",
+  "es": "pactar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-362",
+  "pt": "compilar",
+  "zh": "汇编",
+  "en": "to compile",
+  "fr": "compiler",
+  "es": "compilar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-363",
+  "pt": "compor",
+  "zh": "组成；创作",
+  "en": "to compose",
+  "fr": "composer",
+  "es": "componer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-364",
+  "pt": "comprimir",
+  "zh": "压缩",
+  "en": "to compress",
+  "fr": "comprimer",
+  "es": "comprimir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-365",
+  "pt": "conceber",
+  "zh": "构想；受孕",
+  "en": "to conceive",
+  "fr": "concevoir",
+  "es": "concebir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-366",
+  "pt": "concorrer",
+  "zh": "竞争；汇合",
+  "en": "to compete",
+  "fr": "concourir",
+  "es": "concurrir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-367",
+  "pt": "condensar",
+  "zh": "浓缩；概括",
+  "en": "to condense",
+  "fr": "condenser",
+  "es": "condensar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-368",
+  "pt": "confeccionar",
+  "zh": "制作",
+  "en": "to make",
+  "fr": "confectionner",
+  "es": "confeccionar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-369",
+  "pt": "conferir",
+  "zh": "授予；核对",
+  "en": "to confer; check",
+  "fr": "conférer",
+  "es": "conferir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-370",
+  "pt": "configurar",
+  "zh": "配置；形成",
+  "en": "to configure",
+  "fr": "configurer",
+  "es": "configurar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-371",
+  "pt": "confinar",
+  "zh": "限制；隔离",
+  "en": "to confine",
+  "fr": "confiner",
+  "es": "confinar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-372",
+  "pt": "conformar",
+  "zh": "使符合；顺从",
+  "en": "to conform",
+  "fr": "conformer",
+  "es": "conformar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-373",
+  "pt": "confrontar",
+  "zh": "对照；对抗",
+  "en": "to confront",
+  "fr": "confronter",
+  "es": "confrontar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-374",
+  "pt": "congregar",
+  "zh": "聚集",
+  "en": "to gather",
+  "fr": "rassembler",
+  "es": "congregar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-375",
+  "pt": "conjecturar",
+  "zh": "推测",
+  "en": "to conjecture",
+  "fr": "conjecturer",
+  "es": "conjeturar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-376",
+  "pt": "conjugar",
+  "zh": "结合；变位",
+  "en": "to combine",
+  "fr": "conjuguer",
+  "es": "conjugar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-377",
+  "pt": "conotar",
+  "zh": "暗示；含内涵",
+  "en": "to connote",
+  "fr": "connoter",
+  "es": "connotar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-378",
+  "pt": "consagrar",
+  "zh": "确立；奉献",
+  "en": "to consecrate",
+  "fr": "consacrer",
+  "es": "consagrar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-379",
+  "pt": "consciencializar",
+  "zh": "使意识到",
+  "en": "to raise awareness",
+  "fr": "conscientiser",
+  "es": "concienciar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-380",
+  "pt": "consolar",
+  "zh": "安慰",
+  "en": "to console",
+  "fr": "consoler",
+  "es": "consolar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-381",
+  "pt": "consolidar",
+  "zh": "巩固",
+  "en": "to consolidate",
+  "fr": "consolider",
+  "es": "consolidar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-382",
+  "pt": "conspirar",
+  "zh": "密谋",
+  "en": "to conspire",
+  "fr": "comploter",
+  "es": "conspirar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-383",
+  "pt": "consternar",
+  "zh": "使惊愕",
+  "en": "to dismay",
+  "fr": "consterner",
+  "es": "consternar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-384",
+  "pt": "consumar",
+  "zh": "完成；使圆满",
+  "en": "to consummate",
+  "fr": "consommer",
+  "es": "consumar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-385",
+  "pt": "contagiar",
+  "zh": "传染；感染",
+  "en": "to infect",
+  "fr": "contaminer",
+  "es": "contagiar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-386",
+  "pt": "contrair",
+  "zh": "收缩；染上",
+  "en": "to contract",
+  "fr": "contracter",
+  "es": "contraer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-387",
+  "pt": "controverter",
+  "zh": "争辩",
+  "en": "to dispute",
+  "fr": "contester",
+  "es": "controvertir",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-388",
+  "pt": "convalescer",
+  "zh": "康复",
+  "en": "to convalesce",
+  "fr": "se rétablir",
+  "es": "convalecer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-389",
+  "pt": "convocar",
+  "zh": "召集",
+  "en": "to convene",
+  "fr": "convoquer",
+  "es": "convocar",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-390",
+  "pt": "corroer",
+  "zh": "腐蚀；侵蚀",
+  "en": "to corrode",
+  "fr": "corroder",
+  "es": "corroer",
+  "pos": "verb"
+ },
+ {
+  "id": "c1y-391",
+  "pt": "abjeto",
+  "zh": "卑劣的",
+  "en": "despicable",
+  "fr": "abject",
+  "es": "abyecto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-392",
+  "pt": "absorto",
+  "zh": "出神的",
+  "en": "absorbed",
+  "fr": "absorbé",
+  "es": "absorto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-393",
+  "pt": "acintoso",
+  "zh": "挑衅的",
+  "en": "provocative",
+  "fr": "provocant",
+  "es": "provocador",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-394",
+  "pt": "acutilante",
+  "zh": "尖锐的",
+  "en": "incisive",
+  "fr": "incisif",
+  "es": "incisivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-395",
+  "pt": "adamantino",
+  "zh": "坚硬如金刚石的",
+  "en": "adamantine",
+  "fr": "adamantin",
+  "es": "adamantino",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-396",
+  "pt": "adstrito",
+  "zh": "受约束的",
+  "en": "bound",
+  "fr": "astreint",
+  "es": "sujeto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-397",
+  "pt": "adverso",
+  "zh": "不利的",
+  "en": "adverse",
+  "fr": "adverse",
+  "es": "adverso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-398",
+  "pt": "afável",
+  "zh": "和蔼的",
+  "en": "affable",
+  "fr": "affable",
+  "es": "afable",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-399",
+  "pt": "afetado",
+  "zh": "做作的",
+  "en": "affected",
+  "fr": "affecté",
+  "es": "afectado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-400",
+  "pt": "alheio",
+  "zh": "他人的；无关的",
+  "en": "unrelated; others'",
+  "fr": "étranger",
+  "es": "ajeno",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-401",
+  "pt": "alienante",
+  "zh": "异化的",
+  "en": "alienating",
+  "fr": "aliénant",
+  "es": "alienante",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-402",
+  "pt": "alusivo",
+  "zh": "暗指的",
+  "en": "allusive",
+  "fr": "allusif",
+  "es": "alusivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-403",
+  "pt": "ambivalente",
+  "zh": "矛盾的",
+  "en": "ambivalent",
+  "fr": "ambivalent",
+  "es": "ambivalente",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-404",
+  "pt": "ameno",
+  "zh": "宜人的",
+  "en": "mild",
+  "fr": "agréable",
+  "es": "ameno",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-405",
+  "pt": "anacrónico",
+  "zh": "过时的",
+  "en": "anachronistic",
+  "fr": "anachronique",
+  "es": "anacrónico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-406",
+  "pt": "analítico",
+  "zh": "分析的",
+  "en": "analytical",
+  "fr": "analytique",
+  "es": "analítico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-407",
+  "pt": "análogo",
+  "zh": "类似的",
+  "en": "analogous",
+  "fr": "analogue",
+  "es": "análogo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-408",
+  "pt": "ancestral",
+  "zh": "祖传的",
+  "en": "ancestral",
+  "fr": "ancestral",
+  "es": "ancestral",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-409",
+  "pt": "anímico",
+  "zh": "心灵的",
+  "en": "psychic",
+  "fr": "psychique",
+  "es": "anímico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-410",
+  "pt": "anónimo",
+  "zh": "匿名的",
+  "en": "anonymous",
+  "fr": "anonyme",
+  "es": "anónimo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-411",
+  "pt": "antediluviano",
+  "zh": "远古的",
+  "en": "antediluvian",
+  "fr": "antédiluvien",
+  "es": "antediluviano",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-412",
+  "pt": "antitético",
+  "zh": "对立的",
+  "en": "antithetical",
+  "fr": "antithétique",
+  "es": "antitético",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-413",
+  "pt": "apócrifo",
+  "zh": "伪托的",
+  "en": "apocryphal",
+  "fr": "apocryphe",
+  "es": "apócrifo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-414",
+  "pt": "apologético",
+  "zh": "辩护的",
+  "en": "apologetic",
+  "fr": "apologétique",
+  "es": "apologético",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-415",
+  "pt": "arbitrário",
+  "zh": "专断的",
+  "en": "arbitrary",
+  "fr": "arbitraire",
+  "es": "arbitrario",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-416",
+  "pt": "ardiloso",
+  "zh": "狡猾的",
+  "en": "wily",
+  "fr": "rusé",
+  "es": "astuto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-417",
+  "pt": "árido",
+  "zh": "干旱的；枯燥的",
+  "en": "arid",
+  "fr": "aride",
+  "es": "árido",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-418",
+  "pt": "aristocrático",
+  "zh": "贵族的",
+  "en": "aristocratic",
+  "fr": "aristocratique",
+  "es": "aristocrático",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-419",
+  "pt": "arrojado",
+  "zh": "大胆的",
+  "en": "bold",
+  "fr": "audacieux",
+  "es": "osado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-420",
+  "pt": "ascético",
+  "zh": "苦行的",
+  "en": "ascetic",
+  "fr": "ascétique",
+  "es": "ascético",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-421",
+  "pt": "assombroso",
+  "zh": "惊人的",
+  "en": "astonishing",
+  "fr": "stupéfiant",
+  "es": "asombroso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-422",
+  "pt": "astuto",
+  "zh": "狡猾的",
+  "en": "astute",
+  "fr": "astucieux",
+  "es": "astuto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-423",
+  "pt": "atípico",
+  "zh": "非典型的",
+  "en": "atypical",
+  "fr": "atypique",
+  "es": "atípico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-424",
+  "pt": "atormentado",
+  "zh": "受折磨的",
+  "en": "tormented",
+  "fr": "tourmenté",
+  "es": "atormentado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-425",
+  "pt": "audaz",
+  "zh": "大胆的",
+  "en": "audacious",
+  "fr": "audacieux",
+  "es": "audaz",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-426",
+  "pt": "austero",
+  "zh": "简朴的；严厉的",
+  "en": "austere",
+  "fr": "austère",
+  "es": "austero",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-427",
+  "pt": "avarento",
+  "zh": "吝啬的",
+  "en": "miserly",
+  "fr": "avare",
+  "es": "avaro",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-428",
+  "pt": "avassalador",
+  "zh": "压倒性的",
+  "en": "overwhelming",
+  "fr": "écrasant",
+  "es": "abrumador",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-429",
+  "pt": "ávido",
+  "zh": "渴望的",
+  "en": "avid",
+  "fr": "avide",
+  "es": "ávido",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-430",
+  "pt": "axiomático",
+  "zh": "不言自明的",
+  "en": "axiomatic",
+  "fr": "axiomatique",
+  "es": "axiomático",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-431",
+  "pt": "belicoso",
+  "zh": "好战的",
+  "en": "bellicose",
+  "fr": "belliqueux",
+  "es": "belicoso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-432",
+  "pt": "benigno",
+  "zh": "良性的；仁慈的",
+  "en": "benign",
+  "fr": "bénin",
+  "es": "benigno",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-433",
+  "pt": "bizarro",
+  "zh": "怪异的",
+  "en": "bizarre",
+  "fr": "bizarre",
+  "es": "extraño",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-434",
+  "pt": "brando",
+  "zh": "柔软的；温和的",
+  "en": "soft; mild",
+  "fr": "doux",
+  "es": "blando",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-435",
+  "pt": "bucólico",
+  "zh": "田园的",
+  "en": "bucolic",
+  "fr": "bucolique",
+  "es": "bucólico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-436",
+  "pt": "caprichoso",
+  "zh": "任性的；精细的",
+  "en": "whimsical",
+  "fr": "capricieux",
+  "es": "caprichoso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-437",
+  "pt": "categórico",
+  "zh": "断然的",
+  "en": "categorical",
+  "fr": "catégorique",
+  "es": "categórico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-438",
+  "pt": "cauteloso",
+  "zh": "谨慎的",
+  "en": "cautious",
+  "fr": "prudent",
+  "es": "cauteloso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-439",
+  "pt": "conciso",
+  "zh": "简洁的",
+  "en": "concise",
+  "fr": "concis",
+  "es": "conciso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-440",
+  "pt": "circunstancial",
+  "zh": "偶然的；情境的",
+  "en": "circumstantial",
+  "fr": "circonstanciel",
+  "es": "circunstancial",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-441",
+  "pt": "clandestino",
+  "zh": "秘密的",
+  "en": "clandestine",
+  "fr": "clandestin",
+  "es": "clandestino",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-442",
+  "pt": "clemente",
+  "zh": "宽厚的",
+  "en": "clement",
+  "fr": "clément",
+  "es": "clemente",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-443",
+  "pt": "coercivo",
+  "zh": "强制的",
+  "en": "coercive",
+  "fr": "coercitif",
+  "es": "coercitivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-444",
+  "pt": "coeso",
+  "zh": "有凝聚力的",
+  "en": "cohesive",
+  "fr": "cohésif",
+  "es": "cohesionado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-445",
+  "pt": "comedido",
+  "zh": "有节制的",
+  "en": "restrained",
+  "fr": "mesuré",
+  "es": "comedido",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-446",
+  "pt": "comovente",
+  "zh": "感人的",
+  "en": "moving",
+  "fr": "émouvant",
+  "es": "conmovedor",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-447",
+  "pt": "conspícuo",
+  "zh": "显著的",
+  "en": "conspicuous",
+  "fr": "remarquable",
+  "es": "conspicuo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-448",
+  "pt": "contíguo",
+  "zh": "毗邻的",
+  "en": "contiguous",
+  "fr": "contigu",
+  "es": "contiguo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-449",
+  "pt": "contingente",
+  "zh": "偶然的；临时性的",
+  "en": "contingent",
+  "fr": "contingent",
+  "es": "contingente",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-450",
+  "pt": "controverso",
+  "zh": "有争议的",
+  "en": "controversial",
+  "fr": "controversé",
+  "es": "controvertido",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-451",
+  "pt": "convicto",
+  "zh": "确信的",
+  "en": "convinced",
+  "fr": "convaincu",
+  "es": "convencido",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-452",
+  "pt": "copioso",
+  "zh": "丰富的",
+  "en": "copious",
+  "fr": "copieux",
+  "es": "copioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-453",
+  "pt": "cordial",
+  "zh": "热诚的",
+  "en": "cordial",
+  "fr": "cordial",
+  "es": "cordial",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-454",
+  "pt": "cortês",
+  "zh": "有礼的",
+  "en": "courteous",
+  "fr": "courtois",
+  "es": "cortés",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-455",
+  "pt": "cosmopolita",
+  "zh": "世界性的",
+  "en": "cosmopolitan",
+  "fr": "cosmopolite",
+  "es": "cosmopolita",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-456",
+  "pt": "credível",
+  "zh": "可信的",
+  "en": "credible",
+  "fr": "crédible",
+  "es": "creíble",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-457",
+  "pt": "cumulativo",
+  "zh": "累积的",
+  "en": "cumulative",
+  "fr": "cumulatif",
+  "es": "acumulativo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-458",
+  "pt": "decadente",
+  "zh": "衰败的",
+  "en": "decadent",
+  "fr": "décadent",
+  "es": "decadente",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-459",
+  "pt": "deficitário",
+  "zh": "赤字的；不足的",
+  "en": "deficient",
+  "fr": "déficitaire",
+  "es": "deficitario",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-460",
+  "pt": "deliberado",
+  "zh": "故意的",
+  "en": "deliberate",
+  "fr": "délibéré",
+  "es": "deliberado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-461",
+  "pt": "demagógico",
+  "zh": "煽动的",
+  "en": "demagogic",
+  "fr": "démagogique",
+  "es": "demagógico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-462",
+  "pt": "desenfreado",
+  "zh": "失控的",
+  "en": "unbridled",
+  "fr": "effréné",
+  "es": "desenfrenado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-463",
+  "pt": "desmedido",
+  "zh": "过度的",
+  "en": "excessive",
+  "fr": "démesuré",
+  "es": "desmedido",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-464",
+  "pt": "desprezível",
+  "zh": "可鄙的",
+  "en": "despicable",
+  "fr": "méprisable",
+  "es": "despreciable",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-465",
+  "pt": "devasso",
+  "zh": "放荡的",
+  "en": "dissolute",
+  "fr": "débauché",
+  "es": "disoluto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-466",
+  "pt": "devoto",
+  "zh": "虔诚的",
+  "en": "devout",
+  "fr": "dévot",
+  "es": "devoto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-467",
+  "pt": "dialético",
+  "zh": "辩证的",
+  "en": "dialectical",
+  "fr": "dialectique",
+  "es": "dialéctico",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-468",
+  "pt": "diametral",
+  "zh": "截然相反的",
+  "en": "diametrical",
+  "fr": "diamétral",
+  "es": "diametral",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-469",
+  "pt": "difuso",
+  "zh": "弥漫的；模糊的",
+  "en": "diffuse",
+  "fr": "diffus",
+  "es": "difuso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-470",
+  "pt": "dilacerante",
+  "zh": "撕裂的；痛心的",
+  "en": "harrowing",
+  "fr": "déchirant",
+  "es": "desgarrador",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-471",
+  "pt": "diminuto",
+  "zh": "微小的",
+  "en": "tiny",
+  "fr": "minuscule",
+  "es": "diminuto",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-472",
+  "pt": "disruptivo",
+  "zh": "颠覆性的",
+  "en": "disruptive",
+  "fr": "disruptif",
+  "es": "disruptivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-473",
+  "pt": "dissimulado",
+  "zh": "掩饰的",
+  "en": "dissembling",
+  "fr": "dissimulé",
+  "es": "disimulado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-474",
+  "pt": "dogmático",
+  "zh": "教条的",
+  "en": "dogmatic",
+  "fr": "dogmatique",
+  "es": "dogmático",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-475",
+  "pt": "doloso",
+  "zh": "蓄意的",
+  "en": "malicious",
+  "fr": "dolosif",
+  "es": "doloso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-476",
+  "pt": "dubitativo",
+  "zh": "犹豫的",
+  "en": "hesitant",
+  "fr": "dubitatif",
+  "es": "dubitativo",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-477",
+  "pt": "duradouro",
+  "zh": "持久的",
+  "en": "lasting",
+  "fr": "durable",
+  "es": "duradero",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-478",
+  "pt": "dúbio",
+  "zh": "可疑的",
+  "en": "dubious",
+  "fr": "douteux",
+  "es": "dudoso",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-479",
+  "pt": "edificante",
+  "zh": "有教化意义的",
+  "en": "edifying",
+  "fr": "édifiant",
+  "es": "edificante",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-480",
+  "pt": "elaborado",
+  "zh": "精细的；精心制作的",
+  "en": "elaborate",
+  "fr": "élaboré",
+  "es": "elaborado",
+  "pos": "adjective"
+ },
+ {
+  "id": "c1y-481",
+  "pt": "ademais",
+  "zh": "此外",
+  "en": "moreover",
+  "fr": "de plus",
+  "es": "además",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-482",
+  "pt": "quão",
+  "zh": "多么",
+  "en": "how",
+  "fr": "combien",
+  "es": "cuán",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-483",
+  "pt": "devidamente",
+  "zh": "适当地",
+  "en": "duly",
+  "fr": "dûment",
+  "es": "debidamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-484",
+  "pt": "cabalmente",
+  "zh": "完全地；充分地",
+  "en": "fully",
+  "fr": "pleinement",
+  "es": "cabalmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-485",
+  "pt": "perentoriamente",
+  "zh": "断然地",
+  "en": "peremptorily",
+  "fr": "péremptoirement",
+  "es": "perentoriamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-486",
+  "pt": "criteriosamente",
+  "zh": "审慎地",
+  "en": "judiciously",
+  "fr": "judicieusement",
+  "es": "criteriosamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-487",
+  "pt": "paulatinamente",
+  "zh": "逐步地",
+  "en": "gradually",
+  "fr": "progressivement",
+  "es": "paulatinamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-488",
+  "pt": "indubitavelmente",
+  "zh": "无疑地",
+  "en": "undoubtedly",
+  "fr": "indubitablement",
+  "es": "indudablemente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-489",
+  "pt": "alegadamente",
+  "zh": "据称",
+  "en": "allegedly",
+  "fr": "prétendument",
+  "es": "presuntamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-490",
+  "pt": "manifestamente",
+  "zh": "明显地",
+  "en": "manifestly",
+  "fr": "manifestement",
+  "es": "manifiestamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "c1y-491",
+  "pt": "a priori",
+  "zh": "先验地",
+  "en": "a priori",
+  "fr": "a priori",
+  "es": "a priori",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-492",
+  "pt": "a posteriori",
+  "zh": "事后",
+  "en": "a posteriori",
+  "fr": "a posteriori",
+  "es": "a posteriori",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-493",
+  "pt": "grosso modo",
+  "zh": "大致上",
+  "en": "roughly",
+  "fr": "grosso modo",
+  "es": "a grandes rasgos",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-494",
+  "pt": "em detrimento de",
+  "zh": "有损于",
+  "en": "to the detriment of",
+  "fr": "au détriment de",
+  "es": "en detrimento de",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-495",
+  "pt": "a despeito de",
+  "zh": "尽管",
+  "en": "despite",
+  "fr": "malgré",
+  "es": "a pesar de",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-496",
+  "pt": "em vias de",
+  "zh": "即将",
+  "en": "on the verge of",
+  "fr": "en voie de",
+  "es": "en vías de",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-497",
+  "pt": "no âmbito de",
+  "zh": "在……范围内",
+  "en": "within the scope of",
+  "fr": "dans le cadre de",
+  "es": "en el ámbito de",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-498",
+  "pt": "em virtude de",
+  "zh": "由于",
+  "en": "by virtue of",
+  "fr": "en vertu de",
+  "es": "en virtud de",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-499",
+  "pt": "sem embargo",
+  "zh": "尽管如此",
+  "en": "notwithstanding",
+  "fr": "néanmoins",
+  "es": "sin embargo",
+  "pos": "phrase"
+ },
+ {
+  "id": "c1y-500",
+  "pt": "por outras palavras",
+  "zh": "换言之",
+  "en": "in other words",
+  "fr": "en d'autres termes",
+  "es": "en otras palabras",
+  "pos": "phrase"
+ }
+]

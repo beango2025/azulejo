@@ -1,0 +1,1352 @@
+[
+ {
+  "id": "b1z-001",
+  "pt": "o contrato de trabalho",
+  "zh": "劳动合同",
+  "en": "employment contract",
+  "fr": "contrat de travail",
+  "es": "contrato de trabajo",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-002",
+  "pt": "a colaboração",
+  "zh": "合作",
+  "en": "collaboration",
+  "fr": "collaboration",
+  "es": "colaboración",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-003",
+  "pt": "o sindicalista",
+  "zh": "工会会员",
+  "en": "trade unionist",
+  "fr": "syndicaliste",
+  "es": "sindicalista",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-004",
+  "pt": "o desemprego juvenil",
+  "zh": "青年失业",
+  "en": "youth unemployment",
+  "fr": "chômage des jeunes",
+  "es": "desempleo juvenil",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-005",
+  "pt": "o aumento salarial",
+  "zh": "加薪",
+  "en": "pay rise",
+  "fr": "augmentation de salaire",
+  "es": "aumento salarial",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-006",
+  "pt": "o aviso prévio",
+  "zh": "预先通知期",
+  "en": "notice period",
+  "fr": "préavis",
+  "es": "preaviso",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-007",
+  "pt": "a carga horária",
+  "zh": "工作时长",
+  "en": "working hours",
+  "fr": "temps de travail",
+  "es": "carga horaria",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-008",
+  "pt": "o ambiente de trabalho",
+  "zh": "工作氛围",
+  "en": "work environment",
+  "fr": "ambiance de travail",
+  "es": "ambiente de trabajo",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-009",
+  "pt": "o anúncio de emprego",
+  "zh": "招聘广告",
+  "en": "job advert",
+  "fr": "offre d'emploi",
+  "es": "anuncio de empleo",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-010",
+  "pt": "a hora de ponta",
+  "zh": "高峰时段",
+  "en": "rush hour",
+  "fr": "heure de pointe",
+  "es": "hora punta",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-011",
+  "pt": "a receita médica",
+  "zh": "处方",
+  "en": "prescription",
+  "fr": "ordonnance",
+  "es": "receta médica",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-012",
+  "pt": "o oftalmologista",
+  "zh": "眼科医生",
+  "en": "ophthalmologist",
+  "fr": "ophtalmologue",
+  "es": "oftalmólogo",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-013",
+  "pt": "o bem-estar",
+  "zh": "身心健康",
+  "en": "well-being",
+  "fr": "bien-être",
+  "es": "bienestar",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-014",
+  "pt": "o tabaco",
+  "zh": "烟草",
+  "en": "tobacco",
+  "fr": "tabac",
+  "es": "tabaco",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-015",
+  "pt": "o álcool",
+  "zh": "酒精",
+  "en": "alcohol",
+  "fr": "alcool",
+  "es": "alcohol",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-016",
+  "pt": "a velhice",
+  "zh": "老年",
+  "en": "old age",
+  "fr": "vieillesse",
+  "es": "vejez",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-017",
+  "pt": "a análise ao sangue",
+  "zh": "血液检查",
+  "en": "blood test",
+  "fr": "analyse de sang",
+  "es": "análisis de sangre",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-018",
+  "pt": "a pressão arterial",
+  "zh": "血压",
+  "en": "blood pressure",
+  "fr": "tension artérielle",
+  "es": "presión arterial",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-019",
+  "pt": "a fisioterapia",
+  "zh": "物理治疗",
+  "en": "physiotherapy",
+  "fr": "kinésithérapie",
+  "es": "fisioterapia",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-020",
+  "pt": "o psiquiatra",
+  "zh": "精神科医生",
+  "en": "psychiatrist",
+  "fr": "psychiatre",
+  "es": "psiquiatra",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-021",
+  "pt": "a alteração climática",
+  "zh": "气候变化",
+  "en": "climate change",
+  "fr": "changement climatique",
+  "es": "cambio climático",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-022",
+  "pt": "o transporte público",
+  "zh": "公共交通",
+  "en": "public transport",
+  "fr": "transports publics",
+  "es": "transporte público",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-023",
+  "pt": "o vidrão",
+  "zh": "玻璃回收桶",
+  "en": "glass recycling bank",
+  "fr": "conteneur à verre",
+  "es": "contenedor de vidrio",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-024",
+  "pt": "a central hidroelétrica",
+  "zh": "水电站",
+  "en": "hydroelectric plant",
+  "fr": "centrale hydroélectrique",
+  "es": "central hidroeléctrica",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-025",
+  "pt": "o gás natural",
+  "zh": "天然气",
+  "en": "natural gas",
+  "fr": "gaz naturel",
+  "es": "gas natural",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-026",
+  "pt": "o degelo",
+  "zh": "冰川消融",
+  "en": "thaw",
+  "fr": "dégel",
+  "es": "deshielo",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-027",
+  "pt": "a calota polar",
+  "zh": "极地冰盖",
+  "en": "polar ice cap",
+  "fr": "calotte polaire",
+  "es": "casquete polar",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-028",
+  "pt": "o parque nacional",
+  "zh": "国家公园",
+  "en": "national park",
+  "fr": "parc national",
+  "es": "parque nacional",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-029",
+  "pt": "a espécie protegida",
+  "zh": "受保护物种",
+  "en": "protected species",
+  "fr": "espèce protégée",
+  "es": "especie protegida",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-030",
+  "pt": "a colheita",
+  "zh": "收成",
+  "en": "harvest",
+  "fr": "récolte",
+  "es": "cosecha",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-031",
+  "pt": "a produção biológica",
+  "zh": "有机生产",
+  "en": "organic production",
+  "fr": "production biologique",
+  "es": "producción ecológica",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-032",
+  "pt": "o imóvel",
+  "zh": "房产",
+  "en": "property",
+  "fr": "bien immobilier",
+  "es": "inmueble",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-033",
+  "pt": "o eletrodoméstico",
+  "zh": "家用电器",
+  "en": "household appliance",
+  "fr": "appareil électroménager",
+  "es": "electrodoméstico",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-034",
+  "pt": "o porteiro",
+  "zh": "门卫",
+  "en": "doorman",
+  "fr": "concierge",
+  "es": "portero",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-035",
+  "pt": "o esquentador",
+  "zh": "热水器",
+  "en": "water heater",
+  "fr": "chauffe-eau",
+  "es": "calentador",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-036",
+  "pt": "o bolor",
+  "zh": "霉菌",
+  "en": "mould",
+  "fr": "moisissure",
+  "es": "moho",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-037",
+  "pt": "o empreiteiro",
+  "zh": "承包商",
+  "en": "contractor",
+  "fr": "entrepreneur de travaux",
+  "es": "contratista",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-038",
+  "pt": "a licença de construção",
+  "zh": "建筑许可",
+  "en": "building permit",
+  "fr": "permis de construire",
+  "es": "licencia de obra",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-039",
+  "pt": "a cumplicidade",
+  "zh": "默契",
+  "en": "complicity",
+  "fr": "complicité",
+  "es": "complicidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-040",
+  "pt": "o relacionamento",
+  "zh": "恋爱关系",
+  "en": "relationship",
+  "fr": "relation amoureuse",
+  "es": "relación",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-041",
+  "pt": "a cerimónia",
+  "zh": "仪式",
+  "en": "ceremony",
+  "fr": "cérémonie",
+  "es": "ceremonia",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-042",
+  "pt": "a lua de mel",
+  "zh": "蜜月",
+  "en": "honeymoon",
+  "fr": "lune de miel",
+  "es": "luna de miel",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-043",
+  "pt": "o desentendimento",
+  "zh": "不和",
+  "en": "misunderstanding",
+  "fr": "malentendu",
+  "es": "desavenencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-044",
+  "pt": "a convivência",
+  "zh": "共处",
+  "en": "coexistence",
+  "fr": "vie commune",
+  "es": "convivencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-045",
+  "pt": "a entreajuda",
+  "zh": "互助",
+  "en": "mutual help",
+  "fr": "entraide",
+  "es": "ayuda mutua",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-046",
+  "pt": "a perda",
+  "zh": "失去",
+  "en": "loss",
+  "fr": "perte",
+  "es": "pérdida",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-047",
+  "pt": "o fuso horário",
+  "zh": "时区",
+  "en": "time zone",
+  "fr": "fuseau horaire",
+  "es": "huso horario",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-048",
+  "pt": "o roteiro",
+  "zh": "行程路线",
+  "en": "itinerary",
+  "fr": "itinéraire",
+  "es": "itinerario",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-049",
+  "pt": "o excesso de bagagem",
+  "zh": "超重行李",
+  "en": "excess baggage",
+  "fr": "excédent de bagages",
+  "es": "exceso de equipaje",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-050",
+  "pt": "o cartão de embarque",
+  "zh": "登机牌",
+  "en": "boarding pass",
+  "fr": "carte d'embarquement",
+  "es": "tarjeta de embarque",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-051",
+  "pt": "a cabina",
+  "zh": "机舱",
+  "en": "cabin",
+  "fr": "cabine",
+  "es": "cabina",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-052",
+  "pt": "o assistente de bordo",
+  "zh": "空乘人员",
+  "en": "flight attendant",
+  "fr": "steward",
+  "es": "auxiliar de vuelo",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-053",
+  "pt": "a casa de câmbio",
+  "zh": "货币兑换处",
+  "en": "bureau de change",
+  "fr": "bureau de change",
+  "es": "casa de cambio",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-054",
+  "pt": "a taxa turística",
+  "zh": "旅游税",
+  "en": "tourist tax",
+  "fr": "taxe de séjour",
+  "es": "tasa turística",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-055",
+  "pt": "o costume",
+  "zh": "习俗",
+  "en": "custom",
+  "fr": "coutume",
+  "es": "costumbre",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-056",
+  "pt": "a peça de teatro",
+  "zh": "戏剧",
+  "en": "play",
+  "fr": "pièce de théâtre",
+  "es": "obra de teatro",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-057",
+  "pt": "o mural",
+  "zh": "壁画",
+  "en": "mural",
+  "fr": "murale",
+  "es": "mural",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-058",
+  "pt": "a filigrana",
+  "zh": "金银丝工艺",
+  "en": "filigree",
+  "fr": "filigrane",
+  "es": "filigrana",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-059",
+  "pt": "o folclore",
+  "zh": "民间传说",
+  "en": "folklore",
+  "fr": "folklore",
+  "es": "folclore",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-060",
+  "pt": "o tambor",
+  "zh": "鼓",
+  "en": "drum",
+  "fr": "tambour",
+  "es": "tambor",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-061",
+  "pt": "o aplauso",
+  "zh": "掌声",
+  "en": "applause",
+  "fr": "applaudissement",
+  "es": "aplauso",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-062",
+  "pt": "o talento",
+  "zh": "天赋",
+  "en": "talent",
+  "fr": "talent",
+  "es": "talento",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-063",
+  "pt": "a faculdade",
+  "zh": "学院",
+  "en": "faculty",
+  "fr": "faculté",
+  "es": "facultad",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-064",
+  "pt": "o investigador",
+  "zh": "研究员",
+  "en": "researcher",
+  "fr": "chercheur",
+  "es": "investigador",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-065",
+  "pt": "o intercâmbio",
+  "zh": "交换项目",
+  "en": "exchange",
+  "fr": "échange",
+  "es": "intercambio",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-066",
+  "pt": "a aprendizagem",
+  "zh": "学习过程",
+  "en": "learning",
+  "fr": "apprentissage",
+  "es": "aprendizaje",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-067",
+  "pt": "o ensino básico",
+  "zh": "基础教育",
+  "en": "basic education",
+  "fr": "enseignement de base",
+  "es": "educación básica",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-068",
+  "pt": "o ensino superior",
+  "zh": "高等教育",
+  "en": "higher education",
+  "fr": "enseignement supérieur",
+  "es": "educación superior",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-069",
+  "pt": "o politécnico",
+  "zh": "理工学院",
+  "en": "polytechnic",
+  "fr": "institut polytechnique",
+  "es": "politécnico",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-070",
+  "pt": "o campus",
+  "zh": "校园",
+  "en": "campus",
+  "fr": "campus",
+  "es": "campus",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-071",
+  "pt": "a criatividade",
+  "zh": "创造力",
+  "en": "creativity",
+  "fr": "créativité",
+  "es": "creatividad",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-072",
+  "pt": "a imaginação",
+  "zh": "想象力",
+  "en": "imagination",
+  "fr": "imagination",
+  "es": "imaginación",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-073",
+  "pt": "a conquista",
+  "zh": "成就",
+  "en": "achievement",
+  "fr": "conquête",
+  "es": "conquista",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-074",
+  "pt": "a riqueza",
+  "zh": "财富",
+  "en": "wealth",
+  "fr": "richesse",
+  "es": "riqueza",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-075",
+  "pt": "a vítima",
+  "zh": "受害者",
+  "en": "victim",
+  "fr": "victime",
+  "es": "víctima",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-076",
+  "pt": "o suspeito",
+  "zh": "嫌疑人",
+  "en": "suspect",
+  "fr": "suspect",
+  "es": "sospechoso",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-077",
+  "pt": "o propósito",
+  "zh": "目的",
+  "en": "purpose",
+  "fr": "but",
+  "es": "propósito",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-078",
+  "pt": "a clareza",
+  "zh": "清晰",
+  "en": "clarity",
+  "fr": "clarté",
+  "es": "claridad",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-079",
+  "pt": "a atitude",
+  "zh": "态度",
+  "en": "attitude",
+  "fr": "attitude",
+  "es": "actitud",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-080",
+  "pt": "a reputação",
+  "zh": "声誉",
+  "en": "reputation",
+  "fr": "réputation",
+  "es": "reputación",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-081",
+  "pt": "a publicação",
+  "zh": "出版物",
+  "en": "publication",
+  "fr": "publication",
+  "es": "publicación",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-082",
+  "pt": "o ministro",
+  "zh": "部长",
+  "en": "minister",
+  "fr": "ministre",
+  "es": "ministro",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-083",
+  "pt": "o porta-voz",
+  "zh": "发言人",
+  "en": "spokesperson",
+  "fr": "porte-parole",
+  "es": "portavoz",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-084",
+  "pt": "o sítio da internet",
+  "zh": "网站",
+  "en": "website",
+  "fr": "site Internet",
+  "es": "sitio de Internet",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-085",
+  "pt": "a conta de utilizador",
+  "zh": "用户账户",
+  "en": "user account",
+  "fr": "compte utilisateur",
+  "es": "cuenta de usuario",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-086",
+  "pt": "o hacker",
+  "zh": "黑客",
+  "en": "hacker",
+  "fr": "hacker",
+  "es": "hacker",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-087",
+  "pt": "o cartão multibanco",
+  "zh": "借记卡",
+  "en": "debit card",
+  "fr": "carte bancaire",
+  "es": "tarjeta bancaria",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-088",
+  "pt": "o computador portátil",
+  "zh": "笔记本电脑",
+  "en": "laptop",
+  "fr": "ordinateur portable",
+  "es": "ordenador portátil",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-089",
+  "pt": "a ligação à internet",
+  "zh": "网络连接",
+  "en": "internet connection",
+  "fr": "connexion Internet",
+  "es": "conexión a Internet",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-090",
+  "pt": "o talão de compra",
+  "zh": "购物小票",
+  "en": "receipt",
+  "fr": "ticket de caisse",
+  "es": "ticket de compra",
+  "pos": "noun"
+ },
+ {
+  "id": "b1z-091",
+  "pt": "piorar",
+  "zh": "变差",
+  "en": "to worsen",
+  "fr": "empirer",
+  "es": "empeorar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-092",
+  "pt": "reduzir",
+  "zh": "减少",
+  "en": "to reduce",
+  "fr": "réduire",
+  "es": "reducir",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-093",
+  "pt": "elogiar",
+  "zh": "称赞",
+  "en": "to praise",
+  "fr": "faire l'éloge de",
+  "es": "elogiar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-094",
+  "pt": "atingir",
+  "zh": "达到",
+  "en": "to reach",
+  "fr": "atteindre",
+  "es": "alcanzar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-095",
+  "pt": "ultrapassar",
+  "zh": "克服",
+  "en": "to overcome",
+  "fr": "surmonter",
+  "es": "superar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-096",
+  "pt": "enfrentar",
+  "zh": "面对",
+  "en": "to face",
+  "fr": "affronter",
+  "es": "afrontar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-097",
+  "pt": "solucionar",
+  "zh": "解决",
+  "en": "to solve",
+  "fr": "résoudre",
+  "es": "solucionar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-098",
+  "pt": "colaborar",
+  "zh": "合作",
+  "en": "to collaborate",
+  "fr": "collaborer",
+  "es": "colaborar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-099",
+  "pt": "contribuir",
+  "zh": "贡献",
+  "en": "to contribute",
+  "fr": "contribuer",
+  "es": "contribuir",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-100",
+  "pt": "influenciar",
+  "zh": "影响",
+  "en": "to influence",
+  "fr": "influencer",
+  "es": "influir",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-101",
+  "pt": "convencer",
+  "zh": "说服",
+  "en": "to convince",
+  "fr": "convaincre",
+  "es": "convencer",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-102",
+  "pt": "admitir",
+  "zh": "承认",
+  "en": "to admit",
+  "fr": "admettre",
+  "es": "admitir",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-103",
+  "pt": "negar",
+  "zh": "否认",
+  "en": "to deny",
+  "fr": "nier",
+  "es": "negar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-104",
+  "pt": "valorizar",
+  "zh": "重视",
+  "en": "to value",
+  "fr": "valoriser",
+  "es": "valorar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-105",
+  "pt": "desperdiçar",
+  "zh": "浪费",
+  "en": "to waste",
+  "fr": "gaspiller",
+  "es": "desperdiciar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-106",
+  "pt": "investir",
+  "zh": "投资",
+  "en": "to invest",
+  "fr": "investir",
+  "es": "invertir",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-107",
+  "pt": "arrendar",
+  "zh": "出租",
+  "en": "to rent out",
+  "fr": "louer",
+  "es": "alquilar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-108",
+  "pt": "matricular-se",
+  "zh": "注册入学",
+  "en": "to enrol",
+  "fr": "s'inscrire",
+  "es": "matricularse",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-109",
+  "pt": "formar-se",
+  "zh": "毕业",
+  "en": "to graduate",
+  "fr": "obtenir son diplôme",
+  "es": "graduarse",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-110",
+  "pt": "especializar-se",
+  "zh": "专攻",
+  "en": "to specialise",
+  "fr": "se spécialiser",
+  "es": "especializarse",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-111",
+  "pt": "comprometer-se",
+  "zh": "承诺",
+  "en": "to commit oneself",
+  "fr": "s'engager",
+  "es": "comprometerse",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-112",
+  "pt": "envolver-se",
+  "zh": "参与",
+  "en": "to get involved",
+  "fr": "s'impliquer",
+  "es": "involucrarse",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-113",
+  "pt": "adaptar-se",
+  "zh": "适应",
+  "en": "to adapt",
+  "fr": "s'adapter",
+  "es": "adaptarse",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-114",
+  "pt": "aperceber-se",
+  "zh": "意识到",
+  "en": "to realise",
+  "fr": "se rendre compte",
+  "es": "darse cuenta",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-115",
+  "pt": "ambicionar",
+  "zh": "渴望",
+  "en": "to aspire to",
+  "fr": "ambitionner",
+  "es": "ambicionar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-116",
+  "pt": "planear",
+  "zh": "计划",
+  "en": "to plan",
+  "fr": "planifier",
+  "es": "planear",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-117",
+  "pt": "exigir",
+  "zh": "要求",
+  "en": "to demand",
+  "fr": "exiger",
+  "es": "exigir",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-118",
+  "pt": "hesitar",
+  "zh": "犹豫",
+  "en": "to hesitate",
+  "fr": "hésiter",
+  "es": "vacilar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-119",
+  "pt": "aguentar",
+  "zh": "忍受",
+  "en": "to put up with",
+  "fr": "supporter",
+  "es": "aguantar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-120",
+  "pt": "tolerar",
+  "zh": "容忍",
+  "en": "to tolerate",
+  "fr": "tolérer",
+  "es": "tolerar",
+  "pos": "verb"
+ },
+ {
+  "id": "b1z-121",
+  "pt": "renovável",
+  "zh": "可再生的",
+  "en": "renewable",
+  "fr": "renouvelable",
+  "es": "renovable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-122",
+  "pt": "poluído",
+  "zh": "受污染的",
+  "en": "polluted",
+  "fr": "pollué",
+  "es": "contaminado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-123",
+  "pt": "urbano",
+  "zh": "城市的",
+  "en": "urban",
+  "fr": "urbain",
+  "es": "urbano",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-124",
+  "pt": "rural",
+  "zh": "乡村的",
+  "en": "rural",
+  "fr": "rural",
+  "es": "rural",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-125",
+  "pt": "gratuito",
+  "zh": "免费的",
+  "en": "free of charge",
+  "fr": "gratuit",
+  "es": "gratuito",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-126",
+  "pt": "qualificado",
+  "zh": "有资质的",
+  "en": "qualified",
+  "fr": "qualifié",
+  "es": "cualificado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-127",
+  "pt": "experiente",
+  "zh": "有经验的",
+  "en": "experienced",
+  "fr": "expérimenté",
+  "es": "experimentado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-128",
+  "pt": "produtivo",
+  "zh": "富有成效的",
+  "en": "productive",
+  "fr": "productif",
+  "es": "productivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-129",
+  "pt": "rentável",
+  "zh": "有利可图的",
+  "en": "profitable",
+  "fr": "rentable",
+  "es": "rentable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-130",
+  "pt": "acessível",
+  "zh": "价格实惠的",
+  "en": "affordable",
+  "fr": "abordable",
+  "es": "asequible",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-131",
+  "pt": "acolhedor",
+  "zh": "温馨的",
+  "en": "welcoming",
+  "fr": "accueillant",
+  "es": "acogedor",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-132",
+  "pt": "deprimido",
+  "zh": "抑郁的",
+  "en": "depressed",
+  "fr": "déprimé",
+  "es": "deprimido",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-133",
+  "pt": "tolerante",
+  "zh": "宽容的",
+  "en": "tolerant",
+  "fr": "tolérant",
+  "es": "tolerante",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-134",
+  "pt": "consciente",
+  "zh": "有意识的",
+  "en": "aware",
+  "fr": "conscient",
+  "es": "consciente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-135",
+  "pt": "eficiente",
+  "zh": "高效的",
+  "en": "efficient",
+  "fr": "efficace",
+  "es": "eficiente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-136",
+  "pt": "inadequado",
+  "zh": "不合适的",
+  "en": "unsuitable",
+  "fr": "inadéquat",
+  "es": "inadecuado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-137",
+  "pt": "solidário",
+  "zh": "团结互助的",
+  "en": "supportive",
+  "fr": "solidaire",
+  "es": "solidario",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-138",
+  "pt": "ecológico",
+  "zh": "环保的",
+  "en": "eco-friendly",
+  "fr": "écologique",
+  "es": "ecológico",
+  "pos": "adjective"
+ },
+ {
+  "id": "b1z-139",
+  "pt": "estar de acordo",
+  "zh": "同意",
+  "en": "to agree",
+  "fr": "être d'accord",
+  "es": "estar de acuerdo",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-140",
+  "pt": "dar razão",
+  "zh": "认为某人有理",
+  "en": "to agree that someone is right",
+  "fr": "donner raison",
+  "es": "dar la razón",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-141",
+  "pt": "fazer questão de",
+  "zh": "坚持要",
+  "en": "to insist on",
+  "fr": "tenir à",
+  "es": "empeñarse en",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-142",
+  "pt": "valer a pena",
+  "zh": "值得",
+  "en": "to be worth it",
+  "fr": "valoir la peine",
+  "es": "valer la pena",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-143",
+  "pt": "dar-se bem com",
+  "zh": "与……相处融洽",
+  "en": "to get on well with",
+  "fr": "bien s'entendre avec",
+  "es": "llevarse bien con",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-144",
+  "pt": "ficar a par de",
+  "zh": "了解……的最新情况",
+  "en": "to keep informed about",
+  "fr": "se tenir au courant de",
+  "es": "mantenerse al tanto de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-145",
+  "pt": "tomar uma decisão",
+  "zh": "做决定",
+  "en": "to make a decision",
+  "fr": "prendre une décision",
+  "es": "tomar una decisión",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-146",
+  "pt": "levar a sério",
+  "zh": "认真对待",
+  "en": "to take seriously",
+  "fr": "prendre au sérieux",
+  "es": "tomar en serio",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-147",
+  "pt": "de qualquer maneira",
+  "zh": "无论如何",
+  "en": "anyway",
+  "fr": "de toute façon",
+  "es": "de todos modos",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-148",
+  "pt": "além do mais",
+  "zh": "此外",
+  "en": "moreover",
+  "fr": "en outre",
+  "es": "además",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-149",
+  "pt": "ou seja",
+  "zh": "也就是说",
+  "en": "that is",
+  "fr": "c'est-à-dire",
+  "es": "es decir",
+  "pos": "phrase"
+ },
+ {
+  "id": "b1z-150",
+  "pt": "estar prestes a",
+  "zh": "即将",
+  "en": "to be about to",
+  "fr": "être sur le point de",
+  "es": "estar a punto de",
+  "pos": "phrase"
+ }
+]

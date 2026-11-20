@@ -1,0 +1,4502 @@
+[
+ {
+  "id": "b2y-001",
+  "pt": "o voto de confiança",
+  "zh": "信任投票",
+  "en": "vote of confidence",
+  "fr": "la motion de confiance",
+  "es": "la moción de confianza",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-002",
+  "pt": "a dissolução",
+  "zh": "解散",
+  "en": "dissolution",
+  "fr": "la dissolution",
+  "es": "la disolución",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-003",
+  "pt": "a convocação",
+  "zh": "召集",
+  "en": "convening",
+  "fr": "la convocation",
+  "es": "la convocatoria",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-004",
+  "pt": "a maioria relativa",
+  "zh": "相对多数",
+  "en": "relative majority",
+  "fr": "la majorité relative",
+  "es": "la mayoría relativa",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-005",
+  "pt": "o recenseamento",
+  "zh": "人口普查；选民登记",
+  "en": "census",
+  "fr": "le recensement",
+  "es": "el censo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-006",
+  "pt": "o ato eleitoral",
+  "zh": "选举日；投票活动",
+  "en": "electoral act",
+  "fr": "le scrutin",
+  "es": "el acto electoral",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-007",
+  "pt": "o sufrágio universal",
+  "zh": "普选权",
+  "en": "universal suffrage",
+  "fr": "le suffrage universel",
+  "es": "el sufragio universal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-008",
+  "pt": "a assembleia municipal",
+  "zh": "市政议会",
+  "en": "municipal assembly",
+  "fr": "l'assemblée municipale",
+  "es": "la asamblea municipal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-009",
+  "pt": "a junta de freguesia",
+  "zh": "堂区委员会",
+  "en": "parish council",
+  "fr": "la junte de paroisse",
+  "es": "la junta de parroquia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-010",
+  "pt": "o pelouro",
+  "zh": "市政分管领域",
+  "en": "municipal portfolio",
+  "fr": "le secteur municipal",
+  "es": "el área municipal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-011",
+  "pt": "o orçamento participativo",
+  "zh": "参与式预算",
+  "en": "participatory budget",
+  "fr": "le budget participatif",
+  "es": "el presupuesto participativo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-012",
+  "pt": "a consulta pública",
+  "zh": "公众咨询",
+  "en": "public consultation",
+  "fr": "la consultation publique",
+  "es": "la consulta pública",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-013",
+  "pt": "a audição pública",
+  "zh": "公开听证",
+  "en": "public hearing",
+  "fr": "l'audition publique",
+  "es": "la audiencia pública",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-014",
+  "pt": "o inquérito público",
+  "zh": "公众调查",
+  "en": "public inquiry",
+  "fr": "l'enquête publique",
+  "es": "la encuesta pública",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-015",
+  "pt": "o edital",
+  "zh": "公告",
+  "en": "public notice",
+  "fr": "l'avis public",
+  "es": "el edicto",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-016",
+  "pt": "o memorando",
+  "zh": "备忘录",
+  "en": "memorandum",
+  "fr": "le mémorandum",
+  "es": "el memorando",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-017",
+  "pt": "a superintendência",
+  "zh": "监督权",
+  "en": "superintendence",
+  "fr": "la tutelle",
+  "es": "la superintendencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-018",
+  "pt": "o contencioso",
+  "zh": "争讼；诉讼事务",
+  "en": "litigation",
+  "fr": "le contentieux",
+  "es": "el contencioso",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-019",
+  "pt": "a ação judicial",
+  "zh": "司法诉讼",
+  "en": "lawsuit",
+  "fr": "l'action en justice",
+  "es": "la acción judicial",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-020",
+  "pt": "a queixa",
+  "zh": "投诉",
+  "en": "complaint",
+  "fr": "la plainte",
+  "es": "la queja",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-021",
+  "pt": "a denúncia",
+  "zh": "举报；揭发",
+  "en": "report",
+  "fr": "la dénonciation",
+  "es": "la denuncia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-022",
+  "pt": "a reclamação",
+  "zh": "申诉",
+  "en": "complaint",
+  "fr": "la réclamation",
+  "es": "la reclamación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-023",
+  "pt": "o recurso hierárquico",
+  "zh": "层级申诉",
+  "en": "administrative appeal",
+  "fr": "le recours hiérarchique",
+  "es": "el recurso jerárquico",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-024",
+  "pt": "a execução fiscal",
+  "zh": "税务强制执行",
+  "en": "tax enforcement",
+  "fr": "l'exécution fiscale",
+  "es": "la ejecución fiscal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-025",
+  "pt": "o fiador",
+  "zh": "担保人",
+  "en": "guarantor",
+  "fr": "le garant",
+  "es": "el fiador",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-026",
+  "pt": "a nulidade",
+  "zh": "无效",
+  "en": "nullity",
+  "fr": "la nullité",
+  "es": "la nulidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-027",
+  "pt": "a anulação",
+  "zh": "撤销",
+  "en": "annulment",
+  "fr": "l'annulation",
+  "es": "la anulación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-028",
+  "pt": "a retificação",
+  "zh": "更正",
+  "en": "correction",
+  "fr": "la rectification",
+  "es": "la rectificación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-029",
+  "pt": "o articulado",
+  "zh": "条款文本",
+  "en": "articles of a bill",
+  "fr": "le texte articulé",
+  "es": "el articulado",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-030",
+  "pt": "a proposta de lei",
+  "zh": "法案",
+  "en": "bill",
+  "fr": "le projet de loi",
+  "es": "el proyecto de ley",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-031",
+  "pt": "o voto particular",
+  "zh": "个别意见；附议声明",
+  "en": "dissenting opinion",
+  "fr": "l'opinion dissidente",
+  "es": "el voto particular",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-032",
+  "pt": "a sessão legislativa",
+  "zh": "立法会期",
+  "en": "legislative session",
+  "fr": "la session législative",
+  "es": "el período de sesiones",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-033",
+  "pt": "o grupo de trabalho",
+  "zh": "工作组",
+  "en": "working group",
+  "fr": "le groupe de travail",
+  "es": "el grupo de trabajo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-034",
+  "pt": "a subcomissão",
+  "zh": "小组委员会",
+  "en": "subcommittee",
+  "fr": "la sous-commission",
+  "es": "la subcomisión",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-035",
+  "pt": "o relator",
+  "zh": "报告员",
+  "en": "rapporteur",
+  "fr": "le rapporteur",
+  "es": "el ponente",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-036",
+  "pt": "a comparecência",
+  "zh": "出庭；到场",
+  "en": "appearance",
+  "fr": "la comparution",
+  "es": "la comparecencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-037",
+  "pt": "o voto de pesar",
+  "zh": "哀悼决议",
+  "en": "vote of condolence",
+  "fr": "le vote de condoléances",
+  "es": "el voto de pesar",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-038",
+  "pt": "a precedência",
+  "zh": "位次；优先顺序",
+  "en": "precedence",
+  "fr": "la préséance",
+  "es": "la precedencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-039",
+  "pt": "o código de conduta",
+  "zh": "行为准则",
+  "en": "code of conduct",
+  "fr": "le code de conduite",
+  "es": "el código de conducta",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-040",
+  "pt": "a ética profissional",
+  "zh": "职业道德",
+  "en": "professional ethics",
+  "fr": "la déontologie",
+  "es": "la ética profesional",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-041",
+  "pt": "o sigilo",
+  "zh": "保密；职业秘密",
+  "en": "secrecy",
+  "fr": "le secret",
+  "es": "el secreto",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-042",
+  "pt": "a confidencialidade",
+  "zh": "保密性",
+  "en": "confidentiality",
+  "fr": "la confidentialité",
+  "es": "la confidencialidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-043",
+  "pt": "a proteção de dados",
+  "zh": "数据保护",
+  "en": "data protection",
+  "fr": "la protection des données",
+  "es": "la protección de datos",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-044",
+  "pt": "a incompatibilidade",
+  "zh": "不兼容；不得兼任",
+  "en": "incompatibility",
+  "fr": "l'incompatibilité",
+  "es": "la incompatibilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-045",
+  "pt": "o impedimento",
+  "zh": "障碍；回避事由",
+  "en": "impediment",
+  "fr": "l'empêchement",
+  "es": "el impedimento",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-046",
+  "pt": "a acumulação de funções",
+  "zh": "兼任多职",
+  "en": "cumulation of posts",
+  "fr": "le cumul de fonctions",
+  "es": "la acumulación de cargos",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-047",
+  "pt": "a exoneração",
+  "zh": "免职",
+  "en": "dismissal",
+  "fr": "la révocation",
+  "es": "la destitución",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-048",
+  "pt": "a nomeação",
+  "zh": "任命",
+  "en": "appointment",
+  "fr": "la nomination",
+  "es": "el nombramiento",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-049",
+  "pt": "o cargo público",
+  "zh": "公职",
+  "en": "public office",
+  "fr": "l'emploi public",
+  "es": "el cargo público",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-050",
+  "pt": "a função pública",
+  "zh": "公共部门；公职",
+  "en": "civil service",
+  "fr": "la fonction publique",
+  "es": "la función pública",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-051",
+  "pt": "o funcionário público",
+  "zh": "公务员",
+  "en": "civil servant",
+  "fr": "le fonctionnaire",
+  "es": "el funcionario",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-052",
+  "pt": "o cargo dirigente",
+  "zh": "领导职位",
+  "en": "management post",
+  "fr": "le poste de direction",
+  "es": "el cargo directivo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-053",
+  "pt": "a substituição",
+  "zh": "替代；接替",
+  "en": "replacement",
+  "fr": "le remplacement",
+  "es": "la sustitución",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-054",
+  "pt": "o vínculo",
+  "zh": "联系；纽带",
+  "en": "bond",
+  "fr": "le lien",
+  "es": "el vínculo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-055",
+  "pt": "a impunidade",
+  "zh": "有罪不罚",
+  "en": "impunity",
+  "fr": "l'impunité",
+  "es": "la impunidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-056",
+  "pt": "a prevaricação",
+  "zh": "渎职",
+  "en": "malfeasance",
+  "fr": "la prévarication",
+  "es": "la prevaricación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-057",
+  "pt": "o tráfico de influências",
+  "zh": "影响力交易",
+  "en": "influence peddling",
+  "fr": "le trafic d'influence",
+  "es": "el tráfico de influencias",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-058",
+  "pt": "o compadrio",
+  "zh": "任人唯亲",
+  "en": "cronyism",
+  "fr": "le copinage",
+  "es": "el amiguismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-059",
+  "pt": "a discricionariedade",
+  "zh": "自由裁量权",
+  "en": "discretion",
+  "fr": "le pouvoir discrétionnaire",
+  "es": "la discrecionalidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-060",
+  "pt": "o tecido empresarial",
+  "zh": "企业结构",
+  "en": "business fabric",
+  "fr": "le tissu économique",
+  "es": "el tejido empresarial",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-061",
+  "pt": "a competitividade",
+  "zh": "竞争力",
+  "en": "competitiveness",
+  "fr": "la compétitivité",
+  "es": "la competitividad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-062",
+  "pt": "a incubadora",
+  "zh": "孵化器",
+  "en": "incubator",
+  "fr": "l'incubateur",
+  "es": "la incubadora",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-063",
+  "pt": "a amortização",
+  "zh": "摊销；分期偿还",
+  "en": "amortisation",
+  "fr": "l'amortissement",
+  "es": "la amortización",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-064",
+  "pt": "a tesouraria",
+  "zh": "资金状况；财务",
+  "en": "treasury",
+  "fr": "la trésorerie",
+  "es": "la tesorería",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-065",
+  "pt": "o fluxo de caixa",
+  "zh": "现金流量",
+  "en": "cash flow",
+  "fr": "le flux de trésorerie",
+  "es": "el flujo de caja",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-066",
+  "pt": "o balanço",
+  "zh": "资产负债表",
+  "en": "balance sheet",
+  "fr": "le bilan",
+  "es": "el balance",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-067",
+  "pt": "o capital social",
+  "zh": "注册资本",
+  "en": "share capital",
+  "fr": "le capital social",
+  "es": "el capital social",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-068",
+  "pt": "o capital próprio",
+  "zh": "自有资本",
+  "en": "equity",
+  "fr": "les fonds propres",
+  "es": "el capital propio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-069",
+  "pt": "a despesa",
+  "zh": "支出",
+  "en": "expenditure",
+  "fr": "la dépense",
+  "es": "el gasto",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-070",
+  "pt": "a transferência",
+  "zh": "转账；转移",
+  "en": "transfer",
+  "fr": "le transfert",
+  "es": "la transferencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-071",
+  "pt": "o incentivo",
+  "zh": "激励措施",
+  "en": "incentive",
+  "fr": "l'incitation",
+  "es": "el incentivo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-072",
+  "pt": "a isenção",
+  "zh": "豁免",
+  "en": "exemption",
+  "fr": "l'exonération",
+  "es": "la exención",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-073",
+  "pt": "a retenção",
+  "zh": "预扣；保留",
+  "en": "withholding",
+  "fr": "la retenue",
+  "es": "la retención",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-074",
+  "pt": "a liquidação",
+  "zh": "结算；清算",
+  "en": "settlement",
+  "fr": "la liquidation",
+  "es": "la liquidación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-075",
+  "pt": "a cobrança",
+  "zh": "收取；征收",
+  "en": "collection",
+  "fr": "le recouvrement",
+  "es": "el cobro",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-076",
+  "pt": "a viabilidade",
+  "zh": "可行性",
+  "en": "viability",
+  "fr": "la viabilité",
+  "es": "la viabilidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-077",
+  "pt": "o plano de negócios",
+  "zh": "商业计划",
+  "en": "business plan",
+  "fr": "le plan d'affaires",
+  "es": "el plan de negocio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-078",
+  "pt": "o estudo de mercado",
+  "zh": "市场调研",
+  "en": "market research",
+  "fr": "l'étude de marché",
+  "es": "el estudio de mercado",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-079",
+  "pt": "a quota de mercado",
+  "zh": "市场份额",
+  "en": "market share",
+  "fr": "la part de marché",
+  "es": "la cuota de mercado",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-080",
+  "pt": "o nicho",
+  "zh": "细分市场",
+  "en": "niche",
+  "fr": "la niche",
+  "es": "el nicho",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-081",
+  "pt": "a concorrência desleal",
+  "zh": "不正当竞争",
+  "en": "unfair competition",
+  "fr": "la concurrence déloyale",
+  "es": "la competencia desleal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-082",
+  "pt": "a subcontratação",
+  "zh": "分包",
+  "en": "subcontracting",
+  "fr": "la sous-traitance",
+  "es": "la subcontratación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-083",
+  "pt": "a reestruturação",
+  "zh": "重组",
+  "en": "restructuring",
+  "fr": "la restructuration",
+  "es": "la reestructuración",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-084",
+  "pt": "o quadro superior",
+  "zh": "高级管理人员",
+  "en": "senior executive",
+  "fr": "le cadre supérieur",
+  "es": "el alto directivo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-085",
+  "pt": "o subordinado",
+  "zh": "下属",
+  "en": "subordinate",
+  "fr": "le subordonné",
+  "es": "el subordinado",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-086",
+  "pt": "o mérito",
+  "zh": "功绩；优点",
+  "en": "merit",
+  "fr": "le mérite",
+  "es": "el mérito",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-087",
+  "pt": "o prémio",
+  "zh": "奖金；奖项",
+  "en": "bonus",
+  "fr": "le prix",
+  "es": "el premio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-088",
+  "pt": "o vínculo laboral",
+  "zh": "劳动关系",
+  "en": "employment relationship",
+  "fr": "le lien d'emploi",
+  "es": "la relación laboral",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-089",
+  "pt": "a entidade empregadora",
+  "zh": "雇主",
+  "en": "employer",
+  "fr": "l'employeur",
+  "es": "el empleador",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-090",
+  "pt": "o pré-aviso",
+  "zh": "预先通知；罢工通知",
+  "en": "strike notice",
+  "fr": "le préavis",
+  "es": "el preaviso",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-091",
+  "pt": "a greve geral",
+  "zh": "总罢工",
+  "en": "general strike",
+  "fr": "la grève générale",
+  "es": "la huelga general",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-092",
+  "pt": "a contratação coletiva",
+  "zh": "集体谈判",
+  "en": "collective bargaining",
+  "fr": "la négociation collective",
+  "es": "la negociación colectiva",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-093",
+  "pt": "a segurança no trabalho",
+  "zh": "劳动安全",
+  "en": "occupational safety",
+  "fr": "la sécurité au travail",
+  "es": "la seguridad en el trabajo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-094",
+  "pt": "o acidente de trabalho",
+  "zh": "工伤",
+  "en": "workplace accident",
+  "fr": "l'accident du travail",
+  "es": "el accidente laboral",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-095",
+  "pt": "a doença profissional",
+  "zh": "职业病",
+  "en": "occupational disease",
+  "fr": "la maladie professionnelle",
+  "es": "la enfermedad profesional",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-096",
+  "pt": "o atestado médico",
+  "zh": "医生证明",
+  "en": "medical certificate",
+  "fr": "le certificat médical",
+  "es": "el certificado médico",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-097",
+  "pt": "a licença de parentalidade",
+  "zh": "育儿假",
+  "en": "parental leave",
+  "fr": "le congé parental",
+  "es": "el permiso parental",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-098",
+  "pt": "o horário flexível",
+  "zh": "弹性工作时间",
+  "en": "flexible hours",
+  "fr": "les horaires flexibles",
+  "es": "el horario flexible",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-099",
+  "pt": "o banco de horas",
+  "zh": "工时储蓄账户",
+  "en": "hours bank",
+  "fr": "la banque d'heures",
+  "es": "el banco de horas",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-100",
+  "pt": "a assiduidade",
+  "zh": "出勤率",
+  "en": "attendance",
+  "fr": "l'assiduité",
+  "es": "la asiduidad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-101",
+  "pt": "a seleção",
+  "zh": "选拔",
+  "en": "selection",
+  "fr": "la sélection",
+  "es": "la selección",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-102",
+  "pt": "a tutoria",
+  "zh": "导师辅导",
+  "en": "mentoring",
+  "fr": "le tutorat",
+  "es": "la tutoría",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-103",
+  "pt": "o mentor",
+  "zh": "导师",
+  "en": "mentor",
+  "fr": "le mentor",
+  "es": "el mentor",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-104",
+  "pt": "o plano de carreira",
+  "zh": "职业规划",
+  "en": "career plan",
+  "fr": "le plan de carrière",
+  "es": "el plan de carrera",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-105",
+  "pt": "a flora",
+  "zh": "植物群",
+  "en": "flora",
+  "fr": "la flore",
+  "es": "la flora",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-106",
+  "pt": "a fauna",
+  "zh": "动物群",
+  "en": "fauna",
+  "fr": "la faune",
+  "es": "la fauna",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-107",
+  "pt": "a espécie endémica",
+  "zh": "特有物种",
+  "en": "endemic species",
+  "fr": "l'espèce endémique",
+  "es": "la especie endémica",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-108",
+  "pt": "o olival",
+  "zh": "橄榄园",
+  "en": "olive grove",
+  "fr": "l'oliveraie",
+  "es": "el olivar",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-109",
+  "pt": "o pinhal",
+  "zh": "松林",
+  "en": "pine forest",
+  "fr": "la pinède",
+  "es": "el pinar",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-110",
+  "pt": "o fogo controlado",
+  "zh": "计划烧除",
+  "en": "controlled burn",
+  "fr": "le brûlage dirigé",
+  "es": "el fuego controlado",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-111",
+  "pt": "o sapador",
+  "zh": "森林消防员",
+  "en": "firefighter",
+  "fr": "le sapeur",
+  "es": "el bombero forestal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-112",
+  "pt": "a proteção civil",
+  "zh": "民防",
+  "en": "civil protection",
+  "fr": "la protection civile",
+  "es": "la protección civil",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-113",
+  "pt": "o simulacro",
+  "zh": "应急演习",
+  "en": "drill",
+  "fr": "l'exercice",
+  "es": "el simulacro",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-114",
+  "pt": "a evacuação",
+  "zh": "疏散",
+  "en": "evacuation",
+  "fr": "l'évacuation",
+  "es": "la evacuación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-115",
+  "pt": "o abrigo",
+  "zh": "避难所；庇护",
+  "en": "shelter",
+  "fr": "l'abri",
+  "es": "el refugio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-116",
+  "pt": "a albufeira",
+  "zh": "水库",
+  "en": "reservoir",
+  "fr": "le réservoir",
+  "es": "el embalse",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-117",
+  "pt": "o caudal",
+  "zh": "流量；水量",
+  "en": "flow rate",
+  "fr": "le débit",
+  "es": "el caudal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-118",
+  "pt": "o leito do rio",
+  "zh": "河床",
+  "en": "riverbed",
+  "fr": "le lit du fleuve",
+  "es": "el cauce del río",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-119",
+  "pt": "a inundação",
+  "zh": "洪水",
+  "en": "flood",
+  "fr": "l'inondation",
+  "es": "la inundación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-120",
+  "pt": "a precipitação",
+  "zh": "降水",
+  "en": "rainfall",
+  "fr": "les précipitations",
+  "es": "las precipitaciones",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-121",
+  "pt": "a zona húmida",
+  "zh": "湿地",
+  "en": "wetland",
+  "fr": "la zone humide",
+  "es": "la zona húmeda",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-122",
+  "pt": "a dessalinização",
+  "zh": "海水淡化",
+  "en": "desalination",
+  "fr": "la dessalinisation",
+  "es": "la desalinización",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-123",
+  "pt": "a irrigação",
+  "zh": "灌溉",
+  "en": "irrigation",
+  "fr": "l'irrigation",
+  "es": "el riego",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-124",
+  "pt": "o adubo",
+  "zh": "肥料",
+  "en": "fertiliser",
+  "fr": "l'engrais",
+  "es": "el abono",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-125",
+  "pt": "a agricultura intensiva",
+  "zh": "集约农业",
+  "en": "intensive farming",
+  "fr": "l'agriculture intensive",
+  "es": "la agricultura intensiva",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-126",
+  "pt": "o pastoreio",
+  "zh": "放牧",
+  "en": "grazing",
+  "fr": "le pâturage",
+  "es": "el pastoreo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-127",
+  "pt": "a silvicultura",
+  "zh": "林业",
+  "en": "forestry",
+  "fr": "la sylviculture",
+  "es": "la silvicultura",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-128",
+  "pt": "a aquicultura",
+  "zh": "水产养殖",
+  "en": "aquaculture",
+  "fr": "l'aquaculture",
+  "es": "la acuicultura",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-129",
+  "pt": "a pesca artesanal",
+  "zh": "传统渔业",
+  "en": "artisanal fishing",
+  "fr": "la pêche artisanale",
+  "es": "la pesca artesanal",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-130",
+  "pt": "a sobrepesca",
+  "zh": "过度捕捞",
+  "en": "overfishing",
+  "fr": "la surpêche",
+  "es": "la sobrepesca",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-131",
+  "pt": "o ecoturismo",
+  "zh": "生态旅游",
+  "en": "ecotourism",
+  "fr": "l'écotourisme",
+  "es": "el ecoturismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-132",
+  "pt": "a pegada hídrica",
+  "zh": "水足迹",
+  "en": "water footprint",
+  "fr": "l'empreinte eau",
+  "es": "la huella hídrica",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-133",
+  "pt": "a economia circular",
+  "zh": "循环经济",
+  "en": "circular economy",
+  "fr": "l'économie circulaire",
+  "es": "la economía circular",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-134",
+  "pt": "a obsolescência programada",
+  "zh": "计划性淘汰",
+  "en": "planned obsolescence",
+  "fr": "l'obsolescence programmée",
+  "es": "la obsolescencia programada",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-135",
+  "pt": "o efluente",
+  "zh": "废水；排出物",
+  "en": "effluent",
+  "fr": "l'effluent",
+  "es": "el efluente",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-136",
+  "pt": "a estação de tratamento",
+  "zh": "处理厂",
+  "en": "treatment plant",
+  "fr": "la station d'épuration",
+  "es": "la depuradora",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-137",
+  "pt": "a valorização energética",
+  "zh": "能源化利用",
+  "en": "energy recovery",
+  "fr": "la valorisation énergétique",
+  "es": "la valorización energética",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-138",
+  "pt": "o biogás",
+  "zh": "沼气",
+  "en": "biogas",
+  "fr": "le biogaz",
+  "es": "el biogás",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-139",
+  "pt": "a geotermia",
+  "zh": "地热能",
+  "en": "geothermal energy",
+  "fr": "la géothermie",
+  "es": "la geotermia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-140",
+  "pt": "o hidrogénio verde",
+  "zh": "绿氢",
+  "en": "green hydrogen",
+  "fr": "l'hydrogène vert",
+  "es": "el hidrógeno verde",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-141",
+  "pt": "o autoconsumo",
+  "zh": "自用发电",
+  "en": "self-consumption",
+  "fr": "l'autoconsommation",
+  "es": "el autoconsumo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-142",
+  "pt": "a rede elétrica",
+  "zh": "电网",
+  "en": "power grid",
+  "fr": "le réseau électrique",
+  "es": "la red eléctrica",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-143",
+  "pt": "o apagão",
+  "zh": "大停电",
+  "en": "blackout",
+  "fr": "la panne générale",
+  "es": "el apagón",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-144",
+  "pt": "a evidência científica",
+  "zh": "科学证据",
+  "en": "scientific evidence",
+  "fr": "la preuve scientifique",
+  "es": "la evidencia científica",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-145",
+  "pt": "o grupo de controlo",
+  "zh": "对照组",
+  "en": "control group",
+  "fr": "le groupe témoin",
+  "es": "el grupo de control",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-146",
+  "pt": "a margem de erro",
+  "zh": "误差范围",
+  "en": "margin of error",
+  "fr": "la marge d'erreur",
+  "es": "el margen de error",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-147",
+  "pt": "a taxa de incidência",
+  "zh": "发病率",
+  "en": "incidence rate",
+  "fr": "le taux d'incidence",
+  "es": "la tasa de incidencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-148",
+  "pt": "a vacinação",
+  "zh": "疫苗接种",
+  "en": "vaccination",
+  "fr": "la vaccination",
+  "es": "la vacunación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-149",
+  "pt": "o antiviral",
+  "zh": "抗病毒药",
+  "en": "antiviral",
+  "fr": "l'antiviral",
+  "es": "el antiviral",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-150",
+  "pt": "a contraindicação",
+  "zh": "禁忌症",
+  "en": "contraindication",
+  "fr": "la contre-indication",
+  "es": "la contraindicación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-151",
+  "pt": "a aprendizagem automática",
+  "zh": "机器学习",
+  "en": "machine learning",
+  "fr": "l'apprentissage automatique",
+  "es": "el aprendizaje automático",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-152",
+  "pt": "a fibra ótica",
+  "zh": "光纤",
+  "en": "optical fibre",
+  "fr": "la fibre optique",
+  "es": "la fibra óptica",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-153",
+  "pt": "o satélite",
+  "zh": "卫星",
+  "en": "satellite",
+  "fr": "le satellite",
+  "es": "el satélite",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-154",
+  "pt": "a órbita",
+  "zh": "轨道",
+  "en": "orbit",
+  "fr": "l'orbite",
+  "es": "la órbita",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-155",
+  "pt": "a sonda",
+  "zh": "探测器",
+  "en": "probe",
+  "fr": "la sonde",
+  "es": "la sonda",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-156",
+  "pt": "o telescópio",
+  "zh": "望远镜",
+  "en": "telescope",
+  "fr": "le télescope",
+  "es": "el telescopio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-157",
+  "pt": "o utilizador",
+  "zh": "用户",
+  "en": "user",
+  "fr": "l'utilisateur",
+  "es": "el usuario",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-158",
+  "pt": "a autenticação",
+  "zh": "身份验证",
+  "en": "authentication",
+  "fr": "l'authentification",
+  "es": "la autenticación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-159",
+  "pt": "o pirata informático",
+  "zh": "黑客",
+  "en": "hacker",
+  "fr": "le pirate informatique",
+  "es": "el pirata informático",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-160",
+  "pt": "o malware",
+  "zh": "恶意软件",
+  "en": "malware",
+  "fr": "le logiciel malveillant",
+  "es": "el malware",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-161",
+  "pt": "o emissor",
+  "zh": "播出机构；发射器",
+  "en": "broadcaster",
+  "fr": "l'émetteur",
+  "es": "el emisor",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-162",
+  "pt": "a frequência",
+  "zh": "频率",
+  "en": "frequency",
+  "fr": "la fréquence",
+  "es": "la frecuencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-163",
+  "pt": "a antena",
+  "zh": "天线",
+  "en": "antenna",
+  "fr": "l'antenne",
+  "es": "la antena",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-164",
+  "pt": "o consentimento",
+  "zh": "同意",
+  "en": "consent",
+  "fr": "le consentement",
+  "es": "el consentimiento",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-165",
+  "pt": "o rastreamento",
+  "zh": "追踪",
+  "en": "tracking",
+  "fr": "le traçage",
+  "es": "el rastreo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-166",
+  "pt": "a espionagem",
+  "zh": "间谍活动",
+  "en": "espionage",
+  "fr": "l'espionnage",
+  "es": "el espionaje",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-167",
+  "pt": "a autocensura",
+  "zh": "自我审查",
+  "en": "self-censorship",
+  "fr": "l'autocensure",
+  "es": "la autocensura",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-168",
+  "pt": "o populismo",
+  "zh": "民粹主义",
+  "en": "populism",
+  "fr": "le populisme",
+  "es": "el populismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-169",
+  "pt": "o discurso de ódio",
+  "zh": "仇恨言论",
+  "en": "hate speech",
+  "fr": "le discours de haine",
+  "es": "el discurso de odio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-170",
+  "pt": "o espólio",
+  "zh": "遗存作品；遗产",
+  "en": "estate",
+  "fr": "le fonds d'archives",
+  "es": "el legado",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-171",
+  "pt": "a retrospetiva",
+  "zh": "回顾展",
+  "en": "retrospective",
+  "fr": "la rétrospective",
+  "es": "la retrospectiva",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-172",
+  "pt": "a talha",
+  "zh": "木雕",
+  "en": "woodcarving",
+  "fr": "la sculpture sur bois",
+  "es": "la talla",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-173",
+  "pt": "o mosaico",
+  "zh": "镶嵌画",
+  "en": "mosaic",
+  "fr": "la mosaïque",
+  "es": "el mosaico",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-174",
+  "pt": "a digressão",
+  "zh": "巡回演出",
+  "en": "tour",
+  "fr": "la tournée",
+  "es": "la gira",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-175",
+  "pt": "a encenação",
+  "zh": "舞台呈现",
+  "en": "staging",
+  "fr": "la mise en scène",
+  "es": "la puesta en escena",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-176",
+  "pt": "o guarda-roupa",
+  "zh": "戏服；衣橱",
+  "en": "wardrobe",
+  "fr": "les costumes",
+  "es": "el vestuario",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-177",
+  "pt": "o cenário",
+  "zh": "布景；情景",
+  "en": "set",
+  "fr": "le décor",
+  "es": "el decorado",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-178",
+  "pt": "o espetador",
+  "zh": "观众",
+  "en": "spectator",
+  "fr": "le spectateur",
+  "es": "el espectador",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-179",
+  "pt": "o prestígio",
+  "zh": "声望",
+  "en": "prestige",
+  "fr": "le prestige",
+  "es": "el prestigio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-180",
+  "pt": "a narrativa",
+  "zh": "叙事",
+  "en": "narrative",
+  "fr": "la narration",
+  "es": "la narrativa",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-181",
+  "pt": "a banda sonora",
+  "zh": "配乐",
+  "en": "soundtrack",
+  "fr": "la bande originale",
+  "es": "la banda sonora",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-182",
+  "pt": "o bailado",
+  "zh": "芭蕾舞剧",
+  "en": "ballet",
+  "fr": "le ballet",
+  "es": "el ballet",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-183",
+  "pt": "o cante alentejano",
+  "zh": "阿连特茹民歌",
+  "en": "Alentejo singing",
+  "fr": "le chant alentejan",
+  "es": "el cante alentejano",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-184",
+  "pt": "a romaria",
+  "zh": "朝圣节庆",
+  "en": "pilgrimage festival",
+  "fr": "le pèlerinage",
+  "es": "la romería",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-185",
+  "pt": "a procissão",
+  "zh": "宗教游行",
+  "en": "procession",
+  "fr": "la procession",
+  "es": "la procesión",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-186",
+  "pt": "o arraial",
+  "zh": "民间庆典",
+  "en": "street festival",
+  "fr": "la fête populaire",
+  "es": "la verbena",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-187",
+  "pt": "a feira do livro",
+  "zh": "书展",
+  "en": "book fair",
+  "fr": "le salon du livre",
+  "es": "la feria del libro",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-188",
+  "pt": "o juízo",
+  "zh": "判断力",
+  "en": "judgement",
+  "fr": "le jugement",
+  "es": "el juicio",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-189",
+  "pt": "a decência",
+  "zh": "体面",
+  "en": "decency",
+  "fr": "la décence",
+  "es": "la decencia",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-190",
+  "pt": "a compaixão",
+  "zh": "同情",
+  "en": "compassion",
+  "fr": "la compassion",
+  "es": "la compasión",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-191",
+  "pt": "o sexismo",
+  "zh": "性别歧视",
+  "en": "sexism",
+  "fr": "le sexisme",
+  "es": "el sexismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-192",
+  "pt": "o abuso",
+  "zh": "滥用",
+  "en": "abuse",
+  "fr": "l'abus",
+  "es": "el abuso",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-193",
+  "pt": "o paternalismo",
+  "zh": "家长式作风",
+  "en": "paternalism",
+  "fr": "le paternalisme",
+  "es": "el paternalismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-194",
+  "pt": "o fanatismo",
+  "zh": "狂热",
+  "en": "fanaticism",
+  "fr": "le fanatisme",
+  "es": "el fanatismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-195",
+  "pt": "o extremismo",
+  "zh": "极端主义",
+  "en": "extremism",
+  "fr": "l'extrémisme",
+  "es": "el extremismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-196",
+  "pt": "o radicalismo",
+  "zh": "激进主义",
+  "en": "radicalism",
+  "fr": "le radicalisme",
+  "es": "el radicalismo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-197",
+  "pt": "a morosidade",
+  "zh": "拖延；迟缓",
+  "en": "slowness",
+  "fr": "la lenteur",
+  "es": "la lentitud",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-198",
+  "pt": "a celeridade",
+  "zh": "迅速",
+  "en": "speed",
+  "fr": "la célérité",
+  "es": "la celeridad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-199",
+  "pt": "a exiguidade",
+  "zh": "狭小；微薄",
+  "en": "scantiness",
+  "fr": "l'exiguïté",
+  "es": "la escasez",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-200",
+  "pt": "a responsabilização",
+  "zh": "问责",
+  "en": "accountability",
+  "fr": "la responsabilisation",
+  "es": "la responsabilización",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-201",
+  "pt": "o ativo",
+  "zh": "资产",
+  "en": "assets",
+  "fr": "l'actif",
+  "es": "el activo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-202",
+  "pt": "o passivo",
+  "zh": "负债",
+  "en": "liabilities",
+  "fr": "le passif",
+  "es": "el pasivo",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-203",
+  "pt": "a antiguidade",
+  "zh": "资历",
+  "en": "seniority",
+  "fr": "l'ancienneté",
+  "es": "la antigüedad",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-204",
+  "pt": "a alavancagem",
+  "zh": "杠杆作用",
+  "en": "leverage",
+  "fr": "l'effet de levier",
+  "es": "el apalancamiento",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-205",
+  "pt": "a rotação",
+  "zh": "轮换；轮岗",
+  "en": "rotation",
+  "fr": "la rotation",
+  "es": "la rotación",
+  "pos": "noun"
+ },
+ {
+  "id": "b2y-206",
+  "pt": "alegar",
+  "zh": "声称；主张",
+  "en": "to allege",
+  "fr": "alléguer",
+  "es": "alegar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-207",
+  "pt": "invocar",
+  "zh": "援引",
+  "en": "to invoke",
+  "fr": "invoquer",
+  "es": "invocar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-208",
+  "pt": "imputar",
+  "zh": "归咎",
+  "en": "to attribute",
+  "fr": "imputer",
+  "es": "imputar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-209",
+  "pt": "delegar",
+  "zh": "授权；委派",
+  "en": "to delegate",
+  "fr": "déléguer",
+  "es": "delegar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-210",
+  "pt": "penalizar",
+  "zh": "处罚",
+  "en": "to penalise",
+  "fr": "pénaliser",
+  "es": "penalizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-211",
+  "pt": "suprir",
+  "zh": "弥补",
+  "en": "to make up for",
+  "fr": "suppléer",
+  "es": "suplir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-212",
+  "pt": "compensar",
+  "zh": "补偿",
+  "en": "to offset",
+  "fr": "compenser",
+  "es": "compensar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-213",
+  "pt": "ressalvar",
+  "zh": "强调；保障",
+  "en": "to stress",
+  "fr": "souligner",
+  "es": "hacer constar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-214",
+  "pt": "sublinhar",
+  "zh": "强调",
+  "en": "to underline",
+  "fr": "souligner",
+  "es": "subrayar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-215",
+  "pt": "realçar",
+  "zh": "突出",
+  "en": "to highlight",
+  "fr": "mettre en valeur",
+  "es": "resaltar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-216",
+  "pt": "frisar",
+  "zh": "着重指出",
+  "en": "to stress",
+  "fr": "insister sur",
+  "es": "recalcar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-217",
+  "pt": "salientar",
+  "zh": "指出",
+  "en": "to point out",
+  "fr": "mettre en avant",
+  "es": "destacar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-218",
+  "pt": "denotar",
+  "zh": "表明",
+  "en": "to denote",
+  "fr": "dénoter",
+  "es": "denotar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-219",
+  "pt": "indiciar",
+  "zh": "起诉；指控",
+  "en": "to indict",
+  "fr": "inculper",
+  "es": "inculpar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-220",
+  "pt": "perspetivar",
+  "zh": "展望",
+  "en": "to put into perspective",
+  "fr": "envisager",
+  "es": "perspectivar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-221",
+  "pt": "enquadrar",
+  "zh": "纳入框架",
+  "en": "to frame",
+  "fr": "encadrer",
+  "es": "encuadrar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-222",
+  "pt": "contextualizar",
+  "zh": "置于背景中",
+  "en": "to contextualise",
+  "fr": "contextualiser",
+  "es": "contextualizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-223",
+  "pt": "sistematizar",
+  "zh": "系统化",
+  "en": "to systematise",
+  "fr": "systématiser",
+  "es": "sistematizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-224",
+  "pt": "sintetizar",
+  "zh": "综合",
+  "en": "to summarise",
+  "fr": "synthétiser",
+  "es": "sintetizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-225",
+  "pt": "elencar",
+  "zh": "列举",
+  "en": "to list",
+  "fr": "énumérer",
+  "es": "enumerar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-226",
+  "pt": "enumerar",
+  "zh": "逐一列举",
+  "en": "to enumerate",
+  "fr": "énumérer",
+  "es": "enumerar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-227",
+  "pt": "diligenciar",
+  "zh": "尽力办理",
+  "en": "to take steps",
+  "fr": "faire diligence",
+  "es": "diligenciar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-228",
+  "pt": "providenciar",
+  "zh": "采取措施",
+  "en": "to provide for",
+  "fr": "pourvoir",
+  "es": "proveer",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-229",
+  "pt": "viabilizar",
+  "zh": "使可行",
+  "en": "to make feasible",
+  "fr": "rendre possible",
+  "es": "viabilizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-230",
+  "pt": "operacionalizar",
+  "zh": "落实",
+  "en": "to operationalise",
+  "fr": "opérationnaliser",
+  "es": "operacionalizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-231",
+  "pt": "concretizar",
+  "zh": "实现",
+  "en": "to carry out",
+  "fr": "concrétiser",
+  "es": "concretar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-232",
+  "pt": "materializar",
+  "zh": "体现",
+  "en": "to materialise",
+  "fr": "matérialiser",
+  "es": "materializar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-233",
+  "pt": "abarcar",
+  "zh": "涵盖",
+  "en": "to encompass",
+  "fr": "englober",
+  "es": "abarcar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-234",
+  "pt": "abranger",
+  "zh": "包括",
+  "en": "to cover",
+  "fr": "couvrir",
+  "es": "abarcar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-235",
+  "pt": "contemplar",
+  "zh": "包含；顾及",
+  "en": "to include",
+  "fr": "prévoir",
+  "es": "contemplar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-236",
+  "pt": "englobar",
+  "zh": "包含",
+  "en": "to encompass",
+  "fr": "englober",
+  "es": "englobar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-237",
+  "pt": "agregar",
+  "zh": "汇集",
+  "en": "to bring together",
+  "fr": "regrouper",
+  "es": "agregar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-238",
+  "pt": "convocar",
+  "zh": "召集",
+  "en": "to convene",
+  "fr": "convoquer",
+  "es": "convocar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-239",
+  "pt": "despoletar",
+  "zh": "引发",
+  "en": "to trigger",
+  "fr": "déclencher",
+  "es": "desencadenar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-240",
+  "pt": "originar",
+  "zh": "引起",
+  "en": "to give rise to",
+  "fr": "être à l'origine de",
+  "es": "originar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-241",
+  "pt": "ocasionar",
+  "zh": "造成",
+  "en": "to cause",
+  "fr": "occasionner",
+  "es": "ocasionar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-242",
+  "pt": "motivar",
+  "zh": "促使",
+  "en": "to motivate",
+  "fr": "motiver",
+  "es": "motivar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-243",
+  "pt": "fundamentar",
+  "zh": "论证",
+  "en": "to substantiate",
+  "fr": "fonder",
+  "es": "fundamentar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-244",
+  "pt": "alicerçar",
+  "zh": "奠定基础",
+  "en": "to underpin",
+  "fr": "fonder",
+  "es": "asentar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-245",
+  "pt": "sustentar",
+  "zh": "支撑；主张",
+  "en": "to support",
+  "fr": "soutenir",
+  "es": "sostener",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-246",
+  "pt": "advogar",
+  "zh": "主张",
+  "en": "to advocate",
+  "fr": "préconiser",
+  "es": "abogar por",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-247",
+  "pt": "contestar",
+  "zh": "质疑",
+  "en": "to challenge",
+  "fr": "contester",
+  "es": "impugnar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-248",
+  "pt": "impugnar",
+  "zh": "提出异议",
+  "en": "to contest",
+  "fr": "contester",
+  "es": "impugnar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-249",
+  "pt": "rebater",
+  "zh": "反驳",
+  "en": "to rebut",
+  "fr": "réfuter",
+  "es": "rebatir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-250",
+  "pt": "objetar",
+  "zh": "反对",
+  "en": "to object",
+  "fr": "objecter",
+  "es": "objetar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-251",
+  "pt": "replicar",
+  "zh": "回驳",
+  "en": "to reply",
+  "fr": "répliquer",
+  "es": "replicar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-252",
+  "pt": "ponderar",
+  "zh": "权衡",
+  "en": "to weigh",
+  "fr": "peser",
+  "es": "sopesar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-253",
+  "pt": "apreciar",
+  "zh": "评估",
+  "en": "to assess",
+  "fr": "évaluer",
+  "es": "apreciar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-254",
+  "pt": "deliberar",
+  "zh": "议决",
+  "en": "to deliberate",
+  "fr": "délibérer",
+  "es": "deliberar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-255",
+  "pt": "optar",
+  "zh": "选择",
+  "en": "to opt for",
+  "fr": "opter",
+  "es": "optar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-256",
+  "pt": "privilegiar",
+  "zh": "优先考虑",
+  "en": "to favour",
+  "fr": "privilégier",
+  "es": "privilegiar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-257",
+  "pt": "priorizar",
+  "zh": "优先处理",
+  "en": "to prioritise",
+  "fr": "prioriser",
+  "es": "priorizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-258",
+  "pt": "minimizar",
+  "zh": "淡化",
+  "en": "to minimise",
+  "fr": "minimiser",
+  "es": "minimizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-259",
+  "pt": "desvalorizar",
+  "zh": "贬低",
+  "en": "to play down",
+  "fr": "dévaloriser",
+  "es": "desvalorizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-260",
+  "pt": "menosprezar",
+  "zh": "轻视",
+  "en": "to belittle",
+  "fr": "mépriser",
+  "es": "menospreciar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-261",
+  "pt": "negligenciar",
+  "zh": "忽视",
+  "en": "to neglect",
+  "fr": "négliger",
+  "es": "descuidar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-262",
+  "pt": "omitir",
+  "zh": "省略；隐瞒",
+  "en": "to omit",
+  "fr": "omettre",
+  "es": "omitir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-263",
+  "pt": "encobrir",
+  "zh": "掩盖",
+  "en": "to cover up",
+  "fr": "dissimuler",
+  "es": "encubrir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-264",
+  "pt": "dissimular",
+  "zh": "掩饰",
+  "en": "to conceal",
+  "fr": "dissimuler",
+  "es": "disimular",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-265",
+  "pt": "mascarar",
+  "zh": "掩盖",
+  "en": "to mask",
+  "fr": "masquer",
+  "es": "enmascarar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-266",
+  "pt": "iludir",
+  "zh": "误导",
+  "en": "to mislead",
+  "fr": "tromper",
+  "es": "engañar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-267",
+  "pt": "induzir",
+  "zh": "诱导",
+  "en": "to lead",
+  "fr": "induire",
+  "es": "inducir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-268",
+  "pt": "subornar",
+  "zh": "贿赂",
+  "en": "to bribe",
+  "fr": "soudoyer",
+  "es": "sobornar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-269",
+  "pt": "extorquir",
+  "zh": "勒索",
+  "en": "to extort",
+  "fr": "extorquer",
+  "es": "extorsionar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-270",
+  "pt": "desviar",
+  "zh": "挪用；转移",
+  "en": "to divert",
+  "fr": "détourner",
+  "es": "desviar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-271",
+  "pt": "usurpar",
+  "zh": "篡夺",
+  "en": "to usurp",
+  "fr": "usurper",
+  "es": "usurpar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-272",
+  "pt": "transgredir",
+  "zh": "违反",
+  "en": "to transgress",
+  "fr": "transgresser",
+  "es": "transgredir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-273",
+  "pt": "infringir",
+  "zh": "违反",
+  "en": "to infringe",
+  "fr": "enfreindre",
+  "es": "infringir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-274",
+  "pt": "violar",
+  "zh": "侵犯",
+  "en": "to violate",
+  "fr": "violer",
+  "es": "violar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-275",
+  "pt": "desrespeitar",
+  "zh": "不尊重",
+  "en": "to disregard",
+  "fr": "manquer de respect à",
+  "es": "faltar al respeto",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-276",
+  "pt": "acatar",
+  "zh": "遵从",
+  "en": "to comply with",
+  "fr": "respecter",
+  "es": "acatar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-277",
+  "pt": "submeter",
+  "zh": "提交；使服从",
+  "en": "to submit",
+  "fr": "soumettre",
+  "es": "someter",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-278",
+  "pt": "sujeitar",
+  "zh": "使遭受",
+  "en": "to subject",
+  "fr": "soumettre",
+  "es": "someter",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-279",
+  "pt": "condicionar",
+  "zh": "制约",
+  "en": "to condition",
+  "fr": "conditionner",
+  "es": "condicionar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-280",
+  "pt": "restringir",
+  "zh": "限制",
+  "en": "to restrict",
+  "fr": "restreindre",
+  "es": "restringir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-281",
+  "pt": "inibir",
+  "zh": "抑制",
+  "en": "to inhibit",
+  "fr": "inhiber",
+  "es": "inhibir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-282",
+  "pt": "travar",
+  "zh": "遏止",
+  "en": "to curb",
+  "fr": "enrayer",
+  "es": "frenar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-283",
+  "pt": "conter",
+  "zh": "遏制",
+  "en": "to contain",
+  "fr": "contenir",
+  "es": "contener",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-284",
+  "pt": "reprimir",
+  "zh": "镇压",
+  "en": "to repress",
+  "fr": "réprimer",
+  "es": "reprimir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-285",
+  "pt": "persuadir",
+  "zh": "说服",
+  "en": "to persuade",
+  "fr": "persuader",
+  "es": "persuadir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-286",
+  "pt": "seduzir",
+  "zh": "诱惑",
+  "en": "to seduce",
+  "fr": "séduire",
+  "es": "seducir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-287",
+  "pt": "cativar",
+  "zh": "吸引",
+  "en": "to win over",
+  "fr": "captiver",
+  "es": "cautivar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-288",
+  "pt": "angariar",
+  "zh": "募集",
+  "en": "to raise funds",
+  "fr": "recueillir",
+  "es": "recaudar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-289",
+  "pt": "captar",
+  "zh": "争取",
+  "en": "to attract",
+  "fr": "capter",
+  "es": "captar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-290",
+  "pt": "arrecadar",
+  "zh": "征收",
+  "en": "to collect",
+  "fr": "collecter",
+  "es": "recaudar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-291",
+  "pt": "reunir",
+  "zh": "汇集",
+  "en": "to gather",
+  "fr": "réunir",
+  "es": "reunir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-292",
+  "pt": "mobilizar",
+  "zh": "动员",
+  "en": "to mobilise",
+  "fr": "mobiliser",
+  "es": "movilizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-293",
+  "pt": "sensibilizar",
+  "zh": "使关注",
+  "en": "to raise awareness",
+  "fr": "sensibiliser",
+  "es": "sensibilizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-294",
+  "pt": "consciencializar",
+  "zh": "使意识到",
+  "en": "to raise awareness",
+  "fr": "conscientiser",
+  "es": "concienciar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-295",
+  "pt": "alertar",
+  "zh": "提醒",
+  "en": "to warn",
+  "fr": "alerter",
+  "es": "alertar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-296",
+  "pt": "advertir",
+  "zh": "告诫",
+  "en": "to warn",
+  "fr": "avertir",
+  "es": "advertir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-297",
+  "pt": "prevenir",
+  "zh": "预防",
+  "en": "to prevent",
+  "fr": "prévenir",
+  "es": "prevenir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-298",
+  "pt": "amparar",
+  "zh": "保护",
+  "en": "to support",
+  "fr": "protéger",
+  "es": "amparar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-299",
+  "pt": "socorrer",
+  "zh": "救助",
+  "en": "to help",
+  "fr": "secourir",
+  "es": "socorrer",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-300",
+  "pt": "monitorizar",
+  "zh": "监测",
+  "en": "to monitor",
+  "fr": "surveiller",
+  "es": "monitorizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-301",
+  "pt": "harmonizar",
+  "zh": "协调",
+  "en": "to harmonise",
+  "fr": "harmoniser",
+  "es": "armonizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-302",
+  "pt": "compatibilizar",
+  "zh": "使兼容",
+  "en": "to reconcile",
+  "fr": "concilier",
+  "es": "compatibilizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-303",
+  "pt": "fundir",
+  "zh": "合并",
+  "en": "to merge",
+  "fr": "fusionner",
+  "es": "fusionar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-304",
+  "pt": "fragmentar",
+  "zh": "分裂",
+  "en": "to fragment",
+  "fr": "fragmenter",
+  "es": "fragmentar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-305",
+  "pt": "descentralizar",
+  "zh": "下放权力",
+  "en": "to decentralise",
+  "fr": "décentraliser",
+  "es": "descentralizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-306",
+  "pt": "centralizar",
+  "zh": "集中",
+  "en": "to centralise",
+  "fr": "centraliser",
+  "es": "centralizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-307",
+  "pt": "privatizar",
+  "zh": "私有化",
+  "en": "to privatise",
+  "fr": "privatiser",
+  "es": "privatizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-308",
+  "pt": "nacionalizar",
+  "zh": "国有化",
+  "en": "to nationalise",
+  "fr": "nationaliser",
+  "es": "nacionalizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-309",
+  "pt": "legislar",
+  "zh": "立法",
+  "en": "to legislate",
+  "fr": "légiférer",
+  "es": "legislar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-310",
+  "pt": "decretar",
+  "zh": "颁布",
+  "en": "to decree",
+  "fr": "décréter",
+  "es": "decretar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-311",
+  "pt": "prescrever",
+  "zh": "规定",
+  "en": "to prescribe",
+  "fr": "prescrire",
+  "es": "prescribir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-312",
+  "pt": "consagrar",
+  "zh": "确立",
+  "en": "to enshrine",
+  "fr": "consacrer",
+  "es": "consagrar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-313",
+  "pt": "instituir",
+  "zh": "设立",
+  "en": "to institute",
+  "fr": "instituer",
+  "es": "instituir",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-314",
+  "pt": "estabelecer",
+  "zh": "建立",
+  "en": "to establish",
+  "fr": "établir",
+  "es": "establecer",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-315",
+  "pt": "homologar",
+  "zh": "核准",
+  "en": "to approve",
+  "fr": "homologuer",
+  "es": "homologar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-316",
+  "pt": "validar",
+  "zh": "确认有效",
+  "en": "to validate",
+  "fr": "valider",
+  "es": "validar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-317",
+  "pt": "certificar",
+  "zh": "认证",
+  "en": "to certify",
+  "fr": "certifier",
+  "es": "certificar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-318",
+  "pt": "licenciar",
+  "zh": "发放许可",
+  "en": "to license",
+  "fr": "autoriser",
+  "es": "licenciar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-319",
+  "pt": "autorizar",
+  "zh": "授权",
+  "en": "to authorise",
+  "fr": "autoriser",
+  "es": "autorizar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-320",
+  "pt": "arquivar",
+  "zh": "归档；搁置",
+  "en": "to file",
+  "fr": "classer",
+  "es": "archivar",
+  "pos": "verb"
+ },
+ {
+  "id": "b2y-321",
+  "pt": "emergente",
+  "zh": "新兴的",
+  "en": "emerging",
+  "fr": "émergent",
+  "es": "emergente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-322",
+  "pt": "candente",
+  "zh": "迫切的；炽热的",
+  "en": "burning",
+  "fr": "brûlant",
+  "es": "candente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-323",
+  "pt": "gritante",
+  "zh": "触目惊心的",
+  "en": "blatant",
+  "fr": "criant",
+  "es": "flagrante",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-324",
+  "pt": "flagrante",
+  "zh": "明显的",
+  "en": "flagrant",
+  "fr": "flagrant",
+  "es": "manifiesto",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-325",
+  "pt": "extrínseco",
+  "zh": "外在的",
+  "en": "extrinsic",
+  "fr": "extrinsèque",
+  "es": "extrínseco",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-326",
+  "pt": "recíproco",
+  "zh": "相互的",
+  "en": "reciprocal",
+  "fr": "réciproque",
+  "es": "recíproco",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-327",
+  "pt": "unilateral",
+  "zh": "单方面的",
+  "en": "unilateral",
+  "fr": "unilatéral",
+  "es": "unilateral",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-328",
+  "pt": "bilateral",
+  "zh": "双边的",
+  "en": "bilateral",
+  "fr": "bilatéral",
+  "es": "bilateral",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-329",
+  "pt": "multilateral",
+  "zh": "多边的",
+  "en": "multilateral",
+  "fr": "multilatéral",
+  "es": "multilateral",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-330",
+  "pt": "consensual",
+  "zh": "协商一致的",
+  "en": "consensual",
+  "fr": "consensuel",
+  "es": "consensuado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-331",
+  "pt": "controverso",
+  "zh": "有争议的",
+  "en": "controversial",
+  "fr": "controversé",
+  "es": "controvertido",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-332",
+  "pt": "discutível",
+  "zh": "可商榷的",
+  "en": "debatable",
+  "fr": "discutable",
+  "es": "discutible",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-333",
+  "pt": "questionável",
+  "zh": "值得怀疑的",
+  "en": "questionable",
+  "fr": "contestable",
+  "es": "cuestionable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-334",
+  "pt": "legítimo",
+  "zh": "正当的",
+  "en": "legitimate",
+  "fr": "légitime",
+  "es": "legítimo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-335",
+  "pt": "ilegítimo",
+  "zh": "不正当的",
+  "en": "illegitimate",
+  "fr": "illégitime",
+  "es": "ilegítimo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-336",
+  "pt": "lícito",
+  "zh": "合法的",
+  "en": "lawful",
+  "fr": "licite",
+  "es": "lícito",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-337",
+  "pt": "constitucional",
+  "zh": "符合宪法的",
+  "en": "constitutional",
+  "fr": "constitutionnel",
+  "es": "constitucional",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-338",
+  "pt": "inconstitucional",
+  "zh": "违宪的",
+  "en": "unconstitutional",
+  "fr": "inconstitutionnel",
+  "es": "inconstitucional",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-339",
+  "pt": "vinculativo",
+  "zh": "有约束力的",
+  "en": "binding",
+  "fr": "contraignant",
+  "es": "vinculante",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-340",
+  "pt": "imperativo",
+  "zh": "强制性的",
+  "en": "mandatory",
+  "fr": "impératif",
+  "es": "imperativo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-341",
+  "pt": "facultativo",
+  "zh": "可选的",
+  "en": "optional",
+  "fr": "facultatif",
+  "es": "facultativo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-342",
+  "pt": "obrigatório",
+  "zh": "必须的",
+  "en": "compulsory",
+  "fr": "obligatoire",
+  "es": "obligatorio",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-343",
+  "pt": "opcional",
+  "zh": "可选择的",
+  "en": "optional",
+  "fr": "optionnel",
+  "es": "opcional",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-344",
+  "pt": "passível",
+  "zh": "可能遭受的",
+  "en": "liable",
+  "fr": "susceptible",
+  "es": "susceptible",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-345",
+  "pt": "suscetível",
+  "zh": "易受影响的",
+  "en": "susceptible",
+  "fr": "susceptible",
+  "es": "susceptible",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-346",
+  "pt": "propenso",
+  "zh": "倾向于",
+  "en": "prone",
+  "fr": "enclin",
+  "es": "propenso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-347",
+  "pt": "propício",
+  "zh": "有利的",
+  "en": "conducive",
+  "fr": "propice",
+  "es": "propicio",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-348",
+  "pt": "adverso",
+  "zh": "不利的",
+  "en": "adverse",
+  "fr": "défavorable",
+  "es": "adverso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-349",
+  "pt": "favorável",
+  "zh": "有利的",
+  "en": "favourable",
+  "fr": "favorable",
+  "es": "favorable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-350",
+  "pt": "desfavorável",
+  "zh": "不利的",
+  "en": "unfavourable",
+  "fr": "défavorable",
+  "es": "desfavorable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-351",
+  "pt": "atinente",
+  "zh": "有关的",
+  "en": "pertaining",
+  "fr": "relatif à",
+  "es": "relativo a",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-352",
+  "pt": "concernente",
+  "zh": "关于的",
+  "en": "concerning",
+  "fr": "concernant",
+  "es": "concerniente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-353",
+  "pt": "alusivo",
+  "zh": "暗指的",
+  "en": "allusive",
+  "fr": "faisant allusion",
+  "es": "alusivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-354",
+  "pt": "gravoso",
+  "zh": "繁重的；昂贵的",
+  "en": "burdensome",
+  "fr": "onéreux",
+  "es": "gravoso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-355",
+  "pt": "improrrogável",
+  "zh": "不可延期的",
+  "en": "non-extendable",
+  "fr": "non prorogeable",
+  "es": "improrrogable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-356",
+  "pt": "irrevogável",
+  "zh": "不可撤销的",
+  "en": "irrevocable",
+  "fr": "irrévocable",
+  "es": "irrevocable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-357",
+  "pt": "irrepreensível",
+  "zh": "无可指摘的",
+  "en": "irreproachable",
+  "fr": "irréprochable",
+  "es": "irreprochable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-358",
+  "pt": "inabalável",
+  "zh": "坚定不移的",
+  "en": "unwavering",
+  "fr": "inébranlable",
+  "es": "inquebrantable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-359",
+  "pt": "inesgotável",
+  "zh": "取之不尽的",
+  "en": "inexhaustible",
+  "fr": "inépuisable",
+  "es": "inagotable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-360",
+  "pt": "inestimável",
+  "zh": "无法估量的",
+  "en": "invaluable",
+  "fr": "inestimable",
+  "es": "inestimable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-361",
+  "pt": "exorbitante",
+  "zh": "过分的",
+  "en": "excessive",
+  "fr": "exorbitant",
+  "es": "exorbitante",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-362",
+  "pt": "desmesurado",
+  "zh": "过度的",
+  "en": "excessive",
+  "fr": "démesuré",
+  "es": "desmesurado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-363",
+  "pt": "desproporcionado",
+  "zh": "不成比例的",
+  "en": "disproportionate",
+  "fr": "disproportionné",
+  "es": "desproporcionado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-364",
+  "pt": "vultoso",
+  "zh": "巨额的",
+  "en": "substantial",
+  "fr": "important",
+  "es": "cuantioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-365",
+  "pt": "significativo",
+  "zh": "显著的",
+  "en": "significant",
+  "fr": "significatif",
+  "es": "significativo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-366",
+  "pt": "expressivo",
+  "zh": "可观的",
+  "en": "substantial",
+  "fr": "expressif",
+  "es": "expresivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-367",
+  "pt": "residual",
+  "zh": "残余的",
+  "en": "residual",
+  "fr": "résiduel",
+  "es": "residual",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-368",
+  "pt": "marginal",
+  "zh": "边缘的",
+  "en": "marginal",
+  "fr": "marginal",
+  "es": "marginal",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-369",
+  "pt": "periférico",
+  "zh": "外围的",
+  "en": "peripheral",
+  "fr": "périphérique",
+  "es": "periférico",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-370",
+  "pt": "estrutural",
+  "zh": "结构性的",
+  "en": "structural",
+  "fr": "structurel",
+  "es": "estructural",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-371",
+  "pt": "conjuntural",
+  "zh": "形势性的",
+  "en": "cyclical",
+  "fr": "conjoncturel",
+  "es": "coyuntural",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-372",
+  "pt": "cíclico",
+  "zh": "周期性的",
+  "en": "cyclical",
+  "fr": "cyclique",
+  "es": "cíclico",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-373",
+  "pt": "sazonal",
+  "zh": "季节性的",
+  "en": "seasonal",
+  "fr": "saisonnier",
+  "es": "estacional",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-374",
+  "pt": "transitório",
+  "zh": "暂时的",
+  "en": "transient",
+  "fr": "transitoire",
+  "es": "transitorio",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-375",
+  "pt": "duradouro",
+  "zh": "持久的",
+  "en": "lasting",
+  "fr": "durable",
+  "es": "duradero",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-376",
+  "pt": "perene",
+  "zh": "长久的",
+  "en": "perennial",
+  "fr": "pérenne",
+  "es": "perenne",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-377",
+  "pt": "oscilante",
+  "zh": "波动的",
+  "en": "fluctuating",
+  "fr": "fluctuant",
+  "es": "oscilante",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-378",
+  "pt": "estável",
+  "zh": "稳定的",
+  "en": "stable",
+  "fr": "stable",
+  "es": "estable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-379",
+  "pt": "instável",
+  "zh": "不稳定的",
+  "en": "unstable",
+  "fr": "instable",
+  "es": "inestable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-380",
+  "pt": "sustentado",
+  "zh": "有支撑的",
+  "en": "sustained",
+  "fr": "soutenu",
+  "es": "sostenido",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-381",
+  "pt": "consistente",
+  "zh": "坚实的",
+  "en": "consistent",
+  "fr": "consistant",
+  "es": "consistente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-382",
+  "pt": "sólido",
+  "zh": "牢固的",
+  "en": "solid",
+  "fr": "solide",
+  "es": "sólido",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-383",
+  "pt": "robusto",
+  "zh": "强劲的",
+  "en": "robust",
+  "fr": "robuste",
+  "es": "robusto",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-384",
+  "pt": "frágil",
+  "zh": "脆弱的",
+  "en": "fragile",
+  "fr": "fragile",
+  "es": "frágil",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-385",
+  "pt": "adaptável",
+  "zh": "适应性强的",
+  "en": "adaptable",
+  "fr": "adaptable",
+  "es": "adaptable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-386",
+  "pt": "flexível",
+  "zh": "灵活的",
+  "en": "flexible",
+  "fr": "flexible",
+  "es": "flexible",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-387",
+  "pt": "rígido",
+  "zh": "僵化的",
+  "en": "rigid",
+  "fr": "rigide",
+  "es": "rígido",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-388",
+  "pt": "coercivo",
+  "zh": "强制的",
+  "en": "coercive",
+  "fr": "coercitif",
+  "es": "coercitivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-389",
+  "pt": "dissuasor",
+  "zh": "威慑性的",
+  "en": "dissuasive",
+  "fr": "dissuasif",
+  "es": "disuasorio",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-390",
+  "pt": "preventivo",
+  "zh": "预防性的",
+  "en": "preventive",
+  "fr": "préventif",
+  "es": "preventivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-391",
+  "pt": "repressivo",
+  "zh": "压制性的",
+  "en": "repressive",
+  "fr": "répressif",
+  "es": "represivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-392",
+  "pt": "punitivo",
+  "zh": "惩罚性的",
+  "en": "punitive",
+  "fr": "punitif",
+  "es": "punitivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-393",
+  "pt": "sancionatório",
+  "zh": "制裁性的",
+  "en": "sanctioning",
+  "fr": "sanctionnateur",
+  "es": "sancionador",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-394",
+  "pt": "prioritário",
+  "zh": "优先的",
+  "en": "priority",
+  "fr": "prioritaire",
+  "es": "prioritario",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-395",
+  "pt": "secundário",
+  "zh": "次要的",
+  "en": "secondary",
+  "fr": "secondaire",
+  "es": "secundario",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-396",
+  "pt": "acessório",
+  "zh": "附属的",
+  "en": "accessory",
+  "fr": "accessoire",
+  "es": "accesorio",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-397",
+  "pt": "complementar",
+  "zh": "补充的",
+  "en": "complementary",
+  "fr": "complémentaire",
+  "es": "complementario",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-398",
+  "pt": "subsidiário",
+  "zh": "辅助的",
+  "en": "subsidiary",
+  "fr": "subsidiaire",
+  "es": "subsidiario",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-399",
+  "pt": "análogo",
+  "zh": "类似的",
+  "en": "analogous",
+  "fr": "analogue",
+  "es": "análogo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-400",
+  "pt": "homólogo",
+  "zh": "对应的",
+  "en": "corresponding",
+  "fr": "homologue",
+  "es": "homólogo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-401",
+  "pt": "equivalente",
+  "zh": "相当的",
+  "en": "equivalent",
+  "fr": "équivalent",
+  "es": "equivalente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-402",
+  "pt": "equiparável",
+  "zh": "可比的",
+  "en": "comparable",
+  "fr": "comparable",
+  "es": "equiparable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-403",
+  "pt": "homogéneo",
+  "zh": "同质的",
+  "en": "homogeneous",
+  "fr": "homogène",
+  "es": "homogéneo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-404",
+  "pt": "diversificado",
+  "zh": "多样化的",
+  "en": "diversified",
+  "fr": "diversifié",
+  "es": "diversificado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-405",
+  "pt": "plural",
+  "zh": "多元的",
+  "en": "plural",
+  "fr": "pluriel",
+  "es": "plural",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-406",
+  "pt": "íntegro",
+  "zh": "正直的；完整的",
+  "en": "upright",
+  "fr": "intègre",
+  "es": "íntegro",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-407",
+  "pt": "incongruente",
+  "zh": "不一致的",
+  "en": "inconsistent",
+  "fr": "incohérent",
+  "es": "incongruente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-408",
+  "pt": "ilógico",
+  "zh": "不合逻辑的",
+  "en": "illogical",
+  "fr": "illogique",
+  "es": "ilógico",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-409",
+  "pt": "racional",
+  "zh": "理性的",
+  "en": "rational",
+  "fr": "rationnel",
+  "es": "racional",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-410",
+  "pt": "irracional",
+  "zh": "非理性的",
+  "en": "irrational",
+  "fr": "irrationnel",
+  "es": "irracional",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-411",
+  "pt": "razoável",
+  "zh": "合理的",
+  "en": "reasonable",
+  "fr": "raisonnable",
+  "es": "razonable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-412",
+  "pt": "plausível",
+  "zh": "看似合理的",
+  "en": "plausible",
+  "fr": "plausible",
+  "es": "plausible",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-413",
+  "pt": "verosímil",
+  "zh": "逼真的",
+  "en": "plausible",
+  "fr": "vraisemblable",
+  "es": "verosímil",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-414",
+  "pt": "inverosímil",
+  "zh": "不逼真的",
+  "en": "implausible",
+  "fr": "invraisemblable",
+  "es": "inverosímil",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-415",
+  "pt": "credível",
+  "zh": "可信的",
+  "en": "credible",
+  "fr": "crédible",
+  "es": "creíble",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-416",
+  "pt": "inacreditável",
+  "zh": "难以置信的",
+  "en": "unbelievable",
+  "fr": "incroyable",
+  "es": "increíble",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-417",
+  "pt": "evidente",
+  "zh": "明显的",
+  "en": "evident",
+  "fr": "évident",
+  "es": "evidente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-418",
+  "pt": "taxativo",
+  "zh": "明确断然的",
+  "en": "categorical",
+  "fr": "catégorique",
+  "es": "taxativo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-419",
+  "pt": "conciso",
+  "zh": "简洁的",
+  "en": "concise",
+  "fr": "concis",
+  "es": "conciso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-420",
+  "pt": "rebuscado",
+  "zh": "矫揉造作的",
+  "en": "convoluted",
+  "fr": "recherché",
+  "es": "rebuscado",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-421",
+  "pt": "coloquial",
+  "zh": "口语的",
+  "en": "colloquial",
+  "fr": "familier",
+  "es": "coloquial",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-422",
+  "pt": "solene",
+  "zh": "庄重的",
+  "en": "solemn",
+  "fr": "solennel",
+  "es": "solemne",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-423",
+  "pt": "cerimonioso",
+  "zh": "拘礼的",
+  "en": "ceremonious",
+  "fr": "cérémonieux",
+  "es": "ceremonioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-424",
+  "pt": "cordial",
+  "zh": "热诚的",
+  "en": "cordial",
+  "fr": "cordial",
+  "es": "cordial",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-425",
+  "pt": "cortês",
+  "zh": "礼貌的",
+  "en": "courteous",
+  "fr": "courtois",
+  "es": "cortés",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-426",
+  "pt": "afável",
+  "zh": "和蔼的",
+  "en": "affable",
+  "fr": "affable",
+  "es": "afable",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-427",
+  "pt": "hostil",
+  "zh": "敌对的",
+  "en": "hostile",
+  "fr": "hostile",
+  "es": "hostil",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-428",
+  "pt": "acrimonioso",
+  "zh": "尖刻的",
+  "en": "acrimonious",
+  "fr": "acrimonieux",
+  "es": "acrimonioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-429",
+  "pt": "mordaz",
+  "zh": "尖酸讽刺的",
+  "en": "mordant",
+  "fr": "mordant",
+  "es": "mordaz",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-430",
+  "pt": "sarcástico",
+  "zh": "讽刺的",
+  "en": "sarcastic",
+  "fr": "sarcastique",
+  "es": "sarcástico",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-431",
+  "pt": "irónico",
+  "zh": "反讽的",
+  "en": "ironic",
+  "fr": "ironique",
+  "es": "irónico",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-432",
+  "pt": "enfático",
+  "zh": "强调的",
+  "en": "emphatic",
+  "fr": "emphatique",
+  "es": "enfático",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-433",
+  "pt": "incisivo",
+  "zh": "犀利的",
+  "en": "incisive",
+  "fr": "incisif",
+  "es": "incisivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-434",
+  "pt": "assertivo",
+  "zh": "果断的",
+  "en": "assertive",
+  "fr": "affirmé",
+  "es": "asertivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-435",
+  "pt": "persuasivo",
+  "zh": "有说服力的",
+  "en": "persuasive",
+  "fr": "persuasif",
+  "es": "persuasivo",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-436",
+  "pt": "convincente",
+  "zh": "令人信服的",
+  "en": "convincing",
+  "fr": "convaincant",
+  "es": "convincente",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-437",
+  "pt": "tendencioso",
+  "zh": "带倾向性的",
+  "en": "biased",
+  "fr": "tendancieux",
+  "es": "tendencioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-438",
+  "pt": "parcial",
+  "zh": "片面的",
+  "en": "partial",
+  "fr": "partial",
+  "es": "parcial",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-439",
+  "pt": "isento",
+  "zh": "公正不偏的",
+  "en": "impartial",
+  "fr": "impartial",
+  "es": "imparcial",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-440",
+  "pt": "soberano",
+  "zh": "主权的",
+  "en": "sovereign",
+  "fr": "souverain",
+  "es": "soberano",
+  "pos": "adjective"
+ },
+ {
+  "id": "b2y-441",
+  "pt": "designadamente",
+  "zh": "尤其是",
+  "en": "namely",
+  "fr": "notamment",
+  "es": "en particular",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-442",
+  "pt": "concretamente",
+  "zh": "具体地",
+  "en": "concretely",
+  "fr": "concrètement",
+  "es": "concretamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-443",
+  "pt": "efetivamente",
+  "zh": "确实",
+  "en": "indeed",
+  "fr": "effectivement",
+  "es": "efectivamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-444",
+  "pt": "alegadamente",
+  "zh": "据称",
+  "en": "allegedly",
+  "fr": "prétendument",
+  "es": "presuntamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-445",
+  "pt": "supostamente",
+  "zh": "据推测",
+  "en": "supposedly",
+  "fr": "supposément",
+  "es": "supuestamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-446",
+  "pt": "pretensamente",
+  "zh": "自称地",
+  "en": "supposedly",
+  "fr": "prétendument",
+  "es": "presuntamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-447",
+  "pt": "indevidamente",
+  "zh": "不当地",
+  "en": "improperly",
+  "fr": "indûment",
+  "es": "indebidamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-448",
+  "pt": "devidamente",
+  "zh": "适当地",
+  "en": "duly",
+  "fr": "dûment",
+  "es": "debidamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-449",
+  "pt": "cabalmente",
+  "zh": "充分地",
+  "en": "fully",
+  "fr": "pleinement",
+  "es": "plenamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-450",
+  "pt": "plenamente",
+  "zh": "完全地",
+  "en": "fully",
+  "fr": "pleinement",
+  "es": "plenamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-451",
+  "pt": "integralmente",
+  "zh": "完整地",
+  "en": "fully",
+  "fr": "intégralement",
+  "es": "íntegramente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-452",
+  "pt": "parcialmente",
+  "zh": "部分地",
+  "en": "partly",
+  "fr": "partiellement",
+  "es": "parcialmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-453",
+  "pt": "maioritariamente",
+  "zh": "多数地",
+  "en": "mostly",
+  "fr": "majoritairement",
+  "es": "mayoritariamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-454",
+  "pt": "minoritariamente",
+  "zh": "少数地",
+  "en": "in the minority",
+  "fr": "minoritairement",
+  "es": "minoritariamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-455",
+  "pt": "paulatinamente",
+  "zh": "逐步地",
+  "en": "gradually",
+  "fr": "progressivement",
+  "es": "paulatinamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-456",
+  "pt": "gradativamente",
+  "zh": "渐进地",
+  "en": "gradually",
+  "fr": "graduellement",
+  "es": "gradualmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-457",
+  "pt": "presentemente",
+  "zh": "目前",
+  "en": "currently",
+  "fr": "actuellement",
+  "es": "actualmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-458",
+  "pt": "anteriormente",
+  "zh": "先前",
+  "en": "previously",
+  "fr": "auparavant",
+  "es": "anteriormente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-459",
+  "pt": "posteriormente",
+  "zh": "后来",
+  "en": "subsequently",
+  "fr": "ultérieurement",
+  "es": "posteriormente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-460",
+  "pt": "simultaneamente",
+  "zh": "同时",
+  "en": "simultaneously",
+  "fr": "simultanément",
+  "es": "simultáneamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-461",
+  "pt": "alternadamente",
+  "zh": "交替地",
+  "en": "alternately",
+  "fr": "alternativement",
+  "es": "alternadamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-462",
+  "pt": "recorrentemente",
+  "zh": "反复地",
+  "en": "repeatedly",
+  "fr": "de façon récurrente",
+  "es": "recurrentemente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-463",
+  "pt": "esporadicamente",
+  "zh": "偶尔",
+  "en": "sporadically",
+  "fr": "sporadiquement",
+  "es": "esporádicamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-464",
+  "pt": "inevitavelmente",
+  "zh": "不可避免地",
+  "en": "inevitably",
+  "fr": "inévitablement",
+  "es": "inevitablemente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-465",
+  "pt": "inexoravelmente",
+  "zh": "不可阻挡地",
+  "en": "inexorably",
+  "fr": "inexorablement",
+  "es": "inexorablemente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-466",
+  "pt": "indubitavelmente",
+  "zh": "毫无疑问地",
+  "en": "undoubtedly",
+  "fr": "indubitablement",
+  "es": "indudablemente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-467",
+  "pt": "presumivelmente",
+  "zh": "推测上",
+  "en": "presumably",
+  "fr": "présumablement",
+  "es": "presumiblemente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-468",
+  "pt": "aparentemente",
+  "zh": "表面上",
+  "en": "apparently",
+  "fr": "apparemment",
+  "es": "aparentemente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-469",
+  "pt": "manifestamente",
+  "zh": "明显地",
+  "en": "manifestly",
+  "fr": "manifestement",
+  "es": "manifiestamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-470",
+  "pt": "notoriamente",
+  "zh": "众所周知",
+  "en": "notoriously",
+  "fr": "notoirement",
+  "es": "notoriamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-471",
+  "pt": "conquanto",
+  "zh": "尽管",
+  "en": "although",
+  "fr": "bien que",
+  "es": "aunque",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-472",
+  "pt": "porquanto",
+  "zh": "因为",
+  "en": "because",
+  "fr": "car",
+  "es": "puesto que",
+  "pos": "adverb"
+ },
+ {
+  "id": "b2y-473",
+  "pt": "posto que",
+  "zh": "既然",
+  "en": "given that",
+  "fr": "étant donné que",
+  "es": "puesto que",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-474",
+  "pt": "visto que",
+  "zh": "鉴于",
+  "en": "seeing that",
+  "fr": "vu que",
+  "es": "visto que",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-475",
+  "pt": "dado que",
+  "zh": "鉴于",
+  "en": "given that",
+  "fr": "étant donné que",
+  "es": "dado que",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-476",
+  "pt": "uma vez que",
+  "zh": "既然",
+  "en": "since",
+  "fr": "puisque",
+  "es": "una vez que",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-477",
+  "pt": "contanto que",
+  "zh": "只要",
+  "en": "provided that",
+  "fr": "pourvu que",
+  "es": "siempre que",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-478",
+  "pt": "salvo se",
+  "zh": "除非",
+  "en": "unless",
+  "fr": "sauf si",
+  "es": "salvo si",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-479",
+  "pt": "exceto se",
+  "zh": "除非",
+  "en": "unless",
+  "fr": "sauf si",
+  "es": "salvo si",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-480",
+  "pt": "ainda assim",
+  "zh": "即便如此",
+  "en": "even so",
+  "fr": "même ainsi",
+  "es": "aun así",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-481",
+  "pt": "por consequência",
+  "zh": "因此",
+  "en": "consequently",
+  "fr": "par conséquent",
+  "es": "en consecuencia",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-482",
+  "pt": "por sua vez",
+  "zh": "转而",
+  "en": "in turn",
+  "fr": "à son tour",
+  "es": "a su vez",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-483",
+  "pt": "a par de",
+  "zh": "与…并列",
+  "en": "alongside",
+  "fr": "à côté de",
+  "es": "a la par de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-484",
+  "pt": "à luz de",
+  "zh": "依据",
+  "en": "in the light of",
+  "fr": "à la lumière de",
+  "es": "a la luz de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-485",
+  "pt": "em detrimento de",
+  "zh": "有损于",
+  "en": "to the detriment of",
+  "fr": "au détriment de",
+  "es": "en detrimento de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-486",
+  "pt": "ao invés de",
+  "zh": "而非",
+  "en": "instead of",
+  "fr": "au lieu de",
+  "es": "en lugar de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-487",
+  "pt": "em virtude de",
+  "zh": "由于",
+  "en": "by virtue of",
+  "fr": "en vertu de",
+  "es": "en virtud de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-488",
+  "pt": "a título de",
+  "zh": "作为",
+  "en": "by way of",
+  "fr": "à titre de",
+  "es": "a título de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-489",
+  "pt": "em termos de",
+  "zh": "在…方面",
+  "en": "in terms of",
+  "fr": "en termes de",
+  "es": "en términos de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-490",
+  "pt": "no âmbito de",
+  "zh": "在…范围内",
+  "en": "within the scope of",
+  "fr": "dans le cadre de",
+  "es": "en el ámbito de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-491",
+  "pt": "com vista a",
+  "zh": "以期",
+  "en": "with a view to",
+  "fr": "en vue de",
+  "es": "con vistas a",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-492",
+  "pt": "tendo em vista",
+  "zh": "考虑到",
+  "en": "bearing in mind",
+  "fr": "compte tenu de",
+  "es": "teniendo en cuenta",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-493",
+  "pt": "de modo a",
+  "zh": "以便",
+  "en": "so as to",
+  "fr": "de manière à",
+  "es": "con el fin de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-494",
+  "pt": "por forma a",
+  "zh": "以便",
+  "en": "so as to",
+  "fr": "de façon à",
+  "es": "a fin de",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-495",
+  "pt": "na sequência de",
+  "zh": "在…之后",
+  "en": "following",
+  "fr": "à la suite de",
+  "es": "tras",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-496",
+  "pt": "em larga medida",
+  "zh": "在很大程度上",
+  "en": "to a large extent",
+  "fr": "dans une large mesure",
+  "es": "en gran medida",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-497",
+  "pt": "em última análise",
+  "zh": "归根结底",
+  "en": "in the final analysis",
+  "fr": "en dernière analyse",
+  "es": "en última instancia",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-498",
+  "pt": "em suma",
+  "zh": "总之",
+  "en": "in short",
+  "fr": "en somme",
+  "es": "en suma",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-499",
+  "pt": "em síntese",
+  "zh": "概括地说",
+  "en": "in summary",
+  "fr": "en synthèse",
+  "es": "en síntesis",
+  "pos": "phrase"
+ },
+ {
+  "id": "b2y-500",
+  "pt": "grosso modo",
+  "zh": "大致上",
+  "en": "roughly",
+  "fr": "grosso modo",
+  "es": "a grandes rasgos",
+  "pos": "phrase"
+ }
+]

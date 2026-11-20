@@ -1,0 +1,4502 @@
+[
+ {
+  "id": "a1y-001",
+  "pt": "bisavó",
+  "zh": "曾祖母",
+  "en": "great-grandmother",
+  "fr": "l'arrière-grand-mère",
+  "es": "la bisabuela",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-002",
+  "pt": "gémeos",
+  "zh": "双胞胎",
+  "en": "twins",
+  "fr": "les jumeaux",
+  "es": "los gemelos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-003",
+  "pt": "cunhada",
+  "zh": "嫂子；弟媳",
+  "en": "sister-in-law",
+  "fr": "la belle-sœur",
+  "es": "la cuñada",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-004",
+  "pt": "afilhada",
+  "zh": "教女",
+  "en": "goddaughter",
+  "fr": "la filleule",
+  "es": "la ahijada",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-005",
+  "pt": "adolescente",
+  "zh": "青少年",
+  "en": "teenager",
+  "fr": "l'adolescent",
+  "es": "el adolescente",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-006",
+  "pt": "conhecido",
+  "zh": "熟人",
+  "en": "acquaintance",
+  "fr": "la connaissance",
+  "es": "el conocido",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-007",
+  "pt": "desconhecido",
+  "zh": "陌生人",
+  "en": "stranger",
+  "fr": "l'inconnu",
+  "es": "el desconocido",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-008",
+  "pt": "vizinha",
+  "zh": "女邻居",
+  "en": "neighbour (female)",
+  "fr": "la voisine",
+  "es": "la vecina",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-009",
+  "pt": "meio-irmão",
+  "zh": "同父异母（同母异父）的兄弟",
+  "en": "half-brother",
+  "fr": "le demi-frère",
+  "es": "el medio hermano",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-010",
+  "pt": "voz",
+  "zh": "嗓音",
+  "en": "voice",
+  "fr": "la voix",
+  "es": "la voz",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-011",
+  "pt": "barriga",
+  "zh": "肚子",
+  "en": "belly",
+  "fr": "le ventre",
+  "es": "la barriga",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-012",
+  "pt": "ombro",
+  "zh": "肩膀",
+  "en": "shoulder",
+  "fr": "l'épaule",
+  "es": "el hombro",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-013",
+  "pt": "cotovelo",
+  "zh": "肘部",
+  "en": "elbow",
+  "fr": "le coude",
+  "es": "el codo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-014",
+  "pt": "pulso",
+  "zh": "手腕",
+  "en": "wrist",
+  "fr": "le poignet",
+  "es": "la muñeca",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-015",
+  "pt": "tornozelo",
+  "zh": "脚踝",
+  "en": "ankle",
+  "fr": "la cheville",
+  "es": "el tobillo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-016",
+  "pt": "calcanhar",
+  "zh": "脚跟",
+  "en": "heel",
+  "fr": "le talon",
+  "es": "el talón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-017",
+  "pt": "bochecha",
+  "zh": "脸颊",
+  "en": "cheek",
+  "fr": "la joue",
+  "es": "la mejilla",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-018",
+  "pt": "queixo",
+  "zh": "下巴",
+  "en": "chin",
+  "fr": "le menton",
+  "es": "la barbilla",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-019",
+  "pt": "testa",
+  "zh": "额头",
+  "en": "forehead",
+  "fr": "le front",
+  "es": "la frente",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-020",
+  "pt": "sobrancelha",
+  "zh": "眉毛",
+  "en": "eyebrow",
+  "fr": "le sourcil",
+  "es": "la ceja",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-021",
+  "pt": "pestanas",
+  "zh": "睫毛",
+  "en": "eyelashes",
+  "fr": "les cils",
+  "es": "las pestañas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-022",
+  "pt": "unha",
+  "zh": "指甲",
+  "en": "nail",
+  "fr": "l'ongle",
+  "es": "la uña",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-023",
+  "pt": "peito",
+  "zh": "胸部",
+  "en": "chest",
+  "fr": "la poitrine",
+  "es": "el pecho",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-024",
+  "pt": "coxa",
+  "zh": "大腿",
+  "en": "thigh",
+  "fr": "la cuisse",
+  "es": "el muslo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-025",
+  "pt": "umbigo",
+  "zh": "肚脐",
+  "en": "navel",
+  "fr": "le nombril",
+  "es": "el ombligo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-026",
+  "pt": "quadril",
+  "zh": "髋部",
+  "en": "hip",
+  "fr": "la hanche",
+  "es": "la cadera",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-027",
+  "pt": "nádegas",
+  "zh": "臀部",
+  "en": "buttocks",
+  "fr": "les fesses",
+  "es": "las nalgas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-028",
+  "pt": "costelas",
+  "zh": "肋骨",
+  "en": "ribs",
+  "fr": "les côtes",
+  "es": "las costillas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-029",
+  "pt": "veia",
+  "zh": "静脉",
+  "en": "vein",
+  "fr": "la veine",
+  "es": "la vena",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-030",
+  "pt": "barba",
+  "zh": "胡子",
+  "en": "beard",
+  "fr": "la barbe",
+  "es": "la barba",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-031",
+  "pt": "bigode",
+  "zh": "小胡子",
+  "en": "moustache",
+  "fr": "la moustache",
+  "es": "el bigote",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-032",
+  "pt": "sinal",
+  "zh": "痣",
+  "en": "mole (on the skin)",
+  "fr": "le grain de beauté",
+  "es": "el lunar",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-033",
+  "pt": "dedo do pé",
+  "zh": "脚趾",
+  "en": "toe",
+  "fr": "l'orteil",
+  "es": "el dedo del pie",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-034",
+  "pt": "melancia",
+  "zh": "西瓜",
+  "en": "watermelon",
+  "fr": "la pastèque",
+  "es": "la sandía",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-035",
+  "pt": "melão",
+  "zh": "甜瓜",
+  "en": "melon",
+  "fr": "le melon",
+  "es": "el melón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-036",
+  "pt": "pêssego",
+  "zh": "桃子",
+  "en": "peach",
+  "fr": "la pêche",
+  "es": "el melocotón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-037",
+  "pt": "ananás",
+  "zh": "菠萝",
+  "en": "pineapple",
+  "fr": "l'ananas",
+  "es": "la piña",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-038",
+  "pt": "cereja",
+  "zh": "樱桃",
+  "en": "cherry",
+  "fr": "la cerise",
+  "es": "la cereza",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-039",
+  "pt": "ameixa",
+  "zh": "李子",
+  "en": "plum",
+  "fr": "la prune",
+  "es": "la ciruela",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-040",
+  "pt": "figo",
+  "zh": "无花果",
+  "en": "fig",
+  "fr": "la figue",
+  "es": "el higo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-041",
+  "pt": "tangerina",
+  "zh": "橘子",
+  "en": "tangerine",
+  "fr": "la mandarine",
+  "es": "la mandarina",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-042",
+  "pt": "manga",
+  "zh": "芒果",
+  "en": "mango",
+  "fr": "la mangue",
+  "es": "el mango",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-043",
+  "pt": "abacate",
+  "zh": "牛油果",
+  "en": "avocado",
+  "fr": "l'avocat",
+  "es": "el aguacate",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-044",
+  "pt": "coco",
+  "zh": "椰子",
+  "en": "coconut",
+  "fr": "la noix de coco",
+  "es": "el coco",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-045",
+  "pt": "nozes",
+  "zh": "核桃",
+  "en": "walnuts",
+  "fr": "les noix",
+  "es": "las nueces",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-046",
+  "pt": "amêndoas",
+  "zh": "杏仁",
+  "en": "almonds",
+  "fr": "les amandes",
+  "es": "las almendras",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-047",
+  "pt": "castanhas",
+  "zh": "栗子",
+  "en": "chestnuts",
+  "fr": "les châtaignes",
+  "es": "las castañas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-048",
+  "pt": "passas",
+  "zh": "葡萄干",
+  "en": "raisins",
+  "fr": "les raisins secs",
+  "es": "las pasas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-049",
+  "pt": "brócolos",
+  "zh": "西兰花",
+  "en": "broccoli",
+  "fr": "le brocoli",
+  "es": "el brócoli",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-050",
+  "pt": "couve-flor",
+  "zh": "花椰菜",
+  "en": "cauliflower",
+  "fr": "le chou-fleur",
+  "es": "la coliflor",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-051",
+  "pt": "espinafre",
+  "zh": "菠菜",
+  "en": "spinach",
+  "fr": "les épinards",
+  "es": "las espinacas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-052",
+  "pt": "curgete",
+  "zh": "西葫芦",
+  "en": "courgette",
+  "fr": "la courgette",
+  "es": "el calabacín",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-053",
+  "pt": "beringela",
+  "zh": "茄子",
+  "en": "aubergine",
+  "fr": "l'aubergine",
+  "es": "la berenjena",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-054",
+  "pt": "pimento",
+  "zh": "甜椒",
+  "en": "bell pepper",
+  "fr": "le poivron",
+  "es": "el pimiento",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-055",
+  "pt": "abóbora",
+  "zh": "南瓜",
+  "en": "pumpkin",
+  "fr": "la citrouille",
+  "es": "la calabaza",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-056",
+  "pt": "nabo",
+  "zh": "芜菁",
+  "en": "turnip",
+  "fr": "le navet",
+  "es": "el nabo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-057",
+  "pt": "rabanete",
+  "zh": "小红萝卜",
+  "en": "radish",
+  "fr": "le radis",
+  "es": "el rábano",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-058",
+  "pt": "aipo",
+  "zh": "芹菜",
+  "en": "celery",
+  "fr": "le céleri",
+  "es": "el apio",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-059",
+  "pt": "alho-francês",
+  "zh": "韭葱",
+  "en": "leek",
+  "fr": "le poireau",
+  "es": "el puerro",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-060",
+  "pt": "cogumelos",
+  "zh": "蘑菇",
+  "en": "mushrooms",
+  "fr": "les champignons",
+  "es": "los champiñones",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-061",
+  "pt": "milho",
+  "zh": "玉米",
+  "en": "corn",
+  "fr": "le maïs",
+  "es": "el maíz",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-062",
+  "pt": "ervilhas",
+  "zh": "豌豆",
+  "en": "peas",
+  "fr": "les petits pois",
+  "es": "los guisantes",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-063",
+  "pt": "grão-de-bico",
+  "zh": "鹰嘴豆",
+  "en": "chickpeas",
+  "fr": "les pois chiches",
+  "es": "los garbanzos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-064",
+  "pt": "lentilhas",
+  "zh": "扁豆",
+  "en": "lentils",
+  "fr": "les lentilles",
+  "es": "las lentejas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-065",
+  "pt": "batata-doce",
+  "zh": "红薯",
+  "en": "sweet potato",
+  "fr": "la patate douce",
+  "es": "la batata",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-066",
+  "pt": "couve",
+  "zh": "卷心菜",
+  "en": "cabbage",
+  "fr": "le chou",
+  "es": "la col",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-067",
+  "pt": "mel",
+  "zh": "蜂蜜",
+  "en": "honey",
+  "fr": "le miel",
+  "es": "la miel",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-068",
+  "pt": "compota",
+  "zh": "果酱",
+  "en": "jam",
+  "fr": "la confiture",
+  "es": "la mermelada",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-069",
+  "pt": "amendoim",
+  "zh": "花生",
+  "en": "peanut",
+  "fr": "la cacahuète",
+  "es": "el cacahuete",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-070",
+  "pt": "cereais",
+  "zh": "麦片",
+  "en": "cereal",
+  "fr": "les céréales",
+  "es": "los cereales",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-071",
+  "pt": "aveia",
+  "zh": "燕麦",
+  "en": "oats",
+  "fr": "l'avoine",
+  "es": "la avena",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-072",
+  "pt": "tosta",
+  "zh": "烤三明治",
+  "en": "toasted sandwich",
+  "fr": "le sandwich grillé",
+  "es": "el sándwich tostado",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-073",
+  "pt": "torrada",
+  "zh": "吐司",
+  "en": "toast",
+  "fr": "la tartine grillée",
+  "es": "la tostada",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-074",
+  "pt": "hambúrguer",
+  "zh": "汉堡包",
+  "en": "hamburger",
+  "fr": "le hamburger",
+  "es": "la hamburguesa",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-075",
+  "pt": "pizza",
+  "zh": "比萨饼",
+  "en": "pizza",
+  "fr": "la pizza",
+  "es": "la pizza",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-076",
+  "pt": "esparguete",
+  "zh": "意大利面",
+  "en": "spaghetti",
+  "fr": "les spaghettis",
+  "es": "los espaguetis",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-077",
+  "pt": "batatas fritas",
+  "zh": "炸薯条",
+  "en": "chips",
+  "fr": "les frites",
+  "es": "las patatas fritas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-078",
+  "pt": "atum",
+  "zh": "金枪鱼",
+  "en": "tuna",
+  "fr": "le thon",
+  "es": "el atún",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-079",
+  "pt": "salmão",
+  "zh": "三文鱼",
+  "en": "salmon",
+  "fr": "le saumon",
+  "es": "el salmón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-080",
+  "pt": "sardinha",
+  "zh": "沙丁鱼",
+  "en": "sardine",
+  "fr": "la sardine",
+  "es": "la sardina",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-081",
+  "pt": "polvo",
+  "zh": "章鱼",
+  "en": "octopus",
+  "fr": "le poulpe",
+  "es": "el pulpo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-082",
+  "pt": "lulas",
+  "zh": "鱿鱼",
+  "en": "squid",
+  "fr": "les calamars",
+  "es": "los calamares",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-083",
+  "pt": "marisco",
+  "zh": "海鲜",
+  "en": "seafood",
+  "fr": "les fruits de mer",
+  "es": "el marisco",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-084",
+  "pt": "omelete",
+  "zh": "煎蛋卷",
+  "en": "omelette",
+  "fr": "l'omelette",
+  "es": "la tortilla",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-085",
+  "pt": "natas",
+  "zh": "奶油",
+  "en": "cream",
+  "fr": "la crème",
+  "es": "la nata",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-086",
+  "pt": "tarte",
+  "zh": "馅饼",
+  "en": "tart",
+  "fr": "la tarte",
+  "es": "la tarta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-087",
+  "pt": "rebuçado",
+  "zh": "糖果",
+  "en": "sweet",
+  "fr": "le bonbon",
+  "es": "el caramelo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-088",
+  "pt": "pastilha elástica",
+  "zh": "口香糖",
+  "en": "chewing gum",
+  "fr": "le chewing-gum",
+  "es": "el chicle",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-089",
+  "pt": "batido",
+  "zh": "奶昔",
+  "en": "milkshake",
+  "fr": "le milkshake",
+  "es": "el batido",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-090",
+  "pt": "roupeiro",
+  "zh": "衣柜",
+  "en": "wardrobe",
+  "fr": "l'armoire",
+  "es": "el armario",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-091",
+  "pt": "cómoda",
+  "zh": "抽屉柜",
+  "en": "chest of drawers",
+  "fr": "la commode",
+  "es": "la cómoda",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-092",
+  "pt": "travesseiro",
+  "zh": "枕头",
+  "en": "pillow",
+  "fr": "l'oreiller",
+  "es": "la almohada",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-093",
+  "pt": "alcatifa",
+  "zh": "满铺地毯",
+  "en": "carpet",
+  "fr": "la moquette",
+  "es": "la moqueta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-094",
+  "pt": "estores",
+  "zh": "卷帘",
+  "en": "roller blinds",
+  "fr": "les stores",
+  "es": "las persianas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-095",
+  "pt": "sabão",
+  "zh": "肥皂",
+  "en": "soap",
+  "fr": "le savon",
+  "es": "el jabón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-096",
+  "pt": "sabonete",
+  "zh": "香皂",
+  "en": "toilet soap",
+  "fr": "le savon de toilette",
+  "es": "el jabón de tocador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-097",
+  "pt": "champô",
+  "zh": "洗发水",
+  "en": "shampoo",
+  "fr": "le shampooing",
+  "es": "el champú",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-098",
+  "pt": "pasta de dentes",
+  "zh": "牙膏",
+  "en": "toothpaste",
+  "fr": "le dentifrice",
+  "es": "la pasta de dientes",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-099",
+  "pt": "escova de dentes",
+  "zh": "牙刷",
+  "en": "toothbrush",
+  "fr": "la brosse à dents",
+  "es": "el cepillo de dientes",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-100",
+  "pt": "escova do cabelo",
+  "zh": "发刷",
+  "en": "hairbrush",
+  "fr": "la brosse à cheveux",
+  "es": "el cepillo del pelo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-101",
+  "pt": "pente",
+  "zh": "梳子",
+  "en": "comb",
+  "fr": "le peigne",
+  "es": "el peine",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-102",
+  "pt": "secador",
+  "zh": "吹风机",
+  "en": "hairdryer",
+  "fr": "le sèche-cheveux",
+  "es": "el secador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-103",
+  "pt": "chaminé",
+  "zh": "烟囱",
+  "en": "chimney",
+  "fr": "le conduit de cheminée",
+  "es": "la chimenea",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-104",
+  "pt": "lareira",
+  "zh": "壁炉",
+  "en": "fireplace",
+  "fr": "la cheminée",
+  "es": "el hogar",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-105",
+  "pt": "aquecedor",
+  "zh": "取暖器",
+  "en": "heater",
+  "fr": "le radiateur",
+  "es": "el calentador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-106",
+  "pt": "ventilador",
+  "zh": "风扇",
+  "en": "fan",
+  "fr": "le ventilateur",
+  "es": "el ventilador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-107",
+  "pt": "extensão",
+  "zh": "插线板",
+  "en": "extension lead",
+  "fr": "la rallonge",
+  "es": "la alargadera",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-108",
+  "pt": "poltrona",
+  "zh": "扶手椅",
+  "en": "armchair",
+  "fr": "le fauteuil",
+  "es": "el sillón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-109",
+  "pt": "mesa de cabeceira",
+  "zh": "床头柜",
+  "en": "bedside table",
+  "fr": "la table de chevet",
+  "es": "la mesilla de noche",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-110",
+  "pt": "berço",
+  "zh": "婴儿床",
+  "en": "cot",
+  "fr": "le berceau",
+  "es": "la cuna",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-111",
+  "pt": "carrinho de bebé",
+  "zh": "婴儿车",
+  "en": "pram",
+  "fr": "la poussette",
+  "es": "el cochecito",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-112",
+  "pt": "vaso",
+  "zh": "花瓶",
+  "en": "vase",
+  "fr": "le vase",
+  "es": "el jarrón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-113",
+  "pt": "planta",
+  "zh": "植物",
+  "en": "plant",
+  "fr": "la plante",
+  "es": "la planta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-114",
+  "pt": "flor",
+  "zh": "花",
+  "en": "flower",
+  "fr": "la fleur",
+  "es": "la flor",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-115",
+  "pt": "máquina de lavar loiça",
+  "zh": "洗碗机",
+  "en": "dishwasher",
+  "fr": "le lave-vaisselle",
+  "es": "el lavavajillas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-116",
+  "pt": "saco do lixo",
+  "zh": "垃圾袋",
+  "en": "bin bag",
+  "fr": "le sac-poubelle",
+  "es": "la bolsa de basura",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-117",
+  "pt": "cesto da roupa",
+  "zh": "洗衣篮",
+  "en": "laundry basket",
+  "fr": "le panier à linge",
+  "es": "el cesto de la ropa",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-118",
+  "pt": "toalha de rosto",
+  "zh": "洗脸毛巾",
+  "en": "hand towel",
+  "fr": "la serviette de toilette",
+  "es": "la toalla de manos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-119",
+  "pt": "toalha de mesa",
+  "zh": "桌布",
+  "en": "tablecloth",
+  "fr": "la nappe",
+  "es": "el mantel",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-120",
+  "pt": "tigela",
+  "zh": "碗",
+  "en": "bowl",
+  "fr": "le bol",
+  "es": "el cuenco",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-121",
+  "pt": "caneca",
+  "zh": "马克杯",
+  "en": "mug",
+  "fr": "la tasse",
+  "es": "la taza",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-122",
+  "pt": "talheres",
+  "zh": "餐具",
+  "en": "cutlery",
+  "fr": "les couverts",
+  "es": "los cubiertos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-123",
+  "pt": "tábua de cozinha",
+  "zh": "砧板",
+  "en": "chopping board",
+  "fr": "la planche à découper",
+  "es": "la tabla de cortar",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-124",
+  "pt": "saca-rolhas",
+  "zh": "开瓶器",
+  "en": "corkscrew",
+  "fr": "le tire-bouchon",
+  "es": "el sacacorchos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-125",
+  "pt": "abre-latas",
+  "zh": "开罐器",
+  "en": "can opener",
+  "fr": "l'ouvre-boîtes",
+  "es": "el abrelatas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-126",
+  "pt": "torradeira",
+  "zh": "烤面包机",
+  "en": "toaster",
+  "fr": "le grille-pain",
+  "es": "la tostadora",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-127",
+  "pt": "chaleira",
+  "zh": "水壶",
+  "en": "kettle",
+  "fr": "la bouilloire",
+  "es": "el hervidor",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-128",
+  "pt": "cafeteira",
+  "zh": "咖啡机",
+  "en": "coffee machine",
+  "fr": "la cafetière",
+  "es": "la cafetera",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-129",
+  "pt": "tacho",
+  "zh": "深锅",
+  "en": "pot",
+  "fr": "la casserole",
+  "es": "el cazo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-130",
+  "pt": "largo",
+  "zh": "小广场",
+  "en": "small square",
+  "fr": "la petite place",
+  "es": "la placita",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-131",
+  "pt": "beco",
+  "zh": "小巷",
+  "en": "alley",
+  "fr": "la ruelle",
+  "es": "el callejón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-132",
+  "pt": "calçada",
+  "zh": "铺石路面",
+  "en": "cobbled pavement",
+  "fr": "le pavé",
+  "es": "el empedrado",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-133",
+  "pt": "estádio",
+  "zh": "体育场",
+  "en": "stadium",
+  "fr": "le stade",
+  "es": "el estadio",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-134",
+  "pt": "jardim zoológico",
+  "zh": "动物园",
+  "en": "zoo",
+  "fr": "le zoo",
+  "es": "el zoo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-135",
+  "pt": "aquário",
+  "zh": "水族馆",
+  "en": "aquarium",
+  "fr": "l'aquarium",
+  "es": "el acuario",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-136",
+  "pt": "parque infantil",
+  "zh": "儿童游乐场",
+  "en": "playground",
+  "fr": "le terrain de jeux",
+  "es": "el parque infantil",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-137",
+  "pt": "cemitério",
+  "zh": "墓地",
+  "en": "cemetery",
+  "fr": "le cimetière",
+  "es": "el cementerio",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-138",
+  "pt": "capela",
+  "zh": "小教堂",
+  "en": "chapel",
+  "fr": "la chapelle",
+  "es": "la capilla",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-139",
+  "pt": "palácio",
+  "zh": "宫殿",
+  "en": "palace",
+  "fr": "le palais",
+  "es": "el palacio",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-140",
+  "pt": "torre",
+  "zh": "塔",
+  "en": "tower",
+  "fr": "la tour",
+  "es": "la torre",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-141",
+  "pt": "estátua",
+  "zh": "雕像",
+  "en": "statue",
+  "fr": "la statue",
+  "es": "la estatua",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-142",
+  "pt": "lagoa",
+  "zh": "小湖",
+  "en": "lagoon",
+  "fr": "la lagune",
+  "es": "la laguna",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-143",
+  "pt": "cais",
+  "zh": "码头",
+  "en": "quay",
+  "fr": "le quai",
+  "es": "el muelle",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-144",
+  "pt": "túnel",
+  "zh": "隧道",
+  "en": "tunnel",
+  "fr": "le tunnel",
+  "es": "el túnel",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-145",
+  "pt": "escada rolante",
+  "zh": "自动扶梯",
+  "en": "escalator",
+  "fr": "l'escalier roulant",
+  "es": "la escalera mecánica",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-146",
+  "pt": "clínica",
+  "zh": "诊所",
+  "en": "clinic",
+  "fr": "la clinique",
+  "es": "la clínica",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-147",
+  "pt": "consultório",
+  "zh": "诊室",
+  "en": "doctor's surgery",
+  "fr": "le cabinet médical",
+  "es": "el consultorio",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-148",
+  "pt": "junta de freguesia",
+  "zh": "教区委员会",
+  "en": "parish council",
+  "fr": "la mairie de quartier",
+  "es": "la junta de freguesia",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-149",
+  "pt": "livraria",
+  "zh": "书店",
+  "en": "bookshop",
+  "fr": "la librairie",
+  "es": "la librería",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-150",
+  "pt": "papelaria",
+  "zh": "文具店",
+  "en": "stationery shop",
+  "fr": "la papeterie",
+  "es": "la papelería",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-151",
+  "pt": "florista",
+  "zh": "花店；花商",
+  "en": "florist",
+  "fr": "le fleuriste",
+  "es": "la floristería",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-152",
+  "pt": "bar",
+  "zh": "酒吧",
+  "en": "bar",
+  "fr": "le bar",
+  "es": "el bar",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-153",
+  "pt": "bomba de gasolina",
+  "zh": "加油站",
+  "en": "petrol station",
+  "fr": "la station-service",
+  "es": "la gasolinera",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-154",
+  "pt": "zona",
+  "zh": "区域",
+  "en": "area",
+  "fr": "la zone",
+  "es": "la zona",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-155",
+  "pt": "caixa do correio",
+  "zh": "信箱",
+  "en": "letterbox",
+  "fr": "la boîte aux lettres",
+  "es": "el buzón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-156",
+  "pt": "ladeira",
+  "zh": "斜坡",
+  "en": "slope",
+  "fr": "la pente",
+  "es": "la cuesta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-157",
+  "pt": "pneu",
+  "zh": "轮胎",
+  "en": "tyre",
+  "fr": "le pneu",
+  "es": "el neumático",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-158",
+  "pt": "embraiagem",
+  "zh": "离合器",
+  "en": "clutch",
+  "fr": "l'embrayage",
+  "es": "el embrague",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-159",
+  "pt": "acelerador",
+  "zh": "油门",
+  "en": "accelerator",
+  "fr": "l'accélérateur",
+  "es": "el acelerador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-160",
+  "pt": "faróis",
+  "zh": "车头灯",
+  "en": "headlights",
+  "fr": "les phares",
+  "es": "los faros",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-161",
+  "pt": "pisca",
+  "zh": "转向灯",
+  "en": "indicator",
+  "fr": "le clignotant",
+  "es": "el intermitente",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-162",
+  "pt": "capô",
+  "zh": "引擎盖",
+  "en": "bonnet",
+  "fr": "le capot",
+  "es": "el capó",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-163",
+  "pt": "bagageira",
+  "zh": "行李厢",
+  "en": "boot",
+  "fr": "le coffre",
+  "es": "el maletero",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-164",
+  "pt": "helicóptero",
+  "zh": "直升机",
+  "en": "helicopter",
+  "fr": "l'hélicoptère",
+  "es": "el helicóptero",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-165",
+  "pt": "trotinete",
+  "zh": "滑板车",
+  "en": "scooter",
+  "fr": "la trottinette",
+  "es": "el patinete",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-166",
+  "pt": "patins",
+  "zh": "旱冰鞋",
+  "en": "roller skates",
+  "fr": "les patins",
+  "es": "los patines",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-167",
+  "pt": "skate",
+  "zh": "滑板",
+  "en": "skateboard",
+  "fr": "le skateboard",
+  "es": "el monopatín",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-168",
+  "pt": "furgoneta",
+  "zh": "厢式货车",
+  "en": "van",
+  "fr": "la fourgonnette",
+  "es": "la furgoneta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-169",
+  "pt": "autocaravana",
+  "zh": "房车",
+  "en": "camper van",
+  "fr": "le camping-car",
+  "es": "la autocaravana",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-170",
+  "pt": "trator",
+  "zh": "拖拉机",
+  "en": "tractor",
+  "fr": "le tracteur",
+  "es": "el tractor",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-171",
+  "pt": "carro da polícia",
+  "zh": "警车",
+  "en": "police car",
+  "fr": "la voiture de police",
+  "es": "el coche de policía",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-172",
+  "pt": "carro de bombeiros",
+  "zh": "消防车",
+  "en": "fire engine",
+  "fr": "le camion de pompiers",
+  "es": "el camión de bomberos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-173",
+  "pt": "iate",
+  "zh": "游艇",
+  "en": "yacht",
+  "fr": "le yacht",
+  "es": "el yate",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-174",
+  "pt": "canoa",
+  "zh": "独木舟",
+  "en": "canoe",
+  "fr": "le canoë",
+  "es": "la canoa",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-175",
+  "pt": "século",
+  "zh": "世纪",
+  "en": "century",
+  "fr": "le siècle",
+  "es": "el siglo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-176",
+  "pt": "década",
+  "zh": "十年",
+  "en": "decade",
+  "fr": "la décennie",
+  "es": "la década",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-177",
+  "pt": "quinzena",
+  "zh": "两周",
+  "en": "fortnight",
+  "fr": "la quinzaine",
+  "es": "la quincena",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-178",
+  "pt": "amanhecer",
+  "zh": "黎明",
+  "en": "dawn",
+  "fr": "l'aube",
+  "es": "el amanecer",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-179",
+  "pt": "anoitecer",
+  "zh": "黄昏",
+  "en": "dusk",
+  "fr": "le crépuscule",
+  "es": "el anochecer",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-180",
+  "pt": "anteontem",
+  "zh": "前天",
+  "en": "the day before yesterday",
+  "fr": "avant-hier",
+  "es": "anteayer",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-181",
+  "pt": "depois de amanhã",
+  "zh": "后天",
+  "en": "the day after tomorrow",
+  "fr": "après-demain",
+  "es": "pasado mañana",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-182",
+  "pt": "dia útil",
+  "zh": "工作日",
+  "en": "working day",
+  "fr": "le jour ouvrable",
+  "es": "el día laborable",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-183",
+  "pt": "meia hora",
+  "zh": "半小时",
+  "en": "half an hour",
+  "fr": "la demi-heure",
+  "es": "la media hora",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-184",
+  "pt": "quarto de hora",
+  "zh": "一刻钟",
+  "en": "quarter of an hour",
+  "fr": "le quart d'heure",
+  "es": "el cuarto de hora",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-185",
+  "pt": "próximo",
+  "zh": "下一个的",
+  "en": "next",
+  "fr": "prochain",
+  "es": "próximo",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-186",
+  "pt": "atual",
+  "zh": "当前的",
+  "en": "current",
+  "fr": "actuel",
+  "es": "actual",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-187",
+  "pt": "semanal",
+  "zh": "每周的",
+  "en": "weekly",
+  "fr": "hebdomadaire",
+  "es": "semanal",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-188",
+  "pt": "anual",
+  "zh": "每年的",
+  "en": "annual",
+  "fr": "annuel",
+  "es": "anual",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-189",
+  "pt": "de manhã",
+  "zh": "在早上",
+  "en": "in the morning",
+  "fr": "le matin",
+  "es": "por la mañana",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-190",
+  "pt": "de tarde",
+  "zh": "在下午",
+  "en": "in the afternoon",
+  "fr": "l'après-midi",
+  "es": "por la tarde",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-191",
+  "pt": "de madrugada",
+  "zh": "在凌晨",
+  "en": "in the early hours",
+  "fr": "au petit matin",
+  "es": "de madrugada",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-192",
+  "pt": "hoje em dia",
+  "zh": "如今",
+  "en": "nowadays",
+  "fr": "de nos jours",
+  "es": "hoy en día",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-193",
+  "pt": "gelo",
+  "zh": "冰",
+  "en": "ice",
+  "fr": "la glace",
+  "es": "el hielo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-194",
+  "pt": "abafado",
+  "zh": "闷热的",
+  "en": "muggy",
+  "fr": "étouffant",
+  "es": "bochornoso",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-195",
+  "pt": "raio",
+  "zh": "闪电；光线",
+  "en": "lightning bolt",
+  "fr": "la foudre",
+  "es": "el rayo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-196",
+  "pt": "nevar",
+  "zh": "下雪",
+  "en": "to snow",
+  "fr": "neiger",
+  "es": "nevar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-197",
+  "pt": "chover",
+  "zh": "下雨",
+  "en": "to rain",
+  "fr": "pleuvoir",
+  "es": "llover",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-198",
+  "pt": "gelar",
+  "zh": "结冰；冰冻",
+  "en": "to freeze",
+  "fr": "geler",
+  "es": "helar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-199",
+  "pt": "derreter",
+  "zh": "融化",
+  "en": "to melt",
+  "fr": "fondre",
+  "es": "derretir",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-200",
+  "pt": "soprar",
+  "zh": "吹",
+  "en": "to blow",
+  "fr": "souffler",
+  "es": "soplar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-201",
+  "pt": "meteorologia",
+  "zh": "气象学",
+  "en": "meteorology",
+  "fr": "la météorologie",
+  "es": "la meteorología",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-202",
+  "pt": "chuvisco",
+  "zh": "毛毛雨",
+  "en": "drizzle",
+  "fr": "la bruine",
+  "es": "la llovizna",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-203",
+  "pt": "montra",
+  "zh": "商店橱窗",
+  "en": "shop window",
+  "fr": "la vitrine",
+  "es": "el escaparate",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-204",
+  "pt": "carrinho de compras",
+  "zh": "购物车",
+  "en": "shopping trolley",
+  "fr": "le chariot",
+  "es": "el carrito de la compra",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-205",
+  "pt": "cesto",
+  "zh": "篮子",
+  "en": "basket",
+  "fr": "le panier",
+  "es": "la cesta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-206",
+  "pt": "provador",
+  "zh": "试衣间",
+  "en": "fitting room",
+  "fr": "la cabine d'essayage",
+  "es": "el probador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-207",
+  "pt": "compra",
+  "zh": "购买",
+  "en": "purchase",
+  "fr": "l'achat",
+  "es": "la compra",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-208",
+  "pt": "venda",
+  "zh": "销售",
+  "en": "sale",
+  "fr": "la vente",
+  "es": "la venta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-209",
+  "pt": "gerente",
+  "zh": "经理",
+  "en": "manager",
+  "fr": "le gérant",
+  "es": "el gerente",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-210",
+  "pt": "levantar dinheiro",
+  "zh": "取钱",
+  "en": "to withdraw money",
+  "fr": "retirer de l'argent",
+  "es": "sacar dinero",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-211",
+  "pt": "pagar em dinheiro",
+  "zh": "付现金",
+  "en": "to pay cash",
+  "fr": "payer en espèces",
+  "es": "pagar en efectivo",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-212",
+  "pt": "pagar com cartão",
+  "zh": "刷卡支付",
+  "en": "to pay by card",
+  "fr": "payer par carte",
+  "es": "pagar con tarjeta",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-213",
+  "pt": "feirante",
+  "zh": "集市摊贩",
+  "en": "market trader",
+  "fr": "le forain",
+  "es": "el feriante",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-214",
+  "pt": "regatear",
+  "zh": "讨价还价",
+  "en": "to haggle",
+  "fr": "marchander",
+  "es": "regatear",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-215",
+  "pt": "calções",
+  "zh": "短裤",
+  "en": "shorts",
+  "fr": "le short",
+  "es": "los pantalones cortos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-216",
+  "pt": "pijama",
+  "zh": "睡衣",
+  "en": "pyjamas",
+  "fr": "le pyjama",
+  "es": "el pijama",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-217",
+  "pt": "cuecas",
+  "zh": "内裤",
+  "en": "underpants",
+  "fr": "le slip",
+  "es": "las bragas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-218",
+  "pt": "sutiã",
+  "zh": "胸罩",
+  "en": "bra",
+  "fr": "le soutien-gorge",
+  "es": "el sujetador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-219",
+  "pt": "fato de treino",
+  "zh": "运动服",
+  "en": "tracksuit",
+  "fr": "le survêtement",
+  "es": "el chándal",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-220",
+  "pt": "blusão",
+  "zh": "夹克",
+  "en": "jacket",
+  "fr": "la veste",
+  "es": "la cazadora",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-221",
+  "pt": "blazer",
+  "zh": "西装外套",
+  "en": "blazer",
+  "fr": "le blazer",
+  "es": "el blazer",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-222",
+  "pt": "t-shirt",
+  "zh": "T恤",
+  "en": "T-shirt",
+  "fr": "le tee-shirt",
+  "es": "la camiseta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-223",
+  "pt": "gabardina",
+  "zh": "风衣",
+  "en": "trench coat",
+  "fr": "le trench",
+  "es": "la gabardina",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-224",
+  "pt": "impermeável",
+  "zh": "雨衣",
+  "en": "raincoat",
+  "fr": "l'imperméable",
+  "es": "el impermeable",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-225",
+  "pt": "lenço",
+  "zh": "围巾；手帕",
+  "en": "scarf",
+  "fr": "le foulard",
+  "es": "el pañuelo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-226",
+  "pt": "gorro",
+  "zh": "毛线帽",
+  "en": "woolly hat",
+  "fr": "le bonnet",
+  "es": "el gorro",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-227",
+  "pt": "sandálias",
+  "zh": "凉鞋",
+  "en": "sandals",
+  "fr": "les sandales",
+  "es": "las sandalias",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-228",
+  "pt": "chinelos",
+  "zh": "拖鞋",
+  "en": "slippers",
+  "fr": "les chaussons",
+  "es": "las zapatillas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-229",
+  "pt": "saltos altos",
+  "zh": "高跟鞋",
+  "en": "high heels",
+  "fr": "les talons hauts",
+  "es": "los tacones",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-230",
+  "pt": "algodão",
+  "zh": "棉",
+  "en": "cotton",
+  "fr": "le coton",
+  "es": "el algodón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-231",
+  "pt": "seda",
+  "zh": "丝绸",
+  "en": "silk",
+  "fr": "la soie",
+  "es": "la seda",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-232",
+  "pt": "botão",
+  "zh": "纽扣",
+  "en": "button",
+  "fr": "le bouton",
+  "es": "el botón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-233",
+  "pt": "fecho",
+  "zh": "拉链；闭合",
+  "en": "zip",
+  "fr": "la fermeture",
+  "es": "el cierre",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-234",
+  "pt": "ligadura",
+  "zh": "绷带",
+  "en": "bandage",
+  "fr": "le bandage",
+  "es": "la venda",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-235",
+  "pt": "gesso",
+  "zh": "石膏",
+  "en": "plaster cast",
+  "fr": "le plâtre",
+  "es": "el yeso",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-236",
+  "pt": "desmaio",
+  "zh": "昏厥",
+  "en": "fainting",
+  "fr": "l'évanouissement",
+  "es": "el desmayo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-237",
+  "pt": "tonturas",
+  "zh": "头晕",
+  "en": "dizziness",
+  "fr": "les vertiges",
+  "es": "los mareos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-238",
+  "pt": "náuseas",
+  "zh": "恶心",
+  "en": "nausea",
+  "fr": "les nausées",
+  "es": "las náuseas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-239",
+  "pt": "vómito",
+  "zh": "呕吐",
+  "en": "vomiting",
+  "fr": "le vomissement",
+  "es": "el vómito",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-240",
+  "pt": "diarreia",
+  "zh": "腹泻",
+  "en": "diarrhoea",
+  "fr": "la diarrhée",
+  "es": "la diarrea",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-241",
+  "pt": "dor de dentes",
+  "zh": "牙痛",
+  "en": "toothache",
+  "fr": "le mal de dents",
+  "es": "el dolor de muelas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-242",
+  "pt": "dor de ouvidos",
+  "zh": "耳痛",
+  "en": "earache",
+  "fr": "le mal d'oreilles",
+  "es": "el dolor de oídos",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-243",
+  "pt": "dor nas costas",
+  "zh": "背痛",
+  "en": "backache",
+  "fr": "le mal de dos",
+  "es": "el dolor de espalda",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-244",
+  "pt": "gotas",
+  "zh": "滴剂",
+  "en": "drops",
+  "fr": "les gouttes",
+  "es": "las gotas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-245",
+  "pt": "penso rápido",
+  "zh": "创可贴",
+  "en": "plaster",
+  "fr": "le pansement adhésif",
+  "es": "la tirita",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-246",
+  "pt": "marcar uma consulta",
+  "zh": "预约就诊",
+  "en": "to book an appointment",
+  "fr": "prendre rendez-vous",
+  "es": "pedir cita",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-247",
+  "pt": "torcer o pé",
+  "zh": "扭伤脚",
+  "en": "to twist one's ankle",
+  "fr": "se fouler la cheville",
+  "es": "torcerse el tobillo",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-248",
+  "pt": "cãibra",
+  "zh": "抽筋",
+  "en": "cramp",
+  "fr": "la crampe",
+  "es": "el calambre",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-249",
+  "pt": "farmacêutico",
+  "zh": "药剂师",
+  "en": "pharmacist",
+  "fr": "le pharmacien",
+  "es": "el farmacéutico",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-250",
+  "pt": "estojo",
+  "zh": "铅笔盒",
+  "en": "pencil case",
+  "fr": "la trousse",
+  "es": "el estuche",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-251",
+  "pt": "afiadeira",
+  "zh": "卷笔刀",
+  "en": "pencil sharpener",
+  "fr": "le taille-crayon",
+  "es": "el sacapuntas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-252",
+  "pt": "marcador",
+  "zh": "记号笔",
+  "en": "marker",
+  "fr": "le marqueur",
+  "es": "el rotulador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-253",
+  "pt": "tesoura",
+  "zh": "剪刀",
+  "en": "scissors",
+  "fr": "les ciseaux",
+  "es": "las tijeras",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-254",
+  "pt": "cola",
+  "zh": "胶水",
+  "en": "glue",
+  "fr": "la colle",
+  "es": "el pegamento",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-255",
+  "pt": "fita-cola",
+  "zh": "透明胶带",
+  "en": "sellotape",
+  "fr": "le ruban adhésif",
+  "es": "la cinta adhesiva",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-256",
+  "pt": "folha",
+  "zh": "纸张；叶子",
+  "en": "sheet of paper",
+  "fr": "la feuille",
+  "es": "la hoja",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-257",
+  "pt": "escrita",
+  "zh": "书写",
+  "en": "writing",
+  "fr": "l'écriture",
+  "es": "la escritura",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-258",
+  "pt": "ortografia",
+  "zh": "拼写",
+  "en": "spelling",
+  "fr": "l'orthographe",
+  "es": "la ortografía",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-259",
+  "pt": "sotaque",
+  "zh": "口音",
+  "en": "accent",
+  "fr": "l'accent",
+  "es": "el acento",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-260",
+  "pt": "sino",
+  "zh": "铃",
+  "en": "bell",
+  "fr": "la cloche",
+  "es": "la campana",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-261",
+  "pt": "ciências",
+  "zh": "科学",
+  "en": "science",
+  "fr": "les sciences",
+  "es": "las ciencias",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-262",
+  "pt": "biologia",
+  "zh": "生物学",
+  "en": "biology",
+  "fr": "la biologie",
+  "es": "la biología",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-263",
+  "pt": "química",
+  "zh": "化学",
+  "en": "chemistry",
+  "fr": "la chimie",
+  "es": "la química",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-264",
+  "pt": "filosofia",
+  "zh": "哲学",
+  "en": "philosophy",
+  "fr": "la philosophie",
+  "es": "la filosofía",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-265",
+  "pt": "medicina",
+  "zh": "医学",
+  "en": "medicine",
+  "fr": "la médecine",
+  "es": "la medicina",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-266",
+  "pt": "engenharia",
+  "zh": "工程学",
+  "en": "engineering",
+  "fr": "l'ingénierie",
+  "es": "la ingeniería",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-267",
+  "pt": "arquitetura",
+  "zh": "建筑学",
+  "en": "architecture",
+  "fr": "l'architecture",
+  "es": "la arquitectura",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-268",
+  "pt": "informática",
+  "zh": "信息技术",
+  "en": "computing",
+  "fr": "l'informatique",
+  "es": "la informática",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-269",
+  "pt": "educação física",
+  "zh": "体育课",
+  "en": "physical education",
+  "fr": "l'éducation physique",
+  "es": "la educación física",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-270",
+  "pt": "uniforme",
+  "zh": "制服",
+  "en": "uniform",
+  "fr": "l'uniforme",
+  "es": "el uniforme",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-271",
+  "pt": "crachá",
+  "zh": "胸牌",
+  "en": "name badge",
+  "fr": "le badge",
+  "es": "la tarjeta identificativa",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-272",
+  "pt": "ferramentas",
+  "zh": "工具",
+  "en": "tools",
+  "fr": "les outils",
+  "es": "las herramientas",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-273",
+  "pt": "martelo",
+  "zh": "锤子",
+  "en": "hammer",
+  "fr": "le marteau",
+  "es": "el martillo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-274",
+  "pt": "chave de fendas",
+  "zh": "螺丝刀",
+  "en": "screwdriver",
+  "fr": "le tournevis",
+  "es": "el destornillador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-275",
+  "pt": "parafuso",
+  "zh": "螺丝",
+  "en": "screw",
+  "fr": "la vis",
+  "es": "el tornillo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-276",
+  "pt": "prego",
+  "zh": "钉子",
+  "en": "nail",
+  "fr": "le clou",
+  "es": "el clavo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-277",
+  "pt": "serra",
+  "zh": "锯子",
+  "en": "saw",
+  "fr": "la scie",
+  "es": "la sierra",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-278",
+  "pt": "empregada",
+  "zh": "女佣",
+  "en": "maid",
+  "fr": "la femme de ménage",
+  "es": "la empleada",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-279",
+  "pt": "arquiteto",
+  "zh": "建筑师",
+  "en": "architect",
+  "fr": "l'architecte",
+  "es": "el arquitecto",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-280",
+  "pt": "contabilista",
+  "zh": "会计",
+  "en": "accountant",
+  "fr": "le comptable",
+  "es": "el contable",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-281",
+  "pt": "pintor",
+  "zh": "画家；油漆工",
+  "en": "painter",
+  "fr": "le peintre",
+  "es": "el pintor",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-282",
+  "pt": "cantor",
+  "zh": "歌手",
+  "en": "singer",
+  "fr": "le chanteur",
+  "es": "el cantante",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-283",
+  "pt": "carteiro",
+  "zh": "邮递员",
+  "en": "postman",
+  "fr": "le facteur",
+  "es": "el cartero",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-284",
+  "pt": "rececionista",
+  "zh": "前台接待员",
+  "en": "receptionist",
+  "fr": "le réceptionniste",
+  "es": "el recepcionista",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-285",
+  "pt": "diretor",
+  "zh": "主任；经理",
+  "en": "director",
+  "fr": "le directeur",
+  "es": "el director",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-286",
+  "pt": "horário de expediente",
+  "zh": "办公时间",
+  "en": "office hours",
+  "fr": "les heures de bureau",
+  "es": "el horario de oficina",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-287",
+  "pt": "oficina",
+  "zh": "修理厂；工作室",
+  "en": "workshop",
+  "fr": "l'atelier",
+  "es": "el taller",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-288",
+  "pt": "capacete",
+  "zh": "头盔",
+  "en": "helmet",
+  "fr": "le casque",
+  "es": "el casco",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-289",
+  "pt": "voluntário",
+  "zh": "志愿者",
+  "en": "volunteer",
+  "fr": "le bénévole",
+  "es": "el voluntario",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-290",
+  "pt": "vaga",
+  "zh": "职位空缺",
+  "en": "vacancy",
+  "fr": "le poste vacant",
+  "es": "la vacante",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-291",
+  "pt": "jogador",
+  "zh": "球员",
+  "en": "player",
+  "fr": "le joueur",
+  "es": "el jugador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-292",
+  "pt": "árbitro",
+  "zh": "裁判",
+  "en": "referee",
+  "fr": "l'arbitre",
+  "es": "el árbitro",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-293",
+  "pt": "treinador",
+  "zh": "教练",
+  "en": "coach",
+  "fr": "l'entraîneur",
+  "es": "el entrenador",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-294",
+  "pt": "treino",
+  "zh": "训练",
+  "en": "training",
+  "fr": "l'entraînement",
+  "es": "el entrenamiento",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-295",
+  "pt": "campeão",
+  "zh": "冠军",
+  "en": "champion",
+  "fr": "le champion",
+  "es": "el campeón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-296",
+  "pt": "troféu",
+  "zh": "奖杯",
+  "en": "trophy",
+  "fr": "le trophée",
+  "es": "el trofeo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-297",
+  "pt": "medalha",
+  "zh": "奖牌",
+  "en": "medal",
+  "fr": "la médaille",
+  "es": "la medalla",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-298",
+  "pt": "corrida",
+  "zh": "赛跑",
+  "en": "race",
+  "fr": "la course",
+  "es": "la carrera",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-299",
+  "pt": "piquenique",
+  "zh": "野餐",
+  "en": "picnic",
+  "fr": "le pique-nique",
+  "es": "el picnic",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-300",
+  "pt": "baralho",
+  "zh": "一副纸牌",
+  "en": "deck of cards",
+  "fr": "le jeu de cartes",
+  "es": "la baraja",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-301",
+  "pt": "xadrez",
+  "zh": "国际象棋",
+  "en": "chess",
+  "fr": "les échecs",
+  "es": "el ajedrez",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-302",
+  "pt": "brinquedo",
+  "zh": "玩具",
+  "en": "toy",
+  "fr": "le jouet",
+  "es": "el juguete",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-303",
+  "pt": "boneca",
+  "zh": "洋娃娃",
+  "en": "doll",
+  "fr": "la poupée",
+  "es": "la muñeca",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-304",
+  "pt": "circo",
+  "zh": "马戏团",
+  "en": "circus",
+  "fr": "le cirque",
+  "es": "el circo",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-305",
+  "pt": "parque de diversões",
+  "zh": "游乐园",
+  "en": "amusement park",
+  "fr": "le parc d'attractions",
+  "es": "el parque de atracciones",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-306",
+  "pt": "bateria",
+  "zh": "架子鼓；电池",
+  "en": "drums",
+  "fr": "la batterie",
+  "es": "la batería",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-307",
+  "pt": "flauta",
+  "zh": "长笛",
+  "en": "flute",
+  "fr": "la flûte",
+  "es": "la flauta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-308",
+  "pt": "acampar",
+  "zh": "露营",
+  "en": "to camp",
+  "fr": "camper",
+  "es": "acampar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-309",
+  "pt": "pescar",
+  "zh": "钓鱼",
+  "en": "to fish",
+  "fr": "pêcher",
+  "es": "pescar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-310",
+  "pt": "empatar",
+  "zh": "打平；拖延",
+  "en": "to draw",
+  "fr": "faire match nul",
+  "es": "empatar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-311",
+  "pt": "raquete",
+  "zh": "球拍",
+  "en": "racket",
+  "fr": "la raquette",
+  "es": "la raqueta",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-312",
+  "pt": "videojogo",
+  "zh": "电子游戏",
+  "en": "video game",
+  "fr": "le jeu vidéo",
+  "es": "el videojuego",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-313",
+  "pt": "consola",
+  "zh": "游戏机",
+  "en": "games console",
+  "fr": "la console de jeux",
+  "es": "la consola",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-314",
+  "pt": "acenar",
+  "zh": "招手",
+  "en": "to wave",
+  "fr": "faire signe",
+  "es": "saludar con la mano",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-315",
+  "pt": "sussurrar",
+  "zh": "低声说",
+  "en": "to whisper",
+  "fr": "chuchoter",
+  "es": "susurrar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-316",
+  "pt": "empurrar",
+  "zh": "推",
+  "en": "to push",
+  "fr": "pousser",
+  "es": "empujar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-317",
+  "pt": "puxar",
+  "zh": "拉",
+  "en": "to pull",
+  "fr": "tirer",
+  "es": "tirar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-318",
+  "pt": "segurar",
+  "zh": "握住",
+  "en": "to hold",
+  "fr": "tenir",
+  "es": "sujetar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-319",
+  "pt": "levantar",
+  "zh": "举起",
+  "en": "to lift",
+  "fr": "lever",
+  "es": "levantar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-320",
+  "pt": "baixar",
+  "zh": "放下；降低",
+  "en": "to lower",
+  "fr": "baisser",
+  "es": "bajar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-321",
+  "pt": "atirar",
+  "zh": "扔",
+  "en": "to throw",
+  "fr": "lancer",
+  "es": "lanzar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-322",
+  "pt": "pegar",
+  "zh": "拿；抓住",
+  "en": "to grab",
+  "fr": "attraper",
+  "es": "coger",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-323",
+  "pt": "apertar",
+  "zh": "按；系紧",
+  "en": "to tighten",
+  "fr": "serrer",
+  "es": "apretar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-324",
+  "pt": "dobrar",
+  "zh": "折叠",
+  "en": "to fold",
+  "fr": "plier",
+  "es": "doblar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-325",
+  "pt": "parar",
+  "zh": "停止",
+  "en": "to stop",
+  "fr": "s'arrêter",
+  "es": "parar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-326",
+  "pt": "falhar",
+  "zh": "失败；错过",
+  "en": "to fail",
+  "fr": "échouer",
+  "es": "fallar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-327",
+  "pt": "acertar",
+  "zh": "猜对；命中",
+  "en": "to get right",
+  "fr": "tomber juste",
+  "es": "acertar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-328",
+  "pt": "lembrar",
+  "zh": "提醒；记得",
+  "en": "to remind",
+  "fr": "rappeler",
+  "es": "recordar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-329",
+  "pt": "repetir",
+  "zh": "重复",
+  "en": "to repeat",
+  "fr": "répéter",
+  "es": "repetir",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-330",
+  "pt": "traduzir",
+  "zh": "翻译",
+  "en": "to translate",
+  "fr": "traduire",
+  "es": "traducir",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-331",
+  "pt": "soletrar",
+  "zh": "拼写",
+  "en": "to spell",
+  "fr": "épeler",
+  "es": "deletrear",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-332",
+  "pt": "escutar",
+  "zh": "倾听",
+  "en": "to listen",
+  "fr": "écouter",
+  "es": "escuchar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-333",
+  "pt": "contar",
+  "zh": "讲述；数数",
+  "en": "to tell",
+  "fr": "raconter",
+  "es": "contar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-334",
+  "pt": "agradecer",
+  "zh": "感谢",
+  "en": "to thank",
+  "fr": "remercier",
+  "es": "agradecer",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-335",
+  "pt": "desculpar-se",
+  "zh": "道歉",
+  "en": "to apologise",
+  "fr": "s'excuser",
+  "es": "disculparse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-336",
+  "pt": "lavar-se",
+  "zh": "洗澡；洗脸",
+  "en": "to wash oneself",
+  "fr": "se laver",
+  "es": "lavarse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-337",
+  "pt": "pentear-se",
+  "zh": "梳头",
+  "en": "to comb one's hair",
+  "fr": "se peigner",
+  "es": "peinarse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-338",
+  "pt": "escovar",
+  "zh": "刷",
+  "en": "to brush",
+  "fr": "brosser",
+  "es": "cepillar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-339",
+  "pt": "lanchar",
+  "zh": "吃点心",
+  "en": "to have a snack",
+  "fr": "prendre le goûter",
+  "es": "merendar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-340",
+  "pt": "relaxar",
+  "zh": "放松",
+  "en": "to relax",
+  "fr": "se détendre",
+  "es": "relajarse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-341",
+  "pt": "zangar-se",
+  "zh": "生气",
+  "en": "to get angry",
+  "fr": "se fâcher",
+  "es": "enfadarse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-342",
+  "pt": "apaixonar-se",
+  "zh": "爱上",
+  "en": "to fall in love",
+  "fr": "tomber amoureux",
+  "es": "enamorarse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-343",
+  "pt": "casar-se",
+  "zh": "结婚",
+  "en": "to get married",
+  "fr": "se marier",
+  "es": "casarse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-344",
+  "pt": "nascer",
+  "zh": "出生",
+  "en": "to be born",
+  "fr": "naître",
+  "es": "nacer",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-345",
+  "pt": "morrer",
+  "zh": "死亡",
+  "en": "to die",
+  "fr": "mourir",
+  "es": "morir",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-346",
+  "pt": "mudar-se",
+  "zh": "搬家",
+  "en": "to move house",
+  "fr": "déménager",
+  "es": "mudarse",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-347",
+  "pt": "demorar",
+  "zh": "花费（时间）",
+  "en": "to take (time)",
+  "fr": "mettre du temps",
+  "es": "tardar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-348",
+  "pt": "durar",
+  "zh": "持续",
+  "en": "to last",
+  "fr": "durer",
+  "es": "durar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-349",
+  "pt": "achar",
+  "zh": "认为；找到",
+  "en": "to think",
+  "fr": "trouver",
+  "es": "opinar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-350",
+  "pt": "notar",
+  "zh": "注意到",
+  "en": "to notice",
+  "fr": "remarquer",
+  "es": "notar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-351",
+  "pt": "assar",
+  "zh": "烤",
+  "en": "to roast",
+  "fr": "rôtir",
+  "es": "asar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-352",
+  "pt": "fritar",
+  "zh": "油炸",
+  "en": "to fry",
+  "fr": "faire frire",
+  "es": "freír",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-353",
+  "pt": "grelhar",
+  "zh": "烧烤",
+  "en": "to grill",
+  "fr": "griller",
+  "es": "asar a la parrilla",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-354",
+  "pt": "misturar",
+  "zh": "混合",
+  "en": "to mix",
+  "fr": "mélanger",
+  "es": "mezclar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-355",
+  "pt": "despir",
+  "zh": "脱衣服",
+  "en": "to undress",
+  "fr": "déshabiller",
+  "es": "desvestir",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-356",
+  "pt": "costurar",
+  "zh": "缝纫",
+  "en": "to sew",
+  "fr": "coudre",
+  "es": "coser",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-357",
+  "pt": "respirar",
+  "zh": "呼吸",
+  "en": "to breathe",
+  "fr": "respirer",
+  "es": "respirar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-358",
+  "pt": "tremer",
+  "zh": "发抖",
+  "en": "to shiver",
+  "fr": "trembler",
+  "es": "temblar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-359",
+  "pt": "doer",
+  "zh": "疼痛",
+  "en": "to hurt",
+  "fr": "faire mal",
+  "es": "doler",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-360",
+  "pt": "curar",
+  "zh": "治愈",
+  "en": "to heal",
+  "fr": "guérir",
+  "es": "curar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-361",
+  "pt": "engordar",
+  "zh": "发胖",
+  "en": "to put on weight",
+  "fr": "grossir",
+  "es": "engordar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-362",
+  "pt": "imprimir",
+  "zh": "打印",
+  "en": "to print",
+  "fr": "imprimer",
+  "es": "imprimir",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-363",
+  "pt": "copiar",
+  "zh": "复制",
+  "en": "to copy",
+  "fr": "copier",
+  "es": "copiar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-364",
+  "pt": "clicar",
+  "zh": "点击",
+  "en": "to click",
+  "fr": "cliquer",
+  "es": "hacer clic",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-365",
+  "pt": "gravar",
+  "zh": "录制；保存",
+  "en": "to record",
+  "fr": "enregistrer",
+  "es": "grabar",
+  "pos": "verb"
+ },
+ {
+  "id": "a1y-366",
+  "pt": "morno",
+  "zh": "温热的",
+  "en": "lukewarm",
+  "fr": "tiède",
+  "es": "tibio",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-367",
+  "pt": "estragado",
+  "zh": "变质的",
+  "en": "spoiled",
+  "fr": "gâté",
+  "es": "estropeado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-368",
+  "pt": "cru",
+  "zh": "生的",
+  "en": "raw",
+  "fr": "cru",
+  "es": "crudo",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-369",
+  "pt": "cozido",
+  "zh": "煮熟的",
+  "en": "cooked",
+  "fr": "cuit",
+  "es": "cocido",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-370",
+  "pt": "frito",
+  "zh": "油炸的",
+  "en": "fried",
+  "fr": "frit",
+  "es": "frito",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-371",
+  "pt": "assado",
+  "zh": "烤的",
+  "en": "roast",
+  "fr": "rôti",
+  "es": "asado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-372",
+  "pt": "grelhado",
+  "zh": "烧烤的",
+  "en": "grilled",
+  "fr": "grillé",
+  "es": "a la parrilla",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-373",
+  "pt": "liso",
+  "zh": "光滑的；直发",
+  "en": "smooth",
+  "fr": "lisse",
+  "es": "liso",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-374",
+  "pt": "loiro",
+  "zh": "金发的",
+  "en": "blond",
+  "fr": "blond",
+  "es": "rubio",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-375",
+  "pt": "moreno",
+  "zh": "深色头发的",
+  "en": "dark-haired",
+  "fr": "brun",
+  "es": "moreno",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-376",
+  "pt": "careca",
+  "zh": "秃头的",
+  "en": "bald",
+  "fr": "chauve",
+  "es": "calvo",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-377",
+  "pt": "duro",
+  "zh": "硬的",
+  "en": "hard",
+  "fr": "dur",
+  "es": "duro",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-378",
+  "pt": "mole",
+  "zh": "软的",
+  "en": "soft",
+  "fr": "mou",
+  "es": "blando",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-379",
+  "pt": "pesado",
+  "zh": "重的",
+  "en": "heavy",
+  "fr": "lourd",
+  "es": "pesado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-380",
+  "pt": "leve",
+  "zh": "轻的",
+  "en": "light",
+  "fr": "léger",
+  "es": "ligero",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-381",
+  "pt": "estreito",
+  "zh": "窄的",
+  "en": "narrow",
+  "fr": "étroit",
+  "es": "estrecho",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-382",
+  "pt": "comprido",
+  "zh": "长的",
+  "en": "long",
+  "fr": "long",
+  "es": "largo",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-383",
+  "pt": "curto",
+  "zh": "短的",
+  "en": "short",
+  "fr": "court",
+  "es": "corto",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-384",
+  "pt": "redondo",
+  "zh": "圆的",
+  "en": "round",
+  "fr": "rond",
+  "es": "redondo",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-385",
+  "pt": "quadrado",
+  "zh": "方的",
+  "en": "square",
+  "fr": "carré",
+  "es": "cuadrado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-386",
+  "pt": "mal-educado",
+  "zh": "无礼的",
+  "en": "rude",
+  "fr": "mal élevé",
+  "es": "mal educado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-387",
+  "pt": "curioso",
+  "zh": "好奇的",
+  "en": "curious",
+  "fr": "curieux",
+  "es": "curioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-388",
+  "pt": "infeliz",
+  "zh": "不幸的",
+  "en": "unhappy",
+  "fr": "malheureux",
+  "es": "infeliz",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-389",
+  "pt": "casado",
+  "zh": "已婚的",
+  "en": "married",
+  "fr": "marié",
+  "es": "casado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-390",
+  "pt": "solteiro",
+  "zh": "单身的",
+  "en": "single",
+  "fr": "célibataire",
+  "es": "soltero",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-391",
+  "pt": "divorciado",
+  "zh": "离婚的",
+  "en": "divorced",
+  "fr": "divorcé",
+  "es": "divorciado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-392",
+  "pt": "fixe",
+  "zh": "很棒的",
+  "en": "cool",
+  "fr": "génial",
+  "es": "genial",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-393",
+  "pt": "giro",
+  "zh": "漂亮的；可爱的",
+  "en": "cute",
+  "fr": "mignon",
+  "es": "mono",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-394",
+  "pt": "fofo",
+  "zh": "可爱的",
+  "en": "cute",
+  "fr": "mignon",
+  "es": "adorable",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-395",
+  "pt": "lindo",
+  "zh": "美丽的",
+  "en": "beautiful",
+  "fr": "beau",
+  "es": "precioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-396",
+  "pt": "horrível",
+  "zh": "可怕的",
+  "en": "awful",
+  "fr": "affreux",
+  "es": "horrible",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-397",
+  "pt": "péssimo",
+  "zh": "极差的",
+  "en": "terrible",
+  "fr": "très mauvais",
+  "es": "pésimo",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-398",
+  "pt": "ótimo",
+  "zh": "极好的",
+  "en": "great",
+  "fr": "excellent",
+  "es": "excelente",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-399",
+  "pt": "razoável",
+  "zh": "还行的",
+  "en": "reasonable",
+  "fr": "raisonnable",
+  "es": "razonable",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-400",
+  "pt": "médio",
+  "zh": "中等的",
+  "en": "medium",
+  "fr": "moyen",
+  "es": "mediano",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-401",
+  "pt": "enorme",
+  "zh": "巨大的",
+  "en": "huge",
+  "fr": "énorme",
+  "es": "enorme",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-402",
+  "pt": "gigante",
+  "zh": "硕大的",
+  "en": "giant",
+  "fr": "géant",
+  "es": "gigante",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-403",
+  "pt": "grosso",
+  "zh": "厚的；粗的",
+  "en": "thick",
+  "fr": "épais",
+  "es": "grueso",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-404",
+  "pt": "fino",
+  "zh": "薄的；细的",
+  "en": "thin",
+  "fr": "fin",
+  "es": "fino",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-405",
+  "pt": "apressado",
+  "zh": "匆忙的",
+  "en": "hurried",
+  "fr": "pressé",
+  "es": "apresurado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-406",
+  "pt": "quebrado",
+  "zh": "破碎的",
+  "en": "broken",
+  "fr": "cassé",
+  "es": "roto",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-407",
+  "pt": "avariado",
+  "zh": "故障的",
+  "en": "out of order",
+  "fr": "en panne",
+  "es": "averiado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-408",
+  "pt": "ligado",
+  "zh": "开着的",
+  "en": "on",
+  "fr": "allumé",
+  "es": "encendido",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-409",
+  "pt": "desligado",
+  "zh": "关着的",
+  "en": "off",
+  "fr": "éteint",
+  "es": "apagado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-410",
+  "pt": "barulhento",
+  "zh": "吵闹的",
+  "en": "noisy",
+  "fr": "bruyant",
+  "es": "ruidoso",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-411",
+  "pt": "silencioso",
+  "zh": "安静的",
+  "en": "quiet",
+  "fr": "silencieux",
+  "es": "silencioso",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-412",
+  "pt": "brilhante",
+  "zh": "闪亮的",
+  "en": "shiny",
+  "fr": "brillant",
+  "es": "brillante",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-413",
+  "pt": "colorido",
+  "zh": "色彩鲜艳的",
+  "en": "colourful",
+  "fr": "coloré",
+  "es": "colorido",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-414",
+  "pt": "transparente",
+  "zh": "透明的",
+  "en": "transparent",
+  "fr": "transparent",
+  "es": "transparente",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-415",
+  "pt": "gorduroso",
+  "zh": "油腻的",
+  "en": "greasy",
+  "fr": "gras",
+  "es": "grasiento",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-416",
+  "pt": "crocante",
+  "zh": "脆的",
+  "en": "crispy",
+  "fr": "croustillant",
+  "es": "crujiente",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-417",
+  "pt": "rico",
+  "zh": "富有的；美味的",
+  "en": "rich",
+  "fr": "riche",
+  "es": "rico",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-418",
+  "pt": "demasiado",
+  "zh": "太；过于",
+  "en": "too much",
+  "fr": "trop",
+  "es": "demasiado",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-419",
+  "pt": "somente",
+  "zh": "仅仅",
+  "en": "only",
+  "fr": "seulement",
+  "es": "solamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-420",
+  "pt": "realmente",
+  "zh": "确实",
+  "en": "really",
+  "fr": "vraiment",
+  "es": "realmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-421",
+  "pt": "principalmente",
+  "zh": "主要地",
+  "en": "mainly",
+  "fr": "principalement",
+  "es": "principalmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-422",
+  "pt": "antigamente",
+  "zh": "从前",
+  "en": "in the past",
+  "fr": "autrefois",
+  "es": "antiguamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-423",
+  "pt": "lentamente",
+  "zh": "缓慢地",
+  "en": "slowly",
+  "fr": "lentement",
+  "es": "lentamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-424",
+  "pt": "rapidamente",
+  "zh": "迅速地",
+  "en": "quickly",
+  "fr": "rapidement",
+  "es": "rápidamente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-425",
+  "pt": "facilmente",
+  "zh": "容易地",
+  "en": "easily",
+  "fr": "facilement",
+  "es": "fácilmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-426",
+  "pt": "dificilmente",
+  "zh": "几乎不",
+  "en": "hardly",
+  "fr": "difficilement",
+  "es": "difícilmente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-427",
+  "pt": "sinceramente",
+  "zh": "真诚地",
+  "en": "sincerely",
+  "fr": "sincèrement",
+  "es": "sinceramente",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-428",
+  "pt": "de novo",
+  "zh": "再一次",
+  "en": "again",
+  "fr": "de nouveau",
+  "es": "de nuevo",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-429",
+  "pt": "outra vez",
+  "zh": "又一次",
+  "en": "once again",
+  "fr": "encore une fois",
+  "es": "otra vez",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-430",
+  "pt": "de certeza",
+  "zh": "肯定地",
+  "en": "for sure",
+  "fr": "sûrement",
+  "es": "con seguridad",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-431",
+  "pt": "por acaso",
+  "zh": "偶然地",
+  "en": "by chance",
+  "fr": "par hasard",
+  "es": "por casualidad",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-432",
+  "pt": "de propósito",
+  "zh": "故意地",
+  "en": "on purpose",
+  "fr": "exprès",
+  "es": "a propósito",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-433",
+  "pt": "aos poucos",
+  "zh": "逐渐地",
+  "en": "little by little",
+  "fr": "petit à petit",
+  "es": "poco a poco",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-434",
+  "pt": "debaixo",
+  "zh": "在下面",
+  "en": "underneath",
+  "fr": "dessous",
+  "es": "debajo",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-435",
+  "pt": "atrás",
+  "zh": "在后面",
+  "en": "behind",
+  "fr": "derrière",
+  "es": "detrás",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-436",
+  "pt": "entre",
+  "zh": "在中间",
+  "en": "between",
+  "fr": "entre",
+  "es": "entre",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-437",
+  "pt": "ao lado",
+  "zh": "在旁边",
+  "en": "next to",
+  "fr": "à côté",
+  "es": "al lado",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-438",
+  "pt": "em cima",
+  "zh": "在上面",
+  "en": "on top",
+  "fr": "en haut",
+  "es": "encima",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-439",
+  "pt": "durante",
+  "zh": "在……期间",
+  "en": "during",
+  "fr": "pendant",
+  "es": "durante",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-440",
+  "pt": "enquanto",
+  "zh": "当……的时候",
+  "en": "while",
+  "fr": "pendant que",
+  "es": "mientras",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-441",
+  "pt": "antes de",
+  "zh": "在……之前",
+  "en": "before",
+  "fr": "avant de",
+  "es": "antes de",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-442",
+  "pt": "depois de",
+  "zh": "在……之后",
+  "en": "after",
+  "fr": "après",
+  "es": "después de",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-443",
+  "pt": "perto de",
+  "zh": "在……附近",
+  "en": "near",
+  "fr": "près de",
+  "es": "cerca de",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-444",
+  "pt": "longe de",
+  "zh": "远离",
+  "en": "far from",
+  "fr": "loin de",
+  "es": "lejos de",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-445",
+  "pt": "através de",
+  "zh": "通过",
+  "en": "through",
+  "fr": "à travers",
+  "es": "a través de",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-446",
+  "pt": "junto a",
+  "zh": "靠近",
+  "en": "next to",
+  "fr": "auprès de",
+  "es": "junto a",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-447",
+  "pt": "dentro de",
+  "zh": "在……里面",
+  "en": "inside",
+  "fr": "dans",
+  "es": "dentro de",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-448",
+  "pt": "fora de",
+  "zh": "在……外面",
+  "en": "outside",
+  "fr": "hors de",
+  "es": "fuera de",
+  "pos": "adverb"
+ },
+ {
+  "id": "a1y-449",
+  "pt": "Está bem.",
+  "zh": "好的。",
+  "en": "All right.",
+  "fr": "D'accord.",
+  "es": "Está bien.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-450",
+  "pt": "Não sei.",
+  "zh": "我不知道。",
+  "en": "I don't know.",
+  "fr": "Je ne sais pas.",
+  "es": "No sé.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-451",
+  "pt": "Não tenho a certeza.",
+  "zh": "我不确定。",
+  "en": "I'm not sure.",
+  "fr": "Je ne suis pas sûr.",
+  "es": "No estoy seguro.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-452",
+  "pt": "Pode ajudar-me?",
+  "zh": "您能帮我吗？",
+  "en": "Can you help me?",
+  "fr": "Pouvez-vous m'aider ?",
+  "es": "¿Puede ayudarme?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-453",
+  "pt": "Posso entrar?",
+  "zh": "我可以进来吗？",
+  "en": "May I come in?",
+  "fr": "Je peux entrer ?",
+  "es": "¿Puedo entrar?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-454",
+  "pt": "A que horas abre?",
+  "zh": "几点开门？",
+  "en": "What time does it open?",
+  "fr": "À quelle heure ça ouvre ?",
+  "es": "¿A qué hora abre?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-455",
+  "pt": "A que horas fecha?",
+  "zh": "几点关门？",
+  "en": "What time does it close?",
+  "fr": "À quelle heure ça ferme ?",
+  "es": "¿A qué hora cierra?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-456",
+  "pt": "Que dia é hoje?",
+  "zh": "今天星期几？",
+  "en": "What day is it today?",
+  "fr": "Quel jour sommes-nous ?",
+  "es": "¿Qué día es hoy?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-457",
+  "pt": "Como se diz isto em português?",
+  "zh": "这个用葡萄牙语怎么说？",
+  "en": "How do you say this in Portuguese?",
+  "fr": "Comment dit-on ceci en portugais ?",
+  "es": "¿Cómo se dice esto en portugués?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-458",
+  "pt": "Pode escrever, por favor?",
+  "zh": "请您写下来好吗？",
+  "en": "Can you write it down, please?",
+  "fr": "Pouvez-vous l'écrire, s'il vous plaît ?",
+  "es": "¿Puede escribirlo, por favor?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-459",
+  "pt": "Pode soletrar, por favor?",
+  "zh": "请您拼一下好吗？",
+  "en": "Can you spell it, please?",
+  "fr": "Pouvez-vous l'épeler, s'il vous plaît ?",
+  "es": "¿Puede deletrearlo, por favor?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-460",
+  "pt": "Falo um pouco de português.",
+  "zh": "我会说一点葡萄牙语。",
+  "en": "I speak a little Portuguese.",
+  "fr": "Je parle un peu portugais.",
+  "es": "Hablo un poco de portugués.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-461",
+  "pt": "Sou de…",
+  "zh": "我来自……",
+  "en": "I'm from…",
+  "fr": "Je suis de…",
+  "es": "Soy de…",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-462",
+  "pt": "Tenho … anos.",
+  "zh": "我……岁。",
+  "en": "I am … years old.",
+  "fr": "J'ai … ans.",
+  "es": "Tengo … años.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-463",
+  "pt": "Estou com fome.",
+  "zh": "我饿了。",
+  "en": "I'm hungry.",
+  "fr": "J'ai faim.",
+  "es": "Tengo hambre.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-464",
+  "pt": "Estou com sede.",
+  "zh": "我渴了。",
+  "en": "I'm thirsty.",
+  "fr": "J'ai soif.",
+  "es": "Tengo sed.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-465",
+  "pt": "Estou com frio.",
+  "zh": "我冷。",
+  "en": "I'm cold.",
+  "fr": "J'ai froid.",
+  "es": "Tengo frío.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-466",
+  "pt": "Estou com calor.",
+  "zh": "我热。",
+  "en": "I'm hot.",
+  "fr": "J'ai chaud.",
+  "es": "Tengo calor.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-467",
+  "pt": "Estou perdido.",
+  "zh": "我迷路了。",
+  "en": "I'm lost.",
+  "fr": "Je suis perdu.",
+  "es": "Estoy perdido.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-468",
+  "pt": "Preciso de ajuda.",
+  "zh": "我需要帮助。",
+  "en": "I need help.",
+  "fr": "J'ai besoin d'aide.",
+  "es": "Necesito ayuda.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-469",
+  "pt": "Chame um médico.",
+  "zh": "请叫医生。",
+  "en": "Call a doctor.",
+  "fr": "Appelez un médecin.",
+  "es": "Llame a un médico.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-470",
+  "pt": "Chame a polícia.",
+  "zh": "请叫警察。",
+  "en": "Call the police.",
+  "fr": "Appelez la police.",
+  "es": "Llame a la policía.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-471",
+  "pt": "Queria reservar uma mesa.",
+  "zh": "我想订一张桌子。",
+  "en": "I'd like to book a table.",
+  "fr": "Je voudrais réserver une table.",
+  "es": "Quisiera reservar una mesa.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-472",
+  "pt": "Bom fim de semana.",
+  "zh": "周末愉快。",
+  "en": "Have a good weekend.",
+  "fr": "Bon week-end.",
+  "es": "Buen fin de semana.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-473",
+  "pt": "Boa semana.",
+  "zh": "一周愉快。",
+  "en": "Have a good week.",
+  "fr": "Bonne semaine.",
+  "es": "Buena semana.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-474",
+  "pt": "Feliz Natal.",
+  "zh": "圣诞快乐。",
+  "en": "Merry Christmas.",
+  "fr": "Joyeux Noël.",
+  "es": "Feliz Navidad.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-475",
+  "pt": "Bom Ano Novo.",
+  "zh": "新年快乐。",
+  "en": "Happy New Year.",
+  "fr": "Bonne année.",
+  "es": "Feliz Año Nuevo.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-476",
+  "pt": "Feliz Páscoa.",
+  "zh": "复活节快乐。",
+  "en": "Happy Easter.",
+  "fr": "Joyeuses Pâques.",
+  "es": "Felices Pascuas.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-477",
+  "pt": "Até para a semana.",
+  "zh": "下周见。",
+  "en": "See you next week.",
+  "fr": "À la semaine prochaine.",
+  "es": "Hasta la semana que viene.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-478",
+  "pt": "Aqui está.",
+  "zh": "给您。",
+  "en": "Here you are.",
+  "fr": "Voilà.",
+  "es": "Aquí está.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-479",
+  "pt": "Desculpe o atraso.",
+  "zh": "对不起，我迟到了。",
+  "en": "Sorry I'm late.",
+  "fr": "Désolé pour le retard.",
+  "es": "Perdone el retraso.",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-480",
+  "pt": "Qual é o seu nome?",
+  "zh": "您叫什么名字？",
+  "en": "What is your name?",
+  "fr": "Quel est votre nom ?",
+  "es": "¿Cuál es su nombre?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-481",
+  "pt": "Onde mora?",
+  "zh": "您住在哪里？",
+  "en": "Where do you live?",
+  "fr": "Où habitez-vous ?",
+  "es": "¿Dónde vive?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-482",
+  "pt": "Está aberto?",
+  "zh": "开门吗？",
+  "en": "Is it open?",
+  "fr": "C'est ouvert ?",
+  "es": "¿Está abierto?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-483",
+  "pt": "Está fechado?",
+  "zh": "关门了吗？",
+  "en": "Is it closed?",
+  "fr": "C'est fermé ?",
+  "es": "¿Está cerrado?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-484",
+  "pt": "Posso pagar com cartão?",
+  "zh": "可以刷卡吗？",
+  "en": "Can I pay by card?",
+  "fr": "Puis-je payer par carte ?",
+  "es": "¿Puedo pagar con tarjeta?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-485",
+  "pt": "Onde posso comprar um bilhete?",
+  "zh": "我在哪里可以买票？",
+  "en": "Where can I buy a ticket?",
+  "fr": "Où puis-je acheter un billet ?",
+  "es": "¿Dónde puedo comprar un billete?",
+  "pos": "phrase"
+ },
+ {
+  "id": "a1y-486",
+  "pt": "zero",
+  "zh": "零",
+  "en": "zero",
+  "fr": "le zéro",
+  "es": "el cero",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-487",
+  "pt": "metade",
+  "zh": "一半",
+  "en": "half",
+  "fr": "la moitié",
+  "es": "la mitad",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-488",
+  "pt": "terceiro",
+  "zh": "第三",
+  "en": "third",
+  "fr": "troisième",
+  "es": "tercero",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-489",
+  "pt": "número",
+  "zh": "数字；号码",
+  "en": "number",
+  "fr": "le numéro",
+  "es": "el número",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-490",
+  "pt": "par",
+  "zh": "偶数的；成对的",
+  "en": "even",
+  "fr": "pair",
+  "es": "par",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-491",
+  "pt": "ímpar",
+  "zh": "奇数的",
+  "en": "odd",
+  "fr": "impair",
+  "es": "impar",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-492",
+  "pt": "dúzia",
+  "zh": "一打",
+  "en": "dozen",
+  "fr": "la douzaine",
+  "es": "la docena",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-493",
+  "pt": "milhão",
+  "zh": "百万",
+  "en": "million",
+  "fr": "le million",
+  "es": "el millón",
+  "pos": "noun"
+ },
+ {
+  "id": "a1y-494",
+  "pt": "bege",
+  "zh": "米色的",
+  "en": "beige",
+  "fr": "beige",
+  "es": "beis",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-495",
+  "pt": "dourado",
+  "zh": "金色的",
+  "en": "golden",
+  "fr": "doré",
+  "es": "dorado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-496",
+  "pt": "prateado",
+  "zh": "银色的",
+  "en": "silver",
+  "fr": "argenté",
+  "es": "plateado",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-497",
+  "pt": "violeta",
+  "zh": "紫色的",
+  "en": "violet",
+  "fr": "violet",
+  "es": "violeta",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-498",
+  "pt": "verde-claro",
+  "zh": "浅绿色的",
+  "en": "light green",
+  "fr": "vert clair",
+  "es": "verde claro",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-499",
+  "pt": "azul-escuro",
+  "zh": "深蓝色的",
+  "en": "dark blue",
+  "fr": "bleu foncé",
+  "es": "azul oscuro",
+  "pos": "adjective"
+ },
+ {
+  "id": "a1y-500",
+  "pt": "cor de laranja",
+  "zh": "橙色的",
+  "en": "orange",
+  "fr": "orange",
+  "es": "naranja",
+  "pos": "adjective"
+ }
+]

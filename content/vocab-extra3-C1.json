@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "c1z-001",
+    "pt": "a eutrofização",
+    "zh": "富营养化",
+    "en": "eutrophication",
+    "fr": "l'eutrophisation",
+    "es": "la eutrofización",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-002",
+    "pt": "a acidificação dos oceanos",
+    "zh": "海洋酸化",
+    "en": "ocean acidification",
+    "fr": "l'acidification des océans",
+    "es": "la acidificación de los océanos",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-003",
+    "pt": "o teorema",
+    "zh": "定理",
+    "en": "theorem",
+    "fr": "le théorème",
+    "es": "el teorema",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-004",
+    "pt": "a lixiviação",
+    "zh": "淋溶（土壤养分流失）",
+    "en": "leaching",
+    "fr": "la lixiviation",
+    "es": "la lixiviación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-005",
+    "pt": "a eficiência hídrica",
+    "zh": "用水效率",
+    "en": "water efficiency",
+    "fr": "l'efficacité hydrique",
+    "es": "la eficiencia hídrica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-006",
+    "pt": "a rede inteligente",
+    "zh": "智能电网",
+    "en": "smart grid",
+    "fr": "le réseau intelligent",
+    "es": "la red inteligente",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-007",
+    "pt": "a mobilidade elétrica",
+    "zh": "电动出行",
+    "en": "electric mobility",
+    "fr": "la mobilité électrique",
+    "es": "la movilidad eléctrica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-008",
+    "pt": "a infraestrutura verde",
+    "zh": "绿色基础设施",
+    "en": "green infrastructure",
+    "fr": "l'infrastructure verte",
+    "es": "la infraestructura verde",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-009",
+    "pt": "a compensação carbónica",
+    "zh": "碳抵消",
+    "en": "carbon offsetting",
+    "fr": "la compensation carbone",
+    "es": "la compensación de carbono",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-010",
+    "pt": "o decrescimento",
+    "zh": "去增长（生态经济主张）",
+    "en": "degrowth",
+    "fr": "la décroissance",
+    "es": "el decrecimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-011",
+    "pt": "a sobreexploração",
+    "zh": "过度开发；过度捕捞",
+    "en": "overexploitation",
+    "fr": "la surexploitation",
+    "es": "la sobreexplotación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-012",
+    "pt": "a permacultura",
+    "zh": "永续农业",
+    "en": "permaculture",
+    "fr": "la permaculture",
+    "es": "la permacultura",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-013",
+    "pt": "a bolha de filtragem",
+    "zh": "过滤气泡",
+    "en": "filter bubble",
+    "fr": "la bulle de filtres",
+    "es": "la burbuja de filtros",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-014",
+    "pt": "a concentração dos media",
+    "zh": "媒体集中",
+    "en": "media concentration",
+    "fr": "la concentration des médias",
+    "es": "la concentración de los medios",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-015",
+    "pt": "o obituário",
+    "zh": "讣告",
+    "en": "obituary",
+    "fr": "la nécrologie",
+    "es": "el obituario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-016",
+    "pt": "a emissora",
+    "zh": "广播机构；电台；电视台",
+    "en": "broadcaster; station",
+    "fr": "la chaîne de radio ou de télévision",
+    "es": "la emisora",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-017",
+    "pt": "a opacidade algorítmica",
+    "zh": "算法不透明性",
+    "en": "algorithmic opacity",
+    "fr": "l'opacité algorithmique",
+    "es": "la opacidad algorítmica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-018",
+    "pt": "o modelo de linguagem",
+    "zh": "语言模型",
+    "en": "language model",
+    "fr": "le modèle de langage",
+    "es": "el modelo de lenguaje",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-019",
+    "pt": "a revisão sistemática",
+    "zh": "系统综述",
+    "en": "systematic review",
+    "fr": "la revue systématique",
+    "es": "la revisión sistemática",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-020",
+    "pt": "o estudo observacional",
+    "zh": "观察性研究",
+    "en": "observational study",
+    "fr": "l'étude observationnelle",
+    "es": "el estudio observacional",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-021",
+    "pt": "a divulgação científica",
+    "zh": "科学传播；科普",
+    "en": "science communication; outreach",
+    "fr": "la vulgarisation scientifique",
+    "es": "la divulgación científica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-022",
+    "pt": "a má conduta científica",
+    "zh": "科研不端行为",
+    "en": "scientific misconduct",
+    "fr": "la mauvaise conduite scientifique",
+    "es": "la mala conducta científica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-023",
+    "pt": "o comité de ética",
+    "zh": "伦理委员会",
+    "en": "ethics committee",
+    "fr": "le comité d'éthique",
+    "es": "el comité de ética",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-024",
+    "pt": "a farmacovigilância",
+    "zh": "药物警戒",
+    "en": "pharmacovigilance",
+    "fr": "la pharmacovigilance",
+    "es": "la farmacovigilancia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-025",
+    "pt": "o recital",
+    "zh": "独奏会；朗诵会",
+    "en": "recital",
+    "fr": "le récital",
+    "es": "el recital",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-026",
+    "pt": "a coletânea",
+    "zh": "汇编；作品集",
+    "en": "collection; compilation",
+    "fr": "le recueil",
+    "es": "la recopilación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-027",
+    "pt": "a performance",
+    "zh": "行为艺术；现场表演",
+    "en": "performance (art)",
+    "fr": "la performance",
+    "es": "la performance",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-028",
+    "pt": "o claustro",
+    "zh": "修道院回廊；隐修生活",
+    "en": "cloister",
+    "fr": "le cloître",
+    "es": "el claustro",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-029",
+    "pt": "a nave",
+    "zh": "（教堂的）中殿",
+    "en": "nave (of a church)",
+    "fr": "la nef",
+    "es": "la nave",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-030",
+    "pt": "a abside",
+    "zh": "半圆形后殿",
+    "en": "apse",
+    "fr": "l'abside",
+    "es": "el ábside",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-031",
+    "pt": "o órgão de tubos",
+    "zh": "管风琴",
+    "en": "pipe organ",
+    "fr": "l'orgue à tuyaux",
+    "es": "el órgano de tubos",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-032",
+    "pt": "a residência artística",
+    "zh": "艺术家驻留项目",
+    "en": "artist residency",
+    "fr": "la résidence d'artistes",
+    "es": "la residencia artística",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-033",
+    "pt": "o cancioneiro",
+    "zh": "歌集；民歌集",
+    "en": "songbook; traditional song collection",
+    "fr": "le chansonnier",
+    "es": "el cancionero",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-034",
+    "pt": "o figurino",
+    "zh": "戏服；服装设计",
+    "en": "costume design; costumes",
+    "fr": "les costumes",
+    "es": "el vestuario",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-035",
+    "pt": "o contrato-promessa",
+    "zh": "预约合同；预售合同",
+    "en": "preliminary contract",
+    "fr": "le compromis de vente",
+    "es": "el contrato de arras",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-036",
+    "pt": "a caderneta predial",
+    "zh": "房产登记册",
+    "en": "property register certificate",
+    "fr": "la fiche cadastrale",
+    "es": "la ficha catastral",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-037",
+    "pt": "a circular",
+    "zh": "通函；通知",
+    "en": "circular (letter)",
+    "fr": "la circulaire",
+    "es": "la circular",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-038",
+    "pt": "a incumbência",
+    "zh": "职责；交办的任务",
+    "en": "duty; assignment",
+    "fr": "la mission",
+    "es": "el cometido",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-039",
+    "pt": "a diligência",
+    "zh": "勤勉；尽职；法律程序",
+    "en": "diligence; legal step",
+    "fr": "la diligence",
+    "es": "la diligencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-040",
+    "pt": "a idoneidade",
+    "zh": "适格；品行端正",
+    "en": "suitability; integrity",
+    "fr": "l'aptitude",
+    "es": "la idoneidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-041",
+    "pt": "a distensão",
+    "zh": "缓和；放松",
+    "en": "easing (of tension)",
+    "fr": "la détente",
+    "es": "la distensión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-042",
+    "pt": "a elasticidade",
+    "zh": "弹性；灵活性",
+    "en": "elasticity",
+    "fr": "l'élasticité",
+    "es": "la elasticidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-043",
+    "pt": "a tréplica",
+    "zh": "再答辩；反驳",
+    "en": "rejoinder",
+    "fr": "la duplique",
+    "es": "la dúplica",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-044",
+    "pt": "o ataque pessoal",
+    "zh": "人身攻击",
+    "en": "personal attack",
+    "fr": "l'attaque personnelle",
+    "es": "el ataque personal",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-045",
+    "pt": "o ponto de viragem",
+    "zh": "转折点",
+    "en": "turning point",
+    "fr": "le point de basculement",
+    "es": "el punto de inflexión",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-046",
+    "pt": "o uso da palavra",
+    "zh": "发言权",
+    "en": "right to speak; the floor",
+    "fr": "la prise de parole",
+    "es": "el uso de la palabra",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-047",
+    "pt": "a coerção",
+    "zh": "强制；胁迫",
+    "en": "coercion",
+    "fr": "la coercition",
+    "es": "la coacción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-048",
+    "pt": "a placidez",
+    "zh": "宁静；平和",
+    "en": "placidity; calm",
+    "fr": "la placidité",
+    "es": "la placidez",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-049",
+    "pt": "a aceção",
+    "zh": "词义；含义",
+    "en": "meaning; acceptation",
+    "fr": "l'acception",
+    "es": "la acepción",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-050",
+    "pt": "a acuidade",
+    "zh": "敏锐；清晰度",
+    "en": "acuity; sharpness",
+    "fr": "l'acuité",
+    "es": "la agudeza",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-051",
+    "pt": "a amálgama",
+    "zh": "混合物；大杂烩",
+    "en": "amalgam; mixture",
+    "fr": "l'amalgame",
+    "es": "la amalgama",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-052",
+    "pt": "a anuência",
+    "zh": "同意；许可",
+    "en": "consent; agreement",
+    "fr": "l'assentiment",
+    "es": "el consentimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-053",
+    "pt": "a especificidade",
+    "zh": "特殊性；特异性",
+    "en": "specificity",
+    "fr": "la spécificité",
+    "es": "la especificidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-054",
+    "pt": "a vileza",
+    "zh": "卑劣；卑鄙行径",
+    "en": "vileness; baseness",
+    "fr": "la vilenie",
+    "es": "la vileza",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-055",
+    "pt": "a impetuosidade",
+    "zh": "冲动；猛烈",
+    "en": "impetuosity",
+    "fr": "l'impétuosité",
+    "es": "la impetuosidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-056",
+    "pt": "a inquietude",
+    "zh": "不安；忧虑",
+    "en": "unease; restlessness",
+    "fr": "l'inquiétude",
+    "es": "la inquietud",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-057",
+    "pt": "a lucidez",
+    "zh": "清醒；洞察力",
+    "en": "lucidity",
+    "fr": "la lucidité",
+    "es": "la lucidez",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-058",
+    "pt": "a magnitude",
+    "zh": "规模；量级",
+    "en": "magnitude",
+    "fr": "la magnitude",
+    "es": "la magnitud",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-059",
+    "pt": "a mesquinhez",
+    "zh": "小气；心胸狭隘",
+    "en": "pettiness; meanness",
+    "fr": "la mesquinerie",
+    "es": "la mezquindad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-060",
+    "pt": "a vivacidade",
+    "zh": "活泼；敏锐",
+    "en": "vivacity; liveliness",
+    "fr": "la vivacité",
+    "es": "la vivacidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-061",
+    "pt": "a notoriedade",
+    "zh": "知名度；名声",
+    "en": "renown; notoriety",
+    "fr": "la notoriété",
+    "es": "la notoriedad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-062",
+    "pt": "a ousadia",
+    "zh": "大胆；胆识",
+    "en": "boldness; daring",
+    "fr": "l'audace",
+    "es": "la osadía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-063",
+    "pt": "a genialidade",
+    "zh": "天赋；才华",
+    "en": "genius; brilliance",
+    "fr": "le génie",
+    "es": "la genialidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-064",
+    "pt": "a perspicácia",
+    "zh": "洞察力；机敏",
+    "en": "perspicacity; insight",
+    "fr": "la perspicacité",
+    "es": "la perspicacia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-065",
+    "pt": "a perturbação",
+    "zh": "扰乱；困扰；精神障碍",
+    "en": "disturbance; disruption",
+    "fr": "la perturbation",
+    "es": "la perturbación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-066",
+    "pt": "a proficiência",
+    "zh": "精通；熟练程度",
+    "en": "proficiency",
+    "fr": "la maîtrise",
+    "es": "la proficiencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-067",
+    "pt": "a proeminência",
+    "zh": "突出；显赫地位",
+    "en": "prominence",
+    "fr": "la proéminence",
+    "es": "la prominencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-068",
+    "pt": "a prontidão",
+    "zh": "迅速；准备就绪",
+    "en": "readiness; promptness",
+    "fr": "la promptitude",
+    "es": "la prontitud",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-069",
+    "pt": "a reciprocidade",
+    "zh": "互惠；对等",
+    "en": "reciprocity",
+    "fr": "la réciprocité",
+    "es": "la reciprocidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-070",
+    "pt": "a sagacidade",
+    "zh": "机敏；精明",
+    "en": "sagacity; shrewdness",
+    "fr": "la sagacité",
+    "es": "la sagacidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-071",
+    "pt": "a sensatez",
+    "zh": "明智；通情达理",
+    "en": "good sense; level-headedness",
+    "fr": "le bon sens",
+    "es": "la sensatez",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-072",
+    "pt": "a solicitude",
+    "zh": "关切；悉心照料",
+    "en": "solicitude",
+    "fr": "la sollicitude",
+    "es": "la solicitud",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-073",
+    "pt": "a tirania",
+    "zh": "暴政；专制",
+    "en": "tyranny",
+    "fr": "la tyrannie",
+    "es": "la tiranía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-074",
+    "pt": "a urbanidade",
+    "zh": "礼貌；都市风范",
+    "en": "civility; urbanity",
+    "fr": "l'urbanité",
+    "es": "la urbanidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-075",
+    "pt": "a versatilidade",
+    "zh": "多才多艺；多功能性",
+    "en": "versatility",
+    "fr": "la polyvalence",
+    "es": "la versatilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-076",
+    "pt": "a prostração",
+    "zh": "精疲力竭；俯伏",
+    "en": "prostration; exhaustion",
+    "fr": "la prostration",
+    "es": "la postración",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-077",
+    "pt": "a temporalidade",
+    "zh": "时间性；时序",
+    "en": "temporality",
+    "fr": "la temporalité",
+    "es": "la temporalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-078",
+    "pt": "a nomenclatura",
+    "zh": "术语体系；命名法",
+    "en": "nomenclature",
+    "fr": "la nomenclature",
+    "es": "la nomenclatura",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-079",
+    "pt": "a altercação",
+    "zh": "争吵；口角",
+    "en": "altercation",
+    "fr": "l'altercation",
+    "es": "la altercación",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-080",
+    "pt": "a hostilidade",
+    "zh": "敌意；敌对状态",
+    "en": "hostility",
+    "fr": "l'hostilité",
+    "es": "la hostilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-081",
+    "pt": "a bonomia",
+    "zh": "和蔼；温和",
+    "en": "bonhomie; geniality",
+    "fr": "la bonhomie",
+    "es": "la bonhomía",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-082",
+    "pt": "o espécime",
+    "zh": "标本；样本",
+    "en": "specimen",
+    "fr": "le spécimen",
+    "es": "el espécimen",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-083",
+    "pt": "a presciência",
+    "zh": "预知；先见之明",
+    "en": "prescience; foreknowledge",
+    "fr": "la prescience",
+    "es": "la presciencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-084",
+    "pt": "a corroboração",
+    "zh": "佐证；确证",
+    "en": "corroboration",
+    "fr": "la corroboration",
+    "es": "la corroboración",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-085",
+    "pt": "a perenidade",
+    "zh": "持久；永恒",
+    "en": "perpetuity; enduring nature",
+    "fr": "la pérennité",
+    "es": "la perennidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-086",
+    "pt": "a peculiaridade",
+    "zh": "特点；独特性",
+    "en": "peculiarity",
+    "fr": "la particularité",
+    "es": "la peculiaridad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-087",
+    "pt": "a receptividade",
+    "zh": "接受度；乐于接纳",
+    "en": "receptiveness",
+    "fr": "la réceptivité",
+    "es": "la receptividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-088",
+    "pt": "a oralidade",
+    "zh": "口头性；口述传统",
+    "en": "orality",
+    "fr": "l'oralité",
+    "es": "la oralidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c1z-089",
+    "pt": "encetar",
+    "zh": "开始；着手（谈判、项目）",
+    "en": "to initiate; to embark on",
+    "fr": "entamer",
+    "es": "iniciar; emprender",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-090",
+    "pt": "escudar",
+    "zh": "庇护；以…为挡箭牌",
+    "en": "to shield; to shelter behind",
+    "fr": "protéger; s'abriter derrière",
+    "es": "escudar; escudarse en",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-091",
+    "pt": "inculcar",
+    "zh": "灌输（观念）",
+    "en": "to instil (ideas)",
+    "fr": "inculquer",
+    "es": "inculcar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-092",
+    "pt": "incutir",
+    "zh": "激起；使产生（恐惧、敬意）",
+    "en": "to instil (fear, respect)",
+    "fr": "inspirer",
+    "es": "infundir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-093",
+    "pt": "inferir",
+    "zh": "推断；推论",
+    "en": "to infer",
+    "fr": "inférer",
+    "es": "inferir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-094",
+    "pt": "instaurar",
+    "zh": "设立；启动（调查、程序）",
+    "en": "to institute; to open (an inquiry)",
+    "fr": "instaurer",
+    "es": "instaurar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-095",
+    "pt": "proferir",
+    "zh": "说出；作出（判决、讲话）",
+    "en": "to utter; to deliver (a speech, ruling)",
+    "fr": "prononcer",
+    "es": "pronunciar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-096",
+    "pt": "preterir",
+    "zh": "忽视；弃置；越过",
+    "en": "to pass over; to disregard",
+    "fr": "délaisser",
+    "es": "preterir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-097",
+    "pt": "impelir",
+    "zh": "推动；驱使",
+    "en": "to impel; to drive",
+    "fr": "pousser",
+    "es": "impulsar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-098",
+    "pt": "acalorar",
+    "zh": "使激烈；激起（争论）",
+    "en": "to inflame; to make heated",
+    "fr": "échauffer",
+    "es": "acalorar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-099",
+    "pt": "esmorecer",
+    "zh": "气馁；减弱",
+    "en": "to flag; to lose heart",
+    "fr": "s'affaiblir",
+    "es": "desfallecer",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-100",
+    "pt": "deslumbrar",
+    "zh": "使眼花缭乱；使倾倒",
+    "en": "to dazzle",
+    "fr": "éblouir",
+    "es": "deslumbrar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-101",
+    "pt": "desvendar",
+    "zh": "揭开；揭示",
+    "en": "to unveil; to disclose",
+    "fr": "dévoiler",
+    "es": "desvelar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-102",
+    "pt": "desmistificar",
+    "zh": "破除迷思；使不再神秘",
+    "en": "to demystify",
+    "fr": "démystifier",
+    "es": "desmitificar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-103",
+    "pt": "desconstruir",
+    "zh": "解构",
+    "en": "to deconstruct",
+    "fr": "déconstruire",
+    "es": "deconstruir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-104",
+    "pt": "ressignificar",
+    "zh": "赋予新含义",
+    "en": "to give new meaning to",
+    "fr": "resignifier",
+    "es": "resignificar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-105",
+    "pt": "forjar",
+    "zh": "锻造；伪造（借口、同盟）",
+    "en": "to forge",
+    "fr": "forger",
+    "es": "forjar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-106",
+    "pt": "acirrar",
+    "zh": "加剧；激化",
+    "en": "to intensify; to inflame",
+    "fr": "exacerber",
+    "es": "azuzar; exacerbar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-107",
+    "pt": "tecer",
+    "zh": "编织；编织（评论、关系）",
+    "en": "to weave",
+    "fr": "tisser",
+    "es": "tejer",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-108",
+    "pt": "entretecer",
+    "zh": "交织；使融合",
+    "en": "to interweave",
+    "fr": "entrelacer",
+    "es": "entretejer",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-109",
+    "pt": "antever",
+    "zh": "预见；预想",
+    "en": "to foresee",
+    "fr": "prévoir",
+    "es": "prever",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-110",
+    "pt": "prenunciar",
+    "zh": "预示；预兆",
+    "en": "to foreshadow; to herald",
+    "fr": "annoncer",
+    "es": "presagiar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-111",
+    "pt": "prognosticar",
+    "zh": "预测；预后判断",
+    "en": "to forecast; to prognosticate",
+    "fr": "pronostiquer",
+    "es": "pronosticar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-112",
+    "pt": "especular",
+    "zh": "推测；投机",
+    "en": "to speculate",
+    "fr": "spéculer",
+    "es": "especular",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-113",
+    "pt": "equacionar",
+    "zh": "分析（问题）；提出（方案）",
+    "en": "to frame; to analyse (a problem)",
+    "fr": "poser (un problème)",
+    "es": "plantear",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-114",
+    "pt": "pautar",
+    "zh": "以…为准则；划线",
+    "en": "to be guided by; to rule (paper)",
+    "fr": "se fonder sur",
+    "es": "regirse por",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-115",
+    "pt": "reger",
+    "zh": "治理；支配",
+    "en": "to govern; to rule",
+    "fr": "régir",
+    "es": "regir",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-116",
+    "pt": "mensurar",
+    "zh": "测量；衡量",
+    "en": "to measure; to gauge",
+    "fr": "mesurer",
+    "es": "mensurar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-117",
+    "pt": "quantificar",
+    "zh": "量化",
+    "en": "to quantify",
+    "fr": "quantifier",
+    "es": "cuantificar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-118",
+    "pt": "arrolar",
+    "zh": "列出；登记",
+    "en": "to list; to enrol",
+    "fr": "énumérer",
+    "es": "enumerar",
+    "pos": "verb"
+  },
+  {
+    "id": "c1z-119",
+    "pt": "inquietante",
+    "zh": "令人不安的",
+    "en": "unsettling",
+    "fr": "inquiétant",
+    "es": "inquietante",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-120",
+    "pt": "desconcertante",
+    "zh": "令人困惑的；使人失措的",
+    "en": "disconcerting",
+    "fr": "déconcertant",
+    "es": "desconcertante",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-121",
+    "pt": "perturbador",
+    "zh": "令人不安的；扰乱性的",
+    "en": "disturbing",
+    "fr": "perturbant",
+    "es": "perturbador",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-122",
+    "pt": "estarrecedor",
+    "zh": "骇人的；令人震惊的",
+    "en": "shocking; staggering",
+    "fr": "effarant",
+    "es": "sobrecogedor",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-123",
+    "pt": "lancinante",
+    "zh": "刺痛的；揪心的",
+    "en": "piercing; agonizing",
+    "fr": "lancinant",
+    "es": "lancinante",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-124",
+    "pt": "alentador",
+    "zh": "鼓舞人心的",
+    "en": "encouraging",
+    "fr": "encourageant",
+    "es": "alentador",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-125",
+    "pt": "promissor",
+    "zh": "有前途的；有希望的",
+    "en": "promising",
+    "fr": "prometteur",
+    "es": "prometedor",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-126",
+    "pt": "dececionante",
+    "zh": "令人失望的",
+    "en": "disappointing",
+    "fr": "décevant",
+    "es": "decepcionante",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-127",
+    "pt": "gratificante",
+    "zh": "令人满足的；有回报的",
+    "en": "rewarding",
+    "fr": "gratifiant",
+    "es": "gratificante",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-128",
+    "pt": "arrebatador",
+    "zh": "令人心醉的；震撼的",
+    "en": "breathtaking; captivating",
+    "fr": "saisissant",
+    "es": "arrebatador",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-129",
+    "pt": "intrigante",
+    "zh": "引人入胜的；令人费解的",
+    "en": "intriguing",
+    "fr": "intrigant",
+    "es": "intrigante",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-130",
+    "pt": "instigante",
+    "zh": "发人深省的；煽动的",
+    "en": "thought-provoking",
+    "fr": "stimulant",
+    "es": "instigante",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-131",
+    "pt": "revelador",
+    "zh": "揭示性的；很能说明问题的",
+    "en": "revealing",
+    "fr": "révélateur",
+    "es": "revelador",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-132",
+    "pt": "inegociável",
+    "zh": "不可谈判的",
+    "en": "non-negotiable",
+    "fr": "non négociable",
+    "es": "innegociable",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-133",
+    "pt": "irrenunciável",
+    "zh": "不可放弃的",
+    "en": "inalienable; non-waivable",
+    "fr": "incessible",
+    "es": "irrenunciable",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-134",
+    "pt": "imprescritível",
+    "zh": "不受时效限制的",
+    "en": "imprescriptible",
+    "fr": "imprescriptible",
+    "es": "imprescriptible",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-135",
+    "pt": "iminente",
+    "zh": "迫在眉睫的",
+    "en": "imminent",
+    "fr": "imminent",
+    "es": "inminente",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-136",
+    "pt": "vigente",
+    "zh": "现行的；生效的",
+    "en": "in force; current",
+    "fr": "en vigueur",
+    "es": "vigente",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-137",
+    "pt": "obsoleto",
+    "zh": "过时的；废弃的",
+    "en": "obsolete",
+    "fr": "obsolète",
+    "es": "obsoleto",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-138",
+    "pt": "fugidio",
+    "zh": "难以捉摸的；转瞬即逝的",
+    "en": "elusive; fleeting",
+    "fr": "fuyant",
+    "es": "escurridizo",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-139",
+    "pt": "taciturno",
+    "zh": "沉默寡言的",
+    "en": "taciturn",
+    "fr": "taciturne",
+    "es": "taciturno",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-140",
+    "pt": "escrupuloso",
+    "zh": "一丝不苟的；有操守的",
+    "en": "scrupulous",
+    "fr": "scrupuleux",
+    "es": "escrupuloso",
+    "pos": "adjective"
+  },
+  {
+    "id": "c1z-141",
+    "pt": "de antemão",
+    "zh": "预先；事先",
+    "en": "beforehand; in advance",
+    "fr": "d'avance",
+    "es": "de antemano",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-142",
+    "pt": "à primeira vista",
+    "zh": "乍看之下",
+    "en": "at first glance",
+    "fr": "à première vue",
+    "es": "a primera vista",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-143",
+    "pt": "de ora em diante",
+    "zh": "从今以后",
+    "en": "from now on; henceforth",
+    "fr": "désormais",
+    "es": "de ahora en adelante",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-144",
+    "pt": "por ora",
+    "zh": "暂时；目前",
+    "en": "for now; for the time being",
+    "fr": "pour l'instant",
+    "es": "por ahora",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-145",
+    "pt": "em boa verdade",
+    "zh": "说实话；老实说",
+    "en": "in truth; to be honest",
+    "fr": "à vrai dire",
+    "es": "a decir verdad",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-146",
+    "pt": "com efeito",
+    "zh": "确实；事实上",
+    "en": "indeed; in fact",
+    "fr": "en effet",
+    "es": "en efecto",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-147",
+    "pt": "em conformidade com",
+    "zh": "依照；符合",
+    "en": "in accordance with",
+    "fr": "conformément à",
+    "es": "de conformidad con",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-148",
+    "pt": "sob pena de",
+    "zh": "否则将（受处罚）",
+    "en": "on pain of; failing which",
+    "fr": "sous peine de",
+    "es": "so pena de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-149",
+    "pt": "nos termos de",
+    "zh": "依据…条款；按照",
+    "en": "under the terms of",
+    "fr": "aux termes de",
+    "es": "en los términos de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c1z-150",
+    "pt": "ao abrigo de",
+    "zh": "依据（法律）；在…保护下",
+    "en": "under (a law); by virtue of",
+    "fr": "au titre de",
+    "es": "al amparo de",
+    "pos": "phrase"
+  }
+]

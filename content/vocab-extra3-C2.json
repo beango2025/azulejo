@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "c2z-001",
+    "pt": "o hermetismo",
+    "zh": "晦涩难解；赫尔墨斯主义",
+    "en": "hermeticism; obscurity",
+    "fr": "hermétisme",
+    "es": "hermetismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-002",
+    "pt": "a mundividência",
+    "zh": "世界观；精神视野",
+    "en": "worldview; outlook",
+    "fr": "vision du monde",
+    "es": "visión del mundo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-003",
+    "pt": "o intertexto",
+    "zh": "互文",
+    "en": "intertext",
+    "fr": "intertexte",
+    "es": "intertexto",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-004",
+    "pt": "a epopeia",
+    "zh": "史诗",
+    "en": "epic",
+    "fr": "épopée",
+    "es": "epopeya",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-005",
+    "pt": "a ficção",
+    "zh": "虚构；小说",
+    "en": "fiction",
+    "fr": "fiction",
+    "es": "ficción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-006",
+    "pt": "a verossimilhança",
+    "zh": "逼真性",
+    "en": "verisimilitude",
+    "fr": "vraisemblance",
+    "es": "verosimilitud",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-007",
+    "pt": "o tropo",
+    "zh": "修辞格；转义",
+    "en": "trope",
+    "fr": "trope",
+    "es": "tropo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-008",
+    "pt": "o pleonasmo",
+    "zh": "赘述",
+    "en": "pleonasm",
+    "fr": "pléonasme",
+    "es": "pleonasmo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-009",
+    "pt": "a assonância",
+    "zh": "元音韵",
+    "en": "assonance",
+    "fr": "assonance",
+    "es": "asonancia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-010",
+    "pt": "a cacofonia",
+    "zh": "刺耳的音组合",
+    "en": "cacophony",
+    "fr": "cacophonie",
+    "es": "cacofonía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-011",
+    "pt": "o disfemismo",
+    "zh": "粗直语",
+    "en": "dysphemism",
+    "fr": "dysphémisme",
+    "es": "disfemismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-012",
+    "pt": "o circunlóquio",
+    "zh": "迂回的说法",
+    "en": "circumlocution",
+    "fr": "circonlocution",
+    "es": "circunloquio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-013",
+    "pt": "a verbosidade",
+    "zh": "冗长啰嗦",
+    "en": "verbosity",
+    "fr": "verbosité",
+    "es": "verbosidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-014",
+    "pt": "a aposiopese",
+    "zh": "话语中断法",
+    "en": "aposiopesis",
+    "fr": "aposiopèse",
+    "es": "aposiopesis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-015",
+    "pt": "o vitupério",
+    "zh": "辱骂；斥责",
+    "en": "vituperation",
+    "fr": "vitupération",
+    "es": "vituperio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-016",
+    "pt": "o libelo",
+    "zh": "诽谤文；控诉书",
+    "en": "libel",
+    "fr": "libelle",
+    "es": "libelo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-017",
+    "pt": "a tautologia",
+    "zh": "同义反复",
+    "en": "tautology",
+    "fr": "tautologie",
+    "es": "tautología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-018",
+    "pt": "a antologia",
+    "zh": "选集",
+    "en": "anthology",
+    "fr": "anthologie",
+    "es": "antología",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-019",
+    "pt": "a narração",
+    "zh": "叙述",
+    "en": "narration",
+    "fr": "narration",
+    "es": "narración",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-020",
+    "pt": "a sapiência",
+    "zh": "智慧；博学",
+    "en": "wisdom",
+    "fr": "sapience",
+    "es": "sapiencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-021",
+    "pt": "a pecha",
+    "zh": "缺陷；污名",
+    "en": "flaw; stigma",
+    "fr": "tare",
+    "es": "tacha",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-022",
+    "pt": "a contenda",
+    "zh": "争端；争执",
+    "en": "dispute",
+    "fr": "querelle",
+    "es": "contienda",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-023",
+    "pt": "a querela",
+    "zh": "争吵；诉讼",
+    "en": "quarrel",
+    "fr": "querelle",
+    "es": "querella",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-024",
+    "pt": "a trégua",
+    "zh": "休战",
+    "en": "truce",
+    "fr": "trêve",
+    "es": "tregua",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-025",
+    "pt": "o presságio",
+    "zh": "预兆",
+    "en": "omen",
+    "fr": "présage",
+    "es": "presagio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-026",
+    "pt": "o augúrio",
+    "zh": "征兆",
+    "en": "augury",
+    "fr": "augure",
+    "es": "augurio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-027",
+    "pt": "a premonição",
+    "zh": "预感",
+    "en": "premonition",
+    "fr": "prémonition",
+    "es": "premonición",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-028",
+    "pt": "a vicissitude",
+    "zh": "变迁；波折",
+    "en": "vicissitude",
+    "fr": "vicissitude",
+    "es": "vicisitud",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-029",
+    "pt": "a hecatombe",
+    "zh": "浩劫；大屠杀",
+    "en": "hecatomb",
+    "fr": "hécatombe",
+    "es": "hecatombe",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-030",
+    "pt": "o cataclismo",
+    "zh": "灾难",
+    "en": "cataclysm",
+    "fr": "cataclysme",
+    "es": "cataclismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-031",
+    "pt": "a debacle",
+    "zh": "崩溃；溃败",
+    "en": "debacle",
+    "fr": "débâcle",
+    "es": "debacle",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-032",
+    "pt": "o ecletismo",
+    "zh": "折衷主义",
+    "en": "eclecticism",
+    "fr": "éclectisme",
+    "es": "eclecticismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-033",
+    "pt": "o humanismo",
+    "zh": "人文主义",
+    "en": "humanism",
+    "fr": "humanisme",
+    "es": "humanismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-034",
+    "pt": "o iluminismo",
+    "zh": "启蒙运动",
+    "en": "Enlightenment",
+    "fr": "Lumières",
+    "es": "Ilustración",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-035",
+    "pt": "o panteísmo",
+    "zh": "泛神论",
+    "en": "pantheism",
+    "fr": "panthéisme",
+    "es": "panteísmo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-036",
+    "pt": "o antropocentrismo",
+    "zh": "人类中心主义",
+    "en": "anthropocentrism",
+    "fr": "anthropocentrisme",
+    "es": "antropocentrismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-037",
+    "pt": "a cosmovisão",
+    "zh": "宇宙观；总体世界观",
+    "en": "cosmovision; world view",
+    "fr": "conception du monde",
+    "es": "cosmovisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-038",
+    "pt": "o anarquismo",
+    "zh": "无政府主义",
+    "en": "anarchism",
+    "fr": "anarchisme",
+    "es": "anarquismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-039",
+    "pt": "a magnanimidade",
+    "zh": "宽宏大量",
+    "en": "magnanimity",
+    "fr": "magnanimité",
+    "es": "magnanimidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-040",
+    "pt": "a pusilanimidade",
+    "zh": "怯懦",
+    "en": "pusillanimity",
+    "fr": "pusillanimité",
+    "es": "pusilanimidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-041",
+    "pt": "a frugalidade",
+    "zh": "节俭",
+    "en": "frugality",
+    "fr": "frugalité",
+    "es": "frugalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-042",
+    "pt": "o plebiscito",
+    "zh": "公民投票",
+    "en": "plebiscite",
+    "fr": "plébiscite",
+    "es": "plebiscito",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-043",
+    "pt": "o dissidente",
+    "zh": "异见者",
+    "en": "dissident",
+    "fr": "dissident",
+    "es": "disidente",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-044",
+    "pt": "a secessão",
+    "zh": "分裂；分离",
+    "en": "secession",
+    "fr": "sécession",
+    "es": "secesión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-045",
+    "pt": "a anexação",
+    "zh": "吞并",
+    "en": "annexation",
+    "fr": "annexion",
+    "es": "anexión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-046",
+    "pt": "o protecionismo",
+    "zh": "保护主义",
+    "en": "protectionism",
+    "fr": "protectionnisme",
+    "es": "proteccionismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-047",
+    "pt": "a embaixada",
+    "zh": "大使馆",
+    "en": "embassy",
+    "fr": "ambassade",
+    "es": "embajada",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-048",
+    "pt": "o caciquismo",
+    "zh": "地方寡头政治",
+    "en": "caciquism",
+    "fr": "caciquisme",
+    "es": "caciquismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-049",
+    "pt": "o barómetro",
+    "zh": "晴雨表；民意指标",
+    "en": "barometer",
+    "fr": "baromètre",
+    "es": "barómetro",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-050",
+    "pt": "a usura",
+    "zh": "高利贷",
+    "en": "usury",
+    "fr": "usure",
+    "es": "usura",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-051",
+    "pt": "a fiscalidade",
+    "zh": "税制",
+    "en": "taxation",
+    "fr": "fiscalité",
+    "es": "fiscalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-052",
+    "pt": "a venalidade",
+    "zh": "贪腐；可收买",
+    "en": "venality",
+    "fr": "vénalité",
+    "es": "venalidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-053",
+    "pt": "a transação",
+    "zh": "和解；交易",
+    "en": "settlement; transaction",
+    "fr": "transaction",
+    "es": "transacción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-054",
+    "pt": "o legado",
+    "zh": "遗产；遗赠",
+    "en": "legacy",
+    "fr": "legs",
+    "es": "legado",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-055",
+    "pt": "a sucessão",
+    "zh": "继承；继位",
+    "en": "succession",
+    "fr": "succession",
+    "es": "sucesión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-056",
+    "pt": "a partilha",
+    "zh": "分配；分割",
+    "en": "partition",
+    "fr": "partage",
+    "es": "partición",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-057",
+    "pt": "a contrapartida",
+    "zh": "补偿；对应物",
+    "en": "counterpart",
+    "fr": "contrepartie",
+    "es": "contrapartida",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-058",
+    "pt": "o óbice",
+    "zh": "障碍",
+    "en": "obstacle",
+    "fr": "obstacle",
+    "es": "óbice",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-059",
+    "pt": "o êxodo",
+    "zh": "大批离去；外逃",
+    "en": "exodus",
+    "fr": "exode",
+    "es": "éxodo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-060",
+    "pt": "a conivência",
+    "zh": "纵容；串通",
+    "en": "connivance",
+    "fr": "connivence",
+    "es": "connivencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-061",
+    "pt": "a complacência",
+    "zh": "纵容；自满",
+    "en": "complacency",
+    "fr": "complaisance",
+    "es": "complacencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-062",
+    "pt": "a homeostase",
+    "zh": "稳态",
+    "en": "homeostasis",
+    "fr": "homéostasie",
+    "es": "homeostasis",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-063",
+    "pt": "a hereditariedade",
+    "zh": "遗传",
+    "en": "heredity",
+    "fr": "hérédité",
+    "es": "herencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-064",
+    "pt": "o neutrino",
+    "zh": "中微子",
+    "en": "neutrino",
+    "fr": "neutrino",
+    "es": "neutrino",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-065",
+    "pt": "a fissão",
+    "zh": "裂变",
+    "en": "fission",
+    "fr": "fission",
+    "es": "fisión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-066",
+    "pt": "a sedimentação",
+    "zh": "沉积",
+    "en": "sedimentation",
+    "fr": "sédimentation",
+    "es": "sedimentación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-067",
+    "pt": "a oxidação",
+    "zh": "氧化",
+    "en": "oxidation",
+    "fr": "oxydation",
+    "es": "oxidación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-068",
+    "pt": "a combustão",
+    "zh": "燃烧",
+    "en": "combustion",
+    "fr": "combustion",
+    "es": "combustión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-069",
+    "pt": "a sublimação",
+    "zh": "升华",
+    "en": "sublimation",
+    "fr": "sublimation",
+    "es": "sublimación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-070",
+    "pt": "o isótopo",
+    "zh": "同位素",
+    "en": "isotope",
+    "fr": "isotope",
+    "es": "isótopo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-071",
+    "pt": "o robô",
+    "zh": "机器人",
+    "en": "robot",
+    "fr": "robot",
+    "es": "robot",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-072",
+    "pt": "o semicondutor",
+    "zh": "半导体",
+    "en": "semiconductor",
+    "fr": "semi-conducteur",
+    "es": "semiconductor",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-073",
+    "pt": "o decaimento",
+    "zh": "衰变",
+    "en": "decay",
+    "fr": "désintégration",
+    "es": "desintegración",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-074",
+    "pt": "a gravitação",
+    "zh": "引力；万有引力",
+    "en": "gravitation",
+    "fr": "gravitation",
+    "es": "gravitación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-075",
+    "pt": "a inércia",
+    "zh": "惯性；惰性",
+    "en": "inertia",
+    "fr": "inertie",
+    "es": "inercia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-076",
+    "pt": "o atrito",
+    "zh": "摩擦",
+    "en": "friction",
+    "fr": "frottement",
+    "es": "fricción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-077",
+    "pt": "a viscosidade",
+    "zh": "粘稠度",
+    "en": "viscosity",
+    "fr": "viscosité",
+    "es": "viscosidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-078",
+    "pt": "a densidade",
+    "zh": "密度",
+    "en": "density",
+    "fr": "densité",
+    "es": "densidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-079",
+    "pt": "a compressão",
+    "zh": "压缩",
+    "en": "compression",
+    "fr": "compression",
+    "es": "compresión",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-080",
+    "pt": "a dilatação",
+    "zh": "膨胀",
+    "en": "dilation",
+    "fr": "dilatation",
+    "es": "dilatación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-081",
+    "pt": "a condutividade",
+    "zh": "传导性",
+    "en": "conductivity",
+    "fr": "conductivité",
+    "es": "conductividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-082",
+    "pt": "o magnetismo",
+    "zh": "磁性；魅力",
+    "en": "magnetism",
+    "fr": "magnétisme",
+    "es": "magnetismo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-083",
+    "pt": "a veleidade",
+    "zh": "一时兴起；空想",
+    "en": "passing whim",
+    "fr": "velléité",
+    "es": "veleidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-084",
+    "pt": "a acquiescência",
+    "zh": "默许；勉强同意",
+    "en": "acquiescence",
+    "fr": "acquiescement",
+    "es": "aquiescencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-085",
+    "pt": "a parcimónia",
+    "zh": "吝啬；节俭",
+    "en": "parsimony",
+    "fr": "parcimonie",
+    "es": "parsimonia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-086",
+    "pt": "a munificência",
+    "zh": "慷慨",
+    "en": "munificence",
+    "fr": "munificence",
+    "es": "munificencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-087",
+    "pt": "a jactância",
+    "zh": "自吹自擂",
+    "en": "boastfulness",
+    "fr": "vantardise",
+    "es": "jactancia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-088",
+    "pt": "a fleuma",
+    "zh": "冷静；沉着",
+    "en": "composure; phlegm",
+    "fr": "flegme",
+    "es": "flema",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-089",
+    "pt": "a taciturnidade",
+    "zh": "沉默寡言",
+    "en": "taciturnity",
+    "fr": "taciturnité",
+    "es": "taciturnidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-090",
+    "pt": "a verve",
+    "zh": "才气；激情",
+    "en": "verve",
+    "fr": "verve",
+    "es": "vivacidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-091",
+    "pt": "a soberba",
+    "zh": "傲慢",
+    "en": "arrogance",
+    "fr": "orgueil",
+    "es": "soberbia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-092",
+    "pt": "a estupefação",
+    "zh": "惊愕",
+    "en": "stupefaction",
+    "fr": "stupeur",
+    "es": "estupefacción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-093",
+    "pt": "a perplexidade",
+    "zh": "困惑",
+    "en": "perplexity",
+    "fr": "perplexité",
+    "es": "perplejidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-094",
+    "pt": "a efervescência",
+    "zh": "沸腾；激昂",
+    "en": "effervescence",
+    "fr": "effervescence",
+    "es": "efervescencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-095",
+    "pt": "a volubilidade",
+    "zh": "反复无常",
+    "en": "fickleness",
+    "fr": "versatilité",
+    "es": "volubilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-096",
+    "pt": "a inconstância",
+    "zh": "无常；易变",
+    "en": "inconstancy",
+    "fr": "inconstance",
+    "es": "inconstancia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-097",
+    "pt": "a mordacidade",
+    "zh": "刻薄",
+    "en": "mordacity",
+    "fr": "mordacité",
+    "es": "mordacidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-098",
+    "pt": "a displicência",
+    "zh": "漫不经心；冷淡",
+    "en": "nonchalance",
+    "fr": "nonchalance",
+    "es": "displicencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-099",
+    "pt": "a indolência",
+    "zh": "懒散",
+    "en": "indolence",
+    "fr": "indolence",
+    "es": "indolencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-100",
+    "pt": "a apatia",
+    "zh": "冷漠",
+    "en": "apathy",
+    "fr": "apathie",
+    "es": "apatía",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-101",
+    "pt": "a letargia",
+    "zh": "昏睡；迟钝",
+    "en": "lethargy",
+    "fr": "léthargie",
+    "es": "letargo",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-102",
+    "pt": "o infortúnio",
+    "zh": "不幸",
+    "en": "misfortune",
+    "fr": "infortune",
+    "es": "infortunio",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-103",
+    "pt": "a provação",
+    "zh": "考验；磨难",
+    "en": "ordeal",
+    "fr": "épreuve",
+    "es": "prueba",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-104",
+    "pt": "a avareza",
+    "zh": "贪婪；吝啬",
+    "en": "avarice",
+    "fr": "avarice",
+    "es": "avaricia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-105",
+    "pt": "a cobiça",
+    "zh": "贪欲",
+    "en": "covetousness",
+    "fr": "convoitise",
+    "es": "codicia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-106",
+    "pt": "a ira",
+    "zh": "愤怒",
+    "en": "wrath",
+    "fr": "colère",
+    "es": "ira",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-107",
+    "pt": "a impiedade",
+    "zh": "无情；不敬",
+    "en": "impiety; ruthlessness",
+    "fr": "impiété",
+    "es": "impiedad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-108",
+    "pt": "a severidade",
+    "zh": "严厉",
+    "en": "severity",
+    "fr": "sévérité",
+    "es": "severidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-109",
+    "pt": "a rigidez",
+    "zh": "僵硬；严格",
+    "en": "rigidity",
+    "fr": "rigidité",
+    "es": "rigidez",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-110",
+    "pt": "a truculência",
+    "zh": "凶暴",
+    "en": "truculence",
+    "fr": "truculence",
+    "es": "truculencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-111",
+    "pt": "a pugnacidade",
+    "zh": "好斗",
+    "en": "pugnacity",
+    "fr": "pugnacité",
+    "es": "pugnacidad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-112",
+    "pt": "a combatividade",
+    "zh": "斗志",
+    "en": "combativeness",
+    "fr": "combativité",
+    "es": "combatividad",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-113",
+    "pt": "a perseverança",
+    "zh": "坚持不懈",
+    "en": "perseverance",
+    "fr": "persévérance",
+    "es": "perseverancia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-114",
+    "pt": "a renitência",
+    "zh": "顽抗；执拗",
+    "en": "stubborn resistance",
+    "fr": "résistance opiniâtre",
+    "es": "renitencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-115",
+    "pt": "a relutância",
+    "zh": "不情愿",
+    "en": "reluctance",
+    "fr": "réticence",
+    "es": "reticencia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-116",
+    "pt": "a irresolução",
+    "zh": "犹豫不决",
+    "en": "irresolution",
+    "fr": "irrésolution",
+    "es": "irresolución",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-117",
+    "pt": "a lisura",
+    "zh": "坦率；正直",
+    "en": "candour; uprightness",
+    "fr": "droiture",
+    "es": "lisura",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-118",
+    "pt": "a malícia",
+    "zh": "恶意；狡黠",
+    "en": "malice",
+    "fr": "malice",
+    "es": "malicia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-119",
+    "pt": "a perfídia",
+    "zh": "背信弃义",
+    "en": "perfidy",
+    "fr": "perfidie",
+    "es": "perfidia",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-120",
+    "pt": "a devoção",
+    "zh": "虔诚；奉献",
+    "en": "devotion",
+    "fr": "dévotion",
+    "es": "devoción",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-121",
+    "pt": "a abnegação",
+    "zh": "自我牺牲",
+    "en": "self-denial",
+    "fr": "abnégation",
+    "es": "abnegación",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-122",
+    "pt": "o desprendimento",
+    "zh": "无私；超脱",
+    "en": "selflessness; detachment",
+    "fr": "détachement",
+    "es": "desprendimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "c2z-123",
+    "pt": "ao arrepio de",
+    "zh": "违背；与…背道而驰",
+    "en": "contrary to",
+    "fr": "à l'encontre de",
+    "es": "a contrapelo de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-124",
+    "pt": "malgrado",
+    "zh": "尽管",
+    "en": "despite",
+    "fr": "malgré",
+    "es": "a pesar de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-125",
+    "pt": "tão-pouco",
+    "zh": "也不",
+    "en": "neither",
+    "fr": "non plus",
+    "es": "tampoco",
+    "pos": "adverb"
+  },
+  {
+    "id": "c2z-126",
+    "pt": "no tocante a",
+    "zh": "关于",
+    "en": "regarding",
+    "fr": "en ce qui concerne",
+    "es": "en lo tocante a",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-127",
+    "pt": "de modo algum",
+    "zh": "绝不",
+    "en": "by no means",
+    "fr": "en aucune façon",
+    "es": "de ningún modo",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-128",
+    "pt": "a fim de",
+    "zh": "为了",
+    "en": "in order to",
+    "fr": "afin de",
+    "es": "a fin de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-129",
+    "pt": "à falta de",
+    "zh": "缺少…时",
+    "en": "for lack of",
+    "fr": "à défaut de",
+    "es": "a falta de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-130",
+    "pt": "em bom rigor",
+    "zh": "严格来说",
+    "en": "strictly speaking",
+    "fr": "à proprement parler",
+    "es": "en rigor",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-131",
+    "pt": "deitar a mão a",
+    "zh": "抓住；据为己有",
+    "en": "to get hold of",
+    "fr": "mettre la main sur",
+    "es": "echar mano de",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-132",
+    "pt": "pôr a mão no fogo",
+    "zh": "担保；以身家性命担保",
+    "en": "to vouch for",
+    "fr": "mettre sa main au feu",
+    "es": "poner la mano en el fuego",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-133",
+    "pt": "estar nas tintas",
+    "zh": "毫不在乎",
+    "en": "not to care less",
+    "fr": "s'en moquer",
+    "es": "traer sin cuidado",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-134",
+    "pt": "mandar às urtigas",
+    "zh": "摒弃；赶走",
+    "en": "to throw out",
+    "fr": "envoyer promener",
+    "es": "mandar a paseo",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-135",
+    "pt": "apanhar o touro pelos cornos",
+    "zh": "迎难而上",
+    "en": "to take the bull by the horns",
+    "fr": "prendre le taureau par les cornes",
+    "es": "coger el toro por los cuernos",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-136",
+    "pt": "estar com a pulga atrás da orelha",
+    "zh": "起疑心",
+    "en": "to smell a rat",
+    "fr": "avoir la puce à l'oreille",
+    "es": "tener la mosca detrás de la oreja",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-137",
+    "pt": "pôr lenha na fogueira",
+    "zh": "火上浇油",
+    "en": "to add fuel to the fire",
+    "fr": "jeter de l'huile sur le feu",
+    "es": "echar leña al fuego",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-138",
+    "pt": "estar com a corda ao pescoço",
+    "zh": "走投无路",
+    "en": "to be cornered",
+    "fr": "avoir la corde au cou",
+    "es": "estar con la soga al cuello",
+    "pos": "phrase"
+  },
+  {
+    "id": "c2z-139",
+    "pt": "tergiversar",
+    "zh": "支吾；推诿",
+    "en": "to equivocate",
+    "fr": "tergiverser",
+    "es": "tergiversar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-140",
+    "pt": "prevaricar",
+    "zh": "渎职；贪赃枉法",
+    "en": "to prevaricate",
+    "fr": "prévariquer",
+    "es": "prevaricar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-141",
+    "pt": "eximir",
+    "zh": "免除；开脱",
+    "en": "to exempt",
+    "fr": "exempter",
+    "es": "eximir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-142",
+    "pt": "abster-se",
+    "zh": "弃权；克制",
+    "en": "to abstain",
+    "fr": "s'abstenir",
+    "es": "abstenerse",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-143",
+    "pt": "refrear",
+    "zh": "抑制；克制",
+    "en": "to restrain",
+    "fr": "refréner",
+    "es": "refrenar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-144",
+    "pt": "instigar",
+    "zh": "煽动；怂恿",
+    "en": "to instigate",
+    "fr": "inciter",
+    "es": "instigar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-145",
+    "pt": "urdir",
+    "zh": "策划；编织",
+    "en": "to plot",
+    "fr": "ourdir",
+    "es": "urdir",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-146",
+    "pt": "maquinar",
+    "zh": "密谋",
+    "en": "to machinate",
+    "fr": "manigancer",
+    "es": "maquinar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-147",
+    "pt": "enlevar",
+    "zh": "使陶醉",
+    "en": "to enrapture",
+    "fr": "enlever",
+    "es": "extasiar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-148",
+    "pt": "desvelar",
+    "zh": "揭示；揭开",
+    "en": "to unveil",
+    "fr": "dévoiler",
+    "es": "desvelar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-149",
+    "pt": "dilucidar",
+    "zh": "阐明",
+    "en": "to elucidate",
+    "fr": "élucider",
+    "es": "dilucidar",
+    "pos": "verb"
+  },
+  {
+    "id": "c2z-150",
+    "pt": "ilidir",
+    "zh": "驳倒；推翻",
+    "en": "to rebut",
+    "fr": "réfuter",
+    "es": "refutar",
+    "pos": "verb"
+  }
+]

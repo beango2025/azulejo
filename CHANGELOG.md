@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.7.0 — 2026-11-20
+
+- Expanded the unique five-language lexicon to **6,088 words** (5,878 bank entries + 210 core words), reaching the 6,000–8,000 CEFR band target.
+- Added 3,000 new A1–C2 entries with cross-level deduplication: A1 1,100 / A2 886 / B1 930 / B2 1,015 / C1 1,034 / C2 1,123 entries.
+- Kept 120 verb tables and 200-row vocabulary pagination.
+- Bumped the service worker cache to `azulejo-v3.7.0`.
+
 ## 3.6.0 — 2026-11-20
 
 - Expanded the five-language vocabulary bank from 810 to **3,600 words**: 600 per level (A1–C2).

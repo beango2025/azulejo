@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "a2z-001",
+    "pt": "o atestado",
+    "zh": "证明；证明书",
+    "en": "certificate",
+    "fr": "le certificat",
+    "es": "el certificado",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-002",
+    "pt": "a estação de correios",
+    "zh": "邮局",
+    "en": "post office",
+    "fr": "le bureau de poste",
+    "es": "la oficina de correos",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-003",
+    "pt": "a loja do cidadão",
+    "zh": "市民服务中心",
+    "en": "citizen service centre",
+    "fr": "le centre de services aux citoyens",
+    "es": "la oficina de atención al ciudadano",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-004",
+    "pt": "a papelada",
+    "zh": "文书工作；一堆文件",
+    "en": "paperwork",
+    "fr": "la paperasse",
+    "es": "el papeleo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-005",
+    "pt": "o duplicado",
+    "zh": "副本；补发件",
+    "en": "duplicate, second copy",
+    "fr": "le duplicata",
+    "es": "el duplicado",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-006",
+    "pt": "o cartão de utente",
+    "zh": "医疗卡",
+    "en": "health card",
+    "fr": "la carte de santé",
+    "es": "la tarjeta sanitaria",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-007",
+    "pt": "a certidão de nascimento",
+    "zh": "出生证明",
+    "en": "birth certificate",
+    "fr": "l'acte de naissance",
+    "es": "la partida de nacimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-008",
+    "pt": "a declaração de IRS",
+    "zh": "个人所得税申报表",
+    "en": "income tax return",
+    "fr": "la déclaration de revenus",
+    "es": "la declaración de la renta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-009",
+    "pt": "o extrato",
+    "zh": "银行对账单",
+    "en": "bank statement",
+    "fr": "le relevé bancaire",
+    "es": "el extracto bancario",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-010",
+    "pt": "o débito direto",
+    "zh": "直接扣款",
+    "en": "direct debit",
+    "fr": "le prélèvement automatique",
+    "es": "el cargo directo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-011",
+    "pt": "a apólice",
+    "zh": "保单",
+    "en": "insurance policy",
+    "fr": "la police d'assurance",
+    "es": "la póliza de seguro",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-012",
+    "pt": "a agência bancária",
+    "zh": "银行网点",
+    "en": "bank branch",
+    "fr": "l'agence bancaire",
+    "es": "la sucursal bancaria",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-013",
+    "pt": "a fila de espera",
+    "zh": "等候队列",
+    "en": "waiting queue",
+    "fr": "la file d'attente",
+    "es": "la cola de espera",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-014",
+    "pt": "o balcão de atendimento",
+    "zh": "服务柜台",
+    "en": "service counter",
+    "fr": "le guichet",
+    "es": "el mostrador de atención",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-015",
+    "pt": "o comprovativo de morada",
+    "zh": "住址证明",
+    "en": "proof of address",
+    "fr": "le justificatif de domicile",
+    "es": "el comprobante de domicilio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-016",
+    "pt": "o código PIN",
+    "zh": "PIN 码",
+    "en": "PIN code",
+    "fr": "le code PIN",
+    "es": "el código PIN",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-017",
+    "pt": "a dor de costas",
+    "zh": "背痛",
+    "en": "back pain",
+    "fr": "le mal de dos",
+    "es": "el dolor de espalda",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-018",
+    "pt": "a altura",
+    "zh": "身高",
+    "en": "height",
+    "fr": "la taille",
+    "es": "la altura",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-019",
+    "pt": "o enjoo",
+    "zh": "恶心；晕车",
+    "en": "nausea, motion sickness",
+    "fr": "la nausée",
+    "es": "el mareo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-020",
+    "pt": "o raio-X",
+    "zh": "X 光片",
+    "en": "X-ray",
+    "fr": "la radiographie",
+    "es": "la radiografía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-021",
+    "pt": "a farmácia de serviço",
+    "zh": "值班药店",
+    "en": "on-duty pharmacy",
+    "fr": "la pharmacie de garde",
+    "es": "la farmacia de guardia",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-022",
+    "pt": "tomar um comprimido",
+    "zh": "吃一片药",
+    "en": "to take a pill",
+    "fr": "prendre un comprimé",
+    "es": "tomar una pastilla",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2z-023",
+    "pt": "a máscara",
+    "zh": "口罩",
+    "en": "mask",
+    "fr": "le masque",
+    "es": "la mascarilla",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-024",
+    "pt": "o batimento",
+    "zh": "心跳",
+    "en": "heartbeat",
+    "fr": "le battement",
+    "es": "el latido",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-025",
+    "pt": "o adesivo",
+    "zh": "创可贴；贴片",
+    "en": "plaster, adhesive bandage",
+    "fr": "le pansement adhésif",
+    "es": "la tirita",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-026",
+    "pt": "a consulta de rotina",
+    "zh": "常规问诊",
+    "en": "routine check-up",
+    "fr": "la consultation de routine",
+    "es": "la consulta de rutina",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-027",
+    "pt": "a anca",
+    "zh": "髋部",
+    "en": "hip",
+    "fr": "la hanche",
+    "es": "la cadera",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-028",
+    "pt": "o lábio",
+    "zh": "嘴唇",
+    "en": "lip",
+    "fr": "la lèvre",
+    "es": "el labio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-029",
+    "pt": "o seguro de vida",
+    "zh": "人寿保险",
+    "en": "life insurance",
+    "fr": "l'assurance-vie",
+    "es": "el seguro de vida",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-030",
+    "pt": "o colírio",
+    "zh": "眼药水",
+    "en": "eye drops",
+    "fr": "le collyre",
+    "es": "el colirio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-031",
+    "pt": "a muleta",
+    "zh": "拐杖",
+    "en": "crutch",
+    "fr": "la béquille",
+    "es": "la muleta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-032",
+    "pt": "a cadeira de rodas",
+    "zh": "轮椅",
+    "en": "wheelchair",
+    "fr": "le fauteuil roulant",
+    "es": "la silla de ruedas",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-033",
+    "pt": "o apeadeiro",
+    "zh": "小火车站",
+    "en": "railway halt",
+    "fr": "la halte ferroviaire",
+    "es": "el apeadero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-034",
+    "pt": "o parquímetro",
+    "zh": "停车收费表",
+    "en": "parking meter",
+    "fr": "l'horodateur",
+    "es": "el parquímetro",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-035",
+    "pt": "o revisor",
+    "zh": "查票员",
+    "en": "ticket inspector",
+    "fr": "le contrôleur",
+    "es": "el revisor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-036",
+    "pt": "o seguro automóvel",
+    "zh": "汽车保险",
+    "en": "car insurance",
+    "fr": "l'assurance auto",
+    "es": "el seguro de coche",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-037",
+    "pt": "o exame de condução",
+    "zh": "驾照考试",
+    "en": "driving test",
+    "fr": "l'examen du permis de conduire",
+    "es": "el examen de conducir",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-038",
+    "pt": "a saída",
+    "zh": "出口；离开",
+    "en": "exit",
+    "fr": "la sortie",
+    "es": "la salida",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-039",
+    "pt": "o desvio",
+    "zh": "绕行；绕道",
+    "en": "detour",
+    "fr": "la déviation",
+    "es": "el desvío",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-040",
+    "pt": "o cartão de transporte",
+    "zh": "交通卡",
+    "en": "travel card",
+    "fr": "la carte de transport",
+    "es": "la tarjeta de transporte",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-041",
+    "pt": "a porta de embarque",
+    "zh": "登机口",
+    "en": "boarding gate",
+    "fr": "la porte d'embarquement",
+    "es": "la puerta de embarque",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-042",
+    "pt": "a revisão",
+    "zh": "检修；保养",
+    "en": "vehicle service",
+    "fr": "la révision",
+    "es": "la revisión",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-043",
+    "pt": "a carrinha",
+    "zh": "厢式货车；小型客货车",
+    "en": "van",
+    "fr": "la camionnette",
+    "es": "la furgoneta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-044",
+    "pt": "a tarifa",
+    "zh": "票价；费率",
+    "en": "fare",
+    "fr": "le tarif",
+    "es": "la tarifa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-045",
+    "pt": "o passe mensal",
+    "zh": "月票",
+    "en": "monthly pass",
+    "fr": "l'abonnement mensuel",
+    "es": "el abono mensual",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-046",
+    "pt": "o bilhete simples",
+    "zh": "单程票",
+    "en": "single ticket",
+    "fr": "le billet simple",
+    "es": "el billete sencillo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-047",
+    "pt": "o trajeto",
+    "zh": "路线；行程",
+    "en": "route, journey",
+    "fr": "le trajet",
+    "es": "el trayecto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-048",
+    "pt": "a boleia",
+    "zh": "搭便车",
+    "en": "lift, ride",
+    "fr": "le stop",
+    "es": "el autoestop",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-049",
+    "pt": "o contrato de arrendamento",
+    "zh": "租赁合同",
+    "en": "lease",
+    "fr": "le bail",
+    "es": "el contrato de alquiler",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-050",
+    "pt": "a manta",
+    "zh": "毯子",
+    "en": "blanket",
+    "fr": "la couverture",
+    "es": "la manta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-051",
+    "pt": "o papel higiénico",
+    "zh": "卫生纸",
+    "en": "toilet paper",
+    "fr": "le papier toilette",
+    "es": "el papel higiénico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-052",
+    "pt": "o móvel",
+    "zh": "家具",
+    "en": "piece of furniture",
+    "fr": "le meuble",
+    "es": "el mueble",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-053",
+    "pt": "a máquina de secar",
+    "zh": "烘干机",
+    "en": "tumble dryer",
+    "fr": "le sèche-linge",
+    "es": "la secadora",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-054",
+    "pt": "a conta da luz",
+    "zh": "电费单",
+    "en": "electricity bill",
+    "fr": "la facture d'électricité",
+    "es": "la factura de la luz",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-055",
+    "pt": "a conta da água",
+    "zh": "水费单",
+    "en": "water bill",
+    "fr": "la facture d'eau",
+    "es": "la factura del agua",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-056",
+    "pt": "o seguro de casa",
+    "zh": "房屋保险",
+    "en": "home insurance",
+    "fr": "l'assurance habitation",
+    "es": "el seguro de hogar",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-057",
+    "pt": "a caixa de cartão",
+    "zh": "纸箱",
+    "en": "cardboard box",
+    "fr": "le carton",
+    "es": "la caja de cartón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-058",
+    "pt": "o lugar de estacionamento",
+    "zh": "停车位",
+    "en": "parking space",
+    "fr": "la place de parking",
+    "es": "la plaza de aparcamiento",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-059",
+    "pt": "a colcha",
+    "zh": "床罩",
+    "en": "bedspread",
+    "fr": "le couvre-lit",
+    "es": "la colcha",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-060",
+    "pt": "a telha",
+    "zh": "瓦片",
+    "en": "roof tile",
+    "fr": "la tuile",
+    "es": "la teja",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-061",
+    "pt": "o tijolo",
+    "zh": "砖",
+    "en": "brick",
+    "fr": "la brique",
+    "es": "el ladrillo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-062",
+    "pt": "a tinta",
+    "zh": "油漆；墨水",
+    "en": "paint, ink",
+    "fr": "la peinture",
+    "es": "la pintura",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-063",
+    "pt": "o pincel",
+    "zh": "刷子；画笔",
+    "en": "brush",
+    "fr": "le pinceau",
+    "es": "el pincel",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-064",
+    "pt": "a arrecadação",
+    "zh": "储藏室",
+    "en": "storage room",
+    "fr": "le débarras",
+    "es": "el trastero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-065",
+    "pt": "o acompanhamento",
+    "zh": "配菜",
+    "en": "side dish",
+    "fr": "l'accompagnement",
+    "es": "el acompañamiento",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-066",
+    "pt": "a bebida",
+    "zh": "饮料",
+    "en": "drink",
+    "fr": "la boisson",
+    "es": "la bebida",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-067",
+    "pt": "a azeitona",
+    "zh": "橄榄",
+    "en": "olive",
+    "fr": "l'olive",
+    "es": "la aceituna",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-068",
+    "pt": "o molho",
+    "zh": "酱汁",
+    "en": "sauce",
+    "fr": "la sauce",
+    "es": "la salsa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-069",
+    "pt": "o talher",
+    "zh": "餐具（一件）",
+    "en": "piece of cutlery",
+    "fr": "le couvert",
+    "es": "el cubierto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-070",
+    "pt": "a travessa",
+    "zh": "大浅盘",
+    "en": "serving dish",
+    "fr": "le plat de service",
+    "es": "la fuente",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-071",
+    "pt": "o congelador",
+    "zh": "冷冻柜",
+    "en": "freezer",
+    "fr": "le congélateur",
+    "es": "el congelador",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-072",
+    "pt": "o saco de compras",
+    "zh": "购物袋",
+    "en": "shopping bag",
+    "fr": "le sac de courses",
+    "es": "la bolsa de la compra",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-073",
+    "pt": "a lista de compras",
+    "zh": "购物清单",
+    "en": "shopping list",
+    "fr": "la liste de courses",
+    "es": "la lista de la compra",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-074",
+    "pt": "o hipermercado",
+    "zh": "大卖场",
+    "en": "hypermarket",
+    "fr": "l'hypermarché",
+    "es": "el hipermercado",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-075",
+    "pt": "o quilo",
+    "zh": "公斤",
+    "en": "kilo",
+    "fr": "le kilo",
+    "es": "el kilo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-076",
+    "pt": "a dose",
+    "zh": "份量",
+    "en": "portion",
+    "fr": "la portion",
+    "es": "la ración",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-077",
+    "pt": "o prazo de validade",
+    "zh": "保质期",
+    "en": "expiry date",
+    "fr": "la date de péremption",
+    "es": "la fecha de caducidad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-078",
+    "pt": "o rótulo",
+    "zh": "标签",
+    "en": "label",
+    "fr": "l'étiquette",
+    "es": "la etiqueta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-079",
+    "pt": "o legume",
+    "zh": "蔬菜",
+    "en": "vegetable",
+    "fr": "le légume",
+    "es": "la verdura",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-080",
+    "pt": "o galão",
+    "zh": "加奶咖啡",
+    "en": "milky coffee",
+    "fr": "le café au lait",
+    "es": "el café con leche",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-081",
+    "pt": "a gargalhada",
+    "zh": "哈哈大笑",
+    "en": "burst of laughter",
+    "fr": "le fou rire",
+    "es": "la carcajada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-082",
+    "pt": "a discoteca",
+    "zh": "迪斯科舞厅",
+    "en": "nightclub",
+    "fr": "la discothèque",
+    "es": "la discoteca",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-083",
+    "pt": "o batizado",
+    "zh": "洗礼",
+    "en": "baptism",
+    "fr": "le baptême",
+    "es": "el bautizo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-084",
+    "pt": "a missa",
+    "zh": "弥撒",
+    "en": "mass",
+    "fr": "la messe",
+    "es": "la misa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-085",
+    "pt": "a rodada",
+    "zh": "一轮酒",
+    "en": "round of drinks",
+    "fr": "la tournée",
+    "es": "la ronda",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-086",
+    "pt": "o cartão de aniversário",
+    "zh": "生日贺卡",
+    "en": "birthday card",
+    "fr": "la carte d'anniversaire",
+    "es": "la tarjeta de cumpleaños",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-087",
+    "pt": "a vela",
+    "zh": "蜡烛",
+    "en": "candle",
+    "fr": "la bougie",
+    "es": "la vela",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-088",
+    "pt": "o bolo de aniversário",
+    "zh": "生日蛋糕",
+    "en": "birthday cake",
+    "fr": "le gâteau d'anniversaire",
+    "es": "el pastel de cumpleaños",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-089",
+    "pt": "o baile",
+    "zh": "舞会",
+    "en": "ball, dance",
+    "fr": "le bal",
+    "es": "el baile",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-090",
+    "pt": "o laço",
+    "zh": "蝴蝶结；丝带",
+    "en": "bow",
+    "fr": "le nœud",
+    "es": "el lazo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-091",
+    "pt": "a tia",
+    "zh": "姑妈；姨妈",
+    "en": "aunt",
+    "fr": "la tante",
+    "es": "la tía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-092",
+    "pt": "o balão",
+    "zh": "气球",
+    "en": "balloon",
+    "fr": "le ballon",
+    "es": "el globo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-093",
+    "pt": "a anfitriã",
+    "zh": "女主人",
+    "en": "hostess",
+    "fr": "l'hôtesse",
+    "es": "la anfitriona",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-094",
+    "pt": "o aniversariante",
+    "zh": "寿星",
+    "en": "birthday person",
+    "fr": "le fêté",
+    "es": "el cumpleañero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-095",
+    "pt": "o embrulho",
+    "zh": "包裹；包装",
+    "en": "parcel, wrapping",
+    "fr": "le paquet",
+    "es": "el paquete",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-096",
+    "pt": "a insegurança",
+    "zh": "不安全感",
+    "en": "insecurity",
+    "fr": "l'insécurité",
+    "es": "la inseguridad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-097",
+    "pt": "a birra",
+    "zh": "发脾气",
+    "en": "tantrum",
+    "fr": "la crise de colère",
+    "es": "la rabieta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-098",
+    "pt": "a lágrima",
+    "zh": "眼泪",
+    "en": "tear",
+    "fr": "la larme",
+    "es": "la lágrima",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-099",
+    "pt": "o sorriso",
+    "zh": "微笑",
+    "en": "smile",
+    "fr": "le sourire",
+    "es": "la sonrisa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-100",
+    "pt": "o riso",
+    "zh": "笑声",
+    "en": "laughter",
+    "fr": "le rire",
+    "es": "la risa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-101",
+    "pt": "o choro",
+    "zh": "哭泣",
+    "en": "crying",
+    "fr": "les pleurs",
+    "es": "el llanto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-102",
+    "pt": "a tranquilidade",
+    "zh": "平静",
+    "en": "tranquillity",
+    "fr": "la tranquillité",
+    "es": "la tranquilidad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-103",
+    "pt": "o embaraço",
+    "zh": "尴尬",
+    "en": "embarrassment",
+    "fr": "l'embarras",
+    "es": "el bochorno",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-104",
+    "pt": "a suspeita",
+    "zh": "怀疑",
+    "en": "suspicion",
+    "fr": "le soupçon",
+    "es": "la sospecha",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-105",
+    "pt": "o mau génio",
+    "zh": "坏脾气",
+    "en": "bad temper",
+    "fr": "le mauvais caractère",
+    "es": "el mal genio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-106",
+    "pt": "a maldade",
+    "zh": "恶意",
+    "en": "malice",
+    "fr": "la méchanceté",
+    "es": "la maldad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-107",
+    "pt": "o receio",
+    "zh": "担忧",
+    "en": "misgiving, fear",
+    "fr": "la crainte",
+    "es": "el recelo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-108",
+    "pt": "a satisfação",
+    "zh": "满意",
+    "en": "satisfaction",
+    "fr": "la satisfaction",
+    "es": "la satisfacción",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-109",
+    "pt": "a expetativa",
+    "zh": "期望",
+    "en": "expectation",
+    "fr": "l'attente",
+    "es": "la expectativa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-110",
+    "pt": "o adiamento",
+    "zh": "推迟",
+    "en": "postponement",
+    "fr": "le report",
+    "es": "el aplazamiento",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-111",
+    "pt": "a confirmação",
+    "zh": "确认",
+    "en": "confirmation",
+    "fr": "la confirmation",
+    "es": "la confirmación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-112",
+    "pt": "a prioridade",
+    "zh": "优先事项",
+    "en": "priority",
+    "fr": "la priorité",
+    "es": "la prioridad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-113",
+    "pt": "o recomeço",
+    "zh": "重新开始",
+    "en": "fresh start",
+    "fr": "le nouveau départ",
+    "es": "el nuevo comienzo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-114",
+    "pt": "o plano B",
+    "zh": "备选方案",
+    "en": "plan B",
+    "fr": "le plan B",
+    "es": "el plan B",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-115",
+    "pt": "a lista de tarefas",
+    "zh": "任务清单",
+    "en": "to-do list",
+    "fr": "la liste des tâches",
+    "es": "la lista de tareas",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-116",
+    "pt": "o lembrete",
+    "zh": "提醒",
+    "en": "reminder",
+    "fr": "le rappel",
+    "es": "el recordatorio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-117",
+    "pt": "a data limite",
+    "zh": "截止日期",
+    "en": "deadline",
+    "fr": "la date limite",
+    "es": "la fecha límite",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-118",
+    "pt": "a alteração",
+    "zh": "更改",
+    "en": "change, alteration",
+    "fr": "la modification",
+    "es": "la modificación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-119",
+    "pt": "a remarcação",
+    "zh": "改期",
+    "en": "rescheduling",
+    "fr": "la reprogrammation",
+    "es": "la reprogramación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-120",
+    "pt": "o imprevisto",
+    "zh": "意外情况",
+    "en": "unforeseen event",
+    "fr": "l'imprévu",
+    "es": "el imprevisto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-121",
+    "pt": "o plano de poupança",
+    "zh": "储蓄计划",
+    "en": "savings plan",
+    "fr": "le plan d'épargne",
+    "es": "el plan de ahorro",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-122",
+    "pt": "o empregado",
+    "zh": "职员；服务员",
+    "en": "employee",
+    "fr": "l'employé",
+    "es": "el empleado",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-123",
+    "pt": "a carta de apresentação",
+    "zh": "求职信",
+    "en": "cover letter",
+    "fr": "la lettre de motivation",
+    "es": "la carta de presentación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-124",
+    "pt": "a ferramenta",
+    "zh": "工具",
+    "en": "tool",
+    "fr": "l'outil",
+    "es": "la herramienta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-125",
+    "pt": "a máquina",
+    "zh": "机器",
+    "en": "machine",
+    "fr": "la machine",
+    "es": "la máquina",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-126",
+    "pt": "a videochamada",
+    "zh": "视频通话",
+    "en": "video call",
+    "fr": "l'appel vidéo",
+    "es": "la videollamada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-127",
+    "pt": "o colega de trabalho",
+    "zh": "同事",
+    "en": "colleague",
+    "fr": "le collègue de travail",
+    "es": "el compañero de trabajo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-128",
+    "pt": "o bónus",
+    "zh": "奖金",
+    "en": "bonus",
+    "fr": "la prime",
+    "es": "el bono",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-129",
+    "pt": "o gráfico",
+    "zh": "图表",
+    "en": "chart, graph",
+    "fr": "le graphique",
+    "es": "el gráfico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-130",
+    "pt": "as horas extras",
+    "zh": "加班",
+    "en": "overtime",
+    "fr": "les heures supplémentaires",
+    "es": "las horas extras",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-131",
+    "pt": "o trabalho remoto",
+    "zh": "远程工作",
+    "en": "remote work",
+    "fr": "le télétravail",
+    "es": "el trabajo remoto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-132",
+    "pt": "a reunião online",
+    "zh": "线上会议",
+    "en": "online meeting",
+    "fr": "la réunion en ligne",
+    "es": "la reunión en línea",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-133",
+    "pt": "o telefonema",
+    "zh": "电话通话",
+    "en": "phone call",
+    "fr": "l'appel téléphonique",
+    "es": "la llamada telefónica",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-134",
+    "pt": "o cartão de visita",
+    "zh": "名片",
+    "en": "business card",
+    "fr": "la carte de visite",
+    "es": "la tarjeta de visita",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-135",
+    "pt": "o bloco de notas",
+    "zh": "记事本",
+    "en": "notepad",
+    "fr": "le bloc-notes",
+    "es": "el bloc de notas",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-136",
+    "pt": "o seguro de trabalho",
+    "zh": "工伤保险",
+    "en": "work insurance",
+    "fr": "l'assurance professionnelle",
+    "es": "el seguro laboral",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-137",
+    "pt": "o guia turístico",
+    "zh": "导游；旅游指南",
+    "en": "tour guide",
+    "fr": "le guide touristique",
+    "es": "el guía turístico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-138",
+    "pt": "a pousada",
+    "zh": "客栈；小旅馆",
+    "en": "guesthouse",
+    "fr": "la maison d'hôtes",
+    "es": "la posada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-139",
+    "pt": "o bilhete de avião",
+    "zh": "机票",
+    "en": "plane ticket",
+    "fr": "le billet d'avion",
+    "es": "el billete de avión",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-140",
+    "pt": "a reserva de hotel",
+    "zh": "酒店预订",
+    "en": "hotel reservation",
+    "fr": "la réservation d'hôtel",
+    "es": "la reserva de hotel",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-141",
+    "pt": "o quarto duplo",
+    "zh": "双人房",
+    "en": "double room",
+    "fr": "la chambre double",
+    "es": "la habitación doble",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-142",
+    "pt": "o quarto individual",
+    "zh": "单人房",
+    "en": "single room",
+    "fr": "la chambre individuelle",
+    "es": "la habitación individual",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-143",
+    "pt": "a toalha de praia",
+    "zh": "沙滩巾",
+    "en": "beach towel",
+    "fr": "la serviette de plage",
+    "es": "la toalla de playa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-144",
+    "pt": "o mapa da cidade",
+    "zh": "城市地图",
+    "en": "city map",
+    "fr": "le plan de la ville",
+    "es": "el mapa de la ciudad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-145",
+    "pt": "o ponto de informação",
+    "zh": "咨询处",
+    "en": "information point",
+    "fr": "le point information",
+    "es": "el punto de información",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-146",
+    "pt": "o bilhete de entrada",
+    "zh": "入场券",
+    "en": "entrance ticket",
+    "fr": "le billet d'entrée",
+    "es": "el billete de entrada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-147",
+    "pt": "a agência de viagens",
+    "zh": "旅行社",
+    "en": "travel agency",
+    "fr": "l'agence de voyages",
+    "es": "la agencia de viajes",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-148",
+    "pt": "o areal",
+    "zh": "沙滩",
+    "en": "sandy beach",
+    "fr": "la plage de sable",
+    "es": "el arenal",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-149",
+    "pt": "o farol",
+    "zh": "灯塔",
+    "en": "lighthouse",
+    "fr": "le phare",
+    "es": "el faro",
+    "pos": "noun"
+  },
+  {
+    "id": "a2z-150",
+    "pt": "o passeio de barco",
+    "zh": "乘船游览",
+    "en": "boat trip",
+    "fr": "la balade en bateau",
+    "es": "el paseo en barco",
+    "pos": "noun"
+  }
+]

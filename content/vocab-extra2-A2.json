@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "a2y-001",
+    "pt": "o crachá",
+    "zh": "工牌",
+    "en": "badge",
+    "fr": "le badge",
+    "es": "la tarjeta identificativa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-002",
+    "pt": "a fotocópia",
+    "zh": "复印件",
+    "en": "photocopy",
+    "fr": "la photocopie",
+    "es": "la fotocopia",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-003",
+    "pt": "o arquivo",
+    "zh": "档案；档案室",
+    "en": "archive, file",
+    "fr": "les archives",
+    "es": "el archivo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-004",
+    "pt": "a pasta",
+    "zh": "文件夹；公文包",
+    "en": "folder, briefcase",
+    "fr": "le dossier",
+    "es": "la carpeta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-005",
+    "pt": "o agrafador",
+    "zh": "订书机",
+    "en": "stapler",
+    "fr": "l'agrafeuse (f)",
+    "es": "la grapadora",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-006",
+    "pt": "o marcador",
+    "zh": "记号笔",
+    "en": "marker",
+    "fr": "le marqueur",
+    "es": "el rotulador",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-007",
+    "pt": "a licença",
+    "zh": "许可证；休假",
+    "en": "licence, leave",
+    "fr": "la licence",
+    "es": "la licencia",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-008",
+    "pt": "o carimbo",
+    "zh": "印章",
+    "en": "stamp",
+    "fr": "le tampon",
+    "es": "el sello",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-009",
+    "pt": "o pagamento",
+    "zh": "付款",
+    "en": "payment",
+    "fr": "le paiement",
+    "es": "el pago",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-010",
+    "pt": "o reembolso",
+    "zh": "退款",
+    "en": "refund",
+    "fr": "le remboursement",
+    "es": "el reembolso",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-011",
+    "pt": "a mensalidade",
+    "zh": "月费",
+    "en": "monthly fee",
+    "fr": "la mensualité",
+    "es": "la cuota mensual",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-012",
+    "pt": "a folha de cálculo",
+    "zh": "电子表格",
+    "en": "spreadsheet",
+    "fr": "le tableur",
+    "es": "la hoja de cálculo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-013",
+    "pt": "o anexo",
+    "zh": "附件",
+    "en": "attachment",
+    "fr": "la pièce jointe",
+    "es": "el anexo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-014",
+    "pt": "o destinatário",
+    "zh": "收件人",
+    "en": "recipient",
+    "fr": "le destinataire",
+    "es": "el destinatario",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-015",
+    "pt": "o remetente",
+    "zh": "寄件人",
+    "en": "sender",
+    "fr": "l'expéditeur (m)",
+    "es": "el remitente",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-016",
+    "pt": "o recibo de vencimento",
+    "zh": "工资单",
+    "en": "payslip",
+    "fr": "le bulletin de paie",
+    "es": "la nómina",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-017",
+    "pt": "a videoconferência",
+    "zh": "视频会议",
+    "en": "video call",
+    "fr": "la visioconférence",
+    "es": "la videoconferencia",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-018",
+    "pt": "o departamento",
+    "zh": "部门",
+    "en": "department",
+    "fr": "le service",
+    "es": "el departamento",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-019",
+    "pt": "o diretor",
+    "zh": "经理；主任",
+    "en": "manager, director",
+    "fr": "le directeur",
+    "es": "el director",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-020",
+    "pt": "o carteiro",
+    "zh": "邮递员",
+    "en": "postman",
+    "fr": "le facteur",
+    "es": "el cartero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-021",
+    "pt": "o técnico",
+    "zh": "技术员",
+    "en": "technician",
+    "fr": "le technicien",
+    "es": "el técnico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-022",
+    "pt": "o contabilista",
+    "zh": "会计",
+    "en": "accountant",
+    "fr": "le comptable",
+    "es": "el contable",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-023",
+    "pt": "o arquiteto",
+    "zh": "建筑师",
+    "en": "architect",
+    "fr": "l'architecte (m)",
+    "es": "el arquitecto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-024",
+    "pt": "o farmacêutico",
+    "zh": "药剂师",
+    "en": "pharmacist",
+    "fr": "le pharmacien",
+    "es": "el farmacéutico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-025",
+    "pt": "o horário de atendimento",
+    "zh": "营业时间",
+    "en": "opening hours",
+    "fr": "les heures d'ouverture",
+    "es": "el horario de atención",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-026",
+    "pt": "o prémio",
+    "zh": "奖金；奖品",
+    "en": "bonus, prize",
+    "fr": "le prix",
+    "es": "el premio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-027",
+    "pt": "o balanço",
+    "zh": "结算；总结",
+    "en": "balance, review",
+    "fr": "le bilan",
+    "es": "el balance",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-028",
+    "pt": "a reclamação",
+    "zh": "投诉",
+    "en": "complaint",
+    "fr": "la réclamation",
+    "es": "la reclamación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-029",
+    "pt": "o livro de reclamações",
+    "zh": "投诉簿",
+    "en": "complaints book",
+    "fr": "le registre des réclamations",
+    "es": "el libro de reclamaciones",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-030",
+    "pt": "a transferência",
+    "zh": "转账",
+    "en": "bank transfer",
+    "fr": "le virement",
+    "es": "la transferencia",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-031",
+    "pt": "o levantamento",
+    "zh": "取款",
+    "en": "withdrawal",
+    "fr": "le retrait",
+    "es": "el reintegro",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-032",
+    "pt": "o depósito",
+    "zh": "存款；押金",
+    "en": "deposit",
+    "fr": "le dépôt",
+    "es": "el depósito",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-033",
+    "pt": "o câmbio",
+    "zh": "汇率；兑换处",
+    "en": "exchange rate",
+    "fr": "le change",
+    "es": "el cambio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-034",
+    "pt": "a gorjeta",
+    "zh": "小费",
+    "en": "tip",
+    "fr": "le pourboire",
+    "es": "la propina",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-035",
+    "pt": "o cartão de cidadão",
+    "zh": "身份证",
+    "en": "identity card",
+    "fr": "la carte d'identité",
+    "es": "el documento de identidad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-036",
+    "pt": "o número de contribuinte",
+    "zh": "税号",
+    "en": "tax number",
+    "fr": "le numéro fiscal",
+    "es": "el número de contribuyente",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-037",
+    "pt": "a junta de freguesia",
+    "zh": "教区委员会",
+    "en": "parish council",
+    "fr": "la mairie de quartier",
+    "es": "la junta de freguesía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-038",
+    "pt": "a sala de espera",
+    "zh": "候诊室；候车室",
+    "en": "waiting room",
+    "fr": "la salle d'attente",
+    "es": "la sala de espera",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-039",
+    "pt": "a papelaria",
+    "zh": "文具店",
+    "en": "stationery shop",
+    "fr": "la papeterie",
+    "es": "la papelería",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-040",
+    "pt": "a livraria",
+    "zh": "书店",
+    "en": "bookshop",
+    "fr": "la librairie",
+    "es": "la librería",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-041",
+    "pt": "a florista",
+    "zh": "花店",
+    "en": "florist",
+    "fr": "le fleuriste",
+    "es": "la floristería",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-042",
+    "pt": "a barbearia",
+    "zh": "男士理发店",
+    "en": "barber's",
+    "fr": "le barbier",
+    "es": "la barbería",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-043",
+    "pt": "a tinturaria",
+    "zh": "干洗店",
+    "en": "dry cleaner's",
+    "fr": "la teinturerie",
+    "es": "la tintorería",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-044",
+    "pt": "a costureira",
+    "zh": "女裁缝",
+    "en": "dressmaker",
+    "fr": "la couturière",
+    "es": "la costurera",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-045",
+    "pt": "o sapateiro",
+    "zh": "修鞋匠",
+    "en": "cobbler",
+    "fr": "le cordonnier",
+    "es": "el zapatero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-046",
+    "pt": "o chaveiro",
+    "zh": "锁匠",
+    "en": "locksmith",
+    "fr": "le serrurier",
+    "es": "el cerrajero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-047",
+    "pt": "o canalizador",
+    "zh": "水管工",
+    "en": "plumber",
+    "fr": "le plombier",
+    "es": "el fontanero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-048",
+    "pt": "o pintor",
+    "zh": "油漆工；画家",
+    "en": "painter",
+    "fr": "le peintre",
+    "es": "el pintor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-049",
+    "pt": "a reparação",
+    "zh": "修理",
+    "en": "repair",
+    "fr": "la réparation",
+    "es": "la reparación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-050",
+    "pt": "a fuga de água",
+    "zh": "漏水",
+    "en": "water leak",
+    "fr": "la fuite d'eau",
+    "es": "la fuga de agua",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-051",
+    "pt": "a infiltração",
+    "zh": "渗水",
+    "en": "seepage, damp",
+    "fr": "l'infiltration (f)",
+    "es": "la filtración",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-052",
+    "pt": "o contador",
+    "zh": "电表；计数器",
+    "en": "meter",
+    "fr": "le compteur",
+    "es": "el contador",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-053",
+    "pt": "o aquecedor",
+    "zh": "暖气",
+    "en": "heater",
+    "fr": "le radiateur",
+    "es": "el calefactor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-054",
+    "pt": "o ar condicionado",
+    "zh": "空调",
+    "en": "air conditioning",
+    "fr": "la climatisation",
+    "es": "el aire acondicionado",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-055",
+    "pt": "o ventilador",
+    "zh": "风扇",
+    "en": "fan",
+    "fr": "le ventilateur",
+    "es": "el ventilador",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-056",
+    "pt": "a máquina de lavar a louça",
+    "zh": "洗碗机",
+    "en": "dishwasher",
+    "fr": "le lave-vaisselle",
+    "es": "el lavaplatos",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-057",
+    "pt": "a tábua de engomar",
+    "zh": "烫衣板",
+    "en": "ironing board",
+    "fr": "la planche à repasser",
+    "es": "la tabla de planchar",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-058",
+    "pt": "o cabide",
+    "zh": "衣架",
+    "en": "coat hanger",
+    "fr": "le cintre",
+    "es": "la percha",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-059",
+    "pt": "a sanita",
+    "zh": "马桶",
+    "en": "toilet",
+    "fr": "la cuvette des toilettes",
+    "es": "el inodoro",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-060",
+    "pt": "o lava-loiça",
+    "zh": "洗碗池",
+    "en": "kitchen sink",
+    "fr": "l'évier (m)",
+    "es": "el fregadero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-061",
+    "pt": "o roupeiro",
+    "zh": "衣柜",
+    "en": "wardrobe",
+    "fr": "l'armoire (f)",
+    "es": "el armario",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-062",
+    "pt": "a mesa de cabeceira",
+    "zh": "床头柜",
+    "en": "bedside table",
+    "fr": "la table de chevet",
+    "es": "la mesilla de noche",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-063",
+    "pt": "o edredão",
+    "zh": "被子",
+    "en": "duvet",
+    "fr": "la couette",
+    "es": "el edredón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-064",
+    "pt": "a fronha",
+    "zh": "枕套",
+    "en": "pillowcase",
+    "fr": "la taie d'oreiller",
+    "es": "la funda de almohada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-065",
+    "pt": "a persiana",
+    "zh": "百叶窗",
+    "en": "blind",
+    "fr": "le store",
+    "es": "la persiana",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-066",
+    "pt": "o alarme",
+    "zh": "警报；闹钟",
+    "en": "alarm",
+    "fr": "l'alarme (f)",
+    "es": "la alarma",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-067",
+    "pt": "a cave",
+    "zh": "地下室",
+    "en": "cellar, basement",
+    "fr": "la cave",
+    "es": "el sótano",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-068",
+    "pt": "o pátio",
+    "zh": "院子",
+    "en": "courtyard",
+    "fr": "la cour",
+    "es": "el patio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-069",
+    "pt": "a despensa",
+    "zh": "食品储藏室",
+    "en": "larder",
+    "fr": "le garde-manger",
+    "es": "la despensa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-070",
+    "pt": "a vedação",
+    "zh": "围栏",
+    "en": "fence",
+    "fr": "la clôture",
+    "es": "la valla",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-071",
+    "pt": "o ladrilho",
+    "zh": "地砖",
+    "en": "floor tile",
+    "fr": "le carrelage",
+    "es": "la baldosa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-072",
+    "pt": "a alcatifa",
+    "zh": "满铺地毯",
+    "en": "fitted carpet",
+    "fr": "la moquette",
+    "es": "la moqueta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-073",
+    "pt": "a extensão",
+    "zh": "插线板",
+    "en": "extension lead",
+    "fr": "la rallonge",
+    "es": "el alargador",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-074",
+    "pt": "a ficha",
+    "zh": "插头",
+    "en": "plug",
+    "fr": "la fiche",
+    "es": "el enchufe",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-075",
+    "pt": "a sapateira",
+    "zh": "鞋柜",
+    "en": "shoe rack",
+    "fr": "le meuble à chaussures",
+    "es": "la zapatera",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-076",
+    "pt": "o bengaleiro",
+    "zh": "衣帽架",
+    "en": "coat rack",
+    "fr": "le portemanteau",
+    "es": "el perchero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-077",
+    "pt": "o exaustor",
+    "zh": "抽油烟机",
+    "en": "extractor hood",
+    "fr": "la hotte",
+    "es": "el extractor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-078",
+    "pt": "a placa",
+    "zh": "灶台",
+    "en": "hob",
+    "fr": "la plaque de cuisson",
+    "es": "la placa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-079",
+    "pt": "a torradeira",
+    "zh": "烤面包机",
+    "en": "toaster",
+    "fr": "le grille-pain",
+    "es": "la tostadora",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-080",
+    "pt": "a chaleira",
+    "zh": "水壶",
+    "en": "kettle",
+    "fr": "la bouilloire",
+    "es": "el hervidor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-081",
+    "pt": "a cafeteira",
+    "zh": "咖啡机",
+    "en": "cafetière",
+    "fr": "la cafetière",
+    "es": "la cafetera",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-082",
+    "pt": "o saco do lixo",
+    "zh": "垃圾袋",
+    "en": "bin bag",
+    "fr": "le sac poubelle",
+    "es": "la bolsa de basura",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-083",
+    "pt": "o detergente",
+    "zh": "洗涤剂",
+    "en": "detergent",
+    "fr": "le détergent",
+    "es": "el detergente",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-084",
+    "pt": "a esponja",
+    "zh": "海绵",
+    "en": "sponge",
+    "fr": "l'éponge (f)",
+    "es": "la esponja",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-085",
+    "pt": "o balde",
+    "zh": "水桶",
+    "en": "bucket",
+    "fr": "le seau",
+    "es": "el cubo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-086",
+    "pt": "o esfregão",
+    "zh": "拖把",
+    "en": "mop",
+    "fr": "la serpillière",
+    "es": "la fregona",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-087",
+    "pt": "o atestado médico",
+    "zh": "病假证明",
+    "en": "medical certificate",
+    "fr": "le certificat médical",
+    "es": "el certificado médico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-088",
+    "pt": "o penso",
+    "zh": "创可贴；敷料",
+    "en": "plaster, dressing",
+    "fr": "le pansement",
+    "es": "la tirita",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-089",
+    "pt": "a pomada",
+    "zh": "药膏",
+    "en": "ointment",
+    "fr": "la pommade",
+    "es": "la pomada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-090",
+    "pt": "o xarope",
+    "zh": "药水；糖浆",
+    "en": "syrup",
+    "fr": "le sirop",
+    "es": "el jarabe",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-091",
+    "pt": "as gotas",
+    "zh": "滴剂",
+    "en": "drops",
+    "fr": "les gouttes",
+    "es": "las gotas",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-092",
+    "pt": "o analgésico",
+    "zh": "止痛药",
+    "en": "painkiller",
+    "fr": "l'analgésique (m)",
+    "es": "el analgésico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-093",
+    "pt": "a radiografia",
+    "zh": "X光片",
+    "en": "X-ray",
+    "fr": "la radiographie",
+    "es": "la radiografía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-094",
+    "pt": "a ecografia",
+    "zh": "B超",
+    "en": "ultrasound",
+    "fr": "l'échographie (f)",
+    "es": "la ecografía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-095",
+    "pt": "a tontura",
+    "zh": "头晕",
+    "en": "dizziness",
+    "fr": "le vertige",
+    "es": "el mareo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-096",
+    "pt": "o pulso",
+    "zh": "脉搏；手腕",
+    "en": "pulse, wrist",
+    "fr": "le pouls",
+    "es": "el pulso",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-097",
+    "pt": "a pílula",
+    "zh": "药丸；避孕药",
+    "en": "pill",
+    "fr": "la pilule",
+    "es": "la píldora",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-098",
+    "pt": "o psicólogo",
+    "zh": "心理医生",
+    "en": "psychologist",
+    "fr": "le psychologue",
+    "es": "el psicólogo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-099",
+    "pt": "o internamento",
+    "zh": "住院",
+    "en": "hospital stay",
+    "fr": "l'hospitalisation (f)",
+    "es": "la hospitalización",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-100",
+    "pt": "a operação",
+    "zh": "手术",
+    "en": "operation",
+    "fr": "l'opération (f)",
+    "es": "la operación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-101",
+    "pt": "a asma",
+    "zh": "哮喘",
+    "en": "asthma",
+    "fr": "l'asthme (m)",
+    "es": "el asma",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-102",
+    "pt": "o colesterol",
+    "zh": "胆固醇",
+    "en": "cholesterol",
+    "fr": "le cholestérol",
+    "es": "el colesterol",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-103",
+    "pt": "a nutricionista",
+    "zh": "营养师",
+    "en": "nutritionist",
+    "fr": "le nutritionniste",
+    "es": "el nutricionista",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-104",
+    "pt": "a seringa",
+    "zh": "注射器",
+    "en": "syringe",
+    "fr": "la seringue",
+    "es": "la jeringuilla",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-105",
+    "pt": "a enfermaria",
+    "zh": "病房",
+    "en": "ward",
+    "fr": "l'infirmerie (f)",
+    "es": "la enfermería",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-106",
+    "pt": "a recaída",
+    "zh": "复发",
+    "en": "relapse",
+    "fr": "la rechute",
+    "es": "la recaída",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-107",
+    "pt": "o sono",
+    "zh": "困意；睡眠",
+    "en": "sleep, sleepiness",
+    "fr": "le sommeil",
+    "es": "el sueño",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-108",
+    "pt": "a sesta",
+    "zh": "午睡",
+    "en": "nap",
+    "fr": "la sieste",
+    "es": "la siesta",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-109",
+    "pt": "o nervo",
+    "zh": "神经",
+    "en": "nerve",
+    "fr": "le nerf",
+    "es": "el nervio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-110",
+    "pt": "o intestino",
+    "zh": "肠",
+    "en": "intestine",
+    "fr": "l'intestin (m)",
+    "es": "el intestino",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-111",
+    "pt": "o alívio",
+    "zh": "宽慰",
+    "en": "relief",
+    "fr": "le soulagement",
+    "es": "el alivio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-112",
+    "pt": "o susto",
+    "zh": "惊吓",
+    "en": "fright, scare",
+    "fr": "la frayeur",
+    "es": "el susto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-113",
+    "pt": "o nojo",
+    "zh": "厌恶",
+    "en": "disgust",
+    "fr": "le dégoût",
+    "es": "el asco",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-114",
+    "pt": "a ternura",
+    "zh": "温柔",
+    "en": "tenderness",
+    "fr": "la tendresse",
+    "es": "la ternura",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-115",
+    "pt": "a timidez",
+    "zh": "害羞",
+    "en": "shyness",
+    "fr": "la timidité",
+    "es": "la timidez",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-116",
+    "pt": "o otimismo",
+    "zh": "乐观",
+    "en": "optimism",
+    "fr": "l'optimisme (m)",
+    "es": "el optimismo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-117",
+    "pt": "o pessimismo",
+    "zh": "悲观",
+    "en": "pessimism",
+    "fr": "le pessimisme",
+    "es": "el pesimismo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-118",
+    "pt": "a pressa",
+    "zh": "匆忙",
+    "en": "hurry",
+    "fr": "la hâte",
+    "es": "la prisa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-119",
+    "pt": "o pânico",
+    "zh": "恐慌",
+    "en": "panic",
+    "fr": "la panique",
+    "es": "el pánico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-120",
+    "pt": "o choque",
+    "zh": "震惊",
+    "en": "shock",
+    "fr": "le choc",
+    "es": "el shock",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-121",
+    "pt": "o desgosto",
+    "zh": "伤心；不快",
+    "en": "sorrow",
+    "fr": "le chagrin",
+    "es": "el disgusto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-122",
+    "pt": "a irritação",
+    "zh": "恼怒",
+    "en": "irritation",
+    "fr": "l'irritation (f)",
+    "es": "la irritación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-123",
+    "pt": "a simpatia",
+    "zh": "亲切",
+    "en": "friendliness",
+    "fr": "la sympathie",
+    "es": "la simpatía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-124",
+    "pt": "a antipatia",
+    "zh": "反感",
+    "en": "dislike",
+    "fr": "l'antipathie (f)",
+    "es": "la antipatía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-125",
+    "pt": "o desânimo",
+    "zh": "沮丧",
+    "en": "discouragement",
+    "fr": "le découragement",
+    "es": "el desánimo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-126",
+    "pt": "a curiosidade",
+    "zh": "好奇心",
+    "en": "curiosity",
+    "fr": "la curiosité",
+    "es": "la curiosidad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-127",
+    "pt": "a bondade",
+    "zh": "善良",
+    "en": "kindness",
+    "fr": "la bonté",
+    "es": "la bondad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-128",
+    "pt": "o respeito",
+    "zh": "尊重",
+    "en": "respect",
+    "fr": "le respect",
+    "es": "el respeto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-129",
+    "pt": "o apego",
+    "zh": "依恋",
+    "en": "attachment",
+    "fr": "l'attachement (m)",
+    "es": "el apego",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-130",
+    "pt": "o desabafo",
+    "zh": "倾诉",
+    "en": "outpouring",
+    "fr": "la confidence",
+    "es": "el desahogo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-131",
+    "pt": "a autoestima",
+    "zh": "自尊",
+    "en": "self-esteem",
+    "fr": "l'estime de soi",
+    "es": "la autoestima",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-132",
+    "pt": "a serenidade",
+    "zh": "平静",
+    "en": "serenity",
+    "fr": "la sérénité",
+    "es": "la serenidad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-133",
+    "pt": "a compaixão",
+    "zh": "同情",
+    "en": "compassion",
+    "fr": "la compassion",
+    "es": "la compasión",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-134",
+    "pt": "a euforia",
+    "zh": "兴奋",
+    "en": "euphoria",
+    "fr": "l'euphorie (f)",
+    "es": "la euforia",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-135",
+    "pt": "o esparguete",
+    "zh": "意大利面",
+    "en": "spaghetti",
+    "fr": "les spaghettis",
+    "es": "los espaguetis",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-136",
+    "pt": "as batatas fritas",
+    "zh": "薯条",
+    "en": "chips, fries",
+    "fr": "les frites",
+    "es": "las patatas fritas",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-137",
+    "pt": "o hambúrguer",
+    "zh": "汉堡",
+    "en": "burger",
+    "fr": "le hamburger",
+    "es": "la hamburguesa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-138",
+    "pt": "a pizza",
+    "zh": "比萨",
+    "en": "pizza",
+    "fr": "la pizza",
+    "es": "la pizza",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-139",
+    "pt": "o croissant",
+    "zh": "牛角面包",
+    "en": "croissant",
+    "fr": "le croissant",
+    "es": "el cruasán",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-140",
+    "pt": "a torrada",
+    "zh": "烤面包片",
+    "en": "toast",
+    "fr": "le toast",
+    "es": "la tostada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-141",
+    "pt": "os cereais",
+    "zh": "麦片",
+    "en": "cereal",
+    "fr": "les céréales",
+    "es": "los cereales",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-142",
+    "pt": "a aveia",
+    "zh": "燕麦",
+    "en": "oats",
+    "fr": "l'avoine (f)",
+    "es": "la avena",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-143",
+    "pt": "o mel",
+    "zh": "蜂蜜",
+    "en": "honey",
+    "fr": "le miel",
+    "es": "la miel",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-144",
+    "pt": "a compota",
+    "zh": "果酱",
+    "en": "jam",
+    "fr": "la confiture",
+    "es": "la mermelada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-145",
+    "pt": "o fiambre",
+    "zh": "火腿片",
+    "en": "cooked ham",
+    "fr": "le jambon",
+    "es": "el jamón cocido",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-146",
+    "pt": "o caldo",
+    "zh": "汤；高汤",
+    "en": "broth",
+    "fr": "le bouillon",
+    "es": "el caldo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-147",
+    "pt": "o polvo",
+    "zh": "章鱼",
+    "en": "octopus",
+    "fr": "le poulpe",
+    "es": "el pulpo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-148",
+    "pt": "o atum",
+    "zh": "金枪鱼",
+    "en": "tuna",
+    "fr": "le thon",
+    "es": "el atún",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-149",
+    "pt": "o salmão",
+    "zh": "三文鱼",
+    "en": "salmon",
+    "fr": "le saumon",
+    "es": "el salmón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-150",
+    "pt": "a sardinha",
+    "zh": "沙丁鱼",
+    "en": "sardine",
+    "fr": "la sardine",
+    "es": "la sardina",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-151",
+    "pt": "o borrego",
+    "zh": "羊肉",
+    "en": "lamb",
+    "fr": "l'agneau (m)",
+    "es": "el cordero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-152",
+    "pt": "o porco",
+    "zh": "猪；猪肉",
+    "en": "pig, pork",
+    "fr": "le porc",
+    "es": "el cerdo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-153",
+    "pt": "o chouriço",
+    "zh": "辣味香肠",
+    "en": "chorizo",
+    "fr": "le chorizo",
+    "es": "el chorizo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-154",
+    "pt": "o brócolo",
+    "zh": "西兰花",
+    "en": "broccoli",
+    "fr": "le brocoli",
+    "es": "el brócoli",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-155",
+    "pt": "o espinafre",
+    "zh": "菠菜",
+    "en": "spinach",
+    "fr": "l'épinard (m)",
+    "es": "la espinaca",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-156",
+    "pt": "a abóbora",
+    "zh": "南瓜",
+    "en": "pumpkin",
+    "fr": "la citrouille",
+    "es": "la calabaza",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-157",
+    "pt": "o pimento",
+    "zh": "甜椒",
+    "en": "pepper",
+    "fr": "le poivron",
+    "es": "el pimiento",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-158",
+    "pt": "a beringela",
+    "zh": "茄子",
+    "en": "aubergine",
+    "fr": "l'aubergine (f)",
+    "es": "la berenjena",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-159",
+    "pt": "o cogumelo",
+    "zh": "蘑菇",
+    "en": "mushroom",
+    "fr": "le champignon",
+    "es": "el champiñón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-160",
+    "pt": "o ananás",
+    "zh": "菠萝",
+    "en": "pineapple",
+    "fr": "l'ananas (m)",
+    "es": "la piña",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-161",
+    "pt": "a melancia",
+    "zh": "西瓜",
+    "en": "watermelon",
+    "fr": "la pastèque",
+    "es": "la sandía",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-162",
+    "pt": "o melão",
+    "zh": "甜瓜",
+    "en": "melon",
+    "fr": "le melon",
+    "es": "el melón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-163",
+    "pt": "o pêssego",
+    "zh": "桃子",
+    "en": "peach",
+    "fr": "la pêche",
+    "es": "el melocotón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-164",
+    "pt": "a cereja",
+    "zh": "樱桃",
+    "en": "cherry",
+    "fr": "la cerise",
+    "es": "la cereza",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-165",
+    "pt": "o figo",
+    "zh": "无花果",
+    "en": "fig",
+    "fr": "la figue",
+    "es": "el higo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-166",
+    "pt": "a amêndoa",
+    "zh": "杏仁",
+    "en": "almond",
+    "fr": "l'amande (f)",
+    "es": "la almendra",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-167",
+    "pt": "a noz",
+    "zh": "核桃",
+    "en": "walnut",
+    "fr": "la noix",
+    "es": "la nuez",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-168",
+    "pt": "a limonada",
+    "zh": "柠檬水",
+    "en": "lemonade",
+    "fr": "la limonade",
+    "es": "la limonada",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-169",
+    "pt": "o batido",
+    "zh": "奶昔；果昔",
+    "en": "milkshake, smoothie",
+    "fr": "le milkshake",
+    "es": "el batido",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-170",
+    "pt": "a lata",
+    "zh": "罐头；易拉罐",
+    "en": "tin, can",
+    "fr": "la boîte",
+    "es": "la lata",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-171",
+    "pt": "o pacote",
+    "zh": "一包；包装",
+    "en": "packet",
+    "fr": "le paquet",
+    "es": "el paquete",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-172",
+    "pt": "a carruagem",
+    "zh": "车厢",
+    "en": "carriage",
+    "fr": "la voiture",
+    "es": "el vagón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-173",
+    "pt": "o pneu",
+    "zh": "轮胎",
+    "en": "tyre",
+    "fr": "le pneu",
+    "es": "el neumático",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-174",
+    "pt": "a oficina",
+    "zh": "修车厂",
+    "en": "garage, workshop",
+    "fr": "l'atelier (m)",
+    "es": "el taller",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-175",
+    "pt": "o albergue",
+    "zh": "青年旅舍",
+    "en": "hostel",
+    "fr": "l'auberge (f)",
+    "es": "el albergue",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-176",
+    "pt": "o parque de campismo",
+    "zh": "露营地",
+    "en": "campsite",
+    "fr": "le camping",
+    "es": "el camping",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-177",
+    "pt": "a tenda",
+    "zh": "帐篷",
+    "en": "tent",
+    "fr": "la tente",
+    "es": "la tienda de campaña",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-178",
+    "pt": "o saco de dormir",
+    "zh": "睡袋",
+    "en": "sleeping bag",
+    "fr": "le sac de couchage",
+    "es": "el saco de dormir",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-179",
+    "pt": "a lanterna",
+    "zh": "手电筒",
+    "en": "torch",
+    "fr": "la lampe de poche",
+    "es": "la linterna",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-180",
+    "pt": "o protetor solar",
+    "zh": "防晒霜",
+    "en": "sun cream",
+    "fr": "la crème solaire",
+    "es": "el protector solar",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-181",
+    "pt": "os óculos de sol",
+    "zh": "太阳镜",
+    "en": "sunglasses",
+    "fr": "les lunettes de soleil",
+    "es": "las gafas de sol",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-182",
+    "pt": "o boné",
+    "zh": "棒球帽",
+    "en": "cap",
+    "fr": "la casquette",
+    "es": "la gorra",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-183",
+    "pt": "a bússola",
+    "zh": "指南针",
+    "en": "compass",
+    "fr": "la boussole",
+    "es": "la brújula",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-184",
+    "pt": "a máquina fotográfica",
+    "zh": "相机",
+    "en": "camera",
+    "fr": "l'appareil photo (m)",
+    "es": "la cámara de fotos",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-185",
+    "pt": "a areia",
+    "zh": "沙子",
+    "en": "sand",
+    "fr": "le sable",
+    "es": "la arena",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-186",
+    "pt": "a sombra",
+    "zh": "阴凉处",
+    "en": "shade",
+    "fr": "l'ombre (f)",
+    "es": "la sombra",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-187",
+    "pt": "o guarda-sol",
+    "zh": "遮阳伞",
+    "en": "parasol",
+    "fr": "le parasol",
+    "es": "la sombrilla",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-188",
+    "pt": "a caminhada",
+    "zh": "徒步",
+    "en": "hike, walk",
+    "fr": "la randonnée",
+    "es": "la caminata",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-189",
+    "pt": "o trilho",
+    "zh": "小径",
+    "en": "trail",
+    "fr": "le sentier",
+    "es": "el sendero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-190",
+    "pt": "o porto",
+    "zh": "港口",
+    "en": "port",
+    "fr": "le port",
+    "es": "el puerto",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-191",
+    "pt": "o cais",
+    "zh": "码头",
+    "en": "quay",
+    "fr": "le quai",
+    "es": "el muelle",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-192",
+    "pt": "o bilhete de embarque",
+    "zh": "登机牌",
+    "en": "boarding pass",
+    "fr": "la carte d'embarquement",
+    "es": "la tarjeta de embarque",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-193",
+    "pt": "a tripulação",
+    "zh": "机组人员",
+    "en": "crew",
+    "fr": "l'équipage (m)",
+    "es": "la tripulación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-194",
+    "pt": "o comandante",
+    "zh": "机长",
+    "en": "captain",
+    "fr": "le commandant",
+    "es": "el comandante",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-195",
+    "pt": "a saída de emergência",
+    "zh": "紧急出口",
+    "en": "emergency exit",
+    "fr": "la sortie de secours",
+    "es": "la salida de emergencia",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-196",
+    "pt": "o capacete",
+    "zh": "头盔",
+    "en": "helmet",
+    "fr": "le casque",
+    "es": "el casco",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-197",
+    "pt": "a passadeira",
+    "zh": "人行横道",
+    "en": "zebra crossing",
+    "fr": "le passage piéton",
+    "es": "el paso de cebra",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-198",
+    "pt": "o sinal de trânsito",
+    "zh": "交通标志",
+    "en": "traffic sign",
+    "fr": "le panneau",
+    "es": "la señal de tráfico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-199",
+    "pt": "o radar",
+    "zh": "测速雷达",
+    "en": "speed camera",
+    "fr": "le radar",
+    "es": "el radar",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-200",
+    "pt": "o reboque",
+    "zh": "拖车",
+    "en": "tow truck",
+    "fr": "la dépanneuse",
+    "es": "la grúa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-201",
+    "pt": "a camioneta",
+    "zh": "长途客车",
+    "en": "coach",
+    "fr": "le car",
+    "es": "el autocar",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-202",
+    "pt": "o cruzeiro",
+    "zh": "游轮旅行",
+    "en": "cruise",
+    "fr": "la croisière",
+    "es": "el crucero",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-203",
+    "pt": "o iate",
+    "zh": "游艇",
+    "en": "yacht",
+    "fr": "le yacht",
+    "es": "el yate",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-204",
+    "pt": "a canoa",
+    "zh": "独木舟",
+    "en": "canoe",
+    "fr": "le canoë",
+    "es": "la canoa",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-205",
+    "pt": "o blogue",
+    "zh": "博客",
+    "en": "blog",
+    "fr": "le blog",
+    "es": "el blog",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-206",
+    "pt": "o wi-fi",
+    "zh": "无线网络",
+    "en": "wi-fi",
+    "fr": "le wi-fi",
+    "es": "el wifi",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-207",
+    "pt": "o carregador",
+    "zh": "充电器",
+    "en": "charger",
+    "fr": "le chargeur",
+    "es": "el cargador",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-208",
+    "pt": "a bateria",
+    "zh": "电池",
+    "en": "battery",
+    "fr": "la batterie",
+    "es": "la batería",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-209",
+    "pt": "o ficheiro",
+    "zh": "电子文件",
+    "en": "file",
+    "fr": "le fichier",
+    "es": "el archivo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-210",
+    "pt": "o perfil",
+    "zh": "个人资料",
+    "en": "profile",
+    "fr": "le profil",
+    "es": "el perfil",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-211",
+    "pt": "o seguidor",
+    "zh": "关注者",
+    "en": "follower",
+    "fr": "l'abonné (m)",
+    "es": "el seguidor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-212",
+    "pt": "o episódio",
+    "zh": "剧集",
+    "en": "episode",
+    "fr": "l'épisode (m)",
+    "es": "el episodio",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-213",
+    "pt": "a gravação",
+    "zh": "录音；录像",
+    "en": "recording",
+    "fr": "l'enregistrement (m)",
+    "es": "la grabación",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-214",
+    "pt": "o auricular",
+    "zh": "耳机",
+    "en": "earphone",
+    "fr": "le casque",
+    "es": "el auricular",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-215",
+    "pt": "o correio eletrónico",
+    "zh": "电子邮件",
+    "en": "e-mail",
+    "fr": "le courriel",
+    "es": "el correo electrónico",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-216",
+    "pt": "o cursor",
+    "zh": "光标",
+    "en": "cursor",
+    "fr": "le curseur",
+    "es": "el cursor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-217",
+    "pt": "o monitor",
+    "zh": "显示器",
+    "en": "monitor",
+    "fr": "le moniteur",
+    "es": "el monitor",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-218",
+    "pt": "o microfone",
+    "zh": "麦克风",
+    "en": "microphone",
+    "fr": "le microphone",
+    "es": "el micrófono",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-219",
+    "pt": "o altifalante",
+    "zh": "扬声器",
+    "en": "loudspeaker",
+    "fr": "le haut-parleur",
+    "es": "el altavoz",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-220",
+    "pt": "a impressão",
+    "zh": "打印；印象",
+    "en": "printing, impression",
+    "fr": "l'impression (f)",
+    "es": "la impresión",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-221",
+    "pt": "a digitalização",
+    "zh": "扫描",
+    "en": "scanning",
+    "fr": "la numérisation",
+    "es": "el escaneo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-222",
+    "pt": "a cópia de segurança",
+    "zh": "备份",
+    "en": "backup",
+    "fr": "la sauvegarde",
+    "es": "la copia de seguridad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-223",
+    "pt": "o endereço",
+    "zh": "地址",
+    "en": "address",
+    "fr": "l'adresse (f)",
+    "es": "la dirección",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-224",
+    "pt": "a hiperligação",
+    "zh": "超链接",
+    "en": "hyperlink",
+    "fr": "le lien",
+    "es": "el hipervínculo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-225",
+    "pt": "o artigo",
+    "zh": "文章",
+    "en": "article",
+    "fr": "l'article (m)",
+    "es": "el artículo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-226",
+    "pt": "a coluna",
+    "zh": "专栏；柱子",
+    "en": "column",
+    "fr": "la chronique",
+    "es": "la columna",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-227",
+    "pt": "a edição",
+    "zh": "版本；期",
+    "en": "edition",
+    "fr": "l'édition (f)",
+    "es": "la edición",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-228",
+    "pt": "o título",
+    "zh": "标题",
+    "en": "title, headline",
+    "fr": "le titre",
+    "es": "el titular",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-229",
+    "pt": "a imagem",
+    "zh": "图像",
+    "en": "image",
+    "fr": "l'image (f)",
+    "es": "la imagen",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-230",
+    "pt": "o som",
+    "zh": "声音",
+    "en": "sound",
+    "fr": "le son",
+    "es": "el sonido",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-231",
+    "pt": "a voz",
+    "zh": "嗓音",
+    "en": "voice",
+    "fr": "la voix",
+    "es": "la voz",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-232",
+    "pt": "o ruído",
+    "zh": "噪音",
+    "en": "noise",
+    "fr": "le bruit",
+    "es": "el ruido",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-233",
+    "pt": "a novidade",
+    "zh": "新消息",
+    "en": "piece of news",
+    "fr": "la nouveauté",
+    "es": "la novedad",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-234",
+    "pt": "cuidadoso",
+    "zh": "细心的",
+    "en": "careful",
+    "fr": "soigneux",
+    "es": "cuidadoso",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-235",
+    "pt": "descuidado",
+    "zh": "粗心的",
+    "en": "careless",
+    "fr": "négligent",
+    "es": "descuidado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-236",
+    "pt": "atencioso",
+    "zh": "体贴的",
+    "en": "attentive",
+    "fr": "attentionné",
+    "es": "atento",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-237",
+    "pt": "distraído",
+    "zh": "分心的",
+    "en": "distracted",
+    "fr": "distrait",
+    "es": "distraído",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-238",
+    "pt": "concentrado",
+    "zh": "专注的",
+    "en": "focused",
+    "fr": "concentré",
+    "es": "concentrado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-239",
+    "pt": "cansativo",
+    "zh": "累人的",
+    "en": "tiring",
+    "fr": "fatigant",
+    "es": "agotador",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-240",
+    "pt": "stressante",
+    "zh": "令人紧张的",
+    "en": "stressful",
+    "fr": "stressant",
+    "es": "estresante",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-241",
+    "pt": "motivado",
+    "zh": "有干劲的",
+    "en": "motivated",
+    "fr": "motivé",
+    "es": "motivado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-242",
+    "pt": "satisfeito",
+    "zh": "满意的",
+    "en": "satisfied",
+    "fr": "satisfait",
+    "es": "satisfecho",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-243",
+    "pt": "descontente",
+    "zh": "不满的",
+    "en": "dissatisfied",
+    "fr": "mécontent",
+    "es": "descontento",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-244",
+    "pt": "infeliz",
+    "zh": "不幸福的",
+    "en": "unhappy",
+    "fr": "malheureux",
+    "es": "infeliz",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-245",
+    "pt": "barulhento",
+    "zh": "吵闹的",
+    "en": "noisy",
+    "fr": "bruyant",
+    "es": "ruidoso",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-246",
+    "pt": "silencioso",
+    "zh": "安静的",
+    "en": "silent",
+    "fr": "silencieux",
+    "es": "silencioso",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-247",
+    "pt": "arrumado",
+    "zh": "整齐的",
+    "en": "tidy",
+    "fr": "rangé",
+    "es": "ordenado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-248",
+    "pt": "desarrumado",
+    "zh": "凌乱的",
+    "en": "messy",
+    "fr": "en désordre",
+    "es": "desordenado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-249",
+    "pt": "atual",
+    "zh": "当前的",
+    "en": "current",
+    "fr": "actuel",
+    "es": "actual",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-250",
+    "pt": "recente",
+    "zh": "最近的",
+    "en": "recent",
+    "fr": "récent",
+    "es": "reciente",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-251",
+    "pt": "ligeiro",
+    "zh": "轻的；清淡的",
+    "en": "light, slight",
+    "fr": "léger",
+    "es": "ligero",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-252",
+    "pt": "pesado",
+    "zh": "重的",
+    "en": "heavy",
+    "fr": "lourd",
+    "es": "pesado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-253",
+    "pt": "leve",
+    "zh": "轻便的",
+    "en": "light",
+    "fr": "léger",
+    "es": "ligero",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-254",
+    "pt": "comprido",
+    "zh": "长的",
+    "en": "long",
+    "fr": "long",
+    "es": "long",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-255",
+    "pt": "curto",
+    "zh": "短的",
+    "en": "short",
+    "fr": "court",
+    "es": "corto",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-256",
+    "pt": "largo",
+    "zh": "宽的",
+    "en": "wide",
+    "fr": "large",
+    "es": "ancho",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-257",
+    "pt": "estreito",
+    "zh": "窄的",
+    "en": "narrow",
+    "fr": "étroit",
+    "es": "estrecho",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-258",
+    "pt": "grosso",
+    "zh": "粗的；厚的",
+    "en": "thick",
+    "fr": "épais",
+    "es": "grueso",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-259",
+    "pt": "fino",
+    "zh": "薄的；细的",
+    "en": "thin",
+    "fr": "fin",
+    "es": "fino",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-260",
+    "pt": "morno",
+    "zh": "温的",
+    "en": "lukewarm",
+    "fr": "tiède",
+    "es": "tibio",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-261",
+    "pt": "cru",
+    "zh": "生的",
+    "en": "raw",
+    "fr": "cru",
+    "es": "cru",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-262",
+    "pt": "cozido",
+    "zh": "熟的",
+    "en": "cooked",
+    "fr": "cuit",
+    "es": "cocido",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-263",
+    "pt": "assado",
+    "zh": "烤的",
+    "en": "roast",
+    "fr": "rôti",
+    "es": "asado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-264",
+    "pt": "frito",
+    "zh": "油炸的",
+    "en": "fried",
+    "fr": "frit",
+    "es": "frito",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-265",
+    "pt": "mal-educado",
+    "zh": "没礼貌的",
+    "en": "rude",
+    "fr": "mal élevé",
+    "es": "mal educado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-266",
+    "pt": "divertido",
+    "zh": "有趣的",
+    "en": "fun, amusing",
+    "fr": "amusant",
+    "es": "divertido",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-267",
+    "pt": "inútil",
+    "zh": "无用的",
+    "en": "useless",
+    "fr": "inutile",
+    "es": "inútil",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-268",
+    "pt": "complexo",
+    "zh": "复杂的",
+    "en": "complex",
+    "fr": "complexe",
+    "es": "complejo",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-269",
+    "pt": "preparado",
+    "zh": "准备好的",
+    "en": "ready",
+    "fr": "prêt",
+    "es": "preparado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-270",
+    "pt": "adiantado",
+    "zh": "提前的",
+    "en": "early, advanced",
+    "fr": "en avance",
+    "es": "adelantado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-271",
+    "pt": "disponível",
+    "zh": "可用的",
+    "en": "available",
+    "fr": "disponible",
+    "es": "disponible",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-272",
+    "pt": "igual",
+    "zh": "相同的",
+    "en": "equal, the same",
+    "fr": "égal",
+    "es": "igual",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-273",
+    "pt": "parecido",
+    "zh": "相似的",
+    "en": "similar",
+    "fr": "semblable",
+    "es": "parecido",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-274",
+    "pt": "verdadeiro",
+    "zh": "真正的",
+    "en": "true",
+    "fr": "vrai",
+    "es": "verdadero",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-275",
+    "pt": "falso",
+    "zh": "假的",
+    "en": "false",
+    "fr": "faux",
+    "es": "falso",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-276",
+    "pt": "privado",
+    "zh": "私人的",
+    "en": "private",
+    "fr": "privé",
+    "es": "privado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-277",
+    "pt": "obrigatório",
+    "zh": "强制的",
+    "en": "compulsory",
+    "fr": "obligatoire",
+    "es": "obligatorio",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-278",
+    "pt": "proibido",
+    "zh": "禁止的",
+    "en": "forbidden",
+    "fr": "interdit",
+    "es": "prohibido",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-279",
+    "pt": "permitido",
+    "zh": "允许的",
+    "en": "allowed",
+    "fr": "permis",
+    "es": "permitido",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-280",
+    "pt": "acompanhado",
+    "zh": "有人陪同的",
+    "en": "accompanied",
+    "fr": "accompagné",
+    "es": "acompañado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-281",
+    "pt": "casado",
+    "zh": "已婚的",
+    "en": "married",
+    "fr": "marié",
+    "es": "casado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-282",
+    "pt": "solteiro",
+    "zh": "单身的",
+    "en": "single",
+    "fr": "célibataire",
+    "es": "soltero",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-283",
+    "pt": "divorciado",
+    "zh": "离异的",
+    "en": "divorced",
+    "fr": "divorcé",
+    "es": "divorciado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-284",
+    "pt": "viúvo",
+    "zh": "丧偶的",
+    "en": "widowed",
+    "fr": "veuf",
+    "es": "viudo",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-285",
+    "pt": "grávida",
+    "zh": "怀孕的",
+    "en": "pregnant",
+    "fr": "enceinte",
+    "es": "embarazada",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-286",
+    "pt": "semanal",
+    "zh": "每周的",
+    "en": "weekly",
+    "fr": "hebdomadaire",
+    "es": "semanal",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-287",
+    "pt": "mensal",
+    "zh": "每月的",
+    "en": "monthly",
+    "fr": "mensuel",
+    "es": "mensual",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-288",
+    "pt": "anual",
+    "zh": "每年的",
+    "en": "annual",
+    "fr": "annuel",
+    "es": "anual",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-289",
+    "pt": "próximo",
+    "zh": "下一个的",
+    "en": "next",
+    "fr": "prochain",
+    "es": "próximo",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-290",
+    "pt": "seguinte",
+    "zh": "接下来的",
+    "en": "following",
+    "fr": "suivant",
+    "es": "siguiente",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-291",
+    "pt": "anterior",
+    "zh": "之前的",
+    "en": "previous",
+    "fr": "précédent",
+    "es": "anterior",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-292",
+    "pt": "médio",
+    "zh": "中等的",
+    "en": "medium",
+    "fr": "moyen",
+    "es": "medio",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-293",
+    "pt": "enorme",
+    "zh": "巨大的",
+    "en": "huge",
+    "fr": "énorme",
+    "es": "enorme",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-294",
+    "pt": "giro",
+    "zh": "可爱的；漂亮的",
+    "en": "cute",
+    "fr": "mignon",
+    "es": "mono",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-295",
+    "pt": "raso",
+    "zh": "浅的",
+    "en": "shallow",
+    "fr": "peu profond",
+    "es": "poco profundo",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-296",
+    "pt": "profundo",
+    "zh": "深的",
+    "en": "deep",
+    "fr": "profond",
+    "es": "profundo",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-297",
+    "pt": "redondo",
+    "zh": "圆的",
+    "en": "round",
+    "fr": "rond",
+    "es": "redondo",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-298",
+    "pt": "quadrado",
+    "zh": "方的",
+    "en": "square",
+    "fr": "carré",
+    "es": "cuadrado",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-299",
+    "pt": "esquerdo",
+    "zh": "左边的",
+    "en": "left",
+    "fr": "gauche",
+    "es": "izquierdo",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-300",
+    "pt": "duro",
+    "zh": "硬的",
+    "en": "hard",
+    "fr": "dur",
+    "es": "duro",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-301",
+    "pt": "mole",
+    "zh": "软的",
+    "en": "soft",
+    "fr": "mou",
+    "es": "blando",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-302",
+    "pt": "liso",
+    "zh": "光滑的",
+    "en": "smooth",
+    "fr": "lisse",
+    "es": "liso",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-303",
+    "pt": "áspero",
+    "zh": "粗糙的",
+    "en": "rough",
+    "fr": "rugueux",
+    "es": "áspero",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-304",
+    "pt": "brilhante",
+    "zh": "闪亮的",
+    "en": "shiny",
+    "fr": "brillant",
+    "es": "brillante",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-305",
+    "pt": "transparente",
+    "zh": "透明的",
+    "en": "transparent",
+    "fr": "transparent",
+    "es": "transparente",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-306",
+    "pt": "colorido",
+    "zh": "色彩鲜艳的",
+    "en": "colourful",
+    "fr": "coloré",
+    "es": "colorido",
+    "pos": "adjective"
+  },
+  {
+    "id": "a2y-307",
+    "pt": "felizmente",
+    "zh": "幸好",
+    "en": "fortunately",
+    "fr": "heureusement",
+    "es": "afortunadamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-308",
+    "pt": "lentamente",
+    "zh": "慢慢地",
+    "en": "slowly",
+    "fr": "lentement",
+    "es": "lentamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-309",
+    "pt": "rapidamente",
+    "zh": "快速地",
+    "en": "quickly",
+    "fr": "rapidement",
+    "es": "rápidamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-310",
+    "pt": "cuidadosamente",
+    "zh": "小心地",
+    "en": "carefully",
+    "fr": "soigneusement",
+    "es": "cuidadosamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-311",
+    "pt": "facilmente",
+    "zh": "容易地",
+    "en": "easily",
+    "fr": "facilement",
+    "es": "fácilmente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-312",
+    "pt": "dificilmente",
+    "zh": "几乎不",
+    "en": "hardly",
+    "fr": "difficilement",
+    "es": "difícilmente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-313",
+    "pt": "realmente",
+    "zh": "确实",
+    "en": "really",
+    "fr": "vraiment",
+    "es": "realmente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-314",
+    "pt": "especialmente",
+    "zh": "尤其",
+    "en": "especially",
+    "fr": "particulièrement",
+    "es": "especialmente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-315",
+    "pt": "principalmente",
+    "zh": "主要地",
+    "en": "mainly",
+    "fr": "principalement",
+    "es": "principalmente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-316",
+    "pt": "diariamente",
+    "zh": "每天",
+    "en": "daily",
+    "fr": "quotidiennement",
+    "es": "diariamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-317",
+    "pt": "novamente",
+    "zh": "再次",
+    "en": "again",
+    "fr": "de nouveau",
+    "es": "nuevamente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-318",
+    "pt": "outra vez",
+    "zh": "再一次",
+    "en": "again",
+    "fr": "une autre fois",
+    "es": "otra vez",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-319",
+    "pt": "de novo",
+    "zh": "重新",
+    "en": "again",
+    "fr": "de nouveau",
+    "es": "de nuevo",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-320",
+    "pt": "ao mesmo tempo",
+    "zh": "同时",
+    "en": "at the same time",
+    "fr": "en même temps",
+    "es": "al mismo tiempo",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-321",
+    "pt": "em cima",
+    "zh": "在上面",
+    "en": "above, on top",
+    "fr": "en haut",
+    "es": "encima",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-322",
+    "pt": "em baixo",
+    "zh": "在下面",
+    "en": "below",
+    "fr": "en bas",
+    "es": "abajo",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-323",
+    "pt": "ao lado",
+    "zh": "在旁边",
+    "en": "next to",
+    "fr": "à côté",
+    "es": "al lado",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-324",
+    "pt": "à frente",
+    "zh": "在前面",
+    "en": "in front",
+    "fr": "devant",
+    "es": "delante",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-325",
+    "pt": "atrás",
+    "zh": "在后面",
+    "en": "behind",
+    "fr": "derrière",
+    "es": "detrás",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-326",
+    "pt": "no meio",
+    "zh": "在中间",
+    "en": "in the middle",
+    "fr": "au milieu",
+    "es": "en medio",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-327",
+    "pt": "demasiado",
+    "zh": "过于",
+    "en": "too much",
+    "fr": "trop",
+    "es": "demasiado",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-328",
+    "pt": "suficiente",
+    "zh": "足够",
+    "en": "enough",
+    "fr": "suffisant",
+    "es": "suficiente",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-329",
+    "pt": "pelo menos",
+    "zh": "至少",
+    "en": "at least",
+    "fr": "au moins",
+    "es": "por lo menos",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-330",
+    "pt": "por fim",
+    "zh": "最后",
+    "en": "finally",
+    "fr": "enfin",
+    "es": "por fin",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-331",
+    "pt": "de manhã",
+    "zh": "早上",
+    "en": "in the morning",
+    "fr": "le matin",
+    "es": "por la mañana",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-332",
+    "pt": "à noite",
+    "zh": "晚上",
+    "en": "at night",
+    "fr": "le soir",
+    "es": "por la noche",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-333",
+    "pt": "de momento",
+    "zh": "目前",
+    "en": "at the moment",
+    "fr": "pour le moment",
+    "es": "de momento",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-334",
+    "pt": "aos poucos",
+    "zh": "渐渐地",
+    "en": "little by little",
+    "fr": "peu à peu",
+    "es": "poco a poco",
+    "pos": "adverb"
+  },
+  {
+    "id": "a2y-335",
+    "pt": "adormecer",
+    "zh": "入睡",
+    "en": "fall asleep",
+    "fr": "s'endormir",
+    "es": "dormirse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-336",
+    "pt": "acender",
+    "zh": "开（灯）；点燃",
+    "en": "switch on, light",
+    "fr": "allumer",
+    "es": "encender",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-337",
+    "pt": "descarregar",
+    "zh": "下载；卸下",
+    "en": "download, unload",
+    "fr": "télécharger",
+    "es": "descargar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-338",
+    "pt": "instalar",
+    "zh": "安装",
+    "en": "install",
+    "fr": "installer",
+    "es": "instalar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-339",
+    "pt": "imprimir",
+    "zh": "打印",
+    "en": "print",
+    "fr": "imprimer",
+    "es": "imprimir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-340",
+    "pt": "gravar",
+    "zh": "录制；保存",
+    "en": "record, save",
+    "fr": "enregistrer",
+    "es": "grabar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-341",
+    "pt": "recolher",
+    "zh": "收集；回收",
+    "en": "collect",
+    "fr": "ramasser",
+    "es": "recoger",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-342",
+    "pt": "levantar",
+    "zh": "抬起",
+    "en": "lift, raise",
+    "fr": "soulever",
+    "es": "levantar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-343",
+    "pt": "aspirar",
+    "zh": "吸尘",
+    "en": "vacuum",
+    "fr": "aspirer",
+    "es": "aspirar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-344",
+    "pt": "passar a ferro",
+    "zh": "熨烫",
+    "en": "iron",
+    "fr": "repasser",
+    "es": "planchar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-345",
+    "pt": "dobrar",
+    "zh": "折叠",
+    "en": "fold",
+    "fr": "plier",
+    "es": "doblar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-346",
+    "pt": "pendurar",
+    "zh": "挂起",
+    "en": "hang",
+    "fr": "accrocher",
+    "es": "colgar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-347",
+    "pt": "organizar",
+    "zh": "组织；整理",
+    "en": "organize",
+    "fr": "organiser",
+    "es": "organizar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-348",
+    "pt": "preparar",
+    "zh": "准备",
+    "en": "prepare",
+    "fr": "préparer",
+    "es": "preparar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-349",
+    "pt": "assar",
+    "zh": "烘烤",
+    "en": "roast, bake",
+    "fr": "rôtir",
+    "es": "asar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-350",
+    "pt": "fritar",
+    "zh": "油炸",
+    "en": "fry",
+    "fr": "faire frire",
+    "es": "freír",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-351",
+    "pt": "ferver",
+    "zh": "煮沸",
+    "en": "boil",
+    "fr": "bouillir",
+    "es": "hervir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-352",
+    "pt": "descascar",
+    "zh": "削皮",
+    "en": "peel",
+    "fr": "éplucher",
+    "es": "pelar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-353",
+    "pt": "temperar",
+    "zh": "调味",
+    "en": "season",
+    "fr": "assaisonner",
+    "es": "sazonar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-354",
+    "pt": "trancar",
+    "zh": "锁上",
+    "en": "lock",
+    "fr": "verrouiller",
+    "es": "cerrar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-355",
+    "pt": "seguir",
+    "zh": "跟随；继续",
+    "en": "follow",
+    "fr": "suivre",
+    "es": "seguir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-356",
+    "pt": "parar",
+    "zh": "停止",
+    "en": "stop",
+    "fr": "arrêter",
+    "es": "parar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-357",
+    "pt": "saltar",
+    "zh": "跳",
+    "en": "jump",
+    "fr": "sauter",
+    "es": "saltar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-358",
+    "pt": "treinar",
+    "zh": "训练",
+    "en": "train",
+    "fr": "s'entraîner",
+    "es": "entrenar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-359",
+    "pt": "adoecer",
+    "zh": "生病",
+    "en": "fall ill",
+    "fr": "tomber malade",
+    "es": "enfermar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-360",
+    "pt": "doer",
+    "zh": "疼痛",
+    "en": "hurt",
+    "fr": "faire mal",
+    "es": "doler",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-361",
+    "pt": "curar",
+    "zh": "治愈",
+    "en": "heal, cure",
+    "fr": "guérir",
+    "es": "curar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-362",
+    "pt": "respirar",
+    "zh": "呼吸",
+    "en": "breathe",
+    "fr": "respirer",
+    "es": "respirar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-363",
+    "pt": "tossir",
+    "zh": "咳嗽",
+    "en": "cough",
+    "fr": "tousser",
+    "es": "toser",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-364",
+    "pt": "espirrar",
+    "zh": "打喷嚏",
+    "en": "sneeze",
+    "fr": "éternuer",
+    "es": "estornudar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-365",
+    "pt": "abraçar",
+    "zh": "拥抱",
+    "en": "hug",
+    "fr": "embrasser",
+    "es": "abrazar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-366",
+    "pt": "beijar",
+    "zh": "亲吻",
+    "en": "kiss",
+    "fr": "embrasser",
+    "es": "besar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-367",
+    "pt": "apresentar",
+    "zh": "介绍；展示",
+    "en": "introduce, present",
+    "fr": "présenter",
+    "es": "presentar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-368",
+    "pt": "praticar",
+    "zh": "练习",
+    "en": "practise",
+    "fr": "pratiquer",
+    "es": "practicar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-369",
+    "pt": "repetir",
+    "zh": "重复",
+    "en": "repeat",
+    "fr": "répéter",
+    "es": "repetir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-370",
+    "pt": "corrigir",
+    "zh": "改正",
+    "en": "correct",
+    "fr": "corriger",
+    "es": "corregir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-371",
+    "pt": "traduzir",
+    "zh": "翻译",
+    "en": "translate",
+    "fr": "traduire",
+    "es": "traducir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-372",
+    "pt": "escutar",
+    "zh": "倾听",
+    "en": "listen",
+    "fr": "écouter",
+    "es": "escuchar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-373",
+    "pt": "desistir",
+    "zh": "放弃",
+    "en": "give up",
+    "fr": "abandonner",
+    "es": "rendirse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-374",
+    "pt": "insistir",
+    "zh": "坚持",
+    "en": "insist",
+    "fr": "insister",
+    "es": "insistir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-375",
+    "pt": "terminar",
+    "zh": "结束",
+    "en": "finish",
+    "fr": "terminer",
+    "es": "terminar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-376",
+    "pt": "marcar",
+    "zh": "预约；标记",
+    "en": "book, mark",
+    "fr": "réserver",
+    "es": "marcar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-377",
+    "pt": "confirmar",
+    "zh": "确认",
+    "en": "confirm",
+    "fr": "confirmer",
+    "es": "confirmar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-378",
+    "pt": "faltar",
+    "zh": "缺少；缺席",
+    "en": "be missing",
+    "fr": "manquer",
+    "es": "faltar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-379",
+    "pt": "sobrar",
+    "zh": "剩余",
+    "en": "be left over",
+    "fr": "rester",
+    "es": "sobrar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-380",
+    "pt": "reservar",
+    "zh": "预订",
+    "en": "reserve",
+    "fr": "réserver",
+    "es": "reservar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-381",
+    "pt": "regressar",
+    "zh": "返回",
+    "en": "return",
+    "fr": "revenir",
+    "es": "regresar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-382",
+    "pt": "preocupar-se",
+    "zh": "担心",
+    "en": "worry",
+    "fr": "s'inquiéter",
+    "es": "preocuparse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-383",
+    "pt": "zangar-se",
+    "zh": "生气",
+    "en": "get angry",
+    "fr": "se fâcher",
+    "es": "enfadarse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-384",
+    "pt": "alegrar-se",
+    "zh": "高兴",
+    "en": "be glad",
+    "fr": "se réjouir",
+    "es": "alegrarse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-385",
+    "pt": "surpreender",
+    "zh": "使惊讶",
+    "en": "surprise",
+    "fr": "surprendre",
+    "es": "sorprender",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-386",
+    "pt": "assustar",
+    "zh": "使害怕",
+    "en": "frighten",
+    "fr": "effrayer",
+    "es": "asustar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-387",
+    "pt": "animar",
+    "zh": "鼓励；使活跃",
+    "en": "encourage, cheer up",
+    "fr": "encourager",
+    "es": "animar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-388",
+    "pt": "acalmar",
+    "zh": "使平静",
+    "en": "calm down",
+    "fr": "calmer",
+    "es": "calmar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-389",
+    "pt": "chatear",
+    "zh": "烦扰",
+    "en": "annoy",
+    "fr": "ennuyer",
+    "es": "molestar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-390",
+    "pt": "discutir",
+    "zh": "争论",
+    "en": "argue, discuss",
+    "fr": "discuter",
+    "es": "discutir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-391",
+    "pt": "reconciliar-se",
+    "zh": "和好",
+    "en": "make up",
+    "fr": "se réconcilier",
+    "es": "reconciliarse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-392",
+    "pt": "desmarcar",
+    "zh": "取消（预约）",
+    "en": "cancel",
+    "fr": "annuler",
+    "es": "anular",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-393",
+    "pt": "atrasar",
+    "zh": "延迟",
+    "en": "delay",
+    "fr": "retarder",
+    "es": "retrasar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-394",
+    "pt": "arriscar",
+    "zh": "冒险",
+    "en": "risk",
+    "fr": "risquer",
+    "es": "arriesgar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-395",
+    "pt": "medir",
+    "zh": "测量",
+    "en": "measure",
+    "fr": "mesurer",
+    "es": "medir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-396",
+    "pt": "pesar",
+    "zh": "称重",
+    "en": "weigh",
+    "fr": "peser",
+    "es": "pesar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-397",
+    "pt": "contar",
+    "zh": "数；讲述",
+    "en": "count, tell",
+    "fr": "compter",
+    "es": "contar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-398",
+    "pt": "somar",
+    "zh": "相加",
+    "en": "add up",
+    "fr": "additionner",
+    "es": "sumar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-399",
+    "pt": "dividir",
+    "zh": "分开；除",
+    "en": "divide",
+    "fr": "diviser",
+    "es": "dividir",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-400",
+    "pt": "vestir-se",
+    "zh": "穿衣",
+    "en": "get dressed",
+    "fr": "s'habiller",
+    "es": "vestirse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-401",
+    "pt": "despir-se",
+    "zh": "脱衣",
+    "en": "undress",
+    "fr": "se déshabiller",
+    "es": "desvestirse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-402",
+    "pt": "pentear",
+    "zh": "梳头",
+    "en": "comb",
+    "fr": "coiffer",
+    "es": "peinar",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-403",
+    "pt": "barbear-se",
+    "zh": "刮胡子",
+    "en": "shave",
+    "fr": "se raser",
+    "es": "afeitarse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-404",
+    "pt": "maquilhar-se",
+    "zh": "化妆",
+    "en": "put on make-up",
+    "fr": "se maquiller",
+    "es": "maquillarse",
+    "pos": "verb"
+  },
+  {
+    "id": "a2y-405",
+    "pt": "Pois é.",
+    "zh": "是啊",
+    "en": "That's right",
+    "fr": "C'est ça",
+    "es": "Ya veo",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-406",
+    "pt": "Está bem.",
+    "zh": "好吧",
+    "en": "All right",
+    "fr": "D'accord",
+    "es": "Está bien",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-407",
+    "pt": "Sem dúvida.",
+    "zh": "毫无疑问",
+    "en": "No doubt",
+    "fr": "Sans doute",
+    "es": "Sin duda",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-408",
+    "pt": "Acho que sim.",
+    "zh": "我想是的",
+    "en": "I think so",
+    "fr": "Je crois que oui",
+    "es": "Creo que sí",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-409",
+    "pt": "Acho que não.",
+    "zh": "我想不是",
+    "en": "I don't think so",
+    "fr": "Je crois que non",
+    "es": "Creo que no",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-410",
+    "pt": "Não sei.",
+    "zh": "我不知道",
+    "en": "I don't know",
+    "fr": "Je ne sais pas",
+    "es": "No lo sé",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-411",
+    "pt": "Boa ideia!",
+    "zh": "好主意",
+    "en": "Good idea",
+    "fr": "Bonne idée",
+    "es": "¡Buena idea!",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-412",
+    "pt": "Que bom!",
+    "zh": "太好了",
+    "en": "How nice",
+    "fr": "Quelle bonne nouvelle",
+    "es": "¡Qué bien!",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-413",
+    "pt": "Que chatice!",
+    "zh": "真烦人",
+    "en": "What a nuisance",
+    "fr": "Quelle galère",
+    "es": "¡Qué fastidio!",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-414",
+    "pt": "Estou a caminho.",
+    "zh": "我在路上",
+    "en": "I'm on my way",
+    "fr": "Je suis en route",
+    "es": "Estoy de camino",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-415",
+    "pt": "Já volto.",
+    "zh": "我马上回来",
+    "en": "I'll be right back",
+    "fr": "Je reviens tout de suite",
+    "es": "Vuelvo enseguida",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-416",
+    "pt": "Um momento, por favor.",
+    "zh": "请稍等",
+    "en": "One moment, please",
+    "fr": "Un instant, s'il vous plaît",
+    "es": "Un momento, por favor",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-417",
+    "pt": "Pode dizer-me as horas?",
+    "zh": "能告诉我几点吗",
+    "en": "Could you tell me the time?",
+    "fr": "Pouvez-vous me dire l'heure ?",
+    "es": "¿Puede decirme la hora?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-418",
+    "pt": "A que distância fica?",
+    "zh": "有多远",
+    "en": "How far is it?",
+    "fr": "À quelle distance est-ce ?",
+    "es": "¿A qué distancia está?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-419",
+    "pt": "Pode ajudar-me?",
+    "zh": "您能帮我吗",
+    "en": "Can you help me?",
+    "fr": "Pouvez-vous m'aider ?",
+    "es": "¿Puede ayudarme?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-420",
+    "pt": "Como se diz… em português?",
+    "zh": "……用葡萄牙语怎么说",
+    "en": "How do you say… in Portuguese?",
+    "fr": "Comment dit-on… en portugais ?",
+    "es": "¿Cómo se dice… en portugués?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-421",
+    "pt": "O que quer dizer…?",
+    "zh": "……是什么意思",
+    "en": "What does… mean?",
+    "fr": "Que veut dire… ?",
+    "es": "¿Qué significa…?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-422",
+    "pt": "Estou a aprender português.",
+    "zh": "我在学葡萄牙语",
+    "en": "I'm learning Portuguese",
+    "fr": "J'apprends le portugais",
+    "es": "Estoy aprendiendo portugués",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-423",
+    "pt": "Há quanto tempo…?",
+    "zh": "……多久了",
+    "en": "How long…?",
+    "fr": "Depuis combien de temps… ?",
+    "es": "¿Cuánto tiempo…?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-424",
+    "pt": "Desde quando?",
+    "zh": "从什么时候起",
+    "en": "Since when?",
+    "fr": "Depuis quand ?",
+    "es": "¿Desde cuándo?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-425",
+    "pt": "Tem troco?",
+    "zh": "有零钱吗",
+    "en": "Do you have change?",
+    "fr": "Vous avez la monnaie ?",
+    "es": "¿Tiene cambio?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-426",
+    "pt": "Perdi a carteira.",
+    "zh": "我钱包丢了",
+    "en": "I've lost my wallet",
+    "fr": "J'ai perdu mon portefeuille",
+    "es": "He perdido la cartera",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-427",
+    "pt": "Preciso de um médico.",
+    "zh": "我需要看医生",
+    "en": "I need a doctor",
+    "fr": "J'ai besoin d'un médecin",
+    "es": "Necesito un médico",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-428",
+    "pt": "Não me sinto bem.",
+    "zh": "我不舒服",
+    "en": "I don't feel well",
+    "fr": "Je ne me sens pas bien",
+    "es": "No me siento bien",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-429",
+    "pt": "Dói-me a cabeça.",
+    "zh": "我头疼",
+    "en": "I have a headache",
+    "fr": "J'ai mal à la tête",
+    "es": "Me duele la cabeza",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-430",
+    "pt": "Tenho febre.",
+    "zh": "我发烧了",
+    "en": "I have a fever",
+    "fr": "J'ai de la fièvre",
+    "es": "Tengo fiebre",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-431",
+    "pt": "Tenho uma alergia a…",
+    "zh": "我对……过敏",
+    "en": "I'm allergic to…",
+    "fr": "Je suis allergique à…",
+    "es": "Soy alérgico a…",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-432",
+    "pt": "Estou perdido.",
+    "zh": "我迷路了",
+    "en": "I'm lost",
+    "fr": "Je suis perdu",
+    "es": "Estoy perdido",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-433",
+    "pt": "Como chego a…?",
+    "zh": "到……怎么走",
+    "en": "How do I get to…?",
+    "fr": "Comment aller à… ?",
+    "es": "¿Cómo llego a…?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-434",
+    "pt": "Vire à direita.",
+    "zh": "向右转",
+    "en": "Turn right",
+    "fr": "Tournez à droite",
+    "es": "Gire a la derecha",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-435",
+    "pt": "Siga em frente.",
+    "zh": "一直往前走",
+    "en": "Go straight ahead",
+    "fr": "Continuez tout droit",
+    "es": "Siga recto",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-436",
+    "pt": "Bom trabalho!",
+    "zh": "工作顺利",
+    "en": "Good luck at work",
+    "fr": "Bon travail !",
+    "es": "¡Buen trabajo!",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-437",
+    "pt": "Bom proveito!",
+    "zh": "请慢用",
+    "en": "Enjoy your meal",
+    "fr": "Bon appétit !",
+    "es": "¡Que aproveche!",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-438",
+    "pt": "Foi um prazer.",
+    "zh": "很荣幸",
+    "en": "It was a pleasure",
+    "fr": "Ce fut un plaisir",
+    "es": "Fue un placer",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-439",
+    "pt": "Até para a semana.",
+    "zh": "下周见",
+    "en": "See you next week",
+    "fr": "À la semaine prochaine",
+    "es": "Hasta la próxima semana",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-440",
+    "pt": "Vemo-nos amanhã.",
+    "zh": "明天见",
+    "en": "See you tomorrow",
+    "fr": "À demain",
+    "es": "Nos vemos mañana",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-441",
+    "pt": "Conte comigo.",
+    "zh": "包在我身上",
+    "en": "Count on me",
+    "fr": "Comptez sur moi",
+    "es": "Cuenta conmigo",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-442",
+    "pt": "Não tenho a certeza.",
+    "zh": "我不确定",
+    "en": "I'm not sure",
+    "fr": "Je ne suis pas sûr",
+    "es": "No estoy seguro",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-443",
+    "pt": "Deixa-me pensar.",
+    "zh": "让我想想",
+    "en": "Let me think",
+    "fr": "Laisse-moi réfléchir",
+    "es": "Déjame pensar",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-444",
+    "pt": "Vou pensar nisso.",
+    "zh": "我会考虑的",
+    "en": "I'll think about it",
+    "fr": "J'y penserai",
+    "es": "Lo pensaré",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-445",
+    "pt": "Parece-me bem.",
+    "zh": "我觉得可以",
+    "en": "Sounds good to me",
+    "fr": "Ça me semble bien",
+    "es": "Me parece bien",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-446",
+    "pt": "Tanto faz.",
+    "zh": "随便",
+    "en": "It doesn't matter",
+    "fr": "Peu importe",
+    "es": "Da igual",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-447",
+    "pt": "Não importa.",
+    "zh": "没关系",
+    "en": "It doesn't matter",
+    "fr": "Ce n'est pas grave",
+    "es": "No importa",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-448",
+    "pt": "Está combinado.",
+    "zh": "就这么定了",
+    "en": "It's settled",
+    "fr": "C'est entendu",
+    "es": "Queda decidido",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-449",
+    "pt": "Vamos combinar.",
+    "zh": "我们约一下",
+    "en": "Let's arrange it",
+    "fr": "On se met d'accord",
+    "es": "Vamos a quedar",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-450",
+    "pt": "Não tenho tempo.",
+    "zh": "我没时间",
+    "en": "I don't have time",
+    "fr": "Je n'ai pas le temps",
+    "es": "No tengo tiempo",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-451",
+    "pt": "É urgente.",
+    "zh": "很紧急",
+    "en": "It's urgent",
+    "fr": "C'est urgent",
+    "es": "Es urgente",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-452",
+    "pt": "Estou ocupado.",
+    "zh": "我很忙",
+    "en": "I'm busy",
+    "fr": "Je suis occupé",
+    "es": "Estoy ocupado",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-453",
+    "pt": "Pode escrever?",
+    "zh": "您能写下来吗",
+    "en": "Could you write it down?",
+    "fr": "Pouvez-vous l'écrire ?",
+    "es": "¿Puede escribirlo?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-454",
+    "pt": "Fala mais alto, por favor.",
+    "zh": "请说大声点",
+    "en": "Speak louder, please",
+    "fr": "Parlez plus fort, s'il vous plaît",
+    "es": "Hable más alto, por favor",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-455",
+    "pt": "Está incluído?",
+    "zh": "包含在内吗",
+    "en": "Is it included?",
+    "fr": "C'est inclus ?",
+    "es": "¿Está incluido?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-456",
+    "pt": "Onde posso estacionar?",
+    "zh": "我可以停在哪里",
+    "en": "Where can I park?",
+    "fr": "Où puis-je me garer ?",
+    "es": "¿Dónde puedo aparcar?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-457",
+    "pt": "A que horas abre?",
+    "zh": "几点开门",
+    "en": "What time does it open?",
+    "fr": "À quelle heure ça ouvre ?",
+    "es": "¿A qué hora abre?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-458",
+    "pt": "A que horas fecha?",
+    "zh": "几点关门",
+    "en": "What time does it close?",
+    "fr": "À quelle heure ça ferme ?",
+    "es": "¿A qué hora cierra?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-459",
+    "pt": "Pode chamar um táxi?",
+    "zh": "能叫辆出租车吗",
+    "en": "Could you call a taxi?",
+    "fr": "Pouvez-vous appeler un taxi ?",
+    "es": "¿Puede llamar un taxi?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-460",
+    "pt": "Chame a polícia, por favor.",
+    "zh": "请叫警察",
+    "en": "Call the police, please",
+    "fr": "Appelez la police, s'il vous plaît",
+    "es": "Llame a la policía, por favor",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-461",
+    "pt": "Onde é que se compra…?",
+    "zh": "在哪里买……",
+    "en": "Where can I buy…?",
+    "fr": "Où peut-on acheter… ?",
+    "es": "¿Dónde se compra…?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-462",
+    "pt": "Estou à procura de…",
+    "zh": "我在找……",
+    "en": "I'm looking for…",
+    "fr": "Je cherche…",
+    "es": "Estoy buscando…",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-463",
+    "pt": "Tem alguma coisa mais barata?",
+    "zh": "有便宜一点的吗",
+    "en": "Do you have anything cheaper?",
+    "fr": "Vous avez moins cher ?",
+    "es": "¿Tiene algo más barato?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-464",
+    "pt": "Qual é o tamanho?",
+    "zh": "是什么尺码",
+    "en": "What size is it?",
+    "fr": "Quelle taille ?",
+    "es": "¿Qué talla es?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-465",
+    "pt": "Pode trocar?",
+    "zh": "可以换吗",
+    "en": "Can I exchange it?",
+    "fr": "Je peux l'échanger ?",
+    "es": "¿Se puede cambiar?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-466",
+    "pt": "Muito prazer.",
+    "zh": "很高兴认识您",
+    "en": "Nice to meet you",
+    "fr": "Enchanté",
+    "es": "Mucho gusto",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-467",
+    "pt": "Igualmente.",
+    "zh": "我也是",
+    "en": "Likewise",
+    "fr": "Également",
+    "es": "Igualmente",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-468",
+    "pt": "Bom descanso!",
+    "zh": "好好休息",
+    "en": "Rest well",
+    "fr": "Bon repos !",
+    "es": "¡Que descanses!",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-469",
+    "pt": "Boa semana!",
+    "zh": "一周顺利",
+    "en": "Have a good week",
+    "fr": "Bonne semaine !",
+    "es": "¡Buena semana!",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-470",
+    "pt": "Até já.",
+    "zh": "一会儿见",
+    "en": "See you soon",
+    "fr": "À tout de suite",
+    "es": "Hasta ahora",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-471",
+    "pt": "Está tudo bem?",
+    "zh": "一切都好吗",
+    "en": "Is everything all right?",
+    "fr": "Tout va bien ?",
+    "es": "¿Todo bien?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-472",
+    "pt": "O que se passa?",
+    "zh": "怎么了",
+    "en": "What's going on?",
+    "fr": "Qu'est-ce qui se passe ?",
+    "es": "¿Qué pasa?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-473",
+    "pt": "Não te preocupes.",
+    "zh": "别担心",
+    "en": "Don't worry",
+    "fr": "Ne t'inquiète pas",
+    "es": "No te preocupes",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-474",
+    "pt": "Com certeza absoluta.",
+    "zh": "绝对确定",
+    "en": "Absolutely certain",
+    "fr": "Absolument certain",
+    "es": "Con toda seguridad",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-475",
+    "pt": "o sabão",
+    "zh": "肥皂",
+    "en": "soap",
+    "fr": "le savon",
+    "es": "el jabón",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-476",
+    "pt": "a pasta de dentes",
+    "zh": "牙膏",
+    "en": "toothpaste",
+    "fr": "le dentifrice",
+    "es": "la pasta de dientes",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-477",
+    "pt": "o champô",
+    "zh": "洗发水",
+    "en": "shampoo",
+    "fr": "le shampooing",
+    "es": "el champú",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-478",
+    "pt": "o gel de banho",
+    "zh": "沐浴露",
+    "en": "shower gel",
+    "fr": "le gel douche",
+    "es": "el gel de ducha",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-479",
+    "pt": "o pente",
+    "zh": "梳子",
+    "en": "comb",
+    "fr": "le peigne",
+    "es": "el peine",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-480",
+    "pt": "a escova de dentes",
+    "zh": "牙刷",
+    "en": "toothbrush",
+    "fr": "la brosse à dents",
+    "es": "el cepillo de dientes",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-481",
+    "pt": "a escova de cabelo",
+    "zh": "发刷",
+    "en": "hairbrush",
+    "fr": "la brosse à cheveux",
+    "es": "el cepillo del pelo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-482",
+    "pt": "o secador de cabelo",
+    "zh": "吹风机",
+    "en": "hairdryer",
+    "fr": "le sèche-cheveux",
+    "es": "el secador de pelo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-483",
+    "pt": "o pijama",
+    "zh": "睡衣",
+    "en": "pyjamas",
+    "fr": "le pyjama",
+    "es": "el pijama",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-484",
+    "pt": "as pantufas",
+    "zh": "拖鞋",
+    "en": "slippers",
+    "fr": "les pantoufles",
+    "es": "las zapatillas",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-485",
+    "pt": "o robe",
+    "zh": "浴袍",
+    "en": "dressing gown",
+    "fr": "le peignoir",
+    "es": "la bata",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-486",
+    "pt": "a balança",
+    "zh": "体重秤；天平",
+    "en": "scales",
+    "fr": "la balance",
+    "es": "la balanza",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-487",
+    "pt": "o termómetro",
+    "zh": "体温计",
+    "en": "thermometer",
+    "fr": "le thermomètre",
+    "es": "el termómetro",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-488",
+    "pt": "o anfitrião",
+    "zh": "主人；东道主",
+    "en": "host",
+    "fr": "le hôte",
+    "es": "el anfitrión",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-489",
+    "pt": "o brinde",
+    "zh": "祝酒",
+    "en": "toast",
+    "fr": "le toast",
+    "es": "el brindis",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-490",
+    "pt": "o piquenique",
+    "zh": "野餐",
+    "en": "picnic",
+    "fr": "le pique-nique",
+    "es": "el picnic",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-491",
+    "pt": "o trabalho em equipa",
+    "zh": "团队合作",
+    "en": "teamwork",
+    "fr": "le travail d'équipe",
+    "es": "el trabajo en equipo",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-492",
+    "pt": "o dia a dia",
+    "zh": "日常生活",
+    "en": "everyday life",
+    "fr": "le quotidien",
+    "es": "el día a día",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-493",
+    "pt": "o guisado",
+    "zh": "炖肉",
+    "en": "stew",
+    "fr": "le ragoût",
+    "es": "el guiso",
+    "pos": "noun"
+  },
+  {
+    "id": "a2y-494",
+    "pt": "Pode falar com o responsável?",
+    "zh": "能请负责人来吗",
+    "en": "Could I speak to the manager?",
+    "fr": "Puis-je parler au responsable ?",
+    "es": "¿Puedo hablar con el responsable?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-495",
+    "pt": "Queria deixar uma mensagem.",
+    "zh": "我想留个口信",
+    "en": "I'd like to leave a message",
+    "fr": "Je voudrais laisser un message",
+    "es": "Quisiera dejar un mensaje",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-496",
+    "pt": "Não estou a perceber.",
+    "zh": "我没听懂",
+    "en": "I'm not following",
+    "fr": "Je ne comprends pas",
+    "es": "No estoy entendiendo",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-497",
+    "pt": "Pode dizer-lhe que liguei?",
+    "zh": "能告诉他我打过电话吗",
+    "en": "Could you tell him I called?",
+    "fr": "Pouvez-vous lui dire que j'ai appelé ?",
+    "es": "¿Puede decirle que llamé?",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-498",
+    "pt": "Tenho de ir agora.",
+    "zh": "我得走了",
+    "en": "I have to go now",
+    "fr": "Je dois y aller",
+    "es": "Tengo que irme ya",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-499",
+    "pt": "Fico-lhe muito grato.",
+    "zh": "非常感谢您",
+    "en": "I'm very grateful",
+    "fr": "Je vous suis très reconnaissant",
+    "es": "Le estoy muy agradecido",
+    "pos": "phrase"
+  },
+  {
+    "id": "a2y-500",
+    "pt": "Apetece-me um café.",
+    "zh": "我想喝杯咖啡",
+    "en": "I feel like a coffee",
+    "fr": "J'ai envie d'un café",
+    "es": "Me apetece un café",
+    "pos": "phrase"
+  }
+]
