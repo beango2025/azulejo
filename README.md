@@ -56,9 +56,19 @@ PT-PT 外部资源入口：
 - **独立阅读入口**：顶部「阅读」栏目按 A1–C2 列出全部 180 个阅读场景，点击卡片直接跳到该课的阅读步骤，不需要先过单词和语法。
 - **每级 10 篇听力**：编号独立为 `A1.1`–`A1.10`、`B1.1`–`B1.10`，共 60 篇；场景各不相同，支持 `0,6×–1,4×` 滑杆调速（播放中改速会从新速度重播），进度按单篇记录。
 - **短剧配音**：6 个视频场景支持字幕、逐句录音、回放、发音匹配和语速评分；分数单独保存在对应场景。
+- **听力原文 + 中文翻译**：60 篇听力都带完整葡语原文和逐段中文翻译。
+- **810 个五语词汇**：A1–C2 每级 100+ 个核心词，PT / 中 / EN / FR / ES 五语对照；新增 600 个分频词。
+- **动词变位表**：24 个核心动词 × 7 个时态 × 6 个人称；`语料 → 动词` 中展开查看。
+- **语法双语解释 + 每课练习**：42 个语法点配中文、英文解释；180 节课（含练习课）每课额外 2 道语法题。
 - **课文真实照片**：阅读页按场景显示 1 幅**里斯本**真实照片（28 路电车、Pastéis de Belém、Mercado da Ribeira、Bertrand Chiado、Parque das Nações、Assembleia da República、Torre de Belém、法朵、azulejo 外墙、药物博物馆、Praça do Comércio）。全部来自 Wikimedia Commons，授权与作者见 [assets/photos/CREDITS.md](assets/photos/CREDITS.md)。
 
 ![独立阅读入口](screenshots/reading.png)
+
+语法双语解释、动词变位和听力原文/中文对照：
+
+| ![语法](screenshots/grammar.png) | ![动词变位](screenshots/verbs.png) |
+|---|---|
+| ![听力原文与中文](screenshots/listening-text.png) | ![语法练习](screenshots/grammar-practice.png) |
 
 十篇独立编号听力与短剧配音：
 
@@ -122,7 +132,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v2.1.2**。
+当前版本：**v2.2.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -150,6 +160,10 @@ azulejo/
 ├─ js/scenes.js            # A1–C2 核心课与练习课的 180 个唯一场景
 ├─ js/labs.js              # 每级 21–24 节练习课，绑定对应核心课词汇
 ├─ js/readings.js          # 180 篇考试长度阅读（由 content/ 生成）
+├─ js/listening-zh.js      # 60 篇听力中文翻译
+├─ js/grammar-extra.js     # 42 个语法点的英文解释 + 84 道练习
+├─ js/vocab-bank.js        # 600 个新增五语词（总计 810）
+├─ js/verbs.js             # 24 个动词的七时态变位表
 ├─ js/immersion.js         # 每课阅读、听力、跟读、题目与媒体链接
 ├─ js/resources.js         # 5 个仅 PT-PT 的外部学习资源
 ├─ js/app.js               # 路由、课程、SRS、影音引擎、进度、设置
@@ -161,6 +175,9 @@ azulejo/
 ├─ sw.js                   # 离线缓存
 ├─ server.js               # 零依赖静态服务器
 ├─ tools/build-readings.mjs # 校验字数/题目并生成 js/readings.js
+├─ tools/build-listening-zh.mjs # 合并 60 篇听力中文翻译
+├─ tools/build-grammar.mjs # 合并 42 个语法点英文解释/练习
+├─ tools/build-vocab.mjs   # 合并 600 个新增五语词汇
 ├─ tools/qa.mjs            # Chrome CDP 自动化走查（开发用）
 └─ screenshots/            # 预览截图
 ```

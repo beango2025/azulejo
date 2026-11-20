@@ -1,0 +1,398 @@
+[
+  {
+    "id": "u1l1",
+    "titleEn": "Chamo-me: putting \"myself\" after the verb",
+    "bodyEn": "In European Portuguese the reflexive pronoun usually comes after the verb and is joined to it with a hyphen. chamar-se means \"to be called\": eu chamo-me, tu chamas-te, ele/ela chama-se. Brazilian Portuguese often says Me chamo, but European Portuguese more often says Chamo-me.",
+    "tipEn": "When you meet someone for the first time, a handshake and \"Prazer em conhecer-te\" sound very natural.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Eu ___ João.",
+        "options": ["chamo-me", "chamas-te", "chama-se"],
+        "answer": "chamo-me",
+        "explain": "主语是 eu（我），反身动词 chamar-se 要用第一人称 chamo，代词 me 放在动词后面并用连字符连接：chamo-me。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "A minha irmã ___ Sofia.",
+        "options": ["chama-se", "chamo-me", "chamas-te"],
+        "answer": "chama-se",
+        "explain": "主语 A minha irmã 是第三人称单数，动词用 chama，反身代词用 se：chama-se。"
+      }
+    ]
+  },
+  {
+    "id": "u1l2",
+    "titleEn": "ser: identity is long-term",
+    "bodyEn": "ser is used to talk about identity, nationality, profession and personality: eu sou, tu és, ele/ela é, nós somos. Note that nationalities are written in lower case, and the adjective agrees with the person's gender: ele é chinês, ela é chinesa.",
+    "tipEn": "To ask \"Where are you from?\" you can also say De onde vens? and answer Eu venho da China.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Nós ___ amigos.",
+        "options": ["somos", "sou", "são"],
+        "answer": "somos",
+        "explain": "主语 nós（我们）对应 ser 的变位 somos；sou 是 eu 的形式，são 是 eles/elas 的形式。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Ele ___ médico.",
+        "options": ["é", "és", "sou"],
+        "answer": "é",
+        "explain": "ele 是第三人称单数，ser 用 é。职业前不加冠词：Ele é médico。"
+      }
+    ]
+  },
+  {
+    "id": "u1l3",
+    "titleEn": "Tu, você or o senhor?",
+    "bodyEn": "In Portugal, tu is the everyday \"you\" between friends, and the verb takes the second-person form: Como estás? In formal situations, você is not the natural choice; instead use o senhor / a senhora, or simply leave the subject out: Como está? In shops, at the clinic, and with older people you are meeting for the first time, prefer the formal form.",
+    "tipEn": "In Portugal obrigado means \"thank you\"; when someone says obrigado to you, you usually answer De nada.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Como ___ , doutor Sousa?",
+        "options": ["está", "estás", "estou"],
+        "answer": "está",
+        "explain": "面对 doutor Sousa 这样的正式称呼，要用 o senhor 的正式形式，动词是第三人称单数 está；estás 是 tu 的形式，只用于熟人。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Como ___ , Rita? Tudo bem?",
+        "options": ["estás", "está", "estão"],
+        "answer": "estás",
+        "explain": "Rita 是朋友，用 tu 的日常形式，动词第二人称单数 estás。"
+      }
+    ]
+  },
+  {
+    "id": "u2l1",
+    "titleEn": "Ordering in three parts: Queria + noun + se faz favor",
+    "bodyEn": "Portuguese cafés move fast, and ordering does not need long sentences. Queria… means \"I would like\" and is more polite than Quero; se faz favor can go at the end of the sentence. Use um/uma to be precise about one item or quantity: um café, uma meia de leite.",
+    "tipEn": "In Lisbon \"a cup of coffee\" can be uma bica; in Porto it is um cimbalino.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Queria ___ água, se faz favor.",
+        "options": ["uma", "um", "uns"],
+        "answer": "uma",
+        "explain": "água 是阴性名词，所以要说不定冠词 uma；um 用于阳性名词，uns 是复数。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "___ tudo, obrigado.",
+        "options": ["Era", "Eram", "Fui"],
+        "answer": "Era",
+        "explain": "点单结束时说 Era tudo（就这些）。tudo 是单数概念，用单数 Era；Eram 是复数，Fui 是 ir/ser 的过去时，不用于这个固定说法。"
+      }
+    ]
+  },
+  {
+    "id": "u2l2",
+    "titleEn": "Numbers 1–20 and prices",
+    "bodyEn": "um/uma, dois/duas, três, quatro, cinco, seis, sete, oito, nove, dez, onze, doze, treze, catorze, quinze, dezasseis, dezassete, dezoito, dezanove, vinte. In prices the parts are joined with \"e\": três euros e cinquenta.",
+    "tipEn": "Portuguese uses a comma as the decimal mark: 3,50 €. In speech you say três euros e cinquenta.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "São ___ euros e cinquenta. (3,50 €)",
+        "options": ["três", "treze", "trinta"],
+        "answer": "três",
+        "explain": "3 是 três；treze 是 13，trinta 是 30。价格里整数和小数用 e 连接：três euros e cinquenta。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "O bilhete custa ___ euros. (15 €)",
+        "options": ["quinze", "cinco", "cinquenta"],
+        "answer": "quinze",
+        "explain": "15 是 quinze；cinco 是 5，cinquenta 是 50。注意 quinze 和 cinquenta 拼写相近，容易混淆。"
+      }
+    ]
+  },
+  {
+    "id": "u2l3",
+    "titleEn": "Gosto de: liking needs \"de\"",
+    "bodyEn": "gostar must be followed by the preposition de: Gosto de café, Gosto de viajar. The negative is Não gosto de…. If what you like is a person, say Gosto dela / Gosto dele, not Gosto de ela.",
+    "tipEn": "Adoro is stronger than Gosto muito and is used for things you really love.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "___ de música clássica.",
+        "options": ["Gosto", "Gosto que", "Gosto-me"],
+        "answer": "Gosto",
+        "explain": "gostar 后面直接接 de + 名词：Gosto de música。Gosto que 后面要接从句，Gosto-me 是错误的反身用法。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Não gosto ___ peixe.",
+        "options": ["de", "em", "a"],
+        "answer": "de",
+        "explain": "gostar 的否定形式同样保留介词 de：Não gosto de peixe。em 和 a 都不能和 gostar 搭配。"
+      }
+    ]
+  },
+  {
+    "id": "u3l1",
+    "titleEn": "ficar or estar?",
+    "bodyEn": "To ask where a place is, you usually use Onde fica…? (a permanent location). To ask where a person or a movable object is, use Onde está…? For example Onde fica o museu? but Onde está o meu telemóvel? Answer with fica: Fica ali, Fica à direita.",
+    "tipEn": "\"Go straight ahead\" is Siga em frente; \"cross the street\" is Atravesse a rua.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Onde ___ o hotel?",
+        "options": ["fica", "fico", "ficam"],
+        "answer": "fica",
+        "explain": "问建筑物等固定地点的位置用 Onde fica…?，主语 o hotel 是第三人称单数，所以用 fica。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Onde ___ as chaves?",
+        "options": ["estão", "fica", "está"],
+        "answer": "estão",
+        "explain": "chaves（钥匙）是可以移动的物品，用 estar；主语是复数 as chaves，所以用 estão。"
+      }
+    ]
+  },
+  {
+    "id": "u3l2",
+    "titleEn": "Telling time: São as duas e meia",
+    "bodyEn": "One o'clock is É uma hora; every other hour uses São as…: São as duas, São as três e um quarto, São as quatro menos dez. \"At what time\" uses às: às duas, às oito e meia. Formal timetables often use the 24-hour clock: às catorze e trinta.",
+    "tipEn": "meia = half, um quarto = a quarter, menos = to. A quarter to three is três menos um quarto.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "___ uma hora.",
+        "options": ["É", "São", "Está"],
+        "answer": "É",
+        "explain": "「一点」是固定说法 É uma hora，因为 uma 是单数；其他钟点才用 São as…。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "O comboio é ___ oito e meia.",
+        "options": ["às", "as", "à"],
+        "answer": "às",
+        "explain": "表示「在几点」用介词 a + 阴性复数冠词 as = às：às oito e meia。as 没有重音符号是冠词，à 是单数形式。"
+      }
+    ]
+  },
+  {
+    "id": "u3l3",
+    "titleEn": "ir para or ir a?",
+    "bodyEn": "For going to a city or country, ir para is common: Vou para Lisboa. For going to a specific place, ir a is common: Vou ao centro (a + o = ao), Vou à praia (a + a = à). To get on you use subir / entrar; to get off you use descer / sair.",
+    "tipEn": "In Lisbon, ring the bell early when your tram stop is coming up; saying Com licença as you get off is polite.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "No verão vou ___ Portugal.",
+        "options": ["para", "à", "ao"],
+        "answer": "para",
+        "explain": "去一个国家常用 ir para + 地名（不加冠词）：vou para Portugal。à 和 ao 是 a + 冠词的缩合，用于具体地点。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Ela vai ___ praia todos os dias.",
+        "options": ["à", "ao", "a"],
+        "answer": "à",
+        "explain": "praia 是阴性名词，介词 a + 阴性冠词 a = à：vai à praia。ao 用于阳性名词，单独的 a 缺少冠词。"
+      }
+    ]
+  },
+  {
+    "id": "u4l1",
+    "titleEn": "Possessives: o meu, a minha",
+    "bodyEn": "Portuguese possessives usually take the definite article: o meu pai, a minha mãe, os meus pais. The gender of the noun decides meu/minha, and the number decides meu/meus. When speaking to family members the article is often dropped: A minha mãe… can also be A mãe….",
+    "tipEn": "In Portuguese both \"older brother\" and \"younger brother\" are irmão; for older use mais velho, for younger mais novo.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "___ meus avós moram em Faro.",
+        "options": ["Os", "As", "O"],
+        "answer": "Os",
+        "explain": "avós（祖父母）是阳性复数，所有格短语要带阳性复数冠词：os meus avós。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Onde está ___ mala? (my bag)",
+        "options": ["a minha", "o meu", "a meu"],
+        "answer": "a minha",
+        "explain": "mala 是阴性单数名词，要用阴性冠词 a + 阴性所有格 minha：a minha mala。o meu 用于阳性名词，a meu 搭配错误。"
+      }
+    ]
+  },
+  {
+    "id": "u4l2",
+    "titleEn": "Reflexive verbs: the action comes back to you",
+    "bodyEn": "Daily routines are often described with reflexive verbs: levantar-se, deitar-se, vestir-se. European Portuguese puts the reflexive pronoun after the verb: Levanto-me às sete, Deito-me cedo. In the negative the pronoun still stays with the verb: Não me levanto cedo.",
+    "tipEn": "\"To take a shower\" is tomar duche in European Portuguese, not tomar banho (which means to have a bath).",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Aos sábados ___ tarde. (I get up late)",
+        "options": ["levanto-me", "me levanto", "levanta-me"],
+        "answer": "levanto-me",
+        "explain": "葡葡肯定句里反身代词放在动词后面：levanto-me。me levanto 是巴葡语序，levanta-me 是第三人称形式。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Não ___ cedo. (I don't go to bed early.)",
+        "options": ["me deito", "deito-me", "deita-se"],
+        "answer": "me deito",
+        "explain": "否定句里反身代词要放在动词前面：Não me deito cedo。deita-se 是第三人称，与主语「我」不一致。"
+      }
+    ]
+  },
+  {
+    "id": "u4l3",
+    "titleEn": "há: there is / there are",
+    "bodyEn": "To say that something exists or is there, use the impersonal form of haver, há: Há dois quartos. The negative is Não há…. To ask \"is there…?\" say Há…? Do not use Tem unless the subject is explicit (A casa tem dois quartos).",
+    "tipEn": "\"On the first floor\" is no primeiro andar — the European primeiro andar is one level above the ground floor, i.e. what is often called the second floor.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "___ três quartos no apartamento.",
+        "options": ["Há", "Tem", "É"],
+        "answer": "Há",
+        "explain": "表示「存在、有」用无人称的 há，不需要主语：Há três quartos。Tem 需要明确主语，例如 O apartamento tem três quartos。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Não ___ pão em casa.",
+        "options": ["há", "tem", "está"],
+        "answer": "há",
+        "explain": "存在句的否定是 Não há…（没有……）。está 表示位置状态，不能表示「有」。"
+      }
+    ]
+  },
+  {
+    "id": "u5l1",
+    "titleEn": "Simple past: telling what has already happened",
+    "bodyEn": "The pretérito perfeito is used for completed actions. Regular verbs: falei, comi, parti. The eu form of both ir and ser is fui, and the você/ele form is foi. It is often used with ontem, na semana passada, no fim de semana.",
+    "tipEn": "\"To go to the cinema\" is ir ao cinema; \"to watch a film\" is ver um filme.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Ela ___ ao Porto no domingo.",
+        "options": ["foi", "fui", "era"],
+        "answer": "foi",
+        "explain": "ir 的第三人称单数简单过去时是 foi（eu 才是 fui）。ontem、no domingo 这类时间词常和简单过去时一起用。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "No fim de semana ___ em casa.",
+        "options": ["fiquei", "fico", "ficava"],
+        "answer": "fiquei",
+        "explain": "no fim de semana 指已完成的过去时段，ficar 的 eu 简单过去时是 fiquei；fico 是现在时，ficava 表示过去的习惯。"
+      }
+    ]
+  },
+  {
+    "id": "u5l2",
+    "titleEn": "The easy future: vou + infinitive",
+    "bodyEn": "For everyday plans, use the present tense of ir + the infinitive: vou viajar, vais comer, vamos sair. This is more common than the future tense form. Note vais (you), vai (he/she), vamos (we).",
+    "tipEn": "\"What plans do you have for the weekend?\" can be Que planos tens para o fim de semana?",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Nós ___ jantar fora hoje.",
+        "options": ["vamos", "vou", "vão"],
+        "answer": "vamos",
+        "explain": "主语 nós 对应 ir 的现在时 vamos，后面接动词原形 jantar：vamos jantar。vou 用于 eu，vão 用于 eles/elas。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Amanhã eles ___ visitar o museu.",
+        "options": ["vão", "vai", "vamos"],
+        "answer": "vão",
+        "explain": "eles 对应 ir 的现在时 vão，后面接动词原形 visitar 表示计划：vão visitar。vai 用于 ele/ela，vamos 用于 nós。"
+      }
+    ]
+  },
+  {
+    "id": "u5l3",
+    "titleEn": "Está a chover: the European Portuguese way of saying \"is doing\"",
+    "bodyEn": "European Portuguese uses estar a + infinitive to say that something is happening right now: Estou a estudar, Está a chover. Brazilian Portuguese uses estar + gerund instead: Estou estudando. For the weather, \"cold/hot\" uses fazer: Faz frio, Faz calor.",
+    "tipEn": "\"What's the weather like?\" is Como está o tempo?; \"It's a beautiful day\" is Está um dia lindo.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Nós ___ a preparar o jantar.",
+        "options": ["estamos", "está", "estão"],
+        "answer": "estamos",
+        "explain": "主语 nós 对应 estar 的现在时 estamos，构成 estar a + 动词原形：estamos a preparar。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Hoje ___ calor.",
+        "options": ["faz", "tem", "é"],
+        "answer": "faz",
+        "explain": "谈天气冷热用 fazer：Faz calor、Faz frio。tem 表示「有」，é 用于身份或性质。"
+      }
+    ]
+  },
+  {
+    "id": "u6l1",
+    "titleEn": "Shopping phrases",
+    "bodyEn": "To ask whether a shop has something: Tem…? To ask the price: Quanto custa? To try something on: Posso experimentar? To take it: Levo este/esta. Payment: em dinheiro (cash), com cartão (card). Note that in Portugal a queue is called bicha — don't be alarmed by the word.",
+    "tipEn": "In Portugal fila is not common — people say bicha for a queue; it is a completely normal everyday word.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "___ experimentar esta camisa?",
+        "options": ["Posso", "Quero que", "Tenho"],
+        "answer": "Posso",
+        "explain": "请求试穿用 Posso experimentar?（我可以试穿吗？）。Quero que 后面必须接从句，Tenho 不能直接接动词原形表示请求。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Quanto ___ esta saia?",
+        "options": ["custa", "custam", "custo"],
+        "answer": "custa",
+        "explain": "问单件商品价格用 Quanto custa…?，主语 esta saia 是第三人称单数，所以用 custa。"
+      }
+    ]
+  },
+  {
+    "id": "u6l2",
+    "titleEn": "Asking for help: Preciso de…",
+    "bodyEn": "precisar is followed by de: Preciso de ajuda, Preciso de um médico. To ask someone for help use Pode ajudar-me? (\"Can you help me?\") or the softer Podia ajudar-me?. The emergency number in Portugal and in most EU countries is 112.",
+    "tipEn": "\"Mobile phone\" is telemóvel in European Portuguese and celular in Brazilian Portuguese.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Eu ___ de descansar um pouco.",
+        "options": ["preciso", "precisa", "precisas"],
+        "answer": "preciso",
+        "explain": "主语 eu 对应 precisar 的现在时 preciso，后面接 de + 动词原形：preciso de descansar。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Preciso ___ um táxi.",
+        "options": ["de", "em", "a"],
+        "answer": "de",
+        "explain": "precisar 后面必须接介词 de：preciso de um táxi。em 和 a 都不能和 precisar 搭配。"
+      }
+    ]
+  },
+  {
+    "id": "u6l3",
+    "titleEn": "Little words that make Portuguese sound Portuguese",
+    "bodyEn": "Portuguese speakers constantly use pois, pá, olha, já agora. They have no full translation, but they shape the tone: pois shows agreement or thinking, pá creates closeness, olha draws attention, já agora adds something on the side. Understand them first, then use them slowly.",
+    "tipEn": "Ó is also often placed before a name: Ó Ana! is like \"Hey, Ana\" and is very natural between friends.",
+    "exercises": [
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "___ , precisas de alguma coisa? (By the way, do you need anything?)",
+        "options": ["Já agora", "Pois é", "Afinal"],
+        "answer": "Já agora",
+        "explain": "já agora 表示「顺便问一下」，用来在对话中补充一个新话题。Pois é 表示同意，Afinal 表示「结果、原来」。"
+      },
+      {
+        "prompt": "GRAMÁTICA",
+        "q": "Não te preocupes, ___ . (Don't worry, mate.)",
+        "options": ["pá", "pois", "já"],
+        "answer": "pá",
+        "explain": "pá 是拉近关系的口语小词，常放在句尾，相当于「哥们儿、老兄」。pois 表示同意或思考，já 表示「已经」。"
+      }
+    ]
+  }
+]

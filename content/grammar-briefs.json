@@ -1,0 +1,926 @@
+[
+  {
+    "id": "u1l1",
+    "title": "À chegada a Lisboa",
+    "grammarTitle": "Chamo-me：把「自己」放在动词后面",
+    "body": "欧洲葡语里，反身代词通常跟在动词后面，并用连字符连接。chamar-se 是「名叫」：eu chamo-me、tu chamas-te、ele/ela chama-se。巴西葡语常说 Me chamo，但葡葡更常说 Chamo-me。",
+    "tip": "第一次见面，握手并说「Prazer em conhecer-te」就很自然。",
+    "examples": [
+      {
+        "pt": "Chamo-me Ana.",
+        "zh": "我叫安娜。"
+      },
+      {
+        "pt": "Chamas-te Pedro?",
+        "zh": "你叫佩德罗吗？"
+      },
+      {
+        "pt": "Ela chama-se Inês.",
+        "zh": "她叫伊内斯。"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u1l2",
+    "title": "No átrio do hotel",
+    "grammarTitle": "ser：身份是「长期」的",
+    "body": "ser 用来谈身份、国籍、职业和性格。eu sou、tu és、ele/ela é、nós somos。注意国籍首字母小写，并且形容词跟着人的性别变化：ele é chinês，ela é chinesa。",
+    "tip": "问「你来自哪里」还可以说 De onde vens?；回答 Eu venho da China。",
+    "examples": [
+      {
+        "pt": "Sou portuguesa.",
+        "zh": "我是葡萄牙人（女）。"
+      },
+      {
+        "pt": "Tu és chinês?",
+        "zh": "你是中国人吗？"
+      },
+      {
+        "pt": "Vivo em Lisboa, mas sou de Xangai.",
+        "zh": "我住在里斯本，但我来自上海。"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u1l3",
+    "title": "Numa aula de português",
+    "grammarTitle": "Tu、você 还是 o senhor？",
+    "body": "在葡萄牙，tu 是日常朋友之间的「你」，动词用第二人称：Como estás? 正式场合不说 você 更自然，而是用 o senhor / a senhora 或直接省略主语：Como está? 在商店、诊所和第一次见面的长辈面前，优先用正式形式。",
+    "tip": "在葡萄牙，obrigado 是「谢谢」；别人说 obrigado，你通常回 De nada。",
+    "examples": [
+      {
+        "pt": "Como estás?",
+        "zh": "你好吗？（对朋友）"
+      },
+      {
+        "pt": "Como está, senhora Silva?",
+        "zh": "您好吗，席尔瓦女士？"
+      },
+      {
+        "pt": "Estou bem, obrigada. E o senhor?",
+        "zh": "我很好，谢谢。您呢？"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u2l1",
+    "title": "No café",
+    "grammarTitle": "点单三件套：Queria + 名词 + se faz favor",
+    "body": "葡萄牙咖啡馆节奏很快，点单不用长篇大论。Queria… 是「我想要」，比 Quero 更礼貌；se faz favor 可以放在句尾。要确认人数或数量，用 um/uma：um café、uma meia de leite。",
+    "tip": "在里斯本点「一杯咖啡」可以说 uma bica；在波尔图说 um cimbalino。",
+    "examples": [
+      {
+        "pt": "Queria um café, se faz favor.",
+        "zh": "我想要一杯咖啡，谢谢。"
+      },
+      {
+        "pt": "Uma água sem gás, por favor.",
+        "zh": "请来一瓶无气泡水。"
+      },
+      {
+        "pt": "Era tudo, obrigado.",
+        "zh": "就这些，谢谢。"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u2l2",
+    "title": "Ao balcão do café",
+    "grammarTitle": "数字 1–20 与价格",
+    "body": "um/uma、dois/duas、três、quatro、cinco、seis、sete、oito、nove、dez、onze、doze、treze、catorze、quinze、dezasseis、dezassete、dezoito、dezanove、vinte。价格里用「e」连接：três euros e cinquenta。",
+    "tip": "葡萄牙的 decimal 用逗号：3,50 €。口语说 três euros e cinquenta。",
+    "examples": [
+      {
+        "pt": "Quanto custa?",
+        "zh": "多少钱？"
+      },
+      {
+        "pt": "São três euros e vinte.",
+        "zh": "一共三欧二十。"
+      },
+      {
+        "pt": "Tem troco para dez euros?",
+        "zh": "十欧找得开吗？"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u2l3",
+    "title": "Na pastelaria",
+    "grammarTitle": "Gosto de：喜欢要带「de」",
+    "body": "gostar 后面必须接介词 de：Gosto de café、Gosto de viajar。否定是 Não gosto de…。如果喜欢的是「人」，要说 Gosto dela / Gosto dele，而不是 Gosto de ela。",
+    "tip": "Adoro 比 Gosto muito 更强烈，用于特别爱的东西。",
+    "examples": [
+      {
+        "pt": "Gosto muito de pastéis de nata.",
+        "zh": "我很喜欢葡式蛋挞。"
+      },
+      {
+        "pt": "Não gosto de café sem açúcar.",
+        "zh": "我不喜欢不加糖的咖啡。"
+      },
+      {
+        "pt": "Adoro este sabor!",
+        "zh": "我超爱这个口味！"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u3l1",
+    "title": "Na rua, à procura do museu",
+    "grammarTitle": "ficar 还是 estar？",
+    "body": "问一个地点「在哪里」，通常用 Onde fica…?（永久位置）。问人或可移动物品在哪，用 Onde está…? 例如 Onde fica o museu? 但 Onde está o meu telemóvel? 回答地点用 fica：Fica ali、Fica à direita。",
+    "tip": "「一直走」是 Siga em frente；「过马路」是 Atravesse a rua。",
+    "examples": [
+      {
+        "pt": "Onde fica a estação?",
+        "zh": "车站在哪里？"
+      },
+      {
+        "pt": "Fica em frente ao café.",
+        "zh": "在咖啡馆对面。"
+      },
+      {
+        "pt": "Onde está o bilhete?",
+        "zh": "车票在哪里？"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u3l2",
+    "title": "Na estação de comboios",
+    "grammarTitle": "说时间：São as duas e meia",
+    "body": "一点是 É uma hora；其余用 São as…：São as duas、São as três e um quarto、São as quatro menos dez。「在几点」用 às：às duas、às oito e meia。正式时刻表常用 24 小时制：às catorze e trinta。",
+    "tip": "meia = 半，um quarto = 一刻钟，menos = 差。三点差一刻是 três menos um quarto。",
+    "examples": [
+      {
+        "pt": "A que horas é o concerto?",
+        "zh": "音乐会几点？"
+      },
+      {
+        "pt": "É às nove e meia.",
+        "zh": "九点半。"
+      },
+      {
+        "pt": "O comboio das oito está atrasado.",
+        "zh": "八点的火车晚点了。"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u3l3",
+    "title": "No elétrico 28",
+    "grammarTitle": "ir para 还是 ir a？",
+    "body": "去一个城市或国家常用 ir para：Vou para Lisboa。去一个具体地点常用 ir a：Vou ao centro（a + o = ao）、Vou à praia（a + a = à）。上车用 subir / entrar，下车用 descer / sair。",
+    "tip": "在里斯本，电车快到站时要提前按铃；下车说 Com licença 很礼貌。",
+    "examples": [
+      {
+        "pt": "Vou para o centro.",
+        "zh": "我去市中心。"
+      },
+      {
+        "pt": "Vou à praia.",
+        "zh": "我去海滩。"
+      },
+      {
+        "pt": "Desço na próxima paragem.",
+        "zh": "我在下一站下车。"
+      }
+    ],
+    "level": "A1"
+  },
+  {
+    "id": "u4l1",
+    "title": "Em casa dos avós",
+    "grammarTitle": "所有格：o meu、a minha",
+    "body": "葡语的所有格通常带冠词：o meu pai、a minha mãe、os meus pais。名词阴阳性决定用 meu/minha，单复数决定 meu/meus。和家人说话时，常省略冠词：A minha mãe… 也可以说 A mãe…。",
+    "tip": "葡语里「哥哥/弟弟」都是 irmão，年长用 mais velho，年幼用 mais novo。",
+    "examples": [
+      {
+        "pt": "A minha irmã chama-se Inês.",
+        "zh": "我妹妹/姐姐叫伊内斯。"
+      },
+      {
+        "pt": "Os meus pais vivem em Xangai.",
+        "zh": "我父母住在上海。"
+      },
+      {
+        "pt": "O teu irmão é simpático.",
+        "zh": "你哥哥人很好。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u4l2",
+    "title": "Numa manhã de segunda",
+    "grammarTitle": "反身动词：动作回到自己身上",
+    "body": "描述日常作息常用反身动词：levantar-se、deitar-se、vestir-se。葡葡把反身代词放在动词后：Levanto-me às sete、Deito-me cedo。否定时代词依然跟着动词：Não me levanto cedo。",
+    "tip": "「洗澡」是 tomar duche（葡葡），不是 tomar banho（泡澡）。",
+    "examples": [
+      {
+        "pt": "Acordo às sete e levanto-me às sete e meia.",
+        "zh": "我七点醒，七点半起床。"
+      },
+      {
+        "pt": "Tomo o pequeno-almoço e apanho o autocarro.",
+        "zh": "我吃早餐，然后坐公交。"
+      },
+      {
+        "pt": "Deito-me à meia-noite.",
+        "zh": "我午夜上床睡觉。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u4l3",
+    "title": "No apartamento novo",
+    "grammarTitle": "há：那里有",
+    "body": "表示「有、存在」用 haver 的无人称形式 há：Há dois quartos。否定是 Não há…。问「有……吗？」说 Há…? 不要说 Tem，除非主语明确（A casa tem dois quartos）。",
+    "tip": "「在二楼」是 no primeiro andar（欧洲的 first floor 是二楼）。",
+    "examples": [
+      {
+        "pt": "Há uma cozinha e dois quartos.",
+        "zh": "有一个厨房和两个卧室。"
+      },
+      {
+        "pt": "Não há varanda.",
+        "zh": "没有阳台。"
+      },
+      {
+        "pt": "Há um supermercado perto?",
+        "zh": "附近有超市吗？"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u5l1",
+    "title": "À mesa, a contar o fim de semana",
+    "grammarTitle": "简单过去时：讲完一件已经发生的事",
+    "body": "pretérito perfeito 用来讲已完成的动作。规则动词：falei、comi、parti。ir/ser 的 eu 形式都是 fui，você/ele 是 foi。常和 ontem、na semana passada、no fim de semana 一起用。",
+    "tip": "「去电影院」是 ir ao cinema；「看电影」是 ver um filme。",
+    "examples": [
+      {
+        "pt": "Ontem fui ao cinema.",
+        "zh": "昨天我去了电影院。"
+      },
+      {
+        "pt": "Comi uma francesinha.",
+        "zh": "我吃了一个 francesinha 三明治。"
+      },
+      {
+        "pt": "Gostei muito do fim de semana.",
+        "zh": "我很喜欢这个周末。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u5l2",
+    "title": "No café, a fazer planos",
+    "grammarTitle": "将来很简单：vou + 动词原形",
+    "body": "日常计划用 ir 的现在时 + 动词原形：vou viajar、vais comer、vamos sair。这比未来的动词变位更常用。注意 vais（你）、vai（他/她）、vamos（我们）。",
+    "tip": "「周末你有什么计划？」可以说 Que planos tens para o fim de semana?",
+    "examples": [
+      {
+        "pt": "Amanhã vou trabalhar.",
+        "zh": "明天我要工作。"
+      },
+      {
+        "pt": "Vamos jantar fora?",
+        "zh": "我们出去吃晚饭吗？"
+      },
+      {
+        "pt": "Ela vai viajar para o Porto.",
+        "zh": "她要去波尔图旅行。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u5l3",
+    "title": "Na varanda, a falar do tempo",
+    "grammarTitle": "Está a chover：葡葡的「正在」",
+    "body": "欧洲葡语用 estar a + 动词原形表示正在做某事：Estou a estudar、Está a chover。巴西葡语则用 estar + 动名词：Estou estudando。天气里「冷/热」用 fazer：Faz frio、Faz calor。",
+    "tip": "「天气怎么样？」是 Como está o tempo?；「今天天气很好」是 Está um dia lindo。",
+    "examples": [
+      {
+        "pt": "Está a chover.",
+        "zh": "正在下雨。"
+      },
+      {
+        "pt": "Estou a aprender português.",
+        "zh": "我正在学葡语。"
+      },
+      {
+        "pt": "Faz calor, mas está vento.",
+        "zh": "很热，但有风。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u6l1",
+    "title": "Numa loja de roupa",
+    "grammarTitle": "购物常用句型",
+    "body": "问有没有某物：Tem…? 问价格：Quanto custa? 试穿：Posso experimentar? 买下：Levo este/esta。付款方式：em dinheiro（现金）、com cartão（刷卡）。注意葡萄牙排队叫 bicha，不要被这个词吓到。",
+    "tip": "在葡萄牙，fila 不常用，排队说 bicha；这是完全正常的日常词。",
+    "examples": [
+      {
+        "pt": "Tem este casaco em tamanho M?",
+        "zh": "这件外套有 M 码吗？"
+      },
+      {
+        "pt": "Posso experimentar?",
+        "zh": "我可以试穿吗？"
+      },
+      {
+        "pt": "Levo este, obrigado.",
+        "zh": "我买这件，谢谢。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u6l2",
+    "title": "Na farmácia, com urgência",
+    "grammarTitle": "求助：Preciso de…",
+    "body": "precisar 后面接 de：Preciso de ajuda、Preciso de um médico。请别人帮忙用 Pode ajudar-me?（您能帮我吗？）或 Podia ajudar-me?（更委婉）。紧急电话在葡萄牙和多数欧盟国家是 112。",
+    "tip": "「手机」在葡葡是 telemóvel，在巴葡是 celular。",
+    "examples": [
+      {
+        "pt": "Preciso de ajuda.",
+        "zh": "我需要帮助。"
+      },
+      {
+        "pt": "Pode ajudar-me, se faz favor?",
+        "zh": "您能帮我一下吗？"
+      },
+      {
+        "pt": "Estou perdida e não tenho telemóvel.",
+        "zh": "我迷路了，而且没带手机。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "u6l3",
+    "title": "No bairro, à conversa",
+    "grammarTitle": "让葡语有「葡萄牙味」的小词",
+    "body": "葡萄牙人说话离不开 pois、pá、olha、já agora。它们没有完整翻译，却决定语气：pois 表示同意或思考，pá 拉近距离，olha 引起注意，já agora 顺便补充。先听懂，再慢慢用。",
+    "tip": "Ó 也常放在名字前：Ó Ana! 相当于「喂，安娜」，朋友之间很自然。",
+    "examples": [
+      {
+        "pt": "Pois é, a vida é assim.",
+        "zh": "是啊，生活就是这样。"
+      },
+      {
+        "pt": "Olha, já agora, queres um café?",
+        "zh": "哎，对了，你要咖啡吗？"
+      },
+      {
+        "pt": "Com certeza, não há problema.",
+        "zh": "当然，没问题。"
+      }
+    ],
+    "level": "A2"
+  },
+  {
+    "id": "b1l1",
+    "title": "À mesa, a falar da infância",
+    "grammarTitle": "Imperfeito vs. perfeito：背景与事件",
+    "body": "未完成过去时（imperfeito）画背景、讲习惯：Quando era criança, brincava na rua。简单过去时（pretérito perfeito）讲一次完成的事件：Ontem brinquei no parque。当一个动作打断另一个持续动作时，背景用 imperfeito，打断用 perfeito：Estava a chover quando saí。",
+    "tip": "信号词：sempre、todos os anos、costumava 常配 imperfeito；de repente、ontem、naquele dia 常配 perfeito。",
+    "examples": [
+      {
+        "pt": "Quando era pequeno, costumava passar os verões no Algarve.",
+        "zh": "我小时候常在阿尔加维过夏天。"
+      },
+      {
+        "pt": "Estava a jantar quando o telefone tocou.",
+        "zh": "电话响的时候我正在吃晚饭。"
+      },
+      {
+        "pt": "De repente, alguém bateu à porta.",
+        "zh": "突然有人敲门。"
+      }
+    ],
+    "level": "B1"
+  },
+  {
+    "id": "b1l2",
+    "title": "Numa esplanada, a sonhar",
+    "grammarTitle": "Se + imperfeito do conjuntivo + condicional",
+    "body": "表达与现在或未来相反的假设：Se + 虚拟式过去时，主句用条件式。Se pudesse, viajaria…；Se fosse rico, compraria…。口语里也常听到用未完成过去时代替条件式（Se pudesse, viajava），但写作时优先用条件式。",
+    "tip": "不要说 Se eu posso；假设句里要用 pudesse。条件式词尾：-ia、-ias、-ia、-íamos、-iam。",
+    "examples": [
+      {
+        "pt": "Se pudesse, viajaria pelo mundo.",
+        "zh": "如果我能，我会环游世界。"
+      },
+      {
+        "pt": "Se fosse mais novo, estudaria música.",
+        "zh": "如果我更年轻，我会学音乐。"
+      },
+      {
+        "pt": "Gostaria de mudar de vida, mas não é fácil.",
+        "zh": "我想改变生活，但这并不容易。"
+      }
+    ],
+    "level": "B1"
+  },
+  {
+    "id": "b1l3",
+    "title": "No elétrico, a contar uma história",
+    "grammarTitle": "把事件串起来：叙事连接词",
+    "body": "讲故事时，先用 imperfeito 铺背景，再用 perfeito 推进事件：Estava em Lisboa quando…。连接词负责方向：primeiro 先、depois 然后、entretanto 期间、por fim 最后、afinal 最终/原来。写作时不要每句都用 e，连接词会让叙事更有层次。",
+    "tip": "结尾想表达「总之」可以用 Enfim；想表达「结果发现」用 Afinal。",
+    "examples": [
+      {
+        "pt": "Primeiro, fomos ao mercado. Depois, subimos ao castelo.",
+        "zh": "我们先去了市场，然后登上了城堡。"
+      },
+      {
+        "pt": "Entretanto, começou a chover.",
+        "zh": "在此期间，开始下雨了。"
+      },
+      {
+        "pt": "Afinal, decidimos ficar em casa.",
+        "zh": "最后，我们决定待在家里。"
+      }
+    ],
+    "level": "B1"
+  },
+  {
+    "id": "b2l1",
+    "title": "Na reunião de equipa",
+    "grammarTitle": "观点的骨架：让步 + 转折 + 结论",
+    "body": "成熟的观点不是一串「我觉得」，而是有结构的：Por um lado…, por outro lado…；No entanto…；Portanto…。表达必要性时可用 É importante que + 虚拟式：É importante que tenhamos em conta os riscos。会议里还常用 Chegámos a um consenso。",
+    "tip": "No entanto 后面接事实或反方观点；Portanto 后面接你的结论。",
+    "examples": [
+      {
+        "pt": "Por um lado, o projeto é caro; por outro, é necessário.",
+        "zh": "一方面项目很贵；另一方面，它有必要。"
+      },
+      {
+        "pt": "No entanto, ainda não temos todos os dados.",
+        "zh": "然而，我们还没有全部数据。"
+      },
+      {
+        "pt": "Portanto, proponho adiar a decisão.",
+        "zh": "因此，我建议推迟决定。"
+      }
+    ],
+    "level": "B2"
+  },
+  {
+    "id": "b2l2",
+    "title": "No escritório, a escrever um email",
+    "grammarTitle": "正式语体：距离感不是复杂词",
+    "body": "正式邮件靠稳定的结构，而不是堆砌大词：称呼（Exmo./Exma. Sr./Sra.）、来意（Venho por este meio…）、正文（Agradeço… / Solicito…）、附件（Em anexo…）、结尾（Atenciosamente / Com os melhores cumprimentos）。避免 tu、缩写和口语。",
+    "tip": "正式邮件里少用 Quero，多用 Gostaria / Solicito / Venho por este meio。",
+    "examples": [
+      {
+        "pt": "Venho por este meio candidatar-me à vaga de gestor de projeto.",
+        "zh": "我特此申请项目经理职位。"
+      },
+      {
+        "pt": "Agradeço a atenção dispensada à minha candidatura.",
+        "zh": "感谢您对我的申请给予关注。"
+      },
+      {
+        "pt": "Em anexo, envio o meu currículo e uma carta de motivação.",
+        "zh": "随附我的简历和求职信。"
+      }
+    ],
+    "level": "B2"
+  },
+  {
+    "id": "b2l3",
+    "title": "Num debate sobre turismo",
+    "grammarTitle": "让步与条件：embora、apesar de、desde que",
+    "body": "embora 后接虚拟式：Embora seja caro…；apesar de 后接名词或动词原形：Apesar de ser caro…；desde que 表示「只要」，也常接虚拟式：Desde que haja…。这些结构让立场更有层次，而不是简单的 a favor / contra。",
+    "tip": "Embora + 虚拟式；apesar de + 不定式/名词；desde que + 虚拟式。三者不能混用。",
+    "examples": [
+      {
+        "pt": "Embora o turismo crie emprego, também aumenta as rendas.",
+        "zh": "虽然旅游业创造就业，但也推高房租。"
+      },
+      {
+        "pt": "Apesar de haver mais turistas, o centro continua habitado.",
+        "zh": "尽管游客更多，市中心仍有人居住。"
+      },
+      {
+        "pt": "Desde que o bairro não perca identidade, sou a favor.",
+        "zh": "只要社区不失去特色，我就支持。"
+      }
+    ],
+    "level": "B2"
+  },
+  {
+    "id": "c1l1",
+    "title": "Na reunião de moradores",
+    "grammarTitle": "客观语体：无人称、被动与名词化",
+    "body": "讨论公共议题时，葡语常用无人称结构：É urgente que se criem soluções；Diz-se que…；Foram tomadas medidas。名词化让语体更正式：aumentar → o aumento、expulsar → a expulsão。但过度名词化会让文章僵硬，一段里用一两次即可。",
+    "tip": "se + 第三人称动词是葡语常用的无人称结构：se criem、se diga、se saiba。",
+    "examples": [
+      {
+        "pt": "É urgente que se criem soluções para a crise da habitação.",
+        "zh": "必须为住房危机创造解决方案。"
+      },
+      {
+        "pt": "Foram tomadas medidas para travar a especulação.",
+        "zh": "已采取措施遏制投机。"
+      },
+      {
+        "pt": "O aumento do arrendamento expulsou famílias do centro.",
+        "zh": "房租上涨把家庭赶出了市中心。"
+      }
+    ],
+    "level": "C1"
+  },
+  {
+    "id": "c1l2",
+    "title": "Numa entrevista sobre emigração",
+    "grammarTitle": "谈论迁移：相对从句与时间跨度",
+    "body": "描述迁徙经历常用：Há dez anos que vivo fora；Vivi dez anos no estrangeiro；Quem emigra…。注意「在国外」是 no estrangeiro，「在国外生活」是 viver no estrangeiro。ter saudades de 后面接人、地方或动名词。",
+    "tip": "Há + 时间 + que + 现在时，表示从过去持续到现在；不要用「faz」代替 há 的持续性。",
+    "examples": [
+      {
+        "pt": "Há dez anos que vivo no estrangeiro.",
+        "zh": "我在国外生活十年了。"
+      },
+      {
+        "pt": "Quem emigra procura, muitas vezes, melhores condições.",
+        "zh": "移居国外的人常常是在寻找更好的条件。"
+      },
+      {
+        "pt": "Tenho saudades de Lisboa, mas a vida aqui é boa.",
+        "zh": "我想念里斯本，但这里的生活很好。"
+      }
+    ],
+    "level": "C1"
+  },
+  {
+    "id": "c1l3",
+    "title": "No litoral, com uma investigadora",
+    "grammarTitle": "环境议题的搭配与被动",
+    "body": "环境话语有一批固定搭配：reduzir a pegada de carbono、travar a erosão、promover a transição energética、ordenar o território。被动语态让政策文本更客观：Têm sido tomadas medidas；O litoral foi classificado como zona protegida。",
+    "tip": "「采取措施」是 tomar medidas；「实施政策」是 implementar políticas。",
+    "examples": [
+      {
+        "pt": "Têm sido tomadas medidas para travar a erosão costeira.",
+        "zh": "已采取措施遏制海岸侵蚀。"
+      },
+      {
+        "pt": "É fundamental reduzir a pegada de carbono.",
+        "zh": "减少碳足迹至关重要。"
+      },
+      {
+        "pt": "O ordenamento do território deve envolver as comunidades locais.",
+        "zh": "空间规划应让当地社区参与。"
+      }
+    ],
+    "level": "C1"
+  },
+  {
+    "id": "c2l1",
+    "title": "Na livraria, com Pessoa",
+    "grammarTitle": "文学语体：隐喻、同位与保留",
+    "body": "文学评论常用：A obra gira em torno de…；O eu lírico…；A escrita de Pessoa caracteriza-se por…。注意区分 autor（作者）、narrador（叙述者）和 eu lírico（抒情主体）。谈佩索阿时，fingimento 不是「造假」，而是通过异名者创造多重主体。",
+    "tip": "ao invés de = 而不是；caracterizar-se por = 以……为特征；girar em torno de = 围绕……展开。",
+    "examples": [
+      {
+        "pt": "A obra de Pessoa caracteriza-se pela multiplicidade de vozes.",
+        "zh": "佩索阿的作品以多重声音为特征。"
+      },
+      {
+        "pt": "O fingimento poético não equivale a mentira.",
+        "zh": "诗歌中的虚构并不等同于谎言。"
+      },
+      {
+        "pt": "O Livro do Desassossego gira em torno da inquietação interior.",
+        "zh": "《不安之书》围绕内心的不安展开。"
+      }
+    ],
+    "level": "C2"
+  },
+  {
+    "id": "c2l2",
+    "title": "À mesa, com ironia",
+    "grammarTitle": "反讽不靠词汇，靠语气与语境",
+    "body": "葡语反讽常用「过度肯定」或轻描淡写：Claro, porque isso corre sempre tão bem；Está bem, está；Pois, pois。听者要结合语气、表情和上下文判断。写作中可用 aspas 或「dito isto」提示反讽，但不要滥用。",
+    "tip": "重复对方的词、故意夸张、突然停顿，都是葡语反讽的信号。",
+    "examples": [
+      {
+        "pt": "Claro, porque isso corre sempre tão bem.",
+        "zh": "当然啦，毕竟这事总是那么顺利。（反讽）"
+      },
+      {
+        "pt": "Ele disse que estava tudo ótimo, mas num tom irónico.",
+        "zh": "他说一切都很好，但语气是讽刺的。"
+      },
+      {
+        "pt": "Está bem, está. Acredito.",
+        "zh": "行行行，我信。（未必真信）"
+      }
+    ],
+    "level": "C2"
+  },
+  {
+    "id": "c2l3",
+    "title": "No café, à portuguesa",
+    "grammarTitle": "习语是固定块，不要逐字翻译",
+    "body": "习语的意义不能从字面推导，也不能随意换词：ficar com a pulga atrás da orelha、meter os pés pelas mãos、ficar em águas de bacalhau。先整块记住，再观察语域：多数习语偏口语，正式写作中要慎用。",
+    "tip": "习语里的冠词、介词和复数都不能改：a pulga、os pés、as mãos、águas de bacalhau。",
+    "examples": [
+      {
+        "pt": "Fiquei com a pulga atrás da orelha quando ele mudou de assunto.",
+        "zh": "他转移话题时，我起了疑心。"
+      },
+      {
+        "pt": "O projeto ficou em águas de bacalhau.",
+        "zh": "项目不了了之。"
+      },
+      {
+        "pt": "Voltámos de mãos a abanar.",
+        "zh": "我们空手而归。"
+      }
+    ],
+    "level": "C2"
+  },
+  {
+    "id": "b1l4",
+    "level": "B1",
+    "title": "No centro de saúde",
+    "grammarTitle": "描述症状：ter、estar com 与 há quanto tempo",
+    "body": "说症状常用 ter：Tenho dores de cabeça、Tenho febre。也可以说 Estou com dores。问持续时间用 Há quanto tempo…? 回答 Há três dias。给建议可用 Deve + 动词原形（您应该）或 Tem de + 动词原形（您必须）。",
+    "tip": "「嗓子疼」是 dores de garganta；「头疼」是 dores de cabeça。",
+    "examples": [
+      {
+        "pt": "Tenho dores de garganta há dois dias.",
+        "zh": "我喉咙痛两天了。"
+      },
+      {
+        "pt": "Há quanto tempo tem febre?",
+        "zh": "您发烧多久了？"
+      },
+      {
+        "pt": "Deve descansar e beber água.",
+        "zh": "您应该休息、喝水。"
+      }
+    ]
+  },
+  {
+    "id": "b1l5",
+    "level": "B1",
+    "title": "No mercado, a escolher comida",
+    "grammarTitle": "建议与习惯：costumar、dever、em vez de",
+    "body": "说习惯用 costumar + 动词原形：Costumo comer sopa。给建议用 dever：Deve comer mais legumes。表达替代用 em vez de + 名词/动词原形：Em vez de refrigerante, bebo água。注意 comida processada 的阴性一致。",
+    "tip": "份量：uma porção、meio quilo、uma lata；「含糖饮料」是 bebidas açucaradas。",
+    "examples": [
+      {
+        "pt": "Costumo comer fruta ao pequeno-almoço.",
+        "zh": "我早餐通常吃水果。"
+      },
+      {
+        "pt": "Deve reduzir o açúcar.",
+        "zh": "您应该减少糖分。"
+      },
+      {
+        "pt": "Em vez de carne, escolho peixe.",
+        "zh": "我选择鱼而不是肉。"
+      }
+    ]
+  },
+  {
+    "id": "b1l6",
+    "level": "B1",
+    "title": "Em casa, à hora de dormir",
+    "grammarTitle": "建议与持续：sofrer de、há quanto tempo、recomendar que",
+    "body": "sofrer de 后面接病症：Sofro de insónia。问持续多久：Há quanto tempo não dorme bem? 医生建议可用 Recomendo que descanse（虚拟式）或 É importante que mantenha uma rotina。",
+    "tip": "「睡前」是 antes de dormir；「屏幕」是 ecrãs（葡葡）或 telas（巴葡）。",
+    "examples": [
+      {
+        "pt": "Há quanto tempo sofre de insónia?",
+        "zh": "您失眠多久了？"
+      },
+      {
+        "pt": "Recomendo que evite ecrãs antes de dormir.",
+        "zh": "我建议您睡前避免屏幕。"
+      },
+      {
+        "pt": "É importante que mantenha uma rotina regular.",
+        "zh": "保持规律作息很重要。"
+      }
+    ]
+  },
+  {
+    "id": "b2l4",
+    "level": "B2",
+    "title": "Na redação do jornal",
+    "grammarTitle": "转述与保留：segundo、alegadamente、supostamente",
+    "body": "新闻语体常用保留表达：Segundo a fonte…、A notícia terá sido confirmada（据称已确认）、Alegadamente, o documento foi alterado。这些表达让说话者不背书信息。被动语态也常见：A informação foi confirmada por duas fontes。",
+    "tip": "「据称」可用 alegadamente 或 supostamente；正式新闻更常用 alegadamente。",
+    "examples": [
+      {
+        "pt": "Segundo a fonte, a notícia ainda não foi confirmada.",
+        "zh": "据消息来源称，这条新闻尚未得到证实。"
+      },
+      {
+        "pt": "O artigo foi acusado de ser enviesado.",
+        "zh": "这篇文章被指有偏见。"
+      },
+      {
+        "pt": "É fundamental verificar os factos antes de partilhar.",
+        "zh": "分享前核实事实至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "b2l5",
+    "level": "B2",
+    "title": "No telemóvel, nas redes sociais",
+    "grammarTitle": "因果与反身：levar a、fazer com que、espalhar-se",
+    "body": "讨论平台影响常用：levar a + 名词/动词、fazer com que + 虚拟式、contribuir para。反身代词可表达自发过程：A notícia espalhou-se rapidamente。注意 fazer com que 后面用虚拟式：faz com que as pessoas acreditem。",
+    "tip": "「用户」是 utilizadores（葡葡）或 usuários（巴葡）。",
+    "examples": [
+      {
+        "pt": "O algoritmo pode levar à polarização.",
+        "zh": "算法可能导致极化。"
+      },
+      {
+        "pt": "A desinformação espalha-se mais depressa do que a correção.",
+        "zh": "虚假信息比更正传播得更快。"
+      },
+      {
+        "pt": "É preciso proteger a privacidade dos utilizadores.",
+        "zh": "需要保护用户的隐私。"
+      }
+    ]
+  },
+  {
+    "id": "b2l6",
+    "level": "B2",
+    "title": "Numa conferência sobre IA",
+    "grammarTitle": "风险与条件：correr o risco de、desde que、não só… mas também",
+    "body": "讨论技术风险可用 correr o risco de + 动词原形：Corremos o risco de perder empregos。条件用 desde que + 虚拟式：Desde que haja regras claras…。强调双重性用 não só… mas também：não só cria oportunidades, mas também riscos。",
+    "tip": "「监管」可用 regulamentação（规则体系）或 supervisão（监督）。",
+    "examples": [
+      {
+        "pt": "A IA não só cria oportunidades, mas também riscos.",
+        "zh": "人工智能不仅带来机会，也带来风险。"
+      },
+      {
+        "pt": "Corremos o risco de automatizar decisões injustas.",
+        "zh": "我们冒着自动化不公正决策的风险。"
+      },
+      {
+        "pt": "Desde que haja supervisão humana, a ferramenta é útil.",
+        "zh": "只要有人的监督，这个工具就有用。"
+      }
+    ]
+  },
+  {
+    "id": "c1l4",
+    "level": "C1",
+    "title": "No museu, sobre repatriamento",
+    "grammarTitle": "机构语体：被动、名词化与「estar em causa」",
+    "body": "讨论博物馆与归还时，常用被动和名词化：A proveniência das peças deve ser investigada；A restituição foi adiada。estar em causa 表示「受到质疑/涉及」：A legitimidade do acervo está em causa。避免把复杂议题写成简单指控，用 há que、é necessário que 保持距离。",
+    "tip": "「殖民时期」是 período colonial；「来源研究」是 estudo de proveniência。",
+    "examples": [
+      {
+        "pt": "A proveniência das peças deve ser investigada.",
+        "zh": "这些藏品的来源应被调查。"
+      },
+      {
+        "pt": "A restituição exige vontade política e negociação.",
+        "zh": "归还需要政治意愿和谈判。"
+      },
+      {
+        "pt": "A legitimidade de alguns acervos está em causa.",
+        "zh": "一些藏品的合法性受到质疑。"
+      }
+    ]
+  },
+  {
+    "id": "c1l5",
+    "level": "C1",
+    "title": "No cinema, depois da estreia",
+    "grammarTitle": "电影语体：trata-se de、ao longo de、ser baseado em",
+    "body": "影评常用：O filme trata-se de…（注意更自然的是 O filme trata de… 或 Trata-se de um filme sobre…）、ao longo do filme、o argumento gira em torno de。被动：O filme foi realizado por…；O argumento é baseado num romance。",
+    "tip": "「票房」是 bilheteira；「首映」是 estreia；「影评」是 crítica。",
+    "examples": [
+      {
+        "pt": "Trata-se de um filme sobre a memória.",
+        "zh": "这是一部关于记忆的电影。"
+      },
+      {
+        "pt": "O argumento é baseado num romance.",
+        "zh": "剧本改编自一部小说。"
+      },
+      {
+        "pt": "Ao longo do filme, o ritmo torna-se mais lento.",
+        "zh": "整部电影中，节奏变得更慢。"
+      }
+    ]
+  },
+  {
+    "id": "c1l6",
+    "level": "C1",
+    "title": "Junto ao monumento",
+    "grammarTitle": "记忆与争议：ser alvo de、longe de、concessão",
+    "body": "讨论争议可用 ser alvo de críticas（受到批评）、estar longe de consenso（远未达成共识）。让步用 Embora + 虚拟式：Embora seja polémico, o monumento permanece。保持分析语气时，少用「好/坏」，多用「contestado、ambíguo、problemático」。",
+    "tip": "「公共记忆」是 memória pública；「纪念」是 homenagem；「遗忘」是 esquecimento。",
+    "examples": [
+      {
+        "pt": "O monumento foi alvo de críticas.",
+        "zh": "这座纪念碑受到了批评。"
+      },
+      {
+        "pt": "A questão está longe de estar resolvida.",
+        "zh": "这个问题远未解决。"
+      },
+      {
+        "pt": "Embora seja polémico, o memorial permanece.",
+        "zh": "尽管有争议，纪念碑仍然保留。"
+      }
+    ]
+  },
+  {
+    "id": "c2l4",
+    "level": "C2",
+    "title": "No auditório, a analisar um discurso",
+    "grammarTitle": "修辞分析：不是说服，而是让人愿意相信",
+    "body": "分析演讲时可说：O orador recorre a…、A repetição reforça…、O apelo emocional sobrepõe-se aos dados。注意区分 logos（论证）、pathos（情感）和 ethos（人格可信度）。葡语常用 não é por acaso que…（……并非偶然）提示设计感。",
+    "tip": "logos / pathos / ethos 在葡语学术写作中通常保留希腊词形。",
+    "examples": [
+      {
+        "pt": "A repetição cria ritmo e memória.",
+        "zh": "重复创造节奏和记忆。"
+      },
+      {
+        "pt": "O orador recorre a uma anáfora para sublinhar a ideia.",
+        "zh": "演讲者用首语重复来强调这个观点。"
+      },
+      {
+        "pt": "Não é por acaso que o discurso termina com um apelo.",
+        "zh": "演讲以呼吁结束并非偶然。"
+      }
+    ]
+  },
+  {
+    "id": "c2l5",
+    "level": "C2",
+    "title": "Numa entrevista, entre eufemismos",
+    "grammarTitle": "不说破：eufemismo、understatement 与「digamos」",
+    "body": "葡语常用「digamos que…」（姑且说）、「não propriamente…」（并不完全是）、「há quem diga…」（有人说）来制造距离。委婉语把敏感词换掉：ajuste de efetivos（裁员）、interrupção voluntária da gravidez（堕胎）。分析时要指出「谁在回避什么」。",
+    "tip": "「裁员」可直接说 despedimentos；「调整岗位」是 reestruturação。",
+    "examples": [
+      {
+        "pt": "Chamar «ajuste» a um despedimento é um eufemismo.",
+        "zh": "把裁员称为「调整」是委婉语。"
+      },
+      {
+        "pt": "Ele não disse, mas insinuou o problema.",
+        "zh": "他没有明说，但暗示了问题。"
+      },
+      {
+        "pt": "O silêncio também faz parte do discurso.",
+        "zh": "沉默也是话语的一部分。"
+      }
+    ]
+  },
+  {
+    "id": "c2l6",
+    "level": "C2",
+    "title": "Numa oficina de tradução",
+    "grammarTitle": "翻译理论：equivalência、perda、na medida em que",
+    "body": "讨论翻译可用：A tradução procura uma equivalência de sentido；Toda a tradução implica alguma perda；O tradutor negocia registos e contextos。na medida em que 表示「在……程度上/因为」，比 porque 更书面。",
+    "tip": "「直译/意译」是 tradução literal / tradução livre；「可译性」是 traduzibilidade。",
+    "examples": [
+      {
+        "pt": "A tradução procura uma equivalência de sentido.",
+        "zh": "翻译追求意义上的对等。"
+      },
+      {
+        "pt": "Toda a tradução implica alguma perda.",
+        "zh": "一切翻译都意味着某种损失。"
+      },
+      {
+        "pt": "O tradutor negocia registos e contextos.",
+        "zh": "译者要协调语域和语境。"
+      }
+    ]
+  }
+]

@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','2.1.1'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','2.1.2'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -193,6 +193,10 @@ try {
   await evaluate(`(() => { const s=document.querySelector('#listening-speed'); s.value='0.7'; s.dispatchEvent(new Event('input',{bubbles:true})); s.dispatchEvent(new Event('change',{bubbles:true})); })()`);
   await sleep(250);
   console.log('LISTENING_RATE', await evaluate(`document.querySelector('#listening-speed-value')?.textContent`));
+  await click('[data-action="listening-transcript"]');
+  await sleep(300);
+  await shot('08b2-listening-text');
+  console.log('LISTENING_ZH_PARAGRAPHS', await evaluate(`document.querySelectorAll('.listening-bi small').length`));
   await goto('#/media');
   await goto('#/dubbing/m-a1-video');
   await shot('08c-dubbing');
@@ -254,12 +258,31 @@ try {
   await sleep(400);
   await shot('18-lexicon-c2');
   await click('[data-action="filter-words"][data-level="all"]');
+  await click('[data-action="select-language-tab"][data-tab="verbs"]');
+  await sleep(400);
+  await shot('18b-verbs');
+  console.log('VERB_CARDS', await evaluate(`document.querySelectorAll('.verb-card').length`));
+  await click('.verb-head');
+  await sleep(300);
+  await shot('18c-verb-table');
+  console.log('VERB_TABLE_CELLS', await evaluate(`document.querySelectorAll('.verb-table td').length`));
 
   await goto('#/lesson/b1l1');
   await sleep(600);
   await shot('19-b1-lesson');
   await click('[data-action="next-step"]');
   await shot('20-b1-grammar');
+  console.log('GRAMMAR_EN', await evaluate(`Boolean(document.querySelector('.grammar-lead-en'))`));
+  await click('[data-action="next-step"]');
+  await sleep(350);
+  await shot('20a1-grammar-practice');
+  await click('.option');
+  await click('[data-action="check"]');
+  await sleep(300);
+  await click('[data-action="next-step"]');
+  await click('.option');
+  await click('[data-action="check"]');
+  await sleep(300);
   await click('[data-action="next-step"]');
   await sleep(450);
   await shot('20a-b1-immersion');
@@ -285,6 +308,15 @@ try {
   await goto('#/lesson/a1lab01');
   await sleep(600);
   await shot('20e-practice-lab');
+  await click('[data-action="next-step"]');
+  await click('[data-action="next-step"]');
+  await click('.option');
+  await click('[data-action="check"]');
+  await sleep(250);
+  await click('[data-action="next-step"]');
+  await click('.option');
+  await click('[data-action="check"]');
+  await sleep(250);
   await click('[data-action="next-step"]');
   await sleep(450);
   await shot('20f-practice-immersion');

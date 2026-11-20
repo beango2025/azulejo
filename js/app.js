@@ -7,11 +7,13 @@
   const MORE = window.AZ_MORE || { units: [], lexicon: {} };
   const LEVELS = window.AZ_LEVELS || [];
   const LEXICON = window.AZ_LEXICON || {};
+  const LISTENING_ZH = window.AZ_LISTENING_ZH || {};
+  const GRAMMAR_EXTRA = window.AZ_GRAMMAR_EXTRA || {};
   const SCENES = window.AZ_CORE_SCENES || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '2.1.2';
+  const APP_VERSION = '2.2.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -273,6 +275,22 @@
     vocabMap.set(word.id, enriched);
     allVocab.push(enriched);
   }));
+  Object.entries(window.AZ_VOCAB_BANK || {}).forEach(([level, words]) => {
+    (words || []).forEach(word => {
+      if (!word || !word.id || vocabMap.has(word.id)) return;
+      const enriched = {
+        ...word,
+        pron: word.pron || '',
+        note: word.note || '',
+        lessonId: `bank-${word.id}`,
+        lessonTitle: 'Vocabulário essencial',
+        unitId: `bank-${level}`,
+        level
+      };
+      vocabMap.set(word.id, enriched);
+      allVocab.push(enriched);
+    });
+  });
 
   function completedCount() {
     return allLessons.filter(l => state.lessons[l.id]).length;
@@ -557,6 +575,7 @@
     readingLevel: 'A1',
     mediaLevel: 'A1',
     languageTab: 'phrases',
+    openVerb: '',
     phraseGroup: 'all',
     phraseQuery: '',
     wordQuery: '',
@@ -1105,9 +1124,31 @@
   /* Lesson                                                              */
   /* ------------------------------------------------------------------ */
 
+  function coreLessonFor(lesson) {
+    if (!lesson || !lesson.isLab) return lesson;
+    const firstWord = lesson.vocab && lesson.vocab[0] ? lesson.vocab[0].id : null;
+    return coreLessons.find(item => item.vocab.some(word => word.id === firstWord))
+      || coreLessons.find(item => item.title === lesson.title)
+      || lesson;
+  }
+
+  function grammarForLesson(lesson) {
+    return lesson.grammar || (coreLessonFor(lesson) && coreLessonFor(lesson).grammar) || null;
+  }
+
+  function grammarExtraFor(lesson) {
+    const core = coreLessonFor(lesson);
+    return GRAMMAR_EXTRA[core.id] || GRAMMAR_EXTRA[lesson.id] || null;
+  }
+
   function lessonSteps(lesson) {
     const steps = [{ kind: 'vocab', words: lesson.vocab }];
-    if (lesson.grammar) steps.push({ kind: 'grammar', grammar: lesson.grammar });
+    const grammar = grammarForLesson(lesson);
+    if (grammar) steps.push({ kind: 'grammar', grammar });
+    const extra = grammarExtraFor(lesson);
+    if (extra && Array.isArray(extra.exercises)) {
+      extra.exercises.forEach(ex => steps.push({ kind: 'exercise', ex: { ...ex, type: 'choice' }, isGrammar: true }));
+    }
     if (window.AZ_BUILD_IMMERSION) {
       steps.push({
         kind: 'immersion',
@@ -1479,22 +1520,25 @@
   }
 
   function grammarStepHTML(grammar) {
+    const extra = grammarExtraFor(ui.lesson.lesson) || {};
     return `<section class="step step-grammar">
       <div class="step-head">
         <div>
           <span class="eyebrow">UM SEGREDO DA LÍNGUA</span>
           <h1>${esc(grammar.title)}</h1>
+          ${extra.titleEn ? `<p class="grammar-title-en">${esc(extra.titleEn)}</p>` : ''}
         </div>
         <span class="step-count">${pad(ui.lesson.index + 1)}<small>/ ${pad(ui.lesson.steps.length)}</small></span>
       </div>
       <p class="grammar-lead">${esc(grammar.body)}</p>
+      ${extra.bodyEn ? `<p class="grammar-lead-en"><span>EN</span>${esc(extra.bodyEn)}</p>` : ''}
       <div class="example-stack">
         ${grammar.examples.map(ex => `<div class="example-row">
           <button class="audio-btn small" data-audio="${esc(ex.pt)}" aria-label="播放例句">${icon('volume')}</button>
           <div><strong>${esc(ex.pt)}</strong><span>${esc(ex.zh)}</span></div>
         </div>`).join('')}
       </div>
-      <div class="tip-box"><span class="tip-icon">${icon('sparkle')}</span><p>${esc(grammar.tip)}</p></div>
+      <div class="tip-box"><span class="tip-icon">${icon('sparkle')}</span><p>${esc(grammar.tip)}${extra.tipEn ? `<small class="tip-en">${esc(extra.tipEn)}</small>` : ''}</p></div>
     </section>`;
   }
 
@@ -2213,6 +2257,9 @@
       <button class="language-tab ${ui.languageTab === 'words' ? 'is-active' : ''}" data-action="select-language-tab" data-tab="words" role="tab" aria-selected="${ui.languageTab === 'words'}">
         <span class="language-tab-icon">${icon('layers')}</span><span><strong>词汇</strong><small>5 línguas · ${allVocab.length}</small></span>
       </button>
+      <button class="language-tab ${ui.languageTab === 'verbs' ? 'is-active' : ''}" data-action="select-language-tab" data-tab="verbs" role="tab" aria-selected="${ui.languageTab === 'verbs'}">
+        <span class="language-tab-icon">${icon('review')}</span><span><strong>动词</strong><small>Conjugações · ${(window.AZ_VERBS ? window.AZ_VERBS.verbs.length : 0)}</small></span>
+      </button>
     </div>`;
   }
 
@@ -2283,9 +2330,41 @@
     document.title = 'Palavras · Azulejo';
   }
 
+  function renderVerbsPage() {
+    const data = window.AZ_VERBS;
+    if (!data || !Array.isArray(data.verbs)) {
+      $('#view').innerHTML = `<div class="page"><div class="empty-phrases"><h3>Sem verbos.</h3></div></div>`;
+      return;
+    }
+    const verbs = data.verbs;
+    $('#view').innerHTML = `
+      <div class="page phrases-page verbs-page">
+        ${pageHead('VERBOS', 'Um verbo, muitos tempos.', '每个动词都有现在时、过去时、将来时和虚拟式的变位表。点开一个动词，横向滑动查看六个人称。', `<div class="head-badge alt">${icon('review')}<span><strong>${verbs.length}</strong><small>verbos</small></span></div>`)}
+        ${languageTabsHTML()}
+        <div class="verb-grid">${verbs.map(verb => {
+          const open = ui.openVerb === verb.infinitive;
+          return `<article class="verb-card ${open ? 'is-open' : ''}">
+            <button class="verb-head" data-action="toggle-verb" data-verb="${esc(verb.infinitive)}" aria-expanded="${open}">
+              <span><b>${esc(verb.infinitive)}</b><small>${esc(verb.zh)} · ${esc(verb.en)}</small></span>
+              <em>${verb.infinitive.endsWith('ar') ? '-ar' : verb.infinitive.endsWith('er') ? '-er' : '-ir'}</em>
+              ${icon(open ? 'x' : 'arrow-right')}
+            </button>
+            ${open ? `<div class="verb-table-wrap"><table class="verb-table"><thead><tr><th></th>${verb.table.map(t => `<th>${esc(t.label)}</th>`).join('')}</tr></thead><tbody>
+              ${data.people.map((person, i) => `<tr><th>${esc(person)}</th>${verb.table.map(t => `<td>${esc(t.forms[i] || '—')}</td>`).join('')}</tr>`).join('')}
+            </tbody></table></div>` : ''}
+          </article>`;
+        }).join('')}</div>
+      </div>`;
+    document.title = 'Verbos · Azulejo';
+  }
+
   function renderPhrasesPage() {
     if (ui.languageTab === 'words') {
       renderLexiconPage();
+      return;
+    }
+    if (ui.languageTab === 'verbs') {
+      renderVerbsPage();
       return;
     }
     const shortcut = /Mac|iPhone|iPad/.test(navigator.platform || '') ? '⌘ K' : 'Ctrl K';
@@ -2507,13 +2586,16 @@
       const exam = window.AZ_READINGS && window.AZ_READINGS[lessonId];
       const text = exam ? exam.text : '';
       const words = text.trim() ? text.trim().split(/\s+/).filter(Boolean).length : 0;
+      const translation = LISTENING_ZH[`${levelId}.${index + 1}`] || null;
       return {
         id: `${levelId}.${index + 1}`,
         level: levelId,
         lessonId,
         title: lesson ? lesson.title : lessonId,
+        titleZh: translation ? translation.titleZh : (lesson ? lesson.zh : ''),
         zh: lesson ? lesson.zh : '',
         text,
+        paragraphsZh: translation ? translation.paragraphsZh : [],
         questions: exam ? exam.questions : [],
         audio: (text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || []).map(part => part.trim()).filter(Boolean),
         words,
@@ -2797,7 +2879,8 @@
               <div class="listening-hero-copy">
                 <span class="eyebrow light">${esc(item.id)} · ${esc(item.level)}</span>
                 <h1>${esc(item.title)}</h1>
-                <p>${esc(item.zh)}</p>
+                <p>${esc(item.titleZh || item.zh)}</p>
+                <small class="listening-photo-credit">Foto: ${esc(readingPhoto(item.title).credit)} · Wikimedia Commons</small>
               </div>
             </div>
             <div class="listening-toolbar">
@@ -2810,8 +2893,8 @@
               <span class="listening-meta">${item.words} palavras · ${item.minutes} min</span>
             </div>
             ${listeningPlay.transcript
-              ? `<div class="listening-text">${item.text.split(/\n+/).filter(Boolean).map(part => `<p>${esc(part)}</p>`).join('')}</div>`
-              : `<div class="listening-locked"><span>${icon('volume')}</span><p>Ouve primeiro. Abre o texto só quando precisares.</p></div>`}
+              ? `<div class="listening-text">${item.text.split(/\n+/).filter(Boolean).map((part, index) => `<div class="listening-bi"><p>${esc(part)}</p>${item.paragraphsZh[index] ? `<small>${esc(item.paragraphsZh[index])}</small>` : ''}</div>`).join('')}</div>`
+              : `<div class="listening-locked"><span>${icon('volume')}</span><p>Ouve primeiro. Abre o texto e a tradução só quando precisares.</p></div>`}
             <section class="listening-questions">
               <div class="section-head compact"><div><span class="eyebrow">COMPREENSÃO</span><h2>O que ficou?</h2></div><span class="listening-count">${Object.keys(listeningPlay.answers).length} / ${questions.length}</span></div>
               ${questions.map((question, index) => listeningQuestionHTML(question, index)).join('')}
@@ -4105,8 +4188,13 @@
         break;
       case 'select-language-tab':
         ui.languageTab = el.dataset.tab;
+        ui.openVerb = '';
         renderPhrasesPage();
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        break;
+      case 'toggle-verb':
+        ui.openVerb = ui.openVerb === el.dataset.verb ? '' : el.dataset.verb;
+        renderVerbsPage();
         break;
       case 'filter-words':
         ui.wordLevel = el.dataset.level;

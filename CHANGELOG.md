@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.2.0 — 2026-11-20
+
+- Added the original Portuguese text plus a full Chinese translation to all 60 listening tracks.
+- Expanded the five-language vocabulary bank from 210 to 810 words (600 level-specific additions: 100 per level).
+- Added a `Verbos` tab with conjugation tables for 24 core verbs across 7 tenses.
+- Added English grammar explanations and Chinese/English tips to all 42 core grammar points; labs now reuse the core grammar.
+- Added 2 grammar practice questions to every lesson (core and practice), with answers and Chinese explanations.
+- Bumped the service worker cache to `azulejo-v2.2.0`.
+
 ## 2.1.2 — 2026-11-20
 
 - Replaced the Porto/Coimbra photos with Lisbon-only subjects: Bertrand Chiado, Parque das Nações, Assembleia da República, Torre de Belém and Praça do Comércio.
