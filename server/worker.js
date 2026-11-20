@@ -138,12 +138,70 @@ async function handleStripe(request, env) {
   }
 }
 
+function b64urlToBytes(value) {
+  const pad = value.length % 4 ? '='.repeat(4 - (value.length % 4)) : '';
+  const raw = atob(value.replace(/-/g, '+').replace(/_/g, '/') + pad);
+  const bytes = new Uint8Array(raw.length);
+  for (let i = 0; i < raw.length; i += 1) bytes[i] = raw.charCodeAt(i);
+  return bytes;
+}
+
+async function verifyLicense(token, publicJwk) {
+  const [body, signature] = String(token || '').split('.');
+  if (!body || !signature || !publicJwk) return null;
+  let payload;
+  try { payload = JSON.parse(new TextDecoder().decode(b64urlToBytes(body))); } catch { return null; }
+  if (!payload.sub || Number(payload.exp) < Date.now()) return null;
+  try {
+    const key = await crypto.subtle.importKey('jwk', publicJwk, { name: 'ECDSA', namedCurve: 'P-256' }, false, ['verify']);
+    const ok = await crypto.subtle.verify(
+      { name: 'ECDSA', hash: 'SHA-256' },
+      key,
+      b64urlToBytes(signature),
+      enc.encode(body)
+    );
+    return ok ? payload : null;
+  } catch {
+    return null;
+  }
+}
+
+const CORS = {
+  'access-control-allow-origin': '*',
+  'access-control-allow-methods': 'GET, OPTIONS',
+  'access-control-allow-headers': 'authorization, content-type'
+};
+
+function corsJson(body, status = 200) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { 'content-type': 'application/json; charset=utf-8', ...CORS }
+  });
+}
+
+async function handleExamBank(request, env) {
+  const auth = request.headers.get('authorization') || '';
+  const token = auth.startsWith('Bearer ') ? auth.slice(7).trim() : '';
+  if (!token) return corsJson({ error: 'missing licence' }, 401);
+  let publicJwk;
+  try { publicJwk = JSON.parse(env.LICENSE_PUBLIC_JWK || 'null'); } catch { publicJwk = null; }
+  const payload = await verifyLicense(token, publicJwk);
+  if (!payload) return corsJson({ error: 'invalid or expired licence' }, 403);
+  if (!env.EXAM_BANK) return corsJson({ error: 'exam bank not configured' }, 503);
+  const raw = await env.EXAM_BANK.get('bank');
+  if (!raw) return corsJson({ error: 'exam bank empty' }, 503);
+  return new Response(raw, {
+    headers: { 'content-type': 'application/json; charset=utf-8', ...CORS }
+  });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (request.method === 'OPTIONS') return new Response(null, { status: 204 });
-    if (request.method === 'GET' && url.pathname === '/health') return json({ ok: true, service: 'azulejo-license' });
+    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
+    if (request.method === 'GET' && url.pathname === '/health') return corsJson({ ok: true, service: 'azulejo-license' });
+    if (request.method === 'GET' && url.pathname === '/exam-bank') return handleExamBank(request, env);
     if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripe(request, env);
-    return json({ error: 'not found' }, 404);
+    return corsJson({ error: 'not found' }, 404);
   }
 };

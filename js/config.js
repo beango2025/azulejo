@@ -5,5 +5,6 @@ window.AZ_CONFIG = {
   supportEmail: '',
   analyticsEndpoint: '',
   supabaseUrl: '',
-  supabaseAnonKey: ''
+  supabaseAnonKey: '',
+  examApiUrl: ''
 };

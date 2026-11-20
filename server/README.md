@@ -70,6 +70,47 @@ stripe trigger checkout.session.completed
 
 `checkout.session.completed` test events may not include a customer email; use a real test-mode Checkout Session with an email.
 
+## Private exam bank (optional)
+
+The public app still ships a local fallback bank. To make the full 60-exam bank private:
+
+1. Create a KV namespace:
+
+```bash
+npx wrangler kv namespace create EXAM_BANK
+```
+
+2. Put the returned id into `wrangler.toml` under `[[kv_namespaces]]`.
+3. Export the current bank locally:
+
+```bash
+node tools/export-exam-bank.mjs
+```
+
+4. Upload it:
+
+```bash
+npx wrangler kv key put bank --binding=EXAM_BANK --path=server/exam-bank.json
+```
+
+5. Store the public licence key:
+
+```bash
+npx wrangler secret put LICENSE_PUBLIC_JWK
+```
+
+Paste the contents of `.secrets/license-public.jwk.json`.
+
+6. Set `examApiUrl` in `js/config.js` to:
+
+```text
+https://<worker-subdomain>.workers.dev/exam-bank
+```
+
+The endpoint returns the bank only for a valid, unexpired licence. Once verified in production, remove the full `js/exam-bank.js` from the public deployment and keep only a 6-exam preview. The full bank is gitignored at `server/exam-bank.json`.
+
+**Important:** deleting a file from the current commit does not remove it from Git history. For real protection, make the repository private or rewrite history before publishing.
+
 ## Notes
 
 - Licences are valid for 365 days by default; override with Stripe metadata `days`.

@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.8.0';
+  const APP_VERSION = '3.9.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -2828,6 +2828,24 @@
     document.title = 'Azulejo Pro · A2 CIPLE';
   }
 
+  async function ensureRemoteExamBank() {
+    const url = window.AZ_CONFIG && window.AZ_CONFIG.examApiUrl;
+    const license = window.AZ_LICENSE && window.AZ_LICENSE.current();
+    if (!url || !license || !license.token || window.__remoteExamBankLoaded) return false;
+    try {
+      const response = await fetch(url, { headers: { authorization: `Bearer ${license.token}` } });
+      if (!response.ok) throw new Error(`exam bank ${response.status}`);
+      const bank = await response.json();
+      if (!Array.isArray(bank) || !bank.length) throw new Error('empty exam bank');
+      window.AZ_EXAMS = bank;
+      window.__remoteExamBankLoaded = true;
+      return true;
+    } catch (error) {
+      console.warn('Remote exam bank unavailable; using local fallback.', error.message);
+      return false;
+    }
+  }
+
   async function activateLicenseFromForm() {
     const input = $('#license-input');
     const message = $('#license-msg');
@@ -2840,6 +2858,7 @@
     const result = await window.AZ_LICENSE.activate(token);
     if (result.ok) {
       trackEvent('license_activate', { plan: result.payload.plan });
+      await ensureRemoteExamBank();
       showToast('Azulejo Pro ativado.', 'success');
       renderChrome('pro');
       renderProPage(false);
@@ -2959,7 +2978,8 @@
     return out;
   }
 
-  function startExam(id) {
+  async function startExam(id) {
+    await ensureRemoteExamBank();
     const set = (window.AZ_EXAMS || []).find(item => item.id === id);
     if (!set) { location.hash = '#/pro'; return; }
     if (!isProUser()) {

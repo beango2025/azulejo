@@ -149,7 +149,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.8.0**。
+当前版本：**v3.9.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -231,13 +231,14 @@ window.AZ_CONFIG = {
   checkoutUrl: 'https://buy.stripe.com/...', // 或 Lemon Squeezy / Gumroad
   contactUrl: 'https://your-wechat-or-booking-link',
   supportEmail: 'you@example.com',
-  analyticsEndpoint: '' // 可选：接收 sendBeacon 事件
+  analyticsEndpoint: '', // 可选：接收 sendBeacon 事件
+  examApiUrl: '' // 可选：私有题库 Worker /exam-bank
 };
 ```
 
 推荐流程：
 
-1. 在 Stripe / Lemon Squeezy / Gumroad 创建 **A2 CIPLE Mock Pack** 商品。
+1. 在 Stripe / Lemon Squeezy / Gumroad 创建 **A1–C2 Mock Pack（60 套）** 商品。
 2. 把支付链接填入 `checkoutUrl`，把客服/微信/预约链接填入 `contactUrl`。
 3. 用户付款后，用离线工具生成许可证：
 
@@ -309,6 +310,33 @@ supabaseAnonKey: 'eyJ...'
 - 许可证仅供个人使用，不可转售；数字内容退款按销售方说明。
 
 注意：仓库是公开的，因此 `content/` 下的题库、词表和源码可被访问。若要把 60 套模考作为核心付费资产，后续应把私密题库移到私有后端或私有仓库，只把可公开的预览内容放进 Pages。
+
+### 私有题库 API（可选）
+
+`server/worker.js` 已包含 `GET /exam-bank`：
+
+- 校验 `Authorization: Bearer <许可证>`
+- 从 Cloudflare KV `EXAM_BANK` 返回完整题库
+- 只接受未过期的签名许可证
+
+启用步骤见 [server/README.md](server/README.md)。简版：
+
+```bash
+node tools/export-exam-bank.mjs
+npx wrangler kv namespace create EXAM_BANK
+npx wrangler kv key put bank --binding=EXAM_BANK --path=server/exam-bank.json
+npx wrangler secret put LICENSE_PUBLIC_JWK
+```
+
+然后在 `js/config.js` 设置：
+
+```js
+examApiUrl: 'https://<worker>.workers.dev/exam-bank'
+```
+
+启用后，App 会在激活许可证时拉取私有题库；如果接口失败，仍回退到本地题库。
+
+**重要**：Git 历史仍保留已提交的 `js/exam-bank.js`。要让题库真正不可下载，需要把仓库设为私有，或在发布前重写 Git 历史；仅删除当前文件不够。
 
 ![授权、隐私与条款](screenshots/legal.png)
 

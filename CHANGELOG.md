@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.9.0 — 2026-11-20
+
+- Added an optional **private exam-bank API** (`GET /exam-bank` on the Cloudflare Worker), protected by the signed licence and served from KV.
+- Added `tools/export-exam-bank.mjs`, `examApiUrl` config and client-side remote-bank loading with local fallback.
+- Documented the Git-history caveat: the current public repo still contains the local bank, so real protection requires a private repo or history rewrite.
+- Bumped the service worker cache to `azulejo-v3.9.0`.
+
 ## 3.8.0 — 2026-11-20
 
 - Added a **Créditos, licenças e privacidade** page covering photo licences, neural audio, CAPLE trademark disclaimer, content ownership, data practices and terms.

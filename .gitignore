@@ -19,5 +19,6 @@ node_modules/
 !screenshots/
 .secrets/
 server/.dev.vars
+server/exam-bank.json
 .wrangler/
 __pycache__/
