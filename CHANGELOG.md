@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.19.0 — 2026-11-20
+
+- Moved **Escrita** under **模考 Pro** in the sidebar and added a writing section directly below the mock-exam cards.
+- Added a “Voltar ao Pro” breadcrumb on the writing page.
+- Bumped the service worker cache to `azulejo-v3.19.0`.
+
 ## 3.18.0 — 2026-11-20
 
 - Moved **主题词 / Vocabulário visual** into the **语料 → 词汇** tabs instead of a separate sidebar entry.

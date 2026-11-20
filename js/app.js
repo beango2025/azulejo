@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.18.0';
+  const APP_VERSION = '3.19.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -610,13 +610,13 @@
     { id: 'learn', label: '学习', pt: 'Aprender', href: '#/learn', icon: 'book' },
     { id: 'reading', label: '阅读', pt: 'Leitura & escuta', href: '#/reading', icon: 'layers' },
     { id: 'grammar', label: '语法', pt: 'Gramática', href: '#/grammar', icon: 'book' },
-    { id: 'writing', label: '写作', pt: 'Escrita', href: '#/writing', icon: 'edit' },
     { id: 'exams-guide', label: '考试', pt: 'Exames', href: '#/exams-guide', icon: 'target' },
     { id: 'media', label: '影音', pt: 'Vídeo & áudio', href: '#/media', icon: 'video' },
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
     { id: 'culture', label: '文化', pt: 'Cultura', href: '#/culture', icon: 'sun' },
     { id: 'pro', label: '模考 Pro', pt: 'Pro · A1–C2', href: '#/pro', icon: 'target' },
+    { id: 'writing', label: '写作', pt: 'Escrita', href: '#/writing', icon: 'edit' },
     { id: 'progress', label: '进度', pt: 'Progresso', href: '#/progress', icon: 'chart' }
   ];
 
@@ -3382,6 +3382,7 @@
     const count = writingWordCount(text);
     $('#view').innerHTML = `
       <div class="page writing-page">
+        <a class="back-link" href="#/pro">${icon('arrow-left')} Voltar ao Pro</a>
         ${pageHead('ESCRITA', 'Escreve. Revê. Melhora.', 'A1–C2 每个级别 50 道原创写作题，随机抽取；可粘贴或上传文本，提交后得到分项反馈。题目是仿真练习，不是官方真题。', `<div class="head-badge alt">${icon('edit')}<span><strong>50</strong><small>por nível</small></span></div>`)}
         <div class="filter-chips writing-levels">${LEVELS.map(level => `<button class="filter-chip ${ui.writingLevel === level.id ? 'is-active' : ''}" data-action="select-writing-level" data-level="${level.id}">${level.id}<span>50</span></button>`).join('')}</div>
         <article class="writing-prompt">
@@ -3521,6 +3522,21 @@
             ${levels.map(level => `<button class="filter-chip ${level === selectedLevel ? 'is-active' : ''}" data-action="select-pro-level" data-level="${level}">${level}<span>10</span></button>`).join('')}
           </div>
           <div class="exam-card-grid">${examCardsHTML(!licensed, selectedLevel)}</div>
+        </section>
+
+        <section class="pro-writing-section">
+          <div class="pro-writing-copy">
+            <span class="eyebrow">ESCRITA · ${selectedLevel}</span>
+            <h2>模考之后，练写作。</h2>
+            <p>每个级别 50 道写作题，随机抽题；提交后看任务完成度、连贯、词汇和语法四项反馈。写作入口和模拟考试放在一起，不用再找。</p>
+            <a class="btn btn-primary" href="#/writing">Abrir escrita ${selectedLevel} ${icon('arrow-right')}</a>
+          </div>
+          <div class="pro-writing-card">
+            <span class="panel-chip">50 PROMPTS</span>
+            <h3>${esc((WRITING_BANK[selectedLevel] && WRITING_BANK[selectedLevel][0] ? WRITING_BANK[selectedLevel][0].title : 'Escreve sobre o teu dia.'))}</h3>
+            <p>${esc((WRITING_BANK[selectedLevel] && WRITING_BANK[selectedLevel][0] ? WRITING_BANK[selectedLevel][0].titleZh : '写作练习'))}</p>
+            <small>写作题库 · 可粘贴或上传 .txt</small>
+          </div>
         </section>
 
         <section class="pro-license-section">

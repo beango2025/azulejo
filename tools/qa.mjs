@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.17.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.18.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -375,6 +375,7 @@ try {
   await shot('30-pro');
   console.log('PRO_HEADING', await evaluate(`document.querySelector('.pro-hero h2')?.textContent.trim()`));
   console.log('PRO_TOTAL', await evaluate(`window.AZ_EXAMS?.length`));
+  console.log('PRO_WRITING', await evaluate(`document.querySelectorAll('.pro-writing-section').length`));
   console.log('PRO_LEVEL_TABS', await evaluate(`document.querySelectorAll('.pro-level-tabs .filter-chip').length`));
   console.log('PRO_EXAMS_SHOWN', await evaluate(`document.querySelectorAll('.exam-card').length`));
   if (process.env.AZ_TEST_LICENSE) {
