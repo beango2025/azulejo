@@ -1,5 +1,5 @@
 /* Azulejo service worker — offline-first after the first visit. */
-const CACHE = 'azulejo-v3.10.0';
+const CACHE = 'azulejo-v3.11.0';
 const CORE = [
   './',
   './index.html',

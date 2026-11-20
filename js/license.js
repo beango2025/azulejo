@@ -46,27 +46,66 @@
     }
   }
 
-  function current() {
+  function records() {
     try {
       const raw = localStorage.getItem(STORAGE);
-      if (!raw) return null;
+      if (!raw) return [];
       const parsed = JSON.parse(raw);
-      return parsed && parsed.token && parsed.payload ? parsed : null;
+      const list = Array.isArray(parsed) ? parsed : [parsed];
+      return list.filter(record => record && record.token && record.payload);
     } catch {
-      return null;
+      return [];
     }
   }
 
+  function active() {
+    return records().filter(record => Number(record.payload.exp) > Date.now());
+  }
+
+  function current() {
+    return active().slice(-1)[0] || null;
+  }
+
+  function payloadLevels(payload) {
+    if (!payload) return [];
+    if (Array.isArray(payload.levels)) return payload.levels;
+    if (payload.level) return [payload.level];
+    if (payload.plan && payload.plan !== 'pro') return [payload.plan];
+    return [];
+  }
+
+  function hasLevel(level) {
+    return active().some(record => {
+      const payload = record.payload;
+      return payload.plan === 'pro' || payloadLevels(payload).includes(level);
+    });
+  }
+
   function isPro() {
-    const active = current();
-    return Boolean(active && Number(active.payload.exp) > Date.now());
+    return active().length > 0;
+  }
+
+  function activeLevels() {
+    const levels = new Set();
+    for (const record of active()) {
+      if (record.payload.plan === 'pro') return ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+      for (const level of payloadLevels(record.payload)) levels.add(level);
+    }
+    return [...levels];
+  }
+
+  function recordKey(payload) {
+    return payload.plan === 'pro' ? 'pro' : payloadLevels(payload).sort().join(',') || 'unknown';
   }
 
   async function activate(token) {
     const result = await verify(token);
     if (!result.ok) return result;
     const record = { token: String(token).trim(), payload: result.payload, activatedAt: new Date().toISOString() };
-    localStorage.setItem(STORAGE, JSON.stringify(record));
+    const key = recordKey(result.payload);
+    const next = records().filter(item => recordKey(item.payload) !== key);
+    next.push(record);
+    localStorage.setItem(STORAGE, JSON.stringify(next));
     return { ok: true, payload: result.payload };
   }
 
@@ -74,5 +113,17 @@
     localStorage.removeItem(STORAGE);
   }
 
-  window.AZ_LICENSE = { verify, activate, current, isPro, clear, publicKey: PUBLIC_JWK };
+  window.AZ_LICENSE = {
+    verify,
+    activate,
+    current,
+    records,
+    active,
+    isPro,
+    hasLevel,
+    activeLevels,
+    payloadLevels,
+    clear,
+    publicKey: PUBLIC_JWK
+  };
 })();

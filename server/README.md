@@ -114,6 +114,7 @@ The endpoint returns the bank only for a valid, unexpired licence. Once verified
 ## Notes
 
 - Licences are valid for 365 days by default; override with Stripe metadata `days`.
-- `plan` metadata defaults to `pro`.
+- Set Stripe metadata `level` to `A1`, `A2`, `B1`, `B2`, `C1` or `C2` for a per-level licence. Separate `levels` may be comma-separated.
+- A legacy `plan=pro` licence unlocks all levels; do not use it as a public product.
 - This worker does not store orders; add D1/KV if you need idempotency, refunds or resends.
 - `RESEND_API_KEY`/`FROM_EMAIL` are optional only for local debugging; production delivery needs both.

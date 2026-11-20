@@ -56,10 +56,11 @@ async function verifyStripeSignature(payload, header, secret) {
   return mismatch === 0;
 }
 
-export async function signLicense({ email, plan = 'pro', days = 365, order = '', privateKey }) {
+export async function signLicense({ email, plan = 'pro', levels = [], days = 365, order = '', privateKey }) {
   if (!email || !privateKey) throw new Error('email and privateKey are required');
   const now = Date.now();
-  const payload = { sub: email, plan, iat: now, exp: now + Math.round(days * 86400000) };
+  const payload = { sub: email, plan: levels.length ? 'level' : plan, iat: now, exp: now + Math.round(days * 86400000) };
+  if (levels.length) payload.levels = levels;
   if (order) payload.order = order;
   const body = b64url(enc.encode(JSON.stringify(payload)));
   const key = await crypto.subtle.importKey(
@@ -123,9 +124,13 @@ async function handleStripe(request, env) {
   const email = session.customer_details?.email || session.customer_email;
   if (!email) return json({ error: 'missing customer email' }, 422);
   try {
+    const requestedLevel = session.metadata?.level || '';
+    const requestedLevels = String(session.metadata?.levels || requestedLevel || '')
+      .split(',').map(level => level.trim().toUpperCase()).filter(Boolean);
     const token = await signLicense({
       email,
-      plan: session.metadata?.plan || 'pro',
+      plan: session.metadata?.plan || (requestedLevels.length ? 'level' : 'pro'),
+      levels: requestedLevels,
       days: Number(session.metadata?.days || 365),
       order: session.id,
       privateKey: env.LICENSE_PRIVATE_KEY
@@ -190,9 +195,17 @@ async function handleExamBank(request, env) {
   if (!env.EXAM_BANK) return corsJson({ error: 'exam bank not configured' }, 503);
   const raw = await env.EXAM_BANK.get('bank');
   if (!raw) return corsJson({ error: 'exam bank empty' }, 503);
-  return new Response(raw, {
-    headers: { 'content-type': 'application/json; charset=utf-8', ...CORS }
-  });
+  const levels = payload.plan === 'pro'
+    ? null
+    : (Array.isArray(payload.levels) ? payload.levels : payload.level ? [payload.level] : []);
+  if (levels && !levels.length) return corsJson({ error: 'licence has no level' }, 403);
+  if (!levels) {
+    return new Response(raw, {
+      headers: { 'content-type': 'application/json; charset=utf-8', ...CORS }
+    });
+  }
+  const bank = JSON.parse(raw).filter(exam => levels.includes(exam.level));
+  return corsJson(bank);
 }
 
 export default {

@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.9.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.10.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -309,6 +309,7 @@ try {
   console.log('IMMERSION_PHOTO_SRC', await evaluate(`document.querySelector('.immersion-photo')?.getAttribute('src')`));
   console.log('IMMERSION_WORDS', await evaluate(`document.querySelector('.immersion-meta span:nth-child(2)')?.textContent`));
   console.log('IMMERSION_QUESTIONS', await evaluate(`document.querySelectorAll('.immersion-question').length`));
+  console.log('IMMERSION_GRAMMAR', await evaluate(`document.querySelectorAll('.immersion-grammar').length`));
   console.log('GLOSSARY_ROWS', await evaluate(`document.querySelectorAll('.glossary-row').length`));
   console.log('GLOSSARY_GROUPS', await evaluate(`[...document.querySelectorAll('.glossary-group h3')].map(el => el.textContent.trim())`));
   await click('.immersion-option');

@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.11.0 — 2026-11-20
+
+- Changed Azulejo Pro from one all-level price to **per-level licences**: A1/A2/B1/B2/C1/C2 each unlock only their 10 exams.
+- Added per-level `levelPrices` and `checkoutUrls`; updated the Worker and `make-license` to issue/verify level-scoped licences.
+- Added a **Gramática no texto** block inside every reading, linked to the standalone grammar chapter and its exercises.
+- Synced the grammar level filter with the selected course level; added an in-reading grammar note with PT/ZH example.
+- Bumped the service worker cache to `azulejo-v3.11.0`.
+
 ## 3.10.0 — 2026-11-20
 
 - Added a standalone **Gramática** library: 42 chapters, A1–C2 filters, search, PT examples with Chinese, English explanation, practice questions and chapter navigation.

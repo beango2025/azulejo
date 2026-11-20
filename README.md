@@ -59,9 +59,9 @@ PT-PT 外部资源入口：
 - **听力原文 + 中文翻译**：60 篇听力都带完整葡语原文和逐段中文翻译。
 - **6,088 个五语词汇**：A1–C2 六级分级（A1 1,100 / A2 886 / B1 930 / B2 1,015 / C1 1,034 / C2 1,123 条），PT / 中 / EN / FR / ES 五语对照。词汇表按**名词、动词、形容词、副词、短语**分组，每条带三位连续序号和分组词数。
 - **动词变位表**：120 个核心动词 × 7 个时态 × 6 个人称；`语料 → 动词` 中展开查看。
-- **独立语法库 + 双语解释 + 每课练习**：42 个语法章节，A1–C2 筛选、搜索、葡语例句配中文、英文解释、章节练习和上下章导航；180 节课（含练习课）每课额外 2 道语法题。
+- **独立语法库 + 课文内讲解 + 每课练习**：42 个语法章节，A1–C2 筛选、搜索、葡语例句配中文、英文解释、章节练习和上下章导航；每篇阅读后也有「Gramática no texto」小节，直接链接到对应语法章节；180 节课（含练习课）每课额外 2 道语法题。
 - **每篇课文后的单词表**：从该课文提取最多 12 个词，按名词 / 动词 / 形容词 / 副词 / 短语分类，配中文、English 和发音；全部 6,088 词都有词性和发音。
-- **Azulejo Pro / A1–C2 模考**：60 套完整模拟考试，每个级别 10 套，覆盖阅读、听力、写作、口语；计时、交卷、分项成绩和错题解释。离线签名许可证解锁，不要求账号。
+- **Azulejo Pro / 分级模考**：60 套完整模拟考试，A1–C2 每级 10 套。**按级别单独购买**：买 A2 只解锁 A2 的 10 套，不捆绑其他级别。每套覆盖阅读、听力、写作、口语，带计时、成绩报告和错题解释。
 - **销售与运营配置**：`js/config.js` 填支付链接/联系方式；`tools/make-license.mjs` 生成签名许可证；内置本地事件埋点，可接分析端点。
 - **可选账号 + 云同步**：Supabase 邮箱登录；学习后自动上传，换设备手动拉取；不登录仍使用本地模式。
 - **A2 原生 PT-PT 音频**：10 篇 A2 听力改为 Microsoft `pt-PT-RaquelNeural` 神经语音 MP3；听力页支持原生音频变速，A2 模考听力使用原生播放器。注意：这是神经语音，不是真人录音棚录音。
@@ -154,7 +154,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.10.0**。
+当前版本：**v3.11.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。
@@ -237,21 +237,32 @@ window.AZ_CONFIG = {
   contactUrl: 'https://your-wechat-or-booking-link',
   supportEmail: 'you@example.com',
   analyticsEndpoint: '', // 可选：接收 sendBeacon 事件
-  examApiUrl: '' // 可选：私有题库 Worker /exam-bank
+  examApiUrl: '', // 可选：私有题库 Worker /exam-bank
+  levelPrices: {
+    A1: { eur: '€9,99', cny: '¥69' },
+    A2: { eur: '€14,99', cny: '¥99' },
+    B1: { eur: '€19,99', cny: '¥139' },
+    B2: { eur: '€24,99', cny: '¥179' },
+    C1: { eur: '€29,99', cny: '¥219' },
+    C2: { eur: '€34,99', cny: '¥259' }
+  },
+  checkoutUrls: { A1: '', A2: '', B1: '', B2: '', C1: '', C2: '' }
 };
 ```
 
 推荐流程：
 
-1. 在 Stripe / Lemon Squeezy / Gumroad 创建 **A1–C2 Mock Pack（60 套）** 商品。
-2. 把支付链接填入 `checkoutUrl`，把客服/微信/预约链接填入 `contactUrl`。
-3. 用户付款后，用离线工具生成许可证：
+1. 在 Stripe / Lemon Squeezy / Gumroad 分别创建 **A1 / A2 / B1 / B2 / C1 / C2** 六个商品，每个 10 套。
+2. 把每个支付链接填入 `checkoutUrls[level]`，把客服/微信/预约链接填入 `contactUrl`。
+3. 用户付款后，按级别生成许可证：
 
 ```bash
-node tools/make-license.mjs --email aluno@example.com --days 365 --plan pro
+node tools/make-license.mjs --email aluno@example.com --level A2 --days 365
 ```
 
-4. 把输出的许可证发给用户；用户在 **A2 模考 → Licença** 粘贴激活。
+4. 把输出的 A2 许可证发给用户；用户选择 **A2 → Licença** 粘贴激活。
+
+每个许可证只解锁对应级别的 10 套。`--plan pro` 仅用于内部测试或历史全量许可，不作为对外商品。
 
 `.secrets/license-private.pem` 用于签发，已在 `.gitignore` 中排除，不要上传或发给用户。
 
@@ -261,9 +272,9 @@ node tools/make-license.mjs --email aluno@example.com --days 365 --plan pro
 
 流程：
 
-1. Stripe Payment Link 收款，成功页设为 `https://beango2025.github.io/azulejo/#/pro/success`
+1. 每个级别的 Stripe Payment Link 设置 metadata：`level=A1` / `A2` / …，成功页设为 `https://beango2025.github.io/azulejo/#/pro/success`
 2. Stripe webhook 指向 Worker 的 `/stripe-webhook`
-3. Worker 验证签名，用私钥签发许可证
+3. Worker 验证签名，用私钥签发该级别许可证
 4. Resend 把许可证邮件发给用户
 
 部署：

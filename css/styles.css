@@ -4228,3 +4228,13 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .grammar-practice-item summary { font-size: 12px; }
 .legal-block p { font-size: 13.5px; }
 .blog-note, .field-hint, .settings-version { font-size: 11px; }
+.immersion-grammar { margin-top: 18px; padding: 14px; border: 1px solid rgba(30,92,115,.22); border-radius: 10px; background: var(--blue-soft); }
+.immersion-grammar-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.immersion-grammar h3 { margin-top: 7px; font-family: var(--font-display); font-size: 24px; font-weight: 500; }
+.immersion-grammar > p { margin-top: 7px; font-size: 14px; line-height: 1.65; color: var(--ink-2); }
+.immersion-grammar-example { display: flex; align-items: flex-start; gap: 8px; margin-top: 10px; padding: 8px 9px; border-radius: 7px; background: rgba(255,255,255,.45); }
+.immersion-grammar-example > div { display: grid; gap: 2px; }
+.immersion-grammar-example strong { font-family: var(--font-display); font-size: 17px; font-weight: 600; }
+.immersion-grammar-example span { font-size: 13px; color: var(--muted); }
+.immersion-grammar-actions { margin-top: 8px; }
+.immersion-grammar-actions .text-link { font-size: 12px; }

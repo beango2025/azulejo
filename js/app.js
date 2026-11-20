@@ -18,7 +18,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.10.0';
+  const APP_VERSION = '3.11.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -599,7 +599,7 @@
     cultureCategory: 'all',
     culturePage: 1,
     exam: null,
-    proLevel: 'A1',
+    proLevel: 'A2',
     cloudRemote: null,
     wordQuery: '',
     wordLevel: 'all',
@@ -1422,6 +1422,22 @@
     </section>`;
   }
 
+  function immersionGrammarHTML(lesson) {
+    const core = coreLessonFor(lesson);
+    const grammar = grammarForLesson(lesson);
+    if (!core || !grammar) return '';
+    const extra = grammarExtraFor(lesson) || {};
+    const example = (grammar.examples || [])[0];
+    return `<section class="immersion-grammar">
+      <div class="immersion-grammar-head"><span class="eyebrow">GRAMÁTICA NO TEXTO</span><span class="panel-chip">${esc(core.unit.level)}</span></div>
+      <h3>${esc(grammar.title)}</h3>
+      ${extra.titleEn ? `<p class="grammar-title-en">${esc(extra.titleEn)}</p>` : ''}
+      <p>${esc(grammar.body)}</p>
+      ${example ? `<div class="immersion-grammar-example"><button class="audio-btn small" data-audio="${esc(example.pt)}" aria-label="Ouvir exemplo">${icon('volume')}</button><div><strong>${esc(example.pt)}</strong><span>${esc(example.zh)}</span></div></div>` : ''}
+      <div class="immersion-grammar-actions"><a class="text-link" href="#/grammar/${core.id}">Ver capítulo e exercícios ${icon('arrow-right')}</a></div>
+    </section>`;
+  }
+
   function immersionStepHTML(pack) {
     const state = ui.lesson.immState || { answers: {}, speaking: null };
     const speaking = state.speaking;
@@ -1471,6 +1487,7 @@
                    <button class="audio-mini" data-audio="${esc(line.pt)}" aria-label="Ouvir esta fala">${icon('volume')}</button>
                  </div>`).join('')}
                </div>`}
+          ${immersionGrammarHTML(ui.lesson.lesson)}
           ${glossaryHTML(ui.lesson.lesson, pack.text || pack.lines.map(line => line.pt).join(' '))}
           <div class="immersion-questions">
             ${pack.readingQuestions.map(q => immersionQuestionHTML(q, state)).join('')}
@@ -2871,6 +2888,24 @@
     return Boolean(window.AZ_LICENSE && window.AZ_LICENSE.isPro());
   }
 
+  function hasLevel(level) {
+    return Boolean(window.AZ_LICENSE && window.AZ_LICENSE.hasLevel(level));
+  }
+
+  function levelPrice(level) {
+    const prices = (window.AZ_CONFIG && window.AZ_CONFIG.levelPrices) || {};
+    return prices[level] || { eur: '€—', cny: '¥—' };
+  }
+
+  function levelCheckout(level) {
+    const urls = (window.AZ_CONFIG && window.AZ_CONFIG.checkoutUrls) || {};
+    return urls[level] || (window.AZ_CONFIG && window.AZ_CONFIG.checkoutUrl) || '';
+  }
+
+  function activeLevels() {
+    return (window.AZ_LICENSE && window.AZ_LICENSE.activeLevels()) || [];
+  }
+
   function licensePayload() {
     const record = window.AZ_LICENSE && window.AZ_LICENSE.current();
     return record ? record.payload : null;
@@ -2889,37 +2924,40 @@
   }
 
   function licenseFormHTML() {
+    const levels = activeLevels();
     const payload = licensePayload();
-    if (payload) {
-      return `<div class="pro-license is-active"><span class="pro-license-icon">${icon('check')}</span><div><b>Azulejo Pro ativo</b><p>${esc(payload.sub || '')} · válido até ${new Date(Number(payload.exp)).toLocaleDateString('pt-PT')}</p></div><button class="text-link" data-action="deactivate-license">Desativar</button></div>`;
-    }
-    return `<div class="pro-license-form">
-      <label for="license-input">Já compraste? Cola aqui a tua licença.</label>
-      <div class="pro-license-row"><input id="license-input" type="text" autocomplete="off" spellcheck="false" placeholder="Cola o código de licença…"><button class="btn btn-primary" data-action="activate-license">Ativar</button></div>
-      <p id="license-msg" class="pro-license-msg">A licença é verificada no teu dispositivo; não precisa de conta.</p>
+    const active = levels.length
+      ? `<div class="pro-license is-active"><span class="pro-license-icon">${icon('check')}</span><div><b>Níveis ativos: ${esc(levels.join(' · '))}</b><p>${payload ? `${esc(payload.sub || '')} · válido até ${new Date(Number(payload.exp)).toLocaleDateString('pt-PT')}` : 'Licença local'}</p></div><button class="text-link" data-action="deactivate-license">Desativar</button></div>`
+      : '';
+    return `${active}<div class="pro-license-form">
+      <label for="license-input">${levels.length ? 'Compraste outro nível? Cola aqui a nova licença.' : 'Já compraste? Cola aqui a tua licença.'}</label>
+      <div class="pro-license-row"><input id="license-input" type="text" autocomplete="off" spellcheck="false" placeholder="Cola o código de licença…"><button class="btn btn-primary" data-action="activate-license">Ativar ${esc(ui.proLevel)}</button></div>
+      <p id="license-msg" class="pro-license-msg">Cada licença desbloqueia um nível. A verificação é local; não precisa de conta.</p>
     </div>`;
   }
 
   function renderProPage(paywall) {
-    const licensed = isProUser();
     const config = window.AZ_CONFIG || {};
-    const checkout = config.checkoutUrl || '';
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    const selectedLevel = levels.includes(ui.proLevel) ? ui.proLevel : 'A2';
+    const licensed = hasLevel(selectedLevel);
+    const activated = activeLevels();
+    const price = levelPrice(selectedLevel);
+    const checkout = levelCheckout(selectedLevel);
     const contact = config.contactUrl || '';
     const success = /#\/pro\/success/.test(location.hash);
-    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-    const selectedLevel = levels.includes(ui.proLevel) ? ui.proLevel : 'A1';
     const selectedExam = (window.AZ_EXAMS || []).find(set => set.level === selectedLevel && set.n === 1);
     trackEvent(paywall ? 'paywall_view' : success ? 'pro_success_view' : 'pro_view', { licensed, source: paywall ? 'exam' : 'pro', level: selectedLevel });
     $('#view').innerHTML = `
       <div class="page pro-page">
-        ${pageHead('AZULEJO PRO', 'A1–C2, com método.', '60 套完整模拟考试，每个级别 10 套：阅读、听力、写作和口语。计时、交卷、分项成绩和错题回顾。适合准备 CAPLE / 葡萄牙国籍语言证明的学习者。', `<div class="head-badge gold">${icon('target')}<span><strong>60</strong><small>mock exams</small></span></div>`)}
+        ${pageHead('AZULEJO PRO', 'Um nível de cada vez.', '按级别单独购买：每个阶段 10 套完整模拟考试，阅读、听力、写作和口语。买 A2 只解锁 A2；其他级别按需购买。', `<div class="head-badge gold">${icon('target')}<span><strong>10</strong><small>por nível</small></span></div>`)}
         ${success ? `<div class="paywall-banner is-success">${icon('check')}<div><b>Pagamento recebido.</b><span>Vais receber a licença por email. Se não chegar em alguns minutos, usa o contacto abaixo com o teu recibo.</span></div><a class="text-link" href="#/pro">Ativar licença ${icon('arrow-right')}</a></div>` : ''}
-        ${paywall ? `<div class="paywall-banner">${icon('lock')}<div><b>Esta parte é Pro.</b><span>这套模拟考试需要有效许可证。可以先看下面的内容和样题。</span></div><a class="text-link" href="#/pro">Ver Pro ${icon('arrow-right')}</a></div>` : ''}
+        ${paywall ? `<div class="paywall-banner">${icon('lock')}<div><b>${selectedLevel} ainda não está desbloqueado.</b><span>每个级别单独购买；当前已激活：${activated.length ? activated.join(' · ') : 'nenhum'}。</span></div><a class="text-link" href="#/pro">Ver ${selectedLevel} ${icon('arrow-right')}</a></div>` : ''}
         <section class="pro-hero">
           <div class="pro-hero-copy">
-            <span class="eyebrow">A1–C2 · CAPLE · MOCK EXAMS</span>
-            <h2>60 套模拟卷，<br>每个级别 10 套。</h2>
-            <p>不是又一套练习题，而是按考试节奏做的完整模拟：阅读、听力、写作、口语，交卷后看到分项成绩和错题解释。按 CEFR 级别切换 A1、A2、B1、B2、C1、C2。</p>
+            <span class="eyebrow">${selectedLevel} · CAPLE · MOCK EXAMS</span>
+            <h2>${selectedLevel} 的 10 套，<br>只为这个级别付费。</h2>
+            <p>按 CEFR 级别单独购买。每套都是完整模拟：阅读、听力、写作、口语，交卷后看到分项成绩和错题解释。已解锁的级别：${activated.length ? activated.join(' / ') : '暂无'}。</p>
             <div class="pro-actions">
               ${licensed
                 ? `<a class="btn btn-primary" href="#/exam/${selectedExam ? selectedExam.id : 'a2-mock-1'}">Começar ${selectedLevel} Mock 1 ${icon('arrow-right')}</a>`
@@ -2931,12 +2969,12 @@
             <p class="pro-note">${icon('info')} 独立备考产品，不是 CAPLE 官方考试，也不提供官方证书。</p>
           </div>
           <div class="pro-price-card">
-            <span class="eyebrow">ACESSO COMPLETO</span>
-            <strong class="pro-price">€39</strong>
-            <span class="pro-price-sub">ou ¥299 · pagamento único</span>
+            <span class="eyebrow">ACESSO ${selectedLevel}</span>
+            <strong class="pro-price">${esc(price.eur)}</strong>
+            <span class="pro-price-sub">ou ${esc(price.cny)} · 10 套 ${selectedLevel} · pagamento único</span>
             <ul>
-              <li>${icon('check')} 60 套完整模拟考试</li>
-              <li>${icon('check')} A1–C2，每个级别 10 套</li>
+              <li>${icon('check')} ${selectedLevel} 完整模拟 10 套</li>
+              <li>${icon('check')} 仅解锁 ${selectedLevel}，不捆绑其他级别</li>
               <li>${icon('check')} 阅读 + 听力 + 写作 + 口语</li>
               <li>${icon('check')} 计时、交卷、成绩报告</li>
               <li>${icon('check')} 错题解释与口语示范</li>
@@ -2963,7 +3001,7 @@
         <section class="pro-faq">
           <div class="section-head compact"><div><span class="eyebrow">FAQ</span><h2>Antes de comprar.</h2></div></div>
           <details><summary>这是官方 CAPLE 考试吗？</summary><p>不是。这是独立制作的模拟考试，用于练习考试节奏和题型；不会发放官方证书，也不代表 CAPLE 或葡萄牙政府的认可。</p></details>
-          <details><summary>许可证怎么用？</summary><p>购买后会收到一串签名许可证。打开本页，粘贴到「Ativar」即可解锁全部 60 套模拟考试。许可证在本地验证，不上传学习数据。</p></details>
+          <details><summary>许可证怎么用？</summary><p>每个级别单独购买。购买 A2 后会收到 A2 的签名许可证；打开本页选择 A2，粘贴到「Ativar」即可解锁 A2 的 10 套模拟考试。其他级别需要分别购买，许可证在本地验证。</p></details>
           <details><summary>可以在几台设备上用？</summary><p>当前许可证是本地离线验证，可在你常用的浏览器使用。正式多设备方案会绑定账号和云同步。</p></details>
           <details><summary>包含口语评分吗？</summary><p>当前版本提供口语题、录音入口和示范答案，成绩报告中的口语部分为自评。人工口语评分可作为单独服务。</p></details>
         </section>
@@ -2980,7 +3018,7 @@
       if (!response.ok) throw new Error(`exam bank ${response.status}`);
       const bank = await response.json();
       if (!Array.isArray(bank) || !bank.length) throw new Error('empty exam bank');
-      window.AZ_EXAMS = bank;
+      window.AZ_EXAMS_REMOTE = bank;
       window.__remoteExamBankLoaded = true;
       return true;
     } catch (error) {
@@ -3000,9 +3038,12 @@
     }
     const result = await window.AZ_LICENSE.activate(token);
     if (result.ok) {
-      trackEvent('license_activate', { plan: result.payload.plan });
+      const unlocked = window.AZ_LICENSE.payloadLevels(result.payload);
+      if (unlocked.length) ui.proLevel = unlocked[0];
+      trackEvent('license_activate', { plan: result.payload.plan, levels: unlocked });
+      window.__remoteExamBankLoaded = false;
       await ensureRemoteExamBank();
-      showToast('Azulejo Pro ativado.', 'success');
+      showToast(unlocked.length ? `Nível ${unlocked.join(', ')} ativado.` : 'Azulejo Pro ativado.', 'success');
       renderChrome('pro');
       renderProPage(false);
     } else {
@@ -3123,10 +3164,12 @@
 
   async function startExam(id) {
     await ensureRemoteExamBank();
-    const set = (window.AZ_EXAMS || []).find(item => item.id === id);
+    const set = (window.AZ_EXAMS_REMOTE || []).find(item => item.id === id)
+      || (window.AZ_EXAMS || []).find(item => item.id === id);
     if (!set) { location.hash = '#/pro'; return; }
-    if (!isProUser()) {
-      trackEvent('paywall_view', { source: 'exam_route', exam: id });
+    if (!hasLevel(set.level)) {
+      ui.proLevel = set.level;
+      trackEvent('paywall_view', { source: 'exam_route', exam: id, level: set.level });
       location.hash = '#/pro';
       return;
     }
@@ -4772,6 +4815,8 @@
     switch (action) {
       case 'select-level':
         ui.courseLevel = el.dataset.level;
+        ui.grammarLevel = el.dataset.level;
+        ui.grammarPage = 1;
         renderHome();
         requestAnimationFrame(() => {
           const course = $('#course');
@@ -4798,6 +4843,8 @@
         break;
       case 'go-level':
         ui.courseLevel = el.dataset.level;
+        ui.grammarLevel = el.dataset.level;
+        ui.grammarPage = 1;
         go('#/learn');
         setTimeout(() => {
           const course = $('#course');
@@ -5146,11 +5193,11 @@
         document.querySelector('.culture-list-head')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         break;
       case 'checkout':
-        trackEvent('checkout_click', { source: 'pro' });
-        if (window.AZ_CONFIG && window.AZ_CONFIG.checkoutUrl) {
-          window.open(window.AZ_CONFIG.checkoutUrl, '_blank', 'noopener,noreferrer');
+        trackEvent('checkout_click', { source: 'pro', level: ui.proLevel });
+        if (levelCheckout(ui.proLevel)) {
+          window.open(levelCheckout(ui.proLevel), '_blank', 'noopener,noreferrer');
         } else {
-          showToast('支付链接还未配置。请先通过联系方式购买。');
+          showToast(`O checkout de ${ui.proLevel} ainda não está configurado.`);
         }
         break;
       case 'contact-buy':
@@ -5407,6 +5454,7 @@
     document.body.dataset.version = APP_VERSION;
     const next = nextLesson();
     ui.courseLevel = next ? next.unit.level : 'A1';
+    ui.grammarLevel = ui.courseLevel;
     const nextMedia = DATA.media.find(item => !state.media[item.id]);
     ui.mediaLevel = nextMedia ? nextMedia.level : 'A1';
     if (!location.hash) {
