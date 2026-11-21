@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.22.0';
+  const APP_VERSION = '3.22.1';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -3269,6 +3269,7 @@
     const score = Math.round(shadowScore * 0.6 + quizScore * 0.4);
     const record = { lessonId: plan.lesson.id, level: plan.level, score, shadow: shadowScore, correct, total: plan.questions.length, completedAt: new Date().toISOString() };
     state.daily[plan.key] = record;
+    addWordsToReview(plan.words);
     ui.daily = { step: 'done', shadow: ui.daily.shadow, answers: ui.daily.answers, result: record };
     addXP(25);
     saveState();

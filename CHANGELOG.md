@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.22.1 — 2026-11-21
+
+- Daily 10 now adds its five target words to the review queue when a session is completed.
+
 ## 3.22.0 — 2026-11-21
 
 - Added **Rotina diária / Daily 10**: five words, one grammar point, one shadowing line with speech-recognition scoring, two questions, and a completion report.
