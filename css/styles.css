@@ -4402,3 +4402,50 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .lex-grid[data-lang="fr"] .lang-fr span,
 .lex-grid[data-lang="es"] .lang-es span,
 .lex-grid[data-lang="zh"] .lang-zh span { color: var(--ink); font-weight: 600; }
+/* Daily 10 */
+.daily-page { max-width: 1000px; }
+.daily-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.daily-top .filter-chips { margin: 0; }
+.daily-top-stats { display: flex; flex-wrap: wrap; gap: 8px; font-size: 10px; color: var(--muted); }
+.daily-top-stats span { display: inline-flex; align-items: center; gap: 3px; }
+.daily-card { padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.daily-card .btn { margin-top: 14px; }
+.daily-word-grid { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 8px; margin-top: 10px; }
+.daily-word { display: grid; gap: 4px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-2); text-align: left; color: var(--ink); cursor: pointer; }
+.daily-word span { font-family: var(--font-display); font-size: 18px; font-weight: 600; }
+.daily-word small { font-size: 10px; color: var(--muted); }
+.daily-word .icon { width: 13px; height: 13px; color: var(--teal); }
+.daily-grammar-body { margin-top: 9px; font-size: 15px; line-height: 1.7; color: var(--ink-2); }
+.daily-example { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 6px; margin-top: 9px; padding: 10px; border-radius: 7px; background: var(--surface-2); }
+.daily-example > div { display: grid; gap: 2px; width: calc(100% - 30px); margin-bottom: 5px; }
+.daily-example b { font-size: 13px; }
+.daily-example span { font-size: 11px; color: var(--muted); }
+.daily-shadow-target { margin: 14px 0 5px; padding: 14px; border-left: 3px solid var(--terra); background: var(--gold-soft); font-family: var(--font-display); font-size: 25px; line-height: 1.4; }
+.daily-shadow-zh { font-size: 13px; color: var(--muted); }
+.daily-shadow-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+.daily-shadow-actions .btn { margin-top: 0; }
+.daily-shadow-result { display: flex; align-items: baseline; gap: 8px; margin-top: 10px; }
+.daily-shadow-result strong { font-family: var(--font-display); font-size: 34px; font-weight: 500; color: var(--teal); }
+.daily-shadow-result span { font-size: 11px; color: var(--muted); }
+.daily-error { margin-top: 8px; font-size: 11px; color: var(--danger); }
+.daily-question { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line-soft); }
+.daily-question > p { font-size: 13px; line-height: 1.5; }
+.daily-question > div { display: grid; gap: 5px; margin-top: 7px; }
+.daily-question small { display: block; margin-top: 5px; font-size: 10px; color: var(--muted); }
+.daily-done { text-align: center; padding: 26px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.daily-done h2 { margin-top: 4px; font-family: var(--font-display); font-size: 70px; line-height: 1; font-weight: 500; color: var(--teal); }
+.daily-done h2 small { font-size: 20px; color: var(--muted); }
+.daily-done > p { margin-top: 3px; font-size: 12px; color: var(--muted); }
+.daily-done-stats { display: flex; justify-content: center; gap: 22px; margin: 18px 0; }
+.daily-done-stats div { display: grid; gap: 2px; }
+.daily-done-stats strong { font-family: var(--font-display); font-size: 24px; font-weight: 500; }
+.daily-done-stats span { font-size: 9px; color: var(--muted); }
+.daily-done-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 7px; }
+.daily-history { margin-top: 22px; }
+.daily-bars { display: flex; align-items: flex-end; gap: 12px; height: 120px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.daily-bars > div { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; height: 100%; justify-content: flex-end; }
+.daily-bars span { font-size: 8px; color: var(--muted); }
+.daily-bars i { display: block; width: 16px; height: var(--score); min-height: 4px; border-radius: 3px 3px 0 0; background: var(--teal); }
+.daily-bars b { font-size: 8px; color: var(--muted); }
+.daily-empty { font-size: 11px; color: var(--muted); }
+@media (max-width: 700px) { .daily-word-grid { grid-template-columns: repeat(2,1fr); } .daily-bars { gap: 5px; } .daily-shadow-target { font-size: 21px; } }

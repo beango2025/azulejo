@@ -163,13 +163,36 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.20.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.21.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
   await shot('03a-version-update');
   await sleep(3400);
   await shot('03-home');
+  await goto('#/daily');
+  await sleep(450);
+  await shot('39-daily');
+  console.log('DAILY_STEP', await evaluate(`document.querySelector('.daily-card .eyebrow')?.textContent`));
+  await click('[data-action="daily-next"]');
+  await sleep(250);
+  await click('[data-action="daily-next"]');
+  await sleep(250);
+  await click('[data-action="daily-mark-shadow"]');
+  await sleep(250);
+  await click('[data-action="daily-next"]');
+  await sleep(250);
+  await evaluate(`[...document.querySelectorAll('[data-action="daily-answer"]:not([disabled])')][0]?.click()`);
+  await sleep(200);
+  await evaluate(`[...document.querySelectorAll('[data-action="daily-answer"]:not([disabled])')][0]?.click()`);
+  await sleep(250);
+  await click('[data-action="daily-next"]');
+  await sleep(350);
+  await shot('40-daily-report');
+  console.log('DAILY_REPORT', await evaluate(`document.querySelector('.daily-done h2')?.textContent.trim()`));
+
+  await goto('#/learn');
+  await sleep(350);
   console.log('HERO', await evaluate(`({ title: document.querySelector('.hero-card h1')?.textContent, id: document.querySelector('.hero-actions [data-action="start-lesson"]')?.dataset.id })`));
   console.log('A1_COUNTS', await evaluate(`({ tab: document.querySelector('.level-tab.is-active .level-tab-top span')?.textContent, practice: document.querySelectorAll('.practice-tile').length, units: document.querySelectorAll('.unit-card').length })`));
   await shot('04-levels', '#course');

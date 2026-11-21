@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.22.0 — 2026-11-21
+
+- Added **Rotina diária / Daily 10**: five words, one grammar point, one shadowing line with speech-recognition scoring, two questions, and a completion report.
+- Added daily level selection, due-word review link, seven-day score bars and streak/average summary.
+- Daily records are stored in `state.daily`; completion grants XP and feeds the existing activity/streak system.
+- Bumped the service worker cache to `azulejo-v3.22.0`.
+
 ## 3.21.0 — 2026-11-20
 
 - Localised **buttons and action labels** for English / Français / Español / Português, not just the navigation.

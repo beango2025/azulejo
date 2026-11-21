@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.21.0';
+  const APP_VERSION = '3.22.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -221,6 +221,7 @@
       media: {},
       listening: {},
       dubbing: {},
+      daily: {},
       activity: {},
       streak: 0,
       lastActive: null,
@@ -246,6 +247,7 @@
       if (!merged.media || typeof merged.media !== 'object') merged.media = {};
       if (!merged.listening || typeof merged.listening !== 'object') merged.listening = {};
       if (!merged.dubbing || typeof merged.dubbing !== 'object') merged.dubbing = {};
+      if (!merged.daily || typeof merged.daily !== 'object') merged.daily = {};
       return merged;
     } catch (err) {
       console.warn('Could not read saved progress.', err);
@@ -614,15 +616,16 @@
     { id: 'pt', label: 'Português', native: 'Português' }
   ];
   const NAV_I18N = {
-    zh: { learn: '学习', reading: '阅读', grammar: '语法', exams: '考试', media: '影音', review: '复习', phrases: '语料', culture: '文化', pro: '模考 Pro', writing: '写作', progress: '进度' },
-    en: { learn: 'Learn', reading: 'Reading', grammar: 'Grammar', exams: 'Exams', media: 'Video & audio', review: 'Review', phrases: 'Phrases', culture: 'Culture', pro: 'Mock exams', writing: 'Writing', progress: 'Progress' },
-    fr: { learn: 'Apprendre', reading: 'Lecture', grammar: 'Grammaire', exams: 'Examens', media: 'Vidéo & audio', review: 'Révision', phrases: 'Phrases', culture: 'Culture', pro: 'Examens blancs', writing: 'Écriture', progress: 'Progrès' },
-    es: { learn: 'Aprender', reading: 'Lectura', grammar: 'Gramática', exams: 'Exámenes', media: 'Vídeo y audio', review: 'Repaso', phrases: 'Frases', culture: 'Cultura', pro: 'Simulacros', writing: 'Escritura', progress: 'Progreso' },
-    pt: { learn: 'Aprender', reading: 'Leitura', grammar: 'Gramática', exams: 'Exames', media: 'Vídeo e áudio', review: 'Revisão', phrases: 'Frases', culture: 'Cultura', pro: 'Exames Pro', writing: 'Escrita', progress: 'Progresso' }
+    zh: { learn: '学习', daily: '每日 10', reading: '阅读', grammar: '语法', exams: '考试', media: '影音', review: '复习', phrases: '语料', culture: '文化', pro: '模考 Pro', writing: '写作', progress: '进度' },
+    en: { learn: 'Learn', daily: 'Daily 10', reading: 'Reading', grammar: 'Grammar', exams: 'Exams', media: 'Video & audio', review: 'Review', phrases: 'Phrases', culture: 'Culture', pro: 'Mock exams', writing: 'Writing', progress: 'Progress' },
+    fr: { learn: 'Apprendre', daily: '10 min', reading: 'Lecture', grammar: 'Grammaire', exams: 'Examens', media: 'Vidéo & audio', review: 'Révision', phrases: 'Phrases', culture: 'Culture', pro: 'Examens blancs', writing: 'Écriture', progress: 'Progrès' },
+    es: { learn: 'Aprender', daily: 'Diario 10', reading: 'Lectura', grammar: 'Gramática', exams: 'Exámenes', media: 'Vídeo y audio', review: 'Repaso', phrases: 'Frases', culture: 'Cultura', pro: 'Simulacros', writing: 'Escritura', progress: 'Progreso' },
+    pt: { learn: 'Aprender', daily: 'Rotina 10', reading: 'Leitura', grammar: 'Gramática', exams: 'Exames', media: 'Vídeo e áudio', review: 'Revisão', phrases: 'Frases', culture: 'Cultura', pro: 'Exames Pro', writing: 'Escrita', progress: 'Progresso' }
   };
 
   const NAV = [
     { id: 'learn', label: '学习', pt: 'Aprender', href: '#/learn', icon: 'book' },
+    { id: 'daily', label: '每日 10', pt: 'Rotina diária', href: '#/daily', icon: 'sun' },
     { id: 'reading', label: '阅读', pt: 'Leitura & escuta', href: '#/reading', icon: 'layers' },
     { id: 'grammar', label: '语法', pt: 'Gramática', href: '#/grammar', icon: 'book' },
     { id: 'exams-guide', label: '考试', pt: 'Exames', href: '#/exams-guide', icon: 'target' },
@@ -638,6 +641,9 @@
   const ui = {
     route: 'learn',
     learningLanguage: 'zh',
+    dailyLevel: 'A2',
+    dailyPlan: null,
+    daily: { step: 'warmup', shadow: null, answers: {} },
     courseLevel: '',
     readingLevel: 'A1',
     mediaLevel: 'A1',
@@ -694,7 +700,8 @@
       '上一课': 'Previous lesson', '开始复习': 'Start review', '显示翻译': 'Show translation', '隐藏翻译': 'Hide translation',
       '播放': 'Play', '暂停': 'Pause', '录音': 'Record', '停止': 'Stop', '发送': 'Send', '确认': 'Confirm', '删除': 'Delete',
       '下一步': 'Next', '上一步': 'Previous', '查看结果': 'View results', '重新开始': 'Restart', '换一题': 'Another prompt',
-      '上传': 'Upload', '评分': 'Score', '听全文': 'Listen to all'
+      '上传': 'Upload', '评分': 'Score', '听全文': 'Listen to all', 'Gravar e avaliar': 'Record and score',
+      'Ver relatório': 'View report', 'Rever palavras': 'Review words', 'Repetir a lição': 'Repeat lesson', 'Ouvir': 'Listen'
     },
     fr: {
       'Continuar': 'Continuer', 'Verificar': 'Vérifier', 'Começar a aprender': 'Commencer à apprendre', 'Ver o percurso': 'Voir le parcours',
@@ -715,7 +722,8 @@
       '上一课': 'Leçon précédente', '开始复习': 'Commencer la révision', '显示翻译': 'Afficher la traduction', '隐藏翻译': 'Masquer la traduction',
       '播放': 'Lire', '暂停': 'Pause', '录音': 'Enregistrer', '停止': 'Arrêter', '发送': 'Envoyer', '确认': 'Confirmer', '删除': 'Supprimer',
       '下一步': 'Suivant', '上一步': 'Précédent', '查看结果': 'Voir les résultats', '重新开始': 'Recommencer', '换一题': 'Autre proposition',
-      '上传': 'Téléverser', '评分': 'Évaluer', '听全文': 'Écouter tout'
+      '上传': 'Téléverser', '评分': 'Évaluer', '听全文': 'Écouter tout', 'Gravar e avaliar': 'Enregistrer et évaluer',
+      'Ver relatório': 'Voir le rapport', 'Rever palavras': 'Réviser les mots', 'Repetir a lição': 'Répéter la leçon', 'Ouvir': 'Écouter'
     },
     es: {
       'Continuar': 'Continuar', 'Verificar': 'Comprobar', 'Começar a aprender': 'Empezar a aprender', 'Ver o percurso': 'Ver el recorrido',
@@ -736,7 +744,8 @@
       '上一课': 'Lección anterior', '开始复习': 'Empezar el repaso', '显示翻译': 'Mostrar traducción', '隐藏翻译': 'Ocultar traducción',
       '播放': 'Reproducir', '暂停': 'Pausa', '录音': 'Grabar', '停止': 'Detener', '发送': 'Enviar', '确认': 'Confirmar', '删除': 'Eliminar',
       '下一步': 'Siguiente', '上一步': 'Anterior', '查看结果': 'Ver resultados', '重新开始': 'Reiniciar', '换一题': 'Otra propuesta',
-      '上传': 'Subir', '评分': 'Puntuar', '听全文': 'Escuchar todo'
+      '上传': 'Subir', '评分': 'Puntuar', '听全文': 'Escuchar todo', 'Gravar e avaliar': 'Grabar y evaluar',
+      'Ver relatório': 'Ver informe', 'Rever palavras': 'Repasar palabras', 'Repetir a lição': 'Repetir la lección', 'Ouvir': 'Escuchar'
     },
     pt: {
       '继续': 'Continuar', '检查': 'Verificar', '开始练习': 'Começar a praticar', '下一题': 'Seguinte', '上一题': 'Anterior',
@@ -747,7 +756,9 @@
       '下一课': 'Próxima lição', '上一课': 'Lição anterior', '开始复习': 'Começar a revisão', '显示翻译': 'Mostrar tradução',
       '隐藏翻译': 'Ocultar tradução', '播放': 'Reproduzir', '暂停': 'Pausa', '录音': 'Gravar', '停止': 'Parar',
       '发送': 'Enviar', '确认': 'Confirmar', '删除': 'Apagar', '下一步': 'Seguinte', '上一步': 'Anterior',
-      '查看结果': 'Ver resultados', '重新开始': 'Recomeçar', '换一题': 'Outra proposta', '上传': 'Carregar', '评分': 'Avaliar'
+      '查看结果': 'Ver resultados', '重新开始': 'Recomeçar', '换一题': 'Outra proposta', '上传': 'Carregar', '评分': 'Avaliar',
+      'Gravar e avaliar': 'Gravar e avaliar', 'Ver relatório': 'Ver relatório', 'Rever palavras': 'Rever palavras',
+      'Repetir a lição': 'Repetir a lição', 'Ouvir': 'Ouvir'
     }
   };
   let localizing = false;
@@ -933,7 +944,7 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'reading', 'intensive', 'intensive-unit', 'grammar', 'writing', 'exams-guide', 'themes', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
+    if (!['learn', 'daily', 'reading', 'intensive', 'intensive-unit', 'grammar', 'writing', 'exams-guide', 'themes', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -942,6 +953,7 @@
     ui.media = null;
     renderChrome(ui.route);
     if (name === 'learn') renderHome();
+    if (name === 'daily') renderDailyPage();
     if (name === 'reading') renderReadingPage();
     if (name === 'intensive') renderIntensiveArticle(info.parts[1]);
     if (name === 'intensive-unit') renderUnitIntensive(info.parts[1]);
@@ -3192,6 +3204,192 @@
       questions
     };
     renderIntensiveView(article);
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Daily 10: micro-lesson, shadowing score, review and report          */
+  /* ------------------------------------------------------------------ */
+
+  function dailyHash(value) {
+    let hash = 0;
+    for (let i = 0; i < value.length; i += 1) hash = ((hash << 5) - hash + value.charCodeAt(i)) | 0;
+    return Math.abs(hash);
+  }
+
+  function dailyPlanFor(level) {
+    const key = `${dateKey()}:${level}`;
+    if (ui.dailyPlan && ui.dailyPlan.key === key) return ui.dailyPlan;
+    const pool = lessonsForLevel(level).filter(lesson => !lesson.isLab);
+    const lesson = pool[dailyHash(key) % Math.max(1, pool.length)] || pool[0];
+    if (!lesson) return null;
+    const pack = window.AZ_BUILD_IMMERSION
+      ? window.AZ_BUILD_IMMERSION({ lesson, units: DATA.units, media: DATA.media })
+      : null;
+    const grammar = grammarForLesson(lesson);
+    const extra = grammarExtraFor(lesson);
+    const questions = [...((pack && pack.readingQuestions) || []), ...(lesson.exercises || [])]
+      .filter(question => question && question.options && question.answer)
+      .slice(0, 2);
+    const plan = {
+      key,
+      level,
+      lesson,
+      words: (() => {
+        const lessonWords = vocabularyWordsFor(lesson);
+        const concrete = lessonWords.filter(word => ['noun', 'verb', 'adjective', 'adverb'].includes(word.pos));
+        const levelWords = allVocab.filter(word => word.level === level && ['noun', 'verb', 'adjective', 'adverb'].includes(word.pos));
+        return [...concrete, ...levelWords].filter((word, index, list) => list.findIndex(item => item.id === word.id) === index).slice(0, 5);
+      })(),
+      grammar,
+      extra,
+      memory: MEMORY_TIPS.find(tip => tip.id === (coreLessonFor(lesson) || lesson).id) || null,
+      shadow: (pack && pack.speakingLine) || { pt: (grammar && grammar.examples && grammar.examples[0] && grammar.examples[0].pt) || '', zh: '' },
+      questions,
+      due: dueWords().slice(0, 3)
+    };
+    ui.dailyPlan = plan;
+    if (state.daily[key]) {
+      ui.daily = { step: 'done', shadow: null, answers: {}, result: state.daily[key] };
+    } else {
+      ui.daily = { step: 'warmup', shadow: null, answers: {} };
+    }
+    return plan;
+  }
+
+  function dailyNextKey(step) {
+    return step === 'warmup' ? 'grammar' : step === 'grammar' ? 'shadow' : step === 'shadow' ? 'quiz' : 'done';
+  }
+
+  function finishDaily() {
+    const plan = ui.dailyPlan;
+    if (!plan || state.daily[plan.key]) return;
+    const shadowScore = ui.daily.shadow && typeof ui.daily.shadow.score === 'number' ? ui.daily.shadow.score : 0;
+    const correct = plan.questions.filter((question, index) => ui.daily.answers[index] === question.answer).length;
+    const quizScore = plan.questions.length ? Math.round((correct / plan.questions.length) * 100) : 100;
+    const score = Math.round(shadowScore * 0.6 + quizScore * 0.4);
+    const record = { lessonId: plan.lesson.id, level: plan.level, score, shadow: shadowScore, correct, total: plan.questions.length, completedAt: new Date().toISOString() };
+    state.daily[plan.key] = record;
+    ui.daily = { step: 'done', shadow: ui.daily.shadow, answers: ui.daily.answers, result: record };
+    addXP(25);
+    saveState();
+    trackEvent('daily_complete', { level: plan.level, score, shadow: shadowScore });
+    renderDailyPage();
+  }
+
+  function renderDailyPage() {
+    const level = LEVELS.some(item => item.id === ui.dailyLevel) ? ui.dailyLevel : 'A2';
+    const plan = dailyPlanFor(level);
+    if (!plan) { $('#view').innerHTML = '<div class="page"><p>Sem lição diária.</p></div>'; return; }
+    const key = plan.key;
+    const record = state.daily[key];
+    const step = ui.daily.step;
+    const levelChips = LEVELS.map(item => `<button class="filter-chip ${item.id === level ? 'is-active' : ''}" data-action="select-daily-level" data-level="${item.id}">${item.id}</button>`).join('');
+    const history = Object.entries(state.daily)
+      .filter(([entryKey]) => entryKey.endsWith(`:${level}`))
+      .slice(-7);
+    const average = history.length ? Math.round(history.reduce((sum, [, item]) => sum + (item.score || 0), 0) / history.length) : 0;
+    const shadowScore = ui.daily.shadow && typeof ui.daily.shadow.score === 'number' ? ui.daily.shadow.score : null;
+    const answered = plan.questions.filter((question, index) => ui.daily.answers[index]).length;
+    const allAnswered = plan.questions.length === 0 || answered === plan.questions.length;
+    let body = '';
+    if (step === 'warmup') {
+      body = `<section class="daily-card">
+        <div class="section-head compact"><div><span class="eyebrow">PASSO 1 · PALAVRAS</span><h2>Cinco palavras.</h2><p>先听，再读。今天的词会进入复习队列。</p></div><span class="panel-chip">${plan.words.length} palavras</span></div>
+        <div class="daily-word-grid">${plan.words.map(word => `<button class="daily-word" data-audio="${esc(word.pt)}"><span>${esc(word.pt)}</span><small>${esc(word.zh)}</small>${icon('volume')}</button>`).join('')}</div>
+        <button class="btn btn-primary" data-action="daily-next">Continuar ${icon('arrow-right')}</button>
+      </section>`;
+    } else if (step === 'grammar') {
+      body = `<section class="daily-card">
+        <div class="section-head compact"><div><span class="eyebrow">PASSO 2 · GRAMÁTICA</span><h2>${esc(plan.grammar ? plan.grammar.title : 'Uma estrutura.')}</h2></div><span class="panel-chip">${plan.level}</span></div>
+        <p class="daily-grammar-body">${esc(plan.grammar ? (ui.learningLanguage === 'en' && plan.extra && plan.extra.bodyEn ? plan.extra.bodyEn : plan.grammar.body) : '')}</p>
+        ${plan.grammar && plan.grammar.examples ? `<div class="daily-example">${plan.grammar.examples.slice(0, 2).map(example => `<button class="audio-mini" data-audio="${esc(example.pt)}">${icon('volume')}</button><div><b>${esc(example.pt)}</b><span>${esc(example.zh)}</span></div>`).join('')}</div>` : ''}
+        ${plan.memory ? `<div class="chapter-memory"><span class="eyebrow">TRUQUE</span><p>${esc(plan.memory.tip)}</p></div>` : ''}
+        <button class="btn btn-primary" data-action="daily-next">Continuar ${icon('arrow-right')}</button>
+      </section>`;
+    } else if (step === 'shadow') {
+      body = `<section class="daily-card daily-shadow-card">
+        <div class="section-head compact"><div><span class="eyebrow">PASSO 3 · FALA</span><h2>Repete a frase.</h2><p>先听原句，再按麦克风跟读；系统按词匹配给出发音分。</p></div><span class="panel-chip">${ui.daily.shadow && ui.daily.shadow.listening ? 'A OUVIR' : 'MICROFONE'}</span></div>
+        <blockquote class="daily-shadow-target">${esc(plan.shadow.pt)}</blockquote>
+        <p class="daily-shadow-zh">${esc(plan.shadow.zh || '')}</p>
+        <div class="daily-shadow-actions">
+          <button class="btn btn-secondary" data-audio="${esc(plan.shadow.pt)}">${icon('volume')} Ouvir</button>
+          <button class="btn btn-primary" data-action="daily-shadow" ${ui.daily.shadow && ui.daily.shadow.listening ? 'disabled' : ''}>${icon('mic')} ${ui.daily.shadow && ui.daily.shadow.listening ? 'A ouvir…' : 'Gravar e avaliar'}</button>
+          <button class="text-link" data-action="daily-mark-shadow">Já repeti</button>
+        </div>
+        ${shadowScore != null ? `<div class="daily-shadow-result"><strong>${shadowScore}%</strong><span>${ui.daily.shadow.heard ? `Ouvi: «${esc(ui.daily.shadow.heard)}»` : 'Boa tentativa.'}</span></div>` : ''}
+        ${ui.daily.shadow && ui.daily.shadow.error ? `<p class="daily-error">${esc(ui.daily.shadow.error)}</p>` : ''}
+        <button class="btn btn-primary" data-action="daily-next">Continuar ${icon('arrow-right')}</button>
+      </section>`;
+    } else if (step === 'quiz') {
+      body = `<section class="daily-card">
+        <div class="section-head compact"><div><span class="eyebrow">PASSO 4 · COMPREENSÃO</span><h2>Duas perguntas.</h2></div><span class="panel-chip">${answered}/${plan.questions.length}</span></div>
+        ${plan.questions.map((question, index) => {
+          const chosen = ui.daily.answers[index];
+          return `<div class="daily-question"><p>${esc(question.q)}</p><div>${question.options.map(option => `<button class="immersion-option ${chosen === option ? (option === question.answer ? 'is-correct' : 'is-wrong') : ''}" data-action="daily-answer" data-index="${index}" data-value="${esc(option)}" ${chosen ? 'disabled' : ''}>${esc(option)}</button>`).join('')}</div>${chosen ? `<small>${chosen === question.answer ? 'Boa!' : `Resposta: ${esc(question.answer)}`}</small>` : ''}</div>`;
+        }).join('')}
+        <button class="btn btn-primary" data-action="daily-next" ${allAnswered ? '' : 'disabled'}>Ver relatório ${icon('arrow-right')}</button>
+      </section>`;
+    } else {
+      const result = record || ui.daily.result;
+      body = `<section class="daily-done">
+        <span class="eyebrow">RELATÓRIO DE HOJE</span>
+        <h2>${result ? result.score : 0}<small>/100</small></h2>
+        <p>${result ? `${result.shadow}% fala · ${result.correct}/${result.total} perguntas` : ''}</p>
+        <div class="daily-done-stats"><div><strong>${plan.words.length}</strong><span>palavras</span></div><div><strong>${currentStreak()}</strong><span>dias de sequência</span></div><div><strong>${dueWords().length}</strong><span>para rever</span></div></div>
+        <div class="daily-done-actions"><button class="btn btn-primary" data-action="daily-review">Rever palavras ${icon('arrow-right')}</button><button class="btn btn-secondary" data-action="daily-restart">Repetir a lição</button></div>
+      </section>`;
+    }
+    $('#view').innerHTML = `
+      <div class="page daily-page">
+        ${pageHead('ROTINA DIÁRIA', 'Dez minutos. Um passo.', '每天 10 分钟：5 个词、1 个语法点、1 句跟读评分、2 道题，最后给你进度报告。', `<div class="head-badge gold">${icon('sun')}<span><strong>${record ? '✓' : '10'}</strong><small>${record ? 'feito' : 'minutos'}</small></span></div>`)}
+        <div class="daily-top"><div class="filter-chips">${levelChips}</div><div class="daily-top-stats"><span>${icon('flame')} ${currentStreak()} dias</span><span>${icon('star')} média ${average || '—'}</span><span>${icon('review')} ${dueWords().length} para rever</span></div></div>
+        ${body}
+        <section class="daily-history">
+          <div class="section-head compact"><div><span class="eyebrow">ÚLTIMOS DIAS</span><h2>O teu progresso.</h2></div></div>
+          <div class="daily-bars">${history.length ? history.map(([entryKey, item]) => `<div><span>${entryKey.slice(5, 10).replace('-', '/')}</span><i style="--score:${item.score}%"></i><b>${item.score}</b></div>`).join('') : '<p class="daily-empty">Ainda não há relatórios. Faz a primeira lição.</p>'}</div>
+        </section>
+      </div>`;
+    document.title = 'Rotina diária · Azulejo';
+  }
+
+  function dailyShadowScore() {
+    const plan = ui.dailyPlan;
+    if (!plan || !plan.shadow || !plan.shadow.pt) { showToast('Sem frase para avaliar hoje.', 'warn'); return; }
+    const target = plan.shadow.pt;
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!Recognition) {
+      ui.daily.shadow = { score: 0, heard: '', error: 'Este navegador não tem reconhecimento de fala. Usa «Já repeti».' };
+      renderDailyPage();
+      return;
+    }
+    const recognition = new Recognition();
+    recognition.lang = 'pt-PT';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    ui.daily.shadow = { listening: true };
+    renderDailyPage();
+    recognition.onresult = event => {
+      const heard = event.results[0][0].transcript || '';
+      const targetWords = normalizeAnswer(target).split(' ').filter(Boolean);
+      const heardWords = new Set(normalizeAnswer(heard).split(' ').filter(Boolean));
+      const matched = targetWords.filter(word => heardWords.has(word)).length;
+      ui.daily.shadow = { heard, score: Math.round((matched / Math.max(1, targetWords.length)) * 100) };
+      renderDailyPage();
+    };
+    recognition.onerror = () => {
+      ui.daily.shadow = { score: 0, heard: '', error: 'Não consegui ouvir. Tenta outra vez.' };
+      renderDailyPage();
+    };
+    recognition.onend = () => {
+      if (ui.daily.shadow && ui.daily.shadow.listening) {
+        ui.daily.shadow = { score: 0, heard: '', error: 'Sem fala detetada. Tenta outra vez.' };
+        renderDailyPage();
+      }
+    };
+    try { recognition.start(); } catch (err) {
+      ui.daily.shadow = { score: 0, heard: '', error: 'Microfone indisponível.' };
+      renderDailyPage();
+    }
   }
 
   function renderReadingPage() {
@@ -5829,6 +6027,54 @@
         ui.grammarKind = el.dataset.kind;
         ui.grammarPage = 1;
         renderGrammarPage();
+        break;
+      case 'select-daily-level':
+        ui.dailyLevel = el.dataset.level;
+        ui.dailyPlan = null;
+        renderDailyPage();
+        break;
+      case 'daily-next': {
+        const plan = ui.dailyPlan;
+        if (!plan || ui.daily.step === 'done') break;
+        if (ui.daily.step === 'quiz') {
+          const allAnswered = plan.questions.length === 0 || plan.questions.every((question, index) => ui.daily.answers[index]);
+          if (allAnswered) finishDaily();
+          break;
+        }
+        if (ui.daily.step === 'shadow' && !ui.daily.shadow) {
+          showToast('Grava a frase ou usa «Já repeti».', 'warn');
+          break;
+        }
+        ui.daily.step = dailyNextKey(ui.daily.step);
+        renderDailyPage();
+        break;
+      }
+      case 'daily-answer': {
+        const index = Number(el.dataset.index);
+        if (!ui.daily.answers[index]) {
+          ui.daily.answers[index] = el.dataset.value;
+          renderDailyPage();
+        }
+        break;
+      }
+      case 'daily-shadow':
+        dailyShadowScore();
+        break;
+      case 'daily-mark-shadow':
+        ui.daily.shadow = { score: null, heard: '', manual: true };
+        renderDailyPage();
+        break;
+      case 'daily-review':
+        go('#/review');
+        break;
+      case 'daily-restart':
+        if (ui.dailyPlan) {
+          delete state.daily[ui.dailyPlan.key];
+          ui.dailyPlan = null;
+          ui.daily = { step: 'warmup', shadow: null, answers: {} };
+          saveState();
+          renderDailyPage();
+        }
         break;
       case 'select-theme':
         ui.themeId = el.dataset.theme;
