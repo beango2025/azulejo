@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.27.0 — 2026-11-22
+
+- Renumbered B1–C2 readings as **level-lesson-A/B**: B1-1-A, B1-1-B, B1-2-A, B1-2-B … through C2.
+- A = extensive lesson reading; B = paired intensive reading.
+- Enlarged reading-card labels, eyebrows, descriptions and footer text, especially the B1-1-A / B1-1-B tags.
+- Bumped the service worker cache to `azulejo-v3.27.0`.
+
 ## 3.26.0 — 2026-11-22
 
 - Added a visible listening progress bar with elapsed/total time and click-to-seek for native audio.

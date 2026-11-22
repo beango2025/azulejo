@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.26.0';
+  const APP_VERSION = '3.27.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -2918,16 +2918,25 @@
     const exam = window.AZ_READINGS && window.AZ_READINGS[lesson.id];
     const count = exam ? exam.text.trim().split(/\s+/).filter(Boolean).length : 0;
     const paired = ['B1', 'B2', 'C1', 'C2'].includes(level);
-    return `<div class="reading-pair">
-      <a class="reading-card reading-${level}" href="#/read/${lesson.id}" aria-label="Ler e ouvir: ${esc(lesson.title)}">
-        <div class="reading-card-top"><span class="reading-card-level">${level}</span><span class="reading-card-kind">${paired ? `${level}-1 · ${lesson.isLab ? 'PRÁTICA' : 'LEITURA'}` : (lesson.isLab ? 'PRÁTICA' : 'LIÇÃO')}</span></div>
-        <h3>${esc(lesson.title)}</h3>
-        <p>${esc(lesson.zh)}</p>
-        <div class="reading-card-words">${esc(words)}</div>
-        <div class="reading-card-foot"><span>${esc(grammar)}</span><b>${count ? `${count} palavras · ` : ''}Ler & ouvir ${icon('arrow-right')}</b></div>
-      </a>
-      ${paired ? `<a class="reading-pair-link" href="#/intensive-pair/${lesson.id}">${level}-2 · Leitura intensiva ${icon('arrow-right')}<small>本课 + 关联文本 · 22 palavras · 6 pontos</small></a>` : ''}
-    </div>`;
+    const lessonIndex = lessonsForLevel(level).findIndex(item => item.id === lesson.id) + 1;
+    const code = `${level}-${lessonIndex}`;
+    const pair = paired ? pairedIntensiveFor(lesson.id) : null;
+    const aCard = `<a class="reading-card reading-${level}" href="#/read/${lesson.id}" aria-label="Ler e ouvir: ${esc(lesson.title)}">
+      <div class="reading-card-top"><span class="reading-card-level">${level}</span><span class="reading-card-kind">${paired ? `${code}-A · ${lesson.isLab ? 'PRÁTICA' : 'LEITURA'}` : (lesson.isLab ? 'PRÁTICA' : 'LIÇÃO')}</span></div>
+      <h3>${esc(lesson.title)}</h3>
+      <p>${esc(lesson.zh)}</p>
+      <div class="reading-card-words">${esc(words)}</div>
+      <div class="reading-card-foot"><span>${esc(grammar)}</span><b>${count ? `${count} palavras · ` : ''}Ler & ouvir ${icon('arrow-right')}</b></div>
+    </a>`;
+    if (!paired || !pair) return `<div class="reading-pair">${aCard}</div>`;
+    const bCard = `<a class="reading-card reading-pair-b reading-${level}" href="#/intensive-pair/${lesson.id}" aria-label="Leitura intensiva: ${esc(lesson.title)}">
+      <div class="reading-card-top"><span class="reading-card-level">${level}</span><span class="reading-card-kind">${code}-B · LEITURA INTENSIVA</span></div>
+      <h3>Leitura intensiva</h3>
+      <p>${esc(lesson.title)}</p>
+      <div class="reading-card-words">${esc(pair.vocab.length)} palavras · ${esc(pair.grammar.length)} pontos</div>
+      <div class="reading-card-foot"><span>双文本精读</span><b>Abrir ${icon('arrow-right')}</b></div>
+    </a>`;
+    return `<div class="reading-pair">${aCard}${bCard}</div>`;
   }
 
   function grammarChapters() {
@@ -3427,6 +3436,8 @@
     const lesson = lessonMap.get(lessonId);
     if (!lesson || !['B1', 'B2', 'C1', 'C2'].includes(lesson.unit.level)) return null;
     const level = lesson.unit.level;
+    const lessonIndex = lessonsForLevel(level).findIndex(item => item.id === lesson.id) + 1;
+    const code = `${level}-${lessonIndex}-B`;
     const pool = lessonsForLevel(level).filter(item => item.id !== lesson.id);
     const partner = pool[dailyHash(`pair:${lesson.id}`) % Math.max(1, pool.length)] || lesson;
     const sources = [lesson, partner];
@@ -3453,12 +3464,13 @@
     const questions = sources.flatMap(source => ((window.AZ_READINGS || {})[source.id] || {}).questions || []).slice(0, 4);
     return {
       id: `pair-${lesson.id}`,
+      code,
       level,
       title: `${lesson.title} · ${partner.title}`,
       titleZh: `${lesson.zh || lesson.title} · ${partner.zh || partner.title}`,
       scene: 'bookshop',
       sceneZh: '精读 · 双文本',
-      summary: `${level}-2 精读：本课泛读 + 同级别关联文本，合成一篇更长的双文本阅读；配 22 个本级词和 6 个语法点。`,
+      summary: `${code} 精读：本课泛读 + 同级别关联文本，合成一篇更长的双文本阅读；配 22 个本级词和 6 个语法点。`,
       paragraphs,
       vocab,
       grammar,

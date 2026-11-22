@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.25.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.26.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -429,8 +429,10 @@ try {
   await shot('20i-reading-library');
   await click('[data-action="select-reading-level"][data-level="B1"]');
   await sleep(350);
-  console.log('READING_PAIR_LINKS', await evaluate(`document.querySelectorAll('.reading-pair-link').length`));
-  await click('.reading-pair-link');
+  await shot('20i-b1-reading');
+  console.log('READING_PAIR_LINKS', await evaluate(`document.querySelectorAll('.reading-pair-b').length`));
+  console.log('READING_CODES', JSON.stringify(await evaluate(`[...document.querySelectorAll('.reading-card-kind')].map(el => el.textContent.trim()).slice(0, 4)`)));
+  await click('.reading-pair-b');
   await sleep(400);
   await shot('20k-b1-2-intensive');
   console.log('PAIR_PARAGRAPHS', await evaluate(`document.querySelectorAll('.intensive-paragraph').length`));

@@ -4473,3 +4473,23 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 #listening-progress { flex: 1; height: 18px; accent-color: var(--teal); cursor: pointer; }
 #listening-progress:disabled { cursor: default; opacity: .7; }
 #listening-time { flex: none; min-width: 86px; text-align: right; font-family: var(--font-mono); font-size: 9px; color: var(--muted); }
+/* B1-1-A / B1-1-B reading pair cards */
+.reading-pair { gap: 7px; }
+.reading-pair-b { background: linear-gradient(145deg, var(--surface), rgba(252,244,228,.75)); border-color: rgba(185,138,62,.35); }
+.reading-pair-b h3 { font-size: 21px; }
+.reading-pair-b .reading-card-kind { color: var(--terra); }
+.reading-pair .reading-card { min-height: 0; }
+.reading-card-level { width: 34px; height: 24px; font-size: 10px; }
+.reading-card-kind { font-size: 10px; letter-spacing: .04em; }
+.reading-card p { font-size: 13.5px; }
+.reading-card-words { font-size: 11px; }
+.reading-card-foot { font-size: 11px; }
+.reading-card-foot b { font-size: 10px; }
+.eyebrow { font-size: 11px; }
+@media (max-width: 700px) { .reading-card-kind { font-size: 9px; } .reading-card-level { width: 31px; font-size: 9px; } }
+/* Reading labels: final size pass */
+.reading-card-kind { font-size: 11px; letter-spacing: .02em; font-weight: 800; }
+.reading-card-level { font-size: 10.5px; width: 36px; height: 25px; }
+.reading-card-foot { font-size: 11.5px; }
+.reading-card-foot b { font-size: 10.5px; }
+@media (max-width: 700px) { .reading-card-kind { font-size: 9.5px; } }
