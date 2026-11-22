@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.23.0';
+  const APP_VERSION = '3.24.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -2010,8 +2010,15 @@
       <p class="source-sentence">「${esc(ex.q)}」</p>
       <label class="sr-only" for="type-answer">输入葡语答案</label>
       <input id="type-answer" class="type-input ${answered ? 'is-locked' : ''}" type="text" value="${esc(st.input)}" placeholder="${esc(ex.placeholder)}" autocomplete="off" autocapitalize="off" spellcheck="false" ${answered ? 'disabled' : ''}>
-      ${!answered ? `<div class="accent-row" aria-label="特殊字符">
-        ${['á', 'à', 'â', 'ã', 'é', 'ê', 'í', 'ó', 'ô', 'õ', 'ú', 'ç'].map(ch => `<button type="button" class="accent-key" data-action="insert-char" data-char="${ch}">${ch}</button>`).join('')}
+      ${!answered ? `<div class="accent-keyboard" aria-label="葡萄牙语特殊字符键盘">
+        <span class="accent-label">minúsculas</span>
+        <div class="accent-row">
+          ${['á', 'à', 'â', 'ã', 'é', 'ê', 'í', 'ó', 'ô', 'õ', 'ú', 'ç'].map(ch => `<button type="button" class="accent-key" data-action="insert-char" data-char="${ch}" aria-label="Inserir ${ch}">${ch}</button>`).join('')}
+        </div>
+        <span class="accent-label">MAIÚSCULAS</span>
+        <div class="accent-row">
+          ${['Á', 'À', 'Â', 'Ã', 'É', 'Ê', 'Í', 'Ó', 'Ô', 'Õ', 'Ú', 'Ç'].map(ch => `<button type="button" class="accent-key" data-action="insert-char" data-char="${ch}" aria-label="Inserir ${ch}">${ch}</button>`).join('')}
+        </div>
       </div>` : ''}
       ${ex.hint ? `<p class="exercise-hint">${icon('sparkle')} ${esc(ex.hint)}</p>` : ''}
     </div>`;

@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.24.0 — 2026-11-21
+
+- Expanded the Portuguese accent keyboard from one row of lowercase characters to **two labelled rows**: lower-case and upper-case accented characters, with larger touch targets.
+- Bumped the service worker cache to `azulejo-v3.24.0`.
+
 ## 3.23.0 — 2026-11-21
 
 - Changed Daily 10 from a single shadowing sentence to the **whole video scene**: every line is practised and scored, so the clip’s own length determines the task.
