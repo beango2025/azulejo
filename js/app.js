@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.22.1';
+  const APP_VERSION = '3.23.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -3227,13 +3227,21 @@
       : null;
     const grammar = grammarForLesson(lesson);
     const extra = grammarExtraFor(lesson);
-    const questions = [...((pack && pack.readingQuestions) || []), ...(lesson.exercises || [])]
+    const videos = DATA.media.filter(item => item.type === 'video' && item.level === level);
+    const video = videos[dailyHash(`${key}:video`) % Math.max(1, videos.length)] || null;
+    const lines = (video && video.lines && video.lines.length)
+      ? video.lines
+      : [{ who: 'Eu', pt: (pack && pack.speakingLine && pack.speakingLine.pt) || '', zh: (pack && pack.speakingLine && pack.speakingLine.zh) || '' }];
+    const questions = [...((video && video.questions) || []), ...((pack && pack.readingQuestions) || []), ...(lesson.exercises || [])]
       .filter(question => question && question.options && question.answer)
       .slice(0, 2);
     const plan = {
       key,
       level,
       lesson,
+      video,
+      lines,
+      minutes: (video && video.minutes) || Math.max(1, Math.round(lines.length * 0.4)),
       words: (() => {
         const lessonWords = vocabularyWordsFor(lesson);
         const concrete = lessonWords.filter(word => ['noun', 'verb', 'adjective', 'adverb'].includes(word.pos));
@@ -3243,15 +3251,14 @@
       grammar,
       extra,
       memory: MEMORY_TIPS.find(tip => tip.id === (coreLessonFor(lesson) || lesson).id) || null,
-      shadow: (pack && pack.speakingLine) || { pt: (grammar && grammar.examples && grammar.examples[0] && grammar.examples[0].pt) || '', zh: '' },
       questions,
       due: dueWords().slice(0, 3)
     };
     ui.dailyPlan = plan;
     if (state.daily[key]) {
-      ui.daily = { step: 'done', shadow: null, answers: {}, result: state.daily[key] };
+      ui.daily = { step: 'done', lineIndex: 0, scores: {}, shadow: null, answers: {}, result: state.daily[key] };
     } else {
-      ui.daily = { step: 'warmup', shadow: null, answers: {} };
+      ui.daily = { step: 'warmup', lineIndex: 0, scores: {}, shadow: null, answers: {} };
     }
     return plan;
   }
@@ -3263,14 +3270,15 @@
   function finishDaily() {
     const plan = ui.dailyPlan;
     if (!plan || state.daily[plan.key]) return;
-    const shadowScore = ui.daily.shadow && typeof ui.daily.shadow.score === 'number' ? ui.daily.shadow.score : 0;
+    const lineScores = Object.values(ui.daily.scores).filter(value => typeof value === 'number');
+    const shadowScore = lineScores.length ? Math.round(lineScores.reduce((sum, value) => sum + value, 0) / lineScores.length) : 0;
     const correct = plan.questions.filter((question, index) => ui.daily.answers[index] === question.answer).length;
     const quizScore = plan.questions.length ? Math.round((correct / plan.questions.length) * 100) : 100;
     const score = Math.round(shadowScore * 0.6 + quizScore * 0.4);
-    const record = { lessonId: plan.lesson.id, level: plan.level, score, shadow: shadowScore, correct, total: plan.questions.length, completedAt: new Date().toISOString() };
+    const record = { lessonId: plan.lesson.id, level: plan.level, score, shadow: shadowScore, lines: plan.lines.length, correct, total: plan.questions.length, completedAt: new Date().toISOString() };
     state.daily[plan.key] = record;
     addWordsToReview(plan.words);
-    ui.daily = { step: 'done', shadow: ui.daily.shadow, answers: ui.daily.answers, result: record };
+    ui.daily = { step: 'done', lineIndex: ui.daily.lineIndex, scores: ui.daily.scores, shadow: ui.daily.shadow, answers: ui.daily.answers, result: record };
     addXP(25);
     saveState();
     trackEvent('daily_complete', { level: plan.level, score, shadow: shadowScore });
@@ -3289,7 +3297,6 @@
       .filter(([entryKey]) => entryKey.endsWith(`:${level}`))
       .slice(-7);
     const average = history.length ? Math.round(history.reduce((sum, [, item]) => sum + (item.score || 0), 0) / history.length) : 0;
-    const shadowScore = ui.daily.shadow && typeof ui.daily.shadow.score === 'number' ? ui.daily.shadow.score : null;
     const answered = plan.questions.filter((question, index) => ui.daily.answers[index]).length;
     const allAnswered = plan.questions.length === 0 || answered === plan.questions.length;
     let body = '';
@@ -3308,18 +3315,24 @@
         <button class="btn btn-primary" data-action="daily-next">Continuar ${icon('arrow-right')}</button>
       </section>`;
     } else if (step === 'shadow') {
+      const lineIndex = Math.min(ui.daily.lineIndex || 0, plan.lines.length - 1);
+      const line = plan.lines[lineIndex];
+      const lineScore = ui.daily.scores[lineIndex];
+      const isLastLine = lineIndex >= plan.lines.length - 1;
       body = `<section class="daily-card daily-shadow-card">
-        <div class="section-head compact"><div><span class="eyebrow">PASSO 3 · FALA</span><h2>Repete a frase.</h2><p>先听原句，再按麦克风跟读；系统按词匹配给出发音分。</p></div><span class="panel-chip">${ui.daily.shadow && ui.daily.shadow.listening ? 'A OUVIR' : 'MICROFONE'}</span></div>
-        <blockquote class="daily-shadow-target">${esc(plan.shadow.pt)}</blockquote>
-        <p class="daily-shadow-zh">${esc(plan.shadow.zh || '')}</p>
+        <div class="section-head compact"><div><span class="eyebrow">PASSO 3 · VÍDEO · ${esc(plan.video ? plan.video.title : 'CENA')}</span><h2>${isLastLine ? 'Última fala.' : 'Repete a fala.'}</h2><p>${plan.video ? `视频约 ${plan.minutes} 分钟 · ${plan.lines.length} 句；按视频自己的长度逐句练。` : '逐句跟读，按词匹配给出发音分。'}</p></div><span class="panel-chip">${lineIndex + 1} / ${plan.lines.length}</span></div>
+        <div class="daily-video-progress">${plan.lines.map((item, index) => `<span class="${index < lineIndex ? 'is-done' : index === lineIndex ? 'is-current' : ''}">${String(index + 1).padStart(2, '0')}</span>`).join('')}</div>
+        <blockquote class="daily-shadow-target">${esc(line.pt)}</blockquote>
+        <p class="daily-shadow-zh">${esc(line.zh || '')}</p>
         <div class="daily-shadow-actions">
-          <button class="btn btn-secondary" data-audio="${esc(plan.shadow.pt)}">${icon('volume')} Ouvir</button>
+          <button class="btn btn-secondary" data-audio="${esc(line.pt)}">${icon('volume')} Ouvir esta fala</button>
+          <button class="btn btn-secondary" data-action="daily-play-scene">${icon('play')} Ouvir a cena</button>
           <button class="btn btn-primary" data-action="daily-shadow" ${ui.daily.shadow && ui.daily.shadow.listening ? 'disabled' : ''}>${icon('mic')} ${ui.daily.shadow && ui.daily.shadow.listening ? 'A ouvir…' : 'Gravar e avaliar'}</button>
           <button class="text-link" data-action="daily-mark-shadow">Já repeti</button>
         </div>
-        ${shadowScore != null ? `<div class="daily-shadow-result"><strong>${shadowScore}%</strong><span>${ui.daily.shadow.heard ? `Ouvi: «${esc(ui.daily.shadow.heard)}»` : 'Boa tentativa.'}</span></div>` : ''}
+        ${lineScore != null ? `<div class="daily-shadow-result"><strong>${lineScore}%</strong><span>${ui.daily.shadow && ui.daily.shadow.heard ? `Ouvi: «${esc(ui.daily.shadow.heard)}»` : 'Fala marcada.'}</span></div>` : ''}
         ${ui.daily.shadow && ui.daily.shadow.error ? `<p class="daily-error">${esc(ui.daily.shadow.error)}</p>` : ''}
-        <button class="btn btn-primary" data-action="daily-next">Continuar ${icon('arrow-right')}</button>
+        <button class="btn btn-primary" data-action="daily-next" ${lineScore == null ? 'disabled' : ''}>${isLastLine ? 'Concluir vídeo' : 'Próxima fala'} ${icon('arrow-right')}</button>
       </section>`;
     } else if (step === 'quiz') {
       body = `<section class="daily-card">
@@ -3342,7 +3355,7 @@
     }
     $('#view').innerHTML = `
       <div class="page daily-page">
-        ${pageHead('ROTINA DIÁRIA', 'Dez minutos. Um passo.', '每天 10 分钟：5 个词、1 个语法点、1 句跟读评分、2 道题，最后给你进度报告。', `<div class="head-badge gold">${icon('sun')}<span><strong>${record ? '✓' : '10'}</strong><small>${record ? 'feito' : 'minutos'}</small></span></div>`)}
+        ${pageHead('ROTINA DIÁRIA', 'Dez minutos. Um passo.', '每天 10 分钟：5 个词、1 个语法点、一整段视频逐句跟读评分、2 道题，最后给你进度报告。视频多长，今天就跟读多少句。', `<div class="head-badge gold">${icon('sun')}<span><strong>${record ? '✓' : '10'}</strong><small>${record ? 'feito' : 'minutos'}</small></span></div>`)}
         <div class="daily-top"><div class="filter-chips">${levelChips}</div><div class="daily-top-stats"><span>${icon('flame')} ${currentStreak()} dias</span><span>${icon('star')} média ${average || '—'}</span><span>${icon('review')} ${dueWords().length} para rever</span></div></div>
         ${body}
         <section class="daily-history">
@@ -3355,8 +3368,9 @@
 
   function dailyShadowScore() {
     const plan = ui.dailyPlan;
-    if (!plan || !plan.shadow || !plan.shadow.pt) { showToast('Sem frase para avaliar hoje.', 'warn'); return; }
-    const target = plan.shadow.pt;
+    const line = plan && plan.lines ? plan.lines[ui.daily.lineIndex] : null;
+    if (!line || !line.pt) { showToast('Sem frase para avaliar hoje.', 'warn'); return; }
+    const target = line.pt;
     const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!Recognition) {
       ui.daily.shadow = { score: 0, heard: '', error: 'Este navegador não tem reconhecimento de fala. Usa «Já repeti».' };
@@ -3374,7 +3388,9 @@
       const targetWords = normalizeAnswer(target).split(' ').filter(Boolean);
       const heardWords = new Set(normalizeAnswer(heard).split(' ').filter(Boolean));
       const matched = targetWords.filter(word => heardWords.has(word)).length;
-      ui.daily.shadow = { heard, score: Math.round((matched / Math.max(1, targetWords.length)) * 100) };
+      const score = Math.round((matched / Math.max(1, targetWords.length)) * 100);
+      ui.daily.scores[ui.daily.lineIndex] = score;
+      ui.daily.shadow = { heard, score };
       renderDailyPage();
     };
     recognition.onerror = () => {
@@ -6042,9 +6058,17 @@
           if (allAnswered) finishDaily();
           break;
         }
-        if (ui.daily.step === 'shadow' && !ui.daily.shadow) {
-          showToast('Grava a frase ou usa «Já repeti».', 'warn');
-          break;
+        if (ui.daily.step === 'shadow') {
+          if (ui.daily.scores[ui.daily.lineIndex] == null) {
+            showToast('Grava a fala ou usa «Já repeti».', 'warn');
+            break;
+          }
+          if (ui.daily.lineIndex < plan.lines.length - 1) {
+            ui.daily.lineIndex += 1;
+            ui.daily.shadow = null;
+            renderDailyPage();
+            break;
+          }
         }
         ui.daily.step = dailyNextKey(ui.daily.step);
         renderDailyPage();
@@ -6062,8 +6086,14 @@
         dailyShadowScore();
         break;
       case 'daily-mark-shadow':
-        ui.daily.shadow = { score: null, heard: '', manual: true };
+        ui.daily.scores[ui.daily.lineIndex] = 0;
+        ui.daily.shadow = { score: 0, heard: '', manual: true };
         renderDailyPage();
+        break;
+      case 'daily-play-scene':
+        if (ui.dailyPlan && ui.dailyPlan.lines) {
+          Speech.speakSequence(ui.dailyPlan.lines.map(line => line.pt), null, Number(state.settings.listeningRate) || 0.9);
+        }
         break;
       case 'daily-review':
         go('#/review');
@@ -6072,7 +6102,7 @@
         if (ui.dailyPlan) {
           delete state.daily[ui.dailyPlan.key];
           ui.dailyPlan = null;
-          ui.daily = { step: 'warmup', shadow: null, answers: {} };
+          ui.daily = { step: 'warmup', lineIndex: 0, scores: {}, shadow: null, answers: {} };
           saveState();
           renderDailyPage();
         }

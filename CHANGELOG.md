@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.23.0 — 2026-11-21
+
+- Changed Daily 10 from a single shadowing sentence to the **whole video scene**: every line is practised and scored, so the clip’s own length determines the task.
+- Added scene playback, per-line progress dots, and an average pronunciation score across all lines.
+- Bumped the service worker cache to `azulejo-v3.23.0`.
+
 ## 3.22.1 — 2026-11-21
 
 - Daily 10 now adds its five target words to the review queue when a session is completed.

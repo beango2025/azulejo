@@ -62,7 +62,7 @@ PT-PT 外部资源入口：
 - **独立语法库（句法 + 词法）+ 课文内讲解 + 每课练习 + 记忆钩子**：56 个语法章节，A1–C2 筛选、句法/词法切换、搜索、葡语例句配中文、英文解释、章节练习和上下章导航。词法覆盖名词、冠词、形容词、副词、动词变位组、时态体、代词、介词、连词、数量词、指小词、构词法、话语小词和复合词；每篇阅读后有「Gramática no texto」并链接对应章节，语法页另配 12 条记忆法。
 - **Escrita 写作（在模考 Pro 下面）**：A1–C2 每级 50 道原创写作题（共 300 题），随机抽题，支持粘贴或上传 `.txt`，本地四维评分，配置 `writingApiUrl` 后可接 AI 评分。侧栏入口在「模考 Pro」之后，Pro 页模拟卷下方也有写作入口。
 - **考试与大纲**：CAPLE A1–C2 考试介绍、CL/PIE/CO/PIO 四项构成，按级别把功能大纲和 56 个语法章节对应起来。
-- **每日 10 分钟（Rotina diária）**：5 个词 + 1 个语法点 + 1 句跟读语音评分 + 2 道题 + 7 天进度报告；完成得 XP，并接入复习队列。
+- **每日 10 分钟（Rotina diária）**：5 个词 + 1 个语法点 + **一整段视频场景逐句跟读评分**（按视频原长度，不是固定一句）+ 2 道题 + 7 天进度报告；完成得 XP，并接入复习队列。
 - **学习语言选择**：设置里可选中文 / English / Français / Español / Português；导航、按钮、筛选标签切换语言，词汇表高亮所选语言列，英语模式下语法讲解优先显示英文，暂缺翻译回退中文/English。
 - **语料 → 主题词与形容词**：10 个配图场景（咖啡馆、市场、交通、住房、健康、工作、学校、旅行、城市、文化）PT/ZH/EN/FR/ES 对照；形容词按性质、大小、颜色、情绪、状态、国籍分类。入口在「语料」的词汇标签内，不再占用侧栏。
 - **每篇课文后的单词表**：每篇 **15 个本级词汇**（不会把 A1/A2 基础词塞进 C1/C2），优先取文中词，文本太短时从同级别词库补齐；按名词 / 动词 / 形容词 / 副词 / 短语分类，配中文、English 和发音。每课另有 **2 道词汇题 + 1 道词法题**。
@@ -87,7 +87,8 @@ PT-PT 外部资源入口：
 |---|---|
 | ![词法章节](screenshots/grammar-morphology.png) | ![分层价格](screenshots/pro.png) |
 | ![B1 长篇精读](screenshots/intensive.png) | ![词汇分页](screenshots/lexicon.png) |
-| ![每日 10 分钟](screenshots/daily.png) | ![每日报告](screenshots/daily-report.png) |
+| ![每日 10 分钟](screenshots/daily.png) | ![整段视频跟读](screenshots/daily-video.png) |
+| ![每日报告](screenshots/daily-report.png) | ![B1 长篇精读](screenshots/intensive.png) |
 | ![写作与评分](screenshots/writing.png) | ![考试与大纲](screenshots/exams-guide.png) |
 | ![主题词与形容词](screenshots/themes.png) | ![句法/词法筛选](screenshots/grammar-library.png) |
 
@@ -164,7 +165,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.22.0**。
+当前版本：**v3.23.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。

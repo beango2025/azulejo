@@ -4449,3 +4449,7 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .daily-bars b { font-size: 8px; color: var(--muted); }
 .daily-empty { font-size: 11px; color: var(--muted); }
 @media (max-width: 700px) { .daily-word-grid { grid-template-columns: repeat(2,1fr); } .daily-bars { gap: 5px; } .daily-shadow-target { font-size: 21px; } }
+.daily-video-progress { display: flex; flex-wrap: wrap; gap: 5px; margin: 9px 0; }
+.daily-video-progress span { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; height: 24px; border-radius: 5px; background: var(--surface-2); font-family: var(--font-mono); font-size: 8px; color: var(--muted); }
+.daily-video-progress span.is-current { background: var(--teal); color: white; }
+.daily-video-progress span.is-done { background: var(--teal-soft); color: var(--teal); }

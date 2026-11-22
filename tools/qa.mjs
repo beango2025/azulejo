@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.22.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.22.1'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -178,10 +178,15 @@ try {
   await sleep(250);
   await click('[data-action="daily-next"]');
   await sleep(250);
-  await click('[data-action="daily-mark-shadow"]');
-  await sleep(250);
-  await click('[data-action="daily-next"]');
-  await sleep(250);
+  console.log('DAILY_VIDEO_LINES', await evaluate(`document.querySelectorAll('.daily-video-progress span').length`));
+  await shot('39b-daily-video');
+  const dailyLines = Number(await evaluate(`document.querySelectorAll('.daily-video-progress span').length`)) || 1;
+  for (let i = 0; i < dailyLines; i += 1) {
+    await click('[data-action="daily-mark-shadow"]');
+    await sleep(200);
+    await click('[data-action="daily-next"]');
+    await sleep(200);
+  }
   await evaluate(`[...document.querySelectorAll('[data-action="daily-answer"]:not([disabled])')][0]?.click()`);
   await sleep(200);
   await evaluate(`[...document.querySelectorAll('[data-action="daily-answer"]:not([disabled])')][0]?.click()`);
