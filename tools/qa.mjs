@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.23.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.24.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -425,6 +425,17 @@ try {
 
   await goto('#/reading');
   await shot('20i-reading-library');
+  await click('[data-action="select-reading-level"][data-level="B1"]');
+  await sleep(350);
+  console.log('READING_PAIR_LINKS', await evaluate(`document.querySelectorAll('.reading-pair-link').length`));
+  await click('.reading-pair-link');
+  await sleep(400);
+  await shot('20k-b1-2-intensive');
+  console.log('PAIR_PARAGRAPHS', await evaluate(`document.querySelectorAll('.intensive-paragraph').length`));
+  console.log('PAIR_VOCAB', await evaluate(`document.querySelectorAll('.intensive-vocab .glossary-row').length`));
+  console.log('PAIR_GRAMMAR', await evaluate(`document.querySelectorAll('.intensive-grammar-card').length`));
+  await goto('#/reading');
+  await sleep(300);
   console.log('READING_CARDS', await evaluate(`document.querySelectorAll('.reading-card').length`));
   console.log('READING_UNIQUE', await evaluate(`new Set([...document.querySelectorAll('.reading-card h3')].map(el => el.textContent)).size`));
   await click('.reading-card');
@@ -470,15 +481,6 @@ try {
   await sleep(300);
   await click('[data-action="select-reading-level"][data-level="B1"]');
   await sleep(350);
-  console.log('INTENSIVE_CARDS', await evaluate(`document.querySelectorAll('.intensive-card').length`));
-  await click('.intensive-card');
-  await sleep(400);
-  await shot('34-intensive');
-  console.log('INTENSIVE_TITLE', await evaluate(`document.querySelector('.intensive-head h1')?.textContent`));
-  console.log('INTENSIVE_PARAGRAPHS', await evaluate(`document.querySelectorAll('.intensive-paragraph').length`));
-  console.log('INTENSIVE_VOCAB', await evaluate(`document.querySelectorAll('.intensive-vocab .glossary-row').length`));
-  console.log('INTENSIVE_GRAMMAR', await evaluate(`document.querySelectorAll('.intensive-grammar-card').length`));
-
   await goto('#/grammar');
   await sleep(450);
   await shot('33-grammar');

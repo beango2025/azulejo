@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.24.0';
+  const APP_VERSION = '3.25.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -917,7 +917,7 @@
     }
     document.body.classList.toggle('focus-mode', focus);
     closeModal(true);
-    ui.route = name === 'lesson' ? 'learn' : (directReading || name === 'intensive' || name === 'intensive-unit') ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : (name === 'pro' || name === 'exam') ? 'pro' : name;
+    ui.route = name === 'lesson' ? 'learn' : (directReading || name === 'intensive' || name === 'intensive-unit' || name === 'intensive-pair') ? 'reading' : (listeningPlayer || dubbingPlayer) ? 'media' : (name === 'pro' || name === 'exam') ? 'pro' : name;
     if (focus) {
       if (name === 'lesson' || directReading) {
         const lesson = lessonMap.get(info.parts[1]);
@@ -944,7 +944,7 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'daily', 'reading', 'intensive', 'intensive-unit', 'grammar', 'writing', 'exams-guide', 'themes', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
+    if (!['learn', 'daily', 'reading', 'intensive', 'intensive-unit', 'intensive-pair', 'grammar', 'writing', 'exams-guide', 'themes', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -957,6 +957,7 @@
     if (name === 'reading') renderReadingPage();
     if (name === 'intensive') renderIntensiveArticle(info.parts[1]);
     if (name === 'intensive-unit') renderUnitIntensive(info.parts[1]);
+    if (name === 'intensive-pair') renderPairedIntensive(info.parts[1]);
     if (name === 'grammar') info.parts[1] ? renderGrammarChapter(info.parts[1]) : renderGrammarPage();
     if (name === 'writing') renderWritingPage();
     if (name === 'exams-guide') renderExamGuidePage();
@@ -2914,13 +2915,17 @@
     const words = lesson.vocab.slice(0, 3).map(word => word.pt).join(' · ');
     const exam = window.AZ_READINGS && window.AZ_READINGS[lesson.id];
     const count = exam ? exam.text.trim().split(/\s+/).filter(Boolean).length : 0;
-    return `<a class="reading-card reading-${level}" href="#/read/${lesson.id}" aria-label="Ler e ouvir: ${esc(lesson.title)}">
-      <div class="reading-card-top"><span class="reading-card-level">${level}</span><span class="reading-card-kind">${lesson.isLab ? 'PRÁTICA' : 'LIÇÃO'}</span></div>
-      <h3>${esc(lesson.title)}</h3>
-      <p>${esc(lesson.zh)}</p>
-      <div class="reading-card-words">${esc(words)}</div>
-      <div class="reading-card-foot"><span>${esc(grammar)}</span><b>${count ? `${count} palavras · ` : ''}Ler & ouvir ${icon('arrow-right')}</b></div>
-    </a>`;
+    const paired = ['B1', 'B2', 'C1', 'C2'].includes(level);
+    return `<div class="reading-pair">
+      <a class="reading-card reading-${level}" href="#/read/${lesson.id}" aria-label="Ler e ouvir: ${esc(lesson.title)}">
+        <div class="reading-card-top"><span class="reading-card-level">${level}</span><span class="reading-card-kind">${paired ? `${level}-1 · ${lesson.isLab ? 'PRÁTICA' : 'LEITURA'}` : (lesson.isLab ? 'PRÁTICA' : 'LIÇÃO')}</span></div>
+        <h3>${esc(lesson.title)}</h3>
+        <p>${esc(lesson.zh)}</p>
+        <div class="reading-card-words">${esc(words)}</div>
+        <div class="reading-card-foot"><span>${esc(grammar)}</span><b>${count ? `${count} palavras · ` : ''}Ler & ouvir ${icon('arrow-right')}</b></div>
+      </a>
+      ${paired ? `<a class="reading-pair-link" href="#/intensive-pair/${lesson.id}">${level}-2 · Leitura intensiva ${icon('arrow-right')}<small>本课 + 关联文本 · 22 palavras · 6 pontos</small></a>` : ''}
+    </div>`;
   }
 
   function grammarChapters() {
@@ -3138,7 +3143,7 @@
         <article class="intensive-text">
           ${article.paragraphs.map((paragraph, index) => `<div class="intensive-paragraph">
             <span class="intensive-number">${String(index + 1).padStart(2, '0')}</span>
-            <div><p class="intensive-pt">${esc(paragraph.pt)}</p><p class="intensive-zh">${esc(paragraph.zh)}</p></div>
+            <div>${paragraph.label ? `<span class="intensive-section-label">${esc(paragraph.label)}</span>` : ''}<p class="intensive-pt">${esc(paragraph.pt)}</p><p class="intensive-zh">${esc(paragraph.zh)}</p></div>
           </div>`).join('')}
         </article>
         <section class="reading-glossary intensive-vocab">
@@ -3416,6 +3421,55 @@
     }
   }
 
+  function pairedIntensiveFor(lessonId) {
+    const lesson = lessonMap.get(lessonId);
+    if (!lesson || !['B1', 'B2', 'C1', 'C2'].includes(lesson.unit.level)) return null;
+    const level = lesson.unit.level;
+    const pool = lessonsForLevel(level).filter(item => item.id !== lesson.id);
+    const partner = pool[dailyHash(`pair:${lesson.id}`) % Math.max(1, pool.length)] || lesson;
+    const sources = [lesson, partner];
+    const paragraphs = [];
+    sources.forEach((source, sourceIndex) => {
+      const reading = window.AZ_READINGS && window.AZ_READINGS[source.id];
+      if (!reading || !reading.text) return;
+      reading.text.split(/\n+/).filter(Boolean).forEach((part, index) => {
+        paragraphs.push({
+          pt: part.trim(),
+          zh: '',
+          label: index === 0 ? `TEXTO ${sourceIndex === 0 ? 'A' : 'B'} · ${source.title}${sourceIndex === 1 ? ' · leitura relacionada' : ''}` : ''
+        });
+      });
+    });
+    const allowed = new Set(GLOSSARY_LEVELS[level] || [level]);
+    const vocab = allVocab.filter(word => allowed.has(word.level || '')).slice(0, 22);
+    const grammar = grammarChapters().filter(chapter => chapter.level === level).slice(0, 6).map(chapter => ({
+      title: chapter.grammar.title,
+      titleZh: chapter.titleZh || '',
+      body: chapter.grammar.body,
+      examples: (chapter.grammar.examples || []).slice(0, 2)
+    }));
+    const questions = sources.flatMap(source => ((window.AZ_READINGS || {})[source.id] || {}).questions || []).slice(0, 4);
+    return {
+      id: `pair-${lesson.id}`,
+      level,
+      title: `${lesson.title} · ${partner.title}`,
+      titleZh: `${lesson.zh || lesson.title} · ${partner.zh || partner.title}`,
+      scene: 'bookshop',
+      sceneZh: '精读 · 双文本',
+      summary: `${level}-2 精读：本课泛读 + 同级别关联文本，合成一篇更长的双文本阅读；配 22 个本级词和 6 个语法点。`,
+      paragraphs,
+      vocab,
+      grammar,
+      questions
+    };
+  }
+
+  function renderPairedIntensive(lessonId) {
+    const article = pairedIntensiveFor(lessonId);
+    if (!article) { location.hash = '#/reading'; return; }
+    renderIntensiveView(article);
+  }
+
   function renderReadingPage() {
     const level = LEVELS.find(item => item.id === ui.readingLevel) || LEVELS[0];
     const allLessons = lessonsForLevel(level.id);
@@ -3433,7 +3487,6 @@
         <div class="reading-list-head"><span>Página ${page} / ${totalPages} · ${level.id} · ${allLessons.length} leituras · texto de ${READING_RANGES[level.id]} palavras</span><span>${icon('volume')} ${READING_EXAMS[level.id]} · texto + áudio + fala</span></div>
         <div class="reading-grid">${lessons.map(readingCardHTML).join('')}</div>
         <div id="reading-pagination">${paginationHTML('reading', page, totalPages)}</div>
-        ${intensiveSectionHTML(level.id)}
       </div>`;
     document.title = 'Leitura & escuta · Azulejo';
   }

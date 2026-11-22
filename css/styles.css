@@ -4460,3 +4460,11 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .accent-keyboard .accent-row:last-child { margin-bottom: 0; }
 .accent-keyboard .accent-key { width: 38px; height: 34px; font-size: 15px; font-weight: 600; background: var(--surface); }
 @media (max-width: 600px) { .accent-keyboard .accent-key { width: 36px; height: 36px; } }
+/* B1-1 extensive + B1-2 paired intensive */
+.reading-pair { display: flex; flex-direction: column; min-width: 0; }
+.reading-pair .reading-card { flex: 1; }
+.reading-pair-link { display: flex; flex-wrap: wrap; align-items: center; gap: 3px; margin-top: 5px; padding: 8px 9px; border: 1px solid rgba(185,138,62,.35); border-radius: 7px; background: var(--gold-soft); font-size: 9px; font-weight: 700; color: var(--ink-2); text-decoration: none; }
+.reading-pair-link small { width: 100%; font-size: 7.5px; font-weight: 400; color: var(--muted); }
+.reading-pair-link:hover { border-color: var(--gold); color: var(--terra); }
+.reading-pair-link .icon { width: 10px; height: 10px; margin-left: auto; }
+.intensive-section-label { display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 8px; color: var(--terra); letter-spacing: .03em; }

@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.25.0 — 2026-11-22
+
+- Added **B1-2 paired intensive reading** to every B1–C2 reading card: B1-1 remains the extensive lesson reading; B1-2 combines the lesson with a related same-level text into a longer intensive dossier.
+- Each pair includes 22 level-appropriate words, 6 grammar points, comprehension questions and text labels A/B.
+- Reading cards now show B1-1 / B1-2 explicitly.
+- Bumped the service worker cache to `azulejo-v3.25.0`.
+
 ## 3.24.0 — 2026-11-21
 
 - Expanded the Portuguese accent keyboard from one row of lowercase characters to **two labelled rows**: lower-case and upper-case accented characters, with larger touch targets.
