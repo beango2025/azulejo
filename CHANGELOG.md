@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.29.0 — 2026-11-22
+
+- Changed B1–C2 reading lists back to **one card per lesson**, tagged e.g. `B1-1 · 2 LEITURAS`.
+- Clicking the lesson opens a chooser with `B1-1-A` (extensive) and `B1-1-B` (intensive).
+- Bumped the service worker cache to `azulejo-v3.29.0`.
+
 ## 3.28.0 — 2026-11-22
 
 - A second global readability pass: raised the minimum size of table headers, filter chips, level pills, eyebrow labels, card metadata, review/flashcard labels and settings hints.

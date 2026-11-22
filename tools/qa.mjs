@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.27.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.28.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -430,9 +430,13 @@ try {
   await click('[data-action="select-reading-level"][data-level="B1"]');
   await sleep(350);
   await shot('20i-b1-reading');
-  console.log('READING_PAIR_LINKS', await evaluate(`document.querySelectorAll('.reading-pair-b').length`));
   console.log('READING_CODES', JSON.stringify(await evaluate(`[...document.querySelectorAll('.reading-card-kind')].map(el => el.textContent.trim()).slice(0, 4)`)));
-  await click('.reading-pair-b');
+  await click('.reading-card');
+  await sleep(350);
+  await shot('20k-reading-choice');
+  console.log('READING_CHOICES', await evaluate(`document.querySelectorAll('.reading-choice-card').length`));
+  console.log('READING_CHOICE_CODES', JSON.stringify(await evaluate(`[...document.querySelectorAll('.reading-choice-code')].map(el => el.textContent.trim())`)));
+  await click('.reading-choice-card.is-intensive');
   await sleep(400);
   await shot('20k-b1-2-intensive');
   console.log('PAIR_PARAGRAPHS', await evaluate(`document.querySelectorAll('.intensive-paragraph').length`));
@@ -443,6 +447,8 @@ try {
   console.log('READING_CARDS', await evaluate(`document.querySelectorAll('.reading-card').length`));
   console.log('READING_UNIQUE', await evaluate(`new Set([...document.querySelectorAll('.reading-card h3')].map(el => el.textContent)).size`));
   await click('.reading-card');
+  await sleep(300);
+  await click('.reading-choice-card:not(.is-intensive)');
   await sleep(500);
   await shot('20j-direct-reading');
   console.log('DIRECT_READING_STEP', await evaluate(`Boolean(document.querySelector('.step-immersion'))`));
