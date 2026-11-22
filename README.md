@@ -89,7 +89,8 @@ PT-PT 外部资源入口：
 | ![词法章节](screenshots/grammar-morphology.png) | ![分层价格](screenshots/pro.png) |
 | ![B1-1 泛读](screenshots/reading.png) | ![B1-2 双文本精读](screenshots/b1-2-intensive.png) |
 | ![B1 长篇精读](screenshots/intensive.png) | ![词汇分页](screenshots/lexicon.png) |
-| ![每日 10 分钟](screenshots/daily.png) | ![整段视频跟读](screenshots/daily-video.png) |
+| ![听力进度条](screenshots/listening-progress.png) | ![每日 10 分钟](screenshots/daily.png) |
+| ![整段视频跟读](screenshots/daily-video.png) | ![每日报告](screenshots/daily-report.png) |
 | ![每日报告](screenshots/daily-report.png) | ![B1 长篇精读](screenshots/intensive.png) |
 | ![写作与评分](screenshots/writing.png) | ![考试与大纲](screenshots/exams-guide.png) |
 | ![主题词与形容词](screenshots/themes.png) | ![句法/词法筛选](screenshots/grammar-library.png) |

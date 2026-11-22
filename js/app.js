@@ -25,7 +25,7 @@
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.25.0';
+  const APP_VERSION = '3.26.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -503,7 +503,7 @@
         showToast('语音播放失败，请检查系统语音设置。', 'warn');
       }
     },
-    speakSequence(texts, btn, rateOverride, onEnd) {
+    speakSequence(texts, btn, rateOverride, onEnd, onProgress) {
       if (!texts || !texts.length) { if (onEnd) onEnd(); return; }
       if (!('speechSynthesis' in window)) {
         showToast('这个浏览器不支持语音朗读。', 'warn');
@@ -524,6 +524,7 @@
           if (onEnd) onEnd();
           return;
         }
+        if (onProgress) onProgress(index, texts.length);
         const utterance = new SpeechSynthesisUtterance(texts[index]);
         utterance.lang = 'pt-PT';
         utterance.rate = Number(rateOverride) || Number(state.settings.rate) || 0.9;
@@ -531,6 +532,7 @@
         if (voice) utterance.voice = voice;
         utterance.onend = () => {
           index += 1;
+          if (onProgress) onProgress(index, texts.length);
           setTimeout(next, 420);
         };
         utterance.onerror = () => {
@@ -4547,9 +4549,37 @@
       playToken: 0,
       rate: Number(state.settings.listeningRate) || 0.9,
       transcript: false,
+      progress: 0,
+      elapsed: 0,
+      duration: 0,
       answers: {}
     };
     renderListeningPlayer();
+  }
+
+  function formatListeningTime(seconds) {
+    const value = Math.max(0, Math.round(Number(seconds) || 0));
+    const minutes = Math.floor(value / 60);
+    return `${minutes}:${String(value % 60).padStart(2, '0')}`;
+  }
+
+  function updateListeningProgress(current, duration, sentences) {
+    if (!listeningPlay) return;
+    const safeDuration = Number(duration) || 0;
+    const pct = sentences
+      ? (safeDuration ? Math.min(100, (Number(current) / safeDuration) * 100) : 0)
+      : (safeDuration ? Math.min(100, (Number(current) / safeDuration) * 100) : 0);
+    listeningPlay.progress = pct;
+    listeningPlay.elapsed = Number(current) || 0;
+    listeningPlay.duration = safeDuration;
+    const bar = $('#listening-progress');
+    if (bar) bar.value = pct;
+    const label = $('#listening-time');
+    if (label) {
+      label.textContent = sentences
+        ? `${Math.round(current)} / ${Math.round(safeDuration)} frases`
+        : `${formatListeningTime(current)} / ${formatListeningTime(safeDuration)}`;
+    }
   }
 
   function listeningQuestionHTML(question, index) {
@@ -4603,6 +4633,10 @@
               <button class="media-chip ${listeningPlay.transcript ? 'is-on' : ''}" data-action="listening-transcript">${icon('captions')} ${listeningPlay.transcript ? 'Ocultar texto' : 'Mostrar texto'}</button>
               <span class="listening-meta">${item.words} palavras · ${item.minutes} min${item.audioSrc ? ' · áudio PT-PT' : ''}</span>
             </div>
+            <div class="listening-progress-row">
+              <input id="listening-progress" type="range" min="0" max="100" step="0.1" value="${listeningPlay.progress || 0}" aria-label="进度" ${item.audioSrc ? '' : 'disabled'}>
+              <span id="listening-time">${item.audioSrc ? `${formatListeningTime(listeningPlay.elapsed)} / ${item.minutes}:00` : `${Math.round(listeningPlay.elapsed)} / ${item.audio.length} frases`}</span>
+            </div>
             ${item.audioSrc ? `<audio id="listening-native" src="${esc(item.audioSrc)}" preload="metadata"></audio>` : ''}
             ${listeningPlay.transcript
               ? `<div class="listening-text">${item.text.split(/\n+/).filter(Boolean).map((part, index) => `<div class="listening-bi"><p>${esc(part)}</p>${item.paragraphsZh[index] ? `<small>${esc(item.paragraphsZh[index])}</small>` : ''}</div>`).join('')}</div>`
@@ -4635,8 +4669,23 @@
       nativeAudio.addEventListener('ended', () => {
         if (!listeningPlay) return;
         listeningPlay.playing = false;
+        updateListeningProgress(nativeAudio.duration, nativeAudio.duration);
         updateListeningPlayButton();
       });
+      nativeAudio.addEventListener('loadedmetadata', () => {
+        if (listeningPlay && Number.isFinite(nativeAudio.duration)) updateListeningProgress(nativeAudio.currentTime, nativeAudio.duration);
+      });
+      nativeAudio.addEventListener('timeupdate', () => {
+        if (listeningPlay && Number.isFinite(nativeAudio.duration)) updateListeningProgress(nativeAudio.currentTime, nativeAudio.duration);
+      });
+      const progress = $('#listening-progress');
+      if (progress) {
+        progress.addEventListener('input', event => {
+          if (!Number.isFinite(nativeAudio.duration)) return;
+          nativeAudio.currentTime = (Number(event.target.value) / 100) * nativeAudio.duration;
+          updateListeningProgress(nativeAudio.currentTime, nativeAudio.duration);
+        });
+      }
       if (listeningPlay.playing) {
         nativeAudio.playbackRate = listeningPlay.rate;
         nativeAudio.play().catch(() => { listeningPlay.playing = false; updateListeningPlayButton(); });
@@ -4694,12 +4743,13 @@
     const token = ++listeningPlay.playToken;
     listeningPlay.playing = true;
     renderListeningPlayer();
+    updateListeningProgress(0, listeningPlay.item.audio.length, true);
     Speech.speakSequence(listeningPlay.item.audio, null, listeningPlay.rate, () => {
       if (listeningPlay && listeningPlay.playToken === token) {
         listeningPlay.playing = false;
         renderListeningPlayer();
       }
-    });
+    }, (index, total) => updateListeningProgress(index, total, true));
   }
 
   function toggleListening() {

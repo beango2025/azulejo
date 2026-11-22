@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.26.0 — 2026-11-22
+
+- Added a visible listening progress bar with elapsed/total time and click-to-seek for native audio.
+- TTS-only listenings show sentence progress (`2 / 10 frases`) instead of a dead bar.
+- Bumped the service worker cache to `azulejo-v3.26.0`.
+
 ## 3.25.0 — 2026-11-22
 
 - Added **B1-2 paired intensive reading** to every B1–C2 reading card: B1-1 remains the extensive lesson reading; B1-2 combines the lesson with a related same-level text into a longer intensive dossier.

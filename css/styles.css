@@ -4468,3 +4468,8 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .reading-pair-link:hover { border-color: var(--gold); color: var(--terra); }
 .reading-pair-link .icon { width: 10px; height: 10px; margin-left: auto; }
 .intensive-section-label { display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 8px; color: var(--terra); letter-spacing: .03em; }
+/* Listening progress */
+.listening-progress-row { display: flex; align-items: center; gap: 10px; margin: 10px 0 2px; }
+#listening-progress { flex: 1; height: 18px; accent-color: var(--teal); cursor: pointer; }
+#listening-progress:disabled { cursor: default; opacity: .7; }
+#listening-time { flex: none; min-width: 86px; text-align: right; font-family: var(--font-mono); font-size: 9px; color: var(--muted); }

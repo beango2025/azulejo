@@ -163,7 +163,7 @@ try {
   await shot('02-home-new');
 
   await seedDemo();
-  await evaluate(`localStorage.setItem('azulejo.version.seen','3.24.0'); location.reload()`);
+  await evaluate(`localStorage.setItem('azulejo.version.seen','3.25.0'); location.reload()`);
   await sleep(1250);
   console.log('VERSION_BADGE', await evaluate(`document.querySelector('.topbar-version')?.textContent`));
   console.log('VERSION_TOAST', await evaluate(`document.querySelector('.toast')?.textContent`));
@@ -218,6 +218,8 @@ try {
   await sleep(500);
   await shot('08b-listening-player');
   console.log('LISTENING_NUMBER', await evaluate(`document.querySelector('.listening-hero-copy .eyebrow')?.textContent`));
+  console.log('LISTENING_PROGRESS', await evaluate(`Boolean(document.querySelector('#listening-progress'))`));
+  console.log('LISTENING_PROGRESS_LABEL', await evaluate(`document.querySelector('#listening-time')?.textContent`));
   await evaluate(`(() => { const s=document.querySelector('#listening-speed'); s.value='0.7'; s.dispatchEvent(new Event('input',{bubbles:true})); s.dispatchEvent(new Event('change',{bubbles:true})); })()`);
   await sleep(250);
   console.log('LISTENING_RATE', await evaluate(`document.querySelector('#listening-speed-value')?.textContent`));
