@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.28.0 — 2026-11-22
+
+- A second global readability pass: raised the minimum size of table headers, filter chips, level pills, eyebrow labels, card metadata, review/flashcard labels and settings hints.
+- Enlarged the reading A/B tags and B1–C2 numbering labels again.
+- Bumped the service worker cache to `azulejo-v3.28.0`.
+
 ## 3.27.0 — 2026-11-22
 
 - Renumbered B1–C2 readings as **level-lesson-A/B**: B1-1-A, B1-1-B, B1-2-A, B1-2-B … through C2.
