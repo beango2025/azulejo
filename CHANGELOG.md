@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.30.0 — 2026-11-23
+
+- Applied a strict minimum type scale across all pages: labels, metadata, table headers, badges, hints, captions and buttons are now at least 11.5–12.5px, with content labels at 13–14px.
+- Bumped the service worker cache to `azulejo-v3.30.0`.
+
 ## 3.29.0 — 2026-11-22
 
 - Changed B1–C2 reading lists back to **one card per lesson**, tagged e.g. `B1-1 · 2 LEITURAS`.

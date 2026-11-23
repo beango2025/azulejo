@@ -4548,3 +4548,57 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
 .reading-choice-card > b { display: inline-flex; align-items: center; gap: 4px; margin-top: auto; padding-top: 10px; border-top: 1px solid var(--line-soft); font-size: 11px; color: var(--teal); }
 .reading-choice-empty { grid-column: 1 / -1; padding: 16px; border: 1px dashed var(--line); border-radius: 9px; font-size: 12px; color: var(--muted); }
 @media (max-width: 700px) { .reading-choice-grid { grid-template-columns: 1fr; } .reading-choice-card h2 { font-size: 27px; } }
+/* Strict minimum type scale: labels must stay readable */
+.eyebrow, .topbar-date, .topbar-version, .sidebar-version, .sidebar-version span,
+.brand-copy small, .nav-copy small, .profile-copy small, .streak-text span,
+.head-badge small, .section-meta, .hero-meta, .card-label,
+.unit-kicker, .unit-zh, .unit-blurb, .lesson-order, .lesson-zh, .lesson-meta,
+.xp-badge, .step-count small, .pron, .word-langs b, .word-langs span,
+.immersion-meta span, .immersion-line-copy small, .immersion-feedback,
+.immersion-hint, .immersion-media-link, .immersion-speak-zh, .immersion-mark,
+.glossary-count, .glossary-group h3, .glossary-group h3 span,
+.glossary-word small, .glossary-zh, .glossary-en,
+.grammar-lead-en span, .tip-en, .verb-head small, .verb-head em, .verb-table,
+.verb-table thead th, .verb-table tbody th, .example-row span,
+.keyboard-hint, .result-stats span, .result-note, .stat-card span, .review-tip,
+.review-top-title, .review-counter, .review-unit, .flash-kicker, .flash-pron,
+.flash-hint, .flash-example span, .flash-note, .review-keyboard, .rating-label,
+.rating-btn small, .rating-key, .review-result-grid span, .search-kbd,
+.filter-chip, .filter-chip span, .phrase-grid-head, .phrase-level,
+.phrase-translations p, .phrase-translations b, .phrase-group, .phrase-pron,
+.phrase-note, .art-kicker, .art-index, .article-meta, .read-badge,
+.article-title-translations, .article-title-translations b, .article-excerpt,
+.culture-note p, .level-ring-center span, .level-copy p, .level-meta,
+.mini-stat span:not(.stat-icon), .panel-chip, .chart-goal span, .bar-value,
+.bar-label, .bar-label b, .achievement strong, .achievement span,
+.reading-list-head, .culture-list-head, .glossary-count,
+.reading-card-kind, .reading-card-words, .reading-card-foot,
+.reading-card-foot b, .reading-glossary-head p,
+.media-meta, .listening-meta, .listening-time, .accent-label,
+.daily-top-stats, .daily-bars span, .daily-bars b,
+.lex-table-head, .lex-legend, .legend-note, .legend-item, .lex-pron,
+.lex-pos-guide, .grammar-card-top, .grammar-kind, .grammar-list-head,
+.exam-card-top, .exam-card small, .syllabus-tags a, .exam-footnote,
+.pro-price-sub, .pro-contact, .pro-license-msg, .settings-version,
+.field-hint, .settings-modal label, .settings-modal .field-hint,
+.sidebar-note, .streak-text span, .week-day b, .word-pron, .word-note span,
+.immersion-figure figcaption span, .immersion-figure figcaption small,
+.option-key, .exercise-hint, .match-hint, .feedback-copy p,
+.stack-card.front .stack-kicker, .stack-card.front em, .cloud-word small,
+.rating-btn small, .review-result-grid span, .article-card .art-index { font-size: 12.5px !important; }
+.article-excerpt, .lesson-zh, .unit-zh, .word-zh, .article-zh,
+.intensive-zh, .intensive-title-zh, .grammar-title-zh { font-size: 14px !important; }
+.glossary-zh, .phrase-translations p, .example-row span,
+.immersion-line-copy small, .article-title-translations { font-size: 13px !important; }
+.glossary-en, .word-langs span { font-size: 13px !important; }
+.reading-card p { font-size: 14px !important; }
+.word-langs b, .article-title-translations b, .phrase-translations b { font-size: 11px !important; }
+.filter-chip, .filter-chip span { font-size: 12px !important; }
+.reading-card-kind { font-size: 12px !important; }
+.reading-card-level, .level-pill, .level-badge { font-size: 11.5px !important; }
+.verb-table, .verb-table thead th, .verb-table tbody th { font-size: 12.5px !important; }
+.lex-table-head { font-size: 12px !important; }
+@media (max-width: 700px) {
+  .reading-card-kind { font-size: 11px !important; }
+  .filter-chip, .filter-chip span { font-size: 11.5px !important; }
+}
