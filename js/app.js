@@ -20,12 +20,13 @@
   const THEMES = window.AZ_THEMES || [];
   const ADJECTIVE_GROUPS = window.AZ_ADJECTIVE_GROUPS || [];
   const MEMORY_TIPS = window.AZ_MEMORY_TIPS || [];
+  const HISTORY = window.AZ_HISTORY || [];
   const POS_EXISTING = window.AZ_POS_EXISTING || {};
   const SCENES = window.AZ_CORE_SCENES || {};
   const RESOURCES = window.AZ_RESOURCES || [];
   const STORAGE_KEY = 'azulejo.state.v1';
   const VERSION_KEY = 'azulejo.version.seen';
-  const APP_VERSION = '3.30.0';
+  const APP_VERSION = '3.31.0';
   const XP_PER_LEVEL = 120;
   const LEVEL_TITLES = ['Curioso', 'Viajante', 'Conversador', 'Lisboeta', 'Contador de histórias', 'Alma portuguesa'];
 
@@ -618,11 +619,11 @@
     { id: 'pt', label: 'Português', native: 'Português' }
   ];
   const NAV_I18N = {
-    zh: { learn: '学习', daily: '每日 10', reading: '阅读', grammar: '语法', exams: '考试', media: '影音', review: '复习', phrases: '语料', culture: '文化', pro: '模考 Pro', writing: '写作', progress: '进度' },
-    en: { learn: 'Learn', daily: 'Daily 10', reading: 'Reading', grammar: 'Grammar', exams: 'Exams', media: 'Video & audio', review: 'Review', phrases: 'Phrases', culture: 'Culture', pro: 'Mock exams', writing: 'Writing', progress: 'Progress' },
-    fr: { learn: 'Apprendre', daily: '10 min', reading: 'Lecture', grammar: 'Grammaire', exams: 'Examens', media: 'Vidéo & audio', review: 'Révision', phrases: 'Phrases', culture: 'Culture', pro: 'Examens blancs', writing: 'Écriture', progress: 'Progrès' },
-    es: { learn: 'Aprender', daily: 'Diario 10', reading: 'Lectura', grammar: 'Gramática', exams: 'Exámenes', media: 'Vídeo y audio', review: 'Repaso', phrases: 'Frases', culture: 'Cultura', pro: 'Simulacros', writing: 'Escritura', progress: 'Progreso' },
-    pt: { learn: 'Aprender', daily: 'Rotina 10', reading: 'Leitura', grammar: 'Gramática', exams: 'Exames', media: 'Vídeo e áudio', review: 'Revisão', phrases: 'Frases', culture: 'Cultura', pro: 'Exames Pro', writing: 'Escrita', progress: 'Progresso' }
+    zh: { learn: '学习', daily: '每日 10', reading: '阅读', grammar: '语法', exams: '考试', media: '影音', review: '复习', phrases: '语料', culture: '文化', history: '历史', pro: '模考 Pro', writing: '写作', progress: '进度' },
+    en: { learn: 'Learn', daily: 'Daily 10', reading: 'Reading', grammar: 'Grammar', exams: 'Exams', media: 'Video & audio', review: 'Review', phrases: 'Phrases', culture: 'Culture', history: 'History', pro: 'Mock exams', writing: 'Writing', progress: 'Progress' },
+    fr: { learn: 'Apprendre', daily: '10 min', reading: 'Lecture', grammar: 'Grammaire', exams: 'Examens', media: 'Vidéo & audio', review: 'Révision', phrases: 'Phrases', culture: 'Culture', history: 'Histoire', pro: 'Examens blancs', writing: 'Écriture', progress: 'Progrès' },
+    es: { learn: 'Aprender', daily: 'Diario 10', reading: 'Lectura', grammar: 'Gramática', exams: 'Exámenes', media: 'Vídeo y audio', review: 'Repaso', phrases: 'Frases', culture: 'Cultura', history: 'Historia', pro: 'Simulacros', writing: 'Escritura', progress: 'Progreso' },
+    pt: { learn: 'Aprender', daily: 'Rotina 10', reading: 'Leitura', grammar: 'Gramática', exams: 'Exames', media: 'Vídeo e áudio', review: 'Revisão', phrases: 'Frases', culture: 'Cultura', history: 'História', pro: 'Exames Pro', writing: 'Escrita', progress: 'Progresso' }
   };
 
   const NAV = [
@@ -635,6 +636,7 @@
     { id: 'review', label: '复习', pt: 'Revisão', href: '#/review', icon: 'review' },
     { id: 'phrases', label: '语料', pt: 'Frases & palavras', href: '#/phrases', icon: 'chat' },
     { id: 'culture', label: '文化', pt: 'Cultura', href: '#/culture', icon: 'sun' },
+    { id: 'history', label: '历史', pt: 'História', href: '#/history', icon: 'history' },
     { id: 'pro', label: '模考 Pro', pt: 'Pro · A1–C2', href: '#/pro', icon: 'target' },
     { id: 'writing', label: '写作', pt: 'Escrita', href: '#/writing', icon: 'edit' },
     { id: 'progress', label: '进度', pt: 'Progresso', href: '#/progress', icon: 'chart' }
@@ -946,7 +948,7 @@
       location.hash = '#/media';
       return;
     }
-    if (!['learn', 'daily', 'reading', 'reading-choice', 'intensive', 'intensive-unit', 'intensive-pair', 'grammar', 'writing', 'exams-guide', 'themes', 'media', 'review', 'phrases', 'culture', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
+    if (!['learn', 'daily', 'reading', 'reading-choice', 'intensive', 'intensive-unit', 'intensive-pair', 'grammar', 'writing', 'exams-guide', 'themes', 'media', 'review', 'phrases', 'culture', 'history', 'pro', 'exam', 'legal', 'progress'].includes(name)) {
       location.hash = '#/learn';
       return;
     }
@@ -969,6 +971,7 @@
     if (name === 'review') renderReviewPage();
     if (name === 'phrases') renderPhrasesPage();
     if (name === 'culture') renderCulturePage();
+    if (name === 'history') renderHistoryPage();
     if (name === 'pro' || name === 'exam') renderProPage(false);
     if (name === 'legal') renderLegalPage();
     if (name === 'progress') renderProgressPage();
@@ -3535,6 +3538,41 @@
   function filteredArticles() {
     if (ui.cultureCategory === 'all') return DATA.articles;
     return DATA.articles.filter(article => article.category === ui.cultureCategory);
+  }
+
+  function renderHistoryPage() {
+    $('#view').innerHTML = `
+      <div class="page history-page">
+        ${pageHead('HISTÓRIA', 'Dois mil anos, uma língua.', '从罗马之前的伊比利亚民族到今天的葡萄牙：九个阶段，葡语原文配中文翻译。不是旅游简介，而是理解这个国家如何形成。', `<div class="head-badge alt">${icon('history')}<span><strong>${HISTORY.length}</strong><small>capítulos</small></span></div>`)}
+        <nav class="history-timeline" aria-label="Períodos da história">
+          ${HISTORY.map((chapter, index) => `<a href="#hist-${chapter.id}"><span>${String(index + 1).padStart(2, '0')}</span><b>${esc(chapter.period)}</b><small>${esc(chapter.title)}</small></a>`).join('')}
+        </nav>
+        <div class="history-chapters">
+          ${HISTORY.map((chapter, index) => {
+            const photo = READING_PHOTOS[chapter.image] || READING_PHOTOS.home;
+            return `<article class="history-chapter" id="hist-${chapter.id}">
+              <header class="history-chapter-head">
+                <span class="history-number">${String(index + 1).padStart(2, '0')}</span>
+                <div><span class="eyebrow">${esc(chapter.period)}</span><h2>${esc(chapter.title)}</h2><p class="history-title-zh">${esc(chapter.titleZh)}</p></div>
+              </header>
+              <figure class="history-figure"><img src="${photo.src}" alt="${esc(photo.alt)}" loading="lazy"><figcaption>${esc(photo.credit)} · Wikimedia Commons</figcaption></figure>
+              <div class="history-text">
+                ${chapter.paragraphs.map((paragraph, paragraphIndex) => `<div class="history-paragraph">
+                  <div class="history-pt"><button class="audio-btn small" data-audio="${esc(paragraph.pt)}" aria-label="Ouvir">${icon('volume')}</button><p>${esc(paragraph.pt)}</p></div>
+                  <p class="history-zh">${esc(paragraph.zh)}</p>
+                  ${paragraphIndex === 0 ? '' : ''}
+                </div>`).join('')}
+              </div>
+              <div class="history-terms"><span class="eyebrow">PALAVRAS-CHAVE</span><div>${chapter.terms.map(term => `<button class="history-term" data-audio="${esc(term.pt)}">${icon('volume')}<b>${esc(term.pt)}</b><span>${esc(term.zh)}</span></button>`).join('')}</div></div>
+            </article>`;
+          }).join('')}
+        </div>
+        <section class="history-sources">
+          <span class="eyebrow">PARA APROFUNDAR</span>
+          <p>这是 Azulejo 原创的历史概要，不是官方教材。想继续读，可参考 <a href="https://www.britannica.com/place/Portugal" target="_blank" rel="noopener noreferrer">Encyclopaedia Britannica: Portugal</a>、<a href="https://www.portugal.gov.pt/" target="_blank" rel="noopener noreferrer">República Portuguesa</a> 和葡萄牙大学的历史公开课程。</p>
+        </section>
+      </div>`;
+    document.title = 'História de Portugal · Azulejo';
   }
 
   function renderCulturePage() {

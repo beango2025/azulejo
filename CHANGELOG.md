@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.31.0 — 2026-11-24
+
+- Added **História de Portugal**: nine original chapters from pre-Roman peoples to modern Portugal, each with Portuguese text, Chinese translation, audio, key terms and a timeline.
+- Added a dedicated history route, navigation entry and source suggestions.
+- Bumped the service worker cache to `azulejo-v3.31.0`.
+
 ## 3.30.0 — 2026-11-23
 
 - Applied a strict minimum type scale across all pages: labels, metadata, table headers, badges, hints, captions and buttons are now at least 11.5–12.5px, with content labels at 13–14px.

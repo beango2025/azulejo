@@ -63,6 +63,7 @@ PT-PT 外部资源入口：
 - **Escrita 写作（在模考 Pro 下面）**：A1–C2 每级 50 道原创写作题（共 300 题），随机抽题，支持粘贴或上传 `.txt`，本地四维评分，配置 `writingApiUrl` 后可接 AI 评分。侧栏入口在「模考 Pro」之后，Pro 页模拟卷下方也有写作入口。
 - **考试与大纲**：CAPLE A1–C2 考试介绍、CL/PIE/CO/PIO 四项构成，按级别把功能大纲和 56 个语法章节对应起来。
 - **B1–C2 每课双阅读**：阅读列表每课只有一个小标签（如 B1-1），点进去再选 **B1-1-A 泛读** 或 **B1-1-B 精读**；A 是本课阅读，B 是本课 + 同级别关联文本的双文本精读，配 22 个本级词、6 个语法点和理解题。
+- **葡萄牙历史（História de Portugal）**：从伊比利亚先民、罗马、摩尔时期，到王国建立、地理大发现、复国、庞巴尔、自由主义、共和国、新国家、康乃馨革命和当代葡萄牙；9 章葡语原文 + 中文翻译 + 朗读 + 关键词。
 - **每日 10 分钟（Rotina diária）**：5 个词 + 1 个语法点 + **一整段视频场景逐句跟读评分**（按视频原长度，不是固定一句）+ 2 道题 + 7 天进度报告；完成得 XP，并接入复习队列。
 - **学习语言选择**：设置里可选中文 / English / Français / Español / Português；导航、按钮、筛选标签切换语言，词汇表高亮所选语言列，英语模式下语法讲解优先显示英文，暂缺翻译回退中文/English。
 - **语料 → 主题词与形容词**：10 个配图场景（咖啡馆、市场、交通、住房、健康、工作、学校、旅行、城市、文化）PT/ZH/EN/FR/ES 对照；形容词按性质、大小、颜色、情绪、状态、国籍分类。入口在「语料」的词汇标签内，不再占用侧栏。
@@ -87,7 +88,7 @@ PT-PT 外部资源入口：
 | ![语法库](screenshots/grammar-library.png) | ![语法章节](screenshots/grammar-chapter.png) |
 |---|---|
 | ![词法章节](screenshots/grammar-morphology.png) | ![分层价格](screenshots/pro.png) |
-| ![每课一个阅读标签](screenshots/reading-b1-ab.png) | ![点进去选择 A/B](screenshots/reading-choice.png) |
+| ![葡萄牙历史](screenshots/history.png) | ![每课一个阅读标签](screenshots/reading-b1-ab.png) |
 | ![B1-2-B 双文本精读](screenshots/b1-2-intensive.png) | ![B1 长篇精读](screenshots/intensive.png) |
 | ![B1 长篇精读](screenshots/intensive.png) | ![词汇分页](screenshots/lexicon.png) |
 | ![听力进度条](screenshots/listening-progress.png) | ![每日 10 分钟](screenshots/daily.png) |
@@ -169,7 +170,7 @@ Node.js 仅用于启动静态服务器，应用本身没有构建步骤、没有
 
 ## 版本号与更新提示
 
-当前版本：**v3.30.0**。
+当前版本：**v3.31.0**。
 
 - 顶栏、侧栏底部和「设置」里都会显示当前版本号。
 - 当本地记录的版本号与 `APP_VERSION` 不一致时，打开应用会弹出 `Azulejo atualizado para vX.Y.Z` 提示。

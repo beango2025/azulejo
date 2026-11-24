@@ -4602,3 +4602,37 @@ body { font-size: 18px; font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC
   .reading-card-kind { font-size: 11px !important; }
   .filter-chip, .filter-chip span { font-size: 11.5px !important; }
 }
+/* History of Portugal */
+.history-page { max-width: 1050px; }
+.history-timeline { display: flex; gap: 7px; overflow-x: auto; padding: 4px 0 10px; margin-bottom: 12px; scrollbar-width: thin; }
+.history-timeline a { flex: 0 0 132px; display: grid; gap: 2px; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.history-timeline a:hover { border-color: var(--teal); }
+.history-timeline span { font-family: var(--font-mono); font-size: 10px; color: var(--muted); }
+.history-timeline b { font-size: 12px; color: var(--terra); }
+.history-timeline small { font-size: 11px; line-height: 1.35; color: var(--muted); }
+.history-chapters { display: grid; gap: 18px; }
+.history-chapter { scroll-margin-top: 20px; display: grid; grid-template-columns: 270px minmax(0,1fr); gap: 16px; padding: 17px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.history-chapter-head { grid-column: 1 / -1; display: flex; gap: 12px; align-items: flex-start; padding-bottom: 10px; border-bottom: 1px solid var(--line-soft); }
+.history-number { font-family: var(--font-mono); font-size: 12px; color: var(--muted); padding-top: 4px; }
+.history-chapter-head h2 { margin-top: 2px; font-family: var(--font-display); font-size: 31px; font-weight: 500; line-height: 1.1; }
+.history-title-zh { margin-top: 4px; font-size: 15px; font-weight: 650; color: var(--terra); }
+.history-figure { margin: 0; align-self: start; overflow: hidden; border-radius: 9px; }
+.history-figure img { width: 100%; height: 190px; object-fit: cover; display: block; }
+.history-figure figcaption { padding: 5px 7px; background: var(--surface-2); font-size: 10px; color: var(--muted); }
+.history-text { min-width: 0; }
+.history-paragraph { padding-bottom: 12px; border-bottom: 1px solid var(--line-soft); margin-bottom: 12px; }
+.history-paragraph:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+.history-pt { display: flex; align-items: flex-start; gap: 7px; }
+.history-pt .audio-btn { flex: none; margin-top: 2px; }
+.history-pt p { font-family: var(--font-display); font-size: 19px; line-height: 1.6; }
+.history-zh { margin-top: 7px; font-size: 14px; line-height: 1.7; color: var(--muted); }
+.history-terms { grid-column: 1 / -1; padding-top: 10px; border-top: 1px solid var(--line-soft); }
+.history-terms > div { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.history-term { display: inline-flex; align-items: center; gap: 4px; padding: 5px 7px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface-2); color: var(--ink); cursor: pointer; }
+.history-term .icon { width: 12px; height: 12px; color: var(--teal); }
+.history-term b { font-size: 12px; }
+.history-term span { font-size: 11px; color: var(--muted); }
+.history-sources { margin-top: 20px; padding: 15px; border: 1px dashed var(--line); border-radius: 9px; }
+.history-sources p { margin-top: 5px; font-size: 12px; line-height: 1.65; color: var(--muted); }
+.history-sources a { color: var(--blue); }
+@media (max-width: 760px) { .history-chapter { grid-template-columns: 1fr; } .history-figure img { height: 220px; } .history-chapter-head h2 { font-size: 27px; } .history-pt p { font-size: 18px; } }
